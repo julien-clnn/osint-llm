@@ -1,0 +1,136 @@
+{
+  "arguments": {
+    "domain": "pets.com"
+  },
+  "result": {
+    "code_matches": [
+      {
+        "path": "Readme.md",
+        "repo": "segment-boneyard/slug",
+        "snippet": "```js\nvar slug = require('slug');\n\nslug('Pets.com');          // \"pets.com\"\nslug('American Airlines'); // \"american-airlines\"\nslug('@mention');          // \"mention\"\n```",
+        "url": "https://github.com/segment-boneyard/slug/blob/60d646630d4fe6fa33190b4abcecb8b68af506d6/Readme.md"
+      },
+      {
+        "path": "README.md",
+        "repo": "jsightapi/online-editor-frontend",
+        "snippet": "SERVER @prod // Production server.\n  BaseUrl \"https://pets.com/api/1.0\"",
+        "url": "https://github.com/jsightapi/online-editor-frontend/blob/a0b2187f187577c6178c8897c3fe1e30037ccb06/README.md"
+      },
+      {
+        "path": "README.md",
+        "repo": "vicsn/ghostmark",
+        "snippet": "}\n},\n\"mail\": {\n  \"from\": <Dog> <from@pets.com>\",\n  \"transport\": \"SMTP\",\n  \"options\": {\n    \"service\": \"Postmark\",",
+        "url": "https://github.com/vicsn/ghostmark/blob/78026335a102a0de340eeabb8f651e45d228f0e7/README.md"
+      },
+      {
+        "path": "README.md",
+        "repo": "jvns/dnspeep",
+        "snippet": "A     www.google.com                 192.168.1.1     A: 172.217.13.132\nAAAA  www.google.com                 192.168.1.1     AAAA: 2607:f8b0:4020:807::2004\nA     www.neopets.com                192.168.1.1     CNAME: r9c3n8d2.stackpathcdn.com, A: 151.139.128.11\nAAAA  www.neopets.com                192",
+        "url": "https://github.com/jvns/dnspeep/blob/11856ac6054bbe55e5fb8951d5b3fffbe7a8d7c2/README.md"
+      },
+      {
+        "path": "README.md",
+        "repo": "svennis94/PHP-NTLM-Soap",
+        "snippet": "public function getPetTypes()\n    {\n        $client = new Client(\n            'http://my.pets.com/WS_Pet_types', // Endpoint of the call\n            'PetService\\Username', // NTLM username\n            'pa55w0rd' // NTLM password\n        );",
+        "url": "https://github.com/svennis94/PHP-NTLM-Soap/blob/62e628d85eb318456e7c3436f05da22fa14de65b/README.md"
+      },
+      {
+        "path": "README.md",
+        "repo": "hamidgasmi/training.computerscience.cloud.aws",
+        "snippet": "- It can direct traffic of \"dogs.com\" to DOG target group (this target group would contain instance with a specific app. for dogs)\n\t- Path-based rules: Route traffic based on URL path\n\t\t- E.g.,\n\t\t- It can direct traffic of \"pets.com/cats\" (/cats/*) to CAT target group (this target group would contai",
+        "url": "https://github.com/hamidgasmi/training.computerscience.cloud.aws/blob/265ed2b2a47f47cfc11016f685e351c59f744664/README.md"
+      },
+      {
+        "path": "README.md",
+        "repo": "TimothyDJones/awesome-laravel",
+        "snippet": "- [Laravel Hunt](https://laravel-hunt.com/) - A forum/directory for Laravel tutorials, examples, resources, etc. in the style of [Product Hunt](http://www.producthunt.com/). \\[06/08/2015\\]\n- [Laravel Playground](https://laravelplayground.com/) - Online interactive tool that allows you to run basic L",
+        "url": "https://github.com/TimothyDJones/awesome-laravel/blob/56030f160c70ce89e702804ab9c1d313be118b65/README.md"
+      },
+      {
+        "path": "readme.md",
+        "repo": "johnnncodes/laravelsnippets",
+        "snippet": "## LaravelSnippets.com website\n\nLive site - http://laravelsnippets.com/\n\nTwitter - https://twitter.com/laravelsnippets\n\nFacebook Page - https://www.facebook.com/LaravelSnippets",
+        "url": "https://github.com/johnnncodes/laravelsnippets/blob/0a29988a9d2439dc784bb770fb623cf170a09cec/readme.md"
+      },
+      {
+        "path": "README.md",
+        "repo": "jsightapi/jsight-server",
+        "snippet": "SERVER @prod // Production server.\n  BaseUrl \"https://pets.com/api/1.0\"",
+        "url": "https://github.com/jsightapi/jsight-server/blob/813bc4a7047ef1f8cc9e3206a50491307537f75d/README.md"
+      },
+      {
+        "path": "README.md",
+        "repo": "DaRaFF/jsgamewiki",
+        "snippet": "* [Mozilla Demo Studio](https://developer.mozilla.org/en-US/demos/)\n* [Physics for Lazy Game Developers](http://labs.skookum.com/demos/barcampclt_physics/index.html)\n* [Canvas Demos](http://www.canvasdemos.com/)\n* [HTML5 CSS3 Snippets](http://html5snippets.com/) - Examples for HTML5, CSS3 effects\n* ",
+        "url": "https://github.com/DaRaFF/jsgamewiki/blob/52a702eeed52d777c432d53402f5160584008e40/README.md"
+      }
+    ],
+    "code_search_enabled": true,
+    "domain": "pets.com",
+    "repository_count": 10,
+    "repository_matches": [
+      {
+        "description": "🐶 Add a cute pet to your ComfyUI environment",
+        "repo": "nathannlu/ComfyUI-Pets",
+        "stars": 49,
+        "url": "https://github.com/nathannlu/ComfyUI-Pets"
+      },
+      {
+        "description": "Website para uma empresa fictícia chamada Adopet, que atua como intermediária entre adotantes de pets e ONGs com foco em retirar animais das ruas. Projeto utilizado pela Alura como base front-end para desafios de back-end.",
+        "repo": "sucodelarangela/adopet",
+        "stars": 26,
+        "url": "https://github.com/sucodelarangela/adopet"
+      },
+      {
+        "description": "#EXTM3U  #EXTINF:-1,NET TV http://202.80.222.170/000001/2/ch00000090990000001723/index.m3u8?virtualDomain=000001.live_hls.zte.com #EXTINF:-1,METRO TV HD http://edge.metrotvnews.com:1935/live-edge/smil:metro.smil/playlist.m3u8 #EXTINF:-1,GLOBAL TV http://202.80.222.175/000001/2/ch14041511505498448705",
+        "repo": "Khairul180101/iptv2",
+        "stars": 26,
+        "url": "https://github.com/Khairul180101/iptv2"
+      },
+      {
+        "description": "Awesome list of 590+ animated pets for the OpenAI Codex CLI — browse, install with npx codex-pet-cli, and submit your own at codex-pet.com",
+        "repo": "BeiXiao/awesome-codex-pets",
+        "stars": 13,
+        "url": "https://github.com/BeiXiao/awesome-codex-pets"
+      },
+      {
+        "description": "Este projeto é uma aplicação Full Stack para um E-commerce de PetShop, desenvolvida com Java, Spring Boot 3+ no backend e Angular no frontend. O objetivo é simular uma plataforma completa onde os usuários podem navegar e realizar compras de produtos para pets de maneira intuitiva e segura.",
+        "repo": "AugustoMello09/PetHouse",
+        "stars": 13,
+        "url": "https://github.com/AugustoMello09/PetHouse"
+      },
+      {
+        "description": "PETSCII conversion nodes for ComfyUI — optimal C64 glyph and colour matching in Oklab, with temporal hysteresis for video",
+        "repo": "purzbeats/ComfyUI-Petscii",
+        "stars": 10,
+        "url": "https://github.com/purzbeats/ComfyUI-Petscii"
+      },
+      {
+        "description": "Um e-commerce de camisetas com estampas incríveis, abrangendo estilos como Animes, Pets, Músicas, Tecnologia e Games.",
+        "repo": "renovatt/t-shirt-store",
+        "stars": 8,
+        "url": "https://github.com/renovatt/t-shirt-store"
+      },
+      {
+        "description": "Welcome to MyPet, where the passion for pet adoption meets the expertise of MyDevify.com. Our platform, powered by MyDevify.com's cutting-edge development tools and expertise, revolutionizes the way homeless pets find loving homes.",
+        "repo": "xloyb/MyPet",
+        "stars": 8,
+        "url": "https://github.com/xloyb/MyPet"
+      },
+      {
+        "description": "Finished Petshop Tutorial",
+        "repo": "nickjuntilla/truffle-petshop-tutorial-complete",
+        "stars": 7,
+        "url": "https://github.com/nickjuntilla/truffle-petshop-tutorial-complete"
+      },
+      {
+        "description": "Um gerenciador de pets que torna o cuidado com o seu pet mais simples e eficaz.",
+        "repo": "tilnoene/repet",
+        "stars": 6,
+        "url": "https://github.com/tilnoene/repet"
+      }
+    ],
+    "source": "api.github.com"
+  },
+  "tool": "github_search"
+}

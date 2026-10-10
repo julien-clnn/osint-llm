@@ -1,0 +1,28 @@
+domain: wikipedia.org
+subdomains:
+  expected_count: 2
+  known_sample:
+  - m.wikipedia.org
+  - wikipedia.org
+  known_exclusions: []
+email_security:
+  spf: true
+  dmarc: true
+  dmarc_policy: reject
+  dkim_selectors_found: []
+network:
+  expected_asn: 14907
+  expected_org_substring: Wikimedia
+  behind_cdn_proxy: false
+reputation:
+  verdict: clean
+  malicious_engines_min: 0
+must_contain:
+- Hosted by the Wikimedia Foundation, own ASN (14907)
+- DMARC configured with policy reject
+- Wayback history going back to 2001
+must_not_contain: []
+notes: crt.sh only returned 2 subdomains at recording time (wikipedia.org, m.wikipedia.org)
+  — noticeably fewer than the project's known public footprint (en.wikipedia.org, etc.), likely
+  a crt.sh coverage limit at that moment rather than a real absence. The first wayback_lookup
+  had failed due to a transient network timeout, re-recorded cleanly (10000 captures, 2001→2026).

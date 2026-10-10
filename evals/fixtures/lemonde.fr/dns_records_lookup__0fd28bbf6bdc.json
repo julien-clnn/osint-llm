@@ -1,0 +1,53 @@
+{
+  "arguments": {
+    "domain": "lemonde.fr"
+  },
+  "result": {
+    "domain": "lemonde.fr",
+    "email_security": {
+      "dkim_note": "Sélecteurs DKIM courants testés uniquement ; une absence ici ne prouve pas l'absence de DKIM.",
+      "dkim_selectors_found": [
+        "google",
+        "k1",
+        "mail"
+      ],
+      "dmarc": true,
+      "dmarc_policy": "quarantine",
+      "spf": true,
+      "spf_record": "v=spf1 include:spf1.lemonde.fr include:spf2.lemonde.fr include:_spf.salesforce.com ip4:79.99.32.203 ip4:79.99.32.185 ip4:79.99.32.186 ip4:217.74.103.211 ip4:195.154.80.82 ip4:163.172.55.8 ip4:35.181.34.138 ip4:35.181.85.71 ip4:52.143.135.92 -all"
+    },
+    "mx": [
+      "1 aspmx.l.google.com",
+      "10 alt3.aspmx.l.google.com",
+      "10 alt4.aspmx.l.google.com",
+      "5 alt1.aspmx.l.google.com",
+      "5 alt2.aspmx.l.google.com"
+    ],
+    "mx_count": 5,
+    "ns": [
+      "ns-cloud-b1.googledomains.com",
+      "ns-cloud-b2.googledomains.com",
+      "ns-cloud-b3.googledomains.com",
+      "ns-cloud-b4.googledomains.com"
+    ],
+    "ns_count": 4,
+    "source": "DNS (résolveur système)",
+    "txt": [
+      "openai-domain-verification=dv-nQ1ldfkkoDfrWmjKfXdqLG2h",
+      "v=spf1 include:spf1.lemonde.fr include:spf2.lemonde.fr include:_spf.salesforce.com ip4:79.99.32.203 ip4:79.99.32.185 ip4:79.99.32.186 ip4:217.74.103.211 ip4:195.154.80.82 ip4:163.172.55.8 ip4:35.181.34.138 ip4:35.181.85.71 ip4:52.143.135.92 -all",
+      "google-site-verification=712IVumgXvK3v6WCyCJVLS6O96hThcw39o84JSN9m_k",
+      "d7o5vwenp6",
+      "00DAP00000MRjsP=1TBAP0000000CHJ",
+      "mandrill_verify.2xFVS2iRdBArj1vR6iXqDw",
+      "jamf-site-verification=zUEgWKIxDl9-X3pb0bIY7A",
+      "sendinblue-code:bfdbbdc264502c94bb90794d2a902e50",
+      "00DWx000008KcED=1TBSb0000000Ak9",
+      "recyclagerecylum=1fd014598415abe7ca04160fccf87442",
+      "fastly-domain-delegation-x2kl6p87n3g5b6FDG-79324-2018-04-10",
+      "00DAU00000LLlRQ=1TBAU0000000GJJ",
+      "_globalsign-domain-verification=yRdIt507tQIZyVRXF6VBvVbEIWhqpzJaxh8r1qdSUr"
+    ],
+    "txt_count": 13
+  },
+  "tool": "dns_records_lookup"
+}

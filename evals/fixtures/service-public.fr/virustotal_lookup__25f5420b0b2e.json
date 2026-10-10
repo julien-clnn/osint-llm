@@ -1,0 +1,48 @@
+{
+  "arguments": {
+    "domain": "service-public.fr"
+  },
+  "result": {
+    "categories": [
+      "education",
+      "government",
+      "government"
+    ],
+    "domain": "service-public.fr",
+    "enabled": true,
+    "found": true,
+    "harmless_votes": 0,
+    "last_analysis_stats": {
+      "harmless": 59,
+      "malicious": 0,
+      "suspicious": 0,
+      "undetected": 30
+    },
+    "malicious_votes": 0,
+    "passive_dns": [
+      {
+        "ip_address": "160.92.168.33",
+        "last_resolved": 1676538051
+      },
+      {
+        "ip_address": "160.92.65.200",
+        "last_resolved": 1579374427
+      },
+      {
+        "ip_address": "160.92.64.57",
+        "last_resolved": 1566223090
+      },
+      {
+        "ip_address": "160.92.50.135",
+        "last_resolved": 1443225600
+      },
+      {
+        "ip_address": "160.92.166.94",
+        "last_resolved": 1379635200
+      }
+    ],
+    "reputation": 0,
+    "source": "www.virustotal.com"
+  },
+  "tool": "virustotal_lookup"
+}

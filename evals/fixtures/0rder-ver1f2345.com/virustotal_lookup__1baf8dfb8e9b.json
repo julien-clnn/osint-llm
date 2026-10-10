@@ -1,0 +1,32 @@
+{
+  "arguments": {
+    "domain": "0rder-ver1f2345.com"
+  },
+  "result": {
+    "categories": [],
+    "domain": "0rder-ver1f2345.com",
+    "enabled": true,
+    "found": true,
+    "harmless_votes": 0,
+    "last_analysis_stats": {
+      "harmless": 47,
+      "malicious": 11,
+      "suspicious": 1,
+      "undetected": 30
+    },
+    "malicious_votes": 0,
+    "passive_dns": [
+      {
+        "ip_address": "104.21.73.58",
+        "last_resolved": 1770918829
+      },
+      {
+        "ip_address": "172.67.158.70",
+        "last_resolved": 1770918829
+      }
+    ],
+    "reputation": 0,
+    "source": "www.virustotal.com"
+  },
+  "tool": "virustotal_lookup"
+}

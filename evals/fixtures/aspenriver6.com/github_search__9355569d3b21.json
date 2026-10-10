@@ -1,0 +1,75 @@
+{
+  "arguments": {
+    "domain": "aspenriver6.com"
+  },
+  "result": {
+    "code_matches": [
+      {
+        "path": "assets/filter_11.txt",
+        "repo": "AdguardTeam/HostlistsRegistry",
+        "snippet": "||asdsocial.pt^\n||asegurar2026.duckdns.org^\n||ashahaarmans.nl^\n||aspenriver6.com^\n||asset.tasisathosseini.shop^\n||asynchronouswatering-system.garden^\n||atasapka.com.tr^",
+        "url": "https://github.com/AdguardTeam/HostlistsRegistry/blob/42fe78a23da0eb008fe921d93dfa94b136be386a/assets/filter_11.txt"
+      },
+      {
+        "path": "NoFormatting/Mirrors/urlhausabuse.hosts",
+        "repo": "bongochong/CombinedPrivacyBlockLists",
+        "snippet": "0.0.0.0 asdsocial.pt\n0.0.0.0 asegurar2026.duckdns.org\n0.0.0.0 ashahaarmans.nl\n0.0.0.0 aspenriver6.com\n0.0.0.0 asset.tasisathosseini.shop\n0.0.0.0 assets.f1cs-dev.it\n0.0.0.0 asynchronouswatering-system.garden",
+        "url": "https://github.com/bongochong/CombinedPrivacyBlockLists/blob/a1b5ccf598e55f21c06ea7eeba63903b6024dcdd/NoFormatting/Mirrors/urlhausabuse.hosts"
+      },
+      {
+        "path": "chromium/rulesets/main/urlhaus-full.json",
+        "repo": "uBlockOrigin/uBOL-home",
+        "snippet": "\"asdsocial.pt\",\n   \"asegurar2026.duckdns.org\",\n   \"ashahaarmans.nl\",\n   \"aspenriver6.com\",\n   \"asset.tasisathosseini.shop\",\n   \"assets.f1cs-dev.it\",\n   \"asynchronouswatering-system.garden\",",
+        "url": "https://github.com/uBlockOrigin/uBOL-home/blob/aa108a6af4dae2e26afbee7a0b1881575d7befcd/chromium/rulesets/main/urlhaus-full.json"
+      },
+      {
+        "path": "filters/security/filter_11_MaliciousURLBlocklist/filter.txt",
+        "repo": "AdguardTeam/HostlistsRegistry",
+        "snippet": "||asdsocial.pt^\n||asegurar2026.duckdns.org^\n||ashahaarmans.nl^\n||aspenriver6.com^\n||asset.tasisathosseini.shop^\n||asynchronouswatering-system.garden^\n||atasapka.com.tr^",
+        "url": "https://github.com/AdguardTeam/HostlistsRegistry/blob/42fe78a23da0eb008fe921d93dfa94b136be386a/filters/security/filter_11_MaliciousURLBlocklist/filter.txt"
+      },
+      {
+        "path": "chromium/rulesets/strictblock/urlhaus-full.json",
+        "repo": "uBlockOrigin/uBOL-home",
+        "snippet": "\"asdsocial.pt\",\n   \"asegurar2026.duckdns.org\",\n   \"ashahaarmans.nl\",\n   \"aspenriver6.com\",\n   \"asset.tasisathosseini.shop\",\n   \"assets.f1cs-dev.it\",\n   \"asynchronouswatering-system.garden\",",
+        "url": "https://github.com/uBlockOrigin/uBOL-home/blob/aa108a6af4dae2e26afbee7a0b1881575d7befcd/chromium/rulesets/strictblock/urlhaus-full.json"
+      },
+      {
+        "path": "sources/urlhaus.abuse.ch-csv",
+        "repo": "romainmarcoux/malicious-domains",
+        "snippet": "asdsocial.pt\nasegurar2026.duckdns.org\nashahaarmans.nl\naspenriver6.com\nasset.tasisathosseini.shop\nasynchronouswatering-system.garden\natasapka.com.tr",
+        "url": "https://github.com/romainmarcoux/malicious-domains/blob/5b31ca7e8c186a9b78f7212ac0a78efe87a903eb/sources/urlhaus.abuse.ch-csv"
+      },
+      {
+        "path": "hosts/urlhaus_filter_online.txt",
+        "repo": "IgorKha/mikrotik-adlist",
+        "snippet": "0.0.0.0 asdsocial.pt\n0.0.0.0 asegurar2026.duckdns.org\n0.0.0.0 ashahaarmans.nl\n0.0.0.0 aspenriver6.com\n0.0.0.0 asset.tasisathosseini.shop\n0.0.0.0 assets.f1cs-dev.it\n0.0.0.0 asynchronouswatering-system.garden",
+        "url": "https://github.com/IgorKha/mikrotik-adlist/blob/4b2aefd44e669400da959761476281dc8bdcd1e3/hosts/urlhaus_filter_online.txt"
+      },
+      {
+        "path": "pasblock-urlhaus.txt",
+        "repo": "pointaction/adguard-lists",
+        "snippet": "||asdsocial.pt^\n||asegurar2026.duckdns.org^\n||ashahaarmans.nl^\n||aspenriver6.com^\n||asset.tasisathosseini.shop^\n||asynchronouswatering-system.garden^\n||atasapka.com.tr^",
+        "url": "https://github.com/pointaction/adguard-lists/blob/7a56132001eb36427692c601e0e90a41ebedfd14/pasblock-urlhaus.txt"
+      },
+      {
+        "path": "filters/11-urlhaus_filter_online.blocky",
+        "repo": "smthd-co/agh2blocky",
+        "snippet": "*.asdsocial.pt\n*.asegurar2026.duckdns.org\n*.ashahaarmans.nl\n*.aspenriver6.com\n*.asset.tasisathosseini.shop\n*.asynchronouswatering-system.garden\n*.atasapka.com.tr",
+        "url": "https://github.com/smthd-co/agh2blocky/blob/f4ee47cd33683fbdcf9492a1d062f4364ca080a5/filters/11-urlhaus_filter_online.blocky"
+      },
+      {
+        "path": "Ad Guard Home/Security/Malicious URL Blocklist (URLHaus).txt",
+        "repo": "DarkKnightYHJ/AdGuardHomeList",
+        "snippet": "||asdsocial.pt^\n||asegurar2026.duckdns.org^\n||ashahaarmans.nl^\n||aspenriver6.com^\n||asset.tasisathosseini.shop^\n||asynchronouswatering-system.garden^\n||atasapka.com.tr^",
+        "url": "https://github.com/DarkKnightYHJ/AdGuardHomeList/blob/8200a289b4efdf71337c2a60cae300f145ca2ea0/Ad Guard Home/Security/Malicious URL Blocklist (URLHaus).txt"
+      }
+    ],
+    "code_search_enabled": true,
+    "domain": "aspenriver6.com",
+    "repository_count": 0,
+    "repository_matches": [],
+    "source": "api.github.com"
+  },
+  "tool": "github_search"
+}

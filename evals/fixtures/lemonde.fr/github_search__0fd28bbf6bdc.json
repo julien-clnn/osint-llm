@@ -1,0 +1,136 @@
+{
+  "arguments": {
+    "domain": "lemonde.fr"
+  },
+  "result": {
+    "code_matches": [
+      {
+        "path": "lemonde.fr.txt",
+        "repo": "fivefilters/ftr-site-config",
+        "snippet": "# Remove the insane \"conjugaison.lemonde.fr\" links:\nfind_string: <a target='_blank' onclick='return false;' class='lien_interne conjug'",
+        "url": "https://github.com/fivefilters/ftr-site-config/blob/479b7ae51a620173aadb3edc553f15b03c1ec7a2/lemonde.fr.txt"
+      },
+      {
+        "path": "lemonde.fr",
+        "repo": "bharath06/robotstxt",
+        "snippet": "#\n# Sitemaps\nSitemap: https://www.lemonde.fr/sitemap_news.xml\nSitemap: https://www.lemonde.fr/sitemap_index.xml\nSitemap: https://www.lemonde.fr/codespromo/sitemap.xml\n# Sitemaps EN",
+        "url": "https://github.com/bharath06/robotstxt/blob/2d6f73ca274bea127576caa1753b331ce718b076/lemonde.fr"
+      },
+      {
+        "path": "README.md",
+        "repo": "reek/anti-adblock-killer",
+        "snippet": "##### FilterList\n* Rules\n  * Add/Fix\n    * KillAdBlock (generic), Sorry AdBlocker (generic), seoghoer.dk, voyageforum.com, dama.bg, upvast.com, sc2casts.com, theguardian.com, dlh.net, 3dsthem.es, debridnet.com, computerworld.com.au, vipracing.info, lol.moa.tw, mangamint.com, clikcoin.pl, vider.pl, h",
+        "url": "https://github.com/reek/anti-adblock-killer/blob/a87431fb62ac8f2264f193514ffaa8171418879b/README.md"
+      },
+      {
+        "path": "dissemination.md",
+        "repo": "DIVERSIFY-project/amiunique",
+        "snippet": "* [CNIL award](https://www.cnil.fr/fr/la-cnil-et-inria-decernent-le-prix-protection-de-la-vie-privee-2018)\n# Online posts\n* [htps://www.nextinpact.com/news/105886-cookies-tiers-traceurs-fingerprint-et-compagnie-comment-ca-marche.htm](https://www.nextinpact.com/news/105886-cookies-tiers-traceurs-fing",
+        "url": "https://github.com/DIVERSIFY-project/amiunique/blob/ab3d7080cec562b7704164428db8b6e2251fa309/dissemination.md"
+      },
+      {
+        "path": "other/pac.txt",
+        "repo": "ToyoDAdoubi/doubi",
+        "snippet": "\"|http://leirentv.ca\",\r\n\t\"leisurecafe.ca\",\r\n\t\"||lematin.ch\",\r\n\t\".lemonde.fr\",\r\n\t\"||lenwhite.com\",\r\n\t\"lerosua.org\",\r\n\t\"||lerosua.org\",",
+        "url": "https://github.com/ToyoDAdoubi/doubi/blob/28184d72b85500e296e487ec61a26a15d83cc9e3/other/pac.txt"
+      },
+      {
+        "path": "README.md",
+        "repo": "vvo/lazyload",
+        "snippet": "Tens of millions of pageviews are served each month using this project:\n\n* [fasterize.com](http://fasterize.com) `lazyload` was first developed at fasterize (WPO solution)\n* [lemonde.fr](http://www.lemonde.fr)\n* [pluzz.francetv.fr](http://pluzz.francetv.fr)\n* [pcinpact.com](http://www.pcinpact.com)\n",
+        "url": "https://github.com/vvo/lazyload/blob/7aeb978fabe0dfe95e70f4def0e34abdaa68b2f3/README.md"
+      },
+      {
+        "path": "README.md",
+        "repo": "kattgu7/Anti-996-License",
+        "snippet": "6. Techcrunch: [China’s startup ecosystem is hitting back at demanding working hours](https://techcrunch.com/2019/04/12/china-996/)\n7. South China Morning Post: [Quantity or quality? China’s ‘996’ work culture comes under scrutiny](https://www.scmp.com/tech/start-ups/article/3005947/quantity-or-qual",
+        "url": "https://github.com/kattgu7/Anti-996-License/blob/f28adb4f7f4e1e8842021440f23ad9bc87235cef/README.md"
+      },
+      {
+        "path": "README.md",
+        "repo": "zackthoutt/got-book-6",
+        "snippet": "- [Futurism](https://futurism.com/the-next-five-game-of-thrones-chapters-have-been-leaked-by-an-ai/)\n- [Science Alert](https://www.sciencealert.com/everyone-s-so-sick-of-waiting-for-the-next-game-of-thrones-book-an-ai-just-wrote-it-for-us)\n- [Gizmodo](http://io9.gizmodo.com/rest-easy-george-r-r-mart",
+        "url": "https://github.com/zackthoutt/got-book-6/blob/c1d2d62a5a5f0beffbac2c657d59fec1f8ad4c07/README.md"
+      },
+      {
+        "path": "gfwlist.txt",
+        "repo": "zfl9/ss-tproxy",
+        "snippet": "leisurecafe.ca\nleisurepro.com\nlematin.ch\nlemonde.fr\nlenwhite.com\nleorockwell.com\nlerosua.org",
+        "url": "https://github.com/zfl9/ss-tproxy/blob/6f6b8211078c549b6d2bed56490ce14ce86949ee/gfwlist.txt"
+      },
+      {
+        "path": "docs/cmd/join.md",
+        "repo": "medialab/xan",
+        "snippet": "* -c, --contains: matching a substring (e.g. \"john\" in \"My name is john\")\n    * -r, --regex: using a regular expression\n    * -u, --url-prefix: matching by url prefix (e.g. \"lemonde.fr/business\")\n\nThe file containing patterns has to be, by convention, given on the right, while\nthe left one should co",
+        "url": "https://github.com/medialab/xan/blob/b2018678d390cb301c097698861e8184738a7fd3/docs/cmd/join.md"
+      }
+    ],
+    "code_search_enabled": true,
+    "domain": "lemonde.fr",
+    "repository_count": 10,
+    "repository_matches": [
+      {
+        "description": ":newspaper: Read RSS feed from LeMonde.fr and display news inside the App",
+        "repo": "MBach/LeMondeRssReader",
+        "stars": 35,
+        "url": "https://github.com/MBach/LeMondeRssReader"
+      },
+      {
+        "description": "This extension gives you a free access to the Zen mode of all articles on lemonde.fr website",
+        "repo": "JonGiamp/lemonde-hack",
+        "stars": 3,
+        "url": "https://github.com/JonGiamp/lemonde-hack"
+      },
+      {
+        "description": "Remove grammatical conjugation links from lemonde.fr",
+        "repo": "jblanche/lemonde-cleaner",
+        "stars": 1,
+        "url": "https://github.com/jblanche/lemonde-cleaner"
+      },
+      {
+        "description": "A program to download lemonde.fr articles to Pocket",
+        "repo": "FilipRazek/LMDLP",
+        "stars": 1,
+        "url": "https://github.com/FilipRazek/LMDLP"
+      },
+      {
+        "description": "Safari extensions to read article on the website lemonde.fr for free",
+        "repo": "Dogild/lemondeForFree",
+        "stars": 1,
+        "url": "https://github.com/Dogild/lemondeForFree"
+      },
+      {
+        "description": "",
+        "repo": "djabirsadaoui/LeMonde.fr-RSS-ObjectiveC",
+        "stars": 1,
+        "url": "https://github.com/djabirsadaoui/LeMonde.fr-RSS-ObjectiveC"
+      },
+      {
+        "description": "",
+        "repo": "Le-Monde-Creatif/LeMondeCreatif_front",
+        "stars": 0,
+        "url": "https://github.com/Le-Monde-Creatif/LeMondeCreatif_front"
+      },
+      {
+        "description": "Responsive homepage of lemonde.fr",
+        "repo": "marcopibbes/PPM_Frontend",
+        "stars": 0,
+        "url": "https://github.com/marcopibbes/PPM_Frontend"
+      },
+      {
+        "description": "RSS_filter for LeMonde.fr",
+        "repo": "EmergenceSystem/lemonde.fr_rss_filter",
+        "stars": 0,
+        "url": "https://github.com/EmergenceSystem/lemonde.fr_rss_filter"
+      },
+      {
+        "description": "Chrome Plugin for lemonde.fr",
+        "repo": "bosswhale/lemondefr-cleaner",
+        "stars": 0,
+        "url": "https://github.com/bosswhale/lemondefr-cleaner"
+      }
+    ],
+    "source": "api.github.com"
+  },
+  "tool": "github_search"
+}

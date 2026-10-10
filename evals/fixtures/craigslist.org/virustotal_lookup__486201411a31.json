@@ -1,0 +1,56 @@
+{
+  "arguments": {
+    "domain": "craigslist.org"
+  },
+  "result": {
+    "categories": [
+      "onlineshop",
+      "auctions and classified ads",
+      "shopping"
+    ],
+    "domain": "craigslist.org",
+    "enabled": true,
+    "found": true,
+    "harmless_votes": 0,
+    "last_analysis_stats": {
+      "harmless": 57,
+      "malicious": 0,
+      "suspicious": 0,
+      "undetected": 32
+    },
+    "malicious_votes": 1,
+    "passive_dns": [
+      {
+        "ip_address": "208.82.237.129",
+        "last_resolved": 1575905699
+      },
+      {
+        "ip_address": "208.82.237.1",
+        "last_resolved": 1573840360
+      },
+      {
+        "ip_address": "208.82.237.226",
+        "last_resolved": 1571622901
+      },
+      {
+        "ip_address": "74.63.219.135",
+        "last_resolved": 1416787200
+      },
+      {
+        "ip_address": "208.82.238.129",
+        "last_resolved": 1393027200
+      },
+      {
+        "ip_address": "208.82.236.129",
+        "last_resolved": 1387584000
+      },
+      {
+        "ip_address": "208.82.236.225",
+        "last_resolved": 1381708800
+      }
+    ],
+    "reputation": -32,
+    "source": "www.virustotal.com"
+  },
+  "tool": "virustotal_lookup"
+}

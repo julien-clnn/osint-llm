@@ -1,0 +1,269 @@
+{
+  "arguments": {
+    "ip": "202.53.137.209"
+  },
+  "result": {
+    "announced_prefix": "202.53.137.0/24",
+    "asn": 138195,
+    "asn_description": "MOACKCOLTD-AS-AP - MOACK.Co.LTD",
+    "asn_name": "MOACKCOLTD-AS-AP - MOACK.Co.LTD",
+    "asn_prefixes": [
+      {
+        "country": "",
+        "name": "MOACKCOLTD-AS-AP - MOACK.Co.LTD",
+        "prefix": "61.111.130.0/24"
+      },
+      {
+        "country": "",
+        "name": "MOACKCOLTD-AS-AP - MOACK.Co.LTD",
+        "prefix": "45.120.187.0/24"
+      },
+      {
+        "country": "",
+        "name": "MOACKCOLTD-AS-AP - MOACK.Co.LTD",
+        "prefix": "2404:2040::/32"
+      },
+      {
+        "country": "",
+        "name": "MOACKCOLTD-AS-AP - MOACK.Co.LTD",
+        "prefix": "61.111.252.0/24"
+      },
+      {
+        "country": "",
+        "name": "MOACKCOLTD-AS-AP - MOACK.Co.LTD",
+        "prefix": "45.120.186.0/24"
+      },
+      {
+        "country": "",
+        "name": "MOACKCOLTD-AS-AP - MOACK.Co.LTD",
+        "prefix": "45.113.160.0/24"
+      },
+      {
+        "country": "",
+        "name": "MOACKCOLTD-AS-AP - MOACK.Co.LTD",
+        "prefix": "58.14.8.0/21"
+      },
+      {
+        "country": "",
+        "name": "MOACKCOLTD-AS-AP - MOACK.Co.LTD",
+        "prefix": "162.141.87.0/24"
+      },
+      {
+        "country": "",
+        "name": "MOACKCOLTD-AS-AP - MOACK.Co.LTD",
+        "prefix": "45.113.161.0/24"
+      },
+      {
+        "country": "",
+        "name": "MOACKCOLTD-AS-AP - MOACK.Co.LTD",
+        "prefix": "103.57.24.0/24"
+      },
+      {
+        "country": "",
+        "name": "MOACKCOLTD-AS-AP - MOACK.Co.LTD",
+        "prefix": "118.128.63.0/24"
+      },
+      {
+        "country": "",
+        "name": "MOACKCOLTD-AS-AP - MOACK.Co.LTD",
+        "prefix": "116.193.155.0/24"
+      },
+      {
+        "country": "",
+        "name": "MOACKCOLTD-AS-AP - MOACK.Co.LTD",
+        "prefix": "103.13.220.0/24"
+      },
+      {
+        "country": "",
+        "name": "MOACKCOLTD-AS-AP - MOACK.Co.LTD",
+        "prefix": "106.48.56.0/21"
+      },
+      {
+        "country": "",
+        "name": "MOACKCOLTD-AS-AP - MOACK.Co.LTD",
+        "prefix": "61.111.253.0/24"
+      },
+      {
+        "country": "",
+        "name": "MOACKCOLTD-AS-AP - MOACK.Co.LTD",
+        "prefix": "2a12:bec0:68d::/48"
+      },
+      {
+        "country": "",
+        "name": "MOACKCOLTD-AS-AP - MOACK.Co.LTD",
+        "prefix": "106.49.96.0/20"
+      },
+      {
+        "country": "",
+        "name": "MOACKCOLTD-AS-AP - MOACK.Co.LTD",
+        "prefix": "45.116.212.0/24"
+      },
+      {
+        "country": "",
+        "name": "MOACKCOLTD-AS-AP - MOACK.Co.LTD",
+        "prefix": "112.196.218.0/24"
+      },
+      {
+        "country": "",
+        "name": "MOACKCOLTD-AS-AP - MOACK.Co.LTD",
+        "prefix": "103.80.126.0/24"
+      },
+      {
+        "country": "",
+        "name": "MOACKCOLTD-AS-AP - MOACK.Co.LTD",
+        "prefix": "116.193.152.0/24"
+      },
+      {
+        "country": "",
+        "name": "MOACKCOLTD-AS-AP - MOACK.Co.LTD",
+        "prefix": "103.229.182.0/24"
+      },
+      {
+        "country": "",
+        "name": "MOACKCOLTD-AS-AP - MOACK.Co.LTD",
+        "prefix": "143.14.143.0/24"
+      },
+      {
+        "country": "",
+        "name": "MOACKCOLTD-AS-AP - MOACK.Co.LTD",
+        "prefix": "61.111.129.0/24"
+      },
+      {
+        "country": "",
+        "name": "MOACKCOLTD-AS-AP - MOACK.Co.LTD",
+        "prefix": "103.80.125.0/24"
+      },
+      {
+        "country": "",
+        "name": "MOACKCOLTD-AS-AP - MOACK.Co.LTD",
+        "prefix": "61.110.29.0/24"
+      },
+      {
+        "country": "",
+        "name": "MOACKCOLTD-AS-AP - MOACK.Co.LTD",
+        "prefix": "156.234.133.0/24"
+      },
+      {
+        "country": "",
+        "name": "MOACKCOLTD-AS-AP - MOACK.Co.LTD",
+        "prefix": "61.111.131.0/24"
+      },
+      {
+        "country": "",
+        "name": "MOACKCOLTD-AS-AP - MOACK.Co.LTD",
+        "prefix": "2400:b8c0::/32"
+      },
+      {
+        "country": "",
+        "name": "MOACKCOLTD-AS-AP - MOACK.Co.LTD",
+        "prefix": "27.0.193.0/24"
+      },
+      {
+        "country": "",
+        "name": "MOACKCOLTD-AS-AP - MOACK.Co.LTD",
+        "prefix": "202.53.139.0/24"
+      },
+      {
+        "country": "",
+        "name": "MOACKCOLTD-AS-AP - MOACK.Co.LTD",
+        "prefix": "193.142.6.0/24"
+      },
+      {
+        "country": "",
+        "name": "MOACKCOLTD-AS-AP - MOACK.Co.LTD",
+        "prefix": "156.234.201.0/24"
+      },
+      {
+        "country": "",
+        "name": "MOACKCOLTD-AS-AP - MOACK.Co.LTD",
+        "prefix": "103.80.127.0/24"
+      },
+      {
+        "country": "",
+        "name": "MOACKCOLTD-AS-AP - MOACK.Co.LTD",
+        "prefix": "106.49.64.0/18"
+      },
+      {
+        "country": "",
+        "name": "MOACKCOLTD-AS-AP - MOACK.Co.LTD",
+        "prefix": "203.236.146.0/24"
+      },
+      {
+        "country": "",
+        "name": "MOACKCOLTD-AS-AP - MOACK.Co.LTD",
+        "prefix": "103.86.45.0/24"
+      },
+      {
+        "country": "",
+        "name": "MOACKCOLTD-AS-AP - MOACK.Co.LTD",
+        "prefix": "156.234.62.0/24"
+      },
+      {
+        "country": "",
+        "name": "MOACKCOLTD-AS-AP - MOACK.Co.LTD",
+        "prefix": "49.4.144.0/20"
+      },
+      {
+        "country": "",
+        "name": "MOACKCOLTD-AS-AP - MOACK.Co.LTD",
+        "prefix": "103.208.32.0/24"
+      },
+      {
+        "country": "",
+        "name": "MOACKCOLTD-AS-AP - MOACK.Co.LTD",
+        "prefix": "154.208.168.0/22"
+      },
+      {
+        "country": "",
+        "name": "MOACKCOLTD-AS-AP - MOACK.Co.LTD",
+        "prefix": "61.111.246.0/24"
+      },
+      {
+        "country": "",
+        "name": "MOACKCOLTD-AS-AP - MOACK.Co.LTD",
+        "prefix": "27.0.194.0/24"
+      },
+      {
+        "country": "",
+        "name": "MOACKCOLTD-AS-AP - MOACK.Co.LTD",
+        "prefix": "43.243.220.0/24"
+      },
+      {
+        "country": "",
+        "name": "MOACKCOLTD-AS-AP - MOACK.Co.LTD",
+        "prefix": "124.66.211.0/24"
+      },
+      {
+        "country": "",
+        "name": "MOACKCOLTD-AS-AP - MOACK.Co.LTD",
+        "prefix": "103.199.103.0/24"
+      },
+      {
+        "country": "",
+        "name": "MOACKCOLTD-AS-AP - MOACK.Co.LTD",
+        "prefix": "106.49.80.0/20"
+      },
+      {
+        "country": "",
+        "name": "MOACKCOLTD-AS-AP - MOACK.Co.LTD",
+        "prefix": "210.216.173.0/24"
+      },
+      {
+        "country": "",
+        "name": "MOACKCOLTD-AS-AP - MOACK.Co.LTD",
+        "prefix": "124.21.16.0/21"
+      },
+      {
+        "country": "",
+        "name": "MOACKCOLTD-AS-AP - MOACK.Co.LTD",
+        "prefix": "45.113.163.0/24"
+      }
+    ],
+    "country": "",
+    "ip": "202.53.137.209",
+    "prefix_count": 196,
+    "source": "RIPEstat",
+    "truncated": true
+  },
+  "tool": "asn_lookup"
+}

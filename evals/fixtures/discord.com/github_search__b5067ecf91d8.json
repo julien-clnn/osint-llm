@@ -1,0 +1,136 @@
+{
+  "arguments": {
+    "domain": "discord.com"
+  },
+  "result": {
+    "code_matches": [
+      {
+        "path": "aoc.md",
+        "repo": "gitbutlerapp/gitbutler",
+        "snippet": "and entering the code: `4228059-ddef72c0`\n\nYou can also join our Discord server here: [GitButler Discord](https://discord.com/invite/MmFkmaJ42D)\nand chat with us about the Advent of Code ([#aoc](https://discord.com/channels/1060193121130000425/1305464412802514944)),\nGitButler, or anything else you w",
+        "url": "https://github.com/gitbutlerapp/gitbutler/blob/079f2d998fc3e2d882f68c5f535d101272ed28cf/aoc.md"
+      },
+      {
+        "path": "FAQ.md",
+        "repo": "mhxion/awesome-discord-communities",
+        "snippet": "- [What is Discord.com exactly?](#what-is-discordcom-exactly)\n- [What about Discord's poor privacy policy?](#what-about-discords-poor-privacy-policy)",
+        "url": "https://github.com/mhxion/awesome-discord-communities/blob/1d973a9d4f59325ef11c48d0b2dde887cf688808/FAQ.md"
+      },
+      {
+        "path": "next.md",
+        "repo": "tamagui/tamagui",
+        "snippet": "- react native 78 dialogs not working\n    - https://discord.com/channels/909986013848412191/1354084025895227423/1354084025895227423",
+        "url": "https://github.com/tamagui/tamagui/blob/dccd1ada1611602e15c10633a692ca974e28b366/next.md"
+      },
+      {
+        "path": "FAQ.md",
+        "repo": "seapear/AffinityOnLinux",
+        "snippet": "| [EndeavourOS](https://endeavouros.com/)   | ✔️     | ✔️     | ✔️     | ❓     | ✔️  |\n| [Nobara Linux](https://nobaraproject.org/)   | ✔️     | ✔️     | ✔️     | ❓     | ✔️  |\n| [SteamOS](https://store.steampowered.com/steamos)   | ✔️     | ✔️     | ✔️     | ❓     | ❓  |\n| [Pop!_OS](https://system7",
+        "url": "https://github.com/seapear/AffinityOnLinux/blob/4dd5635eab8502bd4653e2e478478af04ff84449/FAQ.md"
+      },
+      {
+        "path": "rwkv.md",
+        "repo": "huggingface/blog",
+        "snippet": "According to Bo, better instruction techniques are detailed in [this discord message (make sure to join the channel before clicking)](https://discord.com/channels/992359628979568762/1083107245971226685/1098533896355848283)",
+        "url": "https://github.com/huggingface/blog/blob/6e17517b7772782caa076427393a52d4436e9234/rwkv.md"
+      },
+      {
+        "path": "FAQ.md",
+        "repo": "AAndyProgram/SCrawler",
+        "snippet": "# How to report a problem\n1. **Post your problem [here](https://github.com/AAndyProgram/SCrawler/issues) or in the [help channel](https://discord.com/channels/1124032649682493462/1124281838056259614) on our Discord server**\n2. Attach the **profile URLs or links** that you cannot download.",
+        "url": "https://github.com/AAndyProgram/SCrawler/blob/ffab035cee254de25e6b5e410c938a0cbd95d842/FAQ.md"
+      },
+      {
+        "path": "next.md",
+        "repo": "onejs/one",
+        "snippet": "- you can set build.server: false but it breaks `build static routes` with \"No server output\", ideally we can make this still work so you can have SPA + some SSG if you need, you could detect if all routes are SPA up front and skip it, and then if there are some static or ssr you'd build server\n  - ",
+        "url": "https://github.com/onejs/one/blob/89117c9afcb6692aa53b22ca636705dfb67bd43c/next.md"
+      },
+      {
+        "path": "TODO.md",
+        "repo": "Aliucord/Manager",
+        "snippet": "- zip-android 64KiB alignment\n- zip-android faster file deletion\n- Better UI for conflicting package names\n    - Auto-rename package names when adding new installs...?\n- `IconOptionsScreen`\n    - https://discord.com/channels/811255666990907402/1373756392892272691/1380726498725593220\n    - Reset butt",
+        "url": "https://github.com/Aliucord/Manager/blob/80490d6b9f947c39237f04855eb38d634f671fd4/TODO.md"
+      },
+      {
+        "path": "a.txt",
+        "repo": "DandelionSprout/adfilt",
+        "snippet": "pixiv.net#?#ul[class^=_] > li[class*=\" \"]:has-text(webbedfingers)\ndiscord.com##div[class*=blockedSystemMessage-]:upward(3)\nrule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,tentaclerape.net##.thumb:has(img[title*=julius_zimmerman])",
+        "url": "https://github.com/DandelionSprout/adfilt/blob/118fa31f5359987420dd3c80c69324ba64c8d916/a.txt"
+      },
+      {
+        "path": "news.md",
+        "repo": "ioccc-src/winner",
+        "snippet": "If you’re not already a member, you might want to join the IOCCC\nDiscord channel by clicking in the **free**\n[https://discord.com/invite/Wa42Qujwnw](https://discord.com/invite/Wa42Qujwnw) invite link.\n\nAnd if you’re interested, you can also watch our **free**\n[IOCCC Patreon videos](https://www.patre",
+        "url": "https://github.com/ioccc-src/winner/blob/a077cd3fbc1f22d5bca4951807295505dd234f22/news.md"
+      }
+    ],
+    "code_search_enabled": true,
+    "domain": "discord.com",
+    "repository_count": 10,
+    "repository_matches": [
+      {
+        "description": "An open source platform for Python in the browser. https://pyscript.net Docs: https://docs.pyscript.net/ Try it: https://pyscript.com/ Community: https://discord.gg/HxvBtukrg2",
+        "repo": "pyscript/pyscript",
+        "stars": 18689,
+        "url": "https://github.com/pyscript/pyscript"
+      },
+      {
+        "description": "Prompt, run, edit, and deploy full-stack web applications. -- bolt.new -- Help Center: https://support.bolt.new/ -- Community Support: https://discord.com/invite/stackblitz",
+        "repo": "stackblitz/bolt.new",
+        "stars": 16548,
+        "url": "https://github.com/stackblitz/bolt.new"
+      },
+      {
+        "description": "Checkmate is an open-source, self-hosted tool designed to track and monitor server hardware, uptime, response times, and incidents in real-time with beautiful visualizations. Don't be shy, join here: https://discord.com/invite/NAb6H3UTjK :)",
+        "repo": "bluewave-labs/Checkmate",
+        "stars": 10806,
+        "url": "https://github.com/bluewave-labs/Checkmate"
+      },
+      {
+        "description": "💌A tiny (995KB) but mighty timer in **pure C** ! — almost no memory usage!❤️‍🔥 Supports clock, countdown, stopwatch, Pomodoro, and fully customizable tray animations (GIFs, CPU/Mem%) 💘 Don't be shy, join here🧸: https://discord.com/invite/W3tW2gtp6g",
+        "repo": "vladelaina/Catime",
+        "stars": 4781,
+        "url": "https://github.com/vladelaina/Catime"
+      },
+      {
+        "description": "Java wrapper for the popular chat & VOIP service: Discord https://discord.com",
+        "repo": "discord-jda/JDA",
+        "stars": 4691,
+        "url": "https://github.com/discord-jda/JDA"
+      },
+      {
+        "description": "A curated list of awesome Discord communities for programmers",
+        "repo": "mhxion/awesome-discord-communities",
+        "stars": 3592,
+        "url": "https://github.com/mhxion/awesome-discord-communities"
+      },
+      {
+        "description": "An unofficial .Net wrapper for the Discord API (https://discord.com/)",
+        "repo": "discord-net/Discord.Net",
+        "stars": 3511,
+        "url": "https://github.com/discord-net/Discord.Net"
+      },
+      {
+        "description": "Spacebar server - A reimplementation of the Discord.com backend, built with Typescript and love",
+        "repo": "spacebarchat/server",
+        "stars": 2198,
+        "url": "https://github.com/spacebarchat/server"
+      },
+      {
+        "description": "Local AI app and inference engine for agents. Run open-weight LLMs locally — private, 100% offline on your computer. Join our Discord: https://discord.com/invite/8wGSsvmg4V",
+        "repo": "AtomicBot-ai/Atomic-Chat",
+        "stars": 1464,
+        "url": "https://github.com/AtomicBot-ai/Atomic-Chat"
+      },
+      {
+        "description": "An automated assistant designed to help users efficiently track and complete Discord Quests. Streamline your quest progress with advanced reward notification and activity tracking analytics.",
+        "repo": "Tankmacspout/Discord-Quest-Completer",
+        "stars": 1158,
+        "url": "https://github.com/Tankmacspout/Discord-Quest-Completer"
+      }
+    ],
+    "source": "api.github.com"
+  },
+  "tool": "github_search"
+}

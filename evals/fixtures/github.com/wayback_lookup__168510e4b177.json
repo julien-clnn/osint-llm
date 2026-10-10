@@ -1,0 +1,225 @@
+{
+  "arguments": {
+    "domain": "github.com"
+  },
+  "result": {
+    "capture_count": 10000,
+    "date_range": {
+      "first": "2008-05-14",
+      "last": "2026-09-11"
+    },
+    "domain": "github.com",
+    "interesting_urls": [
+      {
+        "timestamp": "2019-06-16",
+        "url": "https://github.com/!(()%26%26!%7C*%7C*%7C/government.github.com"
+      },
+      {
+        "timestamp": "2019-06-16",
+        "url": "https://github.com/!(()%26%26!%7C*%7C*%7C/louisnayegon.github.io"
+      },
+      {
+        "timestamp": "2019-06-16",
+        "url": "https://github.com/!(()%26%26!%7C*%7C*%7C/railsgirls.github.io"
+      },
+      {
+        "timestamp": "2019-06-16",
+        "url": "https://github.com/!(()%26%26!%7C*%7C*%7C/tastejs.github.com"
+      },
+      {
+        "timestamp": "2025-06-20",
+        "url": "https://github.com/%21%5C%20This%20is%20the%20old%20repository%20/%21%5C%20New%20maintainer:%20https://github.com/hpacheco/gloss-juicy%20-%20alpmestan/gloss-juicy"
+      },
+      {
+        "timestamp": "2023-12-18",
+        "url": "https://github.com/!d!a!t!a-!d!o!g/go-sqlmock@v1.3.3"
+      },
+      {
+        "timestamp": "2023-12-18",
+        "url": "https://github.com/!d!a!t!a-!d!o!g/go-sqlmock@v1.3.3The"
+      },
+      {
+        "timestamp": "2025-09-25",
+        "url": "https://github.com/!fulaninho!/blog.git"
+      },
+      {
+        "timestamp": "2023-08-29",
+        "url": "https://github.com/%22%22.$dbicon%5B'path'%5D.%22/%22"
+      },
+      {
+        "timestamp": "2020-09-18",
+        "url": "https://github.com/%22%20/opt/oae/config.js%3c/li%3e%0a%3c/ul%3e%0a%3c/blockquote%3e%0a%3cp%3eThis%20is%20something%20that%20happens%20through%20puppet.%20If%20you%20select%20to%20deploy%20a%3cbr%3e%0atarball%20you%20should%20set%20app_ui_path%20accordingly%3c/p%3e%0a%3cp%3e%e2%80%94%3cbr%3e%0aReply%20to%20this%20email%20directly%20or%20view%20it%20on%20GitHub%3cbr%3e%0a%3ca%20href=%22https:/github.com/oaeproject/puppet-hilary/pull/147/files"
+      },
+      {
+        "timestamp": "2020-11-11",
+        "url": "https://github.com/%22%20class=%22link-gray-dark%20text-bold%20js-navigation-open%22%20data-pjax=%22true%22%20href=%22/fga-eps-mds/2018.2-FGAPP-FrontEnd/pull/119/commits/054597f92491ff88e640253aad4b57353dbc0412%22%3eMerge%20branch%20"
+      },
+      {
+        "timestamp": "2020-11-11",
+        "url": "https://github.com/%22%20class=%22link-gray-dark%20text-bold%20js-navigation-open%22%20data-pjax=%22true%22%20href=%22/fga-eps-mds/2018.2-FGAPP-FrontEnd/pull/128/commits/054597f92491ff88e640253aad4b57353dbc0412%22%3eMerge%20branch%20"
+      },
+      {
+        "timestamp": "2020-11-11",
+        "url": "https://github.com/%22%20class=%22link-gray-dark%20text-bold%20js-navigation-open%22%20data-pjax=%22true%22%20href=%22/fga-eps-mds/2018.2-FGAPP-FrontEnd/pull/32/commits/054597f92491ff88e640253aad4b57353dbc0412%22%3eMerge%20branch%20"
+      },
+      {
+        "timestamp": "2020-11-11",
+        "url": "https://github.com/%22%20data-pjax=%22true%22%20class=%22link-gray%22%20href=%22/fga-eps-mds/2018.2-FGAPP-FrontEnd/pull/119/commits/054597f92491ff88e640253aad4b57353dbc0412%22%3eMerge%20branch%20"
+      },
+      {
+        "timestamp": "2020-11-11",
+        "url": "https://github.com/%22%20data-pjax=%22true%22%20class=%22link-gray%22%20href=%22/fga-eps-mds/2018.2-FGAPP-FrontEnd/pull/128/commits/054597f92491ff88e640253aad4b57353dbc0412%22%3eMerge%20branch%20"
+      },
+      {
+        "timestamp": "2020-11-11",
+        "url": "https://github.com/%22%20data-pjax=%22true%22%20class=%22link-gray%22%20href=%22/fga-eps-mds/2018.2-FGAPP-FrontEnd/pull/32/commits/054597f92491ff88e640253aad4b57353dbc0412%22%3eMerge%20branch%20"
+      },
+      {
+        "timestamp": "2020-09-19",
+        "url": "https://github.com/%22%20rel=%22nofollow%22%3ehttps:/raw.githack.com/SSHAnakSolo/Safelink/master/LinkWoi/postrand.js"
+      },
+      {
+        "timestamp": "2013-04-22",
+        "url": "https://github.com/%22+c.data(%22login%22)+%22.png"
+      },
+      {
+        "timestamp": "2022-09-03",
+        "url": "https://www.github.com/%22+document.getElementById(%22github%22).value+%22/)%20%22"
+      },
+      {
+        "timestamp": "2023-08-29",
+        "url": "https://github.com/%22./jscripts/admincp.js/%22"
+      },
+      {
+        "timestamp": "2025-07-21",
+        "url": "https://github.com/%22/%3E%3Cimg%20src=%22https://xss.leosmith.wtf/api/SSTn5REwp/pic%22%20onerror=%22alert%28document.domain%29%22%20/%3E%20-%20p4p1"
+      },
+      {
+        "timestamp": "2022-06-22",
+        "url": "https://github.com/%22/_next/static/2SarIYZLIDb7C4pf6n6vg/_buildManifest.js/%22"
+      },
+      {
+        "timestamp": "2022-06-22",
+        "url": "https://github.com/%22/_next/static/2SarIYZLIDb7C4pf6n6vg/_middlewareManifest.js/%22"
+      },
+      {
+        "timestamp": "2022-06-22",
+        "url": "https://github.com/%22/_next/static/2SarIYZLIDb7C4pf6n6vg/_ssgManifest.js/%22"
+      },
+      {
+        "timestamp": "2023-03-04",
+        "url": "https://github.com/%22/_next/static/chunks/2e3b78e519d30db9f206d5bbf712d47b85dc8369.97e5f0ba08167c27d95c.js/%22"
+      },
+      {
+        "timestamp": "2023-03-04",
+        "url": "https://github.com/%22/_next/static/chunks/656b50b94fa79fcdfdbd7b969c030ba77de4f107.97e5f0ba08167c27d95c.js/%22"
+      },
+      {
+        "timestamp": "2023-03-02",
+        "url": "https://github.com/%22/_next/static/chunks/f6078781a05fe1bcb0902d23dbbb2662c8d200b3.b6a1f9b54f63f233016b.js/%22"
+      },
+      {
+        "timestamp": "2023-03-04",
+        "url": "https://github.com/%22/_next/static/chunks/main-app-6a4a5db7781170a6.js/%22"
+      },
+      {
+        "timestamp": "2023-03-02",
+        "url": "https://github.com/%22/_next/static/chunks/main-app-7bdb8345f85166ec.js/%22"
+      },
+      {
+        "timestamp": "2023-03-04",
+        "url": "https://github.com/%22/_next/static/chunks/pages/_app-753628925edb8fac.js/%22"
+      },
+      {
+        "timestamp": "2023-03-02",
+        "url": "https://github.com/%22/_next/static/chunks/pages/_app-804e6adb061156cd.js/%22"
+      },
+      {
+        "timestamp": "2021-11-07",
+        "url": "https://github.com/%22/_next/static/chunks/pages/_error-de35badb0969ed89.js/%22"
+      },
+      {
+        "timestamp": "2023-03-06",
+        "url": "https://github.com/%22/_next/static/chunks/pages/on-mount/%5Bpost%5D-16fcdb872a4e8454355d.js/%22"
+      },
+      {
+        "timestamp": "2022-01-12",
+        "url": "https://github.com/%22/_next/static/chunks/polyfills-a40ef1678bae11e696dba45124eadd70.js/%22%3E%3C/script%3E%3Cscript"
+      },
+      {
+        "timestamp": "2024-11-04",
+        "url": "https://github.com/%22/_next/static/development/_buildManifest.js/%22"
+      },
+      {
+        "timestamp": "2023-03-04",
+        "url": "https://github.com/%22/_next/static/development/_buildManifest.js?ts=1589475628061%5C%22"
+      },
+      {
+        "timestamp": "2023-03-04",
+        "url": "https://github.com/%22/_next/static/development/_buildManifest.js?ts=1589475628190%5C%22"
+      },
+      {
+        "timestamp": "2023-03-04",
+        "url": "https://github.com/%22/_next/static/development/_buildManifest.js?ts=1590400138314%5C%22"
+      },
+      {
+        "timestamp": "2023-03-04",
+        "url": "https://github.com/%22/_next/static/development/_buildManifest.js?ts=1590400169729%5C%22"
+      },
+      {
+        "timestamp": "2023-03-04",
+        "url": "https://github.com/%22/_next/static/development/_buildManifest.js?ts=1590400209969%5C%22"
+      }
+    ],
+    "sample_urls": [
+      "http://github.com/",
+      "https://github.com/!!!",
+      "https://github.com/%21%21ASSETS_REPOSITORY%21%21/releases/download/%21%21RELEASE_VERSION%21%21/%21%21APP_NAME_LC%21%21-reh-$%7Bos%7D-$%7Barch%7D-%21%21RELEASE_VERSION%21%21.tar.gz",
+      "https://github.com/%21%21GH_REPO_PATH%21%21-insiders/releases/download/%21%21RELEASE_VERSION%21%21-insider/%21%21APP_NAME_LC%21%21-reh-$%7Bos%7D-$%7Barch%7D-%21%21RELEASE_VERSION%21%21-insider.tar.gz",
+      "https://github.com/%21%21GH_REPO_PATH%21%21-insiders/releases/download/$%7Bversion%7D-insider/%21%21APP_NAME_LC%21%21-reh-$%7Bos%7D-$%7Barch%7D-$%7Bversion%7D-insider.tar.gz",
+      "https://github.com/%21%21GH_REPO_PATH%21%21-insiders/releases/download/$%7Bversion%7D.$%7Brelease%7D-insider/%21%21APP_NAME_LC%21%21-reh-$%7Bos%7D-$%7Barch%7D-$%7Bversion%7D.$%7Brelease%7D-insider.tar.gz",
+      "https://github.com/%21%21GH_REPO_PATH%21%21/releases/download/%21%21RELEASE_VERSION%21%21/%21%21APP_NAME_LC%21%21-reh-$%7Bos%7D-$%7Barch%7D-%21%21RELEASE_VERSION%21%21.tar.gz",
+      "https://github.com/%21%21GH_REPO_PATH%21%21/releases/download/$%7Bversion/%21%21APP_NAME_LC%21%21-reh-$%7Bos%7D-$%7Barch%7D-$%7Bversion%7D.tar.gz",
+      "https://github.com/%21%21GH_REPO_PATH%21%21/releases/download/$%7Bversion%7D/%21%21APP_NAME_LC%21%21-reh-$%7Bos%7D-$%7Barch%7D-$%7Bversion%7D.tar.gz",
+      "https://github.com/!(()%26%26!%7C*%7C*%7C-seconds/30-seconds-of-code",
+      "https://github.com/!(()%26%26!%7C*%7C*%7C-seconds/30-seconds-of-css",
+      "https://github.com/!(()%26%26!%7C*%7C*%7C-seconds/30-seconds-of-interviews",
+      "https://github.com/!(()%26%26!%7C*%7C*%7C/30-seconds-of-python-code",
+      "https://github.com/!(()%26%26!%7C*%7C*%7C/3d",
+      "https://github.com/!(()%26%26!%7C*%7C*%7C/choosealicense.com",
+      "https://github.com/!(()%26%26!%7C*%7C*%7C/django-teaching-15days",
+      "https://github.com/!(()%26%26!%7C*%7C*%7C/ember.js",
+      "https://github.com/!(()%26%26!%7C*%7C*%7C/it.vuejs.org",
+      "https://github.com/!(()%26%26!%7C*%7C*%7C/jp.vuejs.org",
+      "https://github.com/!(()%26%26!%7C*%7C*%7C/mithril.js",
+      "https://github.com/!(()%26%26!%7C*%7C*%7C/nottar.io",
+      "https://github.com/!(()%26%26!%7C*%7C*%7C/pixi.js",
+      "https://github.com/!(()%26%26!%7C*%7C*%7C/python-machine-learning-book-2nd-edition",
+      "https://github.com/!(()%26%26!%7C*%7C*%7C/vuejs.org",
+      "https://github.com/!(()%26%26!%7C*%7C*%7Cvoice/from_coder_to_expert",
+      "https://github.com/!(()%26%26!%7C*%7C*%7Cxueweihan/git-tips",
+      "https://github.com/!(2013",
+      "https://github.com/!10",
+      "https://github.com/!==e.hotkey&&",
+      "https://github.com/!==e.nodeName?n:",
+      "https://github.com/!==r.style.display&&",
+      "https://github.com/!==t.hotkey&&",
+      "https://github.com/!==t.top,r=",
+      "https://github.com/!==this.readyState&&",
+      "https://github.com/![your",
+      "https://github.com/%21%5C%20To%20report%20a%20security%20issue%20please%20follow%20this%20procedure:%20%5Bhttps://github.com/OpenNebula/one/wiki/Vulnerability-Management-Process%5D%20Description%20Sunstone%20error%20when%20custom%20user%20input%20contains%20$%20%28...",
+      "https://github.com/%21%5C%20To%20report%20a%20security%20issue%20please%20follow%20this%20procedure:%20%5Bhttps://github.com/OpenNebula/one/wiki/Vulnerability-Management-Process%5D%20Description%20Sunstone%20error%20when%20custom%20user%20input%20contains%20$%20%28dollar%20sign%29%20To%20Reproduce%20Create%20a%20VM%20te...",
+      "https://github.com/!ada!logics/go-fuzz-headers",
+      "https://github.com/!ada!logics/go-fuzz-headers@v0.0.0-",
+      "https://github.com/!ada!logics/go-fuzz-headers@v0.0.0-20230811130428-"
+    ],
+    "source": "web.archive.org",
+    "subdomain_count": 2,
+    "subdomains": [
+      "github.com",
+      "www.github.com"
+    ],
+    "truncated": true
+  },
+  "tool": "wayback_lookup"
+}

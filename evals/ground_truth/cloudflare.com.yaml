@@ -1,0 +1,31 @@
+domain: cloudflare.com
+subdomains:
+  expected_count: 3423
+  known_sample:
+  - ajax.cloudflare.com
+  - anti-virus.cloudflare.com
+  - cdnjs.cloudflare.com
+  - cloudflare.com
+  - ssl1.cloudflare.com
+  known_exclusions: []
+email_security:
+  spf: true
+  dmarc: true
+  dmarc_policy: reject
+  dkim_selectors_found:
+  - k1
+network:
+  expected_asn: 13335
+  expected_org_substring: Cloudflare
+  behind_cdn_proxy: true
+reputation:
+  verdict: clean
+  malicious_engines_min: 0
+must_contain:
+- More than 3000 subdomains found
+- DMARC configured with policy reject
+- Domain registered in 2009
+must_not_contain: []
+notes: Security vendor — deliberate contrast with pets.com on email hygiene (SPF+DMARC reject
+  vs neither). The first enumerate_subdomains call had failed (crt.sh 502 + certspotter 504 at the same time),
+  re-recorded cleanly (3423 real subdomains).

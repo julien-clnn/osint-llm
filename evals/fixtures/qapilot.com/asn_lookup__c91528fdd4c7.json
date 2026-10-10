@@ -1,0 +1,269 @@
+{
+  "arguments": {
+    "ip": "15.197.225.128"
+  },
+  "result": {
+    "announced_prefix": "15.197.224.0/20",
+    "asn": 16509,
+    "asn_description": "AMAZON-02 - Amazon.com, Inc.",
+    "asn_name": "AMAZON-02 - Amazon.com, Inc.",
+    "asn_prefixes": [
+      {
+        "country": "",
+        "name": "AMAZON-02 - Amazon.com, Inc.",
+        "prefix": "2600:9000:11d3::/48"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-02 - Amazon.com, Inc.",
+        "prefix": "69.25.212.0/22"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-02 - Amazon.com, Inc.",
+        "prefix": "216.147.17.0/24"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-02 - Amazon.com, Inc.",
+        "prefix": "2a04:5b81:2122::/48"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-02 - Amazon.com, Inc.",
+        "prefix": "208.215.88.0/24"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-02 - Amazon.com, Inc.",
+        "prefix": "151.186.145.0/24"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-02 - Amazon.com, Inc.",
+        "prefix": "13.224.138.0/24"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-02 - Amazon.com, Inc.",
+        "prefix": "18.165.192.0/23"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-02 - Amazon.com, Inc.",
+        "prefix": "151.245.187.0/24"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-02 - Amazon.com, Inc.",
+        "prefix": "130.137.81.0/24"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-02 - Amazon.com, Inc.",
+        "prefix": "2600:1fa0:4080::/44"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-02 - Amazon.com, Inc.",
+        "prefix": "64.252.71.0/24"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-02 - Amazon.com, Inc.",
+        "prefix": "208.88.98.0/24"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-02 - Amazon.com, Inc.",
+        "prefix": "3.5.208.0/22"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-02 - Amazon.com, Inc.",
+        "prefix": "18.165.72.0/23"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-02 - Amazon.com, Inc.",
+        "prefix": "3.164.150.0/24"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-02 - Amazon.com, Inc.",
+        "prefix": "136.18.22.0/24"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-02 - Amazon.com, Inc.",
+        "prefix": "13.32.112.0/23"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-02 - Amazon.com, Inc.",
+        "prefix": "2a05:d050:4020::/44"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-02 - Amazon.com, Inc.",
+        "prefix": "15.181.243.0/24"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-02 - Amazon.com, Inc.",
+        "prefix": "2600:9000:1e19::/48"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-02 - Amazon.com, Inc.",
+        "prefix": "91.227.75.0/24"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-02 - Amazon.com, Inc.",
+        "prefix": "54.230.2.0/23"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-02 - Amazon.com, Inc.",
+        "prefix": "205.147.216.0/23"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-02 - Amazon.com, Inc.",
+        "prefix": "2600:9000:30ab::/48"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-02 - Amazon.com, Inc.",
+        "prefix": "13.227.7.0/24"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-02 - Amazon.com, Inc.",
+        "prefix": "2600:1f28:c000::/36"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-02 - Amazon.com, Inc.",
+        "prefix": "2606:f4c0:6620::/44"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-02 - Amazon.com, Inc.",
+        "prefix": "2a00:4bc0:2144::/48"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-02 - Amazon.com, Inc.",
+        "prefix": "2a0b:a200:8::/48"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-02 - Amazon.com, Inc.",
+        "prefix": "2407:7a80:105::/48"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-02 - Amazon.com, Inc.",
+        "prefix": "108.159.162.0/24"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-02 - Amazon.com, Inc.",
+        "prefix": "65.8.132.0/22"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-02 - Amazon.com, Inc.",
+        "prefix": "3.160.142.0/24"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-02 - Amazon.com, Inc.",
+        "prefix": "153.72.76.0/24"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-02 - Amazon.com, Inc.",
+        "prefix": "35.34.128.0/17"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-02 - Amazon.com, Inc.",
+        "prefix": "203.8.2.0/24"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-02 - Amazon.com, Inc.",
+        "prefix": "108.159.139.0/24"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-02 - Amazon.com, Inc.",
+        "prefix": "18.172.58.0/23"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-02 - Amazon.com, Inc.",
+        "prefix": "3.5.72.0/24"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-02 - Amazon.com, Inc.",
+        "prefix": "2605:dd40:8990::/44"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-02 - Amazon.com, Inc.",
+        "prefix": "2600:9000:24d1::/48"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-02 - Amazon.com, Inc.",
+        "prefix": "108.171.240.0/20"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-02 - Amazon.com, Inc.",
+        "prefix": "205.210.112.0/21"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-02 - Amazon.com, Inc.",
+        "prefix": "66.240.64.0/18"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-02 - Amazon.com, Inc.",
+        "prefix": "2600:9000:26a1::/48"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-02 - Amazon.com, Inc.",
+        "prefix": "13.248.113.0/24"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-02 - Amazon.com, Inc.",
+        "prefix": "56.31.0.0/16"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-02 - Amazon.com, Inc.",
+        "prefix": "99.86.135.0/24"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-02 - Amazon.com, Inc.",
+        "prefix": "2600:9000:3133::/48"
+      }
+    ],
+    "country": "",
+    "ip": "15.197.225.128",
+    "prefix_count": 24009,
+    "source": "RIPEstat",
+    "truncated": true
+  },
+  "tool": "asn_lookup"
+}

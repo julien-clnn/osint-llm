@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets — NEVER committed
+.env
+.env.local
+
+# Local cache of OSINT results
+.cache/
+cache/
+
+# Generated reports (scan data, disposable)
+reports/
+
+# React frontend (Node)
+node_modules/
+web/dist/
+
+# OS / editors
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# Disposable artifacts
+*.zip
+*.log

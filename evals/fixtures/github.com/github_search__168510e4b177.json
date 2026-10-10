@@ -1,0 +1,136 @@
+{
+  "arguments": {
+    "domain": "github.com"
+  },
+  "result": {
+    "code_matches": [
+      {
+        "path": "NEWS",
+        "repo": "saitoha/libsixel",
+        "snippet": "* core: Fix unexpected hangs/performance issues (Issue #76), Thanks to @HongxuChen.\n        https://github.com/saitoha/libsixel/commit/88561b7a810017b91d26b6273323dde4b6f9b273\n        https://github.com/saitoha/libsixel/commit/2d3d9ffe8ab886b7bc670fd896d63c628436cc66",
+        "url": "https://github.com/saitoha/libsixel/blob/a0151d940af8bb0733dac77248bd55ae86949e56/NEWS"
+      },
+      {
+        "path": "NEWS",
+        "repo": "log4cplus/log4cplus",
+        "snippet": "See ChangeLog file, or <https://github.com/log4cplus/log4cplus/releases>,\nor <https://sourceforge.net/p/log4cplus/news/>.",
+        "url": "https://github.com/log4cplus/log4cplus/blob/88bfae3f92ecb492f22e8ab48dd2ea33bda7270c/NEWS"
+      },
+      {
+        "path": "r.md",
+        "repo": "demidovakatya/vvedenie-mashinnoe-obuchenie",
+        "snippet": "* [Basic Statistics](https://www.coursera.org/learn/basic-statistics)\n* [Анализ данных на R в примерах и задачах (Computer Science Center, videos)](http://www.youtube.com/playlist?list=PLlb7e2G7aSpSSa_PlFEwnd6-3gzAa08_m)\n* [Advanced R (Hadley Wickham)](http://adv-r.had.co.nz)\n* [A detailed list of o",
+        "url": "https://github.com/demidovakatya/vvedenie-mashinnoe-obuchenie/blob/38f27a7d0ab19b883a73cb1153650143d02685fa/r.md"
+      },
+      {
+        "path": "NEWS",
+        "repo": "pgRouting/pgrouting",
+        "snippet": "MOVED TO https://github.com/pgRouting/pgrouting/main/NEWS.md",
+        "url": "https://github.com/pgRouting/pgrouting/blob/471224018f17ffa3e7ef9a356389c125a48f3f54/NEWS"
+      },
+      {
+        "path": "NEWS",
+        "repo": "strukturag/spreed-webrtc",
+        "snippet": "See https://github.com/strukturag/spreed-webrtc for further information.",
+        "url": "https://github.com/strukturag/spreed-webrtc/blob/92a885ebc7971f24969eb189b585b1873663e347/NEWS"
+      },
+      {
+        "path": "NEWS",
+        "repo": "zeromq/zyre",
+        "snippet": "* Many bug fixes. See git log on https://github.com/zeromq/zyre/commits/master\n  for more information.",
+        "url": "https://github.com/zeromq/zyre/blob/f7167698e27416c896b8cf522db9ecb6a3616ca1/NEWS"
+      },
+      {
+        "path": "NEWS",
+        "repo": "john30/ebusd",
+        "snippet": "New releases and associated information can be found here:\nhttps://github.com/john30/ebusd/releases",
+        "url": "https://github.com/john30/ebusd/blob/38db2d28bd5622cadb6078c1662c6f7da5cef891/NEWS"
+      },
+      {
+        "path": "NEWS",
+        "repo": "nose-devs/nose",
+        "snippet": "Also note that nose 1.x is in maintenance mode.  We will not be\nlooking to add any features, and you should seriously consider\nlooking at nose2 as the way forward.\n\nIf you're interested in the future of nose, please take a look at the\nnose2 project on github (https://github.com/nose-devs/nose2) or p",
+        "url": "https://github.com/nose-devs/nose/blob/7c26ad1e6b7d308cafa328ad34736d34028c122a/NEWS"
+      },
+      {
+        "path": "NEWS",
+        "repo": "emcrisostomo/fswatch",
+        "snippet": "* Add fswatch-run shell script to mimic the behaviour of earlier fswatch\n    versions and launch the specified command when change events are received.\n\nNew in 1.3.2:\n\n  * fswatch has been merged with fsw (https://github.com/emcrisostomo/fsw).",
+        "url": "https://github.com/emcrisostomo/fswatch/blob/40dfff9938210059e08e318acc493aa19572a6a7/NEWS"
+      },
+      {
+        "path": "NEWS",
+        "repo": "fix8/fix8",
+        "snippet": "For project source updates see https://github.com/fix8/fix8\nFor everything else goto http://www.fix8.org",
+        "url": "https://github.com/fix8/fix8/blob/fd6a550685ed9addbdccb27e605eb11e5ff949e0/NEWS"
+      }
+    ],
+    "code_search_enabled": true,
+    "domain": "github.com",
+    "repository_count": 10,
+    "repository_matches": [
+      {
+        "description": "This is the repo for Vue 2. For Vue 3, go to https://github.com/vuejs/core",
+        "repo": "vuejs/vue",
+        "stars": 212465,
+        "url": "https://github.com/vuejs/vue"
+      },
+      {
+        "description": "Resumes generated using the GitHub informations",
+        "repo": "resume/resume.github.com",
+        "stars": 62897,
+        "url": "https://github.com/resume/resume.github.com"
+      },
+      {
+        "description": "A curated list of awesome remote jobs and resources. Inspired by https://github.com/vinta/awesome-python",
+        "repo": "lukasz-madon/awesome-remote-job",
+        "stars": 48564,
+        "url": "https://github.com/lukasz-madon/awesome-remote-job"
+      },
+      {
+        "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github",
+        "repo": "microsoft/qlib",
+        "stars": 48500,
+        "url": "https://github.com/microsoft/qlib"
+      },
+      {
+        "description": "A privacy-first, open-source platform for knowledge management and collaboration. Download link:  http://github.com/logseq/logseq/releases. roadmap: https://logseq.io/p/NX4mc_ggEV",
+        "repo": "logseq/logseq",
+        "stars": 44876,
+        "url": "https://github.com/logseq/logseq"
+      },
+      {
+        "description": "The 1.x line is frozen - features and bugfixes now happen on https://github.com/yarnpkg/berry",
+        "repo": "yarnpkg/yarn",
+        "stars": 41479,
+        "url": "https://github.com/yarnpkg/yarn"
+      },
+      {
+        "description": "Moved to https://github.com/nodejs/node",
+        "repo": "nodejs/node-v0.x-archive",
+        "stars": 34281,
+        "url": "https://github.com/nodejs/node-v0.x-archive"
+      },
+      {
+        "description": "⛔️ DEPRECATED – See https://github.com/ageron/handson-ml3 or handson-mlp instead.",
+        "repo": "ageron/handson-ml2",
+        "stars": 29954,
+        "url": "https://github.com/ageron/handson-ml2"
+      },
+      {
+        "description": "⛔️ DEPRECATED – See https://github.com/ageron/handson-ml3 or handson-mlp instead.",
+        "repo": "ageron/handson-ml",
+        "stars": 25605,
+        "url": "https://github.com/ageron/handson-ml"
+      },
+      {
+        "description": "Cross-platform .NET sample microservices and container based application that runs on Linux Windows and macOS. Powered by .NET 7, Docker Containers and Azure Kubernetes Services. Supports Visual Studio, VS for Mac and CLI based environments with Docker CLI, dotnet CLI, VS Code or any other code edit",
+        "repo": "dotnet-architecture/eShopOnContainers",
+        "stars": 24317,
+        "url": "https://github.com/dotnet-architecture/eShopOnContainers"
+      }
+    ],
+    "source": "api.github.com"
+  },
+  "tool": "github_search"
+}

@@ -1,0 +1,269 @@
+{
+  "arguments": {
+    "ip": "150.171.110.120"
+  },
+  "result": {
+    "announced_prefix": "150.171.0.0/16",
+    "asn": 8075,
+    "asn_description": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+    "asn_name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+    "asn_prefixes": [
+      {
+        "country": "",
+        "name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+        "prefix": "135.239.0.0/16"
+      },
+      {
+        "country": "",
+        "name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+        "prefix": "195.104.228.0/24"
+      },
+      {
+        "country": "",
+        "name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+        "prefix": "207.241.195.0/24"
+      },
+      {
+        "country": "",
+        "name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+        "prefix": "167.21.152.0/21"
+      },
+      {
+        "country": "",
+        "name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+        "prefix": "57.36.0.0/16"
+      },
+      {
+        "country": "",
+        "name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+        "prefix": "66.203.254.0/24"
+      },
+      {
+        "country": "",
+        "name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+        "prefix": "66.185.142.0/24"
+      },
+      {
+        "country": "",
+        "name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+        "prefix": "208.76.45.0/24"
+      },
+      {
+        "country": "",
+        "name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+        "prefix": "103.8.80.0/24"
+      },
+      {
+        "country": "",
+        "name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+        "prefix": "74.7.0.0/16"
+      },
+      {
+        "country": "",
+        "name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+        "prefix": "199.229.55.0/24"
+      },
+      {
+        "country": "",
+        "name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+        "prefix": "170.75.176.0/24"
+      },
+      {
+        "country": "",
+        "name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+        "prefix": "203.20.128.0/24"
+      },
+      {
+        "country": "",
+        "name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+        "prefix": "91.203.230.0/24"
+      },
+      {
+        "country": "",
+        "name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+        "prefix": "158.86.31.0/24"
+      },
+      {
+        "country": "",
+        "name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+        "prefix": "102.211.187.0/24"
+      },
+      {
+        "country": "",
+        "name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+        "prefix": "40.112.0.0/13"
+      },
+      {
+        "country": "",
+        "name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+        "prefix": "62.12.56.0/24"
+      },
+      {
+        "country": "",
+        "name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+        "prefix": "64.13.130.0/24"
+      },
+      {
+        "country": "",
+        "name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+        "prefix": "163.61.89.0/24"
+      },
+      {
+        "country": "",
+        "name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+        "prefix": "2602:f8d5:a8::/48"
+      },
+      {
+        "country": "",
+        "name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+        "prefix": "167.162.0.0/16"
+      },
+      {
+        "country": "",
+        "name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+        "prefix": "2a01:111:4000::/36"
+      },
+      {
+        "country": "",
+        "name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+        "prefix": "203.28.214.0/24"
+      },
+      {
+        "country": "",
+        "name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+        "prefix": "103.254.7.0/24"
+      },
+      {
+        "country": "",
+        "name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+        "prefix": "157.95.0.0/16"
+      },
+      {
+        "country": "",
+        "name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+        "prefix": "216.83.54.0/23"
+      },
+      {
+        "country": "",
+        "name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+        "prefix": "168.98.112.0/21"
+      },
+      {
+        "country": "",
+        "name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+        "prefix": "165.125.54.0/24"
+      },
+      {
+        "country": "",
+        "name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+        "prefix": "135.7.0.0/16"
+      },
+      {
+        "country": "",
+        "name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+        "prefix": "131.253.62.0/23"
+      },
+      {
+        "country": "",
+        "name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+        "prefix": "135.228.0.0/16"
+      },
+      {
+        "country": "",
+        "name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+        "prefix": "145.129.0.0/16"
+      },
+      {
+        "country": "",
+        "name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+        "prefix": "128.24.0.0/16"
+      },
+      {
+        "country": "",
+        "name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+        "prefix": "145.69.68.0/22"
+      },
+      {
+        "country": "",
+        "name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+        "prefix": "145.69.76.0/22"
+      },
+      {
+        "country": "",
+        "name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+        "prefix": "170.62.37.0/24"
+      },
+      {
+        "country": "",
+        "name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+        "prefix": "135.93.0.0/16"
+      },
+      {
+        "country": "",
+        "name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+        "prefix": "161.131.104.0/24"
+      },
+      {
+        "country": "",
+        "name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+        "prefix": "102.133.0.0/17"
+      },
+      {
+        "country": "",
+        "name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+        "prefix": "199.229.50.0/24"
+      },
+      {
+        "country": "",
+        "name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+        "prefix": "193.17.104.0/23"
+      },
+      {
+        "country": "",
+        "name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+        "prefix": "74.116.255.0/24"
+      },
+      {
+        "country": "",
+        "name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+        "prefix": "198.91.39.0/24"
+      },
+      {
+        "country": "",
+        "name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+        "prefix": "187.86.32.0/24"
+      },
+      {
+        "country": "",
+        "name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+        "prefix": "135.229.0.0/16"
+      },
+      {
+        "country": "",
+        "name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+        "prefix": "147.140.72.0/24"
+      },
+      {
+        "country": "",
+        "name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+        "prefix": "40.108.128.0/17"
+      },
+      {
+        "country": "",
+        "name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+        "prefix": "192.133.85.0/24"
+      },
+      {
+        "country": "",
+        "name": "MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation",
+        "prefix": "64.15.25.0/24"
+      }
+    ],
+    "country": "",
+    "ip": "150.171.110.120",
+    "prefix_count": 1318,
+    "source": "RIPEstat",
+    "truncated": true
+  },
+  "tool": "asn_lookup"
+}

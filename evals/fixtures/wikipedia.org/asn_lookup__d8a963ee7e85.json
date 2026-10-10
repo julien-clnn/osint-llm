@@ -1,0 +1,269 @@
+{
+  "arguments": {
+    "ip": "104.244.43.228"
+  },
+  "result": {
+    "announced_prefix": "104.244.43.0/24",
+    "asn": 54113,
+    "asn_description": "FASTLY - Fastly, Inc.",
+    "asn_name": "FASTLY - Fastly, Inc.",
+    "asn_prefixes": [
+      {
+        "country": "",
+        "name": "FASTLY - Fastly, Inc.",
+        "prefix": "2a04:4e40:d440::/44"
+      },
+      {
+        "country": "",
+        "name": "FASTLY - Fastly, Inc.",
+        "prefix": "198.145.137.0/24"
+      },
+      {
+        "country": "",
+        "name": "FASTLY - Fastly, Inc.",
+        "prefix": "2a04:4e40:80f0::/48"
+      },
+      {
+        "country": "",
+        "name": "FASTLY - Fastly, Inc.",
+        "prefix": "167.82.88.0/22"
+      },
+      {
+        "country": "",
+        "name": "FASTLY - Fastly, Inc.",
+        "prefix": "2a04:4e40:ee40::/48"
+      },
+      {
+        "country": "",
+        "name": "FASTLY - Fastly, Inc.",
+        "prefix": "2a04:4e40:ca00::/48"
+      },
+      {
+        "country": "",
+        "name": "FASTLY - Fastly, Inc.",
+        "prefix": "2a04:4e40:7b10::/48"
+      },
+      {
+        "country": "",
+        "name": "FASTLY - Fastly, Inc.",
+        "prefix": "2a04:4e40:68f0::/48"
+      },
+      {
+        "country": "",
+        "name": "FASTLY - Fastly, Inc.",
+        "prefix": "157.52.85.0/24"
+      },
+      {
+        "country": "",
+        "name": "FASTLY - Fastly, Inc.",
+        "prefix": "2a04:4e40:5e00::/48"
+      },
+      {
+        "country": "",
+        "name": "FASTLY - Fastly, Inc.",
+        "prefix": "2a04:4e40:9520::/48"
+      },
+      {
+        "country": "",
+        "name": "FASTLY - Fastly, Inc.",
+        "prefix": "2a04:4e42:5a::/48"
+      },
+      {
+        "country": "",
+        "name": "FASTLY - Fastly, Inc.",
+        "prefix": "2a04:4e41:1c::/48"
+      },
+      {
+        "country": "",
+        "name": "FASTLY - Fastly, Inc.",
+        "prefix": "140.248.125.0/24"
+      },
+      {
+        "country": "",
+        "name": "FASTLY - Fastly, Inc.",
+        "prefix": "2a04:4e40:3af0::/48"
+      },
+      {
+        "country": "",
+        "name": "FASTLY - Fastly, Inc.",
+        "prefix": "2a04:4e40:3900::/48"
+      },
+      {
+        "country": "",
+        "name": "FASTLY - Fastly, Inc.",
+        "prefix": "2a04:4e40:5af0::/48"
+      },
+      {
+        "country": "",
+        "name": "FASTLY - Fastly, Inc.",
+        "prefix": "2a04:4e40:5900::/48"
+      },
+      {
+        "country": "",
+        "name": "FASTLY - Fastly, Inc.",
+        "prefix": "2a04:4e40:6640::/44"
+      },
+      {
+        "country": "",
+        "name": "FASTLY - Fastly, Inc.",
+        "prefix": "198.145.139.0/24"
+      },
+      {
+        "country": "",
+        "name": "FASTLY - Fastly, Inc.",
+        "prefix": "45.58.232.0/21"
+      },
+      {
+        "country": "",
+        "name": "FASTLY - Fastly, Inc.",
+        "prefix": "2a04:4e41:1c0::/43"
+      },
+      {
+        "country": "",
+        "name": "FASTLY - Fastly, Inc.",
+        "prefix": "167.82.56.0/22"
+      },
+      {
+        "country": "",
+        "name": "FASTLY - Fastly, Inc.",
+        "prefix": "157.52.97.224/28"
+      },
+      {
+        "country": "",
+        "name": "FASTLY - Fastly, Inc.",
+        "prefix": "2a00:8c40:f0d0::/44"
+      },
+      {
+        "country": "",
+        "name": "FASTLY - Fastly, Inc.",
+        "prefix": "2a04:4e40:f3f0::/48"
+      },
+      {
+        "country": "",
+        "name": "FASTLY - Fastly, Inc.",
+        "prefix": "157.52.83.0/24"
+      },
+      {
+        "country": "",
+        "name": "FASTLY - Fastly, Inc.",
+        "prefix": "157.52.126.0/24"
+      },
+      {
+        "country": "",
+        "name": "FASTLY - Fastly, Inc.",
+        "prefix": "140.248.73.224/28"
+      },
+      {
+        "country": "",
+        "name": "FASTLY - Fastly, Inc.",
+        "prefix": "2a04:4e40:ca30::/44"
+      },
+      {
+        "country": "",
+        "name": "FASTLY - Fastly, Inc.",
+        "prefix": "2602:816:5001::/48"
+      },
+      {
+        "country": "",
+        "name": "FASTLY - Fastly, Inc.",
+        "prefix": "2a04:4e42:6b::/48"
+      },
+      {
+        "country": "",
+        "name": "FASTLY - Fastly, Inc.",
+        "prefix": "167.82.141.0/24"
+      },
+      {
+        "country": "",
+        "name": "FASTLY - Fastly, Inc.",
+        "prefix": "157.52.95.0/24"
+      },
+      {
+        "country": "",
+        "name": "FASTLY - Fastly, Inc.",
+        "prefix": "140.248.16.0/24"
+      },
+      {
+        "country": "",
+        "name": "FASTLY - Fastly, Inc.",
+        "prefix": "45.56.195.0/24"
+      },
+      {
+        "country": "",
+        "name": "FASTLY - Fastly, Inc.",
+        "prefix": "2a04:4e40:adf0::/48"
+      },
+      {
+        "country": "",
+        "name": "FASTLY - Fastly, Inc.",
+        "prefix": "2a04:4e40:5e10::/44"
+      },
+      {
+        "country": "",
+        "name": "FASTLY - Fastly, Inc.",
+        "prefix": "2a04:4e40:3200::/44"
+      },
+      {
+        "country": "",
+        "name": "FASTLY - Fastly, Inc.",
+        "prefix": "2a00:8c40:f0f0::/44"
+      },
+      {
+        "country": "",
+        "name": "FASTLY - Fastly, Inc.",
+        "prefix": "199.232.88.0/22"
+      },
+      {
+        "country": "",
+        "name": "FASTLY - Fastly, Inc.",
+        "prefix": "2a04:4e40:2010::/48"
+      },
+      {
+        "country": "",
+        "name": "FASTLY - Fastly, Inc.",
+        "prefix": "2a04:4e40:1720::/48"
+      },
+      {
+        "country": "",
+        "name": "FASTLY - Fastly, Inc.",
+        "prefix": "2a04:4e40:4640::/44"
+      },
+      {
+        "country": "",
+        "name": "FASTLY - Fastly, Inc.",
+        "prefix": "2a04:4e40:4e10::/44"
+      },
+      {
+        "country": "",
+        "name": "FASTLY - Fastly, Inc.",
+        "prefix": "2a04:4e40:aa00::/48"
+      },
+      {
+        "country": "",
+        "name": "FASTLY - Fastly, Inc.",
+        "prefix": "151.101.12.0/22"
+      },
+      {
+        "country": "",
+        "name": "FASTLY - Fastly, Inc.",
+        "prefix": "2a04:4e40:ce40::/48"
+      },
+      {
+        "country": "",
+        "name": "FASTLY - Fastly, Inc.",
+        "prefix": "87.81.226.0/24"
+      },
+      {
+        "country": "",
+        "name": "FASTLY - Fastly, Inc.",
+        "prefix": "2a04:4e40:f000::/48"
+      }
+    ],
+    "country": "",
+    "ip": "104.244.43.228",
+    "prefix_count": 1833,
+    "source": "RIPEstat",
+    "truncated": true
+  },
+  "tool": "asn_lookup"
+}

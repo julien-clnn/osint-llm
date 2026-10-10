@@ -1,0 +1,137 @@
+{
+  "arguments": {
+    "domain": "craigslist.org"
+  },
+  "result": {
+    "capture_count": 10000,
+    "date_range": {
+      "first": "1998-12-02",
+      "last": "2026-06-22"
+    },
+    "domain": "craigslist.org",
+    "interesting_urls": [
+      {
+        "timestamp": "2023-06-01",
+        "url": "https://www.craigslist.org/.well-known/openid-configuration"
+      },
+      {
+        "timestamp": "2016-05-02",
+        "url": "http://www.craigslist.org/01151101040301030220071125ac5f7adb966e130247?lang=en&cc=us"
+      },
+      {
+        "timestamp": "2020-02-14",
+        "url": "http://www.craigslist.org:80/10/0105/22/5SA2B1L900873DBL.html"
+      },
+      {
+        "timestamp": "2020-01-12",
+        "url": "http://www.craigslist.org:80/10/0107/11/5SE0MIGJ00873DBL.html"
+      },
+      {
+        "timestamp": "2019-10-25",
+        "url": "http://www.craigslist.org:80/10/0109/03/5SIADBTR002524SO.html"
+      },
+      {
+        "timestamp": "2017-04-09",
+        "url": "http://www.craigslist.org:80/2/206/product/Buy-Cold-Fear-Download"
+      },
+      {
+        "timestamp": "2019-09-30",
+        "url": "http://www.craigslist.org:80/2009/06/stopping-kdewindows-development.html"
+      },
+      {
+        "timestamp": "2019-12-13",
+        "url": "http://www.craigslist.org:80/2009/11/brighton-primark-protest"
+      },
+      {
+        "timestamp": "2020-02-05",
+        "url": "http://www.craigslist.org:80/2010/01/07/12-year-old-bank-robber"
+      },
+      {
+        "timestamp": "2019-12-05",
+        "url": "http://www.craigslist.org:80/2010/01/motorola-backflip-with-backofdevice-interaction.html"
+      },
+      {
+        "timestamp": "2013-02-24",
+        "url": "http://craigslist.org/?fp=8H0rLKq%2FiinKfdHPQiP0cgLQMD7cCpJuggTqs85gzIvQa4zoZcxaZQNJdbtgBzD7kyCZAHJWXkGk6CFco0ruww%3D%3D&prvtof=iD6jyESYAL0IGX8h1bKwvs4zLCNgJzfsL%2B4X1RGwZOg%3D&poru=c2JSRnDTGkQpWrkAjzsuvsB0GPJ7mwy7wxW8CZKm8Foli3EqkhPgDtrW6g2Ap8Xw&"
+      },
+      {
+        "timestamp": "2021-03-09",
+        "url": "http://comm-8cchb-2714085864@craigslist.org/?subject=4%20year%20old%20130lb%20Tibetan%20Mastiff%20free%20to%20a%20stable%20home%20(Bend)&body=%0A%0Ahttp%3A%2F%2Fbend.craigslist.org%2Fpet%2F2714085864.html%0A"
+      },
+      {
+        "timestamp": "2021-02-11",
+        "url": "http://mailto:comm-r6znn-2245453864@craigslist.org/?subject=%20Older%20Spaniel%20Mix%20needs%20home%20(Lemoyne%2C%20PA)&body=%0A%0Ahttp%3A%2F%2Fharrisburg.craigslist.org%2Fpet%2F2245453864.html%0A"
+      },
+      {
+        "timestamp": "2022-03-07",
+        "url": "https://www.craigslist.org/about/%22data:image/jpeg;base64,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"
+      },
+      {
+        "timestamp": "2012-01-19",
+        "url": "http://www.craigslist.org/about/.TEST"
+      },
+      {
+        "timestamp": "2012-07-28",
+        "url": "http://www.craigslist.org/about/best/bos/.TEST"
+      },
+      {
+        "timestamp": "2025-09-25",
+        "url": "http://www.craigslist.org/about/best/edm/702157143.html?ref=dev.cascadepbs.org"
+      },
+      {
+        "timestamp": "2005-09-25",
+        "url": "http://www.craigslist.org/about/best/images/protest49.jpg"
+      }
+    ],
+    "sample_urls": [
+      "http://www.craigslist.org:80/",
+      "http://www.craigslist.org:80/%22/",
+      "http://craigslist.org/%22%20target=%22_blank",
+      "https://www.craigslist.org/%22,%22alts%22:%5B%5D,%22httpStatus%22:200",
+      "http://www.craigslist.org/%22%3Ecraigslist.org%3C/a",
+      "http://www.craigslist.org:80/%22%3Ecraigslist.org%3C/a%3E",
+      "http://www.craigslist.org:80/%22target",
+      "http://www.craigslist.org:80/%22target=%22_blank",
+      "http://www.craigslist.org:80/%22target=%22_blank%22style=%22text-decoration:none",
+      "http://www.craigslist.org:80/\"target=\"_new",
+      "http://www.craigslist.org:80/%22Target=%22_parent",
+      "http://www.craigslist.org:80/%22target=%22Sklyarov",
+      "http://www.craigslist.org:80/%22TARGET=_blank",
+      "https://craigslist.org/%0A",
+      "http://www.craigslist.org:80/%20",
+      "http://www.craigslist.org:80/%20./",
+      "http://www.craigslist.org:80/%20/chc/car/375286172.html",
+      "http://www.craigslist.org/%204435706199",
+      "http://craigslist.org:80/%20[standard%20source]",
+      "http://www.craigslist.org/%20about/help/flags_and_community_moderation",
+      "http://www.craigslist.org/%20all%20personals%20january%204%202011",
+      "http://craigslist.org/%20http://",
+      "http://craigslist.org/%20http://[redacted]@gmail.com",
+      "http://www.craigslist.org/%20http://[redacted]@gmail.com?lang=en&cc=us",
+      "http://craigslist.org/%20https://mail.google.com/mail/u/0/h/",
+      "http://craigslist.org/%20https://mail.google.com/mail/u/0/h/1ul7r8mys15zp/?&v=ct&ct_id=753fae00fa59937",
+      "http://craigslist.org/%20Kelly%20Rudolph",
+      "http://www.craigslist.org/%20[redacted]@rocketmail.com",
+      "http://www.craigslist.org:80/%20onmousedown=",
+      "http://www.craigslist.org/%20Pueblo%20Colorado",
+      "http://www.craigslist.org:80/%20See%20Short%20Term%20Rentals%20and%20Under%20Keywords%20type%20%22%20Vacation%22",
+      "http://www.craigslist.org/%20target=",
+      "http://craigslist.org:80/%20tretorn",
+      "https://craigslist.org/%20whitby%20ontario",
+      "http://www.craigslist.org:80/%",
+      "http://www.craigslist.org:80/%C2%A0",
+      "http://www.craigslist.org/%C2%A0%C2%A0",
+      "http://www.craigslist.org/%C2%A0%C2%A0%C2%A0",
+      "http://www.craigslist.org/%C2%A0%C2%A0%C2%A0You%C2%A0can%C2%A0try%C2%A0posting%C2%A0ads%C2%A0as%C2%A0well%C2%A0as%C2%A0looking%C2%A0for%C2%A0profiles.%C2%A0I%C2%A0do%C2%A0a%C2%A0combination%C2%A0of%C2%A0both%C2%A0and%C2%A0then%C2%A0I%C2%A0",
+      "http://www.craigslist.org/%C2%A0%C2%A0%C2%A0You%C2%A0can%C2%A0try%C2%A0posting%C2%A0ads%C2%A0as%C2%A0well%C2%A0as%C2%A0looking%C2%A0for%C2%A0profiles.%C2%A0I%C2%A0do%C2%A0a%C2%A0combination%C2%A0of%C2%A0both%C2%A0and%C2%A0then%C2%A0I%C2%A0have%C2%A0a%C2%A0very%C2%A0scientific%C2%A0process%E2%80%A6.%C2%A0I%C2%A0wait%C2%A0%C2%A0until%C2%A0I%C2%A0feel%C2%A0a%C2%A0little%C2%A0zing.%C2%A0I%C2%A0know%C2%A0it%C2%A0might%C2%A0sound%C2%A0"
+    ],
+    "source": "web.archive.org",
+    "subdomain_count": 2,
+    "subdomains": [
+      "craigslist.org",
+      "www.craigslist.org"
+    ],
+    "truncated": true
+  },
+  "tool": "wayback_lookup"
+}

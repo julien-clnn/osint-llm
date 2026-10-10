@@ -1,0 +1,24 @@
+{
+  "arguments": {
+    "domain": "mail.pets--pets.com"
+  },
+  "result": {
+    "domain": "mail.pets--pets.com",
+    "email_security": {
+      "dkim_note": "Sélecteurs DKIM courants testés uniquement ; une absence ici ne prouve pas l'absence de DKIM.",
+      "dkim_selectors_found": [],
+      "dmarc": false,
+      "dmarc_policy": null,
+      "spf": false,
+      "spf_record": null
+    },
+    "mx": [],
+    "mx_count": 0,
+    "ns": [],
+    "ns_count": 0,
+    "source": "DNS (résolveur système)",
+    "txt": [],
+    "txt_count": 0
+  },
+  "tool": "dns_records_lookup"
+}

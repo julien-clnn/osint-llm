@@ -1,0 +1,39 @@
+{
+  "arguments": {
+    "target": "sourceforge.net"
+  },
+  "result": {
+    "ip_count": 2,
+    "locations": [
+      {
+        "as": "AS13335 Cloudflare, Inc.",
+        "city": "Toronto",
+        "country": "Canada",
+        "country_code": "CA",
+        "ip": "104.18.12.149",
+        "isp": "Cloudflare, Inc.",
+        "lat": 43.6532,
+        "lon": -79.3832,
+        "org": "Cloudflare, Inc.",
+        "region": "Ontario"
+      },
+      {
+        "as": "AS13335 Cloudflare, Inc.",
+        "city": "Toronto",
+        "country": "Canada",
+        "country_code": "CA",
+        "ip": "104.18.13.149",
+        "isp": "Cloudflare, Inc.",
+        "lat": 43.6532,
+        "lon": -79.3832,
+        "org": "Cloudflare, Inc.",
+        "region": "Ontario"
+      }
+    ],
+    "resolved_from_domain": "sourceforge.net",
+    "source": "ip-api.com",
+    "target": "sourceforge.net",
+    "truncated": false
+  },
+  "tool": "ip_geolocate"
+}

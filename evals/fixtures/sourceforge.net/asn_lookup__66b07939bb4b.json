@@ -1,0 +1,269 @@
+{
+  "arguments": {
+    "ip": "104.18.13.149"
+  },
+  "result": {
+    "announced_prefix": "104.18.0.0/20",
+    "asn": 13335,
+    "asn_description": "CLOUDFLARENET - Cloudflare, Inc.",
+    "asn_name": "CLOUDFLARENET - Cloudflare, Inc.",
+    "asn_prefixes": [
+      {
+        "country": "",
+        "name": "CLOUDFLARENET - Cloudflare, Inc.",
+        "prefix": "2400:cb00:ac41::/48"
+      },
+      {
+        "country": "",
+        "name": "CLOUDFLARENET - Cloudflare, Inc.",
+        "prefix": "172.69.130.0/24"
+      },
+      {
+        "country": "",
+        "name": "CLOUDFLARENET - Cloudflare, Inc.",
+        "prefix": "162.158.93.0/24"
+      },
+      {
+        "country": "",
+        "name": "CLOUDFLARENET - Cloudflare, Inc.",
+        "prefix": "104.23.199.0/24"
+      },
+      {
+        "country": "",
+        "name": "CLOUDFLARENET - Cloudflare, Inc.",
+        "prefix": "104.23.231.0/24"
+      },
+      {
+        "country": "",
+        "name": "CLOUDFLARENET - Cloudflare, Inc.",
+        "prefix": "172.69.255.0/24"
+      },
+      {
+        "country": "",
+        "name": "CLOUDFLARENET - Cloudflare, Inc.",
+        "prefix": "199.27.133.0/24"
+      },
+      {
+        "country": "",
+        "name": "CLOUDFLARENET - Cloudflare, Inc.",
+        "prefix": "172.70.110.0/24"
+      },
+      {
+        "country": "",
+        "name": "CLOUDFLARENET - Cloudflare, Inc.",
+        "prefix": "104.23.234.0/24"
+      },
+      {
+        "country": "",
+        "name": "CLOUDFLARENET - Cloudflare, Inc.",
+        "prefix": "2a06:98c1:5c::/48"
+      },
+      {
+        "country": "",
+        "name": "CLOUDFLARENET - Cloudflare, Inc.",
+        "prefix": "172.70.238.0/24"
+      },
+      {
+        "country": "",
+        "name": "CLOUDFLARENET - Cloudflare, Inc.",
+        "prefix": "2606:4700:4402::/48"
+      },
+      {
+        "country": "",
+        "name": "CLOUDFLARENET - Cloudflare, Inc.",
+        "prefix": "2400:cb00:c1f2::/48"
+      },
+      {
+        "country": "",
+        "name": "CLOUDFLARENET - Cloudflare, Inc.",
+        "prefix": "108.162.238.0/24"
+      },
+      {
+        "country": "",
+        "name": "CLOUDFLARENET - Cloudflare, Inc.",
+        "prefix": "104.29.151.0/24"
+      },
+      {
+        "country": "",
+        "name": "CLOUDFLARENET - Cloudflare, Inc.",
+        "prefix": "2400:cb00:bf13::/48"
+      },
+      {
+        "country": "",
+        "name": "CLOUDFLARENET - Cloudflare, Inc.",
+        "prefix": "2400:cb00:a0b4::/48"
+      },
+      {
+        "country": "",
+        "name": "CLOUDFLARENET - Cloudflare, Inc.",
+        "prefix": "2400:cb00:a341::/48"
+      },
+      {
+        "country": "",
+        "name": "CLOUDFLARENET - Cloudflare, Inc.",
+        "prefix": "162.158.193.0/24"
+      },
+      {
+        "country": "",
+        "name": "CLOUDFLARENET - Cloudflare, Inc.",
+        "prefix": "2400:cb00:994::/48"
+      },
+      {
+        "country": "",
+        "name": "CLOUDFLARENET - Cloudflare, Inc.",
+        "prefix": "69.87.126.0/24"
+      },
+      {
+        "country": "",
+        "name": "CLOUDFLARENET - Cloudflare, Inc.",
+        "prefix": "2400:cb00:a622::/48"
+      },
+      {
+        "country": "",
+        "name": "CLOUDFLARENET - Cloudflare, Inc.",
+        "prefix": "104.24.160.0/20"
+      },
+      {
+        "country": "",
+        "name": "CLOUDFLARENET - Cloudflare, Inc.",
+        "prefix": "2606:4700:9a64::/46"
+      },
+      {
+        "country": "",
+        "name": "CLOUDFLARENET - Cloudflare, Inc.",
+        "prefix": "104.31.20.0/24"
+      },
+      {
+        "country": "",
+        "name": "CLOUDFLARENET - Cloudflare, Inc.",
+        "prefix": "2606:4700:3112::/48"
+      },
+      {
+        "country": "",
+        "name": "CLOUDFLARENET - Cloudflare, Inc.",
+        "prefix": "8.27.67.0/24"
+      },
+      {
+        "country": "",
+        "name": "CLOUDFLARENET - Cloudflare, Inc.",
+        "prefix": "8.34.70.0/24"
+      },
+      {
+        "country": "",
+        "name": "CLOUDFLARENET - Cloudflare, Inc.",
+        "prefix": "104.22.156.0/24"
+      },
+      {
+        "country": "",
+        "name": "CLOUDFLARENET - Cloudflare, Inc.",
+        "prefix": "2400:cb00:a891::/48"
+      },
+      {
+        "country": "",
+        "name": "CLOUDFLARENET - Cloudflare, Inc.",
+        "prefix": "104.29.183.0/24"
+      },
+      {
+        "country": "",
+        "name": "CLOUDFLARENET - Cloudflare, Inc.",
+        "prefix": "104.28.36.0/24"
+      },
+      {
+        "country": "",
+        "name": "CLOUDFLARENET - Cloudflare, Inc.",
+        "prefix": "2400:cb00:b0d1::/48"
+      },
+      {
+        "country": "",
+        "name": "CLOUDFLARENET - Cloudflare, Inc.",
+        "prefix": "2400:cb00:732::/48"
+      },
+      {
+        "country": "",
+        "name": "CLOUDFLARENET - Cloudflare, Inc.",
+        "prefix": "172.69.10.0/24"
+      },
+      {
+        "country": "",
+        "name": "CLOUDFLARENET - Cloudflare, Inc.",
+        "prefix": "2400:cb00:bc32::/48"
+      },
+      {
+        "country": "",
+        "name": "CLOUDFLARENET - Cloudflare, Inc.",
+        "prefix": "2606:4700:90cb::/48"
+      },
+      {
+        "country": "",
+        "name": "CLOUDFLARENET - Cloudflare, Inc.",
+        "prefix": "2400:cb00:709::/48"
+      },
+      {
+        "country": "",
+        "name": "CLOUDFLARENET - Cloudflare, Inc.",
+        "prefix": "2400:cb00:a726::/48"
+      },
+      {
+        "country": "",
+        "name": "CLOUDFLARENET - Cloudflare, Inc.",
+        "prefix": "2400:cb00:ce95::/48"
+      },
+      {
+        "country": "",
+        "name": "CLOUDFLARENET - Cloudflare, Inc.",
+        "prefix": "2400:cb00:725::/48"
+      },
+      {
+        "country": "",
+        "name": "CLOUDFLARENET - Cloudflare, Inc.",
+        "prefix": "2400:cb00:600::/48"
+      },
+      {
+        "country": "",
+        "name": "CLOUDFLARENET - Cloudflare, Inc.",
+        "prefix": "2400:cb00:bd74::/48"
+      },
+      {
+        "country": "",
+        "name": "CLOUDFLARENET - Cloudflare, Inc.",
+        "prefix": "104.19.32.0/20"
+      },
+      {
+        "country": "",
+        "name": "CLOUDFLARENET - Cloudflare, Inc.",
+        "prefix": "2400:cb00:a1b8::/48"
+      },
+      {
+        "country": "",
+        "name": "CLOUDFLARENET - Cloudflare, Inc.",
+        "prefix": "2400:cb00:d192::/48"
+      },
+      {
+        "country": "",
+        "name": "CLOUDFLARENET - Cloudflare, Inc.",
+        "prefix": "2400:cb00:dc43::/48"
+      },
+      {
+        "country": "",
+        "name": "CLOUDFLARENET - Cloudflare, Inc.",
+        "prefix": "2400:cb00:a164::/48"
+      },
+      {
+        "country": "",
+        "name": "CLOUDFLARENET - Cloudflare, Inc.",
+        "prefix": "2400:cb00:dde5::/48"
+      },
+      {
+        "country": "",
+        "name": "CLOUDFLARENET - Cloudflare, Inc.",
+        "prefix": "162.158.167.0/24"
+      }
+    ],
+    "country": "",
+    "ip": "104.18.13.149",
+    "prefix_count": 5391,
+    "source": "RIPEstat",
+    "truncated": true
+  },
+  "tool": "asn_lookup"
+}

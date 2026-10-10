@@ -1,0 +1,225 @@
+{
+  "arguments": {
+    "domain": "wikipedia.org"
+  },
+  "result": {
+    "capture_count": 10000,
+    "date_range": {
+      "first": "2001-07-27",
+      "last": "2026-09-12"
+    },
+    "domain": "wikipedia.org",
+    "interesting_urls": [
+      {
+        "timestamp": "2023-12-19",
+        "url": "https://www.wikipedia.org/%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Journal%20of%20Marketing%20Development%20and%20Competitiveness%20Vol.%2010(2)%202016%20%20%20%20%20109"
+      },
+      {
+        "timestamp": "2024-06-02",
+        "url": "https://www.wikipedia.org/%20%20%20%C2%A9%20Copyright%202009%20Hewlett-Packard%20Development%20Company,%20L.P.%20%20"
+      },
+      {
+        "timestamp": "2024-05-22",
+        "url": "http://www.wikipedia.org/%20%20%20%C2%A9%20Copyright%202009%20Hewlett-Packard%20Development%20Company,%20L.P.%20%20The%20information%20contained%20herein%20is%20subject%20to%20change%20without%20notice.%20%20"
+      },
+      {
+        "timestamp": "2024-05-21",
+        "url": "https://www.wikipedia.org/%20%20%20%C2%A9%20Copyright%202009%20Hewlett-Packard%20Development%20Company,%20L.P.%20%20The%20information%20contained%20herein%20is%20subject%20to%20change%20without%20notice.%20%20The%20only%20warranties%20for%20HP%20products%20and%20services%20are%20set%20forth%20in%20the%20express%20warranty%20"
+      },
+      {
+        "timestamp": "2024-05-26",
+        "url": "https://www.wikipedia.org/%20%20%20%C2%A9%20Copyright%202009%20Hewlett-Packard%20Development%20Company,%20L.P.%20%20The%20information%20contained%20herein%20is%20subject%20to%20change%20without%20notice.%20%20The%20only%20warranties%20for%20HP%20products%20and%20services%20are%20set%20forth%20in%20the%20express%20warranty%20statements%20accompanying%20such%20products%20and%20services.%20%20"
+      },
+      {
+        "timestamp": "2024-05-20",
+        "url": "https://www.wikipedia.org/%20%20%20%C2%A9%20Copyright%202009%20Hewlett-Packard%20Development%20Company,%20L.P.%20%20The%20information%20contained%20herein%20is%20subject%20to%20change%20without%20notice.%20%20The%20only%20warranties%20for%20HP%20products%20and%20services%20are%20set%20forth%20in%20the%20express%20warranty%20statements%20accompanying%20such%20products%20and%20services.%20%20Nothing%20herein%20should%20be%20construed%20as%20constituting%20an%20additional%20warranty.%20%20"
+      },
+      {
+        "timestamp": "2024-05-20",
+        "url": "https://www.wikipedia.org/%20%20%20%C2%A9%20Copyright%202009%20Hewlett-Packard%20Development%20Company,%20L.P.%20%20The%20information%20contained%20herein%20is%20subject%20to%20change%20without%20notice.%20%20The%20only%20warranties%20for%20HP%20products%20and%20services%20are%20set%20forth%20in%20the%20express%20warranty%20statements%20accompanying%20such%20products%20and%20services.%20%20Nothing%20herein%20should%20be%20construed%20as%20constituting%20an%20additional%20warranty.%20%20HP%20shall%20not%20be%20liable%20for%20technical%20or%20editorial%20errors%20or%20omissions%20contained%20herein."
+      },
+      {
+        "timestamp": "2024-08-07",
+        "url": "https://www.wikipedia.org/%20%20%201.%E2%80%9CThe%20%20Balkans%20%20and%20%20its%20%20Integration%20%20to%20%20European%20%20Space%E2%80%9D,%20%20Assoc.%20%20Prof.%20%20Dr.%20%20Julia%20Spiridonova,%20National%20Centre%20for%20Regional%20Development%20and%20Housing%20Policy,%20Sofia,%20"
+      },
+      {
+        "timestamp": "2024-08-09",
+        "url": "https://www.wikipedia.org/%20%20%201.%E2%80%9CThe%20%20Balkans%20%20and%20%20its%20%20Integration%20%20to%20%20European%20%20Space%E2%80%9D,%20%20Assoc.%20%20Prof.%20%20Dr.%20%20Julia%20Spiridonova,%20National%20Centre%20for%20Regional%20Development%20and%20Housing%20Policy,%20Sofia,%20Bulgaria%20"
+      },
+      {
+        "timestamp": "2024-08-08",
+        "url": "https://www.wikipedia.org/%20%20%201.%E2%80%9CThe%20%20Balkans%20%20and%20%20its%20%20Integration%20%20to%20%20European%20%20Space%E2%80%9D,%20%20Assoc.%20%20Prof.%20%20Dr.%20%20Julia%20Spiridonova,%20National%20Centre%20for%20Regional%20Development%20and%20Housing%20Policy,%20Sofia,%20Bulgaria%20%20%20Articles%20"
+      },
+      {
+        "timestamp": "2024-08-09",
+        "url": "https://www.wikipedia.org/%20%20%201.%E2%80%9CThe%20%20Balkans%20%20and%20%20its%20%20Integration%20%20to%20%20European%20%20Space%E2%80%9D,%20%20Assoc.%20%20Prof.%20%20Dr.%20%20Julia%20Spiridonova,%20National%20Centre%20for%20Regional%20Development%20and%20Housing%20Policy,%20Sofia,%20Bulgaria%20%20%20Articles%20%20"
+      },
+      {
+        "timestamp": "2024-08-08",
+        "url": "https://www.wikipedia.org/%20%20%201.%E2%80%9CThe%20%20Balkans%20%20and%20%20its%20%20Integration%20%20to%20%20European%20%20Space%E2%80%9D,%20%20Assoc.%20%20Prof.%20%20Dr.%20%20Julia%20Spiridonova,%20National%20Centre%20for%20Regional%20Development%20and%20Housing%20Policy,%20Sofia,%20Bulgaria%20%20%20Articles%20%202.%E2%80%9CDO%20%20FOREIGN%20%20DIRECT%20%20INVESTMENTS%20%20INCREASE%20%20THE%20%20ECONOMIC%20"
+      },
+      {
+        "timestamp": "2024-08-09",
+        "url": "https://www.wikipedia.org/%20%20%201.%E2%80%9CThe%20%20Balkans%20%20and%20%20its%20%20Integration%20%20to%20%20European%20%20Space%E2%80%9D,%20%20Assoc.%20%20Prof.%20%20Dr.%20%20Julia%20Spiridonova,%20National%20Centre%20for%20Regional%20Development%20and%20Housing%20Policy,%20Sofia,%20Bulgaria%20%20%20Articles%20%202.%E2%80%9CDO%20%20FOREIGN%20%20DIRECT%20%20INVESTMENTS%20%20INCREASE%20%20THE%20%20ECONOMIC%20GROWTH%20%20OF%20%20SOUTHEASTERN%20%20EUROPEAN%20%20TRANSITION%20%20ECONOMIES"
+      },
+      {
+        "timestamp": "2024-08-09",
+        "url": "https://www.wikipedia.org/%20%20%201.%E2%80%9CThe%20%20Balkans%20%20and%20%20its%20%20Integration%20%20to%20%20European%20%20Space%E2%80%9D,%20%20Assoc.%20%20Prof.%20%20Dr.%20%20Julia%20Spiridonova,%20National%20Centre%20for%20Regional%20Development%20and%20Housing%20Policy,%20Sofia,%20Bulgaria%20%20%20Articles%20%202.%E2%80%9CDO%20%20FOREIGN%20%20DIRECT%20%20INVESTMENTS%20%20INCREASE%20%20THE%20%20ECONOMIC%20GROWTH%20%20OF%20%20SOUTHEASTERN%20%20EUROPEAN%20%20TRANSITION%20%20ECONOMIES?%E2%80%9D%20"
+      },
+      {
+        "timestamp": "2024-08-08",
+        "url": "https://www.wikipedia.org/%20%20%201.%E2%80%9CThe%20%20Balkans%20%20and%20%20its%20%20Integration%20%20to%20%20European%20%20Space%E2%80%9D,%20%20Assoc.%20%20Prof.%20%20Dr.%20%20Julia%20Spiridonova,%20National%20Centre%20for%20Regional%20Development%20and%20Housing%20Policy,%20Sofia,%20Bulgaria%20%20%20Articles%20%202.%E2%80%9CDO%20%20FOREIGN%20%20DIRECT%20%20INVESTMENTS%20%20INCREASE%20%20THE%20%20ECONOMIC%20GROWTH%20%20OF%20%20SOUTHEASTERN%20%20EUROPEAN%20%20TRANSITION%20%20ECONOMIES?%E2%80%9D%20NENAD%20%20STANISIC%20%20University%20%20of%20%20Kragujevac%20%20N.%20%20STANISIC,%20%20South-Eastern%20"
+      },
+      {
+        "timestamp": "2024-08-09",
+        "url": "https://www.wikipedia.org/%20%20%201.%E2%80%9CThe%20%20Balkans%20%20and%20%20its%20%20Integration%20%20to%20%20European%20%20Space%E2%80%9D,%20%20Assoc.%20%20Prof.%20%20Dr.%20%20Julia%20Spiridonova,%20National%20Centre%20for%20Regional%20Development%20and%20Housing%20Policy,%20Sofia,%20Bulgaria%20%20%20Articles%20%202.%E2%80%9CDO%20%20FOREIGN%20%20DIRECT%20%20INVESTMENTS%20%20INCREASE%20%20THE%20%20ECONOMIC%20GROWTH%20%20OF%20%20SOUTHEASTERN%20%20EUROPEAN%20%20TRANSITION%20%20ECONOMIES?%E2%80%9D%20NENAD%20%20STANISIC%20%20University%20%20of%20%20Kragujevac%20%20N.%20%20STANISIC,%20%20South-Eastern%20Europe%20Journal%20of%20Economics%201%20(2008)%2029-38%2033%20"
+      },
+      {
+        "timestamp": "2024-08-08",
+        "url": "https://www.wikipedia.org/%20%20%201.%E2%80%9CThe%20%20Balkans%20%20and%20%20its%20%20Integration%20%20to%20%20European%20%20Space%E2%80%9D,%20%20Assoc.%20%20Prof.%20%20Dr.%20%20Julia%20Spiridonova,%20National%20Centre%20for%20Regional%20Development%20and%20Housing%20Policy,%20Sofia,%20Bulgaria%20%20%20Articles%20%202.%E2%80%9CDO%20%20FOREIGN%20%20DIRECT%20%20INVESTMENTS%20%20INCREASE%20%20THE%20%20ECONOMIC%20GROWTH%20%20OF%20%20SOUTHEASTERN%20%20EUROPEAN%20%20TRANSITION%20%20ECONOMIES?%E2%80%9D%20NENAD%20%20STANISIC%20%20University%20%20of%20%20Kragujevac%20%20N.%20%20STANISIC,%20%20South-Eastern%20Europe%20Journal%20of%20Economics%201%20(2008)%2029-38%2033%20%20"
+      },
+      {
+        "timestamp": "2024-08-08",
+        "url": "https://www.wikipedia.org/%20%20%201.%E2%80%9CThe%20%20Balkans%20%20and%20%20its%20%20Integration%20%20to%20%20European%20%20Space%E2%80%9D,%20%20Assoc.%20%20Prof.%20%20Dr.%20%20Julia%20Spiridonova,%20National%20Centre%20for%20Regional%20Development%20and%20Housing%20Policy,%20Sofia,%20Bulgaria%20%20%20Articles%20%202.%E2%80%9CDO%20%20FOREIGN%20%20DIRECT%20%20INVESTMENTS%20%20INCREASE%20%20THE%20%20ECONOMIC%20GROWTH%20%20OF%20%20SOUTHEASTERN%20%20EUROPEAN%20%20TRANSITION%20%20ECONOMIES?%E2%80%9D%20NENAD%20%20STANISIC%20%20University%20%20of%20%20Kragujevac%20%20N.%20%20STANISIC,%20%20South-Eastern%20Europe%20Journal%20of%20Economics%201%20(2008)%2029-38%2033%20%203.%E2%80%9CBanking%20in%20the%20Balkans:%20the%20structure%20of%20banking%20sectors%20in%20Southeast%20Europe%E2%80%9D%20"
+      },
+      {
+        "timestamp": "2024-08-09",
+        "url": "https://www.wikipedia.org/%20%20%201.%E2%80%9CThe%20%20Balkans%20%20and%20%20its%20%20Integration%20%20to%20%20European%20%20Space%E2%80%9D,%20%20Assoc.%20%20Prof.%20%20Dr.%20%20Julia%20Spiridonova,%20National%20Centre%20for%20Regional%20Development%20and%20Housing%20Policy,%20Sofia,%20Bulgaria%20%20%20Articles%20%202.%E2%80%9CDO%20%20FOREIGN%20%20DIRECT%20%20INVESTMENTS%20%20INCREASE%20%20THE%20%20ECONOMIC%20GROWTH%20%20OF%20%20SOUTHEASTERN%20%20EUROPEAN%20%20TRANSITION%20%20ECONOMIES?%E2%80%9D%20NENAD%20%20STANISIC%20%20University%20%20of%20%20Kragujevac%20%20N.%20%20STANISIC,%20%20South-Eastern%20Europe%20Journal%20of%20Economics%201%20(2008)%2029-38%2033%20%203.%E2%80%9CBanking%20in%20the%20Balkans:%20the%20structure%20of%20banking%20sectors%20in%20Southeast%20Europe%E2%80%9D%20John%20P.%20Bonin%20,Department%20of%20Economics,%20Wesleyan%20University,%20Middletown,%20CT%20"
+      },
+      {
+        "timestamp": "2024-08-08",
+        "url": "https://www.wikipedia.org/%20%20%201.%E2%80%9CThe%20%20Balkans%20%20and%20%20its%20%20Integration%20%20to%20%20European%20%20Space%E2%80%9D,%20%20Assoc.%20%20Prof.%20%20Dr.%20%20Julia%20Spiridonova,%20National%20Centre%20for%20Regional%20Development%20and%20Housing%20Policy,%20Sofia,%20Bulgaria%20%20%20Articles%20%202.%E2%80%9CDO%20%20FOREIGN%20%20DIRECT%20%20INVESTMENTS%20%20INCREASE%20%20THE%20%20ECONOMIC%20GROWTH%20%20OF%20%20SOUTHEASTERN%20%20EUROPEAN%20%20TRANSITION%20%20ECONOMIES?%E2%80%9D%20NENAD%20%20STANISIC%20%20University%20%20of%20%20Kragujevac%20%20N.%20%20STANISIC,%20%20South-Eastern%20Europe%20Journal%20of%20Economics%201%20(2008)%2029-38%2033%20%203.%E2%80%9CBanking%20in%20the%20Balkans:%20the%20structure%20of%20banking%20sectors%20in%20Southeast%20Europe%E2%80%9D%20John%20P.%20Bonin%20,Department%20of%20Economics,%20Wesleyan%20University,%20Middletown,%20CT%2006459,%20USA%20and%20William%20Davidson%20Institute,%20University%20of%20Michigan%20School%20of%20"
+      },
+      {
+        "timestamp": "2024-08-07",
+        "url": "https://www.wikipedia.org/%20%20%201.%E2%80%9CThe%20%20Balkans%20%20and%20%20its%20%20Integration%20%20to%20%20European%20%20Space%E2%80%9D,%20%20Assoc.%20%20Prof.%20%20Dr.%20%20Julia%20Spiridonova,%20National%20Centre%20for%20Regional%20Development%20and%20Housing%20Policy,%20Sofia,%20Bulgaria%20%20%20Articles%20%202.%E2%80%9CDO%20%20FOREIGN%20%20DIRECT%20%20INVESTMENTS%20%20INCREASE%20%20THE%20%20ECONOMIC%20GROWTH%20%20OF%20%20SOUTHEASTERN%20%20EUROPEAN%20%20TRANSITION%20%20ECONOMIES?%E2%80%9D%20NENAD%20%20STANISIC%20%20University%20%20of%20%20Kragujevac%20%20N.%20%20STANISIC,%20%20South-Eastern%20Europe%20Journal%20of%20Economics%201%20(2008)%2029-38%2033%20%203.%E2%80%9CBanking%20in%20the%20Balkans:%20the%20structure%20of%20banking%20sectors%20in%20Southeast%20Europe%E2%80%9D%20John%20P.%20Bonin%20,Department%20of%20Economics,%20Wesleyan%20University,%20Middletown,%20CT%2006459,%20USA%20and%20William%20Davidson%20Institute,%20University%20of%20Michigan%20School%20of%20Business,%20Ann%20Arbor,%20MI,%20USA%20"
+      },
+      {
+        "timestamp": "2024-08-07",
+        "url": "https://www.wikipedia.org/%20%20%201.%E2%80%9CThe%20%20Balkans%20%20and%20%20its%20%20Integration%20%20to%20%20European%20%20Space%E2%80%9D,%20%20Assoc.%20%20Prof.%20%20Dr.%20%20Julia%20Spiridonova,%20National%20Centre%20for%20Regional%20Development%20and%20Housing%20Policy,%20Sofia,%20Bulgaria%20%20%20Articles%20%202.%E2%80%9CDO%20%20FOREIGN%20%20DIRECT%20%20INVESTMENTS%20%20INCREASE%20%20THE%20%20ECONOMIC%20GROWTH%20%20OF%20%20SOUTHEASTERN%20%20EUROPEAN%20%20TRANSITION%20%20ECONOMIES?%E2%80%9D%20NENAD%20%20STANISIC%20%20University%20%20of%20%20Kragujevac%20%20N.%20%20STANISIC,%20%20South-Eastern%20Europe%20Journal%20of%20Economics%201%20(2008)%2029-38%2033%20%203.%E2%80%9CBanking%20in%20the%20Balkans:%20the%20structure%20of%20banking%20sectors%20in%20Southeast%20Europe%E2%80%9D%20John%20P.%20Bonin%20,Department%20of%20Economics,%20Wesleyan%20University,%20Middletown,%20CT%2006459,%20USA%20and%20William%20Davidson%20Institute,%20University%20of%20Michigan%20School%20of%20Business,%20Ann%20Arbor,%20MI,%20USA%20%20"
+      },
+      {
+        "timestamp": "2024-08-09",
+        "url": "https://www.wikipedia.org/%20%20%201.%E2%80%9CThe%20%20Balkans%20%20and%20%20its%20%20Integration%20%20to%20%20European%20%20Space%E2%80%9D,%20%20Assoc.%20%20Prof.%20%20Dr.%20%20Julia%20Spiridonova,%20National%20Centre%20for%20Regional%20Development%20and%20Housing%20Policy,%20Sofia,%20Bulgaria%20%20%20Articles%20%202.%E2%80%9CDO%20%20FOREIGN%20%20DIRECT%20%20INVESTMENTS%20%20INCREASE%20%20THE%20%20ECONOMIC%20GROWTH%20%20OF%20%20SOUTHEASTERN%20%20EUROPEAN%20%20TRANSITION%20%20ECONOMIES?%E2%80%9D%20NENAD%20%20STANISIC%20%20University%20%20of%20%20Kragujevac%20%20N.%20%20STANISIC,%20%20South-Eastern%20Europe%20Journal%20of%20Economics%201%20(2008)%2029-38%2033%20%203.%E2%80%9CBanking%20in%20the%20Balkans:%20the%20structure%20of%20banking%20sectors%20in%20Southeast%20Europe%E2%80%9D%20John%20P.%20Bonin%20,Department%20of%20Economics,%20Wesleyan%20University,%20Middletown,%20CT%2006459,%20USA%20and%20William%20Davidson%20Institute,%20University%20of%20Michigan%20School%20of%20Business,%20Ann%20Arbor,%20MI,%20USA%20%204.%E2%80%9CRegional%20Integration%20Challenges%20in%20South%20East%20Europe:%20Banking%20Sector%20Trends%E2%80%9D%20"
+      },
+      {
+        "timestamp": "2024-08-09",
+        "url": "https://www.wikipedia.org/%20%20%201.%E2%80%9CThe%20%20Balkans%20%20and%20%20its%20%20Integration%20%20to%20%20European%20%20Space%E2%80%9D,%20%20Assoc.%20%20Prof.%20%20Dr.%20%20Julia%20Spiridonova,%20National%20Centre%20for%20Regional%20Development%20and%20Housing%20Policy,%20Sofia,%20Bulgaria%20%20%20Articles%20%202.%E2%80%9CDO%20%20FOREIGN%20%20DIRECT%20%20INVESTMENTS%20%20INCREASE%20%20THE%20%20ECONOMIC%20GROWTH%20%20OF%20%20SOUTHEASTERN%20%20EUROPEAN%20%20TRANSITION%20%20ECONOMIES?%E2%80%9D%20NENAD%20%20STANISIC%20%20University%20%20of%20%20Kragujevac%20%20N.%20%20STANISIC,%20%20South-Eastern%20Europe%20Journal%20of%20Economics%201%20(2008)%2029-38%2033%20%203.%E2%80%9CBanking%20in%20the%20Balkans:%20the%20structure%20of%20banking%20sectors%20in%20Southeast%20Europe%E2%80%9D%20John%20P.%20Bonin%20,Department%20of%20Economics,%20Wesleyan%20University,%20Middletown,%20CT%2006459,%20USA%20and%20William%20Davidson%20Institute,%20University%20of%20Michigan%20School%20of%20Business,%20Ann%20Arbor,%20MI,%20USA%20%204.%E2%80%9CRegional%20Integration%20Challenges%20in%20South%20East%20Europe:%20Banking%20Sector%20Trends%E2%80%9D%20George%20Stubos%20and%20Ioannis%20Tsikripis%20%20"
+      },
+      {
+        "timestamp": "2024-08-08",
+        "url": "https://www.wikipedia.org/%20%20%201.%E2%80%9CThe%20%20Balkans%20%20and%20%20its%20%20Integration%20%20to%20%20European%20%20Space%E2%80%9D,%20%20Assoc.%20%20Prof.%20%20Dr.%20%20Julia%20Spiridonova,%20National%20Centre%20for%20Regional%20Development%20and%20Housing%20Policy,%20Sofia,%20Bulgaria%20%20%20Articles%20%202.%E2%80%9CDO%20%20FOREIGN%20%20DIRECT%20%20INVESTMENTS%20%20INCREASE%20%20THE%20%20ECONOMIC%20GROWTH%20%20OF%20%20SOUTHEASTERN%20%20EUROPEAN%20%20TRANSITION%20%20ECONOMIES?%E2%80%9D%20NENAD%20%20STANISIC%20%20University%20%20of%20%20Kragujevac%20%20N.%20%20STANISIC,%20%20South-Eastern%20Europe%20Journal%20of%20Economics%201%20(2008)%2029-38%2033%20%203.%E2%80%9CBanking%20in%20the%20Balkans:%20the%20structure%20of%20banking%20sectors%20in%20Southeast%20Europe%E2%80%9D%20John%20P.%20Bonin%20,Department%20of%20Economics,%20Wesleyan%20University,%20Middletown,%20CT%2006459,%20USA%20and%20William%20Davidson%20Institute,%20University%20of%20Michigan%20School%20of%20Business,%20Ann%20Arbor,%20MI,%20USA%20%204.%E2%80%9CRegional%20Integration%20Challenges%20in%20South%20East%20Europe:%20Banking%20Sector%20Trends%E2%80%9D%20George%20Stubos%20and%20Ioannis%20Tsikripis%20%20%205.%E2%80%9CCompetition%20%20and%20%20concentration%20%20in%20%20the%20%20banking%20%20sector%20%20of%20%20the%20%20South%20%20Eastern%20"
+      },
+      {
+        "timestamp": "2024-08-09",
+        "url": "https://www.wikipedia.org/%20%20%201.%E2%80%9CThe%20%20Balkans%20%20and%20%20its%20%20Integration%20%20to%20%20European%20%20Space%E2%80%9D,%20%20Assoc.%20%20Prof.%20%20Dr.%20%20Julia%20Spiridonova,%20National%20Centre%20for%20Regional%20Development%20and%20Housing%20Policy,%20Sofia,%20Bulgaria%20%20%20Articles%20%202.%E2%80%9CDO%20%20FOREIGN%20%20DIRECT%20%20INVESTMENTS%20%20INCREASE%20%20THE%20%20ECONOMIC%20GROWTH%20%20OF%20%20SOUTHEASTERN%20%20EUROPEAN%20%20TRANSITION%20%20ECONOMIES?%E2%80%9D%20NENAD%20%20STANISIC%20%20University%20%20of%20%20Kragujevac%20%20N.%20%20STANISIC,%20%20South-Eastern%20Europe%20Journal%20of%20Economics%201%20(2008)%2029-38%2033%20%203.%E2%80%9CBanking%20in%20the%20Balkans:%20the%20structure%20of%20banking%20sectors%20in%20Southeast%20Europe%E2%80%9D%20John%20P.%20Bonin%20,Department%20of%20Economics,%20Wesleyan%20University,%20Middletown,%20CT%2006459,%20USA%20and%20William%20Davidson%20Institute,%20University%20of%20Michigan%20School%20of%20Business,%20Ann%20Arbor,%20MI,%20USA%20%204.%E2%80%9CRegional%20Integration%20Challenges%20in%20South%20East%20Europe:%20Banking%20Sector%20Trends%E2%80%9D%20George%20Stubos%20and%20Ioannis%20Tsikripis%20%20%205.%E2%80%9CCompetition%20%20and%20%20concentration%20%20in%20%20the%20%20banking%20%20sector%20%20of%20%20the%20%20South%20%20Eastern%20European%20%20region%E2%80%9D%20%20E.%20%20Mamatzakis,%20%20C.%20%20Staikourasa,,%20%20N.%20%20Koutsomanoli-Fillipaki%20"
+      },
+      {
+        "timestamp": "2024-08-09",
+        "url": "https://www.wikipedia.org/%20%20%201.%E2%80%9CThe%20%20Balkans%20%20and%20%20its%20%20Integration%20%20to%20%20European%20%20Space%E2%80%9D,%20%20Assoc.%20%20Prof.%20%20Dr.%20%20Julia%20Spiridonova,%20National%20Centre%20for%20Regional%20Development%20and%20Housing%20Policy,%20Sofia,%20Bulgaria%20%20%20Articles%20%202.%E2%80%9CDO%20%20FOREIGN%20%20DIRECT%20%20INVESTMENTS%20%20INCREASE%20%20THE%20%20ECONOMIC%20GROWTH%20%20OF%20%20SOUTHEASTERN%20%20EUROPEAN%20%20TRANSITION%20%20ECONOMIES?%E2%80%9D%20NENAD%20%20STANISIC%20%20University%20%20of%20%20Kragujevac%20%20N.%20%20STANISIC,%20%20South-Eastern%20Europe%20Journal%20of%20Economics%201%20(2008)%2029-38%2033%20%203.%E2%80%9CBanking%20in%20the%20Balkans:%20the%20structure%20of%20banking%20sectors%20in%20Southeast%20Europe%E2%80%9D%20John%20P.%20Bonin%20,Department%20of%20Economics,%20Wesleyan%20University,%20Middletown,%20CT%2006459,%20USA%20and%20William%20Davidson%20Institute,%20University%20of%20Michigan%20School%20of%20Business,%20Ann%20Arbor,%20MI,%20USA%20%204.%E2%80%9CRegional%20Integration%20Challenges%20in%20South%20East%20Europe:%20Banking%20Sector%20Trends%E2%80%9D%20George%20Stubos%20and%20Ioannis%20Tsikripis%20%20%205.%E2%80%9CCompetition%20%20and%20%20concentration%20%20in%20%20the%20%20banking%20%20sector%20%20of%20%20the%20%20South%20%20Eastern%20European%20%20region%E2%80%9D%20%20E.%20%20Mamatzakis,%20%20C.%20%20Staikourasa,,%20%20N.%20%20Koutsomanoli-Fillipaki%20Department%20%20of%20%20Accounting%20%20and%20%20Finance,%20%20Athens%20%20University%20%20of%20%20Economics%20%20and%20"
+      },
+      {
+        "timestamp": "2024-08-07",
+        "url": "https://www.wikipedia.org/%20%20%201.%E2%80%9CThe%20%20Balkans%20%20and%20%20its%20%20Integration%20%20to%20%20European%20%20Space%E2%80%9D,%20%20Assoc.%20%20Prof.%20%20Dr.%20%20Julia%20Spiridonova,%20National%20Centre%20for%20Regional%20Development%20and%20Housing%20Policy,%20Sofia,%20Bulgaria%20%20%20Articles%20%202.%E2%80%9CDO%20%20FOREIGN%20%20DIRECT%20%20INVESTMENTS%20%20INCREASE%20%20THE%20%20ECONOMIC%20GROWTH%20%20OF%20%20SOUTHEASTERN%20%20EUROPEAN%20%20TRANSITION%20%20ECONOMIES?%E2%80%9D%20NENAD%20%20STANISIC%20%20University%20%20of%20%20Kragujevac%20%20N.%20%20STANISIC,%20%20South-Eastern%20Europe%20Journal%20of%20Economics%201%20(2008)%2029-38%2033%20%203.%E2%80%9CBanking%20in%20the%20Balkans:%20the%20structure%20of%20banking%20sectors%20in%20Southeast%20Europe%E2%80%9D%20John%20P.%20Bonin%20,Department%20of%20Economics,%20Wesleyan%20University,%20Middletown,%20CT%2006459,%20USA%20and%20William%20Davidson%20Institute,%20University%20of%20Michigan%20School%20of%20Business,%20Ann%20Arbor,%20MI,%20USA%20%204.%E2%80%9CRegional%20Integration%20Challenges%20in%20South%20East%20Europe:%20Banking%20Sector%20Trends%E2%80%9D%20George%20Stubos%20and%20Ioannis%20Tsikripis%20%20%205.%E2%80%9CCompetition%20%20and%20%20concentration%20%20in%20%20the%20%20banking%20%20sector%20%20of%20%20the%20%20South%20%20Eastern%20European%20%20region%E2%80%9D%20%20E.%20%20Mamatzakis,%20%20C.%20%20Staikourasa,,%20%20N.%20%20Koutsomanoli-Fillipaki%20Department%20%20of%20%20Accounting%20%20and%20%20Finance,%20%20Athens%20%20University%20%20of%20%20Economics%20%20and%20Business,%20Athens,%20Greece%20Council%20of%20Economic%20Advisors,%20and%20University%20of%20Crete,%20"
+      },
+      {
+        "timestamp": "2024-08-09",
+        "url": "https://www.wikipedia.org/%20%20%201.%E2%80%9CThe%20%20Balkans%20%20and%20%20its%20%20Integration%20%20to%20%20European%20%20Space%E2%80%9D,%20%20Assoc.%20%20Prof.%20%20Dr.%20%20Julia%20Spiridonova,%20National%20Centre%20for%20Regional%20Development%20and%20Housing%20Policy,%20Sofia,%20Bulgaria%20%20%20Articles%20%202.%E2%80%9CDO%20%20FOREIGN%20%20DIRECT%20%20INVESTMENTS%20%20INCREASE%20%20THE%20%20ECONOMIC%20GROWTH%20%20OF%20%20SOUTHEASTERN%20%20EUROPEAN%20%20TRANSITION%20%20ECONOMIES?%E2%80%9D%20NENAD%20%20STANISIC%20%20University%20%20of%20%20Kragujevac%20%20N.%20%20STANISIC,%20%20South-Eastern%20Europe%20Journal%20of%20Economics%201%20(2008)%2029-38%2033%20%203.%E2%80%9CBanking%20in%20the%20Balkans:%20the%20structure%20of%20banking%20sectors%20in%20Southeast%20Europe%E2%80%9D%20John%20P.%20Bonin%20,Department%20of%20Economics,%20Wesleyan%20University,%20Middletown,%20CT%2006459,%20USA%20and%20William%20Davidson%20Institute,%20University%20of%20Michigan%20School%20of%20Business,%20Ann%20Arbor,%20MI,%20USA%20%204.%E2%80%9CRegional%20Integration%20Challenges%20in%20South%20East%20Europe:%20Banking%20Sector%20Trends%E2%80%9D%20George%20Stubos%20and%20Ioannis%20Tsikripis%20%20%205.%E2%80%9CCompetition%20%20and%20%20concentration%20%20in%20%20the%20%20banking%20%20sector%20%20of%20%20the%20%20South%20%20Eastern%20European%20%20region%E2%80%9D%20%20E.%20%20Mamatzakis,%20%20C.%20%20Staikourasa,,%20%20N.%20%20Koutsomanoli-Fillipaki%20Department%20%20of%20%20Accounting%20%20and%20%20Finance,%20%20Athens%20%20University%20%20of%20%20Economics%20%20and%20Business,%20Athens,%20Greece%20Council%20of%20Economic%20Advisors,%20and%20University%20of%20Crete,%20Greece%20"
+      },
+      {
+        "timestamp": "2024-08-09",
+        "url": "https://www.wikipedia.org/%20%20%201.%E2%80%9CThe%20%20Balkans%20%20and%20%20its%20%20Integration%20%20to%20%20European%20%20Space%E2%80%9D,%20%20Assoc.%20%20Prof.%20%20Dr.%20%20Julia%20Spiridonova,%20National%20Centre%20for%20Regional%20Development%20and%20Housing%20Policy,%20Sofia,%20Bulgaria%20%20%20Articles%20%202.%E2%80%9CDO%20%20FOREIGN%20%20DIRECT%20%20INVESTMENTS%20%20INCREASE%20%20THE%20%20ECONOMIC%20GROWTH%20%20OF%20%20SOUTHEASTERN%20%20EUROPEAN%20%20TRANSITION%20%20ECONOMIES?%E2%80%9D%20NENAD%20%20STANISIC%20%20University%20%20of%20%20Kragujevac%20%20N.%20%20STANISIC,%20%20South-Eastern%20Europe%20Journal%20of%20Economics%201%20(2008)%2029-38%2033%20%203.%E2%80%9CBanking%20in%20the%20Balkans:%20the%20structure%20of%20banking%20sectors%20in%20Southeast%20Europe%E2%80%9D%20John%20P.%20Bonin%20,Department%20of%20Economics,%20Wesleyan%20University,%20Middletown,%20CT%2006459,%20USA%20and%20William%20Davidson%20Institute,%20University%20of%20Michigan%20School%20of%20Business,%20Ann%20Arbor,%20MI,%20USA%20%204.%E2%80%9CRegional%20Integration%20Challenges%20in%20South%20East%20Europe:%20Banking%20Sector%20Trends%E2%80%9D%20George%20Stubos%20and%20Ioannis%20Tsikripis%20%20%205.%E2%80%9CCompetition%20%20and%20%20concentration%20%20in%20%20the%20%20banking%20%20sector%20%20of%20%20the%20%20South%20%20Eastern%20European%20%20region%E2%80%9D%20%20E.%20%20Mamatzakis,%20%20C.%20%20Staikourasa,,%20%20N.%20%20Koutsomanoli-Fillipaki%20Department%20%20of%20%20Accounting%20%20and%20%20Finance,%20%20Athens%20%20University%20%20of%20%20Economics%20%20and%20Business,%20Athens,%20Greece%20Council%20of%20Economic%20Advisors,%20and%20University%20of%20Crete,%20Greece%20%20"
+      },
+      {
+        "timestamp": "2024-08-08",
+        "url": "https://www.wikipedia.org/%20%20%201.%E2%80%9CThe%20%20Balkans%20%20and%20%20its%20%20Integration%20%20to%20%20European%20%20Space%E2%80%9D,%20%20Assoc.%20%20Prof.%20%20Dr.%20%20Julia%20Spiridonova,%20National%20Centre%20for%20Regional%20Development%20and%20Housing%20Policy,%20Sofia,%20Bulgaria%20%20%20Articles%20%202.%E2%80%9CDO%20%20FOREIGN%20%20DIRECT%20%20INVESTMENTS%20%20INCREASE%20%20THE%20%20ECONOMIC%20GROWTH%20%20OF%20%20SOUTHEASTERN%20%20EUROPEAN%20%20TRANSITION%20%20ECONOMIES?%E2%80%9D%20NENAD%20%20STANISIC%20%20University%20%20of%20%20Kragujevac%20%20N.%20%20STANISIC,%20%20South-Eastern%20Europe%20Journal%20of%20Economics%201%20(2008)%2029-38%2033%20%203.%E2%80%9CBanking%20in%20the%20Balkans:%20the%20structure%20of%20banking%20sectors%20in%20Southeast%20Europe%E2%80%9D%20John%20P.%20Bonin%20,Department%20of%20Economics,%20Wesleyan%20University,%20Middletown,%20CT%2006459,%20USA%20and%20William%20Davidson%20Institute,%20University%20of%20Michigan%20School%20of%20Business,%20Ann%20Arbor,%20MI,%20USA%20%204.%E2%80%9CRegional%20Integration%20Challenges%20in%20South%20East%20Europe:%20Banking%20Sector%20Trends%E2%80%9D%20George%20Stubos%20and%20Ioannis%20Tsikripis%20%20%205.%E2%80%9CCompetition%20%20and%20%20concentration%20%20in%20%20the%20%20banking%20%20sector%20%20of%20%20the%20%20South%20%20Eastern%20European%20%20region%E2%80%9D%20%20E.%20%20Mamatzakis,%20%20C.%20%20Staikourasa,,%20%20N.%20%20Koutsomanoli-Fillipaki%20Department%20%20of%20%20Accounting%20%20and%20%20Finance,%20%20Athens%20%20University%20%20of%20%20Economics%20%20and%20Business,%20Athens,%20Greece%20Council%20of%20Economic%20Advisors,%20and%20University%20of%20Crete,%20Greece%20%20%20"
+      },
+      {
+        "timestamp": "2024-06-29",
+        "url": "https://www.wikipedia.org/%20%20At%20the%20present,%20a%20great%20deal%20of%20research%20surrounds%20ECM%20production%20and%20the%20scaffold%20"
+      },
+      {
+        "timestamp": "2024-06-30",
+        "url": "https://www.wikipedia.org/%20%20At%20the%20present,%20a%20great%20deal%20of%20research%20surrounds%20ECM%20production%20and%20the%20scaffold%20selection,%20cell%20source,%20and%20in%20vitro%20culturing%20utilized%20with%20no%20clear%20penultimate%20identified.%20%20Indeed,%20"
+      },
+      {
+        "timestamp": "2024-06-29",
+        "url": "https://www.wikipedia.org/%20%20At%20the%20present,%20a%20great%20deal%20of%20research%20surrounds%20ECM%20production%20and%20the%20scaffold%20selection,%20cell%20source,%20and%20in%20vitro%20culturing%20utilized%20with%20no%20clear%20penultimate%20identified.%20%20Indeed,%20particular%20systems%20targeted%20for%20therapeutic%20TE%20approaches%20likely%20will%20require%20an%20optimized%20"
+      },
+      {
+        "timestamp": "2024-06-30",
+        "url": "https://www.wikipedia.org/%20%20At%20the%20present,%20a%20great%20deal%20of%20research%20surrounds%20ECM%20production%20and%20the%20scaffold%20selection,%20cell%20source,%20and%20in%20vitro%20culturing%20utilized%20with%20no%20clear%20penultimate%20identified.%20%20Indeed,%20particular%20systems%20targeted%20for%20therapeutic%20TE%20approaches%20likely%20will%20require%20an%20optimized%20selection%20of%20scaffold,%20cell,%20and%20conditioning,%20however,%20the%20variety%20of%20current%20permutations%20"
+      },
+      {
+        "timestamp": "2024-06-30",
+        "url": "https://www.wikipedia.org/%20%20At%20the%20present,%20a%20great%20deal%20of%20research%20surrounds%20ECM%20production%20and%20the%20scaffold%20selection,%20cell%20source,%20and%20in%20vitro%20culturing%20utilized%20with%20no%20clear%20penultimate%20identified.%20%20Indeed,%20particular%20systems%20targeted%20for%20therapeutic%20TE%20approaches%20likely%20will%20require%20an%20optimized%20selection%20of%20scaffold,%20cell,%20and%20conditioning,%20however,%20the%20variety%20of%20current%20permutations%20confounds%20efforts%20to%20evaluate%20the%20increasing%20body%20of%20literature%20surrounding%20TE.%20%20It%20is%20therefore%20"
+      },
+      {
+        "timestamp": "2024-06-30",
+        "url": "https://www.wikipedia.org/%20%20At%20the%20present,%20a%20great%20deal%20of%20research%20surrounds%20ECM%20production%20and%20the%20scaffold%20selection,%20cell%20source,%20and%20in%20vitro%20culturing%20utilized%20with%20no%20clear%20penultimate%20identified.%20%20Indeed,%20particular%20systems%20targeted%20for%20therapeutic%20TE%20approaches%20likely%20will%20require%20an%20optimized%20selection%20of%20scaffold,%20cell,%20and%20conditioning,%20however,%20the%20variety%20of%20current%20permutations%20confounds%20efforts%20to%20evaluate%20the%20increasing%20body%20of%20literature%20surrounding%20TE.%20%20It%20is%20therefore%20essential%20to%20create%20a%20consistent%20platform%20to%20study%20TE%20and%20the%20quality%20of%20ECM%20formed%20by%20scaffold,%20"
+      },
+      {
+        "timestamp": "2024-06-30",
+        "url": "https://www.wikipedia.org/%20%20At%20the%20present,%20a%20great%20deal%20of%20research%20surrounds%20ECM%20production%20and%20the%20scaffold%20selection,%20cell%20source,%20and%20in%20vitro%20culturing%20utilized%20with%20no%20clear%20penultimate%20identified.%20%20Indeed,%20particular%20systems%20targeted%20for%20therapeutic%20TE%20approaches%20likely%20will%20require%20an%20optimized%20selection%20of%20scaffold,%20cell,%20and%20conditioning,%20however,%20the%20variety%20of%20current%20permutations%20confounds%20efforts%20to%20evaluate%20the%20increasing%20body%20of%20literature%20surrounding%20TE.%20%20It%20is%20therefore%20essential%20to%20create%20a%20consistent%20platform%20to%20study%20TE%20and%20the%20quality%20of%20ECM%20formed%20by%20scaffold,%20cell,%20and%20conditioning%20selections%20in%20order%20to%20methodically%20investigate%20the%20isolated%20and%20synergistic%20"
+      },
+      {
+        "timestamp": "2024-07-04",
+        "url": "https://www.wikipedia.org/%20%20At%20the%20present,%20a%20great%20deal%20of%20research%20surrounds%20ECM%20production%20and%20the%20scaffold%20selection,%20cell%20source,%20and%20in%20vitro%20culturing%20utilized%20with%20no%20clear%20penultimate%20identified.%20%20Indeed,%20particular%20systems%20targeted%20for%20therapeutic%20TE%20approaches%20likely%20will%20require%20an%20optimized%20selection%20of%20scaffold,%20cell,%20and%20conditioning,%20however,%20the%20variety%20of%20current%20permutations%20confounds%20efforts%20to%20evaluate%20the%20increasing%20body%20of%20literature%20surrounding%20TE.%20%20It%20is%20therefore%20essential%20to%20create%20a%20consistent%20platform%20to%20study%20TE%20and%20the%20quality%20of%20ECM%20formed%20by%20scaffold,%20cell,%20and%20conditioning%20selections%20in%20order%20to%20methodically%20investigate%20the%20isolated%20and%20synergistic%20effects%20of%20design%20choices.%20%20"
+      },
+      {
+        "timestamp": "2020-03-09",
+        "url": "https://www.wikipedia.org/%204/4.mWPWHh2ljK7WKzPpjA-Xcpnrcf4p3jYgeRqtFi1mSpPE8qd5ytuNZ3ORPW1TX2b/S56FGJ8hFHRw0D0UrsGRVzJD8QXiu2R+h27VDJmby9SsNR9+Hw8INtTurEwNNpjWxOG0JB3R9YZa6TYw/ik8y3ZS2+Ch6pY/TWGYKO3pgEa0z8w6EIUup9ON.JARNmW4YikdqFWe/USAizA_=.aWVVwej/r+iEnSvg1HldOpZ922i+H6Cde96U8Bg286+szD3XkyB5SdbDiU/MkW66pNDfPYiiLovKoRvZOVpIOnnrro9fZ5hbXiJXowoIp5um0a4CDIuQszPVQX4I58Ork8t4cM7zWNstb/mGY6i09vhTZG+6vML5L5yvJMQIKm61eDH/XAklCya4b6Tb8FTP8qnjpGia+nUwaErMErXtrafjlmPVLT9tVrcqAQ2KzaWpD3EkekM1slomZHu6/AYqFiH303OPChrdXW210f3gAPkrbVBsN/V8uKdqsNPef6W5gFwEYuDW8pZm7hbAqELoQhXuOVatOkCmQlCFbnDa+WdOVI9svzSh1Bg9XbmQGjaQ6ZDcWkCekCU2HQmLB96hJCODkuVYNTZZiz3gwk9e3nsl/L9d2HCNWZKlUSpQLkkrpSutOJbheChwK+JBi4MalmGeyb0LtrvYG5B5XigCQjHZnJWDVi5dEZ5skOVvDTvoXEVF/upihetKZAaMK8oOu8V3GKyVbxHpFH0CqYcfB/8uzn2OYh1Xpk6qKeOWtuyRczwrYjpLgEEBgekAP/W2mMX6dThAzl2gODcSFAnTQGdM1glJFcfALjsMkMdLwX0p+Dyer0jBnvEuZBzVskjgQEBRGDaGHG3mR3f4Kxvt1diJEAFT8DKczPxY229eGKxIT1Dyf19YknGDTg==.0mBzaVmi3qD5u7muBoYUjEOdJubl2+PX21HGhx3A0iR4Pi3/wEIxH/IqagMbNPkHjHBd6GL03+HcbIjmpYVJ4A==.Av9ZGexsjXhpAlVFZUi6IxSVcwiAehuzU4HKij3sADI8.0%40"
+      }
+    ],
+    "sample_urls": [
+      "http://www.wikipedia.org:80/",
+      "http://www.wikipedia.org/!",
+      "https://www.wikipedia.org/!http://www.cnts.ua.ac.be/conll2003/",
+      "http://www.wikipedia.org:80/%22/",
+      "http://www.wikipedia.org/%22%22",
+      "https://www.wikipedia.org/%22%20%5Ct%20%22_blank",
+      "https://www.wikipedia.org/%22%20class=%22spon-link%20absolute%20shadow-lg%20bg-white%20rounded-full%20z-0%22%20style=%22left:%2060.6686px;%20top:%20180.107px;%20width:%2047.0876px;%20height:%2047.0876px;%20",
+      "https://www.wikipedia.org/%22%20rel='noopener'%20target='_blank'%3EWikipedia%3C/a%3E%20%E2%80%93%20for%20images%20%F0%9F%96%BC",
+      "https://www.wikipedia.org/%22%20rel=nofollow",
+      "http://www.wikipedia.org/%22%20target=%22_self",
+      "http://www.wikipedia.org/%22&gt;Wikipedia&lt;/a&gt",
+      "https://www.wikipedia.org/%22&gt;Wikipedia&lt;/a&gt;&lt;/li&gt",
+      "https://www.wikipedia.org/%22&gt;Wikipedia.org&lt;/a&gt",
+      "https://www.wikipedia.org/%22,",
+      "https://www.wikipedia.org/%22,%22alts%22:%5B%5D,%22httpStatus%22:200",
+      "https://www.wikipedia.org/%22,%22e%22:%22link%22,%22t%22:%22Wikipedia",
+      "https://www.wikipedia.org/%22%3E",
+      "http://www.wikipedia.org/%22%3Ehttp:",
+      "https://www.wikipedia.org/%22%3Ehttps://www.wikipedia.org/",
+      "https://www.wikipedia.org/%22%3EMr.Safiul",
+      "https://www.wikipedia.org/%22%3EMr.Safiul%3C/a&gt",
+      "http://www.wikipedia.org/%22%3EPhantom%3C/a%3E",
+      "https://www.wikipedia.org/%22%3Esite%3C/a%3E",
+      "https://www.wikipedia.org/%22%3Ewikipedia",
+      "https://www.wikipedia.org/%22%3EWikipedia%20bridge%20for%20many%20languages%3C/a%3E%3C/h2%3E",
+      "http://www.wikipedia.org/%22%3EWikipedia%3C/a%3E",
+      "http://www.wikipedia.org:80/%22ADD_DATE=%221049399912",
+      "https://www.wikipedia.org/%22http://web.archive.org/save/https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia-logo-v2_1x.png%22",
+      "http://www.wikipedia.org:80/%22target=%22_blank",
+      "http://www.wikipedia.org:80/\"target=\"_new",
+      "http://www.wikipedia.org:80/\"TARGET=\"blank",
+      "http://www.wikipedia.org:80/\"target=\"new_window",
+      "http://www.wikipedia.org:80/%22target=_%22blank",
+      "http://www.wikipedia.org:80/\"target=new",
+      "http://www.wikipedia.org:80/\"target=prev",
+      "http://www.wikipedia.org/%22The",
+      "https://www.wikipedia.org/%22%7D",
+      "https://www.wikipedia.org/$",
+      "https://www.wikipedia.org/%09",
+      "http://www.wikipedia.org:80/%09%09%09wiki/"
+    ],
+    "source": "web.archive.org",
+    "subdomain_count": 2,
+    "subdomains": [
+      "wikipedia.org",
+      "www.wikipedia.org"
+    ],
+    "truncated": true
+  },
+  "tool": "wayback_lookup"
+}

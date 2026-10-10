@@ -1,0 +1,39 @@
+{
+  "arguments": {
+    "domain": "qapilot.com"
+  },
+  "result": {
+    "creation_date": [
+      "2021-12-22T05:22:35+00:00",
+      "2021-12-22T00:22:35+00:00"
+    ],
+    "dnssec": "unsigned",
+    "domain": "qapilot.com",
+    "emails": [
+      "abuse@godaddy.com"
+    ],
+    "expiration_date": [
+      "2026-12-22T05:22:35+00:00",
+      "2026-12-22T00:22:35+00:00"
+    ],
+    "found": true,
+    "name_servers": [
+      "NS65.DOMAINCONTROL.COM",
+      "NS66.DOMAINCONTROL.COM"
+    ],
+    "registrant_country": "US",
+    "registrant_org": "Domains By Proxy, LLC",
+    "registrar": "GoDaddy.com, LLC",
+    "status": [
+      "clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited",
+      "clientRenewProhibited https://icann.org/epp#clientRenewProhibited",
+      "clientTransferProhibited https://icann.org/epp#clientTransferProhibited",
+      "clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited"
+    ],
+    "updated_date": [
+      "2025-12-11T10:40:23+00:00",
+      "2025-12-11T05:40:22+00:00"
+    ]
+  },
+  "tool": "whois_lookup"
+}

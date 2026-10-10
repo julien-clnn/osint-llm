@@ -1,0 +1,32 @@
+# Default scenario — osintllm's historical behavior before scenarios were
+# introduced (Phase 3). The system prompt built from it must stay identical
+# to the one hard-coded before scenarios existed:
+# see tests/test_scenarios.py::test_external_recon_prompt_unchanged_since_phase_3.
+#
+# `{fingerprint_clause}` is substituted by the code (agent.py) according to
+# the passive/active mode — it is the only field of this file that varies
+# dynamically.
+name: external_recon
+label: "External reconnaissance (red team)"
+
+mission: >-
+  Call the tools one at a time, building on previous results to decide what
+  to do next. Aim to use the relevant tools before concluding: WHOIS, DNS
+  records (dns_records_lookup: MX/TXT/NS, SPF/DMARC), subdomains,
+  geolocation, ASN, Wayback history, {fingerprint_clause}GitHub search, and
+  VirusTotal reputation. Exploit these signals: missing SPF/DMARC and missing
+  security headers degrade the posture; a malicious VirusTotal reputation and
+  abandoned infrastructure (Wayback subdomains, passive DNS) are signals to
+  report.
+
+tools: null  # no restriction: every tool of the passive/active mode
+
+report_sections:
+  - "IDENTITY / REGISTRATION"
+  - "DNS / E-MAIL POSTURE"
+  - "SUBDOMAINS"
+  - "INFRASTRUCTURE (IP / ASN)"
+  - "HISTORY & REPUTATION"
+
+risk_level_mapping: null
+max_iterations: null

@@ -1,0 +1,33 @@
+domain: abrush.ai
+subdomains:
+  expected_count: 5
+  known_sample:
+  - abrush.ai
+  - assets.abrush.ai
+  - data01.abrush.ai
+  - media.abrush.ai
+  - webview.abrush.ai
+  known_exclusions: []
+email_security:
+  spf: true
+  dmarc: true
+  dmarc_policy: none
+  dkim_selectors_found:
+  - google
+  - mail
+network:
+  expected_asn: 13335
+  expected_org_substring: Cloudflare
+  behind_cdn_proxy: true
+reputation:
+  verdict: clean
+  malicious_engines_min: 0
+must_contain:
+- DMARC present but with policy none (monitoring only, no active rejection)
+- Domain registered in November 2025 (young organization)
+- Hosted behind Cloudflare (ASN 13335)
+must_not_contain:
+- Must not present a DMARC none policy as equivalent to a reject or quarantine policy
+  — p=none neither blocks nor quarantines fraudulent email
+notes: Small, young organization (AI/creative sector), DMARC present but not enforced (p=none) — a nuance
+  to distinguish from a complete absence of DMARC (see pets.com, service-public.fr).

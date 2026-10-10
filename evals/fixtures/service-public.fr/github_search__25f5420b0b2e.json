@@ -1,0 +1,136 @@
+{
+  "arguments": {
+    "domain": "service-public.fr"
+  },
+  "result": {
+    "code_matches": [
+      {
+        "path": "2024/CVE-2024-29758.md",
+        "repo": "trickest/cve",
+        "snippet": "### Description\n\nImproper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Kienso Co-marquage service-public.Fr allows Reflected XSS.This issue affects Co-marquage service-public.Fr: from n/a through 0.5.72.\n\n### POC",
+        "url": "https://github.com/trickest/cve/blob/ff7dafee817d7add09a2fac8a0d56d5bed7f9e32/2024/CVE-2024-29758.md"
+      },
+      {
+        "path": "2024/CVE-2024-29908.md",
+        "repo": "trickest/cve",
+        "snippet": "### Description\n\nImproper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Kienso Co-marquage service-public.Fr allows Stored XSS.This issue affects Co-marquage service-public.Fr: from n/a through 0.5.71.\n\n### POC",
+        "url": "https://github.com/trickest/cve/blob/ff7dafee817d7add09a2fac8a0d56d5bed7f9e32/2024/CVE-2024-29908.md"
+      },
+      {
+        "path": "_pages/contact.md",
+        "repo": "betagouv/beta.gouv.fr",
+        "snippet": "**beta.gouv.fr** aide les administrations à concevoir des services numériques. Pour faire un retour sur un service, **contactez directement la bonne équipe**. Les coordonnées de chaque équipe sont accessibles sur la page dédiée au service numérique.\n\nPour un problème avec une démarche publique (impô",
+        "url": "https://github.com/betagouv/beta.gouv.fr/blob/2876a65fcd3f18fbf64b53f8a7365c19579888b2/_pages/contact.md"
+      },
+      {
+        "path": "_data/producteurs/ign.md",
+        "repo": "betagouv/api.gouv.fr",
+        "snippet": "- Mesurer (les variations du niveau de la mer, les mouvements de terrain, ...) ;\n  - Produire des données et les diffuser (via le [Géoportail](https://www.geoportail.gouv.fr/) par exemple, ou via des API).\n\nsite: https://www.ign.fr\nannuaire: https://lannuaire.service-public.fr/gouvernement/etablisse",
+        "url": "https://github.com/betagouv/api.gouv.fr/blob/58a95fa545c6d8df030d7d0b9ddf8f29425d53e5/_data/producteurs/ign.md"
+      },
+      {
+        "path": "_data/producteurs/bnf.md",
+        "repo": "betagouv/api.gouv.fr",
+        "snippet": "| data.bnf.fr | Les données de référence sur tous les auteurs, les œuvres et les thèmes publiés en France et recensés par la BnF |\n  | Gallica     | Les collections patrimoniales numérisées de la BnF, accessibles via une application web et par API                |\ncontact: https://www.bnf.fr/fr/cont",
+        "url": "https://github.com/betagouv/api.gouv.fr/blob/58a95fa545c6d8df030d7d0b9ddf8f29425d53e5/_data/producteurs/bnf.md"
+      },
+      {
+        "path": "_data/producteurs/ofb.md",
+        "repo": "betagouv/api.gouv.fr",
+        "snippet": "- les sites Natura 2000\n  - les réserves naturelles nationales (de chasse et de faune sauvage)\n  - les sites du conservatoire du littoral\ncontact: https://ofb.gouv.fr/contacts-et-implantations\nannuaire: https://lannuaire.service-public.fr/gouvernement/etablissement-public_172138\nsiteOpenData: https:",
+        "url": "https://github.com/betagouv/api.gouv.fr/blob/58a95fa545c6d8df030d7d0b9ddf8f29425d53e5/_data/producteurs/ofb.md"
+      },
+      {
+        "path": "docs/calendars/FR.md",
+        "repo": "holiday-calendar/holiday-calendar-java",
+        "snippet": "## Sources\n\n- No single official French government (service-public.fr or legifrance.gouv.fr) primary source was captured with a stable citation URL enumerating exactly these 11 dates in this pass; the \"jours fériés\" list is well-established public record under French labor law (Code du travail, Arti",
+        "url": "https://github.com/holiday-calendar/holiday-calendar-java/blob/f82193d5a7f0fb9bff262d1d2de4c06df7ac4efc/docs/calendars/FR.md"
+      },
+      {
+        "path": "bench/utils.ts",
+        "repo": "ghostery/adblocker",
+        "snippet": "'accuweather.com',\n  'mobafire.com',\n  'go.com',\n  'service-public.fr',\n  'clubic.com',\n  'goodreads.com',\n  'amazon.it',",
+        "url": "https://github.com/ghostery/adblocker/blob/ff8ed92b3648bdf49ba884b7d90c46d3dda4c366/bench/utils.ts"
+      },
+      {
+        "path": "_data/api/api_r2p.md",
+        "repo": "betagouv/api.gouv.fr",
+        "snippet": "- Un établissement bancaire\n    is_eligible: 0\n    description: |\n      Dans le cadre de la vérification de l’éligibilité au <External href=\"https://www.service-public.fr/particuliers/vosdroits/F2367\">LEP</External> les banques peuvent être considérées comme une administration au sens de <External h",
+        "url": "https://github.com/betagouv/api.gouv.fr/blob/58a95fa545c6d8df030d7d0b9ddf8f29425d53e5/_data/api/api_r2p.md"
+      },
+      {
+        "path": "pages/faq.js",
+        "repo": "datagouv/cadastre.data.gouv.fr",
+        "snippet": "<Question question='Je constate une erreur dans le plan cadastral, comment la faire corriger ?'>\n            <p>\n              Ce type de correction doit être demandé au Centre des impôts fonciers de votre département, dont vous trouverez les coordonnées sur <a href='https://www.service-public.fr/pa",
+        "url": "https://github.com/datagouv/cadastre.data.gouv.fr/blob/ca9e7fd5f09e04e4afafa1575b04dd5a8f1220b6/pages/faq.js"
+      }
+    ],
+    "code_search_enabled": true,
+    "domain": "service-public.fr",
+    "repository_count": 10,
+    "repository_matches": [
+      {
+        "description": "Skip to content github / docs Code Issues 80 Pull requests 35 Discussions Actions Projects 2 Security Insights Merge branch 'main' into 1862-Add-Travis-CI-migration-table  1862-Add-Travis-CI-migration-table (#1869, Iixixi/ZachryTylerWood#102, THEBOLCK79/docs#1, sbnbhk/docs#1) @martin389 martin389 co",
+        "repo": "Sfedfcv/redesigned-pancake",
+        "stars": 263,
+        "url": "https://github.com/Sfedfcv/redesigned-pancake"
+      },
+      {
+        "description": "{\"categories\":[{\"name\":\"Movies\",\"videos\":[{\"description\":\"La Radio-Télévision nationale congolaise est créée en 1945. Elle prend le nom de « Office zaïrois de radiodiffusion et de télévision (OZRT) » à l'époque du Zaïre de 1971 à 1997, elle était d'ailleurs la seule agence zaïroise à diffuser sur le",
+        "repo": "bermufine/dcmp",
+        "stars": 73,
+        "url": "https://github.com/bermufine/dcmp"
+      },
+      {
+        "description": "!DOCTYPE html> <html lang=\"en\" data-color-mode=\"auto\" data-light-theme=\"light\" data-dark-theme=\"dark\" data-a11y-animated-images=\"system\">   <head>     <meta charset=\"utf-8\">   <link rel=\"dns-prefetch\" href=\"https://github.githubassets.com\">   <link rel=\"dns-prefetch\" href=\"https://avatars.githubuser",
+        "repo": "chikitang/A",
+        "stars": 72,
+        "url": "https://github.com/chikitang/A"
+      },
+      {
+        "description": "SEIS 665 Assignment 2: Linux & Git Overview This week we will focus on becoming familiar with launching a Linux server and working with some basic Linux and Git commands. We will use AWS to launch and host the Linux server. AWS might seem a little confusing at this point. Don’t worry, we will gain m",
+        "repo": "nyaundid/EC2-AWS-AND-SHELL",
+        "stars": 56,
+        "url": "https://github.com/nyaundid/EC2-AWS-AND-SHELL"
+      },
+      {
+        "description": "# Awesome Keycloak [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)  # [<img src=\"https://www.keycloak.org/resources/images/keycloak_logo_480x108.png\">](https://github.com/thomasdarimont/awesom",
+        "repo": "BabyJ723/blast-ON",
+        "stars": 47,
+        "url": "https://github.com/BabyJ723/blast-ON"
+      },
+      {
+        "description": "PHPMailer PHPMailer – A full-featured email creation and transfer class for PHP Test status codecov.io Latest Stable Version Total Downloads License API Docs  Features Probably the world's most popular code for sending email from PHP! Used by many open-source projects: WordPress, Drupal, 1CRM, Sugar",
+        "repo": "MateusNobreSilva/app_send_mail",
+        "stars": 28,
+        "url": "https://github.com/MateusNobreSilva/app_send_mail"
+      },
+      {
+        "description": "Des idées de nouveaux services publics, sur le style de https://beta.gouv.fr/ficheproduit/",
+        "repo": "laem/gouv.plus",
+        "stars": 16,
+        "url": "https://github.com/laem/gouv.plus"
+      },
+      {
+        "description": "Une API pour les données de l'annuaire de service-public.fr",
+        "repo": "betagouv/annuaire-api",
+        "stars": 6,
+        "url": "https://github.com/betagouv/annuaire-api"
+      },
+      {
+        "description": "",
+        "repo": "10240418/frp_local_public_service",
+        "stars": 6,
+        "url": "https://github.com/10240418/frp_local_public_service"
+      },
+      {
+        "description": "MCP Server for French service-public.fr data - Fiches pratiques, Annuaire des administrations, Téléservices. Hosted on Cloudflare Workers.",
+        "repo": "OneNicolas/mcp-service-public",
+        "stars": 6,
+        "url": "https://github.com/OneNicolas/mcp-service-public"
+      }
+    ],
+    "source": "api.github.com"
+  },
+  "tool": "github_search"
+}

@@ -1,0 +1,49 @@
+{
+  "arguments": {
+    "domain": "craigslist.org"
+  },
+  "result": {
+    "creation_date": "1997-09-11T04:00:00+00:00",
+    "dnssec": "unsigned",
+    "domain": "craigslist.org",
+    "emails": [
+      "abusecomplaints@markmonitor.com",
+      "whoisrequest@markmonitor.com"
+    ],
+    "expiration_date": [
+      "2028-09-10T04:00:00+00:00",
+      "2028-09-10T00:00:00+00:00"
+    ],
+    "found": true,
+    "name_servers": [
+      "ns1a.craigslist.org",
+      "ns2a.craigslist.org",
+      "ns1f.craigslist.org",
+      "ns2f.craigslist.org",
+      "ns9a.craigslist.org",
+      "ns9f.craigslist.org"
+    ],
+    "registrant_country": "US",
+    "registrant_org": "Craigslist",
+    "registrar": "MarkMonitor, Inc.",
+    "status": [
+      "clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited",
+      "serverDeleteProhibited https://icann.org/epp#serverDeleteProhibited",
+      "clientTransferProhibited https://icann.org/epp#clientTransferProhibited",
+      "serverTransferProhibited https://icann.org/epp#serverTransferProhibited",
+      "clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited",
+      "serverUpdateProhibited https://icann.org/epp#serverUpdateProhibited",
+      "clientUpdateProhibited (https://www.icann.org/epp#clientUpdateProhibited)",
+      "clientTransferProhibited (https://www.icann.org/epp#clientTransferProhibited)",
+      "clientDeleteProhibited (https://www.icann.org/epp#clientDeleteProhibited)",
+      "serverUpdateProhibited (https://www.icann.org/epp#serverUpdateProhibited)",
+      "serverTransferProhibited (https://www.icann.org/epp#serverTransferProhibited)",
+      "serverDeleteProhibited (https://www.icann.org/epp#serverDeleteProhibited)"
+    ],
+    "updated_date": [
+      "2026-08-14T09:07:15+00:00",
+      "2026-08-09T09:07:13+00:00"
+    ]
+  },
+  "tool": "whois_lookup"
+}

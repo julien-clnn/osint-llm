@@ -1,0 +1,27 @@
+{
+  "arguments": {
+    "domain": "aspenriver6.com"
+  },
+  "result": {
+    "creation_date": "2026-08-18T22:11:22+00:00",
+    "dnssec": "unsigned",
+    "domain": "aspenriver6.com",
+    "emails": [
+      "domainabuse@service.aliyun.com"
+    ],
+    "expiration_date": "2027-08-18T22:11:22+00:00",
+    "found": true,
+    "name_servers": [
+      "ARIA.NS.CLOUDFLARE.COM",
+      "NERO.NS.CLOUDFLARE.COM"
+    ],
+    "registrant_country": "HK",
+    "registrant_org": null,
+    "registrar": "Dominet (HK) Limited",
+    "status": [
+      "ok https://icann.org/epp#ok"
+    ],
+    "updated_date": "2026-08-18T22:11:22+00:00"
+  },
+  "tool": "whois_lookup"
+}

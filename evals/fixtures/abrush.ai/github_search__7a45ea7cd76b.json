@@ -1,0 +1,27 @@
+{
+  "arguments": {
+    "domain": "abrush.ai"
+  },
+  "result": {
+    "code_matches": [
+      {
+        "path": "apps/web/content/legal/privacy.md",
+        "repo": "frontend-afei/luminabrush",
+        "snippet": "## 9. Contact Us\n\nIf you have any questions about this privacy policy or our practices, please contact us at: support@luminabrush.ai\n\n## 10. Cookie Policy",
+        "url": "https://github.com/frontend-afei/luminabrush/blob/39d5e8f774d039df4432f9725750b23b52b76d82/apps/web/content/legal/privacy.md"
+      },
+      {
+        "path": "apps/web/content/legal/terms.md",
+        "repo": "frontend-afei/luminabrush",
+        "snippet": "## 14. Severability\n\nIf any provision of these Terms is found to be unenforceable, the remaining provisions will remain in effect.\n\n## 15. Contact Information\n\nFor questions about these Terms, please contact us at: support@luminabrush.ai",
+        "url": "https://github.com/frontend-afei/luminabrush/blob/39d5e8f774d039df4432f9725750b23b52b76d82/apps/web/content/legal/terms.md"
+      }
+    ],
+    "code_search_enabled": true,
+    "domain": "abrush.ai",
+    "repository_count": 0,
+    "repository_matches": [],
+    "source": "api.github.com"
+  },
+  "tool": "github_search"
+}

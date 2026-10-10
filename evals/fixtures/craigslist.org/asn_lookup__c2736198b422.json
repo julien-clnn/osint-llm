@@ -1,0 +1,39 @@
+{
+  "arguments": {
+    "ip": "208.82.237.1"
+  },
+  "result": {
+    "announced_prefix": "208.82.236.0/22",
+    "asn": 22414,
+    "asn_description": "CRAIGS-NET-1 - Craigslist, Inc.",
+    "asn_name": "CRAIGS-NET-1 - Craigslist, Inc.",
+    "asn_prefixes": [
+      {
+        "country": "",
+        "name": "CRAIGS-NET-1 - Craigslist, Inc.",
+        "prefix": "208.82.236.0/22"
+      },
+      {
+        "country": "",
+        "name": "CRAIGS-NET-1 - Craigslist, Inc.",
+        "prefix": "208.82.238.0/24"
+      },
+      {
+        "country": "",
+        "name": "CRAIGS-NET-1 - Craigslist, Inc.",
+        "prefix": "2620:7e::/44"
+      },
+      {
+        "country": "",
+        "name": "CRAIGS-NET-1 - Craigslist, Inc.",
+        "prefix": "2620:7e:2::/48"
+      }
+    ],
+    "country": "",
+    "ip": "208.82.237.1",
+    "prefix_count": 4,
+    "source": "RIPEstat",
+    "truncated": false
+  },
+  "tool": "asn_lookup"
+}

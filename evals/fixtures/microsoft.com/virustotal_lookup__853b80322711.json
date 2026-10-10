@@ -1,0 +1,149 @@
+{
+  "arguments": {
+    "domain": "microsoft.com"
+  },
+  "result": {
+    "categories": [
+      "Business/Economy, Information Technology (alphaMountain.ai)",
+      "computersandsoftware",
+      "information technology",
+      "information technology"
+    ],
+    "domain": "microsoft.com",
+    "enabled": true,
+    "found": true,
+    "harmless_votes": 87,
+    "last_analysis_stats": {
+      "harmless": 58,
+      "malicious": 0,
+      "suspicious": 0,
+      "undetected": 31
+    },
+    "malicious_votes": 21,
+    "passive_dns": [
+      {
+        "ip_address": "13.107.253.57",
+        "last_resolved": 1788990277
+      },
+      {
+        "ip_address": "13.107.226.57",
+        "last_resolved": 1788990277
+      },
+      {
+        "ip_address": "150.171.109.193",
+        "last_resolved": 1788477739
+      },
+      {
+        "ip_address": "150.171.109.119",
+        "last_resolved": 1788401544
+      },
+      {
+        "ip_address": "150.171.110.24",
+        "last_resolved": 1788281933
+      },
+      {
+        "ip_address": "150.171.110.120",
+        "last_resolved": 1788259140
+      },
+      {
+        "ip_address": "150.171.110.121",
+        "last_resolved": 1788255664
+      },
+      {
+        "ip_address": "150.171.110.3",
+        "last_resolved": 1788249479
+      },
+      {
+        "ip_address": "150.171.109.107",
+        "last_resolved": 1788223408
+      },
+      {
+        "ip_address": "150.171.110.161",
+        "last_resolved": 1787936621
+      },
+      {
+        "ip_address": "150.171.109.241",
+        "last_resolved": 1787907329
+      },
+      {
+        "ip_address": "150.171.109.165",
+        "last_resolved": 1787757393
+      },
+      {
+        "ip_address": "150.171.109.106",
+        "last_resolved": 1787753596
+      },
+      {
+        "ip_address": "150.171.110.49",
+        "last_resolved": 1787743917
+      },
+      {
+        "ip_address": "150.171.109.229",
+        "last_resolved": 1787361162
+      },
+      {
+        "ip_address": "150.171.109.230",
+        "last_resolved": 1787361162
+      },
+      {
+        "ip_address": "13.107.226.64",
+        "last_resolved": 1785921828
+      },
+      {
+        "ip_address": "150.171.109.66",
+        "last_resolved": 1785646432
+      },
+      {
+        "ip_address": "150.171.110.103",
+        "last_resolved": 1784139912
+      },
+      {
+        "ip_address": "150.171.110.104",
+        "last_resolved": 1784138665
+      },
+      {
+        "ip_address": "13.107.253.41",
+        "last_resolved": 1783298076
+      },
+      {
+        "ip_address": "13.107.226.41",
+        "last_resolved": 1783298076
+      },
+      {
+        "ip_address": "150.171.109.214",
+        "last_resolved": 1783027824
+      },
+      {
+        "ip_address": "150.171.109.211",
+        "last_resolved": 1782973647
+      },
+      {
+        "ip_address": "150.171.110.211",
+        "last_resolved": 1782958860
+      },
+      {
+        "ip_address": "150.171.109.210",
+        "last_resolved": 1782958231
+      },
+      {
+        "ip_address": "150.171.109.212",
+        "last_resolved": 1782852622
+      },
+      {
+        "ip_address": "150.171.109.209",
+        "last_resolved": 1782792312
+      },
+      {
+        "ip_address": "150.171.109.215",
+        "last_resolved": 1782693911
+      },
+      {
+        "ip_address": "150.171.109.74",
+        "last_resolved": 1782683346
+      }
+    ],
+    "reputation": 48,
+    "source": "www.virustotal.com"
+  },
+  "tool": "virustotal_lookup"
+}

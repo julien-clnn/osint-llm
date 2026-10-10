@@ -1,0 +1,75 @@
+{
+  "arguments": {
+    "target": "theglobe.com"
+  },
+  "result": {
+    "ip_count": 5,
+    "locations": [
+      {
+        "as": "AS63949 Akamai Connected Cloud",
+        "city": "Frankfurt am Main",
+        "country": "Germany",
+        "country_code": "DE",
+        "ip": "139.162.174.209",
+        "isp": "Akamai Technologies, Inc.",
+        "lat": 50.1169,
+        "lon": 8.6837,
+        "org": "Linode",
+        "region": "Hesse"
+      },
+      {
+        "as": "AS63949 Akamai Connected Cloud",
+        "city": "Frankfurt am Main",
+        "country": "Germany",
+        "country_code": "DE",
+        "ip": "139.162.181.76",
+        "isp": "Akamai Technologies, Inc.",
+        "lat": 50.1169,
+        "lon": 8.6837,
+        "org": "Linode",
+        "region": "Hesse"
+      },
+      {
+        "as": "AS63949 Akamai Connected Cloud",
+        "city": "Frankfurt am Main",
+        "country": "Germany",
+        "country_code": "DE",
+        "ip": "172.104.149.86",
+        "isp": "Akamai Technologies",
+        "lat": 50.1169,
+        "lon": 8.6837,
+        "org": "Linode",
+        "region": "Hesse"
+      },
+      {
+        "as": "AS63949 Akamai Connected Cloud",
+        "city": "Frankfurt am Main",
+        "country": "Germany",
+        "country_code": "DE",
+        "ip": "172.104.203.186",
+        "isp": "Akamai Technologies",
+        "lat": 50.1169,
+        "lon": 8.6837,
+        "org": "Linode",
+        "region": "Hesse"
+      },
+      {
+        "as": "AS63949 Akamai Connected Cloud",
+        "city": "Frankfurt am Main",
+        "country": "Germany",
+        "country_code": "DE",
+        "ip": "172.104.251.198",
+        "isp": "Akamai Technologies",
+        "lat": 50.1169,
+        "lon": 8.6837,
+        "org": "Linode",
+        "region": "Hesse"
+      }
+    ],
+    "resolved_from_domain": "theglobe.com",
+    "source": "ip-api.com",
+    "target": "theglobe.com",
+    "truncated": false
+  },
+  "tool": "ip_geolocate"
+}

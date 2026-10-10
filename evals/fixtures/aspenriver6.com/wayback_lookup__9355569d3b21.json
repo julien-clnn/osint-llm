@@ -1,0 +1,15 @@
+{
+  "arguments": {
+    "domain": "aspenriver6.com"
+  },
+  "result": {
+    "capture_count": 0,
+    "domain": "aspenriver6.com",
+    "interesting_urls": [],
+    "note": "Aucune capture archivée trouvée pour ce domaine.",
+    "sample_urls": [],
+    "source": "web.archive.org",
+    "subdomains": []
+  },
+  "tool": "wayback_lookup"
+}

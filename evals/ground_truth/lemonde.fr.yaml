@@ -1,0 +1,34 @@
+domain: lemonde.fr
+subdomains:
+  expected_count: 81
+  known_sample:
+  - 80ans.lemonde.fr
+  - aboadmin.lemonde.fr
+  - aboapi.lemonde.fr
+  - abonnements.lemonde.fr
+  - abosh.lemonde.fr
+  known_exclusions: []
+email_security:
+  spf: true
+  dmarc: true
+  dmarc_policy: quarantine
+  dkim_selectors_found:
+  - google
+  - k1
+  - mail
+network:
+  expected_asn: 54113
+  expected_org_substring: Fastly
+  behind_cdn_proxy: true
+reputation:
+  verdict: clean
+  malicious_engines_min: 0
+must_contain:
+- Hosted behind the Fastly CDN (ASN 54113)
+- Wayback history going back to 1996
+- DMARC configured with policy quarantine
+- 81 subdomains found
+must_not_contain:
+- Must not present the geolocated IP location as Le Monde's actual headquarters or datacenter
+  — Fastly is a CDN, geolocation only reflects a point of presence
+notes: Long-standing French news outlet, a good case for a long Wayback history + French context.

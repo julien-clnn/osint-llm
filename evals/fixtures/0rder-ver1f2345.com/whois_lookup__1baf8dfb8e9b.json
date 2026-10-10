@@ -1,0 +1,31 @@
+{
+  "arguments": {
+    "domain": "0rder-ver1f2345.com"
+  },
+  "result": {
+    "creation_date": "2026-02-12T17:28:09+00:00",
+    "dnssec": "unsigned",
+    "domain": "0rder-ver1f2345.com",
+    "emails": [
+      "abuse@nicenic.net"
+    ],
+    "expiration_date": "2027-02-12T17:28:09+00:00",
+    "found": true,
+    "name_servers": [
+      "ALEXIS.NS.CLOUDFLARE.COM",
+      "FIONA.NS.CLOUDFLARE.COM"
+    ],
+    "registrant_country": "IS",
+    "registrant_org": null,
+    "registrar": "NICENIC INTERNATIONAL GROUP CO., LIMITED",
+    "status": [
+      "clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited",
+      "clientTransferProhibited https://icann.org/epp#clientTransferProhibited"
+    ],
+    "updated_date": [
+      "2026-02-18T01:11:26+00:00",
+      "2026-02-12T17:28:09+00:00"
+    ]
+  },
+  "tool": "whois_lookup"
+}

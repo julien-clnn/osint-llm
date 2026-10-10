@@ -1,0 +1,269 @@
+{
+  "arguments": {
+    "ip": "173.234.53.168"
+  },
+  "result": {
+    "announced_prefix": "173.234.52.0/22",
+    "asn": 395954,
+    "asn_description": "LEASEWEB-USA-LAX - Leaseweb USA, Inc.",
+    "asn_name": "LEASEWEB-USA-LAX - Leaseweb USA, Inc.",
+    "asn_prefixes": [
+      {
+        "country": "",
+        "name": "LEASEWEB-USA-LAX - Leaseweb USA, Inc.",
+        "prefix": "69.147.245.0/24"
+      },
+      {
+        "country": "",
+        "name": "LEASEWEB-USA-LAX - Leaseweb USA, Inc.",
+        "prefix": "172.255.40.0/22"
+      },
+      {
+        "country": "",
+        "name": "LEASEWEB-USA-LAX - Leaseweb USA, Inc.",
+        "prefix": "172.241.176.0/22"
+      },
+      {
+        "country": "",
+        "name": "LEASEWEB-USA-LAX - Leaseweb USA, Inc.",
+        "prefix": "185.202.175.0/24"
+      },
+      {
+        "country": "",
+        "name": "LEASEWEB-USA-LAX - Leaseweb USA, Inc.",
+        "prefix": "173.208.106.0/23"
+      },
+      {
+        "country": "",
+        "name": "LEASEWEB-USA-LAX - Leaseweb USA, Inc.",
+        "prefix": "142.91.72.0/21"
+      },
+      {
+        "country": "",
+        "name": "LEASEWEB-USA-LAX - Leaseweb USA, Inc.",
+        "prefix": "146.19.93.0/24"
+      },
+      {
+        "country": "",
+        "name": "LEASEWEB-USA-LAX - Leaseweb USA, Inc.",
+        "prefix": "142.234.160.0/21"
+      },
+      {
+        "country": "",
+        "name": "LEASEWEB-USA-LAX - Leaseweb USA, Inc.",
+        "prefix": "173.234.184.0/22"
+      },
+      {
+        "country": "",
+        "name": "LEASEWEB-USA-LAX - Leaseweb USA, Inc.",
+        "prefix": "142.234.64.0/20"
+      },
+      {
+        "country": "",
+        "name": "LEASEWEB-USA-LAX - Leaseweb USA, Inc.",
+        "prefix": "108.177.232.0/22"
+      },
+      {
+        "country": "",
+        "name": "LEASEWEB-USA-LAX - Leaseweb USA, Inc.",
+        "prefix": "188.93.138.0/24"
+      },
+      {
+        "country": "",
+        "name": "LEASEWEB-USA-LAX - Leaseweb USA, Inc.",
+        "prefix": "70.32.36.0/24"
+      },
+      {
+        "country": "",
+        "name": "LEASEWEB-USA-LAX - Leaseweb USA, Inc.",
+        "prefix": "142.91.216.0/21"
+      },
+      {
+        "country": "",
+        "name": "LEASEWEB-USA-LAX - Leaseweb USA, Inc.",
+        "prefix": "2607:f5b5:2::/48"
+      },
+      {
+        "country": "",
+        "name": "LEASEWEB-USA-LAX - Leaseweb USA, Inc.",
+        "prefix": "23.110.0.0/16"
+      },
+      {
+        "country": "",
+        "name": "LEASEWEB-USA-LAX - Leaseweb USA, Inc.",
+        "prefix": "108.177.172.0/22"
+      },
+      {
+        "country": "",
+        "name": "LEASEWEB-USA-LAX - Leaseweb USA, Inc.",
+        "prefix": "45.147.100.0/24"
+      },
+      {
+        "country": "",
+        "name": "LEASEWEB-USA-LAX - Leaseweb USA, Inc.",
+        "prefix": "172.255.64.0/20"
+      },
+      {
+        "country": "",
+        "name": "LEASEWEB-USA-LAX - Leaseweb USA, Inc.",
+        "prefix": "23.19.0.0/19"
+      },
+      {
+        "country": "",
+        "name": "LEASEWEB-USA-LAX - Leaseweb USA, Inc.",
+        "prefix": "64.120.96.0/22"
+      },
+      {
+        "country": "",
+        "name": "LEASEWEB-USA-LAX - Leaseweb USA, Inc.",
+        "prefix": "69.147.254.0/24"
+      },
+      {
+        "country": "",
+        "name": "LEASEWEB-USA-LAX - Leaseweb USA, Inc.",
+        "prefix": "173.208.92.0/22"
+      },
+      {
+        "country": "",
+        "name": "LEASEWEB-USA-LAX - Leaseweb USA, Inc.",
+        "prefix": "142.234.40.0/21"
+      },
+      {
+        "country": "",
+        "name": "LEASEWEB-USA-LAX - Leaseweb USA, Inc.",
+        "prefix": "23.80.0.0/16"
+      },
+      {
+        "country": "",
+        "name": "LEASEWEB-USA-LAX - Leaseweb USA, Inc.",
+        "prefix": "108.177.220.0/22"
+      },
+      {
+        "country": "",
+        "name": "LEASEWEB-USA-LAX - Leaseweb USA, Inc.",
+        "prefix": "152.163.132.0/22"
+      },
+      {
+        "country": "",
+        "name": "LEASEWEB-USA-LAX - Leaseweb USA, Inc.",
+        "prefix": "212.42.195.0/24"
+      },
+      {
+        "country": "",
+        "name": "LEASEWEB-USA-LAX - Leaseweb USA, Inc.",
+        "prefix": "212.42.199.0/24"
+      },
+      {
+        "country": "",
+        "name": "LEASEWEB-USA-LAX - Leaseweb USA, Inc.",
+        "prefix": "108.177.200.0/22"
+      },
+      {
+        "country": "",
+        "name": "LEASEWEB-USA-LAX - Leaseweb USA, Inc.",
+        "prefix": "108.187.0.0/16"
+      },
+      {
+        "country": "",
+        "name": "LEASEWEB-USA-LAX - Leaseweb USA, Inc.",
+        "prefix": "173.208.76.0/22"
+      },
+      {
+        "country": "",
+        "name": "LEASEWEB-USA-LAX - Leaseweb USA, Inc.",
+        "prefix": "23.19.200.0/22"
+      },
+      {
+        "country": "",
+        "name": "LEASEWEB-USA-LAX - Leaseweb USA, Inc.",
+        "prefix": "108.177.252.0/22"
+      },
+      {
+        "country": "",
+        "name": "LEASEWEB-USA-LAX - Leaseweb USA, Inc.",
+        "prefix": "172.255.128.0/21"
+      },
+      {
+        "country": "",
+        "name": "LEASEWEB-USA-LAX - Leaseweb USA, Inc.",
+        "prefix": "66.93.62.0/24"
+      },
+      {
+        "country": "",
+        "name": "LEASEWEB-USA-LAX - Leaseweb USA, Inc.",
+        "prefix": "45.81.149.0/24"
+      },
+      {
+        "country": "",
+        "name": "LEASEWEB-USA-LAX - Leaseweb USA, Inc.",
+        "prefix": "23.19.206.0/24"
+      },
+      {
+        "country": "",
+        "name": "LEASEWEB-USA-LAX - Leaseweb USA, Inc.",
+        "prefix": "173.208.119.0/24"
+      },
+      {
+        "country": "",
+        "name": "LEASEWEB-USA-LAX - Leaseweb USA, Inc.",
+        "prefix": "142.234.216.0/21"
+      },
+      {
+        "country": "",
+        "name": "LEASEWEB-USA-LAX - Leaseweb USA, Inc.",
+        "prefix": "147.255.80.0/20"
+      },
+      {
+        "country": "",
+        "name": "LEASEWEB-USA-LAX - Leaseweb USA, Inc.",
+        "prefix": "171.22.191.0/24"
+      },
+      {
+        "country": "",
+        "name": "LEASEWEB-USA-LAX - Leaseweb USA, Inc.",
+        "prefix": "45.92.77.0/24"
+      },
+      {
+        "country": "",
+        "name": "LEASEWEB-USA-LAX - Leaseweb USA, Inc.",
+        "prefix": "172.255.160.0/20"
+      },
+      {
+        "country": "",
+        "name": "LEASEWEB-USA-LAX - Leaseweb USA, Inc.",
+        "prefix": "108.62.204.0/22"
+      },
+      {
+        "country": "",
+        "name": "LEASEWEB-USA-LAX - Leaseweb USA, Inc.",
+        "prefix": "192.163.160.0/19"
+      },
+      {
+        "country": "",
+        "name": "LEASEWEB-USA-LAX - Leaseweb USA, Inc.",
+        "prefix": "142.234.152.0/21"
+      },
+      {
+        "country": "",
+        "name": "LEASEWEB-USA-LAX - Leaseweb USA, Inc.",
+        "prefix": "23.19.192.0/22"
+      },
+      {
+        "country": "",
+        "name": "LEASEWEB-USA-LAX - Leaseweb USA, Inc.",
+        "prefix": "66.93.58.0/24"
+      },
+      {
+        "country": "",
+        "name": "LEASEWEB-USA-LAX - Leaseweb USA, Inc.",
+        "prefix": "108.62.188.0/22"
+      }
+    ],
+    "country": "",
+    "ip": "173.234.53.168",
+    "prefix_count": 192,
+    "source": "RIPEstat",
+    "truncated": true
+  },
+  "tool": "asn_lookup"
+}

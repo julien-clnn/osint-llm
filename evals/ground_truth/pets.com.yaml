@@ -1,0 +1,33 @@
+domain: pets.com
+subdomains:
+  expected_count: 112
+  known_sample:
+  - 2023.pets--pets.com
+  - akesushi.pampered--pets.com
+  - anhuisheng.pampered--pets.com
+  - autoconfig.healthy--pets.com
+  - autodiscover.healthy--pets.com
+  known_exclusions: []
+email_security:
+  spf: false
+  dmarc: false
+  dmarc_policy: null
+  dkim_selectors_found: []
+network:
+  expected_asn: 16509
+  expected_org_substring: Amazon
+  behind_cdn_proxy: true
+reputation:
+  verdict: clean
+  malicious_engines_min: 0
+must_contain:
+- No SPF record
+- No DMARC record
+- Domain registered in 1994 (very old)
+must_not_contain:
+- Must not present the geolocated IP location (AWS Global Accelerator, an anycast service) as
+  the actual location of the infrastructure
+notes: Old dot-com (icon of the 2000 crash), MarkMonitor NS (defensive brand holding). 112
+  subdomains with generated names (e.g. 'pampered--pets.com') suggesting wildcard certificate noise
+  rather than a real service tree — to be treated with caution in recall, not as a list of
+  individually confirmed subdomains.

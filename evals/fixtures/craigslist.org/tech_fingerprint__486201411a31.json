@@ -1,0 +1,29 @@
+{
+  "arguments": {
+    "domain": "craigslist.org"
+  },
+  "result": {
+    "detected_tech": [],
+    "domain": "craigslist.org",
+    "final_url": "https://www.craigslist.org/area/paris",
+    "hardening_posture": "partielle",
+    "hardening_score": "3/6",
+    "scheme": "https",
+    "security_headers_missing": [
+      "X-Content-Type-Options",
+      "Referrer-Policy",
+      "Permissions-Policy"
+    ],
+    "security_headers_present": {
+      "CSP": "base-uri 'self' https://hcaptcha.com https://*.hcaptcha.com; child-src https://*.craigslist.org; connect-src https://*.craigslist.org https://hcaptcha.com https://*.hcaptcha.com; font-src data:; form-action https://*.craigslist.org; frame-ancestors https://*.craigslist.org; frame-src https://*.craigslist.org; media-src data:; object-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' https://*.craigslist.org https://hcaptcha.com https://*.hcaptcha.com; style-src 'unsafe-inline' https://*.craigslist.org https://hcaptcha.com https://*.hcaptcha.com",
+      "HSTS": "max-age=63072000",
+      "X-Frame-Options": "SAMEORIGIN"
+    },
+    "server": null,
+    "source": "requête HTTP unique vers la cible (headers only, UA navigateur)",
+    "status_code": 200,
+    "via_proxy": false,
+    "x_powered_by": null
+  },
+  "tool": "tech_fingerprint"
+}

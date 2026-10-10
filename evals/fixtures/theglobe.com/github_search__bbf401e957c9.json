@@ -1,0 +1,75 @@
+{
+  "arguments": {
+    "domain": "theglobe.com"
+  },
+  "result": {
+    "code_matches": [
+      {
+        "path": "2022_05_23.md",
+        "repo": "oxidecomputer/oxide-and-friends",
+        "snippet": "- pets.com [wiki](https://en.wikipedia.org/wiki/Pets.com)\n- [@11:00](https://youtu.be/hEIoCeqMbWU?t=660)\n  IPOs and public exposure\n  - theGlobe.com [wiki](https://en.wikipedia.org/wiki/TheGlobe.com)\n- [@18:20](https://youtu.be/hEIoCeqMbWU?t=1100)\n  \"The Correction\"\n  - Feasting like 19th century ro",
+        "url": "https://github.com/oxidecomputer/oxide-and-friends/blob/1bafdf70f5ac64e93731d7947e54d8f74fd028cc/2022_05_23.md"
+      },
+      {
+        "path": "domainlist.txt",
+        "repo": "snooppr/snoop",
+        "snippet": "@the-genius.com\n@the-gentleman.com\n@the-german.com\n@theglobe.com\n@thegolfcourse.com\n@thegolf.co.za\n@thegooner.com",
+        "url": "https://github.com/snooppr/snoop/blob/9f0f22abe74133b2535e7ac85dcdf9efc677a24f/domainlist.txt"
+      },
+      {
+        "path": "data/free.txt",
+        "repo": "willwhite/freemail",
+        "snippet": "thedoghousemail.com\nthedorm.com\ntheend.hu\ntheglobe.com\nthegolfcourse.com\nthegooner.com\ntheheadoffice.com",
+        "url": "https://github.com/willwhite/freemail/blob/5d69d4e6f03564c9083e3b669228479ba7d520f6/data/free.txt"
+      },
+      {
+        "path": "emails",
+        "repo": "clem9669/wordlists",
+        "snippet": "thedormcom\ntheend.hu\ntheendhu\ntheglobe.com\ntheglobecom\nthegolfcourse.com\nthegolfcoursecom",
+        "url": "https://github.com/clem9669/wordlists/blob/c09b9b147804e66b8988cc2b46bfc932041c7bce/emails"
+      },
+      {
+        "path": "emails.txt",
+        "repo": "megadose/Quidam",
+        "snippet": "thedoghousemail.com\nthedorm.com\ntheend.hu\ntheglobe.com\nthegolfcourse.com\nthegooner.com\ntheheadoffice.com",
+        "url": "https://github.com/megadose/Quidam/blob/261d503a81a878d903bb43be305ef46af71ad8ba/emails.txt"
+      },
+      {
+        "path": "list.txt",
+        "repo": "laylavish/uBlockOrigin-HUGE-AI-Blocklist",
+        "snippet": "duckduckgo.com,bing.com##a[href*=\"lazyriverdesignworks.com\"]:upward(li):remove()\nduckduckgo.com,bing.com##a[href*=\"catsaroundtheglobe.com\"]:upward(li):remove()\nduckduckgo.com,bing.com##a[href*=\"runcomfy.com\"]:upward(li):remove()",
+        "url": "https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/blob/9bb188e2701138e03f73bacebd6b19b181ca0012/list.txt"
+      },
+      {
+        "path": "noai_hosts.txt",
+        "repo": "laylavish/uBlockOrigin-HUGE-AI-Blocklist",
+        "snippet": "0.0.0.0 lazyriverdesignworks.com\r\n0.0.0.0 catsaroundtheglobe.com\r\n0.0.0.0 runcomfy.com",
+        "url": "https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist/blob/9bb188e2701138e03f73bacebd6b19b181ca0012/noai_hosts.txt"
+      },
+      {
+        "path": "Gameboy/gbrom.txt",
+        "repo": "shonumi/Emu-Docs",
+        "snippet": "-----------------------------------------------------------------------------\n\nAnd so ends this document.  If you have anything to add, or know of an error,\nemail me at [redacted]@theglobe.com.  The next version of this document will\nhave explanations of the global and header check, and informatio",
+        "url": "https://github.com/shonumi/Emu-Docs/blob/170ad35f6532a2063695ebd3d734277ff8f71ad3/Gameboy/gbrom.txt"
+      },
+      {
+        "path": "data/free.txt",
+        "repo": "smudge/freemail",
+        "snippet": "thedoghousemail.com\nthedorm.com\ntheend.hu\ntheglobe.com\nthegolfcourse.com\nthegooner.com\ntheheadoffice.com",
+        "url": "https://github.com/smudge/freemail/blob/caac41138fd783c0b0dc5baad129f95acfba6681/data/free.txt"
+      },
+      {
+        "path": "data/EBay.txt",
+        "repo": "13carpileup/wikiscraper",
+        "snippet": "Supreme Court of the United States\nTechCrunch\nTencent\nTheGlobe.com\nThe Atlantic\nThe Boston Globe\nThe Daily Telegraph",
+        "url": "https://github.com/13carpileup/wikiscraper/blob/04dd47fcc2b997dc9bbddb9bc17089390325ed55/data/EBay.txt"
+      }
+    ],
+    "code_search_enabled": true,
+    "domain": "theglobe.com",
+    "repository_count": 0,
+    "repository_matches": [],
+    "source": "api.github.com"
+  },
+  "tool": "github_search"
+}

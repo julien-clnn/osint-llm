@@ -1,0 +1,25 @@
+{
+  "arguments": {
+    "domain": "abrush.ai"
+  },
+  "result": {
+    "creation_date": "2025-11-26T10:49:20+00:00",
+    "dnssec": null,
+    "domain": "abrush.ai",
+    "emails": null,
+    "expiration_date": "2027-11-26T10:49:20+00:00",
+    "found": true,
+    "name_servers": [
+      "toby.ns.cloudflare.com",
+      "ines.ns.cloudflare.com"
+    ],
+    "registrant_country": null,
+    "registrant_org": null,
+    "registrar": "Internet Invest, Ltd. dba Imena.ua",
+    "status": [
+      "clientTransferProhibited https://icann.org/epp#clientTransferProhibited"
+    ],
+    "updated_date": "2026-08-12T11:40:26+00:00"
+  },
+  "tool": "whois_lookup"
+}

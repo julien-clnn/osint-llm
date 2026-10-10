@@ -1,0 +1,269 @@
+{
+  "arguments": {
+    "ip": "96.126.111.165"
+  },
+  "result": {
+    "announced_prefix": "96.126.104.0/21",
+    "asn": 63949,
+    "asn_description": "AKAMAI-LINODE-AP - Akamai Connected Cloud",
+    "asn_name": "AKAMAI-LINODE-AP - Akamai Connected Cloud",
+    "asn_prefixes": [
+      {
+        "country": "",
+        "name": "AKAMAI-LINODE-AP - Akamai Connected Cloud",
+        "prefix": "194.195.216.0/21"
+      },
+      {
+        "country": "",
+        "name": "AKAMAI-LINODE-AP - Akamai Connected Cloud",
+        "prefix": "104.64.160.0/19"
+      },
+      {
+        "country": "",
+        "name": "AKAMAI-LINODE-AP - Akamai Connected Cloud",
+        "prefix": "172.233.96.0/19"
+      },
+      {
+        "country": "",
+        "name": "AKAMAI-LINODE-AP - Akamai Connected Cloud",
+        "prefix": "172.234.128.0/19"
+      },
+      {
+        "country": "",
+        "name": "AKAMAI-LINODE-AP - Akamai Connected Cloud",
+        "prefix": "2600:3c0f:16::/48"
+      },
+      {
+        "country": "",
+        "name": "AKAMAI-LINODE-AP - Akamai Connected Cloud",
+        "prefix": "23.239.16.0/22"
+      },
+      {
+        "country": "",
+        "name": "AKAMAI-LINODE-AP - Akamai Connected Cloud",
+        "prefix": "2600:3c0f:20::/48"
+      },
+      {
+        "country": "",
+        "name": "AKAMAI-LINODE-AP - Akamai Connected Cloud",
+        "prefix": "192.155.80.0/21"
+      },
+      {
+        "country": "",
+        "name": "AKAMAI-LINODE-AP - Akamai Connected Cloud",
+        "prefix": "172.234.56.0/21"
+      },
+      {
+        "country": "",
+        "name": "AKAMAI-LINODE-AP - Akamai Connected Cloud",
+        "prefix": "192.46.222.0/23"
+      },
+      {
+        "country": "",
+        "name": "AKAMAI-LINODE-AP - Akamai Connected Cloud",
+        "prefix": "139.162.32.0/19"
+      },
+      {
+        "country": "",
+        "name": "AKAMAI-LINODE-AP - Akamai Connected Cloud",
+        "prefix": "109.237.24.0/22"
+      },
+      {
+        "country": "",
+        "name": "AKAMAI-LINODE-AP - Akamai Connected Cloud",
+        "prefix": "172.233.0.0/19"
+      },
+      {
+        "country": "",
+        "name": "AKAMAI-LINODE-AP - Akamai Connected Cloud",
+        "prefix": "2600:3c12:b00::/40"
+      },
+      {
+        "country": "",
+        "name": "AKAMAI-LINODE-AP - Akamai Connected Cloud",
+        "prefix": "172.234.224.0/19"
+      },
+      {
+        "country": "",
+        "name": "AKAMAI-LINODE-AP - Akamai Connected Cloud",
+        "prefix": "23.239.20.0/22"
+      },
+      {
+        "country": "",
+        "name": "AKAMAI-LINODE-AP - Akamai Connected Cloud",
+        "prefix": "2600:3c0f:50::/48"
+      },
+      {
+        "country": "",
+        "name": "AKAMAI-LINODE-AP - Akamai Connected Cloud",
+        "prefix": "139.144.248.0/21"
+      },
+      {
+        "country": "",
+        "name": "AKAMAI-LINODE-AP - Akamai Connected Cloud",
+        "prefix": "213.52.128.0/23"
+      },
+      {
+        "country": "",
+        "name": "AKAMAI-LINODE-AP - Akamai Connected Cloud",
+        "prefix": "80.85.84.0/22"
+      },
+      {
+        "country": "",
+        "name": "AKAMAI-LINODE-AP - Akamai Connected Cloud",
+        "prefix": "2600:3c0f:27::/48"
+      },
+      {
+        "country": "",
+        "name": "AKAMAI-LINODE-AP - Akamai Connected Cloud",
+        "prefix": "172.104.8.0/21"
+      },
+      {
+        "country": "",
+        "name": "AKAMAI-LINODE-AP - Akamai Connected Cloud",
+        "prefix": "212.71.232.0/21"
+      },
+      {
+        "country": "",
+        "name": "AKAMAI-LINODE-AP - Akamai Connected Cloud",
+        "prefix": "103.3.60.0/22"
+      },
+      {
+        "country": "",
+        "name": "AKAMAI-LINODE-AP - Akamai Connected Cloud",
+        "prefix": "2600:3c0f:25::/48"
+      },
+      {
+        "country": "",
+        "name": "AKAMAI-LINODE-AP - Akamai Connected Cloud",
+        "prefix": "172.105.146.0/24"
+      },
+      {
+        "country": "",
+        "name": "AKAMAI-LINODE-AP - Akamai Connected Cloud",
+        "prefix": "172.237.48.0/20"
+      },
+      {
+        "country": "",
+        "name": "AKAMAI-LINODE-AP - Akamai Connected Cloud",
+        "prefix": "139.144.144.0/20"
+      },
+      {
+        "country": "",
+        "name": "AKAMAI-LINODE-AP - Akamai Connected Cloud",
+        "prefix": "172.238.0.0/19"
+      },
+      {
+        "country": "",
+        "name": "AKAMAI-LINODE-AP - Akamai Connected Cloud",
+        "prefix": "104.237.136.0/21"
+      },
+      {
+        "country": "",
+        "name": "AKAMAI-LINODE-AP - Akamai Connected Cloud",
+        "prefix": "45.56.96.0/20"
+      },
+      {
+        "country": "",
+        "name": "AKAMAI-LINODE-AP - Akamai Connected Cloud",
+        "prefix": "172.105.152.0/21"
+      },
+      {
+        "country": "",
+        "name": "AKAMAI-LINODE-AP - Akamai Connected Cloud",
+        "prefix": "172.234.80.0/20"
+      },
+      {
+        "country": "",
+        "name": "AKAMAI-LINODE-AP - Akamai Connected Cloud",
+        "prefix": "172.234.72.0/21"
+      },
+      {
+        "country": "",
+        "name": "AKAMAI-LINODE-AP - Akamai Connected Cloud",
+        "prefix": "45.79.112.0/22"
+      },
+      {
+        "country": "",
+        "name": "AKAMAI-LINODE-AP - Akamai Connected Cloud",
+        "prefix": "85.90.244.0/22"
+      },
+      {
+        "country": "",
+        "name": "AKAMAI-LINODE-AP - Akamai Connected Cloud",
+        "prefix": "194.233.160.0/21"
+      },
+      {
+        "country": "",
+        "name": "AKAMAI-LINODE-AP - Akamai Connected Cloud",
+        "prefix": "45.33.64.0/19"
+      },
+      {
+        "country": "",
+        "name": "AKAMAI-LINODE-AP - Akamai Connected Cloud",
+        "prefix": "172.235.122.0/23"
+      },
+      {
+        "country": "",
+        "name": "AKAMAI-LINODE-AP - Akamai Connected Cloud",
+        "prefix": "185.3.92.0/22"
+      },
+      {
+        "country": "",
+        "name": "AKAMAI-LINODE-AP - Akamai Connected Cloud",
+        "prefix": "143.42.48.0/20"
+      },
+      {
+        "country": "",
+        "name": "AKAMAI-LINODE-AP - Akamai Connected Cloud",
+        "prefix": "50.116.32.0/20"
+      },
+      {
+        "country": "",
+        "name": "AKAMAI-LINODE-AP - Akamai Connected Cloud",
+        "prefix": "172.239.192.0/19"
+      },
+      {
+        "country": "",
+        "name": "AKAMAI-LINODE-AP - Akamai Connected Cloud",
+        "prefix": "213.52.130.0/24"
+      },
+      {
+        "country": "",
+        "name": "AKAMAI-LINODE-AP - Akamai Connected Cloud",
+        "prefix": "162.216.16.0/22"
+      },
+      {
+        "country": "",
+        "name": "AKAMAI-LINODE-AP - Akamai Connected Cloud",
+        "prefix": "173.255.239.0/24"
+      },
+      {
+        "country": "",
+        "name": "AKAMAI-LINODE-AP - Akamai Connected Cloud",
+        "prefix": "172.105.134.0/23"
+      },
+      {
+        "country": "",
+        "name": "AKAMAI-LINODE-AP - Akamai Connected Cloud",
+        "prefix": "170.187.176.0/21"
+      },
+      {
+        "country": "",
+        "name": "AKAMAI-LINODE-AP - Akamai Connected Cloud",
+        "prefix": "198.74.56.0/21"
+      },
+      {
+        "country": "",
+        "name": "AKAMAI-LINODE-AP - Akamai Connected Cloud",
+        "prefix": "2600:3c0f:44::/48"
+      }
+    ],
+    "country": "",
+    "ip": "96.126.111.165",
+    "prefix_count": 445,
+    "source": "RIPEstat",
+    "truncated": true
+  },
+  "tool": "asn_lookup"
+}

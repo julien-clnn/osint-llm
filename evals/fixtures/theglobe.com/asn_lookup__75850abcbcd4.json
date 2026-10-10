@@ -1,0 +1,269 @@
+{
+  "arguments": {
+    "ip": "69.64.32.255"
+  },
+  "result": {
+    "announced_prefix": "69.64.32.0/19",
+    "asn": 30083,
+    "asn_description": "AS-30083-US-VELIA-NET - velia.net",
+    "asn_name": "AS-30083-US-VELIA-NET - velia.net",
+    "asn_prefixes": [
+      {
+        "country": "",
+        "name": "AS-30083-US-VELIA-NET - velia.net",
+        "prefix": "148.72.132.0/23"
+      },
+      {
+        "country": "",
+        "name": "AS-30083-US-VELIA-NET - velia.net",
+        "prefix": "192.155.96.0/23"
+      },
+      {
+        "country": "",
+        "name": "AS-30083-US-VELIA-NET - velia.net",
+        "prefix": "173.224.122.0/24"
+      },
+      {
+        "country": "",
+        "name": "AS-30083-US-VELIA-NET - velia.net",
+        "prefix": "173.201.32.0/21"
+      },
+      {
+        "country": "",
+        "name": "AS-30083-US-VELIA-NET - velia.net",
+        "prefix": "209.126.124.0/24"
+      },
+      {
+        "country": "",
+        "name": "AS-30083-US-VELIA-NET - velia.net",
+        "prefix": "50.30.37.0/24"
+      },
+      {
+        "country": "",
+        "name": "AS-30083-US-VELIA-NET - velia.net",
+        "prefix": "148.72.174.0/24"
+      },
+      {
+        "country": "",
+        "name": "AS-30083-US-VELIA-NET - velia.net",
+        "prefix": "148.72.154.0/24"
+      },
+      {
+        "country": "",
+        "name": "AS-30083-US-VELIA-NET - velia.net",
+        "prefix": "148.72.153.0/24"
+      },
+      {
+        "country": "",
+        "name": "AS-30083-US-VELIA-NET - velia.net",
+        "prefix": "209.126.120.0/24"
+      },
+      {
+        "country": "",
+        "name": "AS-30083-US-VELIA-NET - velia.net",
+        "prefix": "173.201.32.0/24"
+      },
+      {
+        "country": "",
+        "name": "AS-30083-US-VELIA-NET - velia.net",
+        "prefix": "207.38.88.0/23"
+      },
+      {
+        "country": "",
+        "name": "AS-30083-US-VELIA-NET - velia.net",
+        "prefix": "207.38.91.0/24"
+      },
+      {
+        "country": "",
+        "name": "AS-30083-US-VELIA-NET - velia.net",
+        "prefix": "162.211.121.0/24"
+      },
+      {
+        "country": "",
+        "name": "AS-30083-US-VELIA-NET - velia.net",
+        "prefix": "148.72.178.0/23"
+      },
+      {
+        "country": "",
+        "name": "AS-30083-US-VELIA-NET - velia.net",
+        "prefix": "148.72.145.0/24"
+      },
+      {
+        "country": "",
+        "name": "AS-30083-US-VELIA-NET - velia.net",
+        "prefix": "207.38.95.0/24"
+      },
+      {
+        "country": "",
+        "name": "AS-30083-US-VELIA-NET - velia.net",
+        "prefix": "148.72.128.0/24"
+      },
+      {
+        "country": "",
+        "name": "AS-30083-US-VELIA-NET - velia.net",
+        "prefix": "207.38.94.0/24"
+      },
+      {
+        "country": "",
+        "name": "AS-30083-US-VELIA-NET - velia.net",
+        "prefix": "148.72.164.0/22"
+      },
+      {
+        "country": "",
+        "name": "AS-30083-US-VELIA-NET - velia.net",
+        "prefix": "148.72.143.0/24"
+      },
+      {
+        "country": "",
+        "name": "AS-30083-US-VELIA-NET - velia.net",
+        "prefix": "207.38.88.0/24"
+      },
+      {
+        "country": "",
+        "name": "AS-30083-US-VELIA-NET - velia.net",
+        "prefix": "148.72.166.0/23"
+      },
+      {
+        "country": "",
+        "name": "AS-30083-US-VELIA-NET - velia.net",
+        "prefix": "173.224.112.0/20"
+      },
+      {
+        "country": "",
+        "name": "AS-30083-US-VELIA-NET - velia.net",
+        "prefix": "173.201.16.0/20"
+      },
+      {
+        "country": "",
+        "name": "AS-30083-US-VELIA-NET - velia.net",
+        "prefix": "148.72.158.0/23"
+      },
+      {
+        "country": "",
+        "name": "AS-30083-US-VELIA-NET - velia.net",
+        "prefix": "148.72.130.0/23"
+      },
+      {
+        "country": "",
+        "name": "AS-30083-US-VELIA-NET - velia.net",
+        "prefix": "148.72.173.0/24"
+      },
+      {
+        "country": "",
+        "name": "AS-30083-US-VELIA-NET - velia.net",
+        "prefix": "148.72.175.0/24"
+      },
+      {
+        "country": "",
+        "name": "AS-30083-US-VELIA-NET - velia.net",
+        "prefix": "192.155.97.0/24"
+      },
+      {
+        "country": "",
+        "name": "AS-30083-US-VELIA-NET - velia.net",
+        "prefix": "148.72.133.0/24"
+      },
+      {
+        "country": "",
+        "name": "AS-30083-US-VELIA-NET - velia.net",
+        "prefix": "207.38.86.0/24"
+      },
+      {
+        "country": "",
+        "name": "AS-30083-US-VELIA-NET - velia.net",
+        "prefix": "148.72.136.0/21"
+      },
+      {
+        "country": "",
+        "name": "AS-30083-US-VELIA-NET - velia.net",
+        "prefix": "148.72.144.0/24"
+      },
+      {
+        "country": "",
+        "name": "AS-30083-US-VELIA-NET - velia.net",
+        "prefix": "148.72.168.0/21"
+      },
+      {
+        "country": "",
+        "name": "AS-30083-US-VELIA-NET - velia.net",
+        "prefix": "173.224.117.0/24"
+      },
+      {
+        "country": "",
+        "name": "AS-30083-US-VELIA-NET - velia.net",
+        "prefix": "173.201.38.0/24"
+      },
+      {
+        "country": "",
+        "name": "AS-30083-US-VELIA-NET - velia.net",
+        "prefix": "148.72.171.0/24"
+      },
+      {
+        "country": "",
+        "name": "AS-30083-US-VELIA-NET - velia.net",
+        "prefix": "199.217.112.0/21"
+      },
+      {
+        "country": "",
+        "name": "AS-30083-US-VELIA-NET - velia.net",
+        "prefix": "209.126.110.0/24"
+      },
+      {
+        "country": "",
+        "name": "AS-30083-US-VELIA-NET - velia.net",
+        "prefix": "162.211.123.0/24"
+      },
+      {
+        "country": "",
+        "name": "AS-30083-US-VELIA-NET - velia.net",
+        "prefix": "148.72.166.0/24"
+      },
+      {
+        "country": "",
+        "name": "AS-30083-US-VELIA-NET - velia.net",
+        "prefix": "69.64.32.0/19"
+      },
+      {
+        "country": "",
+        "name": "AS-30083-US-VELIA-NET - velia.net",
+        "prefix": "148.72.138.0/24"
+      },
+      {
+        "country": "",
+        "name": "AS-30083-US-VELIA-NET - velia.net",
+        "prefix": "148.72.141.0/24"
+      },
+      {
+        "country": "",
+        "name": "AS-30083-US-VELIA-NET - velia.net",
+        "prefix": "192.155.103.0/24"
+      },
+      {
+        "country": "",
+        "name": "AS-30083-US-VELIA-NET - velia.net",
+        "prefix": "192.155.96.0/24"
+      },
+      {
+        "country": "",
+        "name": "AS-30083-US-VELIA-NET - velia.net",
+        "prefix": "173.201.17.0/24"
+      },
+      {
+        "country": "",
+        "name": "AS-30083-US-VELIA-NET - velia.net",
+        "prefix": "162.211.124.0/24"
+      },
+      {
+        "country": "",
+        "name": "AS-30083-US-VELIA-NET - velia.net",
+        "prefix": "148.72.132.0/24"
+      }
+    ],
+    "country": "",
+    "ip": "69.64.32.255",
+    "prefix_count": 119,
+    "source": "RIPEstat",
+    "truncated": true
+  },
+  "tool": "asn_lookup"
+}

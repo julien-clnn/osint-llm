@@ -1,0 +1,32 @@
+{
+  "arguments": {
+    "domain": "aspenriver6.com"
+  },
+  "result": {
+    "categories": [],
+    "domain": "aspenriver6.com",
+    "enabled": true,
+    "found": true,
+    "harmless_votes": 0,
+    "last_analysis_stats": {
+      "harmless": 44,
+      "malicious": 14,
+      "suspicious": 2,
+      "undetected": 29
+    },
+    "malicious_votes": 0,
+    "passive_dns": [
+      {
+        "ip_address": "104.21.85.87",
+        "last_resolved": 1787097335
+      },
+      {
+        "ip_address": "172.67.203.252",
+        "last_resolved": 1787097335
+      }
+    ],
+    "reputation": 0,
+    "source": "www.virustotal.com"
+  },
+  "tool": "virustotal_lookup"
+}

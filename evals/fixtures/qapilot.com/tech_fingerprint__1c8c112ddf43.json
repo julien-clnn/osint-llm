@@ -1,0 +1,32 @@
+{
+  "arguments": {
+    "domain": "qapilot.com"
+  },
+  "result": {
+    "detected_tech": [
+      "Next.js",
+      "Vercel"
+    ],
+    "domain": "qapilot.com",
+    "final_url": "https://qapilot.io",
+    "hardening_posture": "faible",
+    "hardening_score": "1/6",
+    "scheme": "https",
+    "security_headers_missing": [
+      "CSP",
+      "X-Frame-Options",
+      "X-Content-Type-Options",
+      "Referrer-Policy",
+      "Permissions-Policy"
+    ],
+    "security_headers_present": {
+      "HSTS": "max-age=63072000"
+    },
+    "server": "Vercel",
+    "source": "requête HTTP unique vers la cible (headers only, UA navigateur)",
+    "status_code": 200,
+    "via_proxy": false,
+    "x_powered_by": "Next.js"
+  },
+  "tool": "tech_fingerprint"
+}

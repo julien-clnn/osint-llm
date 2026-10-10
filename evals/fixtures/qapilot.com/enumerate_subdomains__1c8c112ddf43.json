@@ -1,0 +1,16 @@
+{
+  "arguments": {
+    "domain": "qapilot.com"
+  },
+  "result": {
+    "domain": "qapilot.com",
+    "source": "crt.sh",
+    "subdomain_count": 2,
+    "subdomains": [
+      "qapilot.com",
+      "www.qapilot.com"
+    ],
+    "truncated": false
+  },
+  "tool": "enumerate_subdomains"
+}

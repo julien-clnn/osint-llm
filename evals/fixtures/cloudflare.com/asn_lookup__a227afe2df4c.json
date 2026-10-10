@@ -1,0 +1,269 @@
+{
+  "arguments": {
+    "ip": "44.198.0.192"
+  },
+  "result": {
+    "announced_prefix": "44.192.0.0/11",
+    "asn": 14618,
+    "asn_description": "AMAZON-AES - Amazon.com, Inc.",
+    "asn_name": "AMAZON-AES - Amazon.com, Inc.",
+    "asn_prefixes": [
+      {
+        "country": "",
+        "name": "AMAZON-AES - Amazon.com, Inc.",
+        "prefix": "155.226.170.0/24"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-AES - Amazon.com, Inc.",
+        "prefix": "67.221.39.0/24"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-AES - Amazon.com, Inc.",
+        "prefix": "2606:f4c0:9800::/44"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-AES - Amazon.com, Inc.",
+        "prefix": "2600:1f18::/33"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-AES - Amazon.com, Inc.",
+        "prefix": "198.17.127.0/24"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-AES - Amazon.com, Inc.",
+        "prefix": "161.178.0.0/19"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-AES - Amazon.com, Inc.",
+        "prefix": "2601:9200:cd::/48"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-AES - Amazon.com, Inc.",
+        "prefix": "130.137.172.0/24"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-AES - Amazon.com, Inc.",
+        "prefix": "2601:9200:15f::/48"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-AES - Amazon.com, Inc.",
+        "prefix": "2601:9200:133::/48"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-AES - Amazon.com, Inc.",
+        "prefix": "2a03:5640:f10c::/48"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-AES - Amazon.com, Inc.",
+        "prefix": "64.35.169.0/24"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-AES - Amazon.com, Inc.",
+        "prefix": "75.2.128.0/18"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-AES - Amazon.com, Inc.",
+        "prefix": "167.234.36.0/24"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-AES - Amazon.com, Inc.",
+        "prefix": "64.190.42.0/24"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-AES - Amazon.com, Inc.",
+        "prefix": "213.156.162.0/24"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-AES - Amazon.com, Inc.",
+        "prefix": "162.120.89.0/24"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-AES - Amazon.com, Inc.",
+        "prefix": "2606:9fc0::/48"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-AES - Amazon.com, Inc.",
+        "prefix": "16.15.192.0/21"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-AES - Amazon.com, Inc.",
+        "prefix": "16.15.164.0/24"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-AES - Amazon.com, Inc.",
+        "prefix": "139.64.200.0/24"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-AES - Amazon.com, Inc.",
+        "prefix": "192.30.228.0/22"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-AES - Amazon.com, Inc.",
+        "prefix": "2607:9240:107::/48"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-AES - Amazon.com, Inc.",
+        "prefix": "54.88.0.0/16"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-AES - Amazon.com, Inc.",
+        "prefix": "2620:131:1065::/48"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-AES - Amazon.com, Inc.",
+        "prefix": "2601:9200:116::/48"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-AES - Amazon.com, Inc.",
+        "prefix": "207.202.16.0/24"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-AES - Amazon.com, Inc.",
+        "prefix": "162.247.219.0/24"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-AES - Amazon.com, Inc.",
+        "prefix": "170.139.64.0/18"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-AES - Amazon.com, Inc.",
+        "prefix": "71.8.112.0/24"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-AES - Amazon.com, Inc.",
+        "prefix": "74.112.132.0/24"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-AES - Amazon.com, Inc.",
+        "prefix": "64.207.223.0/24"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-AES - Amazon.com, Inc.",
+        "prefix": "167.232.208.0/24"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-AES - Amazon.com, Inc.",
+        "prefix": "185.117.225.0/24"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-AES - Amazon.com, Inc.",
+        "prefix": "130.150.240.0/22"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-AES - Amazon.com, Inc.",
+        "prefix": "155.46.135.0/24"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-AES - Amazon.com, Inc.",
+        "prefix": "170.114.90.0/24"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-AES - Amazon.com, Inc.",
+        "prefix": "208.212.23.0/24"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-AES - Amazon.com, Inc.",
+        "prefix": "69.56.37.0/24"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-AES - Amazon.com, Inc.",
+        "prefix": "198.144.18.0/24"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-AES - Amazon.com, Inc.",
+        "prefix": "165.125.32.0/24"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-AES - Amazon.com, Inc.",
+        "prefix": "2600:f0f0:c12a::/48"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-AES - Amazon.com, Inc.",
+        "prefix": "2601:9200:30::/48"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-AES - Amazon.com, Inc.",
+        "prefix": "156.70.108.0/24"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-AES - Amazon.com, Inc.",
+        "prefix": "18.232.0.0/14"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-AES - Amazon.com, Inc.",
+        "prefix": "2602:fb10:42::/48"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-AES - Amazon.com, Inc.",
+        "prefix": "192.80.241.0/24"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-AES - Amazon.com, Inc.",
+        "prefix": "74.123.55.0/24"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-AES - Amazon.com, Inc.",
+        "prefix": "129.77.0.0/22"
+      },
+      {
+        "country": "",
+        "name": "AMAZON-AES - Amazon.com, Inc.",
+        "prefix": "2600:1f11:4000::/36"
+      }
+    ],
+    "country": "",
+    "ip": "44.198.0.192",
+    "prefix_count": 2061,
+    "source": "RIPEstat",
+    "truncated": true
+  },
+  "tool": "asn_lookup"
+}

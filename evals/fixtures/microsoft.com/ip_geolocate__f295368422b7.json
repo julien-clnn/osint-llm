@@ -1,0 +1,27 @@
+{
+  "arguments": {
+    "target": "microsoft.com"
+  },
+  "result": {
+    "ip_count": 1,
+    "locations": [
+      {
+        "as": "AS8075 Microsoft Corporation",
+        "city": "Dallas",
+        "country": "United States",
+        "country_code": "US",
+        "ip": "150.171.110.120",
+        "isp": "Microsoft Corporation",
+        "lat": 32.7767,
+        "lon": -96.797,
+        "org": "Microsoft Corporation",
+        "region": "Texas"
+      }
+    ],
+    "resolved_from_domain": "microsoft.com",
+    "source": "ip-api.com",
+    "target": "microsoft.com",
+    "truncated": false
+  },
+  "tool": "ip_geolocate"
+}

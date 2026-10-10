@@ -1,0 +1,37 @@
+domain: discord.com
+subdomains:
+  expected_count: 44
+  known_sample:
+  - androiddiag.discord.com
+  - app.xn--discord.com
+  - blog.discord.com
+  - creator-support.discord.com
+  - discord.com
+  known_exclusions: []
+email_security:
+  spf: true
+  dmarc: true
+  dmarc_policy: reject
+  dkim_selectors_found:
+  - default
+  - google
+  - selector1
+  - selector2
+  - k1
+  - dkim
+  - mail
+network:
+  expected_asn: 13335
+  expected_org_substring: Cloudflare
+  behind_cdn_proxy: true
+reputation:
+  verdict: clean
+  malicious_engines_min: 0
+must_contain:
+- Infrastructure behind Cloudflare (ASN 13335)
+- DMARC configured with policy reject
+- 44 subdomains found
+must_not_contain:
+- Must not claim that Discord's actual infrastructure is physically located in Canada (or any
+  other specific country) — the geolocated IP is a Cloudflare point of presence, not Discord's datacenter
+notes: Canonical case of misleading IP geolocation behind a CDN — Cloudflare ASN confirmed.

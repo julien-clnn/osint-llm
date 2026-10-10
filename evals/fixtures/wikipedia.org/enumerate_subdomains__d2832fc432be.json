@@ -1,0 +1,16 @@
+{
+  "arguments": {
+    "domain": "wikipedia.org"
+  },
+  "result": {
+    "domain": "wikipedia.org",
+    "source": "certspotter",
+    "subdomain_count": 2,
+    "subdomains": [
+      "m.wikipedia.org",
+      "wikipedia.org"
+    ],
+    "truncated": false
+  },
+  "tool": "enumerate_subdomains"
+}

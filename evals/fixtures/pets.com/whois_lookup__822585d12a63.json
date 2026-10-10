@@ -1,0 +1,44 @@
+{
+  "arguments": {
+    "domain": "pets.com"
+  },
+  "result": {
+    "creation_date": [
+      "1994-11-21T05:00:00+00:00",
+      "1994-11-21T08:00:00+00:00"
+    ],
+    "dnssec": "unsigned",
+    "domain": "pets.com",
+    "emails": [
+      "abusecomplaints@markmonitor.com",
+      "whoisrequest@markmonitor.com"
+    ],
+    "expiration_date": [
+      "2026-11-20T05:00:00+00:00",
+      "2026-11-20T00:00:00+00:00"
+    ],
+    "found": true,
+    "name_servers": [
+      "NS1.MARKMONITOR.COM",
+      "NS2.MARKMONITOR.COM",
+      "NS3.MARKMONITOR.COM",
+      "NS4.MARKMONITOR.COM",
+      "NS5.MARKMONITOR.COM",
+      "NS6.MARKMONITOR.COM",
+      "NS7.MARKMONITOR.COM"
+    ],
+    "registrant_country": "US",
+    "registrant_org": "PetSmart Home Office LLC",
+    "registrar": "MarkMonitor, Inc.",
+    "status": [
+      "clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited",
+      "clientTransferProhibited https://icann.org/epp#clientTransferProhibited",
+      "clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited",
+      "clientUpdateProhibited (https://www.icann.org/epp#clientUpdateProhibited)",
+      "clientTransferProhibited (https://www.icann.org/epp#clientTransferProhibited)",
+      "clientDeleteProhibited (https://www.icann.org/epp#clientDeleteProhibited)"
+    ],
+    "updated_date": "2024-10-19T09:23:24+00:00"
+  },
+  "tool": "whois_lookup"
+}

@@ -1,0 +1,225 @@
+{
+  "arguments": {
+    "domain": "theglobe.com"
+  },
+  "result": {
+    "capture_count": 10000,
+    "date_range": {
+      "first": "1998-12-02",
+      "last": "2026-05-29"
+    },
+    "domain": "theglobe.com",
+    "interesting_urls": [
+      {
+        "timestamp": "1999-09-01",
+        "url": "http://theglobe.com:80/'/help/feedback/'"
+      },
+      {
+        "timestamp": "2025-05-17",
+        "url": "https://theglobe.com/.well-known/openid-configuration"
+      },
+      {
+        "timestamp": "2000-11-02",
+        "url": "http://theglobe.com:80/?subject=Litestep"
+      },
+      {
+        "timestamp": "2000-10-29",
+        "url": "http://theglobe.com:80/?subject=Youre..the..GREATEST,..Topher!"
+      },
+      {
+        "timestamp": "2001-09-02",
+        "url": "http://theglobe.com:80/about/advertising/contests_files/clear.gif"
+      },
+      {
+        "timestamp": "2001-08-14",
+        "url": "http://theglobe.com:80/about/contests_files/"
+      },
+      {
+        "timestamp": "2001-08-14",
+        "url": "http://theglobe.com:80/about/contests_files/browse.taf"
+      },
+      {
+        "timestamp": "2001-08-14",
+        "url": "http://theglobe.com:80/about/contests_files/clear.gif"
+      },
+      {
+        "timestamp": "2001-04-16",
+        "url": "http://www.theglobe.com:80/about/default.taf?page=development"
+      },
+      {
+        "timestamp": "1999-11-17",
+        "url": "http://www.theglobe.com:80/about/development"
+      },
+      {
+        "timestamp": "2000-07-11",
+        "url": "http://www.theglobe.com:80/about/development/blank"
+      },
+      {
+        "timestamp": "2000-08-16",
+        "url": "http://www.theglobe.com:80/about/development/?gr_namespaceid=0&gr_pipartnerid=0"
+      },
+      {
+        "timestamp": "2006-01-03",
+        "url": "http://www.theglobe.com/about/images/index_test_03.gif"
+      },
+      {
+        "timestamp": "2006-01-03",
+        "url": "http://www.theglobe.com/about/images/index_test_07.gif"
+      },
+      {
+        "timestamp": "2006-01-03",
+        "url": "http://www.theglobe.com/about/images/index_test_middle_02.gif"
+      },
+      {
+        "timestamp": "2006-01-03",
+        "url": "http://www.theglobe.com/about/images/index_test_middle_03.gif"
+      },
+      {
+        "timestamp": "2006-01-03",
+        "url": "http://www.theglobe.com/about/images/index_test_middle_04.gif"
+      },
+      {
+        "timestamp": "2006-01-03",
+        "url": "http://www.theglobe.com/about/images/index_test_middle_05.gif"
+      },
+      {
+        "timestamp": "2001-08-09",
+        "url": "http://theglobe.com:80/about/jobs/contests_files/"
+      },
+      {
+        "timestamp": "2001-08-09",
+        "url": "http://theglobe.com:80/about/jobs/contests_files/browse.taf"
+      },
+      {
+        "timestamp": "2001-08-09",
+        "url": "http://theglobe.com:80/about/jobs/contests_files/clear.gif"
+      },
+      {
+        "timestamp": "1999-09-14",
+        "url": "http://www.theglobe.com:80/about/jobs/default.taf?jobdesc=admin_asst"
+      },
+      {
+        "timestamp": "2001-01-26",
+        "url": "http://www.theglobe.com:80/about/jobs/default.taf?jobdesc=adsales_web_dev"
+      },
+      {
+        "timestamp": "2000-02-29",
+        "url": "http://www.theglobe.com:80/about/jobs/default.taf?jobdesc=assoc_dir-business_dev"
+      },
+      {
+        "timestamp": "1999-09-01",
+        "url": "http://theglobe.com:80/about/jobs/default.taf?jobdesc=biz_dev_intern"
+      },
+      {
+        "timestamp": "2000-01-22",
+        "url": "http://www.theglobe.com:80/about/jobs/default.taf?jobdesc=bus_dev_intern"
+      },
+      {
+        "timestamp": "2000-01-22",
+        "url": "http://www.theglobe.com:80/about/jobs/default.taf?jobdesc=c_developers"
+      },
+      {
+        "timestamp": "1999-09-01",
+        "url": "http://theglobe.com:80/about/jobs/default.taf?jobdesc=data_dev"
+      },
+      {
+        "timestamp": "2000-10-27",
+        "url": "http://theglobe.com:80/about/jobs/default.taf?jobdesc=dba"
+      },
+      {
+        "timestamp": "2000-05-10",
+        "url": "http://www.theglobe.com:80/about/jobs/default.taf?jobdesc=hp_cheater_old"
+      },
+      {
+        "timestamp": "1999-09-14",
+        "url": "http://www.theglobe.com:80/about/jobs/default.taf?jobdesc=it_coord_admin"
+      },
+      {
+        "timestamp": "2000-01-12",
+        "url": "http://theglobe.com:80/about/jobs/default.taf?location=sea&jobdesc=seattle_admin_asst_job"
+      },
+      {
+        "timestamp": "2000-10-27",
+        "url": "http://theglobe.com:80/about/jobs/default.taf?location=sea&jobdesc=seattle_audience_dev_intern"
+      },
+      {
+        "timestamp": "2000-07-08",
+        "url": "http://theglobe.com:80/about/jobs/default.taf?location=sea&jobdesc=seattle_database_admin"
+      },
+      {
+        "timestamp": "2000-02-26",
+        "url": "http://theglobe.com:80/about/jobs/default.taf?location=sea&jobdesc=seattle_jrdba"
+      },
+      {
+        "timestamp": "2000-03-09",
+        "url": "http://theglobe.com:80/about/jobs/default.taf?location=sea&jobdesc=seattle_Program_Dev_Mgr"
+      },
+      {
+        "timestamp": "2000-02-26",
+        "url": "http://theglobe.com:80/about/jobs/default.taf?location=sea&jobdesc=seattle_reception_admin"
+      },
+      {
+        "timestamp": "2000-06-01",
+        "url": "http://www.theglobe.com:80/about/jobs/default.taf?location=sea&jobdesc=seattle_sr_c_dev"
+      },
+      {
+        "timestamp": "2000-02-26",
+        "url": "http://theglobe.com:80/about/jobs/default.taf?location=sea&jobdesc=seattle_srDeveloper"
+      },
+      {
+        "timestamp": "1999-09-01",
+        "url": "http://theglobe.com:80/about/jobs/default.taf?jobdesc=software_developer"
+      }
+    ],
+    "sample_urls": [
+      "http://theglobe.com:80/",
+      "http://www.theglobe.com:80/%22/",
+      "http://www.theglobe.com:80/%22NAME=%22Globe",
+      "http://www.theglobe.com:80/%22target%3D%22_blank",
+      "http://www.theglobe.com:80/%22target=%22_top",
+      "http://www.theglobe.com:80/%22target=%22_windows",
+      "http://www.theglobe.com:80/%22target=%22linked",
+      "http://www.theglobe.com:80/%22target=%22main",
+      "http://www.theglobe.com:80/%22target=%22n",
+      "http://www.theglobe.com:80/%22target=%22new",
+      "http://www.theglobe.com:80/%22target=_blank",
+      "http://www.theglobe.com:80/%22target=_new",
+      "http://www.theglobe.com:80/%22target=newwindow",
+      "http://www.theglobe.com:80/\"target=prev",
+      "http://www.theglobe.com:80/%20",
+      "http://www.theglobe.com:80/%20%20",
+      "http://www.theglobe.com/%20coolcat",
+      "http://www.theglobe.com/%20dreammm",
+      "http://www.theglobe.com/%20icons",
+      "http://www.theglobe.com:80/%20onmousedown=",
+      "http://www.theglobe.com:80/%20target=_blank",
+      "http://www.theglobe.com:80/%20The%20Globe",
+      "http://www.theglobe.com:80/&gt",
+      "http://theglobe.com:80/&srv=-1&bmk=",
+      "http://theglobe.com:80/'/help/forums/'",
+      "http://theglobe.com/*dreammm",
+      "http://www.theglobe.com:80/+",
+      "http://www.theglobe.com:80/++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++",
+      "http://www.theglobe.com:80/++++Home+page",
+      "http://www.theglobe.com:80/+The+Globe",
+      "http://www.theglobe.com/%2chttp:/www.theglobe.com",
+      "http://www.theglobe.com:80/.bhtaccess",
+      "http://www.theglobe.com:80/.com",
+      "https://theglobe.com/.well-known/ai-plugin.json",
+      "https://theglobe.com/.well-known/assetlinks.json",
+      "https://theglobe.com/.well-known/dnt-policy.txt",
+      "https://theglobe.com/.well-known/gpc.json",
+      "https://theglobe.com/.well-known/nodeinfo",
+      "https://theglobe.com/.well-known/security.txt",
+      "https://theglobe.com/.well-known/trust.txt"
+    ],
+    "source": "web.archive.org",
+    "subdomain_count": 2,
+    "subdomains": [
+      "theglobe.com",
+      "www.theglobe.com"
+    ],
+    "truncated": true
+  },
+  "tool": "wayback_lookup"
+}

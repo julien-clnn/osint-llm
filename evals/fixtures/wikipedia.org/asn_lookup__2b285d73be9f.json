@@ -1,0 +1,269 @@
+{
+  "arguments": {
+    "ip": "108.160.167.167"
+  },
+  "result": {
+    "announced_prefix": "108.160.160.0/20",
+    "asn": 19679,
+    "asn_description": "DROPBOX - Dropbox, Inc.",
+    "asn_name": "DROPBOX - Dropbox, Inc.",
+    "asn_prefixes": [
+      {
+        "country": "",
+        "name": "DROPBOX - Dropbox, Inc.",
+        "prefix": "2620:100:6017::/48"
+      },
+      {
+        "country": "",
+        "name": "DROPBOX - Dropbox, Inc.",
+        "prefix": "2620:100:6030::/44"
+      },
+      {
+        "country": "",
+        "name": "DROPBOX - Dropbox, Inc.",
+        "prefix": "162.125.67.0/24"
+      },
+      {
+        "country": "",
+        "name": "DROPBOX - Dropbox, Inc.",
+        "prefix": "162.125.40.0/21"
+      },
+      {
+        "country": "",
+        "name": "DROPBOX - Dropbox, Inc.",
+        "prefix": "108.160.160.0/20"
+      },
+      {
+        "country": "",
+        "name": "DROPBOX - Dropbox, Inc.",
+        "prefix": "162.125.5.0/24"
+      },
+      {
+        "country": "",
+        "name": "DROPBOX - Dropbox, Inc.",
+        "prefix": "162.125.4.0/24"
+      },
+      {
+        "country": "",
+        "name": "DROPBOX - Dropbox, Inc.",
+        "prefix": "162.125.6.0/24"
+      },
+      {
+        "country": "",
+        "name": "DROPBOX - Dropbox, Inc.",
+        "prefix": "45.58.64.0/20"
+      },
+      {
+        "country": "",
+        "name": "DROPBOX - Dropbox, Inc.",
+        "prefix": "162.125.83.0/24"
+      },
+      {
+        "country": "",
+        "name": "DROPBOX - Dropbox, Inc.",
+        "prefix": "162.125.11.0/24"
+      },
+      {
+        "country": "",
+        "name": "DROPBOX - Dropbox, Inc.",
+        "prefix": "162.125.21.0/24"
+      },
+      {
+        "country": "",
+        "name": "DROPBOX - Dropbox, Inc.",
+        "prefix": "2620:100:601d::/48"
+      },
+      {
+        "country": "",
+        "name": "DROPBOX - Dropbox, Inc.",
+        "prefix": "2620:100:6057::/48"
+      },
+      {
+        "country": "",
+        "name": "DROPBOX - Dropbox, Inc.",
+        "prefix": "162.125.85.0/24"
+      },
+      {
+        "country": "",
+        "name": "DROPBOX - Dropbox, Inc.",
+        "prefix": "2620:100:6019::/48"
+      },
+      {
+        "country": "",
+        "name": "DROPBOX - Dropbox, Inc.",
+        "prefix": "2620:100:6024::/48"
+      },
+      {
+        "country": "",
+        "name": "DROPBOX - Dropbox, Inc.",
+        "prefix": "2620:100:6000::/40"
+      },
+      {
+        "country": "",
+        "name": "DROPBOX - Dropbox, Inc.",
+        "prefix": "2620:100:6018::/48"
+      },
+      {
+        "country": "",
+        "name": "DROPBOX - Dropbox, Inc.",
+        "prefix": "162.125.66.0/24"
+      },
+      {
+        "country": "",
+        "name": "DROPBOX - Dropbox, Inc.",
+        "prefix": "2620:100:6010::/44"
+      },
+      {
+        "country": "",
+        "name": "DROPBOX - Dropbox, Inc.",
+        "prefix": "2620:100:6040::/48"
+      },
+      {
+        "country": "",
+        "name": "DROPBOX - Dropbox, Inc.",
+        "prefix": "2620:100:6023::/48"
+      },
+      {
+        "country": "",
+        "name": "DROPBOX - Dropbox, Inc.",
+        "prefix": "162.125.2.0/24"
+      },
+      {
+        "country": "",
+        "name": "DROPBOX - Dropbox, Inc.",
+        "prefix": "2620:100:601f::/48"
+      },
+      {
+        "country": "",
+        "name": "DROPBOX - Dropbox, Inc.",
+        "prefix": "2620:100:6028::/48"
+      },
+      {
+        "country": "",
+        "name": "DROPBOX - Dropbox, Inc.",
+        "prefix": "162.125.1.0/24"
+      },
+      {
+        "country": "",
+        "name": "DROPBOX - Dropbox, Inc.",
+        "prefix": "2620:100:6033::/48"
+      },
+      {
+        "country": "",
+        "name": "DROPBOX - Dropbox, Inc.",
+        "prefix": "108.160.175.0/24"
+      },
+      {
+        "country": "",
+        "name": "DROPBOX - Dropbox, Inc.",
+        "prefix": "2620:100:6021::/48"
+      },
+      {
+        "country": "",
+        "name": "DROPBOX - Dropbox, Inc.",
+        "prefix": "162.125.3.0/24"
+      },
+      {
+        "country": "",
+        "name": "DROPBOX - Dropbox, Inc.",
+        "prefix": "162.125.80.0/20"
+      },
+      {
+        "country": "",
+        "name": "DROPBOX - Dropbox, Inc.",
+        "prefix": "162.125.248.0/24"
+      },
+      {
+        "country": "",
+        "name": "DROPBOX - Dropbox, Inc.",
+        "prefix": "162.125.68.0/24"
+      },
+      {
+        "country": "",
+        "name": "DROPBOX - Dropbox, Inc.",
+        "prefix": "162.125.80.0/24"
+      },
+      {
+        "country": "",
+        "name": "DROPBOX - Dropbox, Inc.",
+        "prefix": "162.125.8.0/24"
+      },
+      {
+        "country": "",
+        "name": "DROPBOX - Dropbox, Inc.",
+        "prefix": "2620:100:6030::/48"
+      },
+      {
+        "country": "",
+        "name": "DROPBOX - Dropbox, Inc.",
+        "prefix": "162.125.65.0/24"
+      },
+      {
+        "country": "",
+        "name": "DROPBOX - Dropbox, Inc.",
+        "prefix": "162.125.16.0/20"
+      },
+      {
+        "country": "",
+        "name": "DROPBOX - Dropbox, Inc.",
+        "prefix": "162.125.13.0/24"
+      },
+      {
+        "country": "",
+        "name": "DROPBOX - Dropbox, Inc.",
+        "prefix": "2620:100:601b::/48"
+      },
+      {
+        "country": "",
+        "name": "DROPBOX - Dropbox, Inc.",
+        "prefix": "2620:100:6034::/48"
+      },
+      {
+        "country": "",
+        "name": "DROPBOX - Dropbox, Inc.",
+        "prefix": "2620:100:6050::/44"
+      },
+      {
+        "country": "",
+        "name": "DROPBOX - Dropbox, Inc.",
+        "prefix": "162.125.84.0/24"
+      },
+      {
+        "country": "",
+        "name": "DROPBOX - Dropbox, Inc.",
+        "prefix": "45.58.66.0/23"
+      },
+      {
+        "country": "",
+        "name": "DROPBOX - Dropbox, Inc.",
+        "prefix": "162.125.0.0/18"
+      },
+      {
+        "country": "",
+        "name": "DROPBOX - Dropbox, Inc.",
+        "prefix": "2620:100:6016::/48"
+      },
+      {
+        "country": "",
+        "name": "DROPBOX - Dropbox, Inc.",
+        "prefix": "2620:100:6027::/48"
+      },
+      {
+        "country": "",
+        "name": "DROPBOX - Dropbox, Inc.",
+        "prefix": "162.125.72.0/21"
+      },
+      {
+        "country": "",
+        "name": "DROPBOX - Dropbox, Inc.",
+        "prefix": "108.160.174.0/24"
+      }
+    ],
+    "country": "",
+    "ip": "108.160.167.167",
+    "prefix_count": 71,
+    "source": "RIPEstat",
+    "truncated": true
+  },
+  "tool": "asn_lookup"
+}

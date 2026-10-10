@@ -1,0 +1,27 @@
+domain: aspenriver6.com
+subdomains:
+  expected_count: 1
+  known_sample:
+  - aspenriver6.com
+  known_exclusions: []
+email_security:
+  spf: false
+  dmarc: false
+  dmarc_policy: null
+  dkim_selectors_found: []
+network:
+  expected_asn: 15557
+  expected_org_substring: SFR
+  behind_cdn_proxy: false
+reputation:
+  verdict: malicious
+  malicious_engines_min: 10
+must_contain:
+- Domain registered on 2026-08-18, less than a month before the analysis
+- Degraded VirusTotal reputation / engines flagging the domain as malicious
+- No SPF or DMARC record
+must_not_contain:
+- Must not conclude a low risk level
+notes: Active phishing domain (URLhaus, 2026-09-12), very young WHOIS. 14 VirusTotal engines 'malicious'
+  + 2 'suspicious' out of ~89. Same geolocation IP as 0rder-ver1f2345.com (109.0.66.29) — likely phishing
+  infrastructure shared between the two domains.

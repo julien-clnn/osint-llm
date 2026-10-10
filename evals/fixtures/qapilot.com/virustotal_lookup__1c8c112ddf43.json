@@ -1,0 +1,96 @@
+{
+  "arguments": {
+    "domain": "qapilot.com"
+  },
+  "result": {
+    "categories": [],
+    "domain": "qapilot.com",
+    "enabled": true,
+    "found": true,
+    "harmless_votes": 0,
+    "last_analysis_stats": {
+      "harmless": 54,
+      "malicious": 0,
+      "suspicious": 0,
+      "undetected": 35
+    },
+    "malicious_votes": 0,
+    "passive_dns": [
+      {
+        "ip_address": "3.33.251.168",
+        "last_resolved": 1782623581
+      },
+      {
+        "ip_address": "185.158.133.1",
+        "last_resolved": 1758930669
+      },
+      {
+        "ip_address": "15.197.225.128",
+        "last_resolved": 1724776423
+      },
+      {
+        "ip_address": "3.33.152.147",
+        "last_resolved": 1710806051
+      },
+      {
+        "ip_address": "15.197.142.173",
+        "last_resolved": 1710805412
+      },
+      {
+        "ip_address": "3.33.130.190",
+        "last_resolved": 1705164534
+      },
+      {
+        "ip_address": "15.197.148.33",
+        "last_resolved": 1705163450
+      },
+      {
+        "ip_address": "172.234.25.151",
+        "last_resolved": 1704214741
+      },
+      {
+        "ip_address": "13.248.169.48",
+        "last_resolved": 1703952325
+      },
+      {
+        "ip_address": "76.223.54.146",
+        "last_resolved": 1703952325
+      },
+      {
+        "ip_address": "194.163.183.141",
+        "last_resolved": 1640506198
+      },
+      {
+        "ip_address": "198.54.117.199",
+        "last_resolved": 1610126278
+      },
+      {
+        "ip_address": "198.54.117.200",
+        "last_resolved": 1610126278
+      },
+      {
+        "ip_address": "198.54.117.198",
+        "last_resolved": 1610126278
+      },
+      {
+        "ip_address": "198.54.117.197",
+        "last_resolved": 1610126278
+      },
+      {
+        "ip_address": "192.64.119.39",
+        "last_resolved": 1587327717
+      },
+      {
+        "ip_address": "104.28.11.208",
+        "last_resolved": 1576021048
+      },
+      {
+        "ip_address": "104.28.10.208",
+        "last_resolved": 1576021048
+      }
+    ],
+    "reputation": 0,
+    "source": "www.virustotal.com"
+  },
+  "tool": "virustotal_lookup"
+}

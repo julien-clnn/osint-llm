@@ -1,0 +1,44 @@
+{
+  "arguments": {
+    "domain": "sourceforge.net"
+  },
+  "result": {
+    "domain": "sourceforge.net",
+    "email_security": {
+      "dkim_note": "Sélecteurs DKIM courants testés uniquement ; une absence ici ne prouve pas l'absence de DKIM.",
+      "dkim_selectors_found": [],
+      "dmarc": true,
+      "dmarc_policy": "quarantine",
+      "spf": true,
+      "spf_record": "v=spf1 include:sparkpostmail.com include:servers.mcsv.net ip4:216.105.38.0/26 -all"
+    },
+    "mx": [
+      "10 mx.sourceforge.net"
+    ],
+    "mx_count": 1,
+    "ns": [
+      "ns11.constellix.com",
+      "ns21.constellix.com",
+      "ns31.constellix.com",
+      "ns41.constellix.net",
+      "ns51.constellix.net",
+      "ns61.constellix.net"
+    ],
+    "ns_count": 6,
+    "source": "DNS (résolveur système)",
+    "txt": [
+      "ca3-8b7801430b214be99a3325aab5d0d899",
+      "tollbit-domain-verification=bae1f5123238c200f3429dba2556501be81cc1ab0b0f0692146e362a49979895",
+      "google-site-verification=HugCfmT_JOUQaz6xbszx1O9W3ccm_Dh5GiageK7egmM",
+      "yandex-verification: eddadce308154a90",
+      "ca3-1594c24430d2487fad7bceaec2fa251f",
+      "abuseipdb-verification=dvyMFAir",
+      "SourceForge, Inc.",
+      "ca3-33e180a2afaa4c86951f4a8ad123e300",
+      "brave-ledger-verification=09845b65316c1613c72337595c391c4675fff6ae8923768232dc3f6c661af14b",
+      "v=spf1 include:sparkpostmail.com include:servers.mcsv.net ip4:216.105.38.0/26 -all"
+    ],
+    "txt_count": 10
+  },
+  "tool": "dns_records_lookup"
+}

@@ -1,0 +1,18 @@
+# Test domains for osintllm (passive reconnaissance only).
+# One domain per line. Lines starting with # are comments.
+#
+# Usage:
+#   make run DOMAIN=example.com
+#   .venv/bin/python main.py github.com
+
+# --- Nominal cases ---
+example.com          # IANA reserved domain, ~2 Cloudflare IPs
+github.com           # big brand (MarkMonitor), many subdomains
+wikipedia.org        # Wikimedia infrastructure, several IPs
+
+# --- Rich in subdomains (good for testing crt.sh / certspotter) ---
+mozilla.org
+
+# --- Robustness (uncomment to test error handling) ---
+# nonexistent-domain-xyzabc123456.com   # must return a clean error
+# not_a_domain!!                         # input validation

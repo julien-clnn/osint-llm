@@ -1,0 +1,39 @@
+{
+  "arguments": {
+    "target": "abrush.ai"
+  },
+  "result": {
+    "ip_count": 2,
+    "locations": [
+      {
+        "as": "AS13335 Cloudflare, Inc.",
+        "city": "Toronto",
+        "country": "Canada",
+        "country_code": "CA",
+        "ip": "188.114.96.2",
+        "isp": "Cloudflare, Inc.",
+        "lat": 43.6532,
+        "lon": -79.3832,
+        "org": "CloudFlare, Inc.",
+        "region": "Ontario"
+      },
+      {
+        "as": "AS13335 Cloudflare, Inc.",
+        "city": "Toronto",
+        "country": "Canada",
+        "country_code": "CA",
+        "ip": "188.114.97.2",
+        "isp": "Cloudflare, Inc.",
+        "lat": 43.6532,
+        "lon": -79.3832,
+        "org": "CloudFlare, Inc.",
+        "region": "Ontario"
+      }
+    ],
+    "resolved_from_domain": "abrush.ai",
+    "source": "ip-api.com",
+    "target": "abrush.ai",
+    "truncated": false
+  },
+  "tool": "ip_geolocate"
+}

@@ -1,0 +1,49 @@
+{
+  "arguments": {
+    "ip": "192.35.222.204"
+  },
+  "result": {
+    "announced_prefix": "192.35.222.0/24",
+    "asn": 131,
+    "asn_description": "UCSB-NET-AS - University of California, Santa Barbara",
+    "asn_name": "UCSB-NET-AS - University of California, Santa Barbara",
+    "asn_prefixes": [
+      {
+        "country": "",
+        "name": "UCSB-NET-AS - University of California, Santa Barbara",
+        "prefix": "192.35.222.0/24"
+      },
+      {
+        "country": "",
+        "name": "UCSB-NET-AS - University of California, Santa Barbara",
+        "prefix": "2607:f378::/32"
+      },
+      {
+        "country": "",
+        "name": "UCSB-NET-AS - University of California, Santa Barbara",
+        "prefix": "169.231.0.0/16"
+      },
+      {
+        "country": "",
+        "name": "UCSB-NET-AS - University of California, Santa Barbara",
+        "prefix": "199.120.153.0/24"
+      },
+      {
+        "country": "",
+        "name": "UCSB-NET-AS - University of California, Santa Barbara",
+        "prefix": "192.150.216.0/23"
+      },
+      {
+        "country": "",
+        "name": "UCSB-NET-AS - University of California, Santa Barbara",
+        "prefix": "128.111.0.0/16"
+      }
+    ],
+    "country": "",
+    "ip": "192.35.222.204",
+    "prefix_count": 6,
+    "source": "RIPEstat",
+    "truncated": false
+  },
+  "tool": "asn_lookup"
+}

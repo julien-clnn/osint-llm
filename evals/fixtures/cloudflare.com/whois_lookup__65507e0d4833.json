@@ -1,0 +1,38 @@
+{
+  "arguments": {
+    "domain": "cloudflare.com"
+  },
+  "result": {
+    "creation_date": "2009-02-17T22:07:54+00:00",
+    "dnssec": "signedDelegation",
+    "domain": "cloudflare.com",
+    "emails": [
+      "registrar-abuse@cloudflare.com"
+    ],
+    "expiration_date": "2033-02-17T22:07:54+00:00",
+    "found": true,
+    "name_servers": [
+      "NS3.CLOUDFLARE.COM",
+      "NS4.CLOUDFLARE.COM",
+      "NS5.CLOUDFLARE.COM",
+      "NS6.CLOUDFLARE.COM",
+      "NS7.CLOUDFLARE.COM"
+    ],
+    "registrant_country": "US",
+    "registrant_org": "DATA REDACTED",
+    "registrar": "Cloudflare, Inc.",
+    "status": [
+      "clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited",
+      "clientTransferProhibited https://icann.org/epp#clientTransferProhibited",
+      "clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited",
+      "serverDeleteProhibited https://icann.org/epp#serverDeleteProhibited",
+      "serverTransferProhibited https://icann.org/epp#serverTransferProhibited",
+      "serverUpdateProhibited https://icann.org/epp#serverUpdateProhibited"
+    ],
+    "updated_date": [
+      "2024-01-09T16:45:28+00:00",
+      "2024-01-15T01:58:26+00:00"
+    ]
+  },
+  "tool": "whois_lookup"
+}

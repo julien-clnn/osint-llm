@@ -1,0 +1,136 @@
+{
+  "arguments": {
+    "domain": "wikipedia.org"
+  },
+  "result": {
+    "code_matches": [
+      {
+        "path": "EM.md",
+        "repo": "jhuangtw/xg2xg",
+        "snippet": "#### understanding self/team\n- [Myers-Briggs](https://en.wikipedia.org/wiki/Myers%E2%80%93Briggs_Type_Indicator)\n- https://www.jocrf.org/",
+        "url": "https://github.com/jhuangtw/xg2xg/blob/a3551517e8b1995c5717eb0d62e725c3be875327/EM.md"
+      },
+      {
+        "path": "pg.md",
+        "repo": "ty4z2008/Qix",
+        "snippet": "* [《fosdem 2014年PostgreSQL议题(含视频)》](https://archive.fosdem.org/2014/schedule/track/postgresql/)\n\n介绍:[fosdem](http://en.wikipedia.org/wiki/FOSDEM)是一个开源性组织,这个只是会议的一部分，从2001年开始到目前历经13年的[资料](https://archive.fosdem.org/)都被保存着，如果你有需要可以自己去翻阅。干货很多，另外2015年的议题已经开始筹备了[官方地址](https://fosdem.org/2015/)\n\n*[《Postgr",
+        "url": "https://github.com/ty4z2008/Qix/blob/91cd7835e8e2edd38e69d771bbb531271abff502/pg.md"
+      },
+      {
+        "path": "faq.md",
+        "repo": "antonbabenko/terraform-best-practices",
+        "snippet": "* [**pre-commit-terraform**](https://github.com/antonbabenko/pre-commit-terraform) - Collection of git hooks for Terraform to be used with [pre-commit framework](https://pre-commit.com/)\n* [**Infracost**](https://www.infracost.io) - Cloud cost estimates for Terraform in pull requests. Works with Ter",
+        "url": "https://github.com/antonbabenko/terraform-best-practices/blob/ad36b0f3e40ebcee3a8cb706d1b5387540ce7f16/faq.md"
+      },
+      {
+        "path": "QA.md",
+        "repo": "svaksha/Julia.jl",
+        "snippet": "# QA.md\n[Quality Assurance](https://en.wikipedia.org/wiki/Quality_assurance) in Julia!\n\n+ [§1. Data QA](#1-Data-QA) \n+ [§2. Package QA](§2-Package-QA)\n\n----",
+        "url": "https://github.com/svaksha/Julia.jl/blob/c3985aeb1eb78fcde4648887dc5f6c7960503aa1/QA.md"
+      },
+      {
+        "path": "AI.md",
+        "repo": "svaksha/pythonidae",
+        "snippet": "+ [Source Code](https://github.com/luispedro/BuildingMachineLearningSystemsWithPython) for the book [Building Machine Learning Systems with Python](http://www.packtpub.com/building-machine-learning-systems-with-python/book).\n\n\n## §3.1. [Deep Learning](https://en.wikipedia.org/wiki/Deep_learning). sp",
+        "url": "https://github.com/svaksha/pythonidae/blob/d8d72e1454e1602d0decf22de69c8f3148d14242/AI.md"
+      },
+      {
+        "path": "FAQ.md",
+        "repo": "kvz/bash3boilerplate",
+        "snippet": "A \"CLI\" stands for Command-Line Interface. It allows users to interact with a program using text-based commands(https://en.wikipedia.org/wiki/Command-line_interface).",
+        "url": "https://github.com/kvz/bash3boilerplate/blob/c192bba20eb790df9aabc218bffd5a43cf2aa513/FAQ.md"
+      },
+      {
+        "path": "v8.md",
+        "repo": "Troland/how-javascript-works",
+        "snippet": "以下是一系列实现 JavaScript 引擎的热门工程：\n\n* [**V8**](https://en.wikipedia.org/wiki/V8_%28JavaScript_engine%29)－由谷歌开源以 C++ 语言编写\n* [**Rhin**](https://en.wikipedia.org/wiki/Rhino_%28JavaScript_engine%29)－由 Mozilla 基金会主导，开源的，完全使用 Java 开发。\n* [**SpiderMonkey**](https://en.wikipedia.org/wiki/SpiderMonkey_%28JavaScript",
+        "url": "https://github.com/Troland/how-javascript-works/blob/a01d67580d007e07844e2564a541639a169a8af0/v8.md"
+      },
+      {
+        "path": "FAQ.md",
+        "repo": "MiForge/MiUnlockTool",
+        "snippet": "Device codenames of respective brands can be found below:\n\n[Xiaomi](https://en.wikipedia.org/wiki/List_of_Xiaomi_products#Current) [Redmi](https://en.wikipedia.org/wiki/List_of_Redmi_products#Phones) [POCO](https://en.wikipedia.org/wiki/Poco_(smartphone)#Smartphones)\n\n---",
+        "url": "https://github.com/MiForge/MiUnlockTool/blob/ab075577d26322632a2af4f86cbe760d5336a817/FAQ.md"
+      },
+      {
+        "path": "API.md",
+        "repo": "archivy/archivy",
+        "snippet": "| Route name    | Parameters                                                   | Description                                          |\n| ------------- | ------------------------------------------------------------ | ---------------------------------------------------- |\n| POST `/login` | [HTTP Basi",
+        "url": "https://github.com/archivy/archivy/blob/bdcdd39ac6cf9f7b3709b984d8be2f0fa898139e/API.md"
+      },
+      {
+        "path": "FAQ.md",
+        "repo": "Novage/p2p-media-loader",
+        "snippet": "## What is tracker?\n\n`P2P Media Loader` uses WebTorrent compatible trackers to do [WebRTC](https://en.wikipedia.org/wiki/WebRTC) signaling - exchanging [SDP](https://en.wikipedia.org/wiki/Session_Description_Protocol) data between peers to connect them into a swarm.\n\nFew [public trackers](https://op",
+        "url": "https://github.com/Novage/p2p-media-loader/blob/527105b420c15dfdb0e8ed4b6f0a261f48411192/FAQ.md"
+      }
+    ],
+    "code_search_enabled": true,
+    "domain": "wikipedia.org",
+    "repository_count": 10,
+    "repository_matches": [
+      {
+        "description": "🌻 The collaborative editing software that runs Wikipedia. Mirror from https://gerrit.wikimedia.org/g/mediawiki/core. See https://mediawiki.org/wiki/Developer_access for contributing.",
+        "repo": "wikimedia/mediawiki",
+        "stars": 5168,
+        "url": "https://github.com/wikimedia/mediawiki"
+      },
+      {
+        "description": "Fcitx 5 Pinyin Dictionary from zh.wikipedia.org",
+        "repo": "felixonmars/fcitx5-pinyin-zhwiki",
+        "stars": 1093,
+        "url": "https://github.com/felixonmars/fcitx5-pinyin-zhwiki"
+      },
+      {
+        "description": "Native Go version of HighwayHash with optimized assembly implementations on Intel and ARM. Able to process over 10 GB/sec on a single core on Intel CPUs - https://en.wikipedia.org/wiki/HighwayHash",
+        "repo": "minio/highwayhash",
+        "stars": 958,
+        "url": "https://github.com/minio/highwayhash"
+      },
+      {
+        "description": "🌐 Guide and tools to run a full offline mirror of Wikipedia.org with three different approaches: Nginx caching proxy, Kiwix + ZIM dump, and MediaWiki/XOWA + XML dump",
+        "repo": "pirate/wikipedia-mirror",
+        "stars": 550,
+        "url": "https://github.com/pirate/wikipedia-mirror"
+      },
+      {
+        "description": "Tomato Clock is a straightforward command-line Pomodoro application. https://en.wikipedia.org/wiki/Pomodoro_Technique",
+        "repo": "coolcode/tomato-clock",
+        "stars": 528,
+        "url": "https://github.com/coolcode/tomato-clock"
+      },
+      {
+        "description": "Python module to decode/encode Geohashes to/from latitude and longitude. See http://en.wikipedia.org/wiki/Geohash",
+        "repo": "vinsci/geohash",
+        "stars": 365,
+        "url": "https://github.com/vinsci/geohash"
+      },
+      {
+        "description": "Skip to content github / docs Code Issues 80 Pull requests 35 Discussions Actions Projects 2 Security Insights Merge branch 'main' into 1862-Add-Travis-CI-migration-table  1862-Add-Travis-CI-migration-table (#1869, Iixixi/ZachryTylerWood#102, THEBOLCK79/docs#1, sbnbhk/docs#1) @martin389 martin389 co",
+        "repo": "Sfedfcv/redesigned-pancake",
+        "stars": 263,
+        "url": "https://github.com/Sfedfcv/redesigned-pancake"
+      },
+      {
+        "description": "SHA-1 implementation in C++. Do not use SHA-1 unless you have to! https://en.wikipedia.org/wiki/SHA-1#Birthday-Near-Collision_Attack_%E2%80%93_first_practical_chosen-prefix_attack",
+        "repo": "vog/sha1",
+        "stars": 207,
+        "url": "https://github.com/vog/sha1"
+      },
+      {
+        "description": "Louvain community detection for Javascript (http://arxiv.org/abs/0803.0476) (http://en.wikipedia.org/wiki/Community_structure#The_Louvain_method).",
+        "repo": "upphiminn/jLouvain",
+        "stars": 157,
+        "url": "https://github.com/upphiminn/jLouvain"
+      },
+      {
+        "description": "A simple implementation of the SECD abstract machine (https://en.wikipedia.org/wiki/SECD_machine)",
+        "repo": "zachallaun/secd",
+        "stars": 125,
+        "url": "https://github.com/zachallaun/secd"
+      }
+    ],
+    "source": "api.github.com"
+  },
+  "tool": "github_search"
+}

@@ -1,0 +1,46 @@
+{
+  "arguments": {
+    "domain": "microsoft.com"
+  },
+  "result": {
+    "creation_date": "1991-05-02T04:00:00+00:00",
+    "dnssec": "unsigned",
+    "domain": "microsoft.com",
+    "emails": [
+      "abusecomplaints@markmonitor.com",
+      "admin@domains.microsoft",
+      "msnhst@microsoft.com",
+      "whoisrequest@markmonitor.com"
+    ],
+    "expiration_date": [
+      "2027-05-03T04:00:00+00:00",
+      "2027-05-03T00:00:00+00:00"
+    ],
+    "found": true,
+    "name_servers": [
+      "NS1-39.AZURE-DNS.COM",
+      "NS2-39.AZURE-DNS.NET",
+      "NS3-39.AZURE-DNS.ORG",
+      "NS4-39.AZURE-DNS.INFO"
+    ],
+    "registrant_country": "US",
+    "registrant_org": "Microsoft Corporation",
+    "registrar": "MarkMonitor, Inc.",
+    "status": [
+      "clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited",
+      "clientTransferProhibited https://icann.org/epp#clientTransferProhibited",
+      "clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited",
+      "serverDeleteProhibited https://icann.org/epp#serverDeleteProhibited",
+      "serverTransferProhibited https://icann.org/epp#serverTransferProhibited",
+      "serverUpdateProhibited https://icann.org/epp#serverUpdateProhibited",
+      "clientUpdateProhibited (https://www.icann.org/epp#clientUpdateProhibited)",
+      "clientTransferProhibited (https://www.icann.org/epp#clientTransferProhibited)",
+      "clientDeleteProhibited (https://www.icann.org/epp#clientDeleteProhibited)",
+      "serverUpdateProhibited (https://www.icann.org/epp#serverUpdateProhibited)",
+      "serverTransferProhibited (https://www.icann.org/epp#serverTransferProhibited)",
+      "serverDeleteProhibited (https://www.icann.org/epp#serverDeleteProhibited)"
+    ],
+    "updated_date": "2026-01-29T18:46:57+00:00"
+  },
+  "tool": "whois_lookup"
+}

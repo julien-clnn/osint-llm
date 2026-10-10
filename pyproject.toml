@@ -1,0 +1,15 @@
+[tool.pytest.ini_options]
+# Make src/ (osintllm package) and the root (evals package, used by
+# tests/test_adversarial.py) importable without a manual PYTHONPATH. "." alone
+# was not enough in CI (plain `pytest`, without the sys.path[0]=cwd that
+# `python -m pytest` adds) — ModuleNotFoundError: evals, never reproduced locally.
+pythonpath = ["src", "."]
+testpaths = ["tests"]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+
+[tool.ruff.lint]
+# Core pycodestyle + pyflakes (inclut E402, qui justifie nos noqa de bootstrap).
+select = ["E", "F", "W"]

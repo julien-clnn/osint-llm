@@ -1,0 +1,269 @@
+{
+  "arguments": {
+    "ip": "74.86.142.55"
+  },
+  "result": {
+    "announced_prefix": "74.86.0.0/16",
+    "asn": 36351,
+    "asn_description": "SOFTLAYER - IBM Cloud",
+    "asn_name": "SOFTLAYER - IBM Cloud",
+    "asn_prefixes": [
+      {
+        "country": "",
+        "name": "SOFTLAYER - IBM Cloud",
+        "prefix": "62.84.171.0/24"
+      },
+      {
+        "country": "",
+        "name": "SOFTLAYER - IBM Cloud",
+        "prefix": "2607:f0d0:1100::/40"
+      },
+      {
+        "country": "",
+        "name": "SOFTLAYER - IBM Cloud",
+        "prefix": "169.38.96.0/19"
+      },
+      {
+        "country": "",
+        "name": "SOFTLAYER - IBM Cloud",
+        "prefix": "169.38.8.0/21"
+      },
+      {
+        "country": "",
+        "name": "SOFTLAYER - IBM Cloud",
+        "prefix": "66.37.96.0/24"
+      },
+      {
+        "country": "",
+        "name": "SOFTLAYER - IBM Cloud",
+        "prefix": "52.118.192.0/18"
+      },
+      {
+        "country": "",
+        "name": "SOFTLAYER - IBM Cloud",
+        "prefix": "169.38.64.0/19"
+      },
+      {
+        "country": "",
+        "name": "SOFTLAYER - IBM Cloud",
+        "prefix": "158.176.192.0/18"
+      },
+      {
+        "country": "",
+        "name": "SOFTLAYER - IBM Cloud",
+        "prefix": "198.23.112.0/20"
+      },
+      {
+        "country": "",
+        "name": "SOFTLAYER - IBM Cloud",
+        "prefix": "173.192.254.0/24"
+      },
+      {
+        "country": "",
+        "name": "SOFTLAYER - IBM Cloud",
+        "prefix": "69.57.140.0/22"
+      },
+      {
+        "country": "",
+        "name": "SOFTLAYER - IBM Cloud",
+        "prefix": "2403:1480:1000::/36"
+      },
+      {
+        "country": "",
+        "name": "SOFTLAYER - IBM Cloud",
+        "prefix": "2403:a280:8000::/36"
+      },
+      {
+        "country": "",
+        "name": "SOFTLAYER - IBM Cloud",
+        "prefix": "174.133.0.0/16"
+      },
+      {
+        "country": "",
+        "name": "SOFTLAYER - IBM Cloud",
+        "prefix": "173.193.0.0/18"
+      },
+      {
+        "country": "",
+        "name": "SOFTLAYER - IBM Cloud",
+        "prefix": "119.81.128.0/21"
+      },
+      {
+        "country": "",
+        "name": "SOFTLAYER - IBM Cloud",
+        "prefix": "149.81.64.0/18"
+      },
+      {
+        "country": "",
+        "name": "SOFTLAYER - IBM Cloud",
+        "prefix": "2803:2f40:ffff::/48"
+      },
+      {
+        "country": "",
+        "name": "SOFTLAYER - IBM Cloud",
+        "prefix": "165.192.128.0/18"
+      },
+      {
+        "country": "",
+        "name": "SOFTLAYER - IBM Cloud",
+        "prefix": "130.198.0.0/19"
+      },
+      {
+        "country": "",
+        "name": "SOFTLAYER - IBM Cloud",
+        "prefix": "169.38.232.0/22"
+      },
+      {
+        "country": "",
+        "name": "SOFTLAYER - IBM Cloud",
+        "prefix": "192.255.30.0/24"
+      },
+      {
+        "country": "",
+        "name": "SOFTLAYER - IBM Cloud",
+        "prefix": "75.126.32.0/21"
+      },
+      {
+        "country": "",
+        "name": "SOFTLAYER - IBM Cloud",
+        "prefix": "75.126.112.0/20"
+      },
+      {
+        "country": "",
+        "name": "SOFTLAYER - IBM Cloud",
+        "prefix": "108.168.128.0/19"
+      },
+      {
+        "country": "",
+        "name": "SOFTLAYER - IBM Cloud",
+        "prefix": "150.238.192.0/18"
+      },
+      {
+        "country": "",
+        "name": "SOFTLAYER - IBM Cloud",
+        "prefix": "208.101.0.0/18"
+      },
+      {
+        "country": "",
+        "name": "SOFTLAYER - IBM Cloud",
+        "prefix": "169.60.128.0/18"
+      },
+      {
+        "country": "",
+        "name": "SOFTLAYER - IBM Cloud",
+        "prefix": "169.38.204.0/22"
+      },
+      {
+        "country": "",
+        "name": "SOFTLAYER - IBM Cloud",
+        "prefix": "173.247.107.0/24"
+      },
+      {
+        "country": "",
+        "name": "SOFTLAYER - IBM Cloud",
+        "prefix": "2401:c900:1400::/40"
+      },
+      {
+        "country": "",
+        "name": "SOFTLAYER - IBM Cloud",
+        "prefix": "135.90.64.0/18"
+      },
+      {
+        "country": "",
+        "name": "SOFTLAYER - IBM Cloud",
+        "prefix": "169.47.64.0/18"
+      },
+      {
+        "country": "",
+        "name": "SOFTLAYER - IBM Cloud",
+        "prefix": "52.116.0.0/18"
+      },
+      {
+        "country": "",
+        "name": "SOFTLAYER - IBM Cloud",
+        "prefix": "198.23.104.0/22"
+      },
+      {
+        "country": "",
+        "name": "SOFTLAYER - IBM Cloud",
+        "prefix": "104.207.183.0/24"
+      },
+      {
+        "country": "",
+        "name": "SOFTLAYER - IBM Cloud",
+        "prefix": "169.45.20.0/22"
+      },
+      {
+        "country": "",
+        "name": "SOFTLAYER - IBM Cloud",
+        "prefix": "130.198.64.0/18"
+      },
+      {
+        "country": "",
+        "name": "SOFTLAYER - IBM Cloud",
+        "prefix": "169.55.60.0/22"
+      },
+      {
+        "country": "",
+        "name": "SOFTLAYER - IBM Cloud",
+        "prefix": "67.228.64.0/18"
+      },
+      {
+        "country": "",
+        "name": "SOFTLAYER - IBM Cloud",
+        "prefix": "50.22.0.0/21"
+      },
+      {
+        "country": "",
+        "name": "SOFTLAYER - IBM Cloud",
+        "prefix": "208.43.0.0/18"
+      },
+      {
+        "country": "",
+        "name": "SOFTLAYER - IBM Cloud",
+        "prefix": "2401:c900:1800::/40"
+      },
+      {
+        "country": "",
+        "name": "SOFTLAYER - IBM Cloud",
+        "prefix": "75.126.40.0/22"
+      },
+      {
+        "country": "",
+        "name": "SOFTLAYER - IBM Cloud",
+        "prefix": "169.51.160.0/19"
+      },
+      {
+        "country": "",
+        "name": "SOFTLAYER - IBM Cloud",
+        "prefix": "170.225.114.0/24"
+      },
+      {
+        "country": "",
+        "name": "SOFTLAYER - IBM Cloud",
+        "prefix": "74.86.0.0/16"
+      },
+      {
+        "country": "",
+        "name": "SOFTLAYER - IBM Cloud",
+        "prefix": "169.38.64.0/18"
+      },
+      {
+        "country": "",
+        "name": "SOFTLAYER - IBM Cloud",
+        "prefix": "50.22.128.0/18"
+      },
+      {
+        "country": "",
+        "name": "SOFTLAYER - IBM Cloud",
+        "prefix": "169.57.128.0/17"
+      }
+    ],
+    "country": "",
+    "ip": "74.86.142.55",
+    "prefix_count": 411,
+    "source": "RIPEstat",
+    "truncated": true
+  },
+  "tool": "asn_lookup"
+}

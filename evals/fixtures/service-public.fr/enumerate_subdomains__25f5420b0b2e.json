@@ -1,0 +1,15 @@
+{
+  "arguments": {
+    "domain": "service-public.fr"
+  },
+  "result": {
+    "domain": "service-public.fr",
+    "source": "crt.sh",
+    "subdomain_count": 1,
+    "subdomains": [
+      "service-public.fr"
+    ],
+    "truncated": false
+  },
+  "tool": "enumerate_subdomains"
+}

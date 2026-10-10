@@ -1,0 +1,159 @@
+{
+  "arguments": {
+    "ip": "173.236.182.137"
+  },
+  "result": {
+    "announced_prefix": "173.236.128.0/17",
+    "asn": 26347,
+    "asn_description": "DREAMHOST-AS - New Dream Network, LLC",
+    "asn_name": "DREAMHOST-AS - New Dream Network, LLC",
+    "asn_prefixes": [
+      {
+        "country": "",
+        "name": "DREAMHOST-AS - New Dream Network, LLC",
+        "prefix": "75.119.192.0/19"
+      },
+      {
+        "country": "",
+        "name": "DREAMHOST-AS - New Dream Network, LLC",
+        "prefix": "205.196.208.0/22"
+      },
+      {
+        "country": "",
+        "name": "DREAMHOST-AS - New Dream Network, LLC",
+        "prefix": "67.205.0.0/19"
+      },
+      {
+        "country": "",
+        "name": "DREAMHOST-AS - New Dream Network, LLC",
+        "prefix": "64.111.96.0/20"
+      },
+      {
+        "country": "",
+        "name": "DREAMHOST-AS - New Dream Network, LLC",
+        "prefix": "208.97.128.0/18"
+      },
+      {
+        "country": "",
+        "name": "DREAMHOST-AS - New Dream Network, LLC",
+        "prefix": "2607:f298:6::/48"
+      },
+      {
+        "country": "",
+        "name": "DREAMHOST-AS - New Dream Network, LLC",
+        "prefix": "208.113.240.0/22"
+      },
+      {
+        "country": "",
+        "name": "DREAMHOST-AS - New Dream Network, LLC",
+        "prefix": "67.205.56.0/21"
+      },
+      {
+        "country": "",
+        "name": "DREAMHOST-AS - New Dream Network, LLC",
+        "prefix": "2607:f298:5::/48"
+      },
+      {
+        "country": "",
+        "name": "DREAMHOST-AS - New Dream Network, LLC",
+        "prefix": "208.113.192.0/19"
+      },
+      {
+        "country": "",
+        "name": "DREAMHOST-AS - New Dream Network, LLC",
+        "prefix": "2607:f298:6050::/44"
+      },
+      {
+        "country": "",
+        "name": "DREAMHOST-AS - New Dream Network, LLC",
+        "prefix": "64.90.32.0/19"
+      },
+      {
+        "country": "",
+        "name": "DREAMHOST-AS - New Dream Network, LLC",
+        "prefix": "205.196.220.0/22"
+      },
+      {
+        "country": "",
+        "name": "DREAMHOST-AS - New Dream Network, LLC",
+        "prefix": "69.163.128.0/17"
+      },
+      {
+        "country": "",
+        "name": "DREAMHOST-AS - New Dream Network, LLC",
+        "prefix": "67.205.32.0/21"
+      },
+      {
+        "country": "",
+        "name": "DREAMHOST-AS - New Dream Network, LLC",
+        "prefix": "66.33.192.0/20"
+      },
+      {
+        "country": "",
+        "name": "DREAMHOST-AS - New Dream Network, LLC",
+        "prefix": "208.113.128.0/18"
+      },
+      {
+        "country": "",
+        "name": "DREAMHOST-AS - New Dream Network, LLC",
+        "prefix": "67.205.40.0/21"
+      },
+      {
+        "country": "",
+        "name": "DREAMHOST-AS - New Dream Network, LLC",
+        "prefix": "66.33.216.0/24"
+      },
+      {
+        "country": "",
+        "name": "DREAMHOST-AS - New Dream Network, LLC",
+        "prefix": "208.113.224.0/20"
+      },
+      {
+        "country": "",
+        "name": "DREAMHOST-AS - New Dream Network, LLC",
+        "prefix": "208.113.244.0/22"
+      },
+      {
+        "country": "",
+        "name": "DREAMHOST-AS - New Dream Network, LLC",
+        "prefix": "208.113.248.0/21"
+      },
+      {
+        "country": "",
+        "name": "DREAMHOST-AS - New Dream Network, LLC",
+        "prefix": "107.180.224.0/19"
+      },
+      {
+        "country": "",
+        "name": "DREAMHOST-AS - New Dream Network, LLC",
+        "prefix": "205.196.216.0/22"
+      },
+      {
+        "country": "",
+        "name": "DREAMHOST-AS - New Dream Network, LLC",
+        "prefix": "205.196.212.0/22"
+      },
+      {
+        "country": "",
+        "name": "DREAMHOST-AS - New Dream Network, LLC",
+        "prefix": "67.205.48.0/21"
+      },
+      {
+        "country": "",
+        "name": "DREAMHOST-AS - New Dream Network, LLC",
+        "prefix": "173.236.128.0/17"
+      },
+      {
+        "country": "",
+        "name": "DREAMHOST-AS - New Dream Network, LLC",
+        "prefix": "67.205.0.0/18"
+      }
+    ],
+    "country": "",
+    "ip": "173.236.182.137",
+    "prefix_count": 28,
+    "source": "RIPEstat",
+    "truncated": false
+  },
+  "tool": "asn_lookup"
+}

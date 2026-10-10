@@ -1,0 +1,9 @@
+{
+  "arguments": {
+    "domain": "_dmarc.pets.com"
+  },
+  "result": {
+    "error": "Nom de domaine invalide : '_dmarc.pets.com'"
+  },
+  "tool": "dns_records_lookup"
+}

@@ -1,0 +1,39 @@
+{
+  "arguments": {
+    "target": "cloudflare.com"
+  },
+  "result": {
+    "ip_count": 2,
+    "locations": [
+      {
+        "as": "AS13335 Cloudflare, Inc.",
+        "city": "Toronto",
+        "country": "Canada",
+        "country_code": "CA",
+        "ip": "104.16.132.229",
+        "isp": "Cloudflare, Inc.",
+        "lat": 43.6532,
+        "lon": -79.3832,
+        "org": "Cloudflare, Inc.",
+        "region": "Ontario"
+      },
+      {
+        "as": "AS13335 Cloudflare, Inc.",
+        "city": "Toronto",
+        "country": "Canada",
+        "country_code": "CA",
+        "ip": "104.16.133.229",
+        "isp": "Cloudflare, Inc.",
+        "lat": 43.6532,
+        "lon": -79.3832,
+        "org": "Cloudflare, Inc.",
+        "region": "Ontario"
+      }
+    ],
+    "resolved_from_domain": "cloudflare.com",
+    "source": "ip-api.com",
+    "target": "cloudflare.com",
+    "truncated": false
+  },
+  "tool": "ip_geolocate"
+}

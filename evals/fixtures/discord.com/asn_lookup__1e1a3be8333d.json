@@ -1,0 +1,269 @@
+{
+  "arguments": {
+    "ip": "2607:f8b0:4023:100b::1a"
+  },
+  "result": {
+    "announced_prefix": "2607:f8b0::/32",
+    "asn": 15169,
+    "asn_description": "GOOGLE - Google LLC",
+    "asn_name": "GOOGLE - Google LLC",
+    "asn_prefixes": [
+      {
+        "country": "",
+        "name": "GOOGLE - Google LLC",
+        "prefix": "34.4.24.0/22"
+      },
+      {
+        "country": "",
+        "name": "GOOGLE - Google LLC",
+        "prefix": "35.206.6.0/24"
+      },
+      {
+        "country": "",
+        "name": "GOOGLE - Google LLC",
+        "prefix": "142.251.16.0/24"
+      },
+      {
+        "country": "",
+        "name": "GOOGLE - Google LLC",
+        "prefix": "74.125.192.0/24"
+      },
+      {
+        "country": "",
+        "name": "GOOGLE - Google LLC",
+        "prefix": "192.178.165.0/24"
+      },
+      {
+        "country": "",
+        "name": "GOOGLE - Google LLC",
+        "prefix": "66.22.228.0/23"
+      },
+      {
+        "country": "",
+        "name": "GOOGLE - Google LLC",
+        "prefix": "34.2.124.0/22"
+      },
+      {
+        "country": "",
+        "name": "GOOGLE - Google LLC",
+        "prefix": "2a00:1450:4006::/48"
+      },
+      {
+        "country": "",
+        "name": "GOOGLE - Google LLC",
+        "prefix": "173.194.136.0/24"
+      },
+      {
+        "country": "",
+        "name": "GOOGLE - Google LLC",
+        "prefix": "2600:1902:40::/44"
+      },
+      {
+        "country": "",
+        "name": "GOOGLE - Google LLC",
+        "prefix": "2a00:1450:4016::/48"
+      },
+      {
+        "country": "",
+        "name": "GOOGLE - Google LLC",
+        "prefix": "142.251.161.0/24"
+      },
+      {
+        "country": "",
+        "name": "GOOGLE - Google LLC",
+        "prefix": "172.253.141.0/24"
+      },
+      {
+        "country": "",
+        "name": "GOOGLE - Google LLC",
+        "prefix": "142.251.102.0/24"
+      },
+      {
+        "country": "",
+        "name": "GOOGLE - Google LLC",
+        "prefix": "173.194.44.0/24"
+      },
+      {
+        "country": "",
+        "name": "GOOGLE - Google LLC",
+        "prefix": "66.249.64.0/20"
+      },
+      {
+        "country": "",
+        "name": "GOOGLE - Google LLC",
+        "prefix": "142.250.81.0/24"
+      },
+      {
+        "country": "",
+        "name": "GOOGLE - Google LLC",
+        "prefix": "142.251.10.0/24"
+      },
+      {
+        "country": "",
+        "name": "GOOGLE - Google LLC",
+        "prefix": "216.58.206.0/23"
+      },
+      {
+        "country": "",
+        "name": "GOOGLE - Google LLC",
+        "prefix": "64.233.190.0/24"
+      },
+      {
+        "country": "",
+        "name": "GOOGLE - Google LLC",
+        "prefix": "172.217.64.0/24"
+      },
+      {
+        "country": "",
+        "name": "GOOGLE - Google LLC",
+        "prefix": "152.65.229.0/24"
+      },
+      {
+        "country": "",
+        "name": "GOOGLE - Google LLC",
+        "prefix": "74.125.132.0/24"
+      },
+      {
+        "country": "",
+        "name": "GOOGLE - Google LLC",
+        "prefix": "172.217.19.0/24"
+      },
+      {
+        "country": "",
+        "name": "GOOGLE - Google LLC",
+        "prefix": "2607:f8b0:4015::/48"
+      },
+      {
+        "country": "",
+        "name": "GOOGLE - Google LLC",
+        "prefix": "34.191.80.0/21"
+      },
+      {
+        "country": "",
+        "name": "GOOGLE - Google LLC",
+        "prefix": "216.239.32.0/19"
+      },
+      {
+        "country": "",
+        "name": "GOOGLE - Google LLC",
+        "prefix": "74.125.39.0/24"
+      },
+      {
+        "country": "",
+        "name": "GOOGLE - Google LLC",
+        "prefix": "108.170.245.0/24"
+      },
+      {
+        "country": "",
+        "name": "GOOGLE - Google LLC",
+        "prefix": "2600:1902:2d0::/44"
+      },
+      {
+        "country": "",
+        "name": "GOOGLE - Google LLC",
+        "prefix": "34.1.16.0/20"
+      },
+      {
+        "country": "",
+        "name": "GOOGLE - Google LLC",
+        "prefix": "34.0.32.0/20"
+      },
+      {
+        "country": "",
+        "name": "GOOGLE - Google LLC",
+        "prefix": "74.125.203.0/24"
+      },
+      {
+        "country": "",
+        "name": "GOOGLE - Google LLC",
+        "prefix": "192.178.151.0/24"
+      },
+      {
+        "country": "",
+        "name": "GOOGLE - Google LLC",
+        "prefix": "34.1.89.0/24"
+      },
+      {
+        "country": "",
+        "name": "GOOGLE - Google LLC",
+        "prefix": "192.178.128.0/24"
+      },
+      {
+        "country": "",
+        "name": "GOOGLE - Google LLC",
+        "prefix": "2a00:1450:4005::/48"
+      },
+      {
+        "country": "",
+        "name": "GOOGLE - Google LLC",
+        "prefix": "66.249.84.0/23"
+      },
+      {
+        "country": "",
+        "name": "GOOGLE - Google LLC",
+        "prefix": "34.112.0.0/16"
+      },
+      {
+        "country": "",
+        "name": "GOOGLE - Google LLC",
+        "prefix": "66.102.8.0/23"
+      },
+      {
+        "country": "",
+        "name": "GOOGLE - Google LLC",
+        "prefix": "2600:1902:2c0::/44"
+      },
+      {
+        "country": "",
+        "name": "GOOGLE - Google LLC",
+        "prefix": "173.194.160.0/21"
+      },
+      {
+        "country": "",
+        "name": "GOOGLE - Google LLC",
+        "prefix": "192.178.216.0/24"
+      },
+      {
+        "country": "",
+        "name": "GOOGLE - Google LLC",
+        "prefix": "34.2.32.0/20"
+      },
+      {
+        "country": "",
+        "name": "GOOGLE - Google LLC",
+        "prefix": "34.1.176.0/20"
+      },
+      {
+        "country": "",
+        "name": "GOOGLE - Google LLC",
+        "prefix": "172.253.152.0/24"
+      },
+      {
+        "country": "",
+        "name": "GOOGLE - Google LLC",
+        "prefix": "74.125.204.0/24"
+      },
+      {
+        "country": "",
+        "name": "GOOGLE - Google LLC",
+        "prefix": "35.207.0.0/18"
+      },
+      {
+        "country": "",
+        "name": "GOOGLE - Google LLC",
+        "prefix": "173.194.7.0/24"
+      },
+      {
+        "country": "",
+        "name": "GOOGLE - Google LLC",
+        "prefix": "2404:6800:4006::/48"
+      }
+    ],
+    "country": "",
+    "ip": "2607:f8b0:4023:100b::1a",
+    "prefix_count": 1409,
+    "source": "RIPEstat",
+    "truncated": true
+  },
+  "tool": "asn_lookup"
+}

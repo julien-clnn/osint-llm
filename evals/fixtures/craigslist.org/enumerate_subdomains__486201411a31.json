@@ -1,0 +1,53 @@
+{
+  "arguments": {
+    "domain": "craigslist.org"
+  },
+  "result": {
+    "domain": "craigslist.org",
+    "source": "crt.sh",
+    "subdomain_count": 39,
+    "subdomains": [
+      "accounts.craigslist.org",
+      "auth1a.int.craigslist.org",
+      "auth1f.int.craigslist.org",
+      "bapi.craigslist.org",
+      "ccard-api-200paul.craigslist.org",
+      "ccard-api-ashburn.craigslist.org",
+      "craigslist.org",
+      "home.craigslist.org",
+      "int.craigslist.org",
+      "mta-sts.alerts.craigslist.org",
+      "mta-sts.comm.craigslist.org",
+      "mta-sts.event.craigslist.org",
+      "mta-sts.gigs.craigslist.org",
+      "mta-sts.hous.craigslist.org",
+      "mta-sts.job.craigslist.org",
+      "mta-sts.reply.craigslist.org",
+      "mta-sts.res.craigslist.org",
+      "mta-sts.sale.craigslist.org",
+      "mta-sts.serv.craigslist.org",
+      "mxi.craigslist.org",
+      "mxia.craigslist.org",
+      "mxicorp.craigslist.org",
+      "mxicorpa.craigslist.org",
+      "mxicorpf.craigslist.org",
+      "mxif.craigslist.org",
+      "outbound.200paul.craigslist.org",
+      "outbound.ashburn.craigslist.org",
+      "outbound.craigslist.org",
+      "outbound.int.craigslist.org",
+      "post.craigslist.org",
+      "remote.craigslist.org",
+      "secure.craigslist.org",
+      "smtp.craigslist.org",
+      "team.craigslist.org",
+      "wapi.craigslist.org",
+      "www.auth1a.int.craigslist.org",
+      "www.auth1f.int.craigslist.org",
+      "www.craigslist.org",
+      "www.smtp.craigslist.org"
+    ],
+    "truncated": false
+  },
+  "tool": "enumerate_subdomains"
+}

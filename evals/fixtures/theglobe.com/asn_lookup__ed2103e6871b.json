@@ -1,0 +1,269 @@
+{
+  "arguments": {
+    "ip": "5.161.133.13"
+  },
+  "result": {
+    "announced_prefix": "5.161.133.0/24",
+    "asn": 213230,
+    "asn_description": "HETZNER-CLOUD2-AS Hetzner Online GmbH",
+    "asn_name": "HETZNER-CLOUD2-AS Hetzner Online GmbH",
+    "asn_prefixes": [
+      {
+        "country": "",
+        "name": "HETZNER-CLOUD2-AS Hetzner Online GmbH",
+        "prefix": "5.161.217.0/24"
+      },
+      {
+        "country": "",
+        "name": "HETZNER-CLOUD2-AS Hetzner Online GmbH",
+        "prefix": "5.161.121.0/24"
+      },
+      {
+        "country": "",
+        "name": "HETZNER-CLOUD2-AS Hetzner Online GmbH",
+        "prefix": "5.161.206.0/24"
+      },
+      {
+        "country": "",
+        "name": "HETZNER-CLOUD2-AS Hetzner Online GmbH",
+        "prefix": "178.156.178.0/24"
+      },
+      {
+        "country": "",
+        "name": "HETZNER-CLOUD2-AS Hetzner Online GmbH",
+        "prefix": "5.161.28.0/24"
+      },
+      {
+        "country": "",
+        "name": "HETZNER-CLOUD2-AS Hetzner Online GmbH",
+        "prefix": "5.161.44.0/24"
+      },
+      {
+        "country": "",
+        "name": "HETZNER-CLOUD2-AS Hetzner Online GmbH",
+        "prefix": "5.161.194.0/24"
+      },
+      {
+        "country": "",
+        "name": "HETZNER-CLOUD2-AS Hetzner Online GmbH",
+        "prefix": "5.161.240.0/24"
+      },
+      {
+        "country": "",
+        "name": "HETZNER-CLOUD2-AS Hetzner Online GmbH",
+        "prefix": "5.161.232.0/24"
+      },
+      {
+        "country": "",
+        "name": "HETZNER-CLOUD2-AS Hetzner Online GmbH",
+        "prefix": "5.161.51.0/24"
+      },
+      {
+        "country": "",
+        "name": "HETZNER-CLOUD2-AS Hetzner Online GmbH",
+        "prefix": "5.161.196.0/24"
+      },
+      {
+        "country": "",
+        "name": "HETZNER-CLOUD2-AS Hetzner Online GmbH",
+        "prefix": "5.161.34.0/24"
+      },
+      {
+        "country": "",
+        "name": "HETZNER-CLOUD2-AS Hetzner Online GmbH",
+        "prefix": "5.161.226.0/24"
+      },
+      {
+        "country": "",
+        "name": "HETZNER-CLOUD2-AS Hetzner Online GmbH",
+        "prefix": "178.156.188.0/24"
+      },
+      {
+        "country": "",
+        "name": "HETZNER-CLOUD2-AS Hetzner Online GmbH",
+        "prefix": "5.161.31.0/24"
+      },
+      {
+        "country": "",
+        "name": "HETZNER-CLOUD2-AS Hetzner Online GmbH",
+        "prefix": "178.156.207.0/24"
+      },
+      {
+        "country": "",
+        "name": "HETZNER-CLOUD2-AS Hetzner Online GmbH",
+        "prefix": "178.156.195.0/24"
+      },
+      {
+        "country": "",
+        "name": "HETZNER-CLOUD2-AS Hetzner Online GmbH",
+        "prefix": "5.161.231.0/24"
+      },
+      {
+        "country": "",
+        "name": "HETZNER-CLOUD2-AS Hetzner Online GmbH",
+        "prefix": "5.161.19.0/24"
+      },
+      {
+        "country": "",
+        "name": "HETZNER-CLOUD2-AS Hetzner Online GmbH",
+        "prefix": "87.99.150.0/24"
+      },
+      {
+        "country": "",
+        "name": "HETZNER-CLOUD2-AS Hetzner Online GmbH",
+        "prefix": "178.156.128.0/24"
+      },
+      {
+        "country": "",
+        "name": "HETZNER-CLOUD2-AS Hetzner Online GmbH",
+        "prefix": "5.161.208.0/24"
+      },
+      {
+        "country": "",
+        "name": "HETZNER-CLOUD2-AS Hetzner Online GmbH",
+        "prefix": "178.156.223.0/24"
+      },
+      {
+        "country": "",
+        "name": "HETZNER-CLOUD2-AS Hetzner Online GmbH",
+        "prefix": "5.161.42.0/24"
+      },
+      {
+        "country": "",
+        "name": "HETZNER-CLOUD2-AS Hetzner Online GmbH",
+        "prefix": "178.156.213.0/24"
+      },
+      {
+        "country": "",
+        "name": "HETZNER-CLOUD2-AS Hetzner Online GmbH",
+        "prefix": "178.156.151.0/24"
+      },
+      {
+        "country": "",
+        "name": "HETZNER-CLOUD2-AS Hetzner Online GmbH",
+        "prefix": "5.161.45.0/24"
+      },
+      {
+        "country": "",
+        "name": "HETZNER-CLOUD2-AS Hetzner Online GmbH",
+        "prefix": "5.161.224.0/24"
+      },
+      {
+        "country": "",
+        "name": "HETZNER-CLOUD2-AS Hetzner Online GmbH",
+        "prefix": "87.99.128.0/24"
+      },
+      {
+        "country": "",
+        "name": "HETZNER-CLOUD2-AS Hetzner Online GmbH",
+        "prefix": "5.161.223.0/24"
+      },
+      {
+        "country": "",
+        "name": "HETZNER-CLOUD2-AS Hetzner Online GmbH",
+        "prefix": "178.156.142.0/24"
+      },
+      {
+        "country": "",
+        "name": "HETZNER-CLOUD2-AS Hetzner Online GmbH",
+        "prefix": "178.156.215.0/24"
+      },
+      {
+        "country": "",
+        "name": "HETZNER-CLOUD2-AS Hetzner Online GmbH",
+        "prefix": "178.156.129.0/24"
+      },
+      {
+        "country": "",
+        "name": "HETZNER-CLOUD2-AS Hetzner Online GmbH",
+        "prefix": "87.99.141.0/24"
+      },
+      {
+        "country": "",
+        "name": "HETZNER-CLOUD2-AS Hetzner Online GmbH",
+        "prefix": "87.99.144.0/24"
+      },
+      {
+        "country": "",
+        "name": "HETZNER-CLOUD2-AS Hetzner Online GmbH",
+        "prefix": "178.156.145.0/24"
+      },
+      {
+        "country": "",
+        "name": "HETZNER-CLOUD2-AS Hetzner Online GmbH",
+        "prefix": "5.161.25.0/24"
+      },
+      {
+        "country": "",
+        "name": "HETZNER-CLOUD2-AS Hetzner Online GmbH",
+        "prefix": "5.161.188.0/24"
+      },
+      {
+        "country": "",
+        "name": "HETZNER-CLOUD2-AS Hetzner Online GmbH",
+        "prefix": "5.161.189.0/24"
+      },
+      {
+        "country": "",
+        "name": "HETZNER-CLOUD2-AS Hetzner Online GmbH",
+        "prefix": "178.156.189.0/24"
+      },
+      {
+        "country": "",
+        "name": "HETZNER-CLOUD2-AS Hetzner Online GmbH",
+        "prefix": "5.161.88.0/24"
+      },
+      {
+        "country": "",
+        "name": "HETZNER-CLOUD2-AS Hetzner Online GmbH",
+        "prefix": "5.161.26.0/24"
+      },
+      {
+        "country": "",
+        "name": "HETZNER-CLOUD2-AS Hetzner Online GmbH",
+        "prefix": "5.161.243.0/24"
+      },
+      {
+        "country": "",
+        "name": "HETZNER-CLOUD2-AS Hetzner Online GmbH",
+        "prefix": "5.161.113.0/24"
+      },
+      {
+        "country": "",
+        "name": "HETZNER-CLOUD2-AS Hetzner Online GmbH",
+        "prefix": "5.161.70.0/24"
+      },
+      {
+        "country": "",
+        "name": "HETZNER-CLOUD2-AS Hetzner Online GmbH",
+        "prefix": "87.99.153.0/24"
+      },
+      {
+        "country": "",
+        "name": "HETZNER-CLOUD2-AS Hetzner Online GmbH",
+        "prefix": "5.161.245.0/24"
+      },
+      {
+        "country": "",
+        "name": "HETZNER-CLOUD2-AS Hetzner Online GmbH",
+        "prefix": "178.156.247.0/24"
+      },
+      {
+        "country": "",
+        "name": "HETZNER-CLOUD2-AS Hetzner Online GmbH",
+        "prefix": "5.161.123.0/24"
+      },
+      {
+        "country": "",
+        "name": "HETZNER-CLOUD2-AS Hetzner Online GmbH",
+        "prefix": "5.161.97.0/24"
+      }
+    ],
+    "country": "",
+    "ip": "5.161.133.13",
+    "prefix_count": 391,
+    "source": "RIPEstat",
+    "truncated": true
+  },
+  "tool": "asn_lookup"
+}

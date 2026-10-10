@@ -1,0 +1,169 @@
+{
+  "arguments": {
+    "ip": "72.52.10.14"
+  },
+  "result": {
+    "announced_prefix": "72.52.10.0/24",
+    "asn": 213120,
+    "asn_description": "PROLEXIC-IP-PROTECT Akamai International B.V.",
+    "asn_name": "PROLEXIC-IP-PROTECT Akamai International B.V.",
+    "asn_prefixes": [
+      {
+        "country": "",
+        "name": "PROLEXIC-IP-PROTECT Akamai International B.V.",
+        "prefix": "209.200.152.0/24"
+      },
+      {
+        "country": "",
+        "name": "PROLEXIC-IP-PROTECT Akamai International B.V.",
+        "prefix": "72.52.4.0/24"
+      },
+      {
+        "country": "",
+        "name": "PROLEXIC-IP-PROTECT Akamai International B.V.",
+        "prefix": "72.52.12.0/24"
+      },
+      {
+        "country": "",
+        "name": "PROLEXIC-IP-PROTECT Akamai International B.V.",
+        "prefix": "209.200.128.0/24"
+      },
+      {
+        "country": "",
+        "name": "PROLEXIC-IP-PROTECT Akamai International B.V.",
+        "prefix": "209.200.132.0/24"
+      },
+      {
+        "country": "",
+        "name": "PROLEXIC-IP-PROTECT Akamai International B.V.",
+        "prefix": "72.52.14.0/24"
+      },
+      {
+        "country": "",
+        "name": "PROLEXIC-IP-PROTECT Akamai International B.V.",
+        "prefix": "72.52.7.0/24"
+      },
+      {
+        "country": "",
+        "name": "PROLEXIC-IP-PROTECT Akamai International B.V.",
+        "prefix": "72.52.11.0/24"
+      },
+      {
+        "country": "",
+        "name": "PROLEXIC-IP-PROTECT Akamai International B.V.",
+        "prefix": "23.57.98.0/24"
+      },
+      {
+        "country": "",
+        "name": "PROLEXIC-IP-PROTECT Akamai International B.V.",
+        "prefix": "72.52.6.0/24"
+      },
+      {
+        "country": "",
+        "name": "PROLEXIC-IP-PROTECT Akamai International B.V.",
+        "prefix": "2a02:2370:1000::/48"
+      },
+      {
+        "country": "",
+        "name": "PROLEXIC-IP-PROTECT Akamai International B.V.",
+        "prefix": "72.52.60.0/24"
+      },
+      {
+        "country": "",
+        "name": "PROLEXIC-IP-PROTECT Akamai International B.V.",
+        "prefix": "72.52.15.0/24"
+      },
+      {
+        "country": "",
+        "name": "PROLEXIC-IP-PROTECT Akamai International B.V.",
+        "prefix": "199.46.32.0/19"
+      },
+      {
+        "country": "",
+        "name": "PROLEXIC-IP-PROTECT Akamai International B.V.",
+        "prefix": "72.52.13.0/24"
+      },
+      {
+        "country": "",
+        "name": "PROLEXIC-IP-PROTECT Akamai International B.V.",
+        "prefix": "103.41.68.0/22"
+      },
+      {
+        "country": "",
+        "name": "PROLEXIC-IP-PROTECT Akamai International B.V.",
+        "prefix": "72.52.9.0/24"
+      },
+      {
+        "country": "",
+        "name": "PROLEXIC-IP-PROTECT Akamai International B.V.",
+        "prefix": "72.52.56.0/24"
+      },
+      {
+        "country": "",
+        "name": "PROLEXIC-IP-PROTECT Akamai International B.V.",
+        "prefix": "209.200.134.0/24"
+      },
+      {
+        "country": "",
+        "name": "PROLEXIC-IP-PROTECT Akamai International B.V.",
+        "prefix": "114.141.72.0/24"
+      },
+      {
+        "country": "",
+        "name": "PROLEXIC-IP-PROTECT Akamai International B.V.",
+        "prefix": "72.52.8.0/24"
+      },
+      {
+        "country": "",
+        "name": "PROLEXIC-IP-PROTECT Akamai International B.V.",
+        "prefix": "209.200.136.0/24"
+      },
+      {
+        "country": "",
+        "name": "PROLEXIC-IP-PROTECT Akamai International B.V.",
+        "prefix": "72.52.5.0/24"
+      },
+      {
+        "country": "",
+        "name": "PROLEXIC-IP-PROTECT Akamai International B.V.",
+        "prefix": "209.200.154.0/24"
+      },
+      {
+        "country": "",
+        "name": "PROLEXIC-IP-PROTECT Akamai International B.V.",
+        "prefix": "209.200.133.0/24"
+      },
+      {
+        "country": "",
+        "name": "PROLEXIC-IP-PROTECT Akamai International B.V.",
+        "prefix": "209.200.155.0/24"
+      },
+      {
+        "country": "",
+        "name": "PROLEXIC-IP-PROTECT Akamai International B.V.",
+        "prefix": "209.200.137.0/24"
+      },
+      {
+        "country": "",
+        "name": "PROLEXIC-IP-PROTECT Akamai International B.V.",
+        "prefix": "199.46.35.0/24"
+      },
+      {
+        "country": "",
+        "name": "PROLEXIC-IP-PROTECT Akamai International B.V.",
+        "prefix": "72.52.10.0/24"
+      },
+      {
+        "country": "",
+        "name": "PROLEXIC-IP-PROTECT Akamai International B.V.",
+        "prefix": "209.200.153.0/24"
+      }
+    ],
+    "country": "",
+    "ip": "72.52.10.14",
+    "prefix_count": 30,
+    "source": "RIPEstat",
+    "truncated": false
+  },
+  "tool": "asn_lookup"
+}

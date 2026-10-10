@@ -1,0 +1,39 @@
+{
+  "arguments": {
+    "target": "mail.mailerhost.net"
+  },
+  "result": {
+    "ip_count": 2,
+    "locations": [
+      {
+        "as": "AS14061 DigitalOcean, LLC",
+        "city": "Amsterdam",
+        "country": "The Netherlands",
+        "country_code": "NL",
+        "ip": "161.35.84.83",
+        "isp": "DigitalOcean, LLC",
+        "lat": 52.352,
+        "lon": 4.9392,
+        "org": "DigitalOcean, LLC",
+        "region": "North Holland"
+      },
+      {
+        "as": "AS213230 Hetzner Online GmbH",
+        "city": "Ashburn",
+        "country": "United States",
+        "country_code": "US",
+        "ip": "5.161.133.13",
+        "isp": "Hetzner Online GmbH",
+        "lat": 39.0469,
+        "lon": -77.4903,
+        "org": "Hetzner Online GmbH",
+        "region": "Virginia"
+      }
+    ],
+    "resolved_from_domain": "mail.mailerhost.net",
+    "source": "ip-api.com",
+    "target": "mail.mailerhost.net",
+    "truncated": false
+  },
+  "tool": "ip_geolocate"
+}

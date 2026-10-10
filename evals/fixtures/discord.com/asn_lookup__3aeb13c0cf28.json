@@ -1,0 +1,269 @@
+{
+  "arguments": {
+    "ip": "31.13.94.36"
+  },
+  "result": {
+    "announced_prefix": "31.13.94.0/24",
+    "asn": 32934,
+    "asn_description": "FACEBOOK - Facebook, Inc.",
+    "asn_name": "FACEBOOK - Facebook, Inc.",
+    "asn_prefixes": [
+      {
+        "country": "",
+        "name": "FACEBOOK - Facebook, Inc.",
+        "prefix": "2a03:2880:f1fc::/47"
+      },
+      {
+        "country": "",
+        "name": "FACEBOOK - Facebook, Inc.",
+        "prefix": "2a03:2880:f20c::/48"
+      },
+      {
+        "country": "",
+        "name": "FACEBOOK - Facebook, Inc.",
+        "prefix": "2a03:2880:f332::/48"
+      },
+      {
+        "country": "",
+        "name": "FACEBOOK - Facebook, Inc.",
+        "prefix": "2a03:2880:ff10::/48"
+      },
+      {
+        "country": "",
+        "name": "FACEBOOK - Facebook, Inc.",
+        "prefix": "157.240.14.0/24"
+      },
+      {
+        "country": "",
+        "name": "FACEBOOK - Facebook, Inc.",
+        "prefix": "2a03:2880:f0a5::/48"
+      },
+      {
+        "country": "",
+        "name": "FACEBOOK - Facebook, Inc.",
+        "prefix": "57.144.152.0/23"
+      },
+      {
+        "country": "",
+        "name": "FACEBOOK - Facebook, Inc.",
+        "prefix": "2a03:2880:ff08::/48"
+      },
+      {
+        "country": "",
+        "name": "FACEBOOK - Facebook, Inc.",
+        "prefix": "66.220.144.0/20"
+      },
+      {
+        "country": "",
+        "name": "FACEBOOK - Facebook, Inc.",
+        "prefix": "57.144.252.0/23"
+      },
+      {
+        "country": "",
+        "name": "FACEBOOK - Facebook, Inc.",
+        "prefix": "2a03:2880:f35a::/48"
+      },
+      {
+        "country": "",
+        "name": "FACEBOOK - Facebook, Inc.",
+        "prefix": "2a03:2880:f37b::/48"
+      },
+      {
+        "country": "",
+        "name": "FACEBOOK - Facebook, Inc.",
+        "prefix": "2a03:2880:f276::/48"
+      },
+      {
+        "country": "",
+        "name": "FACEBOOK - Facebook, Inc.",
+        "prefix": "57.144.108.0/23"
+      },
+      {
+        "country": "",
+        "name": "FACEBOOK - Facebook, Inc.",
+        "prefix": "2a03:2880:f10c::/48"
+      },
+      {
+        "country": "",
+        "name": "FACEBOOK - Facebook, Inc.",
+        "prefix": "57.141.4.0/24"
+      },
+      {
+        "country": "",
+        "name": "FACEBOOK - Facebook, Inc.",
+        "prefix": "2a03:2880:f028::/48"
+      },
+      {
+        "country": "",
+        "name": "FACEBOOK - Facebook, Inc.",
+        "prefix": "2a03:2880:f32b::/48"
+      },
+      {
+        "country": "",
+        "name": "FACEBOOK - Facebook, Inc.",
+        "prefix": "57.144.114.0/23"
+      },
+      {
+        "country": "",
+        "name": "FACEBOOK - Facebook, Inc.",
+        "prefix": "2a03:2880:f04a::/48"
+      },
+      {
+        "country": "",
+        "name": "FACEBOOK - Facebook, Inc.",
+        "prefix": "2a03:2880:f001::/48"
+      },
+      {
+        "country": "",
+        "name": "FACEBOOK - Facebook, Inc.",
+        "prefix": "2a03:2880:f176::/48"
+      },
+      {
+        "country": "",
+        "name": "FACEBOOK - Facebook, Inc.",
+        "prefix": "2a03:2880:f007::/48"
+      },
+      {
+        "country": "",
+        "name": "FACEBOOK - Facebook, Inc.",
+        "prefix": "2a03:2880:f013::/48"
+      },
+      {
+        "country": "",
+        "name": "FACEBOOK - Facebook, Inc.",
+        "prefix": "57.141.19.0/24"
+      },
+      {
+        "country": "",
+        "name": "FACEBOOK - Facebook, Inc.",
+        "prefix": "157.240.31.0/24"
+      },
+      {
+        "country": "",
+        "name": "FACEBOOK - Facebook, Inc.",
+        "prefix": "2a03:2880:f128::/48"
+      },
+      {
+        "country": "",
+        "name": "FACEBOOK - Facebook, Inc.",
+        "prefix": "2a03:2880:f05b::/48"
+      },
+      {
+        "country": "",
+        "name": "FACEBOOK - Facebook, Inc.",
+        "prefix": "74.119.76.0/22"
+      },
+      {
+        "country": "",
+        "name": "FACEBOOK - Facebook, Inc.",
+        "prefix": "2a03:2880:f012::/48"
+      },
+      {
+        "country": "",
+        "name": "FACEBOOK - Facebook, Inc.",
+        "prefix": "2a03:2880:f33c::/48"
+      },
+      {
+        "country": "",
+        "name": "FACEBOOK - Facebook, Inc.",
+        "prefix": "2a03:2880:f384::/48"
+      },
+      {
+        "country": "",
+        "name": "FACEBOOK - Facebook, Inc.",
+        "prefix": "2a03:2880:f03a::/48"
+      },
+      {
+        "country": "",
+        "name": "FACEBOOK - Facebook, Inc.",
+        "prefix": "2a03:2880:f31b::/48"
+      },
+      {
+        "country": "",
+        "name": "FACEBOOK - Facebook, Inc.",
+        "prefix": "2a03:2880:f385::/48"
+      },
+      {
+        "country": "",
+        "name": "FACEBOOK - Facebook, Inc.",
+        "prefix": "57.144.210.0/23"
+      },
+      {
+        "country": "",
+        "name": "FACEBOOK - Facebook, Inc.",
+        "prefix": "2a03:2880:f153::/48"
+      },
+      {
+        "country": "",
+        "name": "FACEBOOK - Facebook, Inc.",
+        "prefix": "2a03:2880:f074::/48"
+      },
+      {
+        "country": "",
+        "name": "FACEBOOK - Facebook, Inc.",
+        "prefix": "2a03:2880:f00a::/48"
+      },
+      {
+        "country": "",
+        "name": "FACEBOOK - Facebook, Inc.",
+        "prefix": "2a03:2880:f31a::/48"
+      },
+      {
+        "country": "",
+        "name": "FACEBOOK - Facebook, Inc.",
+        "prefix": "2a03:2880:f379::/48"
+      },
+      {
+        "country": "",
+        "name": "FACEBOOK - Facebook, Inc.",
+        "prefix": "57.144.254.0/23"
+      },
+      {
+        "country": "",
+        "name": "FACEBOOK - Facebook, Inc.",
+        "prefix": "2a03:2880:f07d::/48"
+      },
+      {
+        "country": "",
+        "name": "FACEBOOK - Facebook, Inc.",
+        "prefix": "2a03:2880:f260::/48"
+      },
+      {
+        "country": "",
+        "name": "FACEBOOK - Facebook, Inc.",
+        "prefix": "57.144.78.0/23"
+      },
+      {
+        "country": "",
+        "name": "FACEBOOK - Facebook, Inc.",
+        "prefix": "57.145.12.0/23"
+      },
+      {
+        "country": "",
+        "name": "FACEBOOK - Facebook, Inc.",
+        "prefix": "2a03:2880:f04e::/48"
+      },
+      {
+        "country": "",
+        "name": "FACEBOOK - Facebook, Inc.",
+        "prefix": "2a03:2880:f32f::/48"
+      },
+      {
+        "country": "",
+        "name": "FACEBOOK - Facebook, Inc.",
+        "prefix": "57.144.238.0/23"
+      },
+      {
+        "country": "",
+        "name": "FACEBOOK - Facebook, Inc.",
+        "prefix": "57.144.216.0/23"
+      }
+    ],
+    "country": "",
+    "ip": "31.13.94.36",
+    "prefix_count": 572,
+    "source": "RIPEstat",
+    "truncated": true
+  },
+  "tool": "asn_lookup"
+}

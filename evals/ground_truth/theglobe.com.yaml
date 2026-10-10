@@ -1,0 +1,38 @@
+domain: theglobe.com
+subdomains:
+  expected_count: 5
+  known_sample:
+  - members.theglobe.com
+  - owa.corp.theglobe.com
+  - owa.theglobe.com
+  - theglobe.com
+  - ww51.theglobe.com
+  known_exclusions: []
+email_security:
+  spf: true
+  dmarc: false
+  dmarc_policy: null
+  dkim_selectors_found:
+  - default
+  - google
+  - selector1
+  - selector2
+  - k1
+  - dkim
+  - mail
+network:
+  expected_asn: null
+  expected_org_substring: null
+  behind_cdn_proxy: false
+reputation:
+  verdict: clean
+  malicious_engines_min: 0
+must_contain:
+- DMARC absent
+- Domain registered in 1996
+- SPF present
+must_not_contain: []
+notes: 'Old dot-com from the 2000 crash. Two successive ip_geolocate calls returned IPs at
+  DIFFERENT hosting providers (Linode in Germany, then DigitalOcean/Hetzner) — unstable infrastructure,
+  an indirect (not actively confirmed) signal of the domain being resold/parked. expected_asn/org left
+  null: the ASN varies with the IP resolved at call time, no stable value to check.'

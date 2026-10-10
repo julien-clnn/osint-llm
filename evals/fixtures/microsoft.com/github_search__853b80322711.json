@@ -1,0 +1,136 @@
+{
+  "arguments": {
+    "domain": "microsoft.com"
+  },
+  "result": {
+    "code_matches": [
+      {
+        "path": "db.md",
+        "repo": "ty4z2008/Qix",
+        "snippet": "- [《Concurrency Control and Recovery in Database Systems》](https://www.microsoft.com/en-us/research/people/philbe/book/)",
+        "url": "https://github.com/ty4z2008/Qix/blob/91cd7835e8e2edd38e69d771bbb531271abff502/db.md"
+      },
+      {
+        "path": "dl.md",
+        "repo": "ty4z2008/Qix",
+        "snippet": "* [《信息时代的计算机科学理论(Foundations of Data Science)》](http://research.microsoft.com/en-US/people/kannan/book-no-solutions-aug-21-2014.pdf)",
+        "url": "https://github.com/ty4z2008/Qix/blob/91cd7835e8e2edd38e69d771bbb531271abff502/dl.md"
+      },
+      {
+        "path": "dl2.md",
+        "repo": "ty4z2008/Qix",
+        "snippet": "* [《Microsoft Academic Graph》](http://research.microsoft.com/en-us/projects/mag/)",
+        "url": "https://github.com/ty4z2008/Qix/blob/91cd7835e8e2edd38e69d771bbb531271abff502/dl2.md"
+      },
+      {
+        "path": "faq.md",
+        "repo": "remy/nodemon",
+        "snippet": "```\nPS> nodemon app.js\nnodemon : File C:\\…\\nodemon.ps1 cannot be loaded because running scripts is disabled on this system. For more\ninformation, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170.\nAt line:1 char:1\n\nCategoryInfo : SecurityError: (:) [], PSSecurityException",
+        "url": "https://github.com/remy/nodemon/blob/bc5990cc615253adbf13544da73fce4ff8d2220b/faq.md"
+      },
+      {
+        "path": "API.md",
+        "repo": "hapijs/hapi",
+        "snippet": "Note: when enabled, this setting can create a security vulnerabilities in versions of Internet Explorer\n    below 8, unpatched versions of IE8, and browsers that employ an XSS filter/auditor. See\n    [here](https://hackademix.net/2009/11/21/ies-xss-filter-creates-xss-vulnerabilities/),\n    [here](ht",
+        "url": "https://github.com/hapijs/hapi/blob/80b77282a3a787531c5ae59466a89b37daf36d5d/API.md"
+      },
+      {
+        "path": "FAQ.md",
+        "repo": "microsoft/SDN",
+        "snippet": "1. What are the physical hardware requirements (e.g. CPU, memory, disk) for the Windows Server 2016 SDN Stack?\n  - *Refer to TechNet for the [system requirements](https://technet.microsoft.com/en-US/library/mt605207.aspx)*\n2. What are the system requirements for each server role in the Windows Serve",
+        "url": "https://github.com/microsoft/SDN/blob/32df9732ef6dfab07dba205440e30bdfbd8e579a/FAQ.md"
+      },
+      {
+        "path": "FAQ.md",
+        "repo": "yakami129/VirtualWife",
+        "snippet": "### windows 系统安装Docker，需要安装WSL\n\n- 安装文档：https://learn.microsoft.com/zh-cn/windows/wsl/install\n\n### npm run dev 出现错误",
+        "url": "https://github.com/yakami129/VirtualWife/blob/c8afd6d3ce6bb6f58988c649c50299d36b63e08f/FAQ.md"
+      },
+      {
+        "path": "1.md",
+        "repo": "davidfowl/DotNetCodingPatterns",
+        "snippet": "Usually you need to register a type in order to instantiate instances of a type from the DI container, somebody needs to call `IServiceProvider.GetService`. This means that the service needs to be registered in the container. This may not be desirable if these types are discovered dynamically (like ",
+        "url": "https://github.com/davidfowl/DotNetCodingPatterns/blob/73e22b74fed353827f6ff98ba55169ea1518f689/1.md"
+      },
+      {
+        "path": "AI.md",
+        "repo": "RedByte1337/GraphSpy",
+        "snippet": "Use Microsoft documentation when behavior depends on service semantics, permissions, or protocol details.\n\n* Microsoft Graph overview: https://learn.microsoft.com/graph/overview\n* Microsoft Graph REST API v1.0 reference: https://learn.microsoft.com/graph/api/overview?view=graph-rest-1.0\n* Microsoft ",
+        "url": "https://github.com/RedByte1337/GraphSpy/blob/5a74c8fafba5791629254eaca9bce3849d59c110/AI.md"
+      },
+      {
+        "path": "aks.md",
+        "repo": "HariSekhon/Knowledge-Base",
+        "snippet": "<!-- INDEX_END -->\n\n## AKS Automatic\n\nServerless Kubernetes service to avoid having to deal with node pool management.\n\n<https://learn.microsoft.com/en-us/azure/aks/intro-aks-automatic>",
+        "url": "https://github.com/HariSekhon/Knowledge-Base/blob/7d925ab2e127b2329ffd18c6b88f52ed7d8d6ce0/aks.md"
+      }
+    ],
+    "code_search_enabled": true,
+    "domain": "microsoft.com",
+    "repository_count": 10,
+    "repository_matches": [
+      {
+        "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github",
+        "repo": "microsoft/qlib",
+        "stars": 48500,
+        "url": "https://github.com/microsoft/qlib"
+      },
+      {
+        "description": " Run Windows apps such as Microsoft Office/Adobe in Linux (Ubuntu/Fedora) and GNOME/KDE as if they were a part of the native OS, including Nautilus integration. Hard fork of https://github.com/Fmstrat/winapps/",
+        "repo": "winapps-org/winapps",
+        "stars": 15936,
+        "url": "https://github.com/winapps-org/winapps"
+      },
+      {
+        "description": "a .NET library that can read/write Office formats without Microsoft Office installed. No COM+, no interop.",
+        "repo": "nissl-lab/npoi",
+        "stars": 6199,
+        "url": "https://github.com/nissl-lab/npoi"
+      },
+      {
+        "description": "This repository is for active development of the Azure SDK for .NET. For consumers of the SDK we recommend visiting our public developer docs at https://learn.microsoft.com/dotnet/azure/ or our versioned developer docs at https://azure.github.io/azure-sdk-for-net. ",
+        "repo": "Azure/azure-sdk-for-net",
+        "stars": 6049,
+        "url": "https://github.com/Azure/azure-sdk-for-net"
+      },
+      {
+        "description": "This repository is for active development of the Azure SDK for Python. For consumers of the SDK we recommend visiting our public developer docs at https://learn.microsoft.com/python/azure/ or our versioned developer docs at https://azure.github.io/azure-sdk-for-python. ",
+        "repo": "Azure/azure-sdk-for-python",
+        "stars": 5596,
+        "url": "https://github.com/Azure/azure-sdk-for-python"
+      },
+      {
+        "description": "This repository is for active development of the Azure SDK for Java. For consumers of the SDK we recommend visiting our public developer docs at https://docs.microsoft.com/java/azure/ or our versioned developer docs at https://azure.github.io/azure-sdk-for-java. ",
+        "repo": "Azure/azure-sdk-for-java",
+        "stars": 2565,
+        "url": "https://github.com/Azure/azure-sdk-for-java"
+      },
+      {
+        "description": "Computer Vision Basics in Microsoft Excel (using just formulas)",
+        "repo": "amzn/computer-vision-basics-in-microsoft-excel",
+        "stars": 2427,
+        "url": "https://github.com/amzn/computer-vision-basics-in-microsoft-excel"
+      },
+      {
+        "description": "This repository is for active development of the Azure SDK for JavaScript (NodeJS & Browser). For consumers of the SDK we recommend visiting our public developer docs at https://docs.microsoft.com/javascript/azure/ or our versioned developer docs at https://azure.github.io/azure-sdk-for-js. ",
+        "repo": "Azure/azure-sdk-for-js",
+        "stars": 2294,
+        "url": "https://github.com/Azure/azure-sdk-for-js"
+      },
+      {
+        "description": "BadBlood by @davidprowe, Secframe.com, fills a Microsoft Active Directory Domain with a structure and thousands of objects. The output of the tool is a domain similar to a domain in the real world.  After BadBlood is ran on a domain, security analysts and engineers can practice using tools to gain a",
+        "repo": "davidprowe/BadBlood",
+        "stars": 2268,
+        "url": "https://github.com/davidprowe/BadBlood"
+      },
+      {
+        "description": "Repository for pre-built dev container images published under mcr.microsoft.com/devcontainers",
+        "repo": "devcontainers/images",
+        "stars": 2125,
+        "url": "https://github.com/devcontainers/images"
+      }
+    ],
+    "source": "api.github.com"
+  },
+  "tool": "github_search"
+}

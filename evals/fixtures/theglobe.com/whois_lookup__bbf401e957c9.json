@@ -1,0 +1,31 @@
+{
+  "arguments": {
+    "domain": "theglobe.com"
+  },
+  "result": {
+    "creation_date": "1996-02-21T05:00:00+00:00",
+    "dnssec": "unsigned",
+    "domain": "theglobe.com",
+    "emails": [
+      "domain.operations@web.com",
+      "[redacted]@gmail.com"
+    ],
+    "expiration_date": "2027-02-22T05:00:00+00:00",
+    "found": true,
+    "name_servers": [
+      "ANAN.NS.GIANTPANDA.COM",
+      "FUBAO.NS.GIANTPANDA.COM"
+    ],
+    "registrant_country": "US",
+    "registrant_org": null,
+    "registrar": "Network Solutions, LLC",
+    "status": [
+      "clientTransferProhibited https://icann.org/epp#clientTransferProhibited"
+    ],
+    "updated_date": [
+      "2025-12-24T07:44:17+00:00",
+      "2025-12-24T07:44:20+00:00"
+    ]
+  },
+  "tool": "whois_lookup"
+}

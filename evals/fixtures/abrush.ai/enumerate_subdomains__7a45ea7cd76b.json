@@ -1,0 +1,19 @@
+{
+  "arguments": {
+    "domain": "abrush.ai"
+  },
+  "result": {
+    "domain": "abrush.ai",
+    "source": "crt.sh",
+    "subdomain_count": 5,
+    "subdomains": [
+      "abrush.ai",
+      "assets.abrush.ai",
+      "data01.abrush.ai",
+      "media.abrush.ai",
+      "webview.abrush.ai"
+    ],
+    "truncated": false
+  },
+  "tool": "enumerate_subdomains"
+}

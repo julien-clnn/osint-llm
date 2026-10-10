@@ -1,0 +1,27 @@
+{
+  "arguments": {
+    "target": "lemonde.fr"
+  },
+  "result": {
+    "ip_count": 1,
+    "locations": [
+      {
+        "as": "AS54113 Fastly, Inc.",
+        "city": "Paris",
+        "country": "France",
+        "country_code": "FR",
+        "ip": "151.101.122.137",
+        "isp": "Fastly, Inc.",
+        "lat": 48.8558,
+        "lon": 2.3494,
+        "org": "Fastly, Inc.",
+        "region": "Île-de-France"
+      }
+    ],
+    "resolved_from_domain": "lemonde.fr",
+    "source": "ip-api.com",
+    "target": "lemonde.fr",
+    "truncated": false
+  },
+  "tool": "ip_geolocate"
+}

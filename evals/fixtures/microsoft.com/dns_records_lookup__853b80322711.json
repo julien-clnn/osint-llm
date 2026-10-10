@@ -1,0 +1,64 @@
+{
+  "arguments": {
+    "domain": "microsoft.com"
+  },
+  "result": {
+    "domain": "microsoft.com",
+    "email_security": {
+      "dkim_note": "Sélecteurs DKIM courants testés uniquement ; une absence ici ne prouve pas l'absence de DKIM.",
+      "dkim_selectors_found": [
+        "selector2"
+      ],
+      "dmarc": true,
+      "dmarc_policy": "reject",
+      "spf": true,
+      "spf_record": "v=spf1 include:_spf-a.microsoft.com include:_spf-b.microsoft.com include:_spf-c.microsoft.com include:_spf-ssg-a.msft.net include:_spf1-meo.microsoft.com -all"
+    },
+    "mx": [
+      "10 microsoft-com.mail.protection.outlook.com"
+    ],
+    "mx_count": 1,
+    "ns": [
+      "ns1-39.azure-dns.com",
+      "ns2-39.azure-dns.net",
+      "ns3-39.azure-dns.org",
+      "ns4-39.azure-dns.info"
+    ],
+    "ns_count": 4,
+    "source": "DNS (résolveur système)",
+    "txt": [
+      "google-site-verification=M--CVfn_YwsV-2FGbCp_HFaEj23BmT0cTF4l8hXgpvM",
+      "v=MCPv1; k=ecdsap384; p=AqXeTHJ/1FCYeuvJ8dc1B+X3uHaa7m2W0s31vzL4opnrJlSaBdtbWTY8Ti5WiZnu9Q==",
+      "facebook-domain-verification=fwzwhbbzwmg5fzgotc2go51olc3566",
+      "airtable-verification=79a09e4a8013ff5737798ffb4ea88eee",
+      "google-site-verification=pjPOauSPcrfXOZS9jnPPa5axowcHGCDAl1_86dCqFpk",
+      "t7sebee51jrj7vm932k531hipa",
+      "hcp-domain-verification=3ce174a8b9fba88909633ab13eb1d81ce0123454745d66e500052ed84b7248a1",
+      "zoom-domain-verification=ZOOM_verify_e97a3d385acb4c47b9b924609a280524",
+      "MS=ms79629062",
+      "fg2t0gov9424p2tdcuo94goe9j",
+      "workplace-domain-verification=lK0QDLk73xymCYMKUXNpfKAT8TY5Mx",
+      "sitecore-domain-verification=1d46cb5467624e33a408d14324874088",
+      "d365mktkey=8fEQahTresJms7tZGxGFr94T1zDz36oCbUt1LJc99mox",
+      "atlassian-domain-verification=xvoaqRfxSg3PnlVnR4xCSOlKyw1Aln0MMxRiKXnwWroFG7vI76TUC8xYb03MwMXv",
+      "d365mktkey=6358r1b7e13hox60tl1uagv14",
+      "ms-domain-verification=65f91178-9dfb-41cd-929d-08d1a38ed607",
+      "_zx2p8gpzv720db2aqmozy4jhwk2nl43",
+      "d365mktkey=PNcDqkW71x8VOUhcE96aGM4l5PYX1gnlRl6ieXUl5eMx",
+      "d365mktkey=3l6dste9txazu0Qd2zu4135PUB4E35txLxyzJxjkPbsx",
+      "d365mktkey=Fu49WtSTeClkHtK7S14227RIVpGwwGrzEsO6RVs1I2Ax",
+      "dobtdihqagnr18hea8uv1h1mvq",
+      "d365mktkey=j2qHWq9BHdaa3ZXZH8x64daJZxEWsFa0dxDeilxDoYYx",
+      "d365mktkey=SxDf1EZxLvMwx6eEZUxzjFFgHoapF8DvtWEUjwq7ZTwx",
+      "ms-domain-verification=d6545068-89f7-4432-b947-0b137e8a9fe3",
+      "v=spf1 include:_spf-a.microsoft.com include:_spf-b.microsoft.com include:_spf-c.microsoft.com include:_spf-ssg-a.msft.net include:_spf1-meo.microsoft.com -all",
+      "d365mktkey=ZGFU0tlXPekPusNHPo5QQQWpVf0gic0xpuKroNy3NQEx",
+      "v=MCPv1; k=ecdsap384; p=An4mJIFLRys9h1EvjX18SJs5p1uEF5MHcs2JJLYPrI48C5Qt9FpaZEM0sQTV4JvNYw==",
+      "anthropic-domain-verification-phksss=GZrrKDUR4klRLFCvxyOvqcNGE",
+      "d365mktkey=wbU64GRacxVEQxwcLSQnx0zisXLYzgUbfvsufIqO9ZUx",
+      "docusign=d5a3737c-c23c-4bd0-9095-d2ff621f2840"
+    ],
+    "txt_count": 58
+  },
+  "tool": "dns_records_lookup"
+}

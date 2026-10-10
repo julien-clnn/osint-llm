@@ -1,0 +1,225 @@
+{
+  "arguments": {
+    "domain": "discord.com"
+  },
+  "result": {
+    "capture_count": 10000,
+    "date_range": {
+      "first": "1996-12-22",
+      "last": "2026-09-11"
+    },
+    "domain": "discord.com",
+    "interesting_urls": [
+      {
+        "timestamp": "2023-05-15",
+        "url": "https://discord.com/$%7BDiscordAPIError.path%7D%60)"
+      },
+      {
+        "timestamp": "2021-05-27",
+        "url": "https://discord.com/%20Is%20it%20just%20me%20or%20is%20the%20old%20branding%20back?"
+      },
+      {
+        "timestamp": "2022-10-14",
+        "url": "https://discord.com/%D8%A2%DB%8C%D8%AF%DB%8C"
+      },
+      {
+        "timestamp": "2023-05-31",
+        "url": "https://www.discord.com/.well-known/openid-configuration"
+      },
+      {
+        "timestamp": "2020-06-13",
+        "url": "https://discord.com/024ae98624f8e367008a4c36083db9ce.svg"
+      },
+      {
+        "timestamp": "2020-06-13",
+        "url": "https://discord.com/06a7b4d2f8111c156ef1c3db98284421.svg"
+      },
+      {
+        "timestamp": "2020-06-13",
+        "url": "https://discord.com/0a03848c844817457e2aa8584ddb2c75.svg"
+      },
+      {
+        "timestamp": "2022-02-16",
+        "url": "https://discord.com/0bfdbea7fdbc633d83b7.js"
+      },
+      {
+        "timestamp": "2020-06-13",
+        "url": "https://discord.com/0c749ddbdeb6cf650e87bb0ae714db2b.png"
+      },
+      {
+        "timestamp": "2021-09-12",
+        "url": "https://discord.com/1/api.js?render=explicit&onload=hcaptchaOnLoad"
+      },
+      {
+        "timestamp": "2020-06-13",
+        "url": "https://discord.com/100db3eb8fa889fa9ab907c00be705b9.png"
+      },
+      {
+        "timestamp": "2020-06-13",
+        "url": "https://discord.com/141bb5f02f26428350122ede7dbabb7e.jpg"
+      },
+      {
+        "timestamp": "2020-06-13",
+        "url": "https://discord.com/14cf284f1f64ba245176db7bfaab8151.jpg"
+      },
+      {
+        "timestamp": "2020-06-13",
+        "url": "https://discord.com/1d75b0e52a1a01f5a430d6b7db7168f2.jpg"
+      },
+      {
+        "timestamp": "2020-06-13",
+        "url": "https://discord.com/1fd5f2330f968b3e2eb7db0dfeec6194.jpg"
+      },
+      {
+        "timestamp": "2020-06-13",
+        "url": "https://discord.com/215346366a9a7d50924fc245ddb048d2.svg"
+      },
+      {
+        "timestamp": "2020-06-13",
+        "url": "https://discord.com/23560d5da4d400adbc1de26b9c08bc75.png"
+      },
+      {
+        "timestamp": "2020-06-13",
+        "url": "https://discord.com/25af77f6215b24f2a6db9acb3ffdbba5.png"
+      },
+      {
+        "timestamp": "2022-07-21",
+        "url": "https://discord.com/29dbZSBkTM"
+      },
+      {
+        "timestamp": "2020-06-13",
+        "url": "https://discord.com/2c459f0db1b5d5149855ae7d577d0e2a.jpg"
+      },
+      {
+        "timestamp": "2021-10-18",
+        "url": "https://discord.com/3437c10597c1526c3dbd98c737c2bcae.svg"
+      },
+      {
+        "timestamp": "2020-06-13",
+        "url": "https://discord.com/38e39cb8b79cbd86a46d2609b20db6c9.png"
+      },
+      {
+        "timestamp": "2020-06-13",
+        "url": "https://discord.com/39b50abf1ecadbe9aa68523311e6060e.svg"
+      },
+      {
+        "timestamp": "2023-07-14",
+        "url": "https://discord.com/3nYNYbxzRa2BxCDYmdxAivqeQUL3KEOfVxvyTE9_cmo-1689325464-0-Ac0WelYJdDba5q/iaz3KtH/ataa/JoJERXY9XON6tuD8"
+      },
+      {
+        "timestamp": "2020-06-13",
+        "url": "https://discord.com/47f8ca0f8ed1356ad9cba0f8b6edb125.png"
+      },
+      {
+        "timestamp": "2020-06-13",
+        "url": "https://discord.com/49865e4d59a9761077db3d56c7852c96.png"
+      },
+      {
+        "timestamp": "2021-10-18",
+        "url": "https://discord.com/4db0790f7a81e49025d7fbfb9aeb182c.png"
+      },
+      {
+        "timestamp": "2020-06-13",
+        "url": "https://discord.com/5053947afa96cfd9db945648278c8e1d.png"
+      },
+      {
+        "timestamp": "2020-06-13",
+        "url": "https://discord.com/55e52a405482d6a15c5db67c4f1f3b81.png"
+      },
+      {
+        "timestamp": "2020-06-13",
+        "url": "https://discord.com/56d009db052913ece329c2751c22e6da.svg"
+      },
+      {
+        "timestamp": "2020-06-13",
+        "url": "https://discord.com/57796309d31c3db2840b7444eac53945.svg"
+      },
+      {
+        "timestamp": "2020-06-13",
+        "url": "https://discord.com/5aaadbaef1be3e7f4ba1f048c590cf11.svg"
+      },
+      {
+        "timestamp": "2020-06-13",
+        "url": "https://discord.com/5c8a0eea53ae23a427b61fdb1a2487b6.svg"
+      },
+      {
+        "timestamp": "2025-12-08",
+        "url": "https://discord.com/5rXdBVcMn7"
+      },
+      {
+        "timestamp": "2020-06-13",
+        "url": "https://discord.com/667d5d0676612db5700c349cf497a52a.mp3"
+      },
+      {
+        "timestamp": "2023-06-14",
+        "url": "https://discord.com/67db1248-64e5-46e2-92bf-8"
+      },
+      {
+        "timestamp": "2023-06-14",
+        "url": "https://discord.com/67db1248-64e5-46e2-92bf-8b78deb291c4"
+      },
+      {
+        "timestamp": "2020-06-13",
+        "url": "https://discord.com/69db64955960eb333f5ff831cc1c0294.svg"
+      },
+      {
+        "timestamp": "2020-06-13",
+        "url": "https://discord.com/6b91eb7e96b1ac0366f234db170871b7.png"
+      },
+      {
+        "timestamp": "2020-06-13",
+        "url": "https://discord.com/6dd04abdb247c75c1c558c6c63067bc7.svg"
+      }
+    ],
+    "sample_urls": [
+      "http://www.discord.com:80/",
+      "https://discord.com/!",
+      "https://discord.com/!%22,",
+      "https://discord.com/!%20https://discord.gg/Ezu64WyqnM",
+      "https://discord.com/![](https://static.quail.ink/media/ewv7zbvnl6.webp)",
+      "https://discord.com/!nor.one",
+      "https://discord.com/!queue",
+      "https://discord.com/%22",
+      "https://discord.com/%22%22",
+      "https://discord.com/%22%20rel=%22noopener%22%3EDiscord%3C/a%3E%3C/li%3E",
+      "https://discord.com/%22%20target=%22_blank%22%20class=%22bagc_fn_button%20discord%22%3E",
+      "https://discord.com/%22%20target=%22_blank%22%3E",
+      "https://discord.com/%22%20target=%22_blank%22%3E%3Ci%20class=%22sprite%20sprite--discord%22%3E%3C/i%3E%3Cspan%20class=%22accessibility%22%3EDiscord%3C/span%3E%3C/a%3E%3C/li%3E--%3E",
+      "https://discord.com/%22%20target=%22_new%22%3EGet%20Discord%3C/a%3E",
+      "https://discord.com/%22,",
+      "https://discord.com/%22,%22alts%22:%5B%5D,%22httpStatus%22:200",
+      "https://discord.com/$",
+      "https://discord.com/$1",
+      "https://discord.com/$1'%7D",
+      "https://discord.com/$1%3C/td%3E%3Ctd",
+      "https://discord.com/$8s",
+      "https://discord.com/$%7BAddress.split%28",
+      "https://discord.com/$%7BXr%7D?%60=",
+      "https://discord.com/%0A",
+      "https://discord.com/%0A%0A%0ACreate",
+      "https://discord.com/%0A%0A%D0%9A%D1%80%D0%B0%D1%89%D0%B5",
+      "https://discord.com/%0A%0A%D1%82%D0%B5%D0%B1%D0%B5",
+      "https://discord.com/%0A%0A%EC%9B%B9%EB%B2%84%EC%A0%84%EC%9C%BC%EB%A1%9C%EB%8F%84",
+      "https://discord.com/%0A%0Ahttps://www.midjourney.com/app/%0A%0A%0A%0A%D0%A1%D0%BF%D0%BE%D1%87%D0%B0%D1%82%D0%BA%D1%83",
+      "https://discord.com/%0A%D0%A2%D0%B8%D0%BC%D1%81%D0%BF%D0%B8%D0%BA",
+      "https://discord.com/%0A%E8%BF%99%E9%87%8C",
+      "https://discord.com/%0A%E8%BF%99%E9%87%8C%0A",
+      "https://discord.com/%0Aae",
+      "https://discord.com/%0AC&",
+      "https://discord.com/%0ADiscord",
+      "https://discord.com/%0ADiscord%0A",
+      "https://discord.com/%0AIs",
+      "https://discord.com/%20",
+      "https://discord.com/%20%0D",
+      "https://discord.com/%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20https://discord.gg/4JmYDCFmNG"
+    ],
+    "source": "web.archive.org",
+    "subdomain_count": 2,
+    "subdomains": [
+      "discord.com",
+      "www.discord.com"
+    ],
+    "truncated": true
+  },
+  "tool": "wayback_lookup"
+}

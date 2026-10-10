@@ -1,0 +1,31 @@
+domain: microsoft.com
+subdomains:
+  expected_count: 3698
+  known_sample:
+  - 000dco2l50fe1c.redmond.corp.microsoft.com
+  - 000dco2l50fe1e.redmond.corp.microsoft.com
+  - 000dco2l50fe1f.redmond.corp.microsoft.com
+  - 000dco2l50pl1.redmond.corp.microsoft.com
+  - 000dco2l50we1.redmond.corp.microsoft.com
+  known_exclusions: []
+email_security:
+  spf: true
+  dmarc: true
+  dmarc_policy: reject
+  dkim_selectors_found:
+  - selector2
+network:
+  expected_asn: 8075
+  expected_org_substring: Microsoft
+  behind_cdn_proxy: false
+reputation:
+  verdict: clean
+  malicious_engines_min: 0
+must_contain:
+- The domain has been registered since 1991 (very old)
+- Several thousand subdomains found (very large attack surface)
+- ASN 8075 (Microsoft Corporation)
+- DMARC configured with a reject policy
+- Very deep Wayback history (archives since the mid-1990s)
+must_not_contain: []
+notes: Large-organization baseline, exemplary email hygiene (SPF+DMARC reject).

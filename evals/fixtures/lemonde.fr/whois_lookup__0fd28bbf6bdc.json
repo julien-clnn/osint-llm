@@ -1,0 +1,37 @@
+{
+  "arguments": {
+    "domain": "lemonde.fr"
+  },
+  "result": {
+    "creation_date": "2005-08-02T14:16:36+00:00",
+    "dnssec": null,
+    "domain": "lemonde.fr",
+    "emails": [
+      "registrar@nameshield.net",
+      "domain_names@lemonde.fr",
+      "technical@nameshield.net"
+    ],
+    "expiration_date": "2027-06-09T22:08:09+00:00",
+    "found": true,
+    "name_servers": [
+      "ns-cloud-b1.googledomains.com",
+      "ns-cloud-b2.googledomains.com",
+      "ns-cloud-b3.googledomains.com",
+      "ns-cloud-b4.googledomains.com"
+    ],
+    "registrant_country": null,
+    "registrant_org": null,
+    "registrar": "NAMESHIELD",
+    "status": [
+      "ACTIVE",
+      "serverUpdateProhibited",
+      "serverTransferProhibited",
+      "serverDeleteProhibited",
+      "serverRecoverProhibited",
+      "associated",
+      "not identified"
+    ],
+    "updated_date": "2026-06-12T22:48:47.579297+00:00"
+  },
+  "tool": "whois_lookup"
+}

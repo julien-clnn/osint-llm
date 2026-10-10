@@ -1,0 +1,84 @@
+{
+  "arguments": {
+    "domain": "theglobe.com"
+  },
+  "result": {
+    "categories": [],
+    "domain": "theglobe.com",
+    "enabled": true,
+    "found": true,
+    "harmless_votes": 0,
+    "last_analysis_stats": {
+      "harmless": 56,
+      "malicious": 0,
+      "suspicious": 0,
+      "undetected": 33
+    },
+    "malicious_votes": 0,
+    "passive_dns": [
+      {
+        "ip_address": "45.33.83.100",
+        "last_resolved": 1775380325
+      },
+      {
+        "ip_address": "45.79.167.180",
+        "last_resolved": 1775350371
+      },
+      {
+        "ip_address": "172.104.251.198",
+        "last_resolved": 1773316491
+      },
+      {
+        "ip_address": "139.162.174.209",
+        "last_resolved": 1773289902
+      },
+      {
+        "ip_address": "172.104.149.86",
+        "last_resolved": 1773276747
+      },
+      {
+        "ip_address": "139.162.181.76",
+        "last_resolved": 1773273583
+      },
+      {
+        "ip_address": "23.239.4.93",
+        "last_resolved": 1766732290
+      },
+      {
+        "ip_address": "96.126.111.165",
+        "last_resolved": 1750642824
+      },
+      {
+        "ip_address": "66.175.209.179",
+        "last_resolved": 1746308817
+      },
+      {
+        "ip_address": "66.175.216.36",
+        "last_resolved": 1744143805
+      },
+      {
+        "ip_address": "74.207.241.245",
+        "last_resolved": 1744143805
+      },
+      {
+        "ip_address": "192.155.84.236",
+        "last_resolved": 1744143805
+      },
+      {
+        "ip_address": "23.239.3.104",
+        "last_resolved": 1744143805
+      },
+      {
+        "ip_address": "208.91.197.132",
+        "last_resolved": 1740482018
+      },
+      {
+        "ip_address": "69.64.32.255",
+        "last_resolved": 1566178707
+      }
+    ],
+    "reputation": 0,
+    "source": "www.virustotal.com"
+  },
+  "tool": "virustotal_lookup"
+}

@@ -1,0 +1,144 @@
+{
+  "arguments": {
+    "domain": "discord.com"
+  },
+  "result": {
+    "categories": [],
+    "domain": "discord.com",
+    "enabled": true,
+    "found": true,
+    "harmless_votes": 117,
+    "last_analysis_stats": {
+      "harmless": 60,
+      "malicious": 0,
+      "suspicious": 0,
+      "undetected": 29
+    },
+    "malicious_votes": 11,
+    "passive_dns": [
+      {
+        "ip_address": "2607:f8b0:4023:100b::1a",
+        "last_resolved": 1731990834
+      },
+      {
+        "ip_address": "74.125.142.27",
+        "last_resolved": 1731990834
+      },
+      {
+        "ip_address": "142.250.141.27",
+        "last_resolved": 1709326351
+      },
+      {
+        "ip_address": "74.125.197.27",
+        "last_resolved": 1709326351
+      },
+      {
+        "ip_address": "11.23.33.44",
+        "last_resolved": 1663067432
+      },
+      {
+        "ip_address": "199.16.156.103",
+        "last_resolved": 1645738443
+      },
+      {
+        "ip_address": "66.220.148.145",
+        "last_resolved": 1645703459
+      },
+      {
+        "ip_address": "54.89.135.129",
+        "last_resolved": 1645588443
+      },
+      {
+        "ip_address": "31.13.90.33",
+        "last_resolved": 1645573063
+      },
+      {
+        "ip_address": "31.13.94.36",
+        "last_resolved": 1645459632
+      },
+      {
+        "ip_address": "199.59.148.209",
+        "last_resolved": 1645457083
+      },
+      {
+        "ip_address": "173.236.182.137",
+        "last_resolved": 1645453601
+      },
+      {
+        "ip_address": "199.16.156.11",
+        "last_resolved": 1645429814
+      },
+      {
+        "ip_address": "128.242.245.125",
+        "last_resolved": 1645376854
+      },
+      {
+        "ip_address": "128.242.240.189",
+        "last_resolved": 1645337069
+      },
+      {
+        "ip_address": "173.252.105.21",
+        "last_resolved": 1645295639
+      },
+      {
+        "ip_address": "199.59.149.234",
+        "last_resolved": 1645278166
+      },
+      {
+        "ip_address": "128.242.240.212",
+        "last_resolved": 1645261935
+      },
+      {
+        "ip_address": "173.255.209.47",
+        "last_resolved": 1645034558
+      },
+      {
+        "ip_address": "199.59.149.232",
+        "last_resolved": 1645009263
+      },
+      {
+        "ip_address": "199.59.148.206",
+        "last_resolved": 1644980912
+      },
+      {
+        "ip_address": "199.59.149.238",
+        "last_resolved": 1644975648
+      },
+      {
+        "ip_address": "69.162.134.178",
+        "last_resolved": 1644952942
+      },
+      {
+        "ip_address": "128.121.243.77",
+        "last_resolved": 1644788311
+      },
+      {
+        "ip_address": "199.59.150.39",
+        "last_resolved": 1644617518
+      },
+      {
+        "ip_address": "31.13.82.169",
+        "last_resolved": 1644614310
+      },
+      {
+        "ip_address": "168.143.162.58",
+        "last_resolved": 1644607906
+      },
+      {
+        "ip_address": "31.13.95.35",
+        "last_resolved": 1644557721
+      },
+      {
+        "ip_address": "199.59.148.89",
+        "last_resolved": 1644539499
+      },
+      {
+        "ip_address": "202.53.137.209",
+        "last_resolved": 1644530954
+      }
+    ],
+    "reputation": 166,
+    "source": "www.virustotal.com"
+  },
+  "tool": "virustotal_lookup"
+}

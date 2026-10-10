@@ -1,0 +1,227 @@
+{
+  "arguments": {
+    "domain": "service-public.fr"
+  },
+  "result": {
+    "capture_count": 10000,
+    "date_range": {
+      "first": "2000-11-09",
+      "last": "2026-08-21"
+    },
+    "domain": "service-public.fr",
+    "interesting_urls": [
+      {
+        "timestamp": "2021-04-08",
+        "url": "https://www.service-public.fr/%20%20Carte%20d%E2%80%99identit%C3%A9%20depuis%202017%20:%20vos%20d%C3%A9marches%20%C3%A9voluent%20.%20%20Plus%20d%E2%80%99efficacit%C3%A9,%20de%20simplicit%C3%A9%20et%20d%E2%80%99accessibilit%C3%A9%20dans%20mes%20d%C3%A9marches%20administratives%20:%20ma%20demande%20de%20carte%20d%E2%80%99identit%C3%A9%20%C3%A9volue%20et%20se%20simplifie.%20%20A%20compter%20du%2028%20mars%202017,%20les%20demandes"
+      },
+      {
+        "timestamp": "2021-03-22",
+        "url": "https://www.service-public.fr/%20est%20le%20portail%20de%20l%E2%80%99administration%20fran%C3%A7aise%20vous%20permettant%20de%20vous%20informer,%20de%20vous%20orienter%20vers%20les%20services%20dans%20le%20but%20de%20conna%C3%AEtre%20vos%20obligations,%20d%E2%80%99exercer%20vos%20droits%20et%20d%E2%80%99accomplir%20vos%20d%C3%A9marches%20administratives.%20%20Attention,%20certaines%20d%C3%A9marches"
+      },
+      {
+        "timestamp": "2021-04-11",
+        "url": "https://www.service-public.fr/%20est%20le%20site%20officiel%20de%20l%E2%80%99administration%20fran%C3%A7aise.%20Ce%20site%20vous%20permet%20d%E2%80%99effectuer%20vos%20d%C3%A9marches%20administratives%20en%20ligne%20.%20Comment%20?%20Il%20vous%20suffit%20de%20vous%20rendre%20Ã %20cette%20adresse%20:%20https://www.service-public.fr/%20dây%20ouvrir%20un%20compte%20en%20cliquant%20sur%20se%20connecter%20->%20crÃ©er%20un%20compte%20personnel%20et%20suivre%20les%20indications.%20Vous%20pourrez%20ainsi%20accÃ¨s%20par%20exemple%20Ã %20:%20Ãtat%20civil%20â%20IdentitÃ©%20â%20Authentification%20Carte%20dâidentitÃ©%20Passeport%20Ãtat%20civil%20Nom%20et%20prÃ©nom%20Certificat,%20copie,%20lÃ©galisation%20et%20conservation%20de%20documents%20CitoyennetÃ©%20Anciens%20combattants%20Ãlections%20Fichiers,%20libertÃ©s,%20protection%20de%20la%20vie%20privÃ©e%20MÃ©dailles%20et%20dÃ©corations%20officielles%20Recensement,%20JDC%20et%20service%20national%20Volontariats%20Relations%20avec%20lâadministration%20Obligations%20de%20lâadministration%20Recours%20administratif,%20dÃ©fenseur%20des%20droits,%20â¦%20Agir%20en%20justice%20contre%20lâadministration"
+      },
+      {
+        "timestamp": "2025-04-05",
+        "url": "http://www.service-public.fr//%E2%80%82Le%E2%80%82demandeur%E2%80%82indiqu%C3%A9%E2%80%82dans%E2%80%82le%E2%80%82cadre%E2%80%82ci-dessous%E2%80%82sera%E2%80%82le%E2%80%82titulaire%E2%80%82de%E2%80%82la%E2%80%82future%E2%80%82autorisation%E2%80%82et%E2%80%82le%E2%80%82redevable%E2%80%82"
+      },
+      {
+        "timestamp": "2025-04-05",
+        "url": "http://www.service-public.fr//%E2%80%82Le%E2%80%82demandeur%E2%80%82indiqu%C3%A9%E2%80%82dans%E2%80%82le%E2%80%82cadre%E2%80%82ci-dessous%E2%80%82sera%E2%80%82le%E2%80%82titulaire%E2%80%82de%E2%80%82la%E2%80%82future%E2%80%82autorisation%E2%80%82et%E2%80%82le%E2%80%82redevable%E2%80%82remplir%E2%80%82la%E2%80%82fiche%E2%80%82compl%C3%A9mentaire%E2%80%82%C2%ABAutres%E2%80%82demandeurs%C2%BB.%E2%80%82Les%E2%80%82d%C3%A9cisions%E2%80%82prises%E2%80%82par%E2%80%82l%E2%80%99administration%E2%80%82seront%E2%80%82notifi%C3%A9es%E2%80%82"
+      },
+      {
+        "timestamp": "2025-04-05",
+        "url": "http://www.service-public.fr//%E2%80%82Le%E2%80%82demandeur%E2%80%82indiqu%C3%A9%E2%80%82dans%E2%80%82le%E2%80%82cadre%E2%80%82ci-dessous%E2%80%82sera%E2%80%82le%E2%80%82titulaire%E2%80%82de%E2%80%82la%E2%80%82future%E2%80%82autorisation%E2%80%82et%E2%80%82le%E2%80%82redevable%E2%80%82remplir%E2%80%82la%E2%80%82fiche%E2%80%82compl%C3%A9mentaire%E2%80%82%C2%ABAutres%E2%80%82demandeurs%C2%BB.%E2%80%82Les%E2%80%82d%C3%A9cisions%E2%80%82prises%E2%80%82par%E2%80%82l%E2%80%99administration%E2%80%82seront%E2%80%82notifi%C3%A9es%E2%80%82au%E2%80%82demandeur%E2%80%82indiqu%C3%A9%E2%80%82ci-dessous.%E2%80%82Une%E2%80%82copie%E2%80%82sera%E2%80%82adress%C3%A9e%E2%80%82aux%E2%80%82autres%E2%80%82demandeurs,%E2%80%82qui%E2%80%82seront%E2%80%82co-titulaires%E2%80%82"
+      },
+      {
+        "timestamp": "2025-04-05",
+        "url": "http://www.service-public.fr//%E2%80%82Le%E2%80%82demandeur%E2%80%82indiqu%C3%A9%E2%80%82dans%E2%80%82le%E2%80%82cadre%E2%80%82ci-dessous%E2%80%82sera%E2%80%82le%E2%80%82titulaire%E2%80%82de%E2%80%82la%E2%80%82future%E2%80%82autorisation%E2%80%82et%E2%80%82le%E2%80%82redevable%E2%80%82remplir%E2%80%82la%E2%80%82fiche%E2%80%82compl%C3%A9mentaire%E2%80%82%C2%ABAutres%E2%80%82demandeurs%C2%BB.%E2%80%82Les%E2%80%82d%C3%A9cisions%E2%80%82prises%E2%80%82par%E2%80%82l%E2%80%99administration%E2%80%82seront%E2%80%82notifi%C3%A9es%E2%80%82au%E2%80%82demandeur%E2%80%82indiqu%C3%A9%E2%80%82ci-dessous.%E2%80%82Une%E2%80%82copie%E2%80%82sera%E2%80%82adress%C3%A9e%E2%80%82aux%E2%80%82autres%E2%80%82demandeurs,%E2%80%82qui%E2%80%82seront%E2%80%82co-titulaires%E2%80%82Date%E2%80%82:%E2%80%82/"
+      },
+      {
+        "timestamp": "2025-04-05",
+        "url": "http://www.service-public.fr//%E2%80%82Le%E2%80%82demandeur%E2%80%82indiqu%C3%A9%E2%80%82dans%E2%80%82le%E2%80%82cadre%E2%80%82ci-dessous%E2%80%82sera%E2%80%82le%E2%80%82titulaire%E2%80%82de%E2%80%82la%E2%80%82future%E2%80%82autorisation%E2%80%82et%E2%80%82le%E2%80%82redevable%E2%80%82remplir%E2%80%82la%E2%80%82fiche%E2%80%82compl%C3%A9mentaire%E2%80%82%C2%ABAutres%E2%80%82demandeurs%C2%BB.%E2%80%82Les%E2%80%82d%C3%A9cisions%E2%80%82prises%E2%80%82par%E2%80%82l%E2%80%99administration%E2%80%82seront%E2%80%82notifi%C3%A9es%E2%80%82au%E2%80%82demandeur%E2%80%82indiqu%C3%A9%E2%80%82ci-dessous.%E2%80%82Une%E2%80%82copie%E2%80%82sera%E2%80%82adress%C3%A9e%E2%80%82aux%E2%80%82autres%E2%80%82demandeurs,%E2%80%82qui%E2%80%82seront%E2%80%82co-titulaires%E2%80%82Date%E2%80%82:%E2%80%82//Commune%E2%80%82:%E2%80%82"
+      },
+      {
+        "timestamp": "2025-04-05",
+        "url": "http://www.service-public.fr//%E2%80%82Le%E2%80%82demandeur%E2%80%82indiqu%C3%A9%E2%80%82dans%E2%80%82le%E2%80%82cadre%E2%80%82ci-dessous%E2%80%82sera%E2%80%82le%E2%80%82titulaire%E2%80%82de%E2%80%82la%E2%80%82future%E2%80%82autorisation%E2%80%82et%E2%80%82le%E2%80%82redevable%E2%80%82remplir%E2%80%82la%E2%80%82fiche%E2%80%82compl%C3%A9mentaire%E2%80%82%C2%ABAutres%E2%80%82demandeurs%C2%BB.%E2%80%82Les%E2%80%82d%C3%A9cisions%E2%80%82prises%E2%80%82par%E2%80%82l%E2%80%99administration%E2%80%82seront%E2%80%82notifi%C3%A9es%E2%80%82au%E2%80%82demandeur%E2%80%82indiqu%C3%A9%E2%80%82ci-dessous.%E2%80%82Une%E2%80%82copie%E2%80%82sera%E2%80%82adress%C3%A9e%E2%80%82aux%E2%80%82autres%E2%80%82demandeurs,%E2%80%82qui%E2%80%82seront%E2%80%82co-titulaires%E2%80%82Date%E2%80%82:%E2%80%82//Commune%E2%80%82:%E2%80%82D%C3%A9partement%E2%80%82:%E2%80%82"
+      },
+      {
+        "timestamp": "2025-04-05",
+        "url": "http://www.service-public.fr//%E2%80%82Le%E2%80%82demandeur%E2%80%82indiqu%C3%A9%E2%80%82dans%E2%80%82le%E2%80%82cadre%E2%80%82ci-dessous%E2%80%82sera%E2%80%82le%E2%80%82titulaire%E2%80%82de%E2%80%82la%E2%80%82future%E2%80%82autorisation%E2%80%82et%E2%80%82le%E2%80%82redevable%E2%80%82remplir%E2%80%82la%E2%80%82fiche%E2%80%82compl%C3%A9mentaire%E2%80%82%C2%ABAutres%E2%80%82demandeurs%C2%BB.%E2%80%82Les%E2%80%82d%C3%A9cisions%E2%80%82prises%E2%80%82par%E2%80%82l%E2%80%99administration%E2%80%82seront%E2%80%82notifi%C3%A9es%E2%80%82au%E2%80%82demandeur%E2%80%82indiqu%C3%A9%E2%80%82ci-dessous.%E2%80%82Une%E2%80%82copie%E2%80%82sera%E2%80%82adress%C3%A9e%E2%80%82aux%E2%80%82autres%E2%80%82demandeurs,%E2%80%82qui%E2%80%82seront%E2%80%82co-titulaires%E2%80%82Date%E2%80%82:%E2%80%82//Commune%E2%80%82:%E2%80%82D%C3%A9partement%E2%80%82:%E2%80%82Pays%E2%80%82:%E2%80%82"
+      },
+      {
+        "timestamp": "2025-04-05",
+        "url": "http://www.service-public.fr//%E2%80%82Le%E2%80%82demandeur%E2%80%82indiqu%C3%A9%E2%80%82dans%E2%80%82le%E2%80%82cadre%E2%80%82ci-dessous%E2%80%82sera%E2%80%82le%E2%80%82titulaire%E2%80%82de%E2%80%82la%E2%80%82future%E2%80%82autorisation%E2%80%82et%E2%80%82le%E2%80%82redevable%E2%80%82remplir%E2%80%82la%E2%80%82fiche%E2%80%82compl%C3%A9mentaire%E2%80%82%C2%ABAutres%E2%80%82demandeurs%C2%BB.%E2%80%82Les%E2%80%82d%C3%A9cisions%E2%80%82prises%E2%80%82par%E2%80%82l%E2%80%99administration%E2%80%82seront%E2%80%82notifi%C3%A9es%E2%80%82au%E2%80%82demandeur%E2%80%82indiqu%C3%A9%E2%80%82ci-dessous.%E2%80%82Une%E2%80%82copie%E2%80%82sera%E2%80%82adress%C3%A9e%E2%80%82aux%E2%80%82autres%E2%80%82demandeurs,%E2%80%82qui%E2%80%82seront%E2%80%82co-titulaires%E2%80%82Date%E2%80%82:%E2%80%82//Commune%E2%80%82:%E2%80%82D%C3%A9partement%E2%80%82:%E2%80%82Pays%E2%80%82:%E2%80%82[1"
+      },
+      {
+        "timestamp": "2012-06-12",
+        "url": "http://www.service-public.fr/.mdb"
+      },
+      {
+        "timestamp": "2012-06-12",
+        "url": "http://www.service-public.fr/.old"
+      },
+      {
+        "timestamp": "2012-06-12",
+        "url": "http://www.service-public.fr/.TEST"
+      },
+      {
+        "timestamp": "2012-06-12",
+        "url": "http://www.service-public.fr/.wdb"
+      },
+      {
+        "timestamp": "2023-05-31",
+        "url": "https://service-public.fr/.well-known/openid-configuration"
+      },
+      {
+        "timestamp": "2022-12-09",
+        "url": "https://www.service-public.fr/?fbclid=IwAR14DMJLdE0zDHYt3m8A5eK1MRSKJ28PDbABNG7WgpiMJevF9r8zLWeZkPY"
+      },
+      {
+        "timestamp": "2024-06-27",
+        "url": "https://www.service-public.fr/?fbclid=IwAR22FlsO5hr0ETTAuExc8_qXcDbJok_ovJfJX5u7FqMBIfOD64lAKCLdAXI"
+      },
+      {
+        "timestamp": "2022-01-21",
+        "url": "https://www.service-public.fr/?fbclid=IwAR2hT99LBxUZFgM4mWGmkgI1k_QKYy60a8IOZtMLj9mWX_blsroAZdbm4wA"
+      },
+      {
+        "timestamp": "2019-08-25",
+        "url": "https://www.service-public.fr/?fbclid=IwAR3eAGqT8NsuVS--S-X6LHyaK5Ou5OlD2YvO7N21I7n0XTw4FrqOv0N_FrY"
+      },
+      {
+        "timestamp": "2025-03-19",
+        "url": "https://www.service-public.fr/?fbclid=IwY2xjawJH0E1leHRuA2FlbQIxMAABHUIintFbm2Pn8ApiNnrn3BGhRsm_R8K9e7aaA9Lg8uQbnJOaVDEXa0ccLw_aem_QrkenIFuNsqJncIfD8-6uA"
+      },
+      {
+        "timestamp": "2024-06-13",
+        "url": "http://service-public.fr/?fbclid=IwZXh0bgNhZW0CMTAAAR17mm8BCefF_1SkQd4uGTVdbRQpuxuyPM6i6aOUiM2Q3zLCPlBKmEkE8v0_aem_AUvvb4YOcQG7o-9KNSez4jveudnoiin5Hg4URkHvVIV1vQbWm-qq4LkF2Ai0faauYf2hjdY16jo_71kSVEsAYWCQ"
+      },
+      {
+        "timestamp": "2024-12-06",
+        "url": "https://service-public.fr/?fbclid=IwZXh0bgNhZW0CMTAAAR3CZBSyRBWm1E06xEDbee4WWT4NQVRBtX9rbbjlZWmS8Vr5mOuUxF2hDGI_aem_eNHlqgI_Dh8yjGEMYDn6wA"
+      },
+      {
+        "timestamp": "2024-05-02",
+        "url": "https://www.service-public.fr/?fbclid=IwZXh0bgNhZW0CMTAAAR3QrJioHUSi394ZnpDdHnZZBMOQPdPx7jDhJssBgYDvNyFqy7iMqpeJ7Lo_aem_AeavGYDb7AeA2bSQok12TFVRkTubFb9oS4_o6N1zrZOwYVHyCRtoB9ZicfYTo0iDLragB2kYak0xZOrBrn8IWqQH"
+      },
+      {
+        "timestamp": "2025-09-08",
+        "url": "http://service-public.fr/?fbclid=IwZXh0bgNhZW0CMTAAAR41qDbWAdmiGiTuXQrpVYva3Mi-WBkdaLbwNbVM9LeTlIpGG6ddGAnpB8FaFg_aem_LEkV3Y6ghmKpG6bSjhWmVA"
+      },
+      {
+        "timestamp": "2024-05-21",
+        "url": "https://www.service-public.fr/?gclid=CJHVjs_PoeECFRGMhQodbcABLQ"
+      },
+      {
+        "timestamp": "2020-12-02",
+        "url": "https://www.service-public.fr/?post/2017/09/26/tests-utilisateurs-participez-au-service-publicfr-de-demain"
+      },
+      {
+        "timestamp": "2016-04-02",
+        "url": "https://www.service-public.fr/abonnements/rss/actu-eadministration.rss"
+      },
+      {
+        "timestamp": "2016-04-06",
+        "url": "https://www.service-public.fr/abonnements/rss/actu-th-papiers-citoyennete.rss"
+      },
+      {
+        "timestamp": "2006-10-28",
+        "url": "http://www.service-public.fr:80/accueconso_soldes_hiver05.html"
+      },
+      {
+        "timestamp": "2005-10-12",
+        "url": "http://www.service-public.fr/accueil/administration_repertoire_docpublics.html"
+      },
+      {
+        "timestamp": "2004-03-13",
+        "url": "http://www.service-public.fr:80/accueil/alloc_api_paje.htm"
+      },
+      {
+        "timestamp": "2004-12-05",
+        "url": "http://www.service-public.fr:80/accueil/attestation_accueil_15euros.html"
+      },
+      {
+        "timestamp": "2004-12-04",
+        "url": "http://www.service-public.fr:80/accueil/attestation_accueil_etranger.html"
+      },
+      {
+        "timestamp": "2002-04-22",
+        "url": "http://www.service-public.fr:80/accueil/caf_attestation.html"
+      },
+      {
+        "timestamp": "2002-12-03",
+        "url": "http://www.service-public.fr:80/accueil/conso_sold_ins_ev.html"
+      },
+      {
+        "timestamp": "2002-10-19",
+        "url": "http://www.service-public.fr:80/accueil/conso_sold_insais.htm"
+      },
+      {
+        "timestamp": "2002-10-05",
+        "url": "http://www.service-public.fr:80/accueil/conso_sold_insais.html"
+      },
+      {
+        "timestamp": "2003-06-24",
+        "url": "http://www.service-public.fr:80/accueil/conso_soldes_ete03.html"
+      },
+      {
+        "timestamp": "2004-07-01",
+        "url": "http://www.service-public.fr:80/accueil/conso_soldes_ete04.html"
+      }
+    ],
+    "sample_urls": [
+      "http://service-public.fr:80/",
+      "http://www.service-public.fr/!=rs.settings.protocol",
+      "http://www.service-public.fr/!=rs.vars.thesync&&",
+      "http://www.service-public.fr:80/%22/",
+      "http://www.service-public.fr:80/%22%22",
+      "http://www.service-public.fr:80/\"%20onmouseover=\"return%20ss(",
+      "http://www.service-public.fr:80/%22%20target%22_blank",
+      "https://www.service-public.fr/%22%20target=%22_blank%22%3Eservice-public.fr%3C/a%3E",
+      "https://www.service-public.fr/%22,",
+      "http://www.service-public.fr:80/%22class=%22body",
+      "http://www.service-public.fr:80/%22class=%22lienblancnonsouligne",
+      "http://www.service-public.fr:80/%22class=%22texte_colonne",
+      "http://www.service-public.fr:80/%22class=v12r",
+      "http://www.service-public.fr:80/\"onclick=\"exit=true",
+      "http://www.service-public.fr:80/%22style=%22text-decoration:",
+      "http://www.service-public.fr:80/%22target=",
+      "http://www.service-public.fr:80/%22target=%22_blank",
+      "http://www.service-public.fr:80/\"target=\"_blank\"class=\"rub",
+      "http://www.service-public.fr:80/%22TARGET=%22_top",
+      "http://www.service-public.fr:80/%22target=%22blank",
+      "http://www.service-public.fr:80/%22target=%22new",
+      "http://www.service-public.fr:80/\"target='_blank",
+      "http://www.service-public.fr:80/%22target=_blank",
+      "http://www.service-public.fr:80/\"target=prev",
+      "http://www.service-public.fr:80/%09",
+      "https://www.service-public.fr/%0A",
+      "http://www.service-public.fr:80/%20",
+      "https://www.service-public.fr/%20%20%20%20%20%20Permis%20de%20conduire,%20pi%C3%A8ce%20d%27identit%C3%A9,%20carte%20grise%20...%20%20%20%20%20%20%20%20&nbsp;",
+      "http://www.service-public.fr/%20%20%20Documents%20d%27information%20pour%20les%20d%C3%A9marches%20et%20le%20recensement.%20%20Bien%20vouloir%20prendre%20connaissance%20des%20documents%20en%20cliquant%20dessus.%20%20%20%20%20%20%20%20%20%20Localisation%20de%20parcelles%20Cliquez%20sur%20le%20lien%20suivant%20svp.%20%20%20%20http://sig.ville.gouv.fr/Cartographie/17211",
+      "http://www.service-public.fr:80/%20%20-%20%20http://www.defen",
+      "http://www.service-public.fr:80/%20%20-%20%20http://www.defense.gouv.fr/sites/gendarmerie/",
+      "https://www.service-public.fr/%20%C2%A0%20Carte%20d%E2%80%99identit%C3%A9%C2%A0%20https://www.service-public.fr/particuliers/vosdroits/N358%20%C2%A0%20Passeport%20https://www.service-public.fr/particuliers/vosdroits/N360%20%C2%A0%20Extrait%20d%E2%80%99acte%20de%20naissance%20https://www.service-public.fr/particuliers/vosdroits/F1427%20%C2%A0%20%C2%A0%20Acte%20de%20d%C3%A9c%C3%A8s%20https://www.service-public.fr/particuliers/vosdroits/F1444%20%C2%A0%20Extrait%20d%E2%80%99acte%20de%20mariage%20avec%20%5B%E2%80%A6%5D",
+      "http://www.service-public.fr:80/%20(nouvelle%20fen%C3%AAtre)",
+      "http://www.service-public.fr:80/%20-%20Nouvelle%20fen%C3%AAtre",
+      "http://www.service-public.fr:80/%20-%20nouvelle%20fen%C3%AAtre.",
+      "http://www.service-public.fr:80/%20-%20Open%20in%20new%20window",
+      "http://www.service-public.fr/%20-blank",
+      "https://www.service-public.fr/%20%3E%20Social%20Sant%C3%A9%20%3E%20Handicap%20%3E%20Prestation%20de%20compensation%20du%20handicap",
+      "https://www.service-public.fr/%20associations/F1131.xhtml",
+      "http://service-public.fr:80/%20http://legifrance.gouv.fr/"
+    ],
+    "source": "web.archive.org",
+    "subdomain_count": 4,
+    "subdomains": [
+      "service-public.fr",
+      "www.service-public.fr",
+      "www1.service-public.fr",
+      "www2.service-public.fr"
+    ],
+    "truncated": true
+  },
+  "tool": "wayback_lookup"
+}

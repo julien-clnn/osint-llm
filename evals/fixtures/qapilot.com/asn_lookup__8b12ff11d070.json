@@ -1,0 +1,269 @@
+{
+  "arguments": {
+    "ip": "194.163.183.141"
+  },
+  "result": {
+    "announced_prefix": "194.163.128.0/18",
+    "asn": 51167,
+    "asn_description": "CONTABO Contabo GmbH",
+    "asn_name": "CONTABO Contabo GmbH",
+    "asn_prefixes": [
+      {
+        "country": "",
+        "name": "CONTABO Contabo GmbH",
+        "prefix": "178.212.34.0/24"
+      },
+      {
+        "country": "",
+        "name": "CONTABO Contabo GmbH",
+        "prefix": "89.250.72.0/21"
+      },
+      {
+        "country": "",
+        "name": "CONTABO Contabo GmbH",
+        "prefix": "167.86.74.0/23"
+      },
+      {
+        "country": "",
+        "name": "CONTABO Contabo GmbH",
+        "prefix": "45.67.221.0/24"
+      },
+      {
+        "country": "",
+        "name": "CONTABO Contabo GmbH",
+        "prefix": "81.17.100.0/22"
+      },
+      {
+        "country": "",
+        "name": "CONTABO Contabo GmbH",
+        "prefix": "185.215.164.0/23"
+      },
+      {
+        "country": "",
+        "name": "CONTABO Contabo GmbH",
+        "prefix": "89.147.100.0/24"
+      },
+      {
+        "country": "",
+        "name": "CONTABO Contabo GmbH",
+        "prefix": "80.241.214.0/24"
+      },
+      {
+        "country": "",
+        "name": "CONTABO Contabo GmbH",
+        "prefix": "167.86.108.0/23"
+      },
+      {
+        "country": "",
+        "name": "CONTABO Contabo GmbH",
+        "prefix": "144.91.104.0/23"
+      },
+      {
+        "country": "",
+        "name": "CONTABO Contabo GmbH",
+        "prefix": "173.249.12.0/23"
+      },
+      {
+        "country": "",
+        "name": "CONTABO Contabo GmbH",
+        "prefix": "161.97.90.0/23"
+      },
+      {
+        "country": "",
+        "name": "CONTABO Contabo GmbH",
+        "prefix": "130.185.118.0/24"
+      },
+      {
+        "country": "",
+        "name": "CONTABO Contabo GmbH",
+        "prefix": "45.10.160.0/23"
+      },
+      {
+        "country": "",
+        "name": "CONTABO Contabo GmbH",
+        "prefix": "185.237.252.0/23"
+      },
+      {
+        "country": "",
+        "name": "CONTABO Contabo GmbH",
+        "prefix": "207.180.216.0/23"
+      },
+      {
+        "country": "",
+        "name": "CONTABO Contabo GmbH",
+        "prefix": "161.97.120.0/23"
+      },
+      {
+        "country": "",
+        "name": "CONTABO Contabo GmbH",
+        "prefix": "173.212.252.0/23"
+      },
+      {
+        "country": "",
+        "name": "CONTABO Contabo GmbH",
+        "prefix": "45.140.185.0/24"
+      },
+      {
+        "country": "",
+        "name": "CONTABO Contabo GmbH",
+        "prefix": "62.171.136.0/23"
+      },
+      {
+        "country": "",
+        "name": "CONTABO Contabo GmbH",
+        "prefix": "167.86.106.0/23"
+      },
+      {
+        "country": "",
+        "name": "CONTABO Contabo GmbH",
+        "prefix": "144.91.88.0/23"
+      },
+      {
+        "country": "",
+        "name": "CONTABO Contabo GmbH",
+        "prefix": "2.58.82.0/24"
+      },
+      {
+        "country": "",
+        "name": "CONTABO Contabo GmbH",
+        "prefix": "161.97.122.0/23"
+      },
+      {
+        "country": "",
+        "name": "CONTABO Contabo GmbH",
+        "prefix": "62.171.150.0/23"
+      },
+      {
+        "country": "",
+        "name": "CONTABO Contabo GmbH",
+        "prefix": "37.139.52.0/24"
+      },
+      {
+        "country": "",
+        "name": "CONTABO Contabo GmbH",
+        "prefix": "45.90.120.0/23"
+      },
+      {
+        "country": "",
+        "name": "CONTABO Contabo GmbH",
+        "prefix": "207.180.214.0/23"
+      },
+      {
+        "country": "",
+        "name": "CONTABO Contabo GmbH",
+        "prefix": "173.249.10.0/23"
+      },
+      {
+        "country": "",
+        "name": "CONTABO Contabo GmbH",
+        "prefix": "157.173.112.0/20"
+      },
+      {
+        "country": "",
+        "name": "CONTABO Contabo GmbH",
+        "prefix": "173.249.46.0/23"
+      },
+      {
+        "country": "",
+        "name": "CONTABO Contabo GmbH",
+        "prefix": "207.180.220.0/23"
+      },
+      {
+        "country": "",
+        "name": "CONTABO Contabo GmbH",
+        "prefix": "62.171.186.0/23"
+      },
+      {
+        "country": "",
+        "name": "CONTABO Contabo GmbH",
+        "prefix": "109.123.240.0/20"
+      },
+      {
+        "country": "",
+        "name": "CONTABO Contabo GmbH",
+        "prefix": "198.7.112.0/21"
+      },
+      {
+        "country": "",
+        "name": "CONTABO Contabo GmbH",
+        "prefix": "185.190.142.0/23"
+      },
+      {
+        "country": "",
+        "name": "CONTABO Contabo GmbH",
+        "prefix": "173.249.8.0/23"
+      },
+      {
+        "country": "",
+        "name": "CONTABO Contabo GmbH",
+        "prefix": "62.171.134.0/23"
+      },
+      {
+        "country": "",
+        "name": "CONTABO Contabo GmbH",
+        "prefix": "173.249.28.0/23"
+      },
+      {
+        "country": "",
+        "name": "CONTABO Contabo GmbH",
+        "prefix": "91.194.90.0/23"
+      },
+      {
+        "country": "",
+        "name": "CONTABO Contabo GmbH",
+        "prefix": "167.86.112.0/23"
+      },
+      {
+        "country": "",
+        "name": "CONTABO Contabo GmbH",
+        "prefix": "94.72.96.0/20"
+      },
+      {
+        "country": "",
+        "name": "CONTABO Contabo GmbH",
+        "prefix": "79.143.182.0/23"
+      },
+      {
+        "country": "",
+        "name": "CONTABO Contabo GmbH",
+        "prefix": "155.133.22.0/23"
+      },
+      {
+        "country": "",
+        "name": "CONTABO Contabo GmbH",
+        "prefix": "185.218.126.0/24"
+      },
+      {
+        "country": "",
+        "name": "CONTABO Contabo GmbH",
+        "prefix": "185.222.242.0/24"
+      },
+      {
+        "country": "",
+        "name": "CONTABO Contabo GmbH",
+        "prefix": "164.68.102.0/23"
+      },
+      {
+        "country": "",
+        "name": "CONTABO Contabo GmbH",
+        "prefix": "161.97.104.0/23"
+      },
+      {
+        "country": "",
+        "name": "CONTABO Contabo GmbH",
+        "prefix": "213.199.32.0/20"
+      },
+      {
+        "country": "",
+        "name": "CONTABO Contabo GmbH",
+        "prefix": "194.163.128.0/18"
+      }
+    ],
+    "country": "",
+    "ip": "194.163.183.141",
+    "prefix_count": 573,
+    "source": "RIPEstat",
+    "truncated": true
+  },
+  "tool": "asn_lookup"
+}

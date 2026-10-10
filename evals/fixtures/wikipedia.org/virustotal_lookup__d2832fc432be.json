@@ -1,0 +1,144 @@
+{
+  "arguments": {
+    "domain": "wikipedia.org"
+  },
+  "result": {
+    "categories": [],
+    "domain": "wikipedia.org",
+    "enabled": true,
+    "found": true,
+    "harmless_votes": 29,
+    "last_analysis_stats": {
+      "harmless": 60,
+      "malicious": 0,
+      "suspicious": 0,
+      "undetected": 29
+    },
+    "malicious_votes": 1,
+    "passive_dns": [
+      {
+        "ip_address": "199.16.158.12",
+        "last_resolved": 1788421199
+      },
+      {
+        "ip_address": "198.35.26.224",
+        "last_resolved": 1786652117
+      },
+      {
+        "ip_address": "2620:0:860:ed1a::1",
+        "last_resolved": 1777718932
+      },
+      {
+        "ip_address": "2620:0:861:ed1a::1",
+        "last_resolved": 1753683779
+      },
+      {
+        "ip_address": "168.143.171.186",
+        "last_resolved": 1711439716
+      },
+      {
+        "ip_address": "2001:df2:e500:ed1a::1",
+        "last_resolved": 1710943042
+      },
+      {
+        "ip_address": "104.244.46.165",
+        "last_resolved": 1696205688
+      },
+      {
+        "ip_address": "185.15.59.224",
+        "last_resolved": 1692969714
+      },
+      {
+        "ip_address": "162.125.80.3",
+        "last_resolved": 1682073316
+      },
+      {
+        "ip_address": "159.138.20.20",
+        "last_resolved": 1676106512
+      },
+      {
+        "ip_address": "148.163.48.215",
+        "last_resolved": 1675553411
+      },
+      {
+        "ip_address": "74.86.142.55",
+        "last_resolved": 1673729647
+      },
+      {
+        "ip_address": "104.244.43.228",
+        "last_resolved": 1673227801
+      },
+      {
+        "ip_address": "75.126.135.131",
+        "last_resolved": 1671895432
+      },
+      {
+        "ip_address": "192.35.222.204",
+        "last_resolved": 1668127022
+      },
+      {
+        "ip_address": "202.160.128.40",
+        "last_resolved": 1656946034
+      },
+      {
+        "ip_address": "208.77.47.172",
+        "last_resolved": 1650705689
+      },
+      {
+        "ip_address": "157.240.0.35",
+        "last_resolved": 1649549210
+      },
+      {
+        "ip_address": "185.15.58.224",
+        "last_resolved": 1648160249
+      },
+      {
+        "ip_address": "173.234.53.168",
+        "last_resolved": 1647282599
+      },
+      {
+        "ip_address": "108.160.167.167",
+        "last_resolved": 1646974632
+      },
+      {
+        "ip_address": "108.160.163.117",
+        "last_resolved": 1646652051
+      },
+      {
+        "ip_address": "31.13.73.9",
+        "last_resolved": 1646651842
+      },
+      {
+        "ip_address": "104.244.46.52",
+        "last_resolved": 1645095115
+      },
+      {
+        "ip_address": "75.126.33.156",
+        "last_resolved": 1644838689
+      },
+      {
+        "ip_address": "69.171.229.11",
+        "last_resolved": 1642119458
+      },
+      {
+        "ip_address": "69.171.239.11",
+        "last_resolved": 1638369402
+      },
+      {
+        "ip_address": "199.59.149.236",
+        "last_resolved": 1638350041
+      },
+      {
+        "ip_address": "157.240.17.50",
+        "last_resolved": 1638098651
+      },
+      {
+        "ip_address": "103.200.30.245",
+        "last_resolved": 1638022191
+      }
+    ],
+    "reputation": 88,
+    "source": "www.virustotal.com"
+  },
+  "tool": "virustotal_lookup"
+}

@@ -1,0 +1,26 @@
+domain: qapilot.com
+subdomains:
+  expected_count: 2
+  known_sample:
+  - qapilot.com
+  - www.qapilot.com
+  known_exclusions: []
+email_security:
+  spf: true
+  dmarc: true
+  dmarc_policy: quarantine
+  dkim_selectors_found:
+  - selector1
+network:
+  expected_asn: 16509
+  expected_org_substring: Amazon
+  behind_cdn_proxy: true
+reputation:
+  verdict: clean
+  malicious_engines_min: 0
+must_contain:
+- 'Very small surface: only 2 subdomains found'
+- DMARC configured with policy quarantine
+- Domain registered in 2021
+must_not_contain: []
+notes: Small organization / small attack surface, sound email hygiene despite its small size.

@@ -1,0 +1,20 @@
+# LLM client — DeepSeek is compatible with the OpenAI API (function calling)
+openai>=1.40
+
+# Load environment variables from .env
+python-dotenv>=1.0
+
+# WHOIS tool (socket queries, does not depend on the system binary)
+python-whois>=0.9.5
+
+# HTTP requests to third-party sources (crt.sh, ip-api.com).
+# The [socks] extra pulls PySocks, required to route the active request
+# through a SOCKS5 proxy (Tor: socks5h://127.0.0.1:9050).
+requests[socks]>=2.32
+
+# DNS records (MX/TXT/NS, SPF/DMARC) — dns_records_lookup tool
+dnspython>=2.6
+
+# Web API — backend for the React frontend (agent SSE streaming)
+fastapi>=0.110
+uvicorn[standard]>=0.29

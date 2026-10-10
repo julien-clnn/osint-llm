@@ -1,0 +1,32 @@
+{
+  "arguments": {
+    "domain": "abrush.ai"
+  },
+  "result": {
+    "categories": [],
+    "domain": "abrush.ai",
+    "enabled": true,
+    "found": true,
+    "harmless_votes": 0,
+    "last_analysis_stats": {
+      "harmless": 55,
+      "malicious": 0,
+      "suspicious": 0,
+      "undetected": 34
+    },
+    "malicious_votes": 0,
+    "passive_dns": [
+      {
+        "ip_address": "104.21.23.105",
+        "last_resolved": 1764519418
+      },
+      {
+        "ip_address": "172.67.210.127",
+        "last_resolved": 1764519418
+      }
+    ],
+    "reputation": 0,
+    "source": "www.virustotal.com"
+  },
+  "tool": "virustotal_lookup"
+}

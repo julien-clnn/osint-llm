@@ -1,0 +1,136 @@
+{
+  "arguments": {
+    "domain": "cloudflare.com"
+  },
+  "result": {
+    "code_matches": [
+      {
+        "path": "ie.md",
+        "repo": "rstacruz/cheatsheets",
+        "snippet": "```html\n<!--[if lt IE 9]>\n<script src='https://cdnjs.cloudflare.com/ajax/libs/nwmatcher/1.2.5/nwmatcher.min.js'></script>\n<script src='https://cdnjs.cloudflare.com/ajax/libs/json2/20140204/json2.min.js'>\n<script src='https://cdn.rawgit.com/gisu/selectivizr/1.0.3/selectivizr.js'></script>\n<script src",
+        "url": "https://github.com/rstacruz/cheatsheets/blob/9ceae55055f2b8ba4b5cf013ee1749e0ce847342/ie.md"
+      },
+      {
+        "path": "html.md",
+        "repo": "rstacruz/cheatsheets",
+        "snippet": "### HTML5 Shiv for IE8\n\n    <!--[if lte IE 8]><script src='//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.1/html5shiv.js'></script><![endif]-->\n\n### H5BP HTML tag (IE8 and IE9 only)",
+        "url": "https://github.com/rstacruz/cheatsheets/blob/9ceae55055f2b8ba4b5cf013ee1749e0ce847342/html.md"
+      },
+      {
+        "path": "ch6.md",
+        "repo": "llh911001/mostly-adequate-guide-chinese",
+        "snippet": "<head>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.11/require.min.js\"></script>\n    <script src=\"flickr.js\"></script>",
+        "url": "https://github.com/llh911001/mostly-adequate-guide-chinese/blob/6209b367fe52309a88c3967e67178c1d3016b4d8/ch6.md"
+      },
+      {
+        "path": "NEWS.md",
+        "repo": "Cisco-Talos/clamav",
+        "snippet": "the CVE is old enough that no one should be vulnerable at this point.\n\n- Fix ClamSubmit failures after changes to Cloudflare \"__cfduid\" cookies.\n  See: https://blog.cloudflare.com/deprecating-cfduid-cookie/\n\nSpecial thanks to the following for code contributions and bug reports:",
+        "url": "https://github.com/Cisco-Talos/clamav/blob/72cd48c9faed4fa4afc22bc4ed0b9b19f8d3f8f7/NEWS.md"
+      },
+      {
+        "path": "DNS.md",
+        "repo": "jinwyp/one_click_script",
+        "snippet": "6. 更多DOH DOT ESNI 资料请看[什么是加密的 SNI](https://www.cloudflare.com/zh-cn/learning/ssl/what-is-encrypted-sni/). [使用 ESNI、DoH 和 DoT](https://www.toptal.com/web/encrypted-safe-with-esni-doh-dot). [搭建全协议DNS服务器](https://blog.dnomd343.top/dns-server/)",
+        "url": "https://github.com/jinwyp/one_click_script/blob/c7df679fe5226afc11d1e2f1419a4902f7d2f291/DNS.md"
+      },
+      {
+        "path": "ssr.md",
+        "repo": "shadowsocksr-backup/shadowsocks-rss",
+        "snippet": "`random_head`（不建议使用）：开始通讯前发送一个几乎为随机的数据包（目前末尾4字节为CRC32，会成为特征，以后会有改进版本），之后为原协议流。目标是让首个数据包根本不存在任何有效信息，让统计学习机制见鬼去吧。此插件可以兼容原协议(需要在服务端配置为`random_head_compatible`)，比原协议多一次握手导致连接时间会长一些，除了握手过程之后没有冗余数据包，不支持自定义参数。  \n\n`tls1.2_ticket_auth`（强烈推荐）:模拟TLS1.2在客户端有session ticket的情况下的握手连接。目前为完整模拟实现，经抓包软件测试完美伪装为TLS1.2。因",
+        "url": "https://github.com/shadowsocksr-backup/shadowsocks-rss/blob/ce26799c384ca46fa9dfc2103445fee2666cab93/ssr.md"
+      },
+      {
+        "path": "FAQ.md",
+        "repo": "ai-robots-txt/ai.robots.txt",
+        "snippet": "- Netlify\n  - [Blockin' bots on Netlify](https://www.jeremiak.com/blog/block-bots-netlify-edge-functions/) by Jeremia Kimelman\n- Cloudflare\n  - [Block AI bots, scrapers and crawlers with a single click](https://blog.cloudflare.com/declaring-your-aindependence-block-ai-bots-scrapers-and-crawlers-with",
+        "url": "https://github.com/ai-robots-txt/ai.robots.txt/blob/0e111dcc24cbcdf4e609edde70f9f9184eac8b02/FAQ.md"
+      },
+      {
+        "path": "ok.txt",
+        "repo": "BlueSkyXN/AdGuardHomeRules",
+        "snippet": "@@||smoot.apple.com^\n@@||apple-relay.cloudflare.com^\n@@||apple-relay.fastly-edge.com^\n@@||cp4.cloudflare.com^\n@@||apple-relay.apple.com^\n@@||app-site-association.cdn-apple.com^\n@@||app-site-association.networking.apple^",
+        "url": "https://github.com/BlueSkyXN/AdGuardHomeRules/blob/df44b31f090fc05ab21869c727288c2923b8a5cd/ok.txt"
+      },
+      {
+        "path": "ch06.md",
+        "repo": "MostlyAdequate/mostly-adequate-guide-ru",
+        "snippet": "<main id=\"js-main\" class=\"main\"></main>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/require.js/2.2.0/require.min.js\"></script>\n    <script src=\"main.js\"></script>",
+        "url": "https://github.com/MostlyAdequate/mostly-adequate-guide-ru/blob/4f892f1f50e49a5827f89ec57c3085ef1e8f1a32/ch06.md"
+      },
+      {
+        "path": "doc.md",
+        "repo": "3dmol/3Dmol.js",
+        "snippet": "```{@lang html}\n<script src=\"https://cdnjs.cloudflare.com/ajax/libs/3Dmol/2.0.1/3Dmol-min.js\"></script>\n<script src=\"https://cdnjs.cloudflare.com/ajax/libs/3Dmol/2.0.1/3Dmol.js\"></script>\n```\n\nUsing the CDN will likely provide the best network performance to your users, but features will lag behind ",
+        "url": "https://github.com/3dmol/3Dmol.js/blob/cf6b68429dd9f435ba004d172c0616a8fe124206/doc.md"
+      }
+    ],
+    "code_search_enabled": true,
+    "domain": "cloudflare.com",
+    "repository_count": 10,
+    "repository_matches": [
+      {
+        "description": "🔥 Fully-local simulator for Cloudflare Workers. For the latest version, see https://github.com/cloudflare/workers-sdk/tree/main/packages/miniflare.",
+        "repo": "cloudflare/miniflare",
+        "stars": 3924,
+        "url": "https://github.com/cloudflare/miniflare"
+      },
+      {
+        "description": "反中共政治宣传库。Anti Chinese government propaganda. 住在中国真名用户的网友请别给星星，不然你要被警察请喝茶。常见问答集，新闻集和饭店和音乐建议。卐习万岁卐。冠状病毒审查郝海东新疆改造中心六四事件法轮功 996.ICU709大抓捕巴拿马文件邓家贵低端人口西藏骚乱。Friends who live in China and have real name on account, please don't star this repo, or else the police might pay you a visit.  Home to the mega-FAQ,",
+        "repo": "cirosantilli/china-dictatorship",
+        "stars": 3197,
+        "url": "https://github.com/cirosantilli/china-dictatorship"
+      },
+      {
+        "description": "[CASUALLY MAINTAINED] 轻小说文库 (Wenku8.com) 安卓版第三方公益App，始于2014年的初版Material Design风格、非盈利、Play Store上安装包最小的轻小说阅读器 (light novel reader)。目前网站的API由于被大量滥用，已更新成我自己架的 Cloudflare Worker API 中继节点，不然的话网站关闭API就全军覆没了。",
+        "repo": "MewX/light-novel-library_Wenku8_Android",
+        "stars": 2994,
+        "url": "https://github.com/MewX/light-novel-library_Wenku8_Android"
+      },
+      {
+        "description": "这里是GitHub的草场，也是戈戈圈爱好者的交流地，主要讨论动漫、游戏、科技、人文、生活等所有话题，欢迎各位小伙伴们在此讨论趣事。This is GitHub grassland, and the community place for Gege circle lovers, mainly discusses anime, games, technology, lifing and other topics. You are welcome to share interest things here.  　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　",
+        "repo": "gege-circle/.github",
+        "stars": 2004,
+        "url": "https://github.com/gege-circle/.github"
+      },
+      {
+        "description": "a multi node frp webui and for https://github.com/fatedier/frp server and client management, which makes this project a Cloudflare Tunnel/Tailscale Funnel/Ngork platform and agent open source alternative",
+        "repo": "VaalaCat/frp-panel",
+        "stars": 1827,
+        "url": "https://github.com/VaalaCat/frp-panel"
+      },
+      {
+        "description": "A Anti-DDoS script to protect Nginx web servers using Lua with a HTML Javascript based authentication puzzle inspired by Cloudflare I am under attack mode an Anti-DDoS authentication page protect yourself from every attack type All Layer 7 Attacks Mitigating Historic Attacks DoS DoS Implications DDo",
+        "repo": "C0nw0nk/Nginx-Lua-Anti-DDoS",
+        "stars": 1636,
+        "url": "https://github.com/C0nw0nk/Nginx-Lua-Anti-DDoS"
+      },
+      {
+        "description": "Blazing fast and accurate glob matcher written JavaScript, with no dependencies and full support for standard and extended Bash glob features, including braces, extglobs, POSIX brackets, and regular expressions. Used by GraphQL, Jest, Astro, Snowpack, Storybook, bulma, Serverless, fdir, Netlify, AWS",
+        "repo": "micromatch/picomatch",
+        "stars": 1293,
+        "url": "https://github.com/micromatch/picomatch"
+      },
+      {
+        "description": "Ok, Langsung Saja Ke Materi. Sesuai Judul, Disini Saya Akan Memberikan Kumpulan Script Termux Yang Masih Work. Karena, Jarang Sekali Saat Ini Mendapatkan Script Yang Benar-Benar Work.  ✓BOT KOMEN DAN LIKE INSTAGRAM $ pkg update $ pkg upgrade $ pkg install python2 $ pkg install ruby $ gem install lol",
+        "repo": "landy22granatt/Kumpulan-Script-Termux",
+        "stars": 749,
+        "url": "https://github.com/landy22granatt/Kumpulan-Script-Termux"
+      },
+      {
+        "description": "Automatically Create CNAME records for containers served by Traefik",
+        "repo": "tiredofit/docker-traefik-cloudflare-companion",
+        "stars": 553,
+        "url": "https://github.com/tiredofit/docker-traefik-cloudflare-companion"
+      },
+      {
+        "description": "反中共政治宣传库。Anti Chinese government propaganda. https://github.com/cirosantilli/china-dictatorship 的备份backup. 住在中国真名用户的网友请别给星星，不然你要被警察请喝茶。常见问答集，新闻集和饭店和音乐建议。卐习万岁卐。冠状病毒审查郝海东新疆改造中心六四事件法轮功 996.ICU709大抓捕巴拿马文件邓家贵低端人口西藏骚乱。Friends who live in China and have real name on account, please don't star this repo, or",
+        "repo": "cirosantilli/china-dictatroship-7",
+        "stars": 361,
+        "url": "https://github.com/cirosantilli/china-dictatroship-7"
+      }
+    ],
+    "source": "api.github.com"
+  },
+  "tool": "github_search"
+}

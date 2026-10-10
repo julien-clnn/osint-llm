@@ -1,0 +1,41 @@
+# Blue team / SOC scenario: triage of a SUSPICIOUS domain (not your own) —
+# malicious / suspicious / benign verdict, with the body of evidence behind
+# it, actionable by an analyst.
+#
+# NB: `risk_level` (low/medium/high/undetermined, unchanged report schema) is
+# used here as the VERDICT via `risk_level_mapping` below — see
+# scenarios/README.md for why no dedicated output schema was introduced.
+name: phishing_triage
+label: "Phishing triage (SOC)"
+
+mission: >-
+  Call the tools one at a time. This domain was reported to you as
+  SUSPICIOUS by an analyst: your mission is not to map its attack surface,
+  but to deliver a VERDICT a SOC analyst can act on. Base your verdict on a
+  body of weighted evidence, never on a single isolated signal: WHOIS age and
+  registrar (whois_lookup), VirusTotal reputation and passive DNS
+  (virustotal_lookup), and Wayback history (wayback_lookup — presence, age,
+  activity). A very recent domain, with no Wayback history and VirusTotal
+  engines flagging it as malicious, is strong evidence; an old domain that is
+  clean on these three sources is benign a priori. Prefer passive mode for
+  this kind of domain: only enable active mode (tech_fingerprint) when
+  explicitly requested.
+
+tools:
+  - whois_lookup
+  - virustotal_lookup
+  - wayback_lookup
+
+report_sections:
+  - "VERDICT"
+  - "WHOIS / REGISTRAR EVIDENCE"
+  - "REPUTATION & PASSIVE DNS"
+  - "INFRASTRUCTURE HISTORY"
+
+risk_level_mapping:
+  high: malicious
+  medium: suspicious
+  low: benign
+  undetermined: undetermined
+
+max_iterations: null

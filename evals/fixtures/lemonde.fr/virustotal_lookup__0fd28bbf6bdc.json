@@ -1,0 +1,60 @@
+{
+  "arguments": {
+    "domain": "lemonde.fr"
+  },
+  "result": {
+    "categories": [],
+    "domain": "lemonde.fr",
+    "enabled": true,
+    "found": true,
+    "harmless_votes": 1,
+    "last_analysis_stats": {
+      "harmless": 60,
+      "malicious": 0,
+      "suspicious": 0,
+      "undetected": 29
+    },
+    "malicious_votes": 1,
+    "passive_dns": [
+      {
+        "ip_address": "151.101.122.137",
+        "last_resolved": 1732340048
+      },
+      {
+        "ip_address": "151.101.2.217",
+        "last_resolved": 1732032125
+      },
+      {
+        "ip_address": "151.101.2.137",
+        "last_resolved": 1641983975
+      },
+      {
+        "ip_address": "74.125.142.27",
+        "last_resolved": 1641664420
+      },
+      {
+        "ip_address": "64.233.171.27",
+        "last_resolved": 1641664420
+      },
+      {
+        "ip_address": "142.250.152.26",
+        "last_resolved": 1641664420
+      },
+      {
+        "ip_address": "151.101.194.217",
+        "last_resolved": 1576143756
+      },
+      {
+        "ip_address": "195.154.120.129",
+        "last_resolved": 1566063423
+      },
+      {
+        "ip_address": "93.184.220.20",
+        "last_resolved": 1526638321
+      }
+    ],
+    "reputation": -21,
+    "source": "www.virustotal.com"
+  },
+  "tool": "virustotal_lookup"
+}

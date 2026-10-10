@@ -1,0 +1,39 @@
+{
+  "arguments": {
+    "target": "qapilot.com"
+  },
+  "result": {
+    "ip_count": 2,
+    "locations": [
+      {
+        "as": "AS16509 Amazon.com, Inc.",
+        "city": "Montreal",
+        "country": "Canada",
+        "country_code": "CA",
+        "ip": "15.197.225.128",
+        "isp": "Amazon.com, Inc.",
+        "lat": 45.5019,
+        "lon": -73.5674,
+        "org": "AWS Global Accelerator (GLOBAL)",
+        "region": "Quebec"
+      },
+      {
+        "as": "AS16509 Amazon.com, Inc.",
+        "city": "Montreal",
+        "country": "Canada",
+        "country_code": "CA",
+        "ip": "3.33.251.168",
+        "isp": "Amazon.com, Inc.",
+        "lat": 45.5019,
+        "lon": -73.5674,
+        "org": "AWS Global Accelerator (GLOBAL)",
+        "region": "Quebec"
+      }
+    ],
+    "resolved_from_domain": "qapilot.com",
+    "source": "ip-api.com",
+    "target": "qapilot.com",
+    "truncated": false
+  },
+  "tool": "ip_geolocate"
+}

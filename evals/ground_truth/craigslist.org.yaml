@@ -1,0 +1,33 @@
+domain: craigslist.org
+subdomains:
+  expected_count: 39
+  known_sample:
+  - accounts.craigslist.org
+  - auth1a.int.craigslist.org
+  - auth1f.int.craigslist.org
+  - bapi.craigslist.org
+  - ccard-api-200paul.craigslist.org
+  known_exclusions: []
+email_security:
+  spf: true
+  dmarc: true
+  dmarc_policy: quarantine
+  dkim_selectors_found: []
+network:
+  expected_asn: 22414
+  expected_org_substring: Craigslist
+  behind_cdn_proxy: false
+reputation:
+  verdict: clean
+  malicious_engines_min: 0
+must_contain:
+- Self-hosted infrastructure, own ASN (22414, Craigslist, Inc.)
+- SPF and DMARC present (quarantine policy)
+- 39 subdomains found
+must_not_contain:
+- Must not conclude a malicious reputation based solely on the negative VirusTotal score (-32)
+  — 0 engines flag the domain as malicious; the negative community score is a separate nuance,
+  not a threat detection
+notes: Minimalist, stable infrastructure baseline. Negative VirusTotal community reputation score
+  (-32) despite 0 'malicious' detections — a nuance not to be confused with a reputation degraded by
+  antivirus engines.

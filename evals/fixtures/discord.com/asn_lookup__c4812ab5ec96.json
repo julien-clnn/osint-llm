@@ -1,0 +1,269 @@
+{
+  "arguments": {
+    "ip": "168.143.162.58"
+  },
+  "result": {
+    "announced_prefix": "168.143.162.0/23",
+    "asn": 203020,
+    "asn_description": "HostRoyale HostRoyale Technologies Pvt Ltd",
+    "asn_name": "HostRoyale HostRoyale Technologies Pvt Ltd",
+    "asn_prefixes": [
+      {
+        "country": "",
+        "name": "HostRoyale HostRoyale Technologies Pvt Ltd",
+        "prefix": "37.200.108.0/24"
+      },
+      {
+        "country": "",
+        "name": "HostRoyale HostRoyale Technologies Pvt Ltd",
+        "prefix": "37.200.106.0/24"
+      },
+      {
+        "country": "",
+        "name": "HostRoyale HostRoyale Technologies Pvt Ltd",
+        "prefix": "45.114.182.0/23"
+      },
+      {
+        "country": "",
+        "name": "HostRoyale HostRoyale Technologies Pvt Ltd",
+        "prefix": "103.204.120.0/24"
+      },
+      {
+        "country": "",
+        "name": "HostRoyale HostRoyale Technologies Pvt Ltd",
+        "prefix": "173.254.246.0/24"
+      },
+      {
+        "country": "",
+        "name": "HostRoyale HostRoyale Technologies Pvt Ltd",
+        "prefix": "185.72.240.0/22"
+      },
+      {
+        "country": "",
+        "name": "HostRoyale HostRoyale Technologies Pvt Ltd",
+        "prefix": "91.228.216.0/24"
+      },
+      {
+        "country": "",
+        "name": "HostRoyale HostRoyale Technologies Pvt Ltd",
+        "prefix": "103.204.122.0/24"
+      },
+      {
+        "country": "",
+        "name": "HostRoyale HostRoyale Technologies Pvt Ltd",
+        "prefix": "213.255.248.0/24"
+      },
+      {
+        "country": "",
+        "name": "HostRoyale HostRoyale Technologies Pvt Ltd",
+        "prefix": "103.76.255.0/24"
+      },
+      {
+        "country": "",
+        "name": "HostRoyale HostRoyale Technologies Pvt Ltd",
+        "prefix": "131.103.0.0/20"
+      },
+      {
+        "country": "",
+        "name": "HostRoyale HostRoyale Technologies Pvt Ltd",
+        "prefix": "204.152.196.0/24"
+      },
+      {
+        "country": "",
+        "name": "HostRoyale HostRoyale Technologies Pvt Ltd",
+        "prefix": "130.94.184.0/21"
+      },
+      {
+        "country": "",
+        "name": "HostRoyale HostRoyale Technologies Pvt Ltd",
+        "prefix": "2a06:3040:6::/48"
+      },
+      {
+        "country": "",
+        "name": "HostRoyale HostRoyale Technologies Pvt Ltd",
+        "prefix": "2a06:3040:c202::/48"
+      },
+      {
+        "country": "",
+        "name": "HostRoyale HostRoyale Technologies Pvt Ltd",
+        "prefix": "193.228.57.0/24"
+      },
+      {
+        "country": "",
+        "name": "HostRoyale HostRoyale Technologies Pvt Ltd",
+        "prefix": "31.209.107.0/24"
+      },
+      {
+        "country": "",
+        "name": "HostRoyale HostRoyale Technologies Pvt Ltd",
+        "prefix": "128.242.152.0/22"
+      },
+      {
+        "country": "",
+        "name": "HostRoyale HostRoyale Technologies Pvt Ltd",
+        "prefix": "204.44.94.0/24"
+      },
+      {
+        "country": "",
+        "name": "HostRoyale HostRoyale Technologies Pvt Ltd",
+        "prefix": "198.64.208.0/21"
+      },
+      {
+        "country": "",
+        "name": "HostRoyale HostRoyale Technologies Pvt Ltd",
+        "prefix": "155.94.225.0/24"
+      },
+      {
+        "country": "",
+        "name": "HostRoyale HostRoyale Technologies Pvt Ltd",
+        "prefix": "2a06:3040:15::/48"
+      },
+      {
+        "country": "",
+        "name": "HostRoyale HostRoyale Technologies Pvt Ltd",
+        "prefix": "155.94.188.0/24"
+      },
+      {
+        "country": "",
+        "name": "HostRoyale HostRoyale Technologies Pvt Ltd",
+        "prefix": "167.160.167.0/24"
+      },
+      {
+        "country": "",
+        "name": "HostRoyale HostRoyale Technologies Pvt Ltd",
+        "prefix": "5.183.39.0/24"
+      },
+      {
+        "country": "",
+        "name": "HostRoyale HostRoyale Technologies Pvt Ltd",
+        "prefix": "155.94.223.0/24"
+      },
+      {
+        "country": "",
+        "name": "HostRoyale HostRoyale Technologies Pvt Ltd",
+        "prefix": "128.242.136.0/23"
+      },
+      {
+        "country": "",
+        "name": "HostRoyale HostRoyale Technologies Pvt Ltd",
+        "prefix": "160.224.120.0/22"
+      },
+      {
+        "country": "",
+        "name": "HostRoyale HostRoyale Technologies Pvt Ltd",
+        "prefix": "160.225.193.0/24"
+      },
+      {
+        "country": "",
+        "name": "HostRoyale HostRoyale Technologies Pvt Ltd",
+        "prefix": "103.53.218.0/24"
+      },
+      {
+        "country": "",
+        "name": "HostRoyale HostRoyale Technologies Pvt Ltd",
+        "prefix": "2a06:3040:c204::/48"
+      },
+      {
+        "country": "",
+        "name": "HostRoyale HostRoyale Technologies Pvt Ltd",
+        "prefix": "160.225.100.0/22"
+      },
+      {
+        "country": "",
+        "name": "HostRoyale HostRoyale Technologies Pvt Ltd",
+        "prefix": "192.161.180.0/24"
+      },
+      {
+        "country": "",
+        "name": "HostRoyale HostRoyale Technologies Pvt Ltd",
+        "prefix": "45.114.180.0/23"
+      },
+      {
+        "country": "",
+        "name": "HostRoyale HostRoyale Technologies Pvt Ltd",
+        "prefix": "160.225.247.0/24"
+      },
+      {
+        "country": "",
+        "name": "HostRoyale HostRoyale Technologies Pvt Ltd",
+        "prefix": "202.89.75.0/24"
+      },
+      {
+        "country": "",
+        "name": "HostRoyale HostRoyale Technologies Pvt Ltd",
+        "prefix": "89.37.95.0/24"
+      },
+      {
+        "country": "",
+        "name": "HostRoyale HostRoyale Technologies Pvt Ltd",
+        "prefix": "2a06:80c0::/29"
+      },
+      {
+        "country": "",
+        "name": "HostRoyale HostRoyale Technologies Pvt Ltd",
+        "prefix": "160.225.2.0/23"
+      },
+      {
+        "country": "",
+        "name": "HostRoyale HostRoyale Technologies Pvt Ltd",
+        "prefix": "185.160.44.0/22"
+      },
+      {
+        "country": "",
+        "name": "HostRoyale HostRoyale Technologies Pvt Ltd",
+        "prefix": "103.63.224.0/22"
+      },
+      {
+        "country": "",
+        "name": "HostRoyale HostRoyale Technologies Pvt Ltd",
+        "prefix": "109.205.185.0/24"
+      },
+      {
+        "country": "",
+        "name": "HostRoyale HostRoyale Technologies Pvt Ltd",
+        "prefix": "160.224.165.0/24"
+      },
+      {
+        "country": "",
+        "name": "HostRoyale HostRoyale Technologies Pvt Ltd",
+        "prefix": "45.134.113.0/24"
+      },
+      {
+        "country": "",
+        "name": "HostRoyale HostRoyale Technologies Pvt Ltd",
+        "prefix": "209.20.190.0/24"
+      },
+      {
+        "country": "",
+        "name": "HostRoyale HostRoyale Technologies Pvt Ltd",
+        "prefix": "160.224.244.0/24"
+      },
+      {
+        "country": "",
+        "name": "HostRoyale HostRoyale Technologies Pvt Ltd",
+        "prefix": "160.224.116.0/22"
+      },
+      {
+        "country": "",
+        "name": "HostRoyale HostRoyale Technologies Pvt Ltd",
+        "prefix": "160.224.108.0/23"
+      },
+      {
+        "country": "",
+        "name": "HostRoyale HostRoyale Technologies Pvt Ltd",
+        "prefix": "185.237.226.0/23"
+      },
+      {
+        "country": "",
+        "name": "HostRoyale HostRoyale Technologies Pvt Ltd",
+        "prefix": "2a06:3040:7::/48"
+      }
+    ],
+    "country": "",
+    "ip": "168.143.162.58",
+    "prefix_count": 1768,
+    "source": "RIPEstat",
+    "truncated": true
+  },
+  "tool": "asn_lookup"
+}

@@ -1,0 +1,119 @@
+{
+  "arguments": {
+    "ip": "160.92.168.33"
+  },
+  "result": {
+    "announced_prefix": "160.92.168.0/24",
+    "asn": 47957,
+    "asn_description": "ING-AS Worldline IGSA SA",
+    "asn_name": "ING-AS Worldline IGSA SA",
+    "asn_prefixes": [
+      {
+        "country": "",
+        "name": "ING-AS Worldline IGSA SA",
+        "prefix": "160.92.148.0/24"
+      },
+      {
+        "country": "",
+        "name": "ING-AS Worldline IGSA SA",
+        "prefix": "160.92.78.0/24"
+      },
+      {
+        "country": "",
+        "name": "ING-AS Worldline IGSA SA",
+        "prefix": "185.8.55.0/24"
+      },
+      {
+        "country": "",
+        "name": "ING-AS Worldline IGSA SA",
+        "prefix": "185.139.247.0/24"
+      },
+      {
+        "country": "",
+        "name": "ING-AS Worldline IGSA SA",
+        "prefix": "91.208.214.0/24"
+      },
+      {
+        "country": "",
+        "name": "ING-AS Worldline IGSA SA",
+        "prefix": "160.92.84.0/24"
+      },
+      {
+        "country": "",
+        "name": "ING-AS Worldline IGSA SA",
+        "prefix": "91.208.51.0/24"
+      },
+      {
+        "country": "",
+        "name": "ING-AS Worldline IGSA SA",
+        "prefix": "185.139.246.0/24"
+      },
+      {
+        "country": "",
+        "name": "ING-AS Worldline IGSA SA",
+        "prefix": "194.1.183.0/24"
+      },
+      {
+        "country": "",
+        "name": "ING-AS Worldline IGSA SA",
+        "prefix": "185.8.54.0/24"
+      },
+      {
+        "country": "",
+        "name": "ING-AS Worldline IGSA SA",
+        "prefix": "160.92.95.0/24"
+      },
+      {
+        "country": "",
+        "name": "ING-AS Worldline IGSA SA",
+        "prefix": "185.139.244.0/24"
+      },
+      {
+        "country": "",
+        "name": "ING-AS Worldline IGSA SA",
+        "prefix": "185.8.52.0/24"
+      },
+      {
+        "country": "",
+        "name": "ING-AS Worldline IGSA SA",
+        "prefix": "160.92.85.0/24"
+      },
+      {
+        "country": "",
+        "name": "ING-AS Worldline IGSA SA",
+        "prefix": "160.92.168.0/24"
+      },
+      {
+        "country": "",
+        "name": "ING-AS Worldline IGSA SA",
+        "prefix": "160.92.0.0/24"
+      },
+      {
+        "country": "",
+        "name": "ING-AS Worldline IGSA SA",
+        "prefix": "160.92.91.0/24"
+      },
+      {
+        "country": "",
+        "name": "ING-AS Worldline IGSA SA",
+        "prefix": "160.92.86.0/24"
+      },
+      {
+        "country": "",
+        "name": "ING-AS Worldline IGSA SA",
+        "prefix": "185.8.53.0/24"
+      },
+      {
+        "country": "",
+        "name": "ING-AS Worldline IGSA SA",
+        "prefix": "185.139.245.0/24"
+      }
+    ],
+    "country": "",
+    "ip": "160.92.168.33",
+    "prefix_count": 20,
+    "source": "RIPEstat",
+    "truncated": false
+  },
+  "tool": "asn_lookup"
+}

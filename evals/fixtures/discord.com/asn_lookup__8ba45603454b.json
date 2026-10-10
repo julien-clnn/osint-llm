@@ -1,0 +1,169 @@
+{
+  "arguments": {
+    "ip": "199.59.148.89"
+  },
+  "result": {
+    "announced_prefix": "199.59.148.0/22",
+    "asn": 13414,
+    "asn_description": "TWITTER - Twitter Inc.",
+    "asn_name": "TWITTER - Twitter Inc.",
+    "asn_prefixes": [
+      {
+        "country": "",
+        "name": "TWITTER - Twitter Inc.",
+        "prefix": "104.244.46.0/24"
+      },
+      {
+        "country": "",
+        "name": "TWITTER - Twitter Inc.",
+        "prefix": "64.63.30.0/24"
+      },
+      {
+        "country": "",
+        "name": "TWITTER - Twitter Inc.",
+        "prefix": "2400:6680:f000::/36"
+      },
+      {
+        "country": "",
+        "name": "TWITTER - Twitter Inc.",
+        "prefix": "103.252.114.0/23"
+      },
+      {
+        "country": "",
+        "name": "TWITTER - Twitter Inc.",
+        "prefix": "199.16.156.0/22"
+      },
+      {
+        "country": "",
+        "name": "TWITTER - Twitter Inc.",
+        "prefix": "104.244.44.0/24"
+      },
+      {
+        "country": "",
+        "name": "TWITTER - Twitter Inc.",
+        "prefix": "104.244.47.0/24"
+      },
+      {
+        "country": "",
+        "name": "TWITTER - Twitter Inc.",
+        "prefix": "104.244.41.0/24"
+      },
+      {
+        "country": "",
+        "name": "TWITTER - Twitter Inc.",
+        "prefix": "202.160.131.0/24"
+      },
+      {
+        "country": "",
+        "name": "TWITTER - Twitter Inc.",
+        "prefix": "64.63.63.0/24"
+      },
+      {
+        "country": "",
+        "name": "TWITTER - Twitter Inc.",
+        "prefix": "103.252.112.0/23"
+      },
+      {
+        "country": "",
+        "name": "TWITTER - Twitter Inc.",
+        "prefix": "199.16.156.0/23"
+      },
+      {
+        "country": "",
+        "name": "TWITTER - Twitter Inc.",
+        "prefix": "2a04:9d40:f000::/36"
+      },
+      {
+        "country": "",
+        "name": "TWITTER - Twitter Inc.",
+        "prefix": "192.133.76.0/22"
+      },
+      {
+        "country": "",
+        "name": "TWITTER - Twitter Inc.",
+        "prefix": "64.63.46.0/24"
+      },
+      {
+        "country": "",
+        "name": "TWITTER - Twitter Inc.",
+        "prefix": "202.160.130.0/24"
+      },
+      {
+        "country": "",
+        "name": "TWITTER - Twitter Inc.",
+        "prefix": "202.160.128.0/24"
+      },
+      {
+        "country": "",
+        "name": "TWITTER - Twitter Inc.",
+        "prefix": "64.63.31.0/24"
+      },
+      {
+        "country": "",
+        "name": "TWITTER - Twitter Inc.",
+        "prefix": "64.63.0.0/18"
+      },
+      {
+        "country": "",
+        "name": "TWITTER - Twitter Inc.",
+        "prefix": "2606:1f80:f000::/36"
+      },
+      {
+        "country": "",
+        "name": "TWITTER - Twitter Inc.",
+        "prefix": "64.63.62.0/24"
+      },
+      {
+        "country": "",
+        "name": "TWITTER - Twitter Inc.",
+        "prefix": "202.160.129.0/24"
+      },
+      {
+        "country": "",
+        "name": "TWITTER - Twitter Inc.",
+        "prefix": "199.59.148.0/22"
+      },
+      {
+        "country": "",
+        "name": "TWITTER - Twitter Inc.",
+        "prefix": "64.63.47.0/24"
+      },
+      {
+        "country": "",
+        "name": "TWITTER - Twitter Inc.",
+        "prefix": "199.96.56.0/23"
+      },
+      {
+        "country": "",
+        "name": "TWITTER - Twitter Inc.",
+        "prefix": "104.244.42.0/24"
+      },
+      {
+        "country": "",
+        "name": "TWITTER - Twitter Inc.",
+        "prefix": "104.244.45.0/24"
+      },
+      {
+        "country": "",
+        "name": "TWITTER - Twitter Inc.",
+        "prefix": "188.64.224.0/21"
+      },
+      {
+        "country": "",
+        "name": "TWITTER - Twitter Inc.",
+        "prefix": "64.63.49.0/24"
+      },
+      {
+        "country": "",
+        "name": "TWITTER - Twitter Inc.",
+        "prefix": "64.63.33.0/24"
+      }
+    ],
+    "country": "",
+    "ip": "199.59.148.89",
+    "prefix_count": 30,
+    "source": "RIPEstat",
+    "truncated": false
+  },
+  "tool": "asn_lookup"
+}

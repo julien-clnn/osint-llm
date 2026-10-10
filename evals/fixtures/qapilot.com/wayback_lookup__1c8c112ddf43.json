@@ -1,0 +1,103 @@
+{
+  "arguments": {
+    "domain": "qapilot.com"
+  },
+  "result": {
+    "capture_count": 20,
+    "date_range": {
+      "first": "2011-02-01",
+      "last": "2023-12-23"
+    },
+    "domain": "qapilot.com",
+    "interesting_urls": [
+      {
+        "timestamp": "2014-12-18",
+        "url": "http://qapilot.com/"
+      },
+      {
+        "timestamp": "2018-01-06",
+        "url": "https://qapilot.com/android-icon-192x192.png"
+      },
+      {
+        "timestamp": "2018-01-06",
+        "url": "https://qapilot.com/apple-icon-114x114.png"
+      },
+      {
+        "timestamp": "2018-01-06",
+        "url": "https://qapilot.com/apple-icon-120x120.png"
+      },
+      {
+        "timestamp": "2018-01-06",
+        "url": "https://qapilot.com/apple-icon-144x144.png"
+      },
+      {
+        "timestamp": "2018-01-06",
+        "url": "https://qapilot.com/apple-icon-152x152.png"
+      },
+      {
+        "timestamp": "2018-01-06",
+        "url": "https://qapilot.com/apple-icon-180x180.png"
+      },
+      {
+        "timestamp": "2018-01-06",
+        "url": "https://qapilot.com/apple-icon-57x57.png"
+      },
+      {
+        "timestamp": "2018-01-06",
+        "url": "https://qapilot.com/apple-icon-60x60.png"
+      },
+      {
+        "timestamp": "2018-01-06",
+        "url": "https://qapilot.com/apple-icon-72x72.png"
+      },
+      {
+        "timestamp": "2018-01-06",
+        "url": "https://qapilot.com/apple-icon-76x76.png"
+      },
+      {
+        "timestamp": "2023-12-23",
+        "url": "http://qapilot.com/bpWaQYngD.js"
+      },
+      {
+        "timestamp": "2018-01-06",
+        "url": "https://qapilot.com/favicon-16x16.png"
+      },
+      {
+        "timestamp": "2018-01-06",
+        "url": "https://qapilot.com/favicon-32x32.png"
+      },
+      {
+        "timestamp": "2018-01-06",
+        "url": "https://qapilot.com/favicon-96x96.png"
+      },
+      {
+        "timestamp": "2011-02-01",
+        "url": "http://qapilot.com/favicon.ico"
+      },
+      {
+        "timestamp": "2018-01-06",
+        "url": "https://qapilot.com/forge.png"
+      },
+      {
+        "timestamp": "2018-01-06",
+        "url": "https://qapilot.com/manifest.json"
+      },
+      {
+        "timestamp": "2018-01-06",
+        "url": "https://qapilot.com/pilot.png"
+      },
+      {
+        "timestamp": "2014-12-18",
+        "url": "http://qapilot.com/robots.txt"
+      }
+    ],
+    "sample_urls": [],
+    "source": "web.archive.org",
+    "subdomain_count": 1,
+    "subdomains": [
+      "qapilot.com"
+    ],
+    "truncated": false
+  },
+  "tool": "wayback_lookup"
+}

@@ -1,0 +1,269 @@
+{
+  "arguments": {
+    "ip": "11.23.33.44"
+  },
+  "result": {
+    "announced_prefix": "11.0.0.0/8",
+    "asn": 749,
+    "asn_description": "DNIC-AS-00749 - United States Department of Defense (DoD)",
+    "asn_name": "DNIC-AS-00749 - United States Department of Defense (DoD)",
+    "asn_prefixes": [
+      {
+        "country": "",
+        "name": "DNIC-AS-00749 - United States Department of Defense (DoD)",
+        "prefix": "205.112.32.0/19"
+      },
+      {
+        "country": "",
+        "name": "DNIC-AS-00749 - United States Department of Defense (DoD)",
+        "prefix": "6.73.192.0/19"
+      },
+      {
+        "country": "",
+        "name": "DNIC-AS-00749 - United States Department of Defense (DoD)",
+        "prefix": "164.235.80.0/20"
+      },
+      {
+        "country": "",
+        "name": "DNIC-AS-00749 - United States Department of Defense (DoD)",
+        "prefix": "22.185.142.0/24"
+      },
+      {
+        "country": "",
+        "name": "DNIC-AS-00749 - United States Department of Defense (DoD)",
+        "prefix": "155.20.193.0/24"
+      },
+      {
+        "country": "",
+        "name": "DNIC-AS-00749 - United States Department of Defense (DoD)",
+        "prefix": "155.28.64.0/19"
+      },
+      {
+        "country": "",
+        "name": "DNIC-AS-00749 - United States Department of Defense (DoD)",
+        "prefix": "141.220.0.0/16"
+      },
+      {
+        "country": "",
+        "name": "DNIC-AS-00749 - United States Department of Defense (DoD)",
+        "prefix": "6.67.40.0/21"
+      },
+      {
+        "country": "",
+        "name": "DNIC-AS-00749 - United States Department of Defense (DoD)",
+        "prefix": "155.30.46.0/23"
+      },
+      {
+        "country": "",
+        "name": "DNIC-AS-00749 - United States Department of Defense (DoD)",
+        "prefix": "140.17.128.0/23"
+      },
+      {
+        "country": "",
+        "name": "DNIC-AS-00749 - United States Department of Defense (DoD)",
+        "prefix": "22.200.9.0/24"
+      },
+      {
+        "country": "",
+        "name": "DNIC-AS-00749 - United States Department of Defense (DoD)",
+        "prefix": "192.5.116.0/22"
+      },
+      {
+        "country": "",
+        "name": "DNIC-AS-00749 - United States Department of Defense (DoD)",
+        "prefix": "6.64.24.0/22"
+      },
+      {
+        "country": "",
+        "name": "DNIC-AS-00749 - United States Department of Defense (DoD)",
+        "prefix": "6.16.177.0/24"
+      },
+      {
+        "country": "",
+        "name": "DNIC-AS-00749 - United States Department of Defense (DoD)",
+        "prefix": "131.18.252.0/23"
+      },
+      {
+        "country": "",
+        "name": "DNIC-AS-00749 - United States Department of Defense (DoD)",
+        "prefix": "22.238.0.0/24"
+      },
+      {
+        "country": "",
+        "name": "DNIC-AS-00749 - United States Department of Defense (DoD)",
+        "prefix": "134.229.70.0/23"
+      },
+      {
+        "country": "",
+        "name": "DNIC-AS-00749 - United States Department of Defense (DoD)",
+        "prefix": "11.32.19.0/24"
+      },
+      {
+        "country": "",
+        "name": "DNIC-AS-00749 - United States Department of Defense (DoD)",
+        "prefix": "192.91.250.0/24"
+      },
+      {
+        "country": "",
+        "name": "DNIC-AS-00749 - United States Department of Defense (DoD)",
+        "prefix": "155.20.80.0/21"
+      },
+      {
+        "country": "",
+        "name": "DNIC-AS-00749 - United States Department of Defense (DoD)",
+        "prefix": "6.66.21.0/24"
+      },
+      {
+        "country": "",
+        "name": "DNIC-AS-00749 - United States Department of Defense (DoD)",
+        "prefix": "128.26.72.0/24"
+      },
+      {
+        "country": "",
+        "name": "DNIC-AS-00749 - United States Department of Defense (DoD)",
+        "prefix": "198.201.22.0/24"
+      },
+      {
+        "country": "",
+        "name": "DNIC-AS-00749 - United States Department of Defense (DoD)",
+        "prefix": "129.251.112.0/24"
+      },
+      {
+        "country": "",
+        "name": "DNIC-AS-00749 - United States Department of Defense (DoD)",
+        "prefix": "131.92.152.0/21"
+      },
+      {
+        "country": "",
+        "name": "DNIC-AS-00749 - United States Department of Defense (DoD)",
+        "prefix": "131.18.130.0/23"
+      },
+      {
+        "country": "",
+        "name": "DNIC-AS-00749 - United States Department of Defense (DoD)",
+        "prefix": "205.24.66.0/23"
+      },
+      {
+        "country": "",
+        "name": "DNIC-AS-00749 - United States Department of Defense (DoD)",
+        "prefix": "131.15.122.0/23"
+      },
+      {
+        "country": "",
+        "name": "DNIC-AS-00749 - United States Department of Defense (DoD)",
+        "prefix": "163.251.16.0/20"
+      },
+      {
+        "country": "",
+        "name": "DNIC-AS-00749 - United States Department of Defense (DoD)",
+        "prefix": "11.32.65.0/24"
+      },
+      {
+        "country": "",
+        "name": "DNIC-AS-00749 - United States Department of Defense (DoD)",
+        "prefix": "22.185.6.0/24"
+      },
+      {
+        "country": "",
+        "name": "DNIC-AS-00749 - United States Department of Defense (DoD)",
+        "prefix": "140.3.0.0/16"
+      },
+      {
+        "country": "",
+        "name": "DNIC-AS-00749 - United States Department of Defense (DoD)",
+        "prefix": "140.45.64.0/18"
+      },
+      {
+        "country": "",
+        "name": "DNIC-AS-00749 - United States Department of Defense (DoD)",
+        "prefix": "11.32.105.0/24"
+      },
+      {
+        "country": "",
+        "name": "DNIC-AS-00749 - United States Department of Defense (DoD)",
+        "prefix": "192.100.90.0/23"
+      },
+      {
+        "country": "",
+        "name": "DNIC-AS-00749 - United States Department of Defense (DoD)",
+        "prefix": "192.86.92.0/22"
+      },
+      {
+        "country": "",
+        "name": "DNIC-AS-00749 - United States Department of Defense (DoD)",
+        "prefix": "7.8.0.0/19"
+      },
+      {
+        "country": "",
+        "name": "DNIC-AS-00749 - United States Department of Defense (DoD)",
+        "prefix": "140.13.12.0/23"
+      },
+      {
+        "country": "",
+        "name": "DNIC-AS-00749 - United States Department of Defense (DoD)",
+        "prefix": "6.71.240.0/20"
+      },
+      {
+        "country": "",
+        "name": "DNIC-AS-00749 - United States Department of Defense (DoD)",
+        "prefix": "134.229.210.0/23"
+      },
+      {
+        "country": "",
+        "name": "DNIC-AS-00749 - United States Department of Defense (DoD)",
+        "prefix": "205.23.203.0/24"
+      },
+      {
+        "country": "",
+        "name": "DNIC-AS-00749 - United States Department of Defense (DoD)",
+        "prefix": "205.14.199.0/24"
+      },
+      {
+        "country": "",
+        "name": "DNIC-AS-00749 - United States Department of Defense (DoD)",
+        "prefix": "155.27.74.0/24"
+      },
+      {
+        "country": "",
+        "name": "DNIC-AS-00749 - United States Department of Defense (DoD)",
+        "prefix": "6.133.80.0/20"
+      },
+      {
+        "country": "",
+        "name": "DNIC-AS-00749 - United States Department of Defense (DoD)",
+        "prefix": "199.10.181.0/24"
+      },
+      {
+        "country": "",
+        "name": "DNIC-AS-00749 - United States Department of Defense (DoD)",
+        "prefix": "155.20.72.0/22"
+      },
+      {
+        "country": "",
+        "name": "DNIC-AS-00749 - United States Department of Defense (DoD)",
+        "prefix": "140.12.228.0/22"
+      },
+      {
+        "country": "",
+        "name": "DNIC-AS-00749 - United States Department of Defense (DoD)",
+        "prefix": "192.101.96.0/23"
+      },
+      {
+        "country": "",
+        "name": "DNIC-AS-00749 - United States Department of Defense (DoD)",
+        "prefix": "150.218.0.0/15"
+      },
+      {
+        "country": "",
+        "name": "DNIC-AS-00749 - United States Department of Defense (DoD)",
+        "prefix": "205.113.236.0/22"
+      }
+    ],
+    "country": "",
+    "ip": "11.23.33.44",
+    "prefix_count": 3133,
+    "source": "RIPEstat",
+    "truncated": true
+  },
+  "tool": "asn_lookup"
+}

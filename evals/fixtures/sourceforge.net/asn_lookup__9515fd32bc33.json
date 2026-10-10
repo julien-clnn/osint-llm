@@ -1,0 +1,9 @@
+{
+  "arguments": {
+    "ip": "13.225.78.72"
+  },
+  "result": {
+    "error": "Toutes les sources ASN ont échoué. bgpview.io: HTTPSConnectionPool(host='api.bgpview.io', port=443): Max retries exceeded with url: /ip/13.225.78.72 (Caused by NameResolutionError(\"HTTPSConnection(host='api.bgpview.io', port=443): Failed to resolve 'api.bgpview.io' ([Errno 8] nodename nor servname provided, or not known)\")) | RIPEstat: aucun ASN annonçant cette IP"
+  },
+  "tool": "asn_lookup"
+}

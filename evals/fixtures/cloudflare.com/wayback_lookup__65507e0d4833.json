@@ -1,0 +1,225 @@
+{
+  "arguments": {
+    "domain": "cloudflare.com"
+  },
+  "result": {
+    "capture_count": 10000,
+    "date_range": {
+      "first": "2009-09-01",
+      "last": "2026-09-11"
+    },
+    "domain": "cloudflare.com",
+    "interesting_urls": [
+      {
+        "timestamp": "2018-02-09",
+        "url": "https://www.cloudflare.com/%22https://images.cloudflareapps.com/GbxCd4QuRTm2FaFDbqL2_cloudflare-app-media-sketch-screenshot.png/%22"
+      },
+      {
+        "timestamp": "2025-10-12",
+        "url": "https://www.cloudflare.com/%20https://cloudflare.registration.goldcast.io/webinar/283e5950-0c7f-459c-b03f-59a0f97379b1"
+      },
+      {
+        "timestamp": "2025-11-25",
+        "url": "https://www.cloudflare.com/%20is%20a%20good%20way%20to%20test%20right%20now."
+      },
+      {
+        "timestamp": "2021-01-13",
+        "url": "http://www.cloudflare.com/&esheet=52360644&newsitemid=20210112005876&lan=en-US&anchor=www.cloudflare.com&index=4&md5=eeddbc1b4fc5ca426b91e3aa4c8ef50c"
+      },
+      {
+        "timestamp": "2021-01-25",
+        "url": "http://www.cloudflare.com/&esheet=52365794&newsitemid=20210122005070&lan=en-US&anchor=Cloudflare,+Inc.&index=1&md5=3c639608a8b33c8def46b74dbb1c222d"
+      },
+      {
+        "timestamp": "2021-07-21",
+        "url": "https://www.cloudflare.com/&esheet=52463262&newsitemid=20210721005163&lan=en-US&anchor=Cloudflare,+Inc.&index=1&md5=48b84c7ef6dbf60d3e21ad93d9489b57"
+      },
+      {
+        "timestamp": "2021-10-18",
+        "url": "https://www.cloudflare.com/&esheet=52510315&newsitemid=20211018005679&lan=en-US&anchor=Cloudflare,+Inc.&index=1&md5=68a114bdb11a5b619a716e6586910c9a"
+      },
+      {
+        "timestamp": "2022-05-23",
+        "url": "https://www.cloudflare.com/&esheet=52726250&newsitemid=20220523005193&lan=en-US&anchor=Cloudflare,+Inc.&index=1&md5=bdbdf7e21867b58d3a19e706d360043c"
+      },
+      {
+        "timestamp": "2022-11-14",
+        "url": "https://www.cloudflare.com/&esheet=52920417&newsitemid=20220920005357&lan=de-DE&anchor=Cloudflare,+Inc.&index=1&md5=842e3db3caddfbeced7f2ad2323ba802"
+      },
+      {
+        "timestamp": "2022-10-15",
+        "url": "https://www.cloudflare.com/&esheet=52922500&newsitemid=20220921005959&lan=de-DE&anchor=Cloudflare,+Inc.&index=1&md5=59e1140e755cc777d22e050af5db863f"
+      },
+      {
+        "timestamp": "2022-12-16",
+        "url": "https://www.cloudflare.com/&esheet=53080615&newsitemid=20221216005473&lan=en-US&anchor=Cloudflare,+Inc.&index=1&md5=f67514cb65146393aac1b580f1e66dbc"
+      },
+      {
+        "timestamp": "2022-12-22",
+        "url": "https://www.cloudflare.com/&esheet=53122445&newsitemid=20221222005110&lan=en-US&anchor=Cloudflare,+Inc.&index=1&md5=062e3d38db4c44a5f47414b6a107b075"
+      },
+      {
+        "timestamp": "2023-01-12",
+        "url": "https://www.cloudflare.com/&esheet=53208138&newsitemid=20230112005234&lan=en-US&anchor=Cloudflare,+Inc.&index=1&md5=2d65a14186c0568fb37f8dee475d31db"
+      },
+      {
+        "timestamp": "2023-01-13",
+        "url": "http://www.cloudflare.com/&esheet=53211760&newsitemid=20230113005054&lan=en-US&anchor=www.cloudflare.com&index=6&md5=c716ddef885e19dfbc7a22741bdb1177"
+      },
+      {
+        "timestamp": "2024-09-24",
+        "url": "https://www.cloudflare.com/&esheet=54126267&newsitemid=20240924561957&lan=en-US&anchor=Cloudflare,+Inc.&index=1&md5=516db2db89160fadf688aad829ad7587"
+      },
+      {
+        "timestamp": "2024-11-18",
+        "url": "https://www.cloudflare.com/&esheet=54154666&newsitemid=20241118778084&lan=en-US&anchor=Cloudflare,+Inc.&index=1&md5=9c80301db8e46591f35d9e3e67f8d896"
+      },
+      {
+        "timestamp": "2026-05-07",
+        "url": "https://www.cloudflare.com/&esheet=54528170&newsitemid=20260505594990&lan=de-DE&anchor=Cloudflare,+Inc.&index=1&md5=78a521e2dc4929d0e82f2db44145aca1"
+      },
+      {
+        "timestamp": "2010-10-17",
+        "url": "http://www.cloudflare.com:80/+2i5DVENXRc82vyOdBipVQ=="
+      },
+      {
+        "timestamp": "2017-08-14",
+        "url": "https://www.cloudflare.com/+7LEGAPmVhLqAz9dBLfCXUBn56A8"
+      },
+      {
+        "timestamp": "2025-07-27",
+        "url": "https://www.cloudflare.com/,%20%E8%A7%86%E9%A2%91%E6%92%AD%E6%94%BE%E9%87%8F%20345%E3%80%81%E5%BC%B9%E5%B9%95%E9%87%8F%200%E3%80%81%E7%82%B9%E8%B5%9E%E6%95%B0%206%E3%80%81%E6%8A%95%E7%A1%AC%E5%B8%81%E6%9E%9A%E6%95%B0%200%E3%80%81%E6%94%B6%E8%97%8F%E4%BA%BA%E6%95%B0%201%E3%80%81%E8%BD%AC%E5%8F%91%E4%BA%BA%E6%95%B0%200,%20%E8%A7%86%E9%A2%91%E4%BD%9C%E8%80%85%20SirLogin,%20%E4%BD%9C%E8%80%85%E7%AE%80%E4%BB%8B%20%EF%BC%8C%E7%9B%B8%E5%85%B3%E8%A7%86%E9%A2%91%EF%BC%9ACooking%20with%20Cloudflare_homemade%20pesto%20recipe%EF%BC%8Cvideo_2024-02-03_15-20-52%EF%BC%8C999%E4%B8%AA%E6%8A%A5%E9%94%99%EF%BC%9F%E4%BD%86%E6%98%AF%E6%88%91%E4%BB%A3%E7%A0%81%E5%8F%AA%E6%9C%891%E8%A1%8C%E5%95%8A%EF%BC%9F%EF%BC%8C%E6%B5%B8%E5%85%A5%E5%BC%8F%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83/%20OVHcloud%EF%BC%8C%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83%E8%B7%B3%E7%BA%BF%E6%98%AF%E4%BB%80%E4%B9%88%E6%84%8F%E6%80%9D%EF%BC%9F%EF%BC%8C%E5%85%89%E5%BC%95%E6%93%8E%E3%80%81%E5%85%89%E6%A8%A1%E5%9D%97%E3%80%81%E5%85%89%E5%99%A8%E4%BB%B6%E4%B9%8B%E9%97%B4%E7%9A%84%E5%85%B3%E7%B3%BB%E5%92%8C%E5%8C%BA%E5%88%AB%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F%EF%BC%8Cthats%20really%20old%EF%BC%8C%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83%E4%BE%9B%E7%94%B5%E6%94%B6%E8%B4%B9%E6%98%AF%E6%80%8E%E4%B9%88%E6%A0%B7%E7%9A%84%EF%BC%9F%EF%BC%8C82_%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83%E7%BB%BC%E5%90%88%E5%B8%83%E7%BA%BF%E7%AE%A1%E7%90%86-%E7%BB%BC%E5%90%88%E5%B8%83%E7%BA%BF%E7%BA%BF%E7%BC%86%E5%B8%83%E6%94%BE%E6%A0%87%E5%87%86%E5%AE%9E%E6%93%8D%E4%BB%8B%E7%BB%8D%EF%BC%8C%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83%E7%BD%91%E7%BB%9CVXLAN%E4%B8%8EEVPN%E5%8E%9F%E7%90%86%E4%B8%8E%E9%83%A8%E7%BD%B2%EF%BC%8C%E7%BD%91%E7%BB%9C%E5%B7%A5%E7%A8%8B%E5%B8%88%E5%A4%A7%E7%89%9B%E5%B8%A6%E4%BD%A0%E5%AE%9E%E7%8E%B0%E7%BD%91%E7%BB%9C%E8%99%9A%E6%8B%9F%E5%8C%96%E4%B8%A8%E6%95%B0%E6%8D%AE%E9%80%9A%E4%BF%A1%E4%B8%A8BGP"
+      },
+      {
+        "timestamp": "2026-02-22",
+        "url": "https://www.cloudflare.com/,%20%E8%A7%86%E9%A2%91%E6%92%AD%E6%94%BE%E9%87%8F%20346%E3%80%81%E5%BC%B9%E5%B9%95%E9%87%8F%200%E3%80%81%E7%82%B9%E8%B5%9E%E6%95%B0%206%E3%80%81%E6%8A%95%E7%A1%AC%E5%B8%81%E6%9E%9A%E6%95%B0%200%E3%80%81%E6%94%B6%E8%97%8F%E4%BA%BA%E6%95%B0%201%E3%80%81%E8%BD%AC%E5%8F%91%E4%BA%BA%E6%95%B0%200,%20%E8%A7%86%E9%A2%91%E4%BD%9C%E8%80%85%20SirLogin,%20%E4%BD%9C%E8%80%85%E7%AE%80%E4%BB%8B%20%EF%BC%8C%E7%9B%B8%E5%85%B3%E8%A7%86%E9%A2%91%EF%BC%9ACooking%20with%20Cloudflare_homemade%20pesto%20recipe%EF%BC%8C%E5%8C%97%E6%96%B9%E9%93%9C%E4%B8%9A%EF%BC%9A%E6%8A%8A%E6%8F%A1%E5%85%A8%E7%90%83%E9%93%9C%E5%B8%82%E7%9A%84%E7%BB%93%E6%9E%84%E6%80%A7%E6%9C%BA%E4%BC%9A%EF%BC%8C2026AI%20%E7%AE%97%E5%8A%9B%E5%A4%A7%E6%88%98%EF%BC%81%E5%B7%A8%E5%A4%B4%E7%A0%B8%E7%99%BE%E4%BA%BF%E5%BB%BA%20%E2%80%9C%E5%9F%8E%E5%B8%82%E7%BA%A7%E2%80%9D%20%E8%B6%85%E7%BA%A7%E8%AE%A1%E7%AE%97%E6%9C%BA%EF%BC%8C%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83+%E7%AE%97%E5%8A%9B%EF%BC%8C%E4%B8%9A%E7%BB%A9%E9%A2%84%E5%A2%9E%E7%9A%848%E5%AE%B6%E5%85%AC%E5%8F%B8%EF%BC%88%E9%99%84%E5%90%8D%E5%8D%95%EF%BC%89%EF%BC%8C%E5%A4%A7%E4%BD%8D%E7%A7%91%E6%8A%80%EF%BC%9A%E7%AE%97%E5%8A%9B%E5%9F%BA%E5%BB%BA%E7%9A%84%E6%B6%85%E6%A7%83%E4%B8%8E%E9%87%8D%E6%9E%84%EF%BC%8C%E5%AE%89%E8%B4%B9%E8%AF%BA%20HD%20Express%C2%AE%E8%B5%8B%E8%83%BDPCIe%20Gen6%20%E8%83%8C%E6%9D%BF%E4%BA%92%E8%BF%9E%E6%96%B9%E6%A1%88%EF%BC%8C%E4%B8%BA%E6%96%B0%E4%B8%80%E4%BB%A3%E7%AE%97%E5%8A%9B%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD%E6%B3%A8%E5%85%A5%E8%B6%85%E5%BC%BA%E5%8A%A8%E5%8A%9B%EF%BC%81%EF%BC%8C%E8%BE%B9%E7%BC%98%E8%AE%A1%E7%AE%97+AI%20Agent%EF%BC%81Cloudflare%E5%AE%98%E6%96%B9%E9%A1%B9%E7%9B%AEmoltworker%EF%BC%9A5%E7%BE%8E%E5%85%83/%E6%9C%88%E9%83%A8%E7%BD%B2%E5%85%A8%E7%90%83AI%E5%8A%A9%E6%89%8B%EF%BC%8C%E5%9B%BD%E4%BA%A7AIDC%E6%8B%90%E7%82%B9%E5%B7%B2%E8%87%B3%EF%BC%81%E9%94%99%E8%BF%87%E8%8B%B1%E4%BC%9F%E8%BE%BE%E5%88%AB%E5%86%8D%E9%94%99%E8%BF%87%E5%AE%83%EF%BC%8C%5B%E4%B8%AD%E9%85%8D%5D15%E4%B8%AA%E6%AD%A3%E5%9C%A8%E5%BB%BA%E8%AE%BE%E7%9A%84%E8%B6%85%E5%A4%A7%E5%9E%8B%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83%20-%20Top%20Fives%EF%BC%8C%E5%88%A9%E9%80%9A%E7%94%B5%E5%AD%90%EF%BC%9AAI%E7%AE%97%E5%8A%9B%E8%BD%AC%E5%9E%8B%E4%B8%8B%E7%9A%84%E5%8F%8C%E6%93%8E%E9%A9%B1%E5%8A%A8"
+      },
+      {
+        "timestamp": "2026-07-15",
+        "url": "https://www.cloudflare.com/.%20Used%20for%20DDOS%20protection,%20caching,%20existing%20api%20endpoints,%20request%20proxying%20and%20general%20DNS%20management"
+      },
+      {
+        "timestamp": "2012-06-14",
+        "url": "http://www.cloudflare.com/.TEST"
+      },
+      {
+        "timestamp": "2012-06-14",
+        "url": "http://www.cloudflare.com/.ui-sortable-placeholder"
+      },
+      {
+        "timestamp": "2023-06-01",
+        "url": "https://www.cloudflare.com/.well-known/openid-configuration"
+      },
+      {
+        "timestamp": "2020-10-28",
+        "url": "https://www.cloudflare.com/0a421ed4add5efee49b85e0eea8c90b37d4f37bb-c5aa3b7dbeb3b4176e38.js"
+      },
+      {
+        "timestamp": "2022-08-05",
+        "url": "https://www.cloudflare.com/0ec2057293d0c634f478a3a3902f11ae9a239f5f-bbfce4b8dbe9731d968d.js"
+      },
+      {
+        "timestamp": "2022-11-26",
+        "url": "https://www.cloudflare.com/0f9eb07eaa3696121db8c51033a9b8780e413951-424c5f62427a8ea6c526.js"
+      },
+      {
+        "timestamp": "2022-12-24",
+        "url": "https://www.cloudflare.com/0f9eb07eaa3696121db8c51033a9b8780e413951-948aa488f58fa3abffa6.js"
+      },
+      {
+        "timestamp": "2022-12-03",
+        "url": "https://www.cloudflare.com/0f9eb07eaa3696121db8c51033a9b8780e413951-a8db794d858dac465aa0.js"
+      },
+      {
+        "timestamp": "2022-12-17",
+        "url": "https://www.cloudflare.com/0f9eb07eaa3696121db8c51033a9b8780e413951-bf37d7a1bc9ab8009b3f.js"
+      },
+      {
+        "timestamp": "2022-12-10",
+        "url": "https://www.cloudflare.com/0f9eb07eaa3696121db8c51033a9b8780e413951-d24a2f7dd61a76cc1628.js"
+      },
+      {
+        "timestamp": "2023-01-07",
+        "url": "https://www.cloudflare.com/0f9eb07eaa3696121db8c51033a9b8780e413951-dd4fcd9f779757de30b0.js"
+      },
+      {
+        "timestamp": "2022-05-10",
+        "url": "https://www.cloudflare.com/105-f00b6db7aaf578a68532.js"
+      },
+      {
+        "timestamp": "2021-02-03",
+        "url": "https://www.cloudflare.com/144fa82ef1c0d3bf53569d7d3dae7cec30fc0e09-d2cfdb2ca76b0b3f7016.js"
+      },
+      {
+        "timestamp": "2022-10-28",
+        "url": "https://www.cloudflare.com/1879df2d3d2ba23a8d18dcd9edb2bf0582b3a316-01c79407e8350e4a9b84.js"
+      },
+      {
+        "timestamp": "2022-11-11",
+        "url": "https://www.cloudflare.com/1879df2d3d2ba23a8d18dcd9edb2bf0582b3a316-219c7edbde4820ab441d.js"
+      },
+      {
+        "timestamp": "2022-11-03",
+        "url": "https://www.cloudflare.com/1879df2d3d2ba23a8d18dcd9edb2bf0582b3a316-d9e4596fec737bc2709c.js"
+      },
+      {
+        "timestamp": "2021-05-22",
+        "url": "https://www.cloudflare.com/1c5e1e1e37532e5d3e12606c412d346b1e41bfcd-417378db2ff41c3c89f0.js"
+      },
+      {
+        "timestamp": "2022-12-24",
+        "url": "https://www.cloudflare.com/1f25d63378fa5f760e48d01c64b0264e2e253572-d0feaad78348f4dbbc7e.js"
+      }
+    ],
+    "sample_urls": [
+      "http://www.cloudflare.com:80/",
+      "https://www.cloudflare.com/!=this.options.extraClass?this.options.extraClass:",
+      "https://www.cloudflare.com/%22",
+      "https://www.cloudflare.com/%22%20target=%22_blanck%22%20title=%22Site%20100%20%25%20protegido%22%3E/",
+      "https://www.cloudflare.com/%22%20target=%22_blank%22%20rel=%22noopener%22%3ECloudflare%20Pages%3C/a%3E",
+      "https://www.cloudflare.com/%22,",
+      "https://www.cloudflare.com/%22,%22alts%22:%5B%5D,%22httpStatus%22:200",
+      "https://www.cloudflare.com/%22//eager-app-images.imgix.net/DIHO0ZM5SZOkKRu867l7_youtube-icon.png?h=144%5C%22",
+      "https://www.cloudflare.com/%22//eager-app-images.imgix.net/fp0CupG1Q7e8UM7jOh3v_nactar-ninja-icon.png?h=144%5C%22",
+      "https://www.cloudflare.com/%22/my-websites.html?act=zone_reactivate&z=example-domain-2.net%5C%22",
+      "https://www.cloudflare.com/%22;",
+      "https://www.cloudflare.com/%22data/%22",
+      "https://www.cloudflare.com/%22data:image/svg+xml,%3Csvg",
+      "https://www.cloudflare.com/%22data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='204'%20height='30'%20fill='none'%20viewBox='0%200%20204%2030'%20style='width:%20204px;%20height:%2030px;'%3e%3cg%20clip-path='url(%23a)'%3e%3cpath%20fill='%23FBAD41'%20d='M52.688%2013.028c-.22%200-.437.008-.654.015a.297.297%200%200%200-.102.024.365.365%200%200%200-.236.255l-.93%203.249c-.401%201.397-.252%202.687.422%203.634.618.876%201.646%201.39%202.894%201.45l5.045.306c.15.008.28.08.359.199a.492.492%200%200%201%20.051.434.64.64%200%200%201-.547.426l-5.242.306c-2.848.132-5.912%202.456-6.987%205.29l-.378%201a.28.28%200%200%200%20.248.382h18.054a.48.48%200%200%200%20.464-.35%2013.12%2013.12%200%200%200%20.48-3.54c0-7.22-5.789-13.072-12.933-13.072'%3e%3c/path%3e%3cpath%20fill='%23000'%20d='M85.519%2018.886h2.99v8.249h5.218v2.647h-8.208V18.886ZM96.819%2024.365v-.032c0-3.13%202.493-5.665%205.821-5.665%203.327%200%205.789%202.508%205.789%205.633v.032c0%203.129-2.493%205.665-5.821%205.665s-5.79-2.505-5.79-5.633Zm8.562%200v-.032c0-1.573-1.123-2.942-2.773-2.942-1.65%200-2.725%201.337-2.725%202.91v.032c0%201.572%201.122%202.942%202.757%202.942%201.634%200%202.741-1.338%202.741-2.91ZM112.086%2025.003V18.89h3.033v6.055c0%201.572.783%202.317%201.985%202.317%201.201%200%201.985-.717%201.985-2.242v-6.134h3.032v6.039c0%203.519-1.985%205.056-5.049%205.056s-4.99-1.573-4.99-4.98M126.694%2018.889h4.159c3.848%200%206.081%202.241%206.081%205.382v.032c0%203.14-2.265%205.477-6.144%205.477h-4.096V18.886v.004Zm4.202%208.216c1.788%200%202.97-.995%202.97-2.754v-.032c0-1.744-1.185-2.755-2.97-2.755h-1.217v5.541h1.217ZM141.277%2018.886h8.621v2.648h-5.636v1.85h5.096v2.505h-5.096v3.893h-2.985V18.886ZM154.054%2018.886h2.989v8.249h5.219v2.647h-8.208V18.886ZM170.067%2018.809h2.878l4.589%2010.971h-3.202l-.788-1.946h-4.159l-.768%201.946h-3.143l4.589-10.971h.004Zm2.619%206.676-1.202-3.097-1.217%203.097h2.419ZM181.383%2018.889h5.096c1.647%200%202.789.438%203.509%201.182.635.621.954%201.465.954%202.536v.032c0%201.664-.879%202.77-2.218%203.344l2.572%203.797h-3.45l-2.17-3.3h-1.308v3",
+      "https://www.cloudflare.com/%22https://images.cloudflareapps.com/9Z871O9SpKzrbz7HS6Zl_icon.png?h=144%5C%22",
+      "https://www.cloudflare.com/%22https://images.cloudflareapps.com/a1fIpIHCQwmbN8E1PgXL_icon.png?h=144%5C%22",
+      "https://www.cloudflare.com/%22https://images.cloudflareapps.com/DRJSlwkmQhyrwAoNBA0v_icon.png?h=144%5C%22",
+      "https://www.cloudflare.com/%22https://images.cloudflareapps.com/FdDotz8xTni6TBigjl1v_icon.png?h=144%5C%22",
+      "https://www.cloudflare.com/%22https://images.cloudflareapps.com/ira0X2rQdq26sSiQFMZZ_icon.png?h=144%5C%22",
+      "https://www.cloudflare.com/%22https://images.cloudflareapps.com/ujVKW1qRQHOoVVhrAgVg_logo.png?h=144%5C%22",
+      "https://www.cloudflare.com/%22https://images.cloudflareapps.com/UpoUkxdzQB6Dpj3wpn3Z_icon.png?h=144%5C%22",
+      "https://www.cloudflare.com/%22https://install.cloudflareapps.com/install-button.png/%22",
+      "https://www.cloudflare.com/%22https://www.cloudflare.com//%22",
+      "https://www.cloudflare.com/%22https://www.cloudflare.com/a/static/nexp=aa999e7/stylesheets/cf.core.css/%22",
+      "https://www.cloudflare.com/%22https://www.youtube.com/embed/F8MoBf2g1ug?color=white&controls=2&modestbranding=1%5C%22",
+      "https://www.cloudflare.com/%22https://www.youtube.com/embed/j82QDQWgfVM?color=white&controls=2&modestbranding=1%5C%22",
+      "https://www.cloudflare.com/%22https://www.youtube.com/embed/raHD5JNgPlU?color=white&controls=2&modestbranding=1%5C%22",
+      "https://www.cloudflare.com/%22https://www.youtube.com/embed/SOBroJ7UD0c?color=white&controls=2&modestbranding=1%5C%22",
+      "https://www.cloudflare.com/%22images/docs/create-an-app/black/existing.png/%22",
+      "https://www.cloudflare.com/%22images/docs/create-an-app/black/new.png/%22",
+      "https://www.cloudflare.com/%22images/docs/create-an-app/black/wrapper.png/%22",
+      "https://www.cloudflare.com/%22images/docs/create-an-app/cloudflare/existing.png/%22",
+      "https://www.cloudflare.com/%22images/docs/create-an-app/cloudflare/new.png/%22",
+      "https://www.cloudflare.com/%22images/docs/create-an-app/cloudflare/wrapper.png/%22",
+      "https://www.cloudflare.com/%22images/home/artificial-intelligence-feature.svg/%22",
+      "https://www.cloudflare.com/%22images/home/cloud-compute-and-functions-feature.png/%22",
+      "https://www.cloudflare.com/%22images/home/cloud-power-feature.svg/%22",
+      "https://www.cloudflare.com/%22images/home/feature-install-options.png/%22",
+      "https://www.cloudflare.com/%22images/home/feature-live-preview.png/%22",
+      "https://www.cloudflare.com/%22images/home/feature-oauth.png/%22"
+    ],
+    "source": "web.archive.org",
+    "subdomain_count": 2,
+    "subdomains": [
+      "cloudflare.com",
+      "www.cloudflare.com"
+    ],
+    "truncated": true
+  },
+  "tool": "wayback_lookup"
+}

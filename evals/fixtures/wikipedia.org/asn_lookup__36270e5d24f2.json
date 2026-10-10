@@ -1,0 +1,269 @@
+{
+  "arguments": {
+    "ip": "159.138.20.20"
+  },
+  "result": {
+    "announced_prefix": "159.138.20.0/22",
+    "asn": 136907,
+    "asn_description": "HWCLOUDS-AS-AP - HUAWEI CLOUDS",
+    "asn_name": "HWCLOUDS-AS-AP - HUAWEI CLOUDS",
+    "asn_prefixes": [
+      {
+        "country": "",
+        "name": "HWCLOUDS-AS-AP - HUAWEI CLOUDS",
+        "prefix": "101.44.32.0/20"
+      },
+      {
+        "country": "",
+        "name": "HWCLOUDS-AS-AP - HUAWEI CLOUDS",
+        "prefix": "2405:f080:ec00::/39"
+      },
+      {
+        "country": "",
+        "name": "HWCLOUDS-AS-AP - HUAWEI CLOUDS",
+        "prefix": "27.255.60.0/23"
+      },
+      {
+        "country": "",
+        "name": "HWCLOUDS-AS-AP - HUAWEI CLOUDS",
+        "prefix": "2405:f080:1810::/48"
+      },
+      {
+        "country": "",
+        "name": "HWCLOUDS-AS-AP - HUAWEI CLOUDS",
+        "prefix": "183.87.64.0/20"
+      },
+      {
+        "country": "",
+        "name": "HWCLOUDS-AS-AP - HUAWEI CLOUDS",
+        "prefix": "83.101.116.0/23"
+      },
+      {
+        "country": "",
+        "name": "HWCLOUDS-AS-AP - HUAWEI CLOUDS",
+        "prefix": "182.160.16.0/24"
+      },
+      {
+        "country": "",
+        "name": "HWCLOUDS-AS-AP - HUAWEI CLOUDS",
+        "prefix": "124.71.250.0/24"
+      },
+      {
+        "country": "",
+        "name": "HWCLOUDS-AS-AP - HUAWEI CLOUDS",
+        "prefix": "110.238.120.0/22"
+      },
+      {
+        "country": "",
+        "name": "HWCLOUDS-AS-AP - HUAWEI CLOUDS",
+        "prefix": "2405:f080:edff::/48"
+      },
+      {
+        "country": "",
+        "name": "HWCLOUDS-AS-AP - HUAWEI CLOUDS",
+        "prefix": "119.13.161.0/24"
+      },
+      {
+        "country": "",
+        "name": "HWCLOUDS-AS-AP - HUAWEI CLOUDS",
+        "prefix": "2405:f080:228a::/48"
+      },
+      {
+        "country": "",
+        "name": "HWCLOUDS-AS-AP - HUAWEI CLOUDS",
+        "prefix": "110.238.72.0/21"
+      },
+      {
+        "country": "",
+        "name": "HWCLOUDS-AS-AP - HUAWEI CLOUDS",
+        "prefix": "119.8.132.0/22"
+      },
+      {
+        "country": "",
+        "name": "HWCLOUDS-AS-AP - HUAWEI CLOUDS",
+        "prefix": "110.238.80.0/20"
+      },
+      {
+        "country": "",
+        "name": "HWCLOUDS-AS-AP - HUAWEI CLOUDS",
+        "prefix": "83.101.56.0/23"
+      },
+      {
+        "country": "",
+        "name": "HWCLOUDS-AS-AP - HUAWEI CLOUDS",
+        "prefix": "27.106.48.0/20"
+      },
+      {
+        "country": "",
+        "name": "HWCLOUDS-AS-AP - HUAWEI CLOUDS",
+        "prefix": "114.119.172.0/22"
+      },
+      {
+        "country": "",
+        "name": "HWCLOUDS-AS-AP - HUAWEI CLOUDS",
+        "prefix": "148.145.250.0/23"
+      },
+      {
+        "country": "",
+        "name": "HWCLOUDS-AS-AP - HUAWEI CLOUDS",
+        "prefix": "124.71.249.0/24"
+      },
+      {
+        "country": "",
+        "name": "HWCLOUDS-AS-AP - HUAWEI CLOUDS",
+        "prefix": "203.167.20.0/23"
+      },
+      {
+        "country": "",
+        "name": "HWCLOUDS-AS-AP - HUAWEI CLOUDS",
+        "prefix": "119.8.249.0/24"
+      },
+      {
+        "country": "",
+        "name": "HWCLOUDS-AS-AP - HUAWEI CLOUDS",
+        "prefix": "103.240.157.0/24"
+      },
+      {
+        "country": "",
+        "name": "HWCLOUDS-AS-AP - HUAWEI CLOUDS",
+        "prefix": "111.91.0.0/20"
+      },
+      {
+        "country": "",
+        "name": "HWCLOUDS-AS-AP - HUAWEI CLOUDS",
+        "prefix": "80.238.190.0/24"
+      },
+      {
+        "country": "",
+        "name": "HWCLOUDS-AS-AP - HUAWEI CLOUDS",
+        "prefix": "94.45.160.0/24"
+      },
+      {
+        "country": "",
+        "name": "HWCLOUDS-AS-AP - HUAWEI CLOUDS",
+        "prefix": "119.12.160.0/20"
+      },
+      {
+        "country": "",
+        "name": "HWCLOUDS-AS-AP - HUAWEI CLOUDS",
+        "prefix": "2405:f080:228f::/48"
+      },
+      {
+        "country": "",
+        "name": "HWCLOUDS-AS-AP - HUAWEI CLOUDS",
+        "prefix": "103.40.102.0/23"
+      },
+      {
+        "country": "",
+        "name": "HWCLOUDS-AS-AP - HUAWEI CLOUDS",
+        "prefix": "159.138.224.0/20"
+      },
+      {
+        "country": "",
+        "name": "HWCLOUDS-AS-AP - HUAWEI CLOUDS",
+        "prefix": "2405:f080:2289::/48"
+      },
+      {
+        "country": "",
+        "name": "HWCLOUDS-AS-AP - HUAWEI CLOUDS",
+        "prefix": "110.238.98.0/24"
+      },
+      {
+        "country": "",
+        "name": "HWCLOUDS-AS-AP - HUAWEI CLOUDS",
+        "prefix": "27.255.40.0/23"
+      },
+      {
+        "country": "",
+        "name": "HWCLOUDS-AS-AP - HUAWEI CLOUDS",
+        "prefix": "188.239.16.0/20"
+      },
+      {
+        "country": "",
+        "name": "HWCLOUDS-AS-AP - HUAWEI CLOUDS",
+        "prefix": "80.238.140.0/22"
+      },
+      {
+        "country": "",
+        "name": "HWCLOUDS-AS-AP - HUAWEI CLOUDS",
+        "prefix": "182.160.57.0/24"
+      },
+      {
+        "country": "",
+        "name": "HWCLOUDS-AS-AP - HUAWEI CLOUDS",
+        "prefix": "2405:f080:3000::/40"
+      },
+      {
+        "country": "",
+        "name": "HWCLOUDS-AS-AP - HUAWEI CLOUDS",
+        "prefix": "2405:f080:1814::/48"
+      },
+      {
+        "country": "",
+        "name": "HWCLOUDS-AS-AP - HUAWEI CLOUDS",
+        "prefix": "103.255.60.0/24"
+      },
+      {
+        "country": "",
+        "name": "HWCLOUDS-AS-AP - HUAWEI CLOUDS",
+        "prefix": "94.45.163.0/24"
+      },
+      {
+        "country": "",
+        "name": "HWCLOUDS-AS-AP - HUAWEI CLOUDS",
+        "prefix": "119.8.247.0/24"
+      },
+      {
+        "country": "",
+        "name": "HWCLOUDS-AS-AP - HUAWEI CLOUDS",
+        "prefix": "185.193.154.0/23"
+      },
+      {
+        "country": "",
+        "name": "HWCLOUDS-AS-AP - HUAWEI CLOUDS",
+        "prefix": "80.238.144.0/22"
+      },
+      {
+        "country": "",
+        "name": "HWCLOUDS-AS-AP - HUAWEI CLOUDS",
+        "prefix": "2405:f080:2283::/48"
+      },
+      {
+        "country": "",
+        "name": "HWCLOUDS-AS-AP - HUAWEI CLOUDS",
+        "prefix": "83.101.89.0/24"
+      },
+      {
+        "country": "",
+        "name": "HWCLOUDS-AS-AP - HUAWEI CLOUDS",
+        "prefix": "159.138.120.0/22"
+      },
+      {
+        "country": "",
+        "name": "HWCLOUDS-AS-AP - HUAWEI CLOUDS",
+        "prefix": "124.81.224.0/20"
+      },
+      {
+        "country": "",
+        "name": "HWCLOUDS-AS-AP - HUAWEI CLOUDS",
+        "prefix": "182.160.43.0/24"
+      },
+      {
+        "country": "",
+        "name": "HWCLOUDS-AS-AP - HUAWEI CLOUDS",
+        "prefix": "124.81.80.0/20"
+      },
+      {
+        "country": "",
+        "name": "HWCLOUDS-AS-AP - HUAWEI CLOUDS",
+        "prefix": "219.83.82.0/23"
+      }
+    ],
+    "country": "",
+    "ip": "159.138.20.20",
+    "prefix_count": 660,
+    "source": "RIPEstat",
+    "truncated": true
+  },
+  "tool": "asn_lookup"
+}

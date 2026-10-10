@@ -1,0 +1,53 @@
+{
+  "arguments": {
+    "domain": "discord.com"
+  },
+  "result": {
+    "domain": "discord.com",
+    "email_security": {
+      "dkim_note": "Sélecteurs DKIM courants testés uniquement ; une absence ici ne prouve pas l'absence de DKIM.",
+      "dkim_selectors_found": [
+        "default",
+        "google",
+        "selector1",
+        "selector2",
+        "k1",
+        "dkim",
+        "mail"
+      ],
+      "dmarc": true,
+      "dmarc_policy": "reject",
+      "spf": true,
+      "spf_record": "v=spf1 include:_spf.google.com include:mail.zendesk.com include:sendgrid.net include:3885857.spf06.hubspotemail.net ip4:198.2.180.60 -all"
+    },
+    "mx": [
+      "1 aspmx.l.google.com",
+      "10 aspmx2.googlemail.com",
+      "10 aspmx3.googlemail.com",
+      "5 alt1.aspmx.l.google.com",
+      "5 alt2.aspmx.l.google.com"
+    ],
+    "mx_count": 5,
+    "ns": [
+      "gabe.ns.cloudflare.com",
+      "sima.ns.cloudflare.com"
+    ],
+    "ns_count": 2,
+    "source": "DNS (résolveur système)",
+    "txt": [
+      "v=spf1 include:_spf.google.com include:mail.zendesk.com include:sendgrid.net include:3885857.spf06.hubspotemail.net ip4:198.2.180.60 -all",
+      "slack-domain-verification=hb2Jt7Z5kT0NqJOuGUM2P6L3ZihqWD3wR17JuECt",
+      "docusign=90632817-c176-45ac-9297-96916059c0c5",
+      "apple-domain-verification=UP89cBit9taWldL9",
+      "atlassian-domain-verification=JNe2Ze7P8p623k8f7xRaHDyQWb6VzLxjFga1tu8M7lmVXC0bo1XgdnEsYuGIRFHv",
+      "google-site-verification=uv4vY9gTOxCxIHlq_V75SMEEvcU44ATbkPcmV0Cpvus",
+      "google-site-verification=Xos4rv9-rY3aGpQ6FtxhUC_Buhef0wF88_4rB4HmTZI",
+      "google-site-verification=19lneLj60qA3xv2S96DiWzeNjLZZca3otEPR6KhvrBQ",
+      "google-site-verification=AkZq_nCggw5fS3x2crQxF9I_9MEdqqWIVB-mutOiFzw",
+      "google-site-verification=P3cQmz_2xQ17u5qOBHf7JIAYGq3HzDq0UtEkbOR6ZjQ",
+      "google-site-verification=4lTw99D7TJimzNkaj9WtUoOpZoXad73hmD4WgR7COH4"
+    ],
+    "txt_count": 11
+  },
+  "tool": "dns_records_lookup"
+}

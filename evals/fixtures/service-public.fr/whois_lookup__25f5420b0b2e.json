@@ -1,0 +1,36 @@
+{
+  "arguments": {
+    "domain": "service-public.fr"
+  },
+  "result": {
+    "creation_date": "2000-10-05T22:00:00+00:00",
+    "dnssec": null,
+    "domain": "service-public.fr",
+    "emails": [
+      "registrar@nameshield.net",
+      "gestionnaire-dns@dila.gouv.fr",
+      "office@nfalaw.com",
+      "technical@nameshield.net"
+    ],
+    "expiration_date": "2027-06-29T08:11:12+00:00",
+    "found": true,
+    "name_servers": [
+      "ns1.dila.fr",
+      "ns2.dila.fr",
+      "ns3.dila.fr",
+      "ns4.dila.fr"
+    ],
+    "registrant_country": null,
+    "registrant_org": null,
+    "registrar": "NAMESHIELD",
+    "status": [
+      "ACTIVE",
+      "clientTransferProhibited",
+      "associated",
+      "ok",
+      "not identified"
+    ],
+    "updated_date": "2026-07-02T22:59:59.586664+00:00"
+  },
+  "tool": "whois_lookup"
+}

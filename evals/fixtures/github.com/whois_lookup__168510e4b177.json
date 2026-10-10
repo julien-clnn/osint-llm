@@ -1,0 +1,42 @@
+{
+  "arguments": {
+    "domain": "github.com"
+  },
+  "result": {
+    "creation_date": "2007-10-09T18:20:50+00:00",
+    "dnssec": "unsigned",
+    "domain": "github.com",
+    "emails": [
+      "abusecomplaints@markmonitor.com",
+      "whoisrequest@markmonitor.com"
+    ],
+    "expiration_date": [
+      "2028-10-09T18:20:50+00:00",
+      "2028-10-09T00:00:00+00:00"
+    ],
+    "found": true,
+    "name_servers": [
+      "DNS1.P08.NSONE.NET",
+      "DNS2.P08.NSONE.NET",
+      "DNS3.P08.NSONE.NET",
+      "DNS4.P08.NSONE.NET",
+      "NS-1283.AWSDNS-32.ORG",
+      "NS-1707.AWSDNS-21.CO.UK",
+      "NS-421.AWSDNS-52.COM",
+      "NS-520.AWSDNS-01.NET"
+    ],
+    "registrant_country": "US",
+    "registrant_org": "GitHub, Inc.",
+    "registrar": "MarkMonitor, Inc.",
+    "status": [
+      "clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited",
+      "clientTransferProhibited https://icann.org/epp#clientTransferProhibited",
+      "clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited",
+      "clientUpdateProhibited (https://www.icann.org/epp#clientUpdateProhibited)",
+      "clientTransferProhibited (https://www.icann.org/epp#clientTransferProhibited)",
+      "clientDeleteProhibited (https://www.icann.org/epp#clientDeleteProhibited)"
+    ],
+    "updated_date": "2026-09-07T09:22:52+00:00"
+  },
+  "tool": "whois_lookup"
+}

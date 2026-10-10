@@ -1,0 +1,136 @@
+{
+  "arguments": {
+    "domain": "sourceforge.net"
+  },
+  "result": {
+    "code_matches": [
+      {
+        "path": "pg.md",
+        "repo": "ty4z2008/Qix",
+        "snippet": "介绍： 一个构建PostgreSQL集群开源软件,Postgres-XL is a PostgreSQL-based scale-out cluster that handles both OLTP write intensive workloads as well as OLAP/BI type of workloads thanks to MPP parallelism.。\n\n* [《pgDesigner》](http://sourceforge.net/projects/pgdesigner/)\n\n介绍：pgDesigner 是一个为PostgreSQL数据库设计的建模工具.仅支持Lin",
+        "url": "https://github.com/ty4z2008/Qix/blob/91cd7835e8e2edd38e69d771bbb531271abff502/pg.md"
+      },
+      {
+        "path": "dl.md",
+        "repo": "ty4z2008/Qix",
+        "snippet": "* [《kaldi》](http://kaldi-asr.org/)\n\n介绍: 一个开源语音识别工具包,它目前托管在[sourceforge](http://sourceforge.net/projects/kaldi/)上面\n\n* [《Data Journalism Handbook》](http://datajournalismhandbook.org/)",
+        "url": "https://github.com/ty4z2008/Qix/blob/91cd7835e8e2edd38e69d771bbb531271abff502/dl.md"
+      },
+      {
+        "path": "faq.md",
+        "repo": "remy/nodemon",
+        "snippet": "## No automatic restart when using Docker volumes [issue #419](https://github.com/remy/nodemon/issues/419#issuecomment-391244911)\n\nSome Node.js Docker images do not seem to have the full suite of filesystem process utilities that allow `nodemon` to restart automatically when the code in a mounted vo",
+        "url": "https://github.com/remy/nodemon/blob/bc5990cc615253adbf13544da73fce4ff8d2220b/faq.md"
+      },
+      {
+        "path": "NEWS",
+        "repo": "log4cplus/log4cplus",
+        "snippet": "See ChangeLog file, or <https://github.com/log4cplus/log4cplus/releases>,\nor <https://sourceforge.net/p/log4cplus/news/>.",
+        "url": "https://github.com/log4cplus/log4cplus/blob/88bfae3f92ecb492f22e8ab48dd2ea33bda7270c/NEWS"
+      },
+      {
+        "path": "vim.md",
+        "repo": "rstacruz/cheatsheets",
+        "snippet": "Also see\n--------\n\n- [Vim cheatsheet](https://vim.rtorr.com/) _(vim.rotrr.com)_\n- [Vim documentation](http://vimdoc.sourceforge.net/htmldoc/) _(vimdoc.sourceforge.net)_\n- [Interactive Vim tutorial](http://openvim.com/) _(openvim.com)_",
+        "url": "https://github.com/rstacruz/cheatsheets/blob/9ceae55055f2b8ba4b5cf013ee1749e0ce847342/vim.md"
+      },
+      {
+        "path": "NEWS",
+        "repo": "westes/flex",
+        "snippet": "** Import flex into git. See\n   git://flex.git.sourceforge.net/gitroot/flex/flex.",
+        "url": "https://github.com/westes/flex/blob/4fcc71489ae298c35b0b786114ad524945f2cf95/NEWS"
+      },
+      {
+        "path": "NEWS",
+        "repo": "hzeller/gmrender-resurrect",
+        "snippet": "- BUG #17887: Update to gstreamer-0.10\n                      Based on a patch contributed by David Siorpaes\n\t- Fix compilation with libupnp-1.60, with largefile support\n\t  (the libupnp branch from http://pupnp.sourceforge.net)\n\t- Proper encoding of LastChange event in AVTransport service\n\t- Add '--v",
+        "url": "https://github.com/hzeller/gmrender-resurrect/blob/3d87b3678bef4d0886cc526fe75d5e1285704310/NEWS"
+      },
+      {
+        "path": "FAQ.md",
+        "repo": "xoreos/xoreos",
+        "snippet": "The Infinity engine, while also having basic file formats in common, is\nisometric \"2.5D\", so using a complete different graphical model, which is far\ntoo different to integrate into xoreos.\nAlso, there already is a reimplementation of the Infinity engine: [GemRB](http://gemrb.sourceforge.net/).\n\n\nWh",
+        "url": "https://github.com/xoreos/xoreos/blob/6774724d5c05e09ce0d01e00b8b62f956ddcb74b/FAQ.md"
+      },
+      {
+        "path": "NEWS",
+        "repo": "ezyang/htmlpurifier",
+        "snippet": "! DefinitionCacheFactory now can register new implementations\n! New HTMLPurifier_Filter_ExtractStyleBlocks for extracting <style> from\n  documents and cleaning their contents up. Requires the CSSTidy library\n  <http://csstidy.sourceforge.net/>. You can access the blocks with the\n  'StyleBlocks' Cont",
+        "url": "https://github.com/ezyang/htmlpurifier/blob/67085e6a150b4429d75e2bb497d141136e2f5602/NEWS"
+      },
+      {
+        "path": "NEWS",
+        "repo": "wifidog/wifidog-gateway",
+        "snippet": "now timed-out (via select).  This is hopefully a bugfix to the\n\t  thread-freezing problem.\n\t* Bugfix non-RFC compliant HTTP requests using \\n instead of \\r\\n as line\n\t  terminations as per email from [redacted]@users.sourceforge.net\n\t* Firewall: make the default ruleset for validating users = allow ",
+        "url": "https://github.com/wifidog/wifidog-gateway/blob/b9771dd1fdb5dff599d67175134bf9ffbe763039/NEWS"
+      }
+    ],
+    "code_search_enabled": true,
+    "domain": "sourceforge.net",
+    "repository_count": 10,
+    "repository_matches": [
+      {
+        "description": "Tinyhttpd 是J. David Blackstone在1999年写的一个不到 500 行的超轻量型 Http Server，用来学习非常不错，可以帮助我们真正理解服务器程序的本质。官网:http://tinyhttpd.sourceforge.net",
+        "repo": "EZLippi/Tinyhttpd",
+        "stars": 12195,
+        "url": "https://github.com/EZLippi/Tinyhttpd"
+      },
+      {
+        "description": "a tool for backing up your data using rsync (if you want to get help, use https://lists.sourceforge.net/lists/listinfo/rsnapshot-discuss)",
+        "repo": "rsnapshot/rsnapshot",
+        "stars": 3667,
+        "url": "https://github.com/rsnapshot/rsnapshot"
+      },
+      {
+        "description": "Fork of http://sourceforge.net/projects/mjpg-streamer/",
+        "repo": "jacksonliam/mjpg-streamer",
+        "stars": 3254,
+        "url": "https://github.com/jacksonliam/mjpg-streamer"
+      },
+      {
+        "description": "Clone of the mercurial repository http://zbar.hg.sourceforge.net:8000/hgroot/zbar/zbar",
+        "repo": "ZBar/ZBar",
+        "stars": 2540,
+        "url": "https://github.com/ZBar/ZBar"
+      },
+      {
+        "description": "A fork of RBTray from http://sourceforge.net/p/rbtray/code/.",
+        "repo": "benbuck/rbtray",
+        "stars": 1483,
+        "url": "https://github.com/benbuck/rbtray"
+      },
+      {
+        "description": "A copy of http://sourceforge.net/projects/pinyin4j, then deploy it to maven central repository.",
+        "repo": "belerweb/pinyin4j",
+        "stars": 1328,
+        "url": "https://github.com/belerweb/pinyin4j"
+      },
+      {
+        "description": "A new p7zip fork with additional codecs and improvements (forked from https://sourceforge.net/projects/sevenzip/ AND https://sourceforge.net/projects/p7zip/).",
+        "repo": "p7zip-project/p7zip",
+        "stars": 959,
+        "url": "https://github.com/p7zip-project/p7zip"
+      },
+      {
+        "description": "RNNLIB is a recurrent neural network library for sequence learning problems. Forked from Alex Graves work http://sourceforge.net/projects/rnnl/",
+        "repo": "szcom/rnnlib",
+        "stars": 902,
+        "url": "https://github.com/szcom/rnnlib"
+      },
+      {
+        "description": "Read only mirror of SVN ChibiOS repository at https://sourceforge.net/projects/chibios/",
+        "repo": "ChibiOS/ChibiOS",
+        "stars": 863,
+        "url": "https://github.com/ChibiOS/ChibiOS"
+      },
+      {
+        "description": "GTK+ for Windows Runtime Environment Installer (fork from http://gtk-win.sourceforge.net)",
+        "repo": "tschoonj/GTK-for-Windows-Runtime-Environment-Installer",
+        "stars": 829,
+        "url": "https://github.com/tschoonj/GTK-for-Windows-Runtime-Environment-Installer"
+      }
+    ],
+    "source": "api.github.com"
+  },
+  "tool": "github_search"
+}

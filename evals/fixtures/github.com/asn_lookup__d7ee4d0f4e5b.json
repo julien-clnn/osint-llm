@@ -1,0 +1,269 @@
+{
+  "arguments": {
+    "ip": "5.101.111.152"
+  },
+  "result": {
+    "announced_prefix": "5.101.111.0/24",
+    "asn": 14061,
+    "asn_description": "DIGITALOCEAN-ASN - DigitalOcean, LLC",
+    "asn_name": "DIGITALOCEAN-ASN - DigitalOcean, LLC",
+    "asn_prefixes": [
+      {
+        "country": "",
+        "name": "DIGITALOCEAN-ASN - DigitalOcean, LLC",
+        "prefix": "165.227.208.0/20"
+      },
+      {
+        "country": "",
+        "name": "DIGITALOCEAN-ASN - DigitalOcean, LLC",
+        "prefix": "157.245.96.0/20"
+      },
+      {
+        "country": "",
+        "name": "DIGITALOCEAN-ASN - DigitalOcean, LLC",
+        "prefix": "146.190.192.0/22"
+      },
+      {
+        "country": "",
+        "name": "DIGITALOCEAN-ASN - DigitalOcean, LLC",
+        "prefix": "165.22.224.0/20"
+      },
+      {
+        "country": "",
+        "name": "DIGITALOCEAN-ASN - DigitalOcean, LLC",
+        "prefix": "139.59.0.0/20"
+      },
+      {
+        "country": "",
+        "name": "DIGITALOCEAN-ASN - DigitalOcean, LLC",
+        "prefix": "134.122.80.0/20"
+      },
+      {
+        "country": "",
+        "name": "DIGITALOCEAN-ASN - DigitalOcean, LLC",
+        "prefix": "137.184.255.0/24"
+      },
+      {
+        "country": "",
+        "name": "DIGITALOCEAN-ASN - DigitalOcean, LLC",
+        "prefix": "104.248.160.0/20"
+      },
+      {
+        "country": "",
+        "name": "DIGITALOCEAN-ASN - DigitalOcean, LLC",
+        "prefix": "107.170.160.0/19"
+      },
+      {
+        "country": "",
+        "name": "DIGITALOCEAN-ASN - DigitalOcean, LLC",
+        "prefix": "165.232.32.0/20"
+      },
+      {
+        "country": "",
+        "name": "DIGITALOCEAN-ASN - DigitalOcean, LLC",
+        "prefix": "167.99.112.0/20"
+      },
+      {
+        "country": "",
+        "name": "DIGITALOCEAN-ASN - DigitalOcean, LLC",
+        "prefix": "134.209.96.0/20"
+      },
+      {
+        "country": "",
+        "name": "DIGITALOCEAN-ASN - DigitalOcean, LLC",
+        "prefix": "159.223.112.0/20"
+      },
+      {
+        "country": "",
+        "name": "DIGITALOCEAN-ASN - DigitalOcean, LLC",
+        "prefix": "178.128.112.0/20"
+      },
+      {
+        "country": "",
+        "name": "DIGITALOCEAN-ASN - DigitalOcean, LLC",
+        "prefix": "134.209.64.0/20"
+      },
+      {
+        "country": "",
+        "name": "DIGITALOCEAN-ASN - DigitalOcean, LLC",
+        "prefix": "64.226.64.0/20"
+      },
+      {
+        "country": "",
+        "name": "DIGITALOCEAN-ASN - DigitalOcean, LLC",
+        "prefix": "159.203.160.0/20"
+      },
+      {
+        "country": "",
+        "name": "DIGITALOCEAN-ASN - DigitalOcean, LLC",
+        "prefix": "104.248.208.0/20"
+      },
+      {
+        "country": "",
+        "name": "DIGITALOCEAN-ASN - DigitalOcean, LLC",
+        "prefix": "167.71.160.0/20"
+      },
+      {
+        "country": "",
+        "name": "DIGITALOCEAN-ASN - DigitalOcean, LLC",
+        "prefix": "157.230.200.0/22"
+      },
+      {
+        "country": "",
+        "name": "DIGITALOCEAN-ASN - DigitalOcean, LLC",
+        "prefix": "138.197.96.0/20"
+      },
+      {
+        "country": "",
+        "name": "DIGITALOCEAN-ASN - DigitalOcean, LLC",
+        "prefix": "159.223.240.0/22"
+      },
+      {
+        "country": "",
+        "name": "DIGITALOCEAN-ASN - DigitalOcean, LLC",
+        "prefix": "138.68.64.0/20"
+      },
+      {
+        "country": "",
+        "name": "DIGITALOCEAN-ASN - DigitalOcean, LLC",
+        "prefix": "157.245.224.0/20"
+      },
+      {
+        "country": "",
+        "name": "DIGITALOCEAN-ASN - DigitalOcean, LLC",
+        "prefix": "137.184.192.0/20"
+      },
+      {
+        "country": "",
+        "name": "DIGITALOCEAN-ASN - DigitalOcean, LLC",
+        "prefix": "157.245.20.0/22"
+      },
+      {
+        "country": "",
+        "name": "DIGITALOCEAN-ASN - DigitalOcean, LLC",
+        "prefix": "209.38.0.0/22"
+      },
+      {
+        "country": "",
+        "name": "DIGITALOCEAN-ASN - DigitalOcean, LLC",
+        "prefix": "162.243.184.0/22"
+      },
+      {
+        "country": "",
+        "name": "DIGITALOCEAN-ASN - DigitalOcean, LLC",
+        "prefix": "188.166.204.0/22"
+      },
+      {
+        "country": "",
+        "name": "DIGITALOCEAN-ASN - DigitalOcean, LLC",
+        "prefix": "141.0.169.0/24"
+      },
+      {
+        "country": "",
+        "name": "DIGITALOCEAN-ASN - DigitalOcean, LLC",
+        "prefix": "188.166.192.0/22"
+      },
+      {
+        "country": "",
+        "name": "DIGITALOCEAN-ASN - DigitalOcean, LLC",
+        "prefix": "206.189.64.0/20"
+      },
+      {
+        "country": "",
+        "name": "DIGITALOCEAN-ASN - DigitalOcean, LLC",
+        "prefix": "161.35.244.0/22"
+      },
+      {
+        "country": "",
+        "name": "DIGITALOCEAN-ASN - DigitalOcean, LLC",
+        "prefix": "157.230.128.0/20"
+      },
+      {
+        "country": "",
+        "name": "DIGITALOCEAN-ASN - DigitalOcean, LLC",
+        "prefix": "167.99.176.0/20"
+      },
+      {
+        "country": "",
+        "name": "DIGITALOCEAN-ASN - DigitalOcean, LLC",
+        "prefix": "134.122.0.0/20"
+      },
+      {
+        "country": "",
+        "name": "DIGITALOCEAN-ASN - DigitalOcean, LLC",
+        "prefix": "2a03:b0c0:1::/48"
+      },
+      {
+        "country": "",
+        "name": "DIGITALOCEAN-ASN - DigitalOcean, LLC",
+        "prefix": "209.97.128.0/20"
+      },
+      {
+        "country": "",
+        "name": "DIGITALOCEAN-ASN - DigitalOcean, LLC",
+        "prefix": "209.38.168.0/22"
+      },
+      {
+        "country": "",
+        "name": "DIGITALOCEAN-ASN - DigitalOcean, LLC",
+        "prefix": "24.144.76.0/22"
+      },
+      {
+        "country": "",
+        "name": "DIGITALOCEAN-ASN - DigitalOcean, LLC",
+        "prefix": "128.199.16.0/20"
+      },
+      {
+        "country": "",
+        "name": "DIGITALOCEAN-ASN - DigitalOcean, LLC",
+        "prefix": "104.248.48.0/20"
+      },
+      {
+        "country": "",
+        "name": "DIGITALOCEAN-ASN - DigitalOcean, LLC",
+        "prefix": "165.227.64.0/20"
+      },
+      {
+        "country": "",
+        "name": "DIGITALOCEAN-ASN - DigitalOcean, LLC",
+        "prefix": "143.198.16.0/20"
+      },
+      {
+        "country": "",
+        "name": "DIGITALOCEAN-ASN - DigitalOcean, LLC",
+        "prefix": "146.190.204.0/22"
+      },
+      {
+        "country": "",
+        "name": "DIGITALOCEAN-ASN - DigitalOcean, LLC",
+        "prefix": "139.59.216.0/22"
+      },
+      {
+        "country": "",
+        "name": "DIGITALOCEAN-ASN - DigitalOcean, LLC",
+        "prefix": "165.245.152.0/22"
+      },
+      {
+        "country": "",
+        "name": "DIGITALOCEAN-ASN - DigitalOcean, LLC",
+        "prefix": "104.248.104.0/22"
+      },
+      {
+        "country": "",
+        "name": "DIGITALOCEAN-ASN - DigitalOcean, LLC",
+        "prefix": "159.89.112.0/20"
+      },
+      {
+        "country": "",
+        "name": "DIGITALOCEAN-ASN - DigitalOcean, LLC",
+        "prefix": "178.128.128.0/22"
+      }
+    ],
+    "country": "",
+    "ip": "5.101.111.152",
+    "prefix_count": 888,
+    "source": "RIPEstat",
+    "truncated": true
+  },
+  "tool": "asn_lookup"
+}

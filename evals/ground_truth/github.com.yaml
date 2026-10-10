@@ -1,0 +1,32 @@
+domain: github.com
+subdomains:
+  expected_count: 117
+  known_sample:
+  - api.mcp.github.com
+  - api.security.github.com
+  - api.stars.github.com
+  - asset-generator.github.com
+  - atom-installer.github.com
+  known_exclusions: []
+email_security:
+  spf: true
+  dmarc: true
+  dmarc_policy: quarantine
+  dkim_selectors_found:
+  - google
+  - selector1
+  - k1
+network:
+  expected_asn: 36459
+  expected_org_substring: GitHub
+  behind_cdn_proxy: false
+reputation:
+  verdict: clean
+  malicious_engines_min: 0
+must_contain:
+- 117 subdomains found in certificate logs
+- ASN 36459 (GitHub, Inc.) — self-hosted infrastructure
+- DMARC configured with policy quarantine
+- Domain registered in 2007
+must_not_contain: []
+notes: Mid-size scale, contrast with microsoft.com (3698) for the recall/precision metric.

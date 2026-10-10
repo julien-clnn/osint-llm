@@ -1,0 +1,159 @@
+{
+  "arguments": {
+    "ip": "195.154.120.129"
+  },
+  "result": {
+    "announced_prefix": "195.154.0.0/16",
+    "asn": 12876,
+    "asn_description": "AS12876 Scaleway SAS",
+    "asn_name": "AS12876 Scaleway SAS",
+    "asn_prefixes": [
+      {
+        "country": "",
+        "name": "AS12876 Scaleway SAS",
+        "prefix": "151.115.128.0/19"
+      },
+      {
+        "country": "",
+        "name": "AS12876 Scaleway SAS",
+        "prefix": "151.115.208.0/20"
+      },
+      {
+        "country": "",
+        "name": "AS12876 Scaleway SAS",
+        "prefix": "2001:bc8:1c00::/38"
+      },
+      {
+        "country": "",
+        "name": "AS12876 Scaleway SAS",
+        "prefix": "151.115.0.0/17"
+      },
+      {
+        "country": "",
+        "name": "AS12876 Scaleway SAS",
+        "prefix": "2001:bc8:4000::/38"
+      },
+      {
+        "country": "",
+        "name": "AS12876 Scaleway SAS",
+        "prefix": "212.83.128.0/19"
+      },
+      {
+        "country": "",
+        "name": "AS12876 Scaleway SAS",
+        "prefix": "51.15.0.0/16"
+      },
+      {
+        "country": "",
+        "name": "AS12876 Scaleway SAS",
+        "prefix": "62.210.0.0/16"
+      },
+      {
+        "country": "",
+        "name": "AS12876 Scaleway SAS",
+        "prefix": "212.129.0.0/18"
+      },
+      {
+        "country": "",
+        "name": "AS12876 Scaleway SAS",
+        "prefix": "51.158.0.0/15"
+      },
+      {
+        "country": "",
+        "name": "AS12876 Scaleway SAS",
+        "prefix": "151.115.192.0/24"
+      },
+      {
+        "country": "",
+        "name": "AS12876 Scaleway SAS",
+        "prefix": "51.159.224.0/19"
+      },
+      {
+        "country": "",
+        "name": "AS12876 Scaleway SAS",
+        "prefix": "212.47.224.0/19"
+      },
+      {
+        "country": "",
+        "name": "AS12876 Scaleway SAS",
+        "prefix": "51.15.0.0/17"
+      },
+      {
+        "country": "",
+        "name": "AS12876 Scaleway SAS",
+        "prefix": "62.4.0.0/19"
+      },
+      {
+        "country": "",
+        "name": "AS12876 Scaleway SAS",
+        "prefix": "163.172.208.0/20"
+      },
+      {
+        "country": "",
+        "name": "AS12876 Scaleway SAS",
+        "prefix": "212.83.160.0/19"
+      },
+      {
+        "country": "",
+        "name": "AS12876 Scaleway SAS",
+        "prefix": "2001:bc8:1400::/38"
+      },
+      {
+        "country": "",
+        "name": "AS12876 Scaleway SAS",
+        "prefix": "151.115.224.0/19"
+      },
+      {
+        "country": "",
+        "name": "AS12876 Scaleway SAS",
+        "prefix": "151.115.160.0/19"
+      },
+      {
+        "country": "",
+        "name": "AS12876 Scaleway SAS",
+        "prefix": "2001:bc8:5000::/38"
+      },
+      {
+        "country": "",
+        "name": "AS12876 Scaleway SAS",
+        "prefix": "51.158.128.0/17"
+      },
+      {
+        "country": "",
+        "name": "AS12876 Scaleway SAS",
+        "prefix": "2001:bc8:6800::/38"
+      },
+      {
+        "country": "",
+        "name": "AS12876 Scaleway SAS",
+        "prefix": "2001:bc8::/32"
+      },
+      {
+        "country": "",
+        "name": "AS12876 Scaleway SAS",
+        "prefix": "2001:bc8:1800::/38"
+      },
+      {
+        "country": "",
+        "name": "AS12876 Scaleway SAS",
+        "prefix": "2001:bc8:e401::/48"
+      },
+      {
+        "country": "",
+        "name": "AS12876 Scaleway SAS",
+        "prefix": "163.172.0.0/16"
+      },
+      {
+        "country": "",
+        "name": "AS12876 Scaleway SAS",
+        "prefix": "195.154.0.0/16"
+      }
+    ],
+    "country": "",
+    "ip": "195.154.120.129",
+    "prefix_count": 28,
+    "source": "RIPEstat",
+    "truncated": false
+  },
+  "tool": "asn_lookup"
+}

@@ -1,0 +1,269 @@
+{
+  "arguments": {
+    "ip": "109.0.66.29"
+  },
+  "result": {
+    "announced_prefix": "109.0.0.0/11",
+    "asn": 15557,
+    "asn_description": "LDCOMNET Societe Francaise Du Radiotelephone - SFR SA",
+    "asn_name": "LDCOMNET Societe Francaise Du Radiotelephone - SFR SA",
+    "asn_prefixes": [
+      {
+        "country": "",
+        "name": "LDCOMNET Societe Francaise Du Radiotelephone - SFR SA",
+        "prefix": "77.142.0.0/16"
+      },
+      {
+        "country": "",
+        "name": "LDCOMNET Societe Francaise Du Radiotelephone - SFR SA",
+        "prefix": "84.55.128.0/18"
+      },
+      {
+        "country": "",
+        "name": "LDCOMNET Societe Francaise Du Radiotelephone - SFR SA",
+        "prefix": "194.183.192.0/19"
+      },
+      {
+        "country": "",
+        "name": "LDCOMNET Societe Francaise Du Radiotelephone - SFR SA",
+        "prefix": "2a13:7506:9004::/48"
+      },
+      {
+        "country": "",
+        "name": "LDCOMNET Societe Francaise Du Radiotelephone - SFR SA",
+        "prefix": "143.196.144.0/24"
+      },
+      {
+        "country": "",
+        "name": "LDCOMNET Societe Francaise Du Radiotelephone - SFR SA",
+        "prefix": "143.196.143.0/24"
+      },
+      {
+        "country": "",
+        "name": "LDCOMNET Societe Francaise Du Radiotelephone - SFR SA",
+        "prefix": "92.88.0.0/13"
+      },
+      {
+        "country": "",
+        "name": "LDCOMNET Societe Francaise Du Radiotelephone - SFR SA",
+        "prefix": "89.2.0.0/15"
+      },
+      {
+        "country": "",
+        "name": "LDCOMNET Societe Francaise Du Radiotelephone - SFR SA",
+        "prefix": "80.70.32.0/20"
+      },
+      {
+        "country": "",
+        "name": "LDCOMNET Societe Francaise Du Radiotelephone - SFR SA",
+        "prefix": "88.140.0.0/15"
+      },
+      {
+        "country": "",
+        "name": "LDCOMNET Societe Francaise Du Radiotelephone - SFR SA",
+        "prefix": "91.151.112.0/20"
+      },
+      {
+        "country": "",
+        "name": "LDCOMNET Societe Francaise Du Radiotelephone - SFR SA",
+        "prefix": "80.124.0.0/15"
+      },
+      {
+        "country": "",
+        "name": "LDCOMNET Societe Francaise Du Radiotelephone - SFR SA",
+        "prefix": "212.30.96.0/19"
+      },
+      {
+        "country": "",
+        "name": "LDCOMNET Societe Francaise Du Radiotelephone - SFR SA",
+        "prefix": "2a04:807::/48"
+      },
+      {
+        "country": "",
+        "name": "LDCOMNET Societe Francaise Du Radiotelephone - SFR SA",
+        "prefix": "217.112.224.0/20"
+      },
+      {
+        "country": "",
+        "name": "LDCOMNET Societe Francaise Du Radiotelephone - SFR SA",
+        "prefix": "195.202.6.0/24"
+      },
+      {
+        "country": "",
+        "name": "LDCOMNET Societe Francaise Du Radiotelephone - SFR SA",
+        "prefix": "185.147.204.0/22"
+      },
+      {
+        "country": "",
+        "name": "LDCOMNET Societe Francaise Du Radiotelephone - SFR SA",
+        "prefix": "62.62.128.0/17"
+      },
+      {
+        "country": "",
+        "name": "LDCOMNET Societe Francaise Du Radiotelephone - SFR SA",
+        "prefix": "143.196.124.0/24"
+      },
+      {
+        "country": "",
+        "name": "LDCOMNET Societe Francaise Du Radiotelephone - SFR SA",
+        "prefix": "84.4.0.0/14"
+      },
+      {
+        "country": "",
+        "name": "LDCOMNET Societe Francaise Du Radiotelephone - SFR SA",
+        "prefix": "213.128.32.0/19"
+      },
+      {
+        "country": "",
+        "name": "LDCOMNET Societe Francaise Du Radiotelephone - SFR SA",
+        "prefix": "193.105.197.0/24"
+      },
+      {
+        "country": "",
+        "name": "LDCOMNET Societe Francaise Du Radiotelephone - SFR SA",
+        "prefix": "91.189.104.0/21"
+      },
+      {
+        "country": "",
+        "name": "LDCOMNET Societe Francaise Du Radiotelephone - SFR SA",
+        "prefix": "143.196.253.0/24"
+      },
+      {
+        "country": "",
+        "name": "LDCOMNET Societe Francaise Du Radiotelephone - SFR SA",
+        "prefix": "143.196.127.0/24"
+      },
+      {
+        "country": "",
+        "name": "LDCOMNET Societe Francaise Du Radiotelephone - SFR SA",
+        "prefix": "213.169.160.0/19"
+      },
+      {
+        "country": "",
+        "name": "LDCOMNET Societe Francaise Du Radiotelephone - SFR SA",
+        "prefix": "195.167.192.0/20"
+      },
+      {
+        "country": "",
+        "name": "LDCOMNET Societe Francaise Du Radiotelephone - SFR SA",
+        "prefix": "62.241.64.0/18"
+      },
+      {
+        "country": "",
+        "name": "LDCOMNET Societe Francaise Du Radiotelephone - SFR SA",
+        "prefix": "143.196.159.0/24"
+      },
+      {
+        "country": "",
+        "name": "LDCOMNET Societe Francaise Du Radiotelephone - SFR SA",
+        "prefix": "185.9.152.0/22"
+      },
+      {
+        "country": "",
+        "name": "LDCOMNET Societe Francaise Du Radiotelephone - SFR SA",
+        "prefix": "77.104.0.0/18"
+      },
+      {
+        "country": "",
+        "name": "LDCOMNET Societe Francaise Du Radiotelephone - SFR SA",
+        "prefix": "193.107.240.0/22"
+      },
+      {
+        "country": "",
+        "name": "LDCOMNET Societe Francaise Du Radiotelephone - SFR SA",
+        "prefix": "2a04:800::/30"
+      },
+      {
+        "country": "",
+        "name": "LDCOMNET Societe Francaise Du Radiotelephone - SFR SA",
+        "prefix": "143.196.17.0/24"
+      },
+      {
+        "country": "",
+        "name": "LDCOMNET Societe Francaise Du Radiotelephone - SFR SA",
+        "prefix": "91.240.79.0/24"
+      },
+      {
+        "country": "",
+        "name": "LDCOMNET Societe Francaise Du Radiotelephone - SFR SA",
+        "prefix": "195.98.96.0/19"
+      },
+      {
+        "country": "",
+        "name": "LDCOMNET Societe Francaise Du Radiotelephone - SFR SA",
+        "prefix": "143.196.16.0/24"
+      },
+      {
+        "country": "",
+        "name": "LDCOMNET Societe Francaise Du Radiotelephone - SFR SA",
+        "prefix": "195.248.0.0/19"
+      },
+      {
+        "country": "",
+        "name": "LDCOMNET Societe Francaise Du Radiotelephone - SFR SA",
+        "prefix": "88.142.0.0/16"
+      },
+      {
+        "country": "",
+        "name": "LDCOMNET Societe Francaise Du Radiotelephone - SFR SA",
+        "prefix": "143.196.162.0/24"
+      },
+      {
+        "country": "",
+        "name": "LDCOMNET Societe Francaise Du Radiotelephone - SFR SA",
+        "prefix": "2a04:807:3::/48"
+      },
+      {
+        "country": "",
+        "name": "LDCOMNET Societe Francaise Du Radiotelephone - SFR SA",
+        "prefix": "2a04:807:1::/48"
+      },
+      {
+        "country": "",
+        "name": "LDCOMNET Societe Francaise Du Radiotelephone - SFR SA",
+        "prefix": "93.0.0.0/11"
+      },
+      {
+        "country": "",
+        "name": "LDCOMNET Societe Francaise Du Radiotelephone - SFR SA",
+        "prefix": "46.35.0.0/19"
+      },
+      {
+        "country": "",
+        "name": "LDCOMNET Societe Francaise Du Radiotelephone - SFR SA",
+        "prefix": "143.196.130.0/24"
+      },
+      {
+        "country": "",
+        "name": "LDCOMNET Societe Francaise Du Radiotelephone - SFR SA",
+        "prefix": "2a13:7505:4::/48"
+      },
+      {
+        "country": "",
+        "name": "LDCOMNET Societe Francaise Du Radiotelephone - SFR SA",
+        "prefix": "192.102.224.0/24"
+      },
+      {
+        "country": "",
+        "name": "LDCOMNET Societe Francaise Du Radiotelephone - SFR SA",
+        "prefix": "143.196.1.0/24"
+      },
+      {
+        "country": "",
+        "name": "LDCOMNET Societe Francaise Du Radiotelephone - SFR SA",
+        "prefix": "213.144.192.0/19"
+      },
+      {
+        "country": "",
+        "name": "LDCOMNET Societe Francaise Du Radiotelephone - SFR SA",
+        "prefix": "195.190.156.0/24"
+      }
+    ],
+    "country": "",
+    "ip": "109.0.66.29",
+    "prefix_count": 159,
+    "source": "RIPEstat",
+    "truncated": true
+  },
+  "tool": "asn_lookup"
+}

@@ -1,0 +1,27 @@
+{
+  "arguments": {
+    "target": "pets.com"
+  },
+  "result": {
+    "ip_count": 1,
+    "locations": [
+      {
+        "as": "AS16509 Amazon.com, Inc.",
+        "city": "Montreal",
+        "country": "Canada",
+        "country_code": "CA",
+        "ip": "3.33.139.32",
+        "isp": "Amazon.com, Inc.",
+        "lat": 45.5019,
+        "lon": -73.5674,
+        "org": "AWS Global Accelerator (GLOBAL)",
+        "region": "Quebec"
+      }
+    ],
+    "resolved_from_domain": "pets.com",
+    "source": "ip-api.com",
+    "target": "pets.com",
+    "truncated": false
+  },
+  "tool": "ip_geolocate"
+}

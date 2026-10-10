@@ -1,0 +1,19 @@
+{
+  "arguments": {
+    "domain": "theglobe.com"
+  },
+  "result": {
+    "domain": "theglobe.com",
+    "source": "crt.sh",
+    "subdomain_count": 5,
+    "subdomains": [
+      "members.theglobe.com",
+      "owa.corp.theglobe.com",
+      "owa.theglobe.com",
+      "theglobe.com",
+      "ww51.theglobe.com"
+    ],
+    "truncated": false
+  },
+  "tool": "enumerate_subdomains"
+}

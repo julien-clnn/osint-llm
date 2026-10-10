@@ -1,0 +1,33 @@
+domain: 0rder-ver1f2345.com
+subdomains:
+  expected_count: 1
+  known_sample:
+  - 0rder-ver1f2345.com
+  known_exclusions: []
+email_security:
+  spf: false
+  dmarc: false
+  dmarc_policy: null
+  dkim_selectors_found: []
+network:
+  expected_asn: null
+  expected_org_substring: null
+  behind_cdn_proxy: true
+reputation:
+  verdict: malicious
+  malicious_engines_min: 10
+must_contain:
+- Degraded VirusTotal reputation / engines flagging the domain as malicious
+- No SPF record
+- No DMARC record
+- Recently registered domain (February 2026)
+must_not_contain:
+- Must not conclude a low risk level
+notes: >-
+  Active phishing domain (URLhaus, 2026-09-12), 'order verification' typosquat. 11 VirusTotal
+  engines 'malicious' + 1 'suspicious' out of ~89. Two valid ASNs depending on the queried IP -
+  AS13335 (Cloudflare, proxy/CDN) and AS15557 (SFR/LDCOMNET, IP 109.0.66.29) - the domain is
+  routed through Cloudflare but also exposes a direct hosting IP at SFR. expected_asn is
+  therefore left null (both values are correct). Shares this SFR IP (109.0.66.29) with
+  aspenriver6.com - likely phishing infrastructure shared between the two domains, an
+  interesting correlation but out of scope for a single-domain report.

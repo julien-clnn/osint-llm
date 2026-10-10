@@ -1,0 +1,269 @@
+{
+  "arguments": {
+    "ip": "148.163.48.215"
+  },
+  "result": {
+    "announced_prefix": "148.163.48.0/22",
+    "asn": 53755,
+    "asn_description": "IOFLOOD - Input Output Flood LLC",
+    "asn_name": "IOFLOOD - Input Output Flood LLC",
+    "asn_prefixes": [
+      {
+        "country": "",
+        "name": "IOFLOOD - Input Output Flood LLC",
+        "prefix": "148.163.88.0/24"
+      },
+      {
+        "country": "",
+        "name": "IOFLOOD - Input Output Flood LLC",
+        "prefix": "107.189.156.0/23"
+      },
+      {
+        "country": "",
+        "name": "IOFLOOD - Input Output Flood LLC",
+        "prefix": "148.163.73.0/24"
+      },
+      {
+        "country": "",
+        "name": "IOFLOOD - Input Output Flood LLC",
+        "prefix": "104.255.222.0/23"
+      },
+      {
+        "country": "",
+        "name": "IOFLOOD - Input Output Flood LLC",
+        "prefix": "104.161.18.0/24"
+      },
+      {
+        "country": "",
+        "name": "IOFLOOD - Input Output Flood LLC",
+        "prefix": "107.189.176.0/21"
+      },
+      {
+        "country": "",
+        "name": "IOFLOOD - Input Output Flood LLC",
+        "prefix": "192.110.160.0/21"
+      },
+      {
+        "country": "",
+        "name": "IOFLOOD - Input Output Flood LLC",
+        "prefix": "23.226.70.0/24"
+      },
+      {
+        "country": "",
+        "name": "IOFLOOD - Input Output Flood LLC",
+        "prefix": "107.178.77.0/24"
+      },
+      {
+        "country": "",
+        "name": "IOFLOOD - Input Output Flood LLC",
+        "prefix": "104.161.76.0/24"
+      },
+      {
+        "country": "",
+        "name": "IOFLOOD - Input Output Flood LLC",
+        "prefix": "104.161.50.0/23"
+      },
+      {
+        "country": "",
+        "name": "IOFLOOD - Input Output Flood LLC",
+        "prefix": "23.226.71.0/24"
+      },
+      {
+        "country": "",
+        "name": "IOFLOOD - Input Output Flood LLC",
+        "prefix": "199.231.86.0/24"
+      },
+      {
+        "country": "",
+        "name": "IOFLOOD - Input Output Flood LLC",
+        "prefix": "148.163.104.0/22"
+      },
+      {
+        "country": "",
+        "name": "IOFLOOD - Input Output Flood LLC",
+        "prefix": "107.167.93.0/24"
+      },
+      {
+        "country": "",
+        "name": "IOFLOOD - Input Output Flood LLC",
+        "prefix": "104.161.40.0/24"
+      },
+      {
+        "country": "",
+        "name": "IOFLOOD - Input Output Flood LLC",
+        "prefix": "184.164.68.0/24"
+      },
+      {
+        "country": "",
+        "name": "IOFLOOD - Input Output Flood LLC",
+        "prefix": "107.178.92.0/23"
+      },
+      {
+        "country": "",
+        "name": "IOFLOOD - Input Output Flood LLC",
+        "prefix": "184.164.71.0/24"
+      },
+      {
+        "country": "",
+        "name": "IOFLOOD - Input Output Flood LLC",
+        "prefix": "184.164.91.0/24"
+      },
+      {
+        "country": "",
+        "name": "IOFLOOD - Input Output Flood LLC",
+        "prefix": "148.163.74.0/24"
+      },
+      {
+        "country": "",
+        "name": "IOFLOOD - Input Output Flood LLC",
+        "prefix": "184.164.84.0/24"
+      },
+      {
+        "country": "",
+        "name": "IOFLOOD - Input Output Flood LLC",
+        "prefix": "104.255.220.0/23"
+      },
+      {
+        "country": "",
+        "name": "IOFLOOD - Input Output Flood LLC",
+        "prefix": "107.178.120.0/21"
+      },
+      {
+        "country": "",
+        "name": "IOFLOOD - Input Output Flood LLC",
+        "prefix": "107.189.128.0/20"
+      },
+      {
+        "country": "",
+        "name": "IOFLOOD - Input Output Flood LLC",
+        "prefix": "104.161.81.0/24"
+      },
+      {
+        "country": "",
+        "name": "IOFLOOD - Input Output Flood LLC",
+        "prefix": "184.164.67.0/24"
+      },
+      {
+        "country": "",
+        "name": "IOFLOOD - Input Output Flood LLC",
+        "prefix": "107.178.115.0/24"
+      },
+      {
+        "country": "",
+        "name": "IOFLOOD - Input Output Flood LLC",
+        "prefix": "162.213.210.0/24"
+      },
+      {
+        "country": "",
+        "name": "IOFLOOD - Input Output Flood LLC",
+        "prefix": "107.189.190.0/23"
+      },
+      {
+        "country": "",
+        "name": "IOFLOOD - Input Output Flood LLC",
+        "prefix": "104.161.67.0/24"
+      },
+      {
+        "country": "",
+        "name": "IOFLOOD - Input Output Flood LLC",
+        "prefix": "199.231.84.0/22"
+      },
+      {
+        "country": "",
+        "name": "IOFLOOD - Input Output Flood LLC",
+        "prefix": "107.167.86.0/24"
+      },
+      {
+        "country": "",
+        "name": "IOFLOOD - Input Output Flood LLC",
+        "prefix": "192.110.163.0/24"
+      },
+      {
+        "country": "",
+        "name": "IOFLOOD - Input Output Flood LLC",
+        "prefix": "148.163.108.0/23"
+      },
+      {
+        "country": "",
+        "name": "IOFLOOD - Input Output Flood LLC",
+        "prefix": "184.164.90.0/24"
+      },
+      {
+        "country": "",
+        "name": "IOFLOOD - Input Output Flood LLC",
+        "prefix": "184.164.66.0/24"
+      },
+      {
+        "country": "",
+        "name": "IOFLOOD - Input Output Flood LLC",
+        "prefix": "104.161.56.0/21"
+      },
+      {
+        "country": "",
+        "name": "IOFLOOD - Input Output Flood LLC",
+        "prefix": "107.167.70.0/24"
+      },
+      {
+        "country": "",
+        "name": "IOFLOOD - Input Output Flood LLC",
+        "prefix": "148.163.80.0/24"
+      },
+      {
+        "country": "",
+        "name": "IOFLOOD - Input Output Flood LLC",
+        "prefix": "184.164.65.0/24"
+      },
+      {
+        "country": "",
+        "name": "IOFLOOD - Input Output Flood LLC",
+        "prefix": "148.163.119.0/24"
+      },
+      {
+        "country": "",
+        "name": "IOFLOOD - Input Output Flood LLC",
+        "prefix": "184.164.85.0/24"
+      },
+      {
+        "country": "",
+        "name": "IOFLOOD - Input Output Flood LLC",
+        "prefix": "148.163.118.0/24"
+      },
+      {
+        "country": "",
+        "name": "IOFLOOD - Input Output Flood LLC",
+        "prefix": "104.161.24.0/21"
+      },
+      {
+        "country": "",
+        "name": "IOFLOOD - Input Output Flood LLC",
+        "prefix": "107.167.72.0/21"
+      },
+      {
+        "country": "",
+        "name": "IOFLOOD - Input Output Flood LLC",
+        "prefix": "148.163.94.0/24"
+      },
+      {
+        "country": "",
+        "name": "IOFLOOD - Input Output Flood LLC",
+        "prefix": "104.245.88.0/24"
+      },
+      {
+        "country": "",
+        "name": "IOFLOOD - Input Output Flood LLC",
+        "prefix": "107.189.154.0/24"
+      },
+      {
+        "country": "",
+        "name": "IOFLOOD - Input Output Flood LLC",
+        "prefix": "107.189.128.0/18"
+      }
+    ],
+    "country": "",
+    "ip": "148.163.48.215",
+    "prefix_count": 314,
+    "source": "RIPEstat",
+    "truncated": true
+  },
+  "tool": "asn_lookup"
+}

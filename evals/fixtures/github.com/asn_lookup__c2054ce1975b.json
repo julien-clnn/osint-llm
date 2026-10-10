@@ -1,0 +1,149 @@
+{
+  "arguments": {
+    "ip": "140.82.121.3"
+  },
+  "result": {
+    "announced_prefix": "140.82.121.0/24",
+    "asn": 36459,
+    "asn_description": "GITHUB - GitHub, Inc.",
+    "asn_name": "GITHUB - GitHub, Inc.",
+    "asn_prefixes": [
+      {
+        "country": "",
+        "name": "GITHUB - GitHub, Inc.",
+        "prefix": "192.30.254.0/23"
+      },
+      {
+        "country": "",
+        "name": "GITHUB - GitHub, Inc.",
+        "prefix": "192.30.253.0/24"
+      },
+      {
+        "country": "",
+        "name": "GITHUB - GitHub, Inc.",
+        "prefix": "140.82.120.0/24"
+      },
+      {
+        "country": "",
+        "name": "GITHUB - GitHub, Inc.",
+        "prefix": "143.55.64.0/20"
+      },
+      {
+        "country": "",
+        "name": "GITHUB - GitHub, Inc.",
+        "prefix": "140.82.126.0/24"
+      },
+      {
+        "country": "",
+        "name": "GITHUB - GitHub, Inc.",
+        "prefix": "140.82.124.0/24"
+      },
+      {
+        "country": "",
+        "name": "GITHUB - GitHub, Inc.",
+        "prefix": "140.82.112.0/24"
+      },
+      {
+        "country": "",
+        "name": "GITHUB - GitHub, Inc.",
+        "prefix": "140.82.115.0/24"
+      },
+      {
+        "country": "",
+        "name": "GITHUB - GitHub, Inc.",
+        "prefix": "2a0a:a440::/29"
+      },
+      {
+        "country": "",
+        "name": "GITHUB - GitHub, Inc.",
+        "prefix": "2620:112:3000::/44"
+      },
+      {
+        "country": "",
+        "name": "GITHUB - GitHub, Inc.",
+        "prefix": "140.82.120.0/23"
+      },
+      {
+        "country": "",
+        "name": "GITHUB - GitHub, Inc.",
+        "prefix": "192.30.255.0/24"
+      },
+      {
+        "country": "",
+        "name": "GITHUB - GitHub, Inc.",
+        "prefix": "192.30.254.0/24"
+      },
+      {
+        "country": "",
+        "name": "GITHUB - GitHub, Inc.",
+        "prefix": "140.82.122.0/24"
+      },
+      {
+        "country": "",
+        "name": "GITHUB - GitHub, Inc.",
+        "prefix": "140.82.117.0/24"
+      },
+      {
+        "country": "",
+        "name": "GITHUB - GitHub, Inc.",
+        "prefix": "140.82.121.0/24"
+      },
+      {
+        "country": "",
+        "name": "GITHUB - GitHub, Inc.",
+        "prefix": "140.82.113.0/24"
+      },
+      {
+        "country": "",
+        "name": "GITHUB - GitHub, Inc.",
+        "prefix": "140.82.123.0/24"
+      },
+      {
+        "country": "",
+        "name": "GITHUB - GitHub, Inc.",
+        "prefix": "192.30.252.0/24"
+      },
+      {
+        "country": "",
+        "name": "GITHUB - GitHub, Inc.",
+        "prefix": "192.30.252.0/23"
+      },
+      {
+        "country": "",
+        "name": "GITHUB - GitHub, Inc.",
+        "prefix": "140.82.116.0/24"
+      },
+      {
+        "country": "",
+        "name": "GITHUB - GitHub, Inc.",
+        "prefix": "140.82.114.0/24"
+      },
+      {
+        "country": "",
+        "name": "GITHUB - GitHub, Inc.",
+        "prefix": "192.30.252.0/22"
+      },
+      {
+        "country": "",
+        "name": "GITHUB - GitHub, Inc.",
+        "prefix": "140.82.125.0/24"
+      },
+      {
+        "country": "",
+        "name": "GITHUB - GitHub, Inc.",
+        "prefix": "143.55.64.0/24"
+      },
+      {
+        "country": "",
+        "name": "GITHUB - GitHub, Inc.",
+        "prefix": "140.82.112.0/20"
+      }
+    ],
+    "country": "",
+    "ip": "140.82.121.3",
+    "prefix_count": 26,
+    "source": "RIPEstat",
+    "truncated": false
+  },
+  "tool": "asn_lookup"
+}

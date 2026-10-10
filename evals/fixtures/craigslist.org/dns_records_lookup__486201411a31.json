@@ -1,0 +1,39 @@
+{
+  "arguments": {
+    "domain": "craigslist.org"
+  },
+  "result": {
+    "domain": "craigslist.org",
+    "email_security": {
+      "dkim_note": "Sélecteurs DKIM courants testés uniquement ; une absence ici ne prouve pas l'absence de DKIM.",
+      "dkim_selectors_found": [],
+      "dmarc": true,
+      "dmarc_policy": "quarantine",
+      "spf": true,
+      "spf_record": "v=spf1 ip4:208.82.237.96/29 ip4:208.82.237.104/31 ip4:208.82.238.96/29 ip4:208.82.238.104/31 -all"
+    },
+    "mx": [
+      "10 mxicorpa.craigslist.org"
+    ],
+    "mx_count": 1,
+    "ns": [
+      "ns1a.craigslist.org",
+      "ns1f.craigslist.org",
+      "ns2a.craigslist.org",
+      "ns2f.craigslist.org",
+      "ns9a.craigslist.org",
+      "ns9f.craigslist.org"
+    ],
+    "ns_count": 6,
+    "source": "DNS (résolveur système)",
+    "txt": [
+      "cisco-ci-domain-verification=49705dd0c370cf0b94605d2e2f8909106fd1e4062475d3c0d36b3e4272451dc3",
+      "abuseipdb-verification=sTNSJHO8",
+      "google-site-verification=o1PSo3G__Mi-abG-RR0Y_Ow2reaDoRqaBKzMQf2QDLE",
+      "yahoo-verification-key=MNHB1iJdRroJaPWyM/RsqcQKxzztspsTjcxwztW5ynQ=",
+      "v=spf1 ip4:208.82.237.96/29 ip4:208.82.237.104/31 ip4:208.82.238.96/29 ip4:208.82.238.104/31 -all"
+    ],
+    "txt_count": 5
+  },
+  "tool": "dns_records_lookup"
+}

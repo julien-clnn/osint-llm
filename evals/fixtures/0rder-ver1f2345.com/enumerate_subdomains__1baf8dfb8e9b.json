@@ -1,0 +1,15 @@
+{
+  "arguments": {
+    "domain": "0rder-ver1f2345.com"
+  },
+  "result": {
+    "domain": "0rder-ver1f2345.com",
+    "source": "crt.sh",
+    "subdomain_count": 1,
+    "subdomains": [
+      "0rder-ver1f2345.com"
+    ],
+    "truncated": false
+  },
+  "tool": "enumerate_subdomains"
+}

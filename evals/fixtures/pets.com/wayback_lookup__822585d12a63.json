@@ -1,0 +1,226 @@
+{
+  "arguments": {
+    "domain": "pets.com"
+  },
+  "result": {
+    "capture_count": 10000,
+    "date_range": {
+      "first": "1996-12-21",
+      "last": "2026-01-16"
+    },
+    "domain": "pets.com",
+    "interesting_urls": [
+      {
+        "timestamp": "2008-06-19",
+        "url": "http://pets.com:80/account/confirm/KKKr4vadB7ByL1aQXOpCbOHIn"
+      },
+      {
+        "timestamp": "2008-06-07",
+        "url": "http://www.pets.com:80/account/login"
+      },
+      {
+        "timestamp": "2009-09-15",
+        "url": "http://www.pets.com:80/admin"
+      },
+      {
+        "timestamp": "2008-06-19",
+        "url": "http://pets.com:80/admin/view"
+      },
+      {
+        "timestamp": "2008-06-18",
+        "url": "http://pets.com:80/admin/view/mboardcommentsunapproved"
+      },
+      {
+        "timestamp": "2008-06-19",
+        "url": "http://pets.com:80/admin/view/mboardunapproved"
+      },
+      {
+        "timestamp": "2008-06-19",
+        "url": "http://pets.com:80/admin/view/petphotosall/2/unapproved"
+      },
+      {
+        "timestamp": "2008-06-19",
+        "url": "http://pets.com:80/admin/view/petstoriesunapproved/2"
+      },
+      {
+        "timestamp": "2008-06-19",
+        "url": "http://pets.com:80/admin/view/profilediaryall/yesterday/unapproved"
+      },
+      {
+        "timestamp": "2008-06-19",
+        "url": "http://pets.com:80/admin/view/profilefriendcommentsall/yesterday/unapproved"
+      },
+      {
+        "timestamp": "2008-06-19",
+        "url": "http://pets.com:80/admin/view/profileunapproved/2"
+      },
+      {
+        "timestamp": "2000-02-29",
+        "url": "http://www.pets.com:80/associates/images/birdbutton.gif"
+      },
+      {
+        "timestamp": "2023-12-20",
+        "url": "http://pets.com/blog/wp-content/uploads/2009/05/golden"
+      },
+      {
+        "timestamp": "2023-06-20",
+        "url": "http://pets.com/blog/wp-content/uploads/2009/05/golden-parakeet-has-feather-plucking-on-left-"
+      },
+      {
+        "timestamp": "2009-07-15",
+        "url": "http://www.pets.com:80/blogapi/rsd"
+      },
+      {
+        "timestamp": "2010-05-07",
+        "url": "http://www.pets.com:80/blogs/62661/solution-no-lap-cats-cold-weather"
+      },
+      {
+        "timestamp": "2010-08-20",
+        "url": "http://www.pets.com:80/blogs/68053/pet-tested-martha-approved"
+      },
+      {
+        "timestamp": "2003-04-05",
+        "url": "http://www2.pets.com/cfdev/style.css"
+      },
+      {
+        "timestamp": "1999-09-02",
+        "url": "http://www.pets.com:80/cgi-bin/bbs-pets-coldblood.cgi"
+      },
+      {
+        "timestamp": "1999-11-28",
+        "url": "http://www.pets.com:80/cgi-bin/puppy/account/login.jsp"
+      },
+      {
+        "timestamp": "2000-03-02",
+        "url": "http://www.pets.com:80/cgi-bin/puppy/account/login.jsp?BV_UseBVCookie=YES"
+      },
+      {
+        "timestamp": "2008-04-11",
+        "url": "http://www.pets.com:80/cgi-bin/puppy/animal/home_editorial.jsp?BV_SessionID=@@@@1825024212.0939226066@@@@&BV_EngineID=ealfkgcfddgbedbecffcfgf.0&contentOID=13655"
+      },
+      {
+        "timestamp": "2008-04-11",
+        "url": "http://www.pets.com:80/cgi-bin/puppy/animal/home_editorial.jsp?BV_SessionID=@@@@1825024212.0939226066@@@@&BV_EngineID=ealfkgcfddgbedbecffcfgf.0&contentOID=13661"
+      },
+      {
+        "timestamp": "2008-04-11",
+        "url": "http://www.pets.com:80/cgi-bin/puppy/animal/home_editorial.jsp?BV_SessionID=@@@@1825024212.0939226066@@@@&BV_EngineID=ealfkgcfddgbedbecffcfgf.0&contentOID=13663"
+      },
+      {
+        "timestamp": "2007-08-23",
+        "url": "http://www.pets.com:80/cgi-bin/puppy/animal/home_editorial.jsp?BV_SessionID=@@@@1825024212.0939226066@@@@&BV_EngineID=ealfkgcfddgbedbecffcfgf.0&contentOID=16169"
+      },
+      {
+        "timestamp": "2008-04-10",
+        "url": "http://www.pets.com:80/cgi-bin/puppy/animal/home_editorial.jsp?BV_SessionID=@@@@1825024212.0939226066@@@@&BV_EngineID=ealfkgcfddgbedbecffcfgf.0&contentOID=18976"
+      },
+      {
+        "timestamp": "2019-03-16",
+        "url": "http://www.pets.com/cgi-bin/puppy/animal/home_editorial.jsp?BV_SessionID=@@@@1825024212.0939226066@@@@&BV_EngineID=ealfkgcfddgbedbecffcfgf.0&contentOID=19684"
+      },
+      {
+        "timestamp": "2019-03-16",
+        "url": "http://www.pets.com/cgi-bin/puppy/animal/home_editorial.jsp?BV_SessionID=@@@@1825024212.0939226066@@@@&BV_EngineID=ealfkgcfddgbedbecffcfgf.0&contentOID=24639"
+      },
+      {
+        "timestamp": "2000-01-26",
+        "url": "http://www.pets.com:80/cgi-bin/puppy/cart/shopping.jsp?%26BV_EngineID=ealfjhdjhdgbedbecffcfgh.0%26MODE=buy%26OID=12082"
+      },
+      {
+        "timestamp": "1999-11-27",
+        "url": "http://www.pets.com:80/cgi-bin/puppy/checkout/member_login_upon_checkout.jsp?"
+      },
+      {
+        "timestamp": "2021-06-10",
+        "url": "http://www.pets.com/cgi-bin/puppy/common/frameset.jsp?BV_SessionID=@@@@1504512324.0939414838@@@@&BV_EngineID=calflfhmijjbedbecffcfgh.0"
+      },
+      {
+        "timestamp": "2013-05-30",
+        "url": "http://pets.com/cgi-bin/puppy/common/frameset.jsp?BV_SessionID=@@@@1038294146.0939732004@@@@&BV_EngineID=calflfhmllfbedbecffcfgj.0"
+      },
+      {
+        "timestamp": "2021-04-11",
+        "url": "http://www.pets.com/cgi-bin/puppy/common/frameset.jsp?BV_SessionID=@@@@0372881363.0939736391@@@@&BV_EngineID=dalflfhmkggbedbecffcfgi.0"
+      },
+      {
+        "timestamp": "2011-04-30",
+        "url": "http://pets.com/cgi-bin/puppy/common/frameset.jsp?BV_SessionID=@@@@1172668505.0939726550@@@@&BV_EngineID=falflfidgkgbedbecffcfgm.0"
+      },
+      {
+        "timestamp": "2018-03-23",
+        "url": "http://pets.com:80/cgi-bin/puppy/common/header.jsp?BV_SessionID=@@@@0538754734.0939820945@@@@&BV_EngineID=falfljklljgbedbecffcfgi.0"
+      },
+      {
+        "timestamp": "2000-11-19",
+        "url": "http://www.pets.com:80/cgi-bin/puppy/external/partner_start.jsp?partner=disney&ref=disneyref&desturl=/cgi-bin/puppy/products/category_home.jsp?BV_UseBVCookie%3dYES%26oid%3d-10831%26animal%3dBirds&parPage=1"
+      },
+      {
+        "timestamp": "2000-11-19",
+        "url": "http://www.pets.com:80/cgi-bin/puppy/external/partner_start.jsp?partner=disney&ref=disneyref&desturl=/cgi-bin/puppy/products/category_home.jsp?BV_UseBVCookie%3dYES%26oid%3d-10844%26animal%3dBirds&parPage=1"
+      },
+      {
+        "timestamp": "2000-11-19",
+        "url": "http://www.pets.com:80/cgi-bin/puppy/external/partner_start.jsp?partner=disney&ref=disneyref&desturl=/cgi-bin/puppy/products/category_home.jsp?BV_UseBVCookie%3dYES%26oid%3d-10877%26animal%3dBirds&parPage=1"
+      },
+      {
+        "timestamp": "2000-11-19",
+        "url": "http://www.pets.com:80/cgi-bin/puppy/external/partner_start.jsp?partner=disney&ref=disneyref&desturl=/cgi-bin/puppy/products/category_home.jsp?BV_UseBVCookie%3dYES%26oid%3d-10902%26animal%3dBirds&parPage=1"
+      },
+      {
+        "timestamp": "2018-03-23",
+        "url": "http://pets.com:80/cgi-bin/puppy/home/home.jsp?BV_SessionID=@@@@0538754734.0939820945@@@@&BV_EngineID=falfljklljgbedbecffcfgi.0"
+      }
+    ],
+    "sample_urls": [
+      "http://pets.com:80/",
+      "http://www.pets.com/%22,",
+      "http://www.pets.com:80/%22target=%22_blank",
+      "http://www.pets.com:80/%20onmousedown=",
+      "http://pets.com/%E2%80%99",
+      "http://pets.com/%E7%89%B9%E6%96%AF%E6%8B%89%E6%98%AF%E4%B8%80%E5%AE%B6%E4%BC%9F%E5%A4%A7%E7%9A%84%E5%85%AC%E5%8F%B8%EF%BC%8C%E5%AE%83%E5%B0%86%E6%94%B9%E5%8F%98%E4%B8%96%E7%95%8C%EF%BC%8C%E5%9B%A0%E6%AD%A4",
+      "http://pets.com/%E7%89%B9%E6%96%AF%E6%8B%89%E6%98%AF%E4%B8%80%E5%AE%B6%E4%BC%9F%E5%A4%A7%E7%9A%84%E5%85%AC%E5%8F%B8%EF%BC%8C%E5%AE%83%E5%B0%86%E6%94%B9%E5%8F%98%E4%B8%96%E7%95%8C%EF%BC%8C%E5%9B%A0%E6%AD%A4%E4%BA%BA%E4%BB%AC%E5%87%A0%E4%B9%8E%E5%80%BC%E5%BE%97%E4%B8%BA%E6%AD%A4%E6%94%AF%E4%BB%98%E4%BB%BB%E4%BD%95%E4%BB%B7%E6%A0%BC%E3%80%82%E2%80%9D",
+      "http://pets.com/%E7%89%B9%E6%96%AF%E6%8B%89%E6%98%AF%E4%B8%80%E5%AE%B6%E4%BC%9F%E5%A4%A7%E7%9A%84%E5%85%AC%E5%8F%B8%EF%BC%8C%E5%AE%83%E5%B0%86%E6%94%B9%E5%8F%98%E4%B8%96%E7%95%8C%EF%BC%8C%E5%9B%A0%E6%AD%A4%E4%BA%BA%E4%BB%AC%E5%87%A0%E4%B9%8E%E5%80%BC%E5%BE%97%E4%B8%BA%E6%AD%A4%E6%94%AF%E4%BB%98%E4%BB%BB%E4%BD%95%E4%BB%B7%E6%A0%BC%E3%80%82%E2%80%9D%E5%8D%A1%E5%B0%BC%E6%9B%BC%E3%80%81%E7%89%B9%E6%B2%83%E6%96%AF%E5%9F%BA%E5%92%8C%E5%85%B6%E4%BB%96%E7%A0%94%E7%A9%B6%E4%BA%BA%E5%91%98%E8%BF%98%E5%8F%91%E7%8E%B0%EF%BC%8C%E6%9C%80%E6%9C%89%E5%8A%9B%E7%9A%84%E5%90%AF%E5%8F%91%E6%B3%95%E4%B9%8B%E4%B8%80%E6%98%AF%E4%BA%BA%E7%B1%BB%E5%AF%B9%E6%98%BE%E8%91%97%E6%80%A7%E4%BA%8B%E4%BB%B6%E7%9A%84%E6%95%8F%E6%84%9F%E6%80%A7%EF%BC%8C%E5%8D%B3%E8%BF%87%E5%88%86%E5%BC%BA%E8%B0%83%E5%BC%95%E4%BA%BA%E6%B3%A8%E7%9B%AE%E7%9A%84%E4%BA%8B%E4%BB%B6%E3%80%82%E2%80%9C9%C2%B711%E2%80%9D%E8%A2%AD%E5%87%BB%E6%98%AF%E4%B8%80%E4%B8%AA%E6%9E%81%E7%AB%AF%E4%BE%8B%E5%AD%90%EF%BC%8C%E5%AE%83%E6%98%AF%E8%BF%87%E5%8E%BB%E5%8D%8A%E4%B8%AA%E4%B8%96%E7%BA%AA%E4%B8%AD%E5%85%B7%E6%9C%89%E5%86%B3%E5%AE%9A%E6%80%A7%E6%84%8F%E4%B9%89%E7%9A%84%E7%BE%8E%E5%9B%BD%E4%BA%8B%E4%BB%B6%EF%BC%8C%E9%80%A0%E6%88%90%E8%BF%913000%E4%BA%BA%E6%AD%BB%E4%BA%A1%E3%80%82%E2%80%9C9%C2%B711%E2%80%9D%E5%90%8E%EF%BC%8C%E5%8D%B3%E4%BD%BF%E6%98%AF%E5%8F%AA%E5%AF%BC%E8%87%B4%E4%B8%80%E4%BA%BA%E6%AD%BB%E4%BA%A1%E7%9A%84%E6%81%90%E6%80%96%E8%A2%AD%E5%87%BB%E4%B9%9F%E4%BC%9A%E6%88%90%E4%B8%BA%E5%A4%B4%E6%9D%A1%E6%96%B0%E9%97%BB%EF%BC%8C%E4%BD%86%E5%AA%92%E4%BD%93%E5%9F%BA%E6%9C%AC%E4%B8%8A%E6%B2%A1%E6%9C%89%E6%B3%A8%E6%84%8F%E5%88%B0%E6%99%AE%E9%80%9A%E6%9E%AA%E6%94%AF%E6%9A%B4%E5%8A%9B%E3%80%81%E7%B1%BB%E9%B8%A6%E7%89%87%E6%88%96%E8%BD%A6%E7%A5%B8%E5%AF%BC%E8%87%B4%E7%9A%84%E4%B8%AA%E4%BA%BA%E6%AD%BB%E4%BA%A1%E4%BA%8B%E4%BB%B6%EF%BC%8C%E5%B0%BD%E7%AE%A1%E5%9C%A8%E7%BE%8E%E5%9B%BD%EF%BC%8C%E8%BF%99%E4%B8%89%E7%B1%BB%E4%BA%8B%E4%BB%B6%E6%AF%8F%E5%B9%B4%E9%83%BD%E5%AF%BC%E8%87%B43%E4%B8%87%E5%A4%9A%E4%BA%BA%E4%B8%A7%E7%94%9F%E3%80%82",
+      "http://pets.com/&a=Pets.com",
+      "http://pets.com:80/%26srv%3D-1%26bmk%3D",
+      "http://pets.com:80/&srv=-1&bmk=&client=3",
+      "http://pets.com:80/&srv=-1&bmk=&srv=-1&bmk=",
+      "http://www.pets.com:80/'TARGET='nu",
+      "http://pets.com/)",
+      "http://www.pets.com/100amazondelivers",
+      "http://www.pets.com:80/100amazonorder",
+      "http://www.pets.com:80/100amazonorder/?siteid=11301529",
+      "http://www.pets.com:80/100amzndelivers",
+      "http://www.pets.com:80/102thanks",
+      "http://www.pets.com:80/12-22-3pcs-100gpiece-1-jet-black-body-wavy-virgin-brazilian-remy-hair-weft-p-347.html",
+      "http://www.pets.com:80/12-22-3pcs-100gpiece-1-jet-black-straight-virgin-peruvian-remy-hair-weft-p-364.html",
+      "http://www.pets.com:80/120lbnc10000626",
+      "http://www.pets.com:80/1239573207",
+      "http://www.pets.com:80/15maymag",
+      "http://www.pets.com/15maymag/?http://service.bfast.com/bfast/click/mid1946520?siteid=29623012&bfpage=coupon",
+      "http://www.pets.com/15maymag/?http:",
+      "http://www.pets.com:80/15maymag/?http://service.bfast.com/bfast/click/mid1946520?siteid=11278543",
+      "http://www.pets.com:80/15maymag/?http://service.bfast.com/bfast/click/mid1946520?siteid=27722525",
+      "http://www.pets.com:80/180lb1000nm0621",
+      "http://pets.com/2010/7/12/1565848/commissioner-bettman-overpaid-an",
+      "http://pets.com/20in2020",
+      "http://www.pets.com:80/2welcome",
+      "http://www.pets.com:80/302thanks",
+      "http://www.pets.com/32",
+      "http://www.pets.com:80/34welcome",
+      "http://www.pets.com/5",
+      "http://www.pets.com:80/56welcome",
+      "http://www.pets.com/56welcome.",
+      "http://www.pets.com/56welcome?http://service.bfast.com/bfast/click?bfmid=1946520&siteid=10464953&bfpage=home",
+      "http://www.pets.com/56welcome?http://service.bfast.com/bfast/click?bfmid=1946520&siteid=19471840&bfpage=home"
+    ],
+    "source": "web.archive.org",
+    "subdomain_count": 3,
+    "subdomains": [
+      "pets.com",
+      "www.pets.com",
+      "www2.pets.com"
+    ],
+    "truncated": true
+  },
+  "tool": "wayback_lookup"
+}

@@ -1,0 +1,15 @@
+{
+  "arguments": {
+    "domain": "aspenriver6.com"
+  },
+  "result": {
+    "domain": "aspenriver6.com",
+    "source": "crt.sh",
+    "subdomain_count": 1,
+    "subdomains": [
+      "aspenriver6.com"
+    ],
+    "truncated": false
+  },
+  "tool": "enumerate_subdomains"
+}

@@ -1,0 +1,225 @@
+{
+  "arguments": {
+    "domain": "lemonde.fr"
+  },
+  "result": {
+    "capture_count": 10000,
+    "date_range": {
+      "first": "1996-10-19",
+      "last": "2026-09-08"
+    },
+    "domain": "lemonde.fr",
+    "interesting_urls": [
+      {
+        "timestamp": "2020-11-15",
+        "url": "http://lemonde.fr/%22,%22external_url_linkshimmed%22:%22https://l.instagram.com/?u=http%3A%2F%2Flemonde.fr%2F\\u0026e=ATMly743yJUOqIGeZGYJO2v7en1u-l1elm6XNG_XuYmzfqEOP48dxcuoD9jX3s8vzWEbkukSGkrr4DbP\\u0026s=1\",\"edge_followed_by\":{\"count\":1334776},\"followed_by_viewer\":false,\"edge_follow\":{\"count\":1870},\"follows_viewer\":false,\"full_name\":\"Le"
+      },
+      {
+        "timestamp": "2011-12-18",
+        "url": "http://www.lemonde.fr/%22clsid:d27cdb6e-ae6d-11cf-96b8-444553540000/%22"
+      },
+      {
+        "timestamp": "2023-12-28",
+        "url": "http://www.lemonde.fr/%20en/economy/article/2022/05/12/war-in-ukraine-threatens-the-world-s-breadbasket_5983258_19.html"
+      },
+      {
+        "timestamp": "2026-02-02",
+        "url": "http://www.lemonde.fr/%20https://imgur.com/uqXnv4y%20Mozilla%20Firefox%2045.0%20%28on%20GNU/Linux%29%20Greasemonkey%20Adblock%20Plus%20Liste%20FR%20EasyList%20+%20Adblock%20Warning%20Removal%20List%20+%20EasyList%20Germany%20+%20AakList%20+%20Malwar..."
+      },
+      {
+        "timestamp": "2026-02-02",
+        "url": "http://www.lemonde.fr/%20https://imgur.com/uqXnv4y%20Mozilla%20Firefox%2045.0%20%28on%20GNU/Linux%29%20Greasemonkey%20Adblock%20Plus%20Liste%20FR%20EasyList%20+%20Adblock%20Warning%20Removal%20List%20+%20EasyList%20Germany%20+%20AakList%20+%20Malware%20Domains%20+%20Prebake%20Filters%20Obstructive%20..."
+      },
+      {
+        "timestamp": "2026-01-28",
+        "url": "https://www.lemonde.fr/%C2%ADblog/%C2%ADbinaire/"
+      },
+      {
+        "timestamp": "2021-06-13",
+        "url": "https://www.lemonde.fr/%C3%A9conomise/article/2021/06/13/soldes-un-collectif-de-commercants-reclame-une-equite-de-traitement-face-a-amazon_6083914_3234.html"
+      },
+      {
+        "timestamp": "2025-08-17",
+        "url": "https://www.lemonde.fr/%E2%80%A6/il-n-y-a-pas-de-miracle-nous-devro%E2%80%A6"
+      },
+      {
+        "timestamp": "2021-04-11",
+        "url": "http://www.lemonde.fr/%E2%80%A6/refus-de-soins-des-medecins-le-test%E2%80%A6"
+      },
+      {
+        "timestamp": "2010-10-06",
+        "url": "http://www.lemonde.fr/).append(this._dialogInput);a=this._dialogInst=this._newInst(this._dialogInput,false);a.settings=%7B%7D;d.data(this._dialogInput%5B0%5D,"
+      },
+      {
+        "timestamp": "2010-10-06",
+        "url": "http://www.lemonde.fr/);if(f.length===1)f=m.test(f%5B0%5D)?f.concat(["
+      },
+      {
+        "timestamp": "2010-09-18",
+        "url": "http://www.lemonde.fr/);%7D;e.quoteString=function(a)%7Bif(a.match(i))return'"
+      },
+      {
+        "timestamp": "2010-11-04",
+        "url": "http://www.lemonde.fr/);%7Dc=google%5BA%5D.GoogleApisBase+"
+      },
+      {
+        "timestamp": "2010-08-11",
+        "url": "http://www.lemonde.fr/);%7Dc=google%5Bz%5D.GoogleApisBase+"
+      },
+      {
+        "timestamp": "2025-01-19",
+        "url": "https://www.lemonde.fr/-nQ8UfNhve.1OiPq56Jfp1xp81Sf95h1t1wpTb5nfnKY3GsB.yo2zDB_U8WwxwfAkN5CjZf1ywTQ8sGL3sJV0lAy_tz7Y9YAtNx33vFKm6Ow0s_fURGxpGmjJ6v1qDJuHIxvxZq9W81Mr2jnRt39YkUZ3vApG04Yop"
+      },
+      {
+        "timestamp": "2020-05-31",
+        "url": "http://lemonde.fr/-preprod.sandbox"
+      },
+      {
+        "timestamp": "2025-08-04",
+        "url": "http://www.lemonde.fr/-travailleurs-sans-papiers-en-greve"
+      },
+      {
+        "timestamp": "2025-02-20",
+        "url": "https://www.lemonde.fr/-wG4a1lbu3M7luRj_qR1.7K5j7b15yQ7u7I5u8owhw4y_qAfHQ2FqVU9MMLJ3A3VqtvtYo1v4v.AZyvjQJhLaW3AXp3ubP5VoHp6UjG0Ohp-DB6hvvI2AAuswZ7Zfz1FR.YXvH7LXjV6O5WO1L2pa4KOnlD5CnavRNqJBN2r3.fUH62K0nBQHVjxMKJPN1qOcR0cp0cX0-21bkykCApM5FWRjOTSv_cUf61wx1muPJkO7QhY3-TDpOB86CjOYMk3Z2cCB31iaHSa5NFXpyBGljjlDMYH9lQVC.vFUx5RtQfK.t02tSmhbQJ850Mni2FyX5YjUJA3nsFFuMn6qTQajOx"
+      },
+      {
+        "timestamp": "2024-12-20",
+        "url": "https://www.lemonde.fr/-xJd58-6S9fm0fn5shC8vmC7mmH8ir4m0m.7.wmxxxsDB0o.awChfVk879yh-Z5_LTU0B_h-X66oGAwHkcSPWKK_C6A.bsQuAkabBsDTi_phY"
+      },
+      {
+        "timestamp": "2024-12-27",
+        "url": "https://www.lemonde.fr/-xYmQyqfNwM2ts6h_ihyN2v4p2lyPgl2M2u4-6Sx0xWZyahuoZOt2DFHtDP.DTF_rkR_UAI-o4lz7a_PKwS9o9kH.ik.Hn2zQmruYyoUDbx7RS2zs4-vkYRhjO-.iS.cKl_-ZMQ4XfbSmNBVCy3ssChqxwmBfZ6-jPX.sCrylc73YNJo9yC_ZsFDVSf-r684p4nyRtjqZpnUQ1hl8fQuFGNK5mbHLhI5c3sVA-fP2hND1QWxx78VbF_Zfk6i"
+      },
+      {
+        "timestamp": "2021-04-08",
+        "url": "https://www.lemonde.fr/.../covid-19-les-tests-naso"
+      },
+      {
+        "timestamp": "2022-07-17",
+        "url": "https://www.lemonde.fr/.../devant-les-deputes-lrm-macron"
+      },
+      {
+        "timestamp": "2022-10-23",
+        "url": "https://www.lemonde.fr/.../et-si-tout-devenait-gratuit"
+      },
+      {
+        "timestamp": "2025-01-11",
+        "url": "http://www.lemonde.fr/.../la-cour-administrative-de-jakarta-accepte-d-examiner-l..."
+      },
+      {
+        "timestamp": "2020-04-28",
+        "url": "http://www.lemonde.fr/.../le-mur-de-berlin-du-capitalisme-par-arnaud-montebourg_1108890_...%20/%28consulter%20le%2030.08.2015"
+      },
+      {
+        "timestamp": "2023-08-07",
+        "url": "https://www.lemonde.fr/.../venus-devient-pour-quelques.../"
+      },
+      {
+        "timestamp": "2024-09-08",
+        "url": "https://www.lemonde.fr/...monde/edition-du-7-8-2.https://cambridgeanalytica.org/https://www.recode.net/2018/.../full-text-facebook-mark-zuckerberg-testimony-"
+      },
+      {
+        "timestamp": "2024-09-08",
+        "url": "https://www.lemonde.fr/...monde/edition-du-7-8-2.https://cambridgeanalytica.org/https://www.recode.net/2018/.../full-text-facebook-mark-zuckerberg-testimony-congr"
+      },
+      {
+        "timestamp": "2024-09-08",
+        "url": "https://www.lemonde.fr/...monde/edition-du-7-8-2.https://cambridgeanalytica.org/https://www.recode.net/2018/.../full-text-facebook-mark-zuckerberg-testimony-congr...https.//www-pub.iaea.org"
+      },
+      {
+        "timestamp": "2024-12-30",
+        "url": "https://www.lemonde.fr/.6SuHaihMnxiCeS2mvvaKivtciMaGqbiFiStq376m6AaPH3TlRj5TyHDIlY0zyHxk9npB8PTMcfn.afUakoDPnNc1WaDqInPoC2fvIo0.SKhS_Cw.2jMORF8yRn0tUbhJpB-y9.lxpzc62kLbKxwHhYJnS8HZS_nsNT3WTVubqTUADIvyM51-qTJ_bizH-w2iy-Y2XbBxcQ.m5fwcGNB4IfT2.IX9ka.fkLHjTqh_9MXnV543Bk3OnGv2nfqqBYKrGiYkJo3yCbix0m-NNDBth7A5SfK9py2sUCyWDuTO7DbufMzSXGWyX6DiYwfPFmYZXIp88K7cJQ"
+      },
+      {
+        "timestamp": "2024-12-24",
+        "url": "https://www.lemonde.fr/.dbyRkrsu-ijOew9t57k9j5rFj-kbcmj9j1r8wpdTdPJkA7D3Ok1SGhFbf1yATvvBN7bjxv0kfxUcnXQLRV8mUywpsPt6Y2VA239cV.9YilSpfTqK0cSv019A_cWHOLGD.oFo-F8Yr4U5u3pPtzx81ZuXOx4_ZQoqG3TJAxzFPxaiRfbONGMPYSnq.5R"
+      },
+      {
+        "timestamp": "2010-11-24",
+        "url": "http://www.lemonde.fr/.envoyez"
+      },
+      {
+        "timestamp": "2011-11-11",
+        "url": "http://www.lemonde.fr/.mdb"
+      },
+      {
+        "timestamp": "2025-02-11",
+        "url": "https://www.lemonde.fr/.nbflzjh2dBrBwSth3pzLrfqDrfz5u0rHrBqF9mnLnBsmfDuK8IhiwO1tQ2sbyDnkDWYZ3yFBb1fP5wsKVbYFIxnJUkmCihNYsXiCw7G_53RaNa_r_.BuWhtJqxqVOCP2uu4.K9rwM.PqmN2ON5J8D3YUZfhV9mkl.X9wbCkT1wvs6rDXp8.-blunSs5nyh3lnv_w-RTU2HaDDx-Uh0uLvqmL40yyNrFJmr5-n89NviMi0.yPpzLRUqUoPlnK3oKKfUQc5fj03rT6TJcL-pr4zO1pusL.b5o6vi8PLT1jt6k2lkJcyAV8YFlVO4oNoWVGB_hj6RSLu03KLw.0ACHaBQ"
+      },
+      {
+        "timestamp": "2011-11-11",
+        "url": "http://www.lemonde.fr/.old"
+      },
+      {
+        "timestamp": "2010-10-06",
+        "url": "http://www.lemonde.fr/.ui-sortable-placeholder"
+      },
+      {
+        "timestamp": "2011-11-11",
+        "url": "http://www.lemonde.fr/.wdb"
+      },
+      {
+        "timestamp": "2023-05-31",
+        "url": "https://lemonde.fr/.well-known/openid-configuration"
+      },
+      {
+        "timestamp": "2006-08-19",
+        "url": "http://www.lemonde.fr:80/0.h?url_zop=http:%2f%2fabonnes.lemonde.fr%2fcgi-bin%2fACHATS%2fARCHIVES%2farchives.cgi%3fID=20aa5911a75d6955f6a604e23d58777b4edb1c619f39e62a"
+      },
+      {
+        "timestamp": "2024-12-10",
+        "url": "https://www.lemonde.fr/0.IeRkui67slXmfpwqDkRlMhOlDk43almlshpn-.u._KhRjlS64hT5_Il5McWOLiHWFvSk1jJbaU.jwOSB_Xp41.nqsGlRR1iqS-a9s2m4La9HpBsOZctNLzqJOQ.nnX8yatxSOFv-BisRy8mjjjDpq0Hw-GF1qQVMvn6P0_qRJk9FQWnSWM8WRBYGjJ64q0k7K2nLjUzC56spw1Ptr6XkMvS0iJFtaO5MrqwBN8Wzk.AYITa54z.sL7H.VZ4tVFjYhasKQW.kCwwGtaQ1OtqztTNKu3vnZwO3U.jIot1HJZX5NWO5qAWD5L_OMQF78-C1sGVQ_ZH6OVS-k7OzJ9j5B"
+      }
+    ],
+    "sample_urls": [
+      "http://www.lemonde.fr:80/",
+      "http://www.lemonde.fr/!",
+      "https://www.lemonde.fr/%21%EF%BF%BD",
+      "http://www.lemonde.fr/!==lmd.context.element.type&&lmd.context.element.type&&",
+      "http://www.lemonde.fr/!==lmd.context.element.type&&lmd.context.element.type;&&",
+      "http://www.lemonde.fr/!==lmd.context.element.type.nom&&",
+      "http://www.lemonde.fr/!=b.type?c+=",
+      "http://lemonde.fr/!deesLarticle/2011~04/08!l-",
+      "http://www.lemonde.fr:80/%22",
+      "http://www.lemonde.fr/%22%20%5Ct%20%22_blank",
+      "https://www.lemonde.fr/%22%%apple%%/%22",
+      "https://www.lemonde.fr/%22%%link%%/%22",
+      "https://www.lemonde.fr/%22%%rss%%/%22",
+      "https://www.lemonde.fr/%22%%spotify%%/%22",
+      "https://www.lemonde.fr/%22%%src%%/%22",
+      "https://www.lemonde.fr/%22%%castbox%%/%22",
+      "http://www.lemonde.fr/%22+this.a+%22",
+      "https://www.lemonde.fr/%22,",
+      "http://www.lemonde.fr/%22,%22_blank%22)).focus()",
+      "http://www.lemonde.fr/%22,%22_blank%22)).focus();",
+      "https://www.lemonde.fr/%22,%22articleSection%22:%22%CE%9A%CF%8C%CF%83%CE%BC%CE%BF%CF%82",
+      "https://www.lemonde.fr/%22,%22blocks",
+      "https://www.lemonde.fr/%22,%22domain%22:%22https://arcade.lemonde.fr/%22,%22logoPath%22:%22//arenacloud.cdn.arkadiumhosted.com/arenaxstorage-blob/arenax-index/arcade.lemonde.fr/assets/png/logo.png%22,%22locale%22:%22fr%22,%22headerBgColorHex%22:%22%22,%22headerTextColorHex%22:%22%22,%22adRefreshTimeMs%22:0,%22supportRewardVideo%22:false,%22supportInterstitialVideo%22:false,%22ads",
+      "https://www.lemonde.fr/%22,%22domain%22:%22https://arcade.lemonde.fr/%22,%22logoPath%22:%22//arenacloud.cdn.arkadiumhosted.com/arenaxstorage-blob/arenax-index/arcade.lemonde.fr/assets/png/logo.png%22,%22locale%22:%22fr%22,%22headerBgColorHex%22:%22%22,%22headerTextColorHex%22:%22%22,%22adRefreshTimeMs%22:0,%22supportRewardVideo%22:true,%22supportInterstitialVideo%22:true,%22ads",
+      "http://www.lemonde.fr:80/\".htm",
+      "https://www.lemonde.fr/%22/%22",
+      "http://www.lemonde.fr/%22/culture/article/2013/08/07/un-film-muet-inedi",
+      "https://www.lemonde.fr/%22/resultats-legislatives-2024//%22",
+      "https://www.lemonde.fr/%22//signataires//francoise-fressoz///%22",
+      "https://www.lemonde.fr/%22//signataires//guillaume-perrier///%22",
+      "https://www.lemonde.fr/%22//signataires//matthieu-goar///%22",
+      "https://www.lemonde.fr/%22//signataires//nicolas-chapuis///%22",
+      "https://www.lemonde.fr/%22//signataires//pierre-barthelemy///%22",
+      "http://www.lemonde.fr:80/%22=%22_blank",
+      "https://www.lemonde.fr/%22%3E",
+      "http://www.lemonde.fr:80/%22%3E%3Ci%3E",
+      "http://www.lemonde.fr/%22%5D*((?:[/w/u00c0-/uFFFF-]|//.)+)[",
+      "http://www.lemonde.fr/%22%5D*((?:[/w/u00c0-/uFFFF/-]|//.)+)[",
+      "http://www.lemonde.fr:80/%22_new",
+      "http://www.lemonde.fr:80/%22_top"
+    ],
+    "source": "web.archive.org",
+    "subdomain_count": 2,
+    "subdomains": [
+      "lemonde.fr",
+      "www.lemonde.fr"
+    ],
+    "truncated": true
+  },
+  "tool": "wayback_lookup"
+}

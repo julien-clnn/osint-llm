@@ -1,0 +1,27 @@
+{
+  "arguments": {
+    "target": "craigslist.org"
+  },
+  "result": {
+    "ip_count": 1,
+    "locations": [
+      {
+        "as": "AS22414 Craigslist, Inc.",
+        "city": "San Francisco",
+        "country": "United States",
+        "country_code": "US",
+        "ip": "208.82.237.129",
+        "isp": "Craigslist, Inc.",
+        "lat": 37.7794,
+        "lon": -122.4176,
+        "org": "Craigslist, Inc.",
+        "region": "California"
+      }
+    ],
+    "resolved_from_domain": "craigslist.org",
+    "source": "ip-api.com",
+    "target": "craigslist.org",
+    "truncated": false
+  },
+  "tool": "ip_geolocate"
+}

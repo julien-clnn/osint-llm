@@ -1,0 +1,40 @@
+{
+  "arguments": {
+    "domain": "pets.com"
+  },
+  "result": {
+    "categories": [],
+    "domain": "pets.com",
+    "enabled": true,
+    "found": true,
+    "harmless_votes": 0,
+    "last_analysis_stats": {
+      "harmless": 56,
+      "malicious": 0,
+      "suspicious": 0,
+      "undetected": 33
+    },
+    "malicious_votes": 0,
+    "passive_dns": [
+      {
+        "ip_address": "3.33.139.32",
+        "last_resolved": 1669304634
+      },
+      {
+        "ip_address": "72.52.10.14",
+        "last_resolved": 1575319732
+      },
+      {
+        "ip_address": "40.76.84.40",
+        "last_resolved": 1456963200
+      },
+      {
+        "ip_address": "164.109.104.160",
+        "last_resolved": 1404086400
+      }
+    ],
+    "reputation": 0,
+    "source": "www.virustotal.com"
+  },
+  "tool": "virustotal_lookup"
+}

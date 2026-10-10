@@ -1,0 +1,44 @@
+{
+  "arguments": {
+    "domain": "service-public.fr"
+  },
+  "result": {
+    "domain": "service-public.fr",
+    "email_security": {
+      "dkim_note": "Sélecteurs DKIM courants testés uniquement ; une absence ici ne prouve pas l'absence de DKIM.",
+      "dkim_selectors_found": [
+        "mail"
+      ],
+      "dmarc": false,
+      "dmarc_policy": null,
+      "spf": true,
+      "spf_record": "v=spf1 a mx ip4:160.92.140.180 ip4:160.92.140.181 ip4:160.92.169.107 ip4:160.92.169.108 ip4:160.92.64.63 ip4:162.19.70.41 ~all"
+    },
+    "mx": [
+      "10 relay1-c.dila.fr",
+      "20 relay2-c.dila.fr"
+    ],
+    "mx_count": 2,
+    "ns": [
+      "ns1.dila.fr",
+      "ns2.dila.fr",
+      "ns3.dila.fr",
+      "ns4.dila.fr"
+    ],
+    "ns_count": 4,
+    "source": "DNS (résolveur système)",
+    "txt": [
+      "Certeurope=pkDOigo1cgWmXl4EqsAqgLrxV9XGwe",
+      "globalsign-domain-verification=90Imha7BmNE8fFRuR3O0nNR0Y1ZI0gZJIK1AX-RNfv",
+      "globalsign-domain-verification=a-4jyavhks-4SbgbiHOBri-SMYuDfZv9X7KH4AspQx",
+      "Certeurope=KmboKX9UfEIFvFnf8bPmMhNYMKT3XP",
+      "globalsign-domain-verification=6gevC9HQbaE5vWWBVoXWdwKpbo8ub3c4x-VRdufB6j",
+      "v=spf1 a mx ip4:160.92.140.180 ip4:160.92.140.181 ip4:160.92.169.107 ip4:160.92.169.108 ip4:160.92.64.63 ip4:162.19.70.41 ~all",
+      "globalsign-domain-verification=k1AfsXSmTonzjAJFXZq2Jnc7NZfwuy4_Tt0L3auHzm",
+      "globalsign-domain-verification=KWD0IR3KB24ls5Tz5UQH2vJ1BNPefq02hHKrKO_wEY",
+      "globalsign-domain-verification=472-d_RPq1DsLRQAa5fQMJrQCTbsMI289p8i8uq0KO"
+    ],
+    "txt_count": 9
+  },
+  "tool": "dns_records_lookup"
+}

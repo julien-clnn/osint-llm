@@ -1,0 +1,39 @@
+{
+  "arguments": {
+    "domain": "theglobe.com"
+  },
+  "result": {
+    "domain": "theglobe.com",
+    "email_security": {
+      "dkim_note": "Sélecteurs DKIM courants testés uniquement ; une absence ici ne prouve pas l'absence de DKIM.",
+      "dkim_selectors_found": [
+        "default",
+        "google",
+        "selector1",
+        "selector2",
+        "k1",
+        "dkim",
+        "mail"
+      ],
+      "dmarc": false,
+      "dmarc_policy": null,
+      "spf": true,
+      "spf_record": "v=spf1 ip6:fd43:c0d1:c090::/48 -all"
+    },
+    "mx": [
+      "1 mail.mailerhost.net"
+    ],
+    "mx_count": 1,
+    "ns": [
+      "anan.ns.giantpanda.com",
+      "fubao.ns.giantpanda.com"
+    ],
+    "ns_count": 2,
+    "source": "DNS (résolveur système)",
+    "txt": [
+      "v=spf1 ip6:fd43:c0d1:c090::/48 -all"
+    ],
+    "txt_count": 1
+  },
+  "tool": "dns_records_lookup"
+}

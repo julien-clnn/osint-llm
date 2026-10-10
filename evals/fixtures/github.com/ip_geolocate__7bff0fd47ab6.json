@@ -1,0 +1,27 @@
+{
+  "arguments": {
+    "target": "github.com"
+  },
+  "result": {
+    "ip_count": 1,
+    "locations": [
+      {
+        "as": "AS36459 GitHub, Inc.",
+        "city": "Frankfurt am Main",
+        "country": "Germany",
+        "country_code": "DE",
+        "ip": "140.82.121.4",
+        "isp": "GitHub, Inc.",
+        "lat": 50.1169,
+        "lon": 8.6837,
+        "org": "GitHub, Inc.",
+        "region": "Hesse"
+      }
+    ],
+    "resolved_from_domain": "github.com",
+    "source": "ip-api.com",
+    "target": "github.com",
+    "truncated": false
+  },
+  "tool": "ip_geolocate"
+}

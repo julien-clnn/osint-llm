@@ -1,0 +1,35 @@
+{
+  "arguments": {
+    "domain": "wikipedia.org"
+  },
+  "result": {
+    "domain": "wikipedia.org",
+    "email_security": {
+      "dkim_note": "Sélecteurs DKIM courants testés uniquement ; une absence ici ne prouve pas l'absence de DKIM.",
+      "dkim_selectors_found": [],
+      "dmarc": true,
+      "dmarc_policy": "reject",
+      "spf": true,
+      "spf_record": "v=spf1 include:_cidrs.wikimedia.org ~all"
+    },
+    "mx": [
+      "10 mx-in1001.wikimedia.org",
+      "10 mx-in2001.wikimedia.org"
+    ],
+    "mx_count": 2,
+    "ns": [
+      "ns0.wikimedia.org",
+      "ns1.wikimedia.org",
+      "ns2.wikimedia.org"
+    ],
+    "ns_count": 3,
+    "source": "DNS (résolveur système)",
+    "txt": [
+      "v=spf1 include:_cidrs.wikimedia.org ~all",
+      "google-site-verification=AMHkgs-4ViEvIJf5znZle-BSE2EPNFqM1nDJGRyn2qk",
+      "yandex-verification: 35c08d23099dc863"
+    ],
+    "txt_count": 3
+  },
+  "tool": "dns_records_lookup"
+}

@@ -1,0 +1,30 @@
+domain: sourceforge.net
+subdomains:
+  expected_count: 95
+  known_sample:
+  - 10gbps-io.dl.sourceforge.net
+  - aax-related.sourceforge.net
+  - altushost-swe.dl.sourceforge.net
+  - astuteinternet.dl.sourceforge.net
+  - ayera.dl.sourceforge.net
+  known_exclusions: []
+email_security:
+  spf: true
+  dmarc: true
+  dmarc_policy: quarantine
+  dkim_selectors_found: []
+network:
+  expected_asn: 13335
+  expected_org_substring: Cloudflare
+  behind_cdn_proxy: true
+reputation:
+  verdict: clean
+  malicious_engines_min: 0
+must_contain:
+- Long-standing platform registered in 1999
+- Hosted behind Cloudflare (ASN 13335)
+- DMARC configured with policy quarantine
+must_not_contain:
+- Must not claim that the geolocated IP matches SourceForge's actual infrastructure — Cloudflare
+  hides the origin location
+notes: Long-standing open source platform, good email hygiene, second Cloudflare case in the dataset.

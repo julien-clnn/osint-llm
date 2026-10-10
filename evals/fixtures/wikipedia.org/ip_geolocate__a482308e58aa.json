@@ -1,0 +1,27 @@
+{
+  "arguments": {
+    "target": "wikipedia.org"
+  },
+  "result": {
+    "ip_count": 1,
+    "locations": [
+      {
+        "as": "AS14907 Wikimedia Foundation Inc.",
+        "city": "Amsterdam",
+        "country": "The Netherlands",
+        "country_code": "NL",
+        "ip": "185.15.58.224",
+        "isp": "Wikimedia Europe network",
+        "lat": 52.3702,
+        "lon": 4.89517,
+        "org": "Wikimedia Foundation, Inc",
+        "region": "North Holland"
+      }
+    ],
+    "resolved_from_domain": "wikipedia.org",
+    "source": "ip-api.com",
+    "target": "wikipedia.org",
+    "truncated": false
+  },
+  "tool": "ip_geolocate"
+}

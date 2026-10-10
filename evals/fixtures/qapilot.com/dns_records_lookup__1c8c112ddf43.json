@@ -1,0 +1,36 @@
+{
+  "arguments": {
+    "domain": "qapilot.com"
+  },
+  "result": {
+    "domain": "qapilot.com",
+    "email_security": {
+      "dkim_note": "Sélecteurs DKIM courants testés uniquement ; une absence ici ne prouve pas l'absence de DKIM.",
+      "dkim_selectors_found": [
+        "selector1"
+      ],
+      "dmarc": true,
+      "dmarc_policy": "quarantine",
+      "spf": true,
+      "spf_record": "v=spf1 include:spf.protection.outlook.com include:47284450.spf01.hubspotemail.net include:amazonses.com -all"
+    },
+    "mx": [
+      "0 qapilot-com.mail.protection.outlook.com"
+    ],
+    "mx_count": 1,
+    "ns": [
+      "ns65.domaincontrol.com",
+      "ns66.domaincontrol.com"
+    ],
+    "ns_count": 2,
+    "source": "DNS (résolveur système)",
+    "txt": [
+      "v=spf1 include:spf.protection.outlook.com include:47284450.spf01.hubspotemail.net include:amazonses.com -all",
+      "atlassian-domain-verification=rQHqqMCJeMuyqu5lADNKabQrYDMePKR7HG1wy78baZVL42fGmkvluR2Iv71DQGJX",
+      "MS=ms71727739",
+      "atlassian-domain-verification=87iFVZ8N7CjraqoMF1ShwPH/UZopt4MxYKFQQfwcEJcD6u6/F/D0KJQVrIO7PJRz"
+    ],
+    "txt_count": 4
+  },
+  "tool": "dns_records_lookup"
+}

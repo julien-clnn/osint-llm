@@ -1,0 +1,225 @@
+{
+  "arguments": {
+    "domain": "microsoft.com"
+  },
+  "result": {
+    "capture_count": 10000,
+    "date_range": {
+      "first": "1996-10-20",
+      "last": "2026-09-03"
+    },
+    "domain": "microsoft.com",
+    "interesting_urls": [
+      {
+        "timestamp": "2014-08-28",
+        "url": "http://www.microsoft.com/%22/eu/transforming-business/article/french-company-with-an-edge-in-innovative-design-develops-business-ana.aspx/%22"
+      },
+      {
+        "timestamp": "2011-02-03",
+        "url": "https://www.microsoft.com/%22http://blogs.technet.com/cfs-file.ashx/__key/CommunityServer-Blogs-Components-WeblogFiles/00-00-00-65-13-metablogapi/3005.image_5F00_thumb.png/%22"
+      },
+      {
+        "timestamp": "2014-09-23",
+        "url": "http://www.microsoft.com/%22http://www.microsoft.com/global/eu/publishingimages/AppDevVideo_Thumb.png/%22"
+      },
+      {
+        "timestamp": "2008-08-11",
+        "url": "http://www.microsoft.com/%22http://www.microsoft.com/japan/windowsmobile/wm6/prodinfo/device/WM_HT1100_1m30s_OldLogo_900k.asx/%22"
+      },
+      {
+        "timestamp": "2024-05-05",
+        "url": "https://www.microsoft.com/%22https://azure.microsoft.com/en-us/free/students//auth/GetLoginUrl/"
+      },
+      {
+        "timestamp": "2024-05-05",
+        "url": "https://www.microsoft.com/%22https://azure.microsoft.com/en-us/free/students//auth/GetLoginUrl/dUfPJppSmkC8g5vZ.1"
+      },
+      {
+        "timestamp": "2024-05-05",
+        "url": "https://www.microsoft.com/%22https://azure.microsoft.com/en-us/free/students//auth/GetLoginUrl/smarterror.aspx"
+      },
+      {
+        "timestamp": "2024-05-05",
+        "url": "https://www.microsoft.com/%22https://azure.microsoft.com/en-us/free/students//auth/GetLoginUrl/zgYGzlGJcUCw7R0C.1"
+      },
+      {
+        "timestamp": "2024-04-19",
+        "url": "https://www.microsoft.com/%22https://cloudblogs.microsoft.com/dynamics365/%22"
+      },
+      {
+        "timestamp": "2021-09-01",
+        "url": "https://www.microsoft.com/%22https://developer.microsoft.com//%22"
+      },
+      {
+        "timestamp": "2022-09-03",
+        "url": "https://www.microsoft.com/%22https://developer.microsoft.com/en-us//%22"
+      },
+      {
+        "timestamp": "2021-09-01",
+        "url": "https://www.microsoft.com/%22https://developer.microsoft.com/en-us/store/register/%22"
+      },
+      {
+        "timestamp": "2021-09-01",
+        "url": "https://www.microsoft.com/%22https://developer.microsoft.com/en-us/windows/%22"
+      },
+      {
+        "timestamp": "2021-09-01",
+        "url": "https://www.microsoft.com/%22https://developer.microsoft.com/microsoft-365/%22"
+      },
+      {
+        "timestamp": "2021-09-01",
+        "url": "https://www.microsoft.com/%22https://developer.microsoft.com/microsoft-365/dev-program/%22"
+      },
+      {
+        "timestamp": "2017-02-02",
+        "url": "http://www.microsoft.com/%22https://gearsofwar.com/en-us/esports/gears-pro-circuit-handbook/%22"
+      },
+      {
+        "timestamp": "2021-09-01",
+        "url": "https://www.microsoft.com/%22https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31%5C%22"
+      },
+      {
+        "timestamp": "2017-11-02",
+        "url": "https://www.microsoft.com/%22https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.eastsidecatholic.org%2Fpage%2Fsummer-camps%2Fenrichment-camps-&amp;data=02%7C01%7C[redacted]%40microsoft.com%7C865629174a024c1cee2e08d48108289f%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636275319426534457&amp;sdata=u11v%2FZCIiAR4s2cTpHXDi8fsfWR%2FFs%2B8dmqLElpmQpw%3D&amp;reserved=0%5C%22%3E%3Cspan"
+      },
+      {
+        "timestamp": "2019-11-27",
+        "url": "https://www.microsoft.com/%22https://na01.safelinks.protection.outlook.com/?url=http%3A%2F%2Fwww.microsoftstore.com%2Feducation&amp;data=02%7C01%7C[redacted]%40microsoft.com%7Cd3cbded9d47540ddf60608d5bad0ba2a%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636620328015303616&amp;sdata=wWVnRRJi0KuT3FsInHdv0iQMJu20VBXeOnyypE2fGaw%3D&amp;reserved=0%5C%22%3Emicrosoftstore.com/education%3C/a%3E%3C/span%3E%3C/span%3E%3C/p%3E%5Cn%5Cn%5Cn%22,"
+      },
+      {
+        "timestamp": "2019-04-23",
+        "url": "https://www.microsoft.com/%22https://na01.safelinks.protection.outlook.com/?url=http%3A%2F%2Fwww.microsoftstore.com%2Feducation&amp;data=02%7C01%7C[redacted]%40microsoft.com%7Cd3cbded9d47540ddf60608d5bad0ba2a%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636620328015303616&amp;sdata=wWVnRRJi0KuT3FsInHdv0iQMJu20VBXeOnyypE2fGaw%3D&amp;reserved=0%5C%22%3Emicrosoftstore.com/education%3C/a%3E%3C/span%3E%3C/span%3E%5Cn%5Cn%22,"
+      },
+      {
+        "timestamp": "2020-02-29",
+        "url": "https://www.microsoft.com/%22https://na01.safelinks.protection.outlook.com/?url=http%3A%2F%2Fwww.microsoft.com%2Fstudent-discount&amp;data=02%7C01%7C%7Ce876101c911d4103ab8708d60dd00ca7%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636711584544536570&amp;sdata=EPpDQx4c4PnvQXO0kIPn0xF3oYOZAdOzViscYuHIbec%3D&amp;reserved=0%5C%22"
+      },
+      {
+        "timestamp": "2020-06-23",
+        "url": "http://www.microsoft.com/%22https://na01.safelinks.protection.outlook.com/?url=http%3A%2F%2Fwww.microsoft.com%2Fstudent-discount&amp;data=02%7C01%7C%7Ce876101c911d4103ab8708d60dd00ca7%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636711584544536570&amp;sdata=EPpDQx4c4PnvQXO0kIPn0xF3oYOZAdOzViscYuHIbec%3D&amp;reserved=0%5C%22%3E%3Cspan"
+      },
+      {
+        "timestamp": "2020-05-02",
+        "url": "https://www.microsoft.com/%22https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.microsoft.com%2Fen-us%2Fstore%2Fb%2Feducation&amp;data=02%7C01%7C[redacted]%40microsoft.com%7C4f6fb7e6ee57442280a808d7d1acddca%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637208412691267244&amp;sdata=RQmqMHgI9rXPaRxTmvXEyujt%2FutgUkYyUAz%2FFCGH2rQ%3D&amp;reserved=0%5C%22"
+      },
+      {
+        "timestamp": "2020-05-21",
+        "url": "https://www.microsoft.com/%22https://nam06.safelinks.protection.outlook.com/?url=http%3A%2F%2Fmsft.social%2FRbW8vq&amp;data=02%7C01%7C[redacted]%40microsoft.com%7C3e5cb2f33e104755e77d08d762cbf612%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637086501247557501&amp;sdata=ENRo2jwxJgwIRywKSBiE8Un3WffwpTBI7%2B%2Fazgtfibc%3D&amp;reserved=0%5C%22%3Ehttp://msft.social/RbW8vq%3C/a%3E%3Cfont"
+      },
+      {
+        "timestamp": "2020-05-21",
+        "url": "https://www.microsoft.com/%22https://nam06.safelinks.protection.outlook.com/?url=http%3A%2F%2Fmsft.social%2FEPr5gM&amp;data=02%7C01%7C[redacted]%40microsoft.com%7C84195a4124404f933cb708d7638d2250%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637087330769934866&amp;sdata=rPdIvvpazCdRO%2B%2BtV5bo9%2Ba7lTVoOiEcIPFiVxhKkdo%3D&amp;reserved=0%5C%22"
+      },
+      {
+        "timestamp": "2020-05-11",
+        "url": "http://www.microsoft.com/%22https://nam06.safelinks.protection.outlook.com/?url=http%3A%2F%2Fwww.microsoftstore.com%2Feducation&amp;data=02%7C01%7C[redacted]%40microsoft.com%7C59d028d8a3cb490c28f108d7d735ae93%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637214497907942469&amp;sdata=LCh1SI7QRIO3L9kqN1D4NcmGyACdEj96mBnSW5maRp8%3D&amp;reserved=0%5C%22"
+      },
+      {
+        "timestamp": "2020-07-02",
+        "url": "http://www.microsoft.com/%22https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.minecraft.net%2Fen-us%2Fget-minecraft&amp;data=02%7C01%7C[redacted]%40microsoft.com%7C7531642e0d12497adc8008d7e7adbc87%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637232605696972323&amp;sdata=3YSSoAhekW43g6wU2GUa5yGQfZKnMsx3OsSz7YzEsYg%3D&amp;reserved=0%5C%22%3Ehttps://www.minecraft.net/en-us/get-minecraft%3C/a%3E&nbsp;for"
+      },
+      {
+        "timestamp": "2020-05-12",
+        "url": "http://www.microsoft.com/%22https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.minecraft.net%2Fen-us%2Fget-minecraft&amp;data=02%7C01%7C[redacted]%40microsoft.com%7C7531642e0d12497adc8008d7e7adbc87%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637232605696972323&amp;sdata=3YSSoAhekW43g6wU2GUa5yGQfZKnMsx3OsSz7YzEsYg%3D&amp;reserved=0%5C%22%3Ehttps://www.minecraft.net/en-us/get-minecraft%3C/a%3E"
+      },
+      {
+        "timestamp": "2020-05-02",
+        "url": "https://www.microsoft.com/%22https://nam06.safelinks.protection.outlook.com/?url=http%3A%2F%2Fwww.microsoftstore.com%2Feducation&amp;data=02%7C01%7C[redacted]%40microsoft.com%7C8ba7100369494057ce0608d7d29225e8%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637209397449639667&amp;sdata=lYB67ScQq5J39h0uQnhCbsPjpMF%2BcZZfnj232622PFM%3D&amp;reserved=0%5C%22"
+      },
+      {
+        "timestamp": "2020-07-23",
+        "url": "https://www.microsoft.com/%22https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.microsoft.com%2Fen-us%2Fstore%2Fb%2Feducation&amp;data=02%7C01%7C[redacted]%40microsoft.com%7C934ff02cf54c4f6eec8e08d75beb9ab2%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637078939788208565&amp;sdata=KbBExyqzzl%2FcsLpDUaKpS3Id7Nisec2cTb7Ig2Uq5qQ%3D&amp;reserved=0%5C%22"
+      },
+      {
+        "timestamp": "2020-05-12",
+        "url": "http://www.microsoft.com/%22https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.microsoft.com%2Fen-us%2Fstore%2Fb%2Feducation&amp;data=02%7C01%7C[redacted]%40microsoft.com%7Cbacc3ab808aa482103cb08d7d14db211%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637208003944363896&amp;sdata=FbCIoVLV3AcSvhcmP8zhswWeAeOcNm4QHhFgNjc42zU%3D&amp;reserved=0%5C%22"
+      },
+      {
+        "timestamp": "2020-05-11",
+        "url": "http://www.microsoft.com/%22https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.microsoft.com%2Fen-us%2Fstore%2Fb%2Feducation&amp;data=02%7C01%7C[redacted]%40microsoft.com%7Ce63c8040cab7420264a708d7f1201879%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637242992463519637&amp;sdata=tx8IF6X2jWMumFxoV6ZaVr0w9m4iHdKZB5DmjE5%2BfLg%3D&amp;reserved=0%5C%22%3E%3Cspan"
+      },
+      {
+        "timestamp": "2020-07-01",
+        "url": "http://www.microsoft.com/%22https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.microsoft.com%2Fen-us%2Fstore%2Fb%2Feducation&amp;data=02%7C01%7C[redacted]%40microsoft.com%7Ce63c8040cab7420264a708d7f1201879%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637242992463519637&amp;sdata=tx8IF6X2jWMumFxoV6ZaVr0w9m4iHdKZB5DmjE5%2BfLg%3D&amp;reserved=0%5C%22%3Ehttps://www.microsoft.com/en-us/store/b/education%3C/a%3E%3Cu%3E.%3C/u%3E%3C/p%3E%5Cn%5Cn%5Cn%22,"
+      },
+      {
+        "timestamp": "2020-05-11",
+        "url": "http://www.microsoft.com/%22https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.microsoft.com%2Fen-us%2Fstore%2Fb%2Feducation&amp;data=02%7C01%7C[redacted]%40microsoft.com%7Cfe69c7288e574bd1d90f08d7ebcb8c2d%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637237131774339094&amp;sdata=ylF12cZs5wb%2B8OqqhFhZhpCxLfgMcQc6aRRuy3tGasM%3D&amp;reserved=0%5C%22%3E%3Cspan"
+      },
+      {
+        "timestamp": "2020-07-23",
+        "url": "https://www.microsoft.com/%22https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fhuggg.me%2F&amp;data=02%7C01%7C[redacted]%40microsoft.com%7Cc6eb1dd2f2fa4e26027008d7f82acf4f%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637250735066829238&amp;sdata=LpcNFwYgsO4rgDTaJO0s%2F7FBqWN7xjIeK6X8b5uy82s%3D&amp;reserved=0%5C%22"
+      },
+      {
+        "timestamp": "2020-11-08",
+        "url": "https://www.microsoft.com/%22https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.gov.uk%2Fgovernment%2Fpublications%2Fthe-alison-rose-review-of-female-entrepreneurship&amp;data=04%7C01%7C[redacted]%40microsoft.com%7C399af38715b642f87bce08d876ad110e%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637389832975634874%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&amp;sdata=D3%2BcwRQoO3HGFVxsbVBrwYFey1bQyRiJFwpZMNnEf0Y%3D&amp;reserved=0%5C%22"
+      },
+      {
+        "timestamp": "2024-03-05",
+        "url": "https://www.microsoft.com/%22https://powerapps.microsoft.com/en-US/app-development-topics//%22"
+      },
+      {
+        "timestamp": "2020-07-04",
+        "url": "http://www.microsoft.com/%22https://retailstore.microsoft.com/EventsDataService/Events/api/event/getCalendarInvite/1408402435/%22"
+      },
+      {
+        "timestamp": "2020-07-01",
+        "url": "http://www.microsoft.com/%22https://retailstore.microsoft.com/EventsDataService/Events/api/event/getCalendarInvite/1775530228/%22"
+      },
+      {
+        "timestamp": "2020-06-23",
+        "url": "http://www.microsoft.com/%22https://retailstore.microsoft.com/EventsDataService/Events/api/event/getCalendarInvite/1883464559/%22"
+      }
+    ],
+    "sample_urls": [
+      "http://www.microsoft.com:80/",
+      "http://www.microsoft.com:80/!",
+      "https://www.microsoft.com/!!!LOCALE!!!/microsoft-365/blog/",
+      "https://www.microsoft.com/!!!LOCALE!!!/microsoft-365/business/compare-all-microsoft-365-business-products",
+      "https://www.microsoft.com/!!!LOCALE!!!/microsoft-365/college-student-pricing",
+      "https://www.microsoft.com/!!!LOCALE!!!/workplace-discount-program",
+      "http://www.microsoft.com/!%20middleeast/windows/windowslive/see-it-in-action/social-network-basics.aspx?ocid=PID23461::T:WLMTAGL:ON:WL:en-xm:SI_SB_5:092010",
+      "http://microsoft.com:80/!/!.%7c%7c%7c",
+      "https://microsoft.com/!/meetup-join/",
+      "http://microsoft.com/!u",
+      "http://www.microsoft.com:80/%22",
+      "http://microsoft.com/%22%22",
+      "http://www.microsoft.com/%22%20+%20(window.location.protocol)%20+%20%22//c.microsoft.com/ms.js",
+      "http://www.microsoft.com:80/%22%20+%20os%20+%20%22/ie",
+      "https://www.microsoft.com/%22%20/%3E",
+      "http://microsoft.com/%22%20id=",
+      "http://microsoft.com:80/%22%20name%3D%22Microsoft%20Corporation%22/%3E",
+      "http://www.microsoft.com:80/\"%20onmouseover=\"return%20ss(",
+      "http://www.microsoft.com:80/\"%20target=\"_blank",
+      "https://www.microsoft.com/%22%20target=%22_blank%22%20class=%22speakers-item%22%20title=%22Microsoft%22%3E",
+      "http://www.microsoft.com:80/%22%20target=_blank%3E[u",
+      "http://microsoft.com/%22&",
+      "http://microsoft.com/%22'%60--",
+      "http://www.microsoft.com:80/%22)",
+      "http://www.microsoft.com:80/%22)]",
+      "http://www.microsoft.com:80/\"*",
+      "http://www.microsoft.com/%22+%22/www.macromedia.com/go/getflashplayer",
+      "http://microsoft.com:80/%22+name=%22Microsoft+Corporation%22/%3e",
+      "https://www.microsoft.com/%22+u+%22/surface/business/surface-go-2%22;break;case%2293n7b0kdzncc%22:l=%22https://www.microsoft.com/%22+u+%22/surface/business/surface-laptop-3%22;break;case%228qpr2sd9ztfw%22:l=%22https://www.microsoft.com/%22+u+%22/surface/business/surface-pro-7%22;break;case%2293h0mb2gqd5b%22:l=%22https://www.microsoft.com/%22+u+%22/surface/business/surface-book-3%22;break;case%228xs8m785gjn5%22:case%228t1g0h0jsmlw%22:l=%22https://www.microsoft.com/%22+u+%22/surface/business/surface-pro-x%22;break;case%228nr6d2wclc72%22:l=%22https://www.microsoft.com/%22+u+%22/surface/business/surface-laptop-go%22;break;case%228ptw9l1knfxb%22:l=%22https://www.microsoft.com/%22+u+%22/surface/business/surface-duo",
+      "https://www.microsoft.com/%22+userLang.lang+%22/windows/microsoft-edge",
+      "http://www.microsoft.com:80/%22,",
+      "http://www.microsoft.com:80/%22,%22AuthenticationInfo%22);",
+      "https://www.microsoft.com/%22,%22description%22:%22The",
+      "https://www.microsoft.com/%22,%22image%22:%22https:/cnt/uploads/logos/microsoft-store.jpg?1606894191\",\"aggregateRating\":{\"@type\":\"AggregateRating\",\"ratingValue\":\"4.90\",\"worstRating\":1,\"bestRating\":5,\"ratingCount\":10}",
+      "http://microsoft.com:80/%22,%22Welcome+to+Microsoft's+Homepage",
+      "http://www.microsoft.com/%22.",
+      "http://www.microsoft.com:80/%22...",
+      "http://www.microsoft.com/%22../orkns.css/%22",
+      "http://www.microsoft.com:80/%22.aspx",
+      "http://www.microsoft.com/%22/%22"
+    ],
+    "source": "web.archive.org",
+    "subdomain_count": 2,
+    "subdomains": [
+      "microsoft.com",
+      "www.microsoft.com"
+    ],
+    "truncated": true
+  },
+  "tool": "wayback_lookup"
+}

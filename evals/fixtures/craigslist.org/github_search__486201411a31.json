@@ -1,0 +1,136 @@
+{
+  "arguments": {
+    "domain": "craigslist.org"
+  },
+  "result": {
+    "code_matches": [
+      {
+        "path": "docs/ml/4.md",
+        "repo": "apachecn/ailearning",
+        "snippet": "<module 'bayes' from 'bayes.pyc'>\n>>> import feedparser\n>>> ny=feedparser.parse('http://newyork.craigslist.org/stp/index.rss')\n>>> sy=feedparser.parse('http://sfbay.craigslist.org/stp/index.rss')\n>>> vocabList,pSF,pNY=bayes.localWords(ny,sf)\nthe error rate is: 0.2\n>>> vocabList,pSF,pNY=bayes.localWo",
+        "url": "https://github.com/apachecn/ailearning/blob/26f415083e2354335a3fa9e8ba9d39d8d3ef9a7f/docs/ml/4.md"
+      },
+      {
+        "path": "README.md",
+        "repo": "manticoresoftware/manticoresearch",
+        "snippet": "* 🛡️ **Safe writes**: while not fully ACID-compliant, Manticore supports isolated transactions and binary logging.\n* 💾 **Backup and recovery** include `manticore-backup`, SQL `BACKUP`, and S3-compatible backup/restore support.\n\n[Craigslist](https://www.craigslist.org/), [Socialgist](https://socialgi",
+        "url": "https://github.com/manticoresoftware/manticoresearch/blob/cc5fa637e2c59097fd9dfb2db57d9502c93a322f/README.md"
+      },
+      {
+        "path": "Readme.md",
+        "repo": "rchipka/node-osmosis",
+        "snippet": "var osmosis = require('osmosis');\n\nosmosis\n.get('www.craigslist.org/about/sites')\n.find('h1 + div a')\n.set('location')\n.follow('@href')",
+        "url": "https://github.com/rchipka/node-osmosis/blob/baed7239fc5c22ea8d00a5d2dc45f97b2d64b5c5/Readme.md"
+      },
+      {
+        "path": "README.md",
+        "repo": "kaizensoze/remote-freelance-jobs",
+        "snippet": "* Clevertech http://www.clevertech.biz/\n* Codeable http://codeable.io/\n* Codestunts https://codestunts.com\n* Craigslist https://newyork.craigslist.org/search/sof?employment_type=3\n* Crew https://crew.co/\n* FivePackCreative http://www.fivepackcreative.com/\n* Gigster https://gigster.com/",
+        "url": "https://github.com/kaizensoze/remote-freelance-jobs/blob/3483cd33690b4b5ced1ff49ddfd8392b65d81097/README.md"
+      },
+      {
+        "path": "README.md",
+        "repo": "Dylan-Israel/ultimate-coding-resources",
+        "snippet": "freelance software developers, designers, finance experts, product managers, and project managers in the world.\n      </li>\n      <li>\n        <a href=\"https://craigslist.org\" target=\"blank\">Craigslist</a> - Small web dev projects and web sites can be\n        picked up pretty easily in the jobs or g",
+        "url": "https://github.com/Dylan-Israel/ultimate-coding-resources/blob/82f654cbfa714ae8b7ff2630a62261b9c57a4053/README.md"
+      },
+      {
+        "path": "README.rst",
+        "repo": "juliomalegria/python-craigslist",
+        "snippet": "A simple `Craigslist <http://www.craigslist.org>`__ wrapper.",
+        "url": "https://github.com/juliomalegria/python-craigslist/blob/bd85a3e46a467d84984c3ce89fc077cb4da6aa04/README.rst"
+      },
+      {
+        "path": "readme.md",
+        "repo": "realpython/list-of-python-api-wrappers",
+        "snippet": "- [API Documentation](https://restcountries.eu/#api-endpoints)\n- [Python wrapper for REST Countries](https://github.com/leonkozlowski/python-countries)\n\n### [Craigslist](http://www.craigslist.org/) - Classified advertisements\n- [API Documentation](https://github.com/juliomalegria/python-craigslist)\n",
+        "url": "https://github.com/realpython/list-of-python-api-wrappers/blob/82a9fa1dbdc26347cec71cb0e57839c8b4918bdb/readme.md"
+      },
+      {
+        "path": "alexa500.txt",
+        "repo": "salesforce/jarm",
+        "snippet": "itfactly.com\ngrammarly.com\nbet365.com\ncraigslist.org\nideapuls.com\n163.com\nvice.com",
+        "url": "https://github.com/salesforce/jarm/blob/e00ad79b02166568048266054a38470f4814c868/alexa500.txt"
+      },
+      {
+        "path": "prune/alive.txt",
+        "repo": "wesbos/burner-email-providers",
+        "snippet": "perfumephoenix.com\npers.craigslist.org\nperkypoll.com",
+        "url": "https://github.com/wesbos/burner-email-providers/blob/d676e736ceca59de826b1457878661d7f899c97e/prune/alive.txt"
+      },
+      {
+        "path": "sites.txt",
+        "repo": "qsniyg/maxurl",
+        "snippet": "images.contentful.com\nimages.costco-static.com\nimages.costcobusinesscentre.ca\nimages.craigslist.org\nimages.crexi.com\nimages.crunchbase.com\nimages.csmonitor.com",
+        "url": "https://github.com/qsniyg/maxurl/blob/18515eaf763bd5d62f780333173d54a2366f78b4/sites.txt"
+      }
+    ],
+    "code_search_enabled": true,
+    "domain": "craigslist.org",
+    "repository_count": 10,
+    "repository_matches": [
+      {
+        "description": "Extract data from Craigslist.org by python3 and pomp framework",
+        "repo": "estin/pomp-craigslist-example",
+        "stars": 37,
+        "url": "https://github.com/estin/pomp-craigslist-example"
+      },
+      {
+        "description": "Technologies: Nutch 1.6, MapReduce in Java, Mahout. For selling a used car, its price can be predicted by giving some attributes. e.g. Car Model, total miles, engine type. Trained data will be provided to our system to predict the price for new data. Used Nutch to crawl car data from 52 states which",
+        "repo": "aniketvjadhav/Car-Price-Prediction-System",
+        "stars": 13,
+        "url": "https://github.com/aniketvjadhav/Car-Price-Prediction-System"
+      },
+      {
+        "description": "Craigslist.org wrapper for Go",
+        "repo": "sosedoff/go-craigslist",
+        "stars": 7,
+        "url": "https://github.com/sosedoff/go-craigslist"
+      },
+      {
+        "description": "<manifest versionCode=\"166\" versionName=\"1.16.3\" compileSdkVersion=\"30\" compileSdkVersionCodename=\"11\" package=\"org.craigslist.CraigslistMobile\" platformBuildVersionCode=\"30\" platformBuildVersionName=\"11\">  <uses-sdk minSdkVersion=\"21\" targetSdkVersion=\"30\"/>  <uses-permission name=\"android.permissi",
+        "repo": "Leighleighlilly/r",
+        "stars": 5,
+        "url": "https://github.com/Leighleighlilly/r"
+      },
+      {
+        "description": "A simple crawler for Craigslist.org",
+        "repo": "G-Rasoll/Craigslist-Crawler",
+        "stars": 3,
+        "url": "https://github.com/G-Rasoll/Craigslist-Crawler"
+      },
+      {
+        "description": "Predict the car price in used vehicles listings from Craigslist.org",
+        "repo": "panambY/Used_Car_Price",
+        "stars": 3,
+        "url": "https://github.com/panambY/Used_Car_Price"
+      },
+      {
+        "description": "craigslist.org",
+        "repo": "micomiq/craigslist.org",
+        "stars": 2,
+        "url": "https://github.com/micomiq/craigslist.org"
+      },
+      {
+        "description": "Fake Craigslist is a fully functional ASP.NET web application using MVC 5 that provides an implements of a popular website – Craigslist (www.craigslist.org). The entire solution is layered in 5 C# libraries: user interface, Entity Framework data model, business logic, database design, and unit test.",
+        "repo": "szwalker/Fake-Craigslist",
+        "stars": 2,
+        "url": "https://github.com/szwalker/Fake-Craigslist"
+      },
+      {
+        "description": "RSS-to-email script for craigslist.org",
+        "repo": "derat/craigsnipe",
+        "stars": 2,
+        "url": "https://github.com/derat/craigsnipe"
+      },
+      {
+        "description": "Fetch archived RSS feeds from the craigslist apa section on archive.org",
+        "repo": "csbrandt/craigslist-wayback-apa",
+        "stars": 2,
+        "url": "https://github.com/csbrandt/craigslist-wayback-apa"
+      }
+    ],
+    "source": "api.github.com"
+  },
+  "tool": "github_search"
+}

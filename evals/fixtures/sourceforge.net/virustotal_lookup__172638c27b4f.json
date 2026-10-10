@@ -1,0 +1,150 @@
+{
+  "arguments": {
+    "domain": "sourceforge.net"
+  },
+  "result": {
+    "categories": [
+      "Information Technology (alphaMountain.ai)",
+      "computersandsoftware",
+      "information technology",
+      "information technology",
+      "technology"
+    ],
+    "domain": "sourceforge.net",
+    "enabled": true,
+    "found": true,
+    "harmless_votes": 1,
+    "last_analysis_stats": {
+      "harmless": 59,
+      "malicious": 0,
+      "suspicious": 0,
+      "undetected": 30
+    },
+    "malicious_votes": 0,
+    "passive_dns": [
+      {
+        "ip_address": "3.168.24.112",
+        "last_resolved": 1758852406
+      },
+      {
+        "ip_address": "108.138.85.32",
+        "last_resolved": 1719019549
+      },
+      {
+        "ip_address": "13.225.78.72",
+        "last_resolved": 1719019284
+      },
+      {
+        "ip_address": "2606:4700:4400::6812:256f",
+        "last_resolved": 1717850980
+      },
+      {
+        "ip_address": "2606:4700:4400::ac40:9691",
+        "last_resolved": 1717850980
+      },
+      {
+        "ip_address": "2606:4700::6812:c95",
+        "last_resolved": 1716972941
+      },
+      {
+        "ip_address": "2606:4700::6812:d95",
+        "last_resolved": 1716972941
+      },
+      {
+        "ip_address": "104.18.13.149",
+        "last_resolved": 1713918119
+      },
+      {
+        "ip_address": "104.18.12.149",
+        "last_resolved": 1713916040
+      },
+      {
+        "ip_address": "13.225.78.16",
+        "last_resolved": 1709358421
+      },
+      {
+        "ip_address": "99.86.38.66",
+        "last_resolved": 1709356541
+      },
+      {
+        "ip_address": "99.86.38.78",
+        "last_resolved": 1709356541
+      },
+      {
+        "ip_address": "99.86.38.94",
+        "last_resolved": 1709356541
+      },
+      {
+        "ip_address": "99.86.38.7",
+        "last_resolved": 1709356541
+      },
+      {
+        "ip_address": "65.8.243.87",
+        "last_resolved": 1705721235
+      },
+      {
+        "ip_address": "18.165.140.5",
+        "last_resolved": 1705718839
+      },
+      {
+        "ip_address": "18.154.219.44",
+        "last_resolved": 1705718439
+      },
+      {
+        "ip_address": "18.239.69.6",
+        "last_resolved": 1705718097
+      },
+      {
+        "ip_address": "18.155.173.35",
+        "last_resolved": 1705717816
+      },
+      {
+        "ip_address": "18.239.69.10",
+        "last_resolved": 1705717702
+      },
+      {
+        "ip_address": "65.8.243.31",
+        "last_resolved": 1704513605
+      },
+      {
+        "ip_address": "108.138.94.129",
+        "last_resolved": 1704512535
+      },
+      {
+        "ip_address": "18.165.140.63",
+        "last_resolved": 1704512013
+      },
+      {
+        "ip_address": "65.8.243.88",
+        "last_resolved": 1704509662
+      },
+      {
+        "ip_address": "18.238.132.75",
+        "last_resolved": 1704508635
+      },
+      {
+        "ip_address": "108.138.94.84",
+        "last_resolved": 1704508633
+      },
+      {
+        "ip_address": "18.239.69.21",
+        "last_resolved": 1694098581
+      },
+      {
+        "ip_address": "18.239.69.38",
+        "last_resolved": 1694096381
+      },
+      {
+        "ip_address": "108.156.39.4",
+        "last_resolved": 1694093961
+      },
+      {
+        "ip_address": "18.165.140.41",
+        "last_resolved": 1694082115
+      }
+    ],
+    "reputation": 1,
+    "source": "www.virustotal.com"
+  },
+  "tool": "virustotal_lookup"
+}

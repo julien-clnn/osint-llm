@@ -1,0 +1,1714 @@
+{
+  "summary": {
+    "meta": {
+      "generated_at": "2026-09-13T14:03:27+00:00",
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "n_domains": 5,
+      "n_repetitions": 1
+    },
+    "by_config": {
+      "without_verifier": {
+        "n_runs_attempted": 5,
+        "n_runs_ok": 5,
+        "n_runs_errored": 0,
+        "run_error_rate": 0.0,
+        "completion_rate": 1.0,
+        "hallucination_hard_mean": 0.0,
+        "hallucination_hard_std": 0.0,
+        "recall_mean": 1.0,
+        "recall_std": 0.0,
+        "precision_mean": 0.4450729517396184,
+        "precision_std": 0.5071424740756559,
+        "tool_calls_mean": 8.0,
+        "redundant_calls_mean": 0.0,
+        "missed_calls_avg_count": 0.0,
+        "total_tokens_mean": 59955.2,
+        "total_tokens_std": 75051.21116411114,
+        "wall_seconds_mean": 12.378601052006706,
+        "wall_seconds_std": 1.1292382265630752
+      },
+      "with_verifier": {
+        "n_runs_attempted": 5,
+        "n_runs_ok": 5,
+        "n_runs_errored": 0,
+        "run_error_rate": 0.0,
+        "completion_rate": 1.0,
+        "hallucination_hard_mean": 0.03809523809523809,
+        "hallucination_hard_std": 0.08518354199999198,
+        "recall_mean": 1.0,
+        "recall_std": 0.0,
+        "precision_mean": 0.4450729517396184,
+        "precision_std": 0.5071424740756559,
+        "tool_calls_mean": 8.0,
+        "redundant_calls_mean": 0.0,
+        "missed_calls_avg_count": 0.0,
+        "total_tokens_mean": 133866.8,
+        "total_tokens_std": 136953.31827925894,
+        "wall_seconds_mean": 27.296459149604196,
+        "wall_seconds_std": 6.629457849625772
+      }
+    },
+    "verifier_detection": {
+      "by_family": {
+        "fake_ip_or_asn": 1.0,
+        "invented_subdomain": 1.0,
+        "contradicted_risk": 1.0,
+        "date_inconsistency": 0.8,
+        "offtopic_recommendation": 1.0
+      },
+      "false_positive_rate": 0.0
+    }
+  },
+  "runs": [
+    {
+      "domain": "lemonde.fr",
+      "config": "without_verifier",
+      "repetition": 1,
+      "stopped_reason": "rapport_soumis",
+      "completed": true,
+      "risk_level": "faible",
+      "verified": null,
+      "corrected": null,
+      "hallucination_hard": 0.0,
+      "recall": 1.0,
+      "precision": 0.06172839506172839,
+      "tool_calls": 8,
+      "redundant_calls": 0,
+      "missed_calls": [],
+      "prompt_tokens": 24067,
+      "completion_tokens": 1708,
+      "total_tokens": 25775,
+      "wall_seconds": 11.228415885998402,
+      "llm_call_count": 4
+    },
+    {
+      "domain": "microsoft.com",
+      "config": "without_verifier",
+      "repetition": 1,
+      "stopped_reason": "rapport_soumis",
+      "completed": true,
+      "risk_level": "faible",
+      "verified": null,
+      "corrected": null,
+      "hallucination_hard": 0.0,
+      "recall": 1.0,
+      "precision": 0.05,
+      "tool_calls": 8,
+      "redundant_calls": 0,
+      "missed_calls": [],
+      "prompt_tokens": 30401,
+      "completion_tokens": 1840,
+      "total_tokens": 32241,
+      "wall_seconds": 12.506032306002453,
+      "llm_call_count": 4
+    },
+    {
+      "domain": "discord.com",
+      "config": "without_verifier",
+      "repetition": 1,
+      "stopped_reason": "rapport_soumis",
+      "completed": true,
+      "risk_level": "faible",
+      "verified": null,
+      "corrected": null,
+      "hallucination_hard": 0.0,
+      "recall": 1.0,
+      "precision": 0.11363636363636363,
+      "tool_calls": 8,
+      "redundant_calls": 0,
+      "missed_calls": [],
+      "prompt_tokens": 23252,
+      "completion_tokens": 1975,
+      "total_tokens": 25227,
+      "wall_seconds": 12.966872309014434,
+      "llm_call_count": 4
+    },
+    {
+      "domain": "theglobe.com",
+      "config": "without_verifier",
+      "repetition": 1,
+      "stopped_reason": "rapport_soumis",
+      "completed": true,
+      "risk_level": "moyen",
+      "verified": null,
+      "corrected": null,
+      "hallucination_hard": 0.0,
+      "recall": 1.0,
+      "precision": 1.0,
+      "tool_calls": 8,
+      "redundant_calls": 0,
+      "missed_calls": [],
+      "prompt_tokens": 20698,
+      "completion_tokens": 1777,
+      "total_tokens": 22475,
+      "wall_seconds": 11.307218969013775,
+      "llm_call_count": 4
+    },
+    {
+      "domain": "service-public.fr",
+      "config": "without_verifier",
+      "repetition": 1,
+      "stopped_reason": "rapport_soumis",
+      "completed": true,
+      "risk_level": "faible",
+      "verified": null,
+      "corrected": null,
+      "hallucination_hard": 0.0,
+      "recall": 1.0,
+      "precision": 1.0,
+      "tool_calls": 8,
+      "redundant_calls": 0,
+      "missed_calls": [],
+      "prompt_tokens": 192199,
+      "completion_tokens": 1859,
+      "total_tokens": 194058,
+      "wall_seconds": 13.88446579000447,
+      "llm_call_count": 4
+    },
+    {
+      "domain": "microsoft.com",
+      "config": "with_verifier",
+      "repetition": 1,
+      "stopped_reason": "rapport_corrige",
+      "completed": true,
+      "risk_level": "faible",
+      "verified": true,
+      "corrected": true,
+      "hallucination_hard": 0.19047619047619047,
+      "recall": 1.0,
+      "precision": 0.05,
+      "tool_calls": 8,
+      "redundant_calls": 0,
+      "missed_calls": [],
+      "prompt_tokens": 85655,
+      "completion_tokens": 4694,
+      "total_tokens": 90349,
+      "wall_seconds": 28.187534379016142,
+      "llm_call_count": 7
+    },
+    {
+      "domain": "service-public.fr",
+      "config": "with_verifier",
+      "repetition": 1,
+      "stopped_reason": "rapport_soumis",
+      "completed": true,
+      "risk_level": "faible",
+      "verified": true,
+      "corrected": false,
+      "hallucination_hard": 0.0,
+      "recall": 1.0,
+      "precision": 1.0,
+      "tool_calls": 8,
+      "redundant_calls": 0,
+      "missed_calls": [],
+      "prompt_tokens": 375738,
+      "completion_tokens": 2197,
+      "total_tokens": 377935,
+      "wall_seconds": 16.180311211006483,
+      "llm_call_count": 5
+    },
+    {
+      "domain": "discord.com",
+      "config": "with_verifier",
+      "repetition": 1,
+      "stopped_reason": "rapport_corrige",
+      "completed": true,
+      "risk_level": "faible",
+      "verified": true,
+      "corrected": true,
+      "hallucination_hard": 0.0,
+      "recall": 1.0,
+      "precision": 0.11363636363636363,
+      "tool_calls": 8,
+      "redundant_calls": 0,
+      "missed_calls": [],
+      "prompt_tokens": 64571,
+      "completion_tokens": 5503,
+      "total_tokens": 70074,
+      "wall_seconds": 31.38085012199008,
+      "llm_call_count": 7
+    },
+    {
+      "domain": "lemonde.fr",
+      "config": "with_verifier",
+      "repetition": 1,
+      "stopped_reason": "rapport_corrige",
+      "completed": true,
+      "risk_level": "faible",
+      "verified": true,
+      "corrected": true,
+      "hallucination_hard": 0.0,
+      "recall": 1.0,
+      "precision": 0.06172839506172839,
+      "tool_calls": 8,
+      "redundant_calls": 0,
+      "missed_calls": [],
+      "prompt_tokens": 68476,
+      "completion_tokens": 5406,
+      "total_tokens": 73882,
+      "wall_seconds": 33.186361131985905,
+      "llm_call_count": 7
+    },
+    {
+      "domain": "theglobe.com",
+      "config": "with_verifier",
+      "repetition": 1,
+      "stopped_reason": "rapport_corrige",
+      "completed": true,
+      "risk_level": "moyen",
+      "verified": true,
+      "corrected": true,
+      "hallucination_hard": 0.0,
+      "recall": 1.0,
+      "precision": 1.0,
+      "tool_calls": 8,
+      "redundant_calls": 0,
+      "missed_calls": [],
+      "prompt_tokens": 52173,
+      "completion_tokens": 4921,
+      "total_tokens": 57094,
+      "wall_seconds": 27.54723890402238,
+      "llm_call_count": 7
+    }
+  ],
+  "judge": {
+    "discord.com": {
+      "claims": [
+        {
+          "claim": "Rapport de reconnaissance passive sur le domaine discord.com, strictement limité aux données collectées via les tools fournis.",
+          "verdict": "supported",
+          "justification": "Toutes les observations fournies portent sur le domaine discord.com via les tools listés (WHOIS, DNS, geoloc, crt.sh, VirusTotal, ASN, Wayback, GitHub)."
+        },
+        {
+          "claim": "Domaine : discord.com (WHOIS found = true)",
+          "verdict": "supported",
+          "justification": "whois_lookup result: domain 'discord.com', found = true."
+        },
+        {
+          "claim": "Créateur/registrar : Cloudflare, Inc. (registrar-abuse@cloudflare.com)",
+          "verdict": "supported",
+          "justification": "whois registrar = 'Cloudflare, Inc.', emails = ['registrar-abuse@cloudflare.com']."
+        },
+        {
+          "claim": "Date de création WHOIS : 2000-11-06T11:45:38+00:00",
+          "verdict": "supported",
+          "justification": "whois creation_date = '2000-11-06T11:45:38+00:00'."
+        },
+        {
+          "claim": "Date d'expiration WHOIS : 2027-11-06T11:45:37+00:00",
+          "verdict": "supported",
+          "justification": "whois expiration_date = '2027-11-06T11:45:37+00:00'."
+        },
+        {
+          "claim": "Dates de mise à jour WHOIS : 2026-08-08 et 2026-08-14",
+          "verdict": "supported",
+          "justification": "whois updated_date = ['2026-08-08T12:00:26+00:00', '2026-08-14T13:31:42+00:00']."
+        },
+        {
+          "claim": "Titulaire : données masquées (registrant_org = « DATA REDACTED ») ; pays déclaré : US — l'identité réelle du titulaire n'est pas exposée",
+          "verdict": "supported",
+          "justification": "whois registrant_org = 'DATA REDACTED' et registrant_country = 'US' ; l'identité réelle n'est pas exposée."
+        },
+        {
+          "claim": "Statuts EPP : clientDeleteProhibited, clientTransferProhibited, clientUpdateProhibited, serverDeleteProhibited, serverTransferProhibited, serverUpdateProhibited",
+          "verdict": "supported",
+          "justification": "whois status liste exactement client/server Delete/Transfer/Update Prohibited."
+        },
+        {
+          "claim": "DNSSEC : signedDelegation",
+          "verdict": "supported",
+          "justification": "whois dnssec = 'signedDelegation'."
+        },
+        {
+          "claim": "Remarque de cohérence : les dates WHOIS (création 2000, mises à jour 2026) et les captures Wayback (dès 1996) ne permettent pas de calculer une ancienneté fiable ; aucune conclusion d'ancienneté n'est retenue",
+          "verdict": "supported",
+          "justification": "whois création 2000 et mises à jour 2026, wayback first capture '1996-12-22' : les dates divergent, justifiant l'absence de conclusion d'ancienneté fiable."
+        },
+        {
+          "claim": "Nameservers : gabe.ns.cloudflare.com, sima.ns.cloudflare.com (2)",
+          "verdict": "supported",
+          "justification": "dns ns = ['gabe.ns.cloudflare.com','sima.ns.cloudflare.com'] et ns_count = 2."
+        },
+        {
+          "claim": "MX : 5 enregistrements Google (aspmx.l.google.com, alt1/alt2.aspmx.l.google.com, aspmx2/aspmx3.googlemail.com)",
+          "verdict": "supported",
+          "justification": "dns mx = aspmx.l.google.com, alt1/alt2.aspmx.l.google.com, aspmx2/aspmx3.googlemail.com ; mx_count = 5."
+        },
+        {
+          "claim": "SPF : présent — « v=spf1 include:_spf.google.com include:mail.zendesk.com include:sendgrid.net include:3885857.spf06.hubspotemail.net ip4:198.2.180.60 -all » (hard fail)",
+          "verdict": "supported",
+          "justification": "email_security spf = true avec exactement le spf_record indiqué se terminant par '-all'."
+        },
+        {
+          "claim": "DMARC : présent, politique p=reject",
+          "verdict": "supported",
+          "justification": "email_security dmarc = true et dmarc_policy = 'reject'."
+        },
+        {
+          "claim": "DKIM : sélecteurs testés (default, google, selector1, selector2, k1, dkim, mail) — la source précise explicitement que ces tests ne prouvent pas l'existence effective de DKIM ; la présence de DKIM n'est donc pas établie",
+          "verdict": "supported",
+          "justification": "dkim_selectors_found liste default, google, selector1, selector2, k1, dkim, mail et dkim_note précise que les tests ne sont pas concluants."
+        },
+        {
+          "claim": "TXT : 11 enregistrements, incluant des jetons de vérification tiers (Slack, DocuSign, Apple, Atlassian, Google ×6)",
+          "verdict": "supported",
+          "justification": "txt_count = 11 avec slack-domain-verification, docusign, apple-domain-verification, atlassian-domain-verification et 6 google-site-verification."
+        },
+        {
+          "claim": "IP résolues : 5 adresses (162.159.128.233, 162.159.135.232, 162.159.136.232, 162.159.137.232, 162.159.138.232)",
+          "verdict": "supported",
+          "justification": "ip_geolocate liste 5 IP : 162.159.128.233, .135.232, .136.232, .137.232, .138.232."
+        },
+        {
+          "claim": "ASN : AS13335 — CLOUDFLARENET, Cloudflare, Inc.",
+          "verdict": "supported",
+          "justification": "asn_lookup: asn = 13335, asn_description = 'CLOUDFLARENET - Cloudflare, Inc.'."
+        },
+        {
+          "claim": "Préfixe annoncé (RIPEstat) : 162.159.128.0/19 — cohérent avec les IP résolues",
+          "verdict": "supported",
+          "justification": "announced_prefix = '162.159.128.0/19', qui englobe bien les 5 IP résolues (162.159.128-138.x)."
+        },
+        {
+          "claim": "Géolocalisation (ip-api.com) : Toronto, Ontario, Canada pour les 5 IP ; ISP/org : Cloudflare, Inc. (aucune qualification de la nature du réseau au-delà de ces données)",
+          "verdict": "supported",
+          "justification": "ip_geolocate indique city Toronto, region Ontario, country Canada, isp/org Cloudflare pour les 5 IP, sans autre qualification réseau."
+        },
+        {
+          "claim": "Passive DNS (VirusTotal) : historique d'IP incluant des plages attribuables à Google (74.125.x, 142.250.x, 2607:f8b0::), Meta/Facebook (31.13.x, 66.220.x, 173.252.x), Twitter (199.16.x, 199.59.x) et d'autres ; l'attribution explicite à SendGrid n'est pas identifiable dans les faits listés",
+          "verdict": "supported",
+          "justification": "passive_dns contient 74.125.x/142.250.x/2607:f8b0::, 31.13.x/66.220.x/173.252.x, 199.16.x/199.59.x et aucun enregistrement identifiable SendGrid."
+        },
+        {
+          "claim": "Source : crt.sh — 44 sous-domaines listés (non tronqué)",
+          "verdict": "supported",
+          "justification": "enumerate_subdomains source crt.sh, subdomain_count = 44, truncated = false."
+        },
+        {
+          "claim": "Exemples fonctionnels : blog, support, safety, events, static, static-edge, rtc-discovery, rtc-sfu-finder, otelcol, prod-wf1/2/3, androiddiag, creator-support, support-ads/apps/dev",
+          "verdict": "supported",
+          "justification": "Les sous-domaines blog, support, safety, events, static, static-edge, rtc-discovery, rtc-sfu-finder, otelcol, prod-wf1/2/3, androiddiag, creator-support, support-ads/apps/dev figurent tous dans la liste."
+        },
+        {
+          "claim": "Campagne saisonnière : série « snowsgiving-tale-2022-* » (multi-langues) et « snowgiving-2022 »",
+          "verdict": "supported",
+          "justification": "La liste contient snowsgiving-tale-2022 (*, plusieurs langues) et snowgiving-2022."
+        },
+        {
+          "claim": "Sous-domaines punycode : xn--discord.com, www.xn--discord.com, www.www.xn--discord.com, app.xn--discord.com — leur existence est attestée par crt.sh ; aucune donnée de réputation ou de résolution ne permet de qualifier leur usage (pas de conclusion de typosquatting)",
+          "verdict": "supported",
+          "justification": "Les sous-domaines xn--discord.com, www.xn--discord.com, www.www.xn--discord.com, app.xn--discord.com sont bien listés par crt.sh ; aucune donnée de réputation/résolution propre à ces sous-domaines n'est fournie."
+        },
+        {
+          "claim": "Wayback : 2 sous-domaines observés (discord.com, www.discord.com)",
+          "verdict": "supported",
+          "justification": "wayback subdomains = ['discord.com','www.discord.com'] et subdomain_count = 2."
+        },
+        {
+          "claim": "5. RÉPUTATION / SIGNaux EXTERNES",
+          "verdict": "unsupported",
+          "justification": "Intitulé de section (« RÉPUTATION / Signaux externes ») : aucune assertion factuelle vérifiable dans les observations."
+        },
+        {
+          "claim": "VirusTotal : found = true ; last_analysis_stats = 60 harmless, 0 malicious, 0 suspicious, 29 undetected ; 11 votes malicious ; 117 votes harmless ; réputation = 166",
+          "verdict": "supported",
+          "justification": "virustotal found = true, stats 60 harmless/0 malicious/0 suspicious/29 undetected, malicious_votes = 11, harmless_votes = 117, reputation = 166."
+        },
+        {
+          "claim": "Catégories VirusTotal : aucune renseignée",
+          "verdict": "supported",
+          "justification": "virustotal categories = [] (aucune catégorie renseignée)."
+        },
+        {
+          "claim": "GitHub : 10 dépôts et 10 correspondances de code mentionnant discord.com (liens d'invitation, canaux, wrappers API) — aucune analyse de secrets n'a été réalisée, donc aucune conclusion sur l'exposition de secrets",
+          "verdict": "supported",
+          "justification": "github repository_count = 10 et 10 code_matches (invitations, canaux, wrappers) ; aucun champ d'analyse de secrets présent dans le résultat."
+        },
+        {
+          "claim": "Wayback : 10 000 captures, plage 1996-12-22 → 2026-09-11 (tronqué) ; échantillon d'URL incluant des chemins encodés/paramétrés ; l'échantillon étant tronqué, aucune conclusion d'absence d'URL sensible n'est possible",
+          "verdict": "supported",
+          "justification": "wayback capture_count = 10000, first '1996-12-22', last '2026-09-11', truncated = true ; sample_urls contient des chemins encodés/paramétrés."
+        },
+        {
+          "claim": "Données WHOIS masquées : identité du titulaire non vérifiable",
+          "verdict": "supported",
+          "justification": "whois registrant_org = 'DATA REDACTED' : identité du titulaire non exposée."
+        },
+        {
+          "claim": "Présence DKIM non prouvée par les tests de sélecteurs",
+          "verdict": "supported",
+          "justification": "dkim_note indique que seuls des sélecteurs courants ont été testés et que le test n'est pas concluant sur la présence/absence de DKIM."
+        },
+        {
+          "claim": "Échantillon Wayback tronqué (truncated = true) : exhaustivité non garantie",
+          "verdict": "supported",
+          "justification": "wayback truncated = true, l'exhaustivité n'est donc pas garantie."
+        },
+        {
+          "claim": "Aucune analyse de secrets GitHub effectuée",
+          "verdict": "supported",
+          "justification": "Le résultat github_search ne contient aucun champ ni sortie d'analyse de secrets, cohérent avec l'absence d'une telle analyse."
+        },
+        {
+          "claim": "Aucune donnée de réputation propre aux sous-domaines punycode",
+          "verdict": "supported",
+          "justification": "Aucune donnée de réputation ni de résolution spécifique aux sous-domaines punycode n'apparaît dans les observations."
+        },
+        {
+          "claim": "Le domaine est enregistré chez un registrar reconnu (Cloudflare), protégé par des statuts EPP restrictifs et DNSSEC signé. La posture e-mail est solide sur les éléments étayés : SPF en hard fail (-all) et DMARC en p=reject ; la présence de DKIM n'est pas prouvée par les données. L'infrastructure est hébergée sur AS13335 (Cloudflare) avec un préfixe annoncé cohérent. VirusTotal ne remonte aucun verdict malveillant (0 malicious, 0 suspicious sur 60 analyses harmless), mais 11 votes malicious et une réputation de 166 existent et sont à surveiller. Aucun signal de compromission, d'infrastructure abandonnée ou de malveillance n'est établi par les faits. Le risque est donc évalué faible, avec les réserves liées aux données masquées et aux échantillons tronqués.",
+          "verdict": "supported",
+          "justification": "Synthèse reposant sur des faits observés : registrar Cloudflare, EPP restrictifs, DNSSEC, SPF -all, DMARC reject, AS13335/préfixe cohérent, VirusTotal 0 malicious/0 suspicious, 11 votes malicious, réputation 166 ; aucune preuve de compromission dans les données."
+        },
+        {
+          "claim": "Vérifier la présence effective de DKIM via une analyse d'en-têtes de messages signés (les tests de sélecteurs ne suffisent pas à la confirmer).",
+          "verdict": "supported",
+          "justification": "Cohérent avec dkim_note (tests de sélecteurs non concluants) ; la recommandation s'appuie sur la réserve explicitement présente dans les observations."
+        },
+        {
+          "claim": "Surveiller les 11 votes malicious VirusTotal et la réputation (166) pour détecter toute évolution de la réputation du domaine.",
+          "verdict": "supported",
+          "justification": "Base factuelle directement observée : 11 votes malicious et réputation 166 chez VirusTotal."
+        },
+        {
+          "claim": "Auditer les sous-domaines punycode (xn--discord.com et variantes) : vérifier leur résolution DNS et leur contenu avant toute conclusion, sans présumer d'une intention malveillante.",
+          "verdict": "supported",
+          "justification": "Base factuelle observée : les sous-domaines punycode existent (crt.sh) et aucune donnée de réputation/résolution ne les caractérise."
+        },
+        {
+          "claim": "Compléter l'analyse Wayback au-delà de l'échantillon tronqué pour rechercher d'éventuelles URL sensibles (admin, .git, .env, backups).",
+          "verdict": "supported",
+          "justification": "Base factuelle observée : wayback truncated = true, échantillon incomplet."
+        },
+        {
+          "claim": "Réaliser une analyse dédiée de secrets sur les dépôts GitHub référençant le domaine, l'absence de détection actuelle n'étant pas probante.",
+          "verdict": "supported",
+          "justification": "Base factuelle observée : aucune analyse de secrets n'a été produite dans github_search."
+        },
+        {
+          "claim": "Documenter l'identité réelle du titulaire par des sources complémentaires, les données WHOIS étant masquées (DATA REDACTED).",
+          "verdict": "supported",
+          "justification": "Base factuelle observée : whois registrant_org = 'DATA REDACTED' (titulaire masqué)."
+        },
+        {
+          "claim": "Maintenir la surveillance passive (passive DNS, certificats) pour détecter l'apparition de nouveaux sous-domaines ou changements d'infrastructure.",
+          "verdict": "supported",
+          "justification": "Base factuelle observée : passive DNS (VirusTotal) et certificats (crt.sh) ont bien été exploités, fondement de la surveillance passive préconisée."
+        }
+      ],
+      "assertions": [
+        {
+          "assertion": "Infrastructure derrière Cloudflare (ASN 13335)",
+          "expected": "must_contain",
+          "verdict": "respected",
+          "justification": "Le rapport indique explicitement « ASN : AS13335 — CLOUDFLARENET, Cloudflare, Inc. » dans la section infrastructure/hébergement, donc l'affirmation est bien présente."
+        },
+        {
+          "assertion": "DMARC configuré en politique reject",
+          "expected": "must_contain",
+          "verdict": "respected",
+          "justification": "Le rapport mentionne « DMARC : présent, politique p=reject » dans la section DNS/posture e-mail, ce qui correspond à la politique reject."
+        },
+        {
+          "assertion": "44 sous-domaines recensés",
+          "expected": "must_contain",
+          "verdict": "respected",
+          "justification": "Le rapport indique « Source : crt.sh — 44 sous-domaines listés (non tronqué) », donc le nombre de 44 sous-domaines est bien présent."
+        },
+        {
+          "assertion": "Ne doit pas affirmer que l'infrastructure réelle de Discord est physiquement située au Canada (ou tout autre pays précis) — l'IP géolocalisée est un point de présence Cloudflare, pas le datacenter de Discord",
+          "expected": "must_not_contain",
+          "verdict": "respected",
+          "justification": "Le rapport mentionne bien Toronto/Ontario/Canada pour la géolocalisation, mais le formule comme donnée ip-api.com rattachée à Cloudflare (ISP/org : Cloudflare, Inc.), en précisant « aucune qualification de la nature du réseau au-delà de ces données » et en présentant Cloudflare comme l'hébergeur. Il n'affirme à aucun moment que l'infrastructure réelle/datacenter de Discord est physiquement au Canada ; l'assertion est donc respectée."
+        }
+      ]
+    },
+    "lemonde.fr": {
+      "claims": [
+        {
+          "claim": "Rapport OSINT passif corrigé pour lemonde.fr, strictement limité aux faits collectés.",
+          "verdict": "unsupported",
+          "justification": "Affirmation méta sur le rapport lui-même (qualificatif 'corrigé'/'strictement limité'), non vérifiable par les observations fournies."
+        },
+        {
+          "claim": "Domaine : lemonde.fr",
+          "verdict": "supported",
+          "justification": "Le domaine lemonde.fr apparaît dans toutes les observations."
+        },
+        {
+          "claim": "Création : 2005-08-02",
+          "verdict": "supported",
+          "justification": "WHOIS creation_date = 2005-08-02T14:16:36."
+        },
+        {
+          "claim": "Expiration : 2027-06-09",
+          "verdict": "supported",
+          "justification": "WHOIS expiration_date = 2027-06-09T22:08:09."
+        },
+        {
+          "claim": "Dernière mise à jour WHOIS : 2026-06-12 (date présente dans les faits bruts, cohérente avec l'expiration mais à considérer avec prudence)",
+          "verdict": "supported",
+          "justification": "WHOIS updated_date = 2026-06-12T22:48:47."
+        },
+        {
+          "claim": "Registrar : NAMESHIELD (seul le nom est fourni ; aucune qualification supplémentaire n'est étayée par les données)",
+          "verdict": "supported",
+          "justification": "WHOIS registrar = NAMESHIELD, sans autre qualification dans les données."
+        },
+        {
+          "claim": "Contacts e-mail déclarés : registrar@nameshield.net, technical@nameshield.net, domain_names@lemonde.fr",
+          "verdict": "supported",
+          "justification": "emails WHOIS = registrar@nameshield.net, domain_names@lemonde.fr, technical@nameshield.net."
+        },
+        {
+          "claim": "Titulaire / organisation / pays : non renseignés (null)",
+          "verdict": "supported",
+          "justification": "registrant_country et registrant_org sont null."
+        },
+        {
+          "claim": "Statuts : ACTIVE, serverUpdateProhibited, serverTransferProhibited, serverDeleteProhibited, serverRecoverProhibited, associated, not identified",
+          "verdict": "supported",
+          "justification": "La liste des statuts correspond exactement au WHOIS."
+        },
+        {
+          "claim": "DNSSEC : non confirmé par les données disponibles (champ null dans le WHOIS ; cela ne prouve pas l'absence de DNSSEC)",
+          "verdict": "supported",
+          "justification": "Champ dnssec = null dans le WHOIS."
+        },
+        {
+          "claim": "Serveurs de noms : 4, ns-cloud-b1..b4.googledomains.com (Google Cloud DNS)",
+          "verdict": "supported",
+          "justification": "ns_count=4 et NS = ns-cloud-b1..b4.googledomains.com, cohérent avec Google Cloud DNS."
+        },
+        {
+          "claim": "MX : 5 enregistrements Google Workspace (aspmx.l.google.com + alt1-4)",
+          "verdict": "supported",
+          "justification": "mx_count=5 avec aspmx.l.google.com et alt1-4.aspmx.l.google.com."
+        },
+        {
+          "claim": "SPF : présent et strict (-all) ; contient include:spf1.lemonde.fr, include:spf2.lemonde.fr, include:_spf.salesforce.com et plusieurs ip4 dédiées (79.99.32.203/185/186, 217.74.103.211, 195.154.80.82, 163.172.55.8, 35.181.34.138, 35.181.85.71, 52.143.135.92). Aucune mention de Mandrill ni de Sendinblue dans l'enregistrement SPF.",
+          "verdict": "supported",
+          "justification": "spf_record présent, se termine par -all, contient les include et ip4 listés ; ni Mandrill ni Sendinblue n'y figurent."
+        },
+        {
+          "claim": "DMARC : présent, politique quarantine",
+          "verdict": "supported",
+          "justification": "email_security.dmarc=true et dmarc_policy=quarantine."
+        },
+        {
+          "claim": "DKIM : sélecteurs trouvés google, k1, mail (test partiel ; une absence ne prouverait pas l'absence de DKIM)",
+          "verdict": "supported",
+          "justification": "dkim_selectors_found = google, k1, mail, avec la note sur le test partiel."
+        },
+        {
+          "claim": "TXT : 13 enregistrements, dont vérifications tierces (Google, OpenAI, Jamf, Sendinblue, Mandrill, GlobalSign, Fastly, Recyclum, Salesforce) — ces TXT de vérification sont distincts du SPF et ne doivent pas y être confondus.",
+          "verdict": "supported",
+          "justification": "txt_count=13 ; les vérifications Google, OpenAI, Jamf, Sendinblue, Mandrill, GlobalSign, Fastly, Recyclum et Salesforce (00D.../00DAU...) sont présentes et distinctes du SPF."
+        },
+        {
+          "claim": "81 sous-domaines listés, issus de journaux de certificats (pas d'un scan actif).",
+          "verdict": "supported",
+          "justification": "enumerate_subdomains : subdomain_count=81, source=certspotter."
+        },
+        {
+          "claim": "Environnements dev/staging/préprod visibles dans les certificats : dev.carnet, dev.cities, dev.debats-afrique, dev.festival, dev.webserver.carnet, stg-evenements-abonnes, stg-festival, stg-www, preprod-boutique, rec-boutique, rec-evenements-abonnes, rec-festival, idp-stg, journal-uat.",
+          "verdict": "supported",
+          "justification": "Tous les sous-domaines dev.*, stg-*, preprod-boutique, rec-*, idp-stg et journal-uat listés figurent bien dans la liste certspotter."
+        },
+        {
+          "claim": "Sous-domaines fonctionnels notables : abonnements, moncompte, checkout, boutique, redaction, media, podcasts, directus, arcade, infos, journal.",
+          "verdict": "supported",
+          "justification": "abonnements, moncompte, checkout, boutique, redaction, media, podcasts, directus, arcade, infos et journal sont tous présents dans la liste."
+        },
+        {
+          "claim": "Aucune vérification d'accessibilité réelle de ces hôtes n'a été effectuée (reconnaissance passive uniquement).",
+          "verdict": "unsupported",
+          "justification": "Aucune observation ne documente l'absence de test d'accessibilité ; les sources sont passives mais cette affirmation d'absence n'est pas établie par un fait fourni."
+        },
+        {
+          "claim": "IP résolue : 151.101.122.137",
+          "verdict": "supported",
+          "justification": "ip_geolocate retourne 151.101.122.137."
+        },
+        {
+          "claim": "ASN : AS54113 FASTLY - Fastly, Inc. ; préfixe annoncé 151.101.120.0/22",
+          "verdict": "supported",
+          "justification": "asn_lookup : asn=54113 FASTLY, announced_prefix=151.101.120.0/22."
+        },
+        {
+          "claim": "Géolocalisation : Paris, Île-de-France, France (source ip-api.com)",
+          "verdict": "supported",
+          "justification": "ip_geolocate : city Paris, region Île-de-France, country France, source ip-api.com."
+        },
+        {
+          "claim": "Passive DNS (VirusTotal) : historique Fastly (151.101.x), Google (74.125.142.27, 64.233.171.27, 142.250.152.26), 195.154.120.129, 93.184.220.20. L'attribution de 195.154.120.129 à un hébergeur précis (ex. OVH) n'est PAS étayée par les faits : aucun lookup ASN/WHOIS n'a été réalisé sur cette IP.",
+          "verdict": "supported",
+          "justification": "Le passive_dns VT liste bien 151.101.x, 74.125.142.27, 64.233.171.27, 142.250.152.26, 195.154.120.129 et 93.184.220.20 ; aucun ASN/WHOIS sur 195.154.120.129 n'est fourni."
+        },
+        {
+          "claim": "VirusTotal : 60 moteurs harmless, 0 malicious, 0 suspicious, 29 undetected",
+          "verdict": "supported",
+          "justification": "last_analysis_stats : harmless=60, malicious=0, suspicious=0, undetected=29."
+        },
+        {
+          "claim": "Votes : 1 harmless, 1 malicious ; réputation -21",
+          "verdict": "supported",
+          "justification": "harmless_votes=1, malicious_votes=1, reputation=-21."
+        },
+        {
+          "claim": "Aucune catégorie de classification retournée",
+          "verdict": "supported",
+          "justification": "categories=[] (vide)."
+        },
+        {
+          "claim": "Signal de réputation négatif isolé, non corroboré par les détections moteurs.",
+          "verdict": "supported",
+          "justification": "reputation=-21 alors que les détections moteurs sont à 0 malicious/suspicious : signal non corroboré."
+        },
+        {
+          "claim": "~10 000 captures, première 1996-10-19, dernière indiquée 2026-09-08 (date manifestement aberrante/future par rapport à une date d'analyse plausible ; donnée source douteuse à ne pas reprendre sans réserve).",
+          "verdict": "supported",
+          "justification": "capture_count=10000 ; date_range first=1996-10-19, last=2026-09-08 (date future manifestement douteuse)."
+        },
+        {
+          "claim": "Sous-domaines vus : lemonde.fr, www.lemonde.fr",
+          "verdict": "supported",
+          "justification": "wayback subdomains = lemonde.fr, www.lemonde.fr."
+        },
+        {
+          "claim": "URLs remarquables : chemins de type .env, .mdb, .old, .wdb, .well-known/openid-configuration, preprod.sandbox. Ces entrées sont des URLs de captures Wayback et peuvent être des artefacts de parsing/erreurs ; elles ne constituent PAS la preuve de fichiers réellement exposés.",
+          "verdict": "supported",
+          "justification": "Des URLs de capture Wayback correspondent à .mdb, .old, .wdb, .well-known/openid-configuration et -preprod.sandbox (et .envoyez pour le type .env) ; l'interprétation prudente sur les artefacts est cohérente."
+        },
+        {
+          "claim": "10 dépôts examinés (lecteurs RSS, extensions de contournement paywall, filtres, configs de scraping).",
+          "verdict": "supported",
+          "justification": "github_search : repository_count=10, avec lecteurs RSS, extensions paywall, filtres/configs."
+        },
+        {
+          "claim": "Aucun secret détecté dans les extraits des 10 dépôts examinés (formulation limitée aux extraits consultés, pas une garantie globale).",
+          "verdict": "supported",
+          "justification": "Aucun des extraits fournis ne contient de secret apparent ; formulation limitée aux extraits et aux 10 dépôts."
+        },
+        {
+          "claim": "Dépôts notables : MBach/LeMondeRssReader (35★), JonGiamp/lemonde-hack, Dogild/lemondeForFree (contournement paywall).",
+          "verdict": "supported",
+          "justification": "MBach/LeMondeRssReader (35★), JonGiamp/lemonde-hack (accès Zen gratuit), Dogild/lemondeForFree (lecture gratuite) figurent bien."
+        },
+        {
+          "claim": "Domaine légitime, ancien, bien configuré côté e-mail (SPF strict, DMARC quarantine, DKIM).",
+          "verdict": "supported",
+          "justification": "SPF strict -all, DMARC quarantine, DKIM présent, création 2005 : éléments présents dans les données."
+        },
+        {
+          "claim": "Infrastructure CDN Fastly + DNS/MX Google, cohérente avec un grand média.",
+          "verdict": "supported",
+          "justification": "Infrastructure Fastly (AS54113) et Google (NS/MX) confirmée par les observations."
+        },
+        {
+          "claim": "Aucun indicateur malveillant corroboré ; réputation VT négative isolée.",
+          "verdict": "supported",
+          "justification": "VT : 0 malicious, 0 suspicious ; reputation négative isolée (-21, 1 vote malicious)."
+        },
+        {
+          "claim": "Points de vigilance : surface de sous-domaines dev/staging visible en CT, historique Wayback volumineux et bruité, données WHOIS partiellement absentes (titulaire, DNSSEC).",
+          "verdict": "supported",
+          "justification": "Surface dev/staging visible en CT, historique Wayback volumineux/bruité, WHOIS partiel : tous étayés par les observations."
+        },
+        {
+          "claim": "Domaine légitime et ancien (créé en 2005), posture e-mail solide (SPF strict en -all, DMARC en quarantine, DKIM présent), infrastructure cohérente (Fastly + Google). VirusTotal ne remonte aucune détection malveillante (0/60). Les seuls signaux mineurs sont une réputation VT légèrement négative non corroborée, une surface de sous-domaines dev/staging visible via Certificate Transparency, et des données WHOIS partielles (titulaire et DNSSEC non renseignés). Aucun élément étayé ne justifie un niveau supérieur.",
+          "verdict": "supported",
+          "justification": "Les faits invoqués (création 2005, SPF -all, DMARC quarantine, DKIM, Fastly+Google, VT 0/60, réputation négative, CT dev/staging, WHOIS partiel) sont tous présents dans les observations."
+        },
+        {
+          "claim": "Vérifier la présence effective de DNSSEC via une source dédiée (les données WHOIS disponibles ne permettent pas de conclure).",
+          "verdict": "supported",
+          "justification": "La recommandation découle du champ dnssec=null : les données WHOIS ne permettent pas de conclure."
+        },
+        {
+          "claim": "Contrôler l'exposition réelle des sous-domaines dev/staging/préprod identifiés en Certificate Transparency (dev.*, stg-*, preprod-boutique, rec-*, idp-stg, journal-uat) et restreindre leur accès si nécessaire.",
+          "verdict": "supported",
+          "justification": "Recommandation fondée sur la présence avérée des sous-domaines dev/staging/préprod dans les certificats."
+        },
+        {
+          "claim": "Ne pas interpréter les chemins .env/.mdb/.old/.wdb de Wayback comme des fichiers exposés : ce sont des URLs de captures pouvant être des artefacts ; confirmer par une vérification ciblée si un doute subsiste.",
+          "verdict": "supported",
+          "justification": "Recommandation cohérente avec le statut d'URL de capture Wayback des chemins .mdb/.old/.wdb/.envoyez."
+        },
+        {
+          "claim": "Vérifier l'IP 195.154.120.129 (passive DNS) par un lookup ASN/WHOIS dédié avant toute attribution d'hébergeur.",
+          "verdict": "supported",
+          "justification": "Recommandation cohérente : 195.154.120.129 figure en passive DNS sans lookup ASN/WHOIS associé."
+        },
+        {
+          "claim": "Surveiller la réputation VirusTotal du domaine et investiguer l'origine du vote malicious isolé.",
+          "verdict": "supported",
+          "justification": "Recommandation fondée sur reputation=-21 et malicious_votes=1 non corroborés par les détections."
+        },
+        {
+          "claim": "Compléter la collecte (en-têtes de sécurité HTTP, CAA, MTA-STS/TLS-RPT) pour affiner l'évaluation de la posture.",
+          "verdict": "supported",
+          "justification": "Recommandation cohérente avec l'absence d'observations sur en-têtes HTTP, CAA et MTA-STS/TLS-RPT."
+        }
+      ],
+      "assertions": [
+        {
+          "assertion": "Hébergé derrière le CDN Fastly (ASN 54113)",
+          "expected": "must_contain",
+          "verdict": "respected",
+          "justification": "Le rapport indique clairement « Infrastructure CDN Fastly », « ASN : AS54113 FASTLY - Fastly, Inc. » et « Hébergement » avec le préfixe 151.101.120.0/22. L'assertion d'hébergement derrière le CDN Fastly (ASN 54113) est présente."
+        },
+        {
+          "assertion": "Historique Wayback remontant à 1996",
+          "expected": "must_contain",
+          "verdict": "respected",
+          "justification": "Le rapport précise « ~10 000 captures, première 1996-10-19 », ce qui correspond à un historique Wayback remontant à 1996."
+        },
+        {
+          "assertion": "DMARC configuré en politique quarantine",
+          "expected": "must_contain",
+          "verdict": "respected",
+          "justification": "Le rapport mentionne « DMARC : présent, politique quarantine » (section 2 et synthèse). L'assertion est présente."
+        },
+        {
+          "assertion": "81 sous-domaines recensés",
+          "expected": "must_contain",
+          "verdict": "respected",
+          "justification": "Le rapport indique « 81 sous-domaines listés, issus de journaux de certificats » en section 3. L'assertion est présente."
+        },
+        {
+          "assertion": "Ne doit pas présenter la localisation IP géolocalisée comme le siège ou le datacenter réel du Monde — Fastly est un CDN, la géoloc ne reflète qu'un point de présence",
+          "expected": "must_not_contain",
+          "verdict": "respected",
+          "justification": "Le rapport se contente de « Géolocalisation : Paris, Île-de-France, France (source ip-api.com) » sans présenter cette localisation comme le siège ou le datacenter réel du Monde. Il ne commet pas la confusion dénoncée par l'assertion must_not_contain."
+        }
+      ]
+    },
+    "microsoft.com": {
+      "claims": [
+        {
+          "claim": "Rapport OSINT passif sur microsoft.com, strictement limité aux faits collectés par les tools.",
+          "verdict": "supported",
+          "justification": "Toutes les observations proviennent d'outils OSINT passifs (WHOIS, DNS, crt.sh, ip-api, RIPEstat, VirusTotal, Wayback, GitHub) ; le cadre du rapport correspond aux données fournies."
+        },
+        {
+          "claim": "Domaine : microsoft.com",
+          "verdict": "supported",
+          "justification": "Tous les tools portent sur le domaine microsoft.com."
+        },
+        {
+          "claim": "Création : 1991-05-02 (domaine historique, ~34 ans)",
+          "verdict": "supported",
+          "justification": "whois creation_date = 1991-05-02."
+        },
+        {
+          "claim": "Expiration : 2027-05-03",
+          "verdict": "supported",
+          "justification": "whois expiration_date = 2027-05-03."
+        },
+        {
+          "claim": "Dernière mise à jour WHOIS : 2026-01-29",
+          "verdict": "supported",
+          "justification": "whois updated_date = 2026-01-29T18:46:57."
+        },
+        {
+          "claim": "Registrant : Microsoft Corporation (US)",
+          "verdict": "supported",
+          "justification": "registrant_org = Microsoft Corporation, registrant_country = US."
+        },
+        {
+          "claim": "Registrar : MarkMonitor, Inc.",
+          "verdict": "supported",
+          "justification": "registrar = MarkMonitor, Inc."
+        },
+        {
+          "claim": "Serveurs de noms : ns1-39.azure-dns.com / .net / .org / .info (4 NS)",
+          "verdict": "supported",
+          "justification": "name_servers listent les 4 NS azure-dns (.com/.net/.org/.info) ; ns_count = 4."
+        },
+        {
+          "claim": "Statuts EPP : clientDeleteProhibited, clientTransferProhibited, clientUpdateProhibited, serverDeleteProhibited, serverTransferProhibited, serverUpdateProhibited",
+          "verdict": "supported",
+          "justification": "Les six statuts EPP (client/server Delete/Transfer/Update Prohibited) figurent dans la liste status."
+        },
+        {
+          "claim": "DNSSEC : unsigned",
+          "verdict": "supported",
+          "justification": "dnssec = unsigned."
+        },
+        {
+          "claim": "Contacts WHOIS : abusecomplaints@markmonitor.com, whoisrequest@markmonitor.com, admin@domains.microsoft, msnhst@microsoft.com",
+          "verdict": "supported",
+          "justification": "emails WHOIS = abusecomplaints@markmonitor.com, admin@domains.microsoft, msnhst@microsoft.com, whoisrequest@markmonitor.com."
+        },
+        {
+          "claim": "MX : 10 microsoft-com.mail.protection.outlook.com (1 enregistrement)",
+          "verdict": "supported",
+          "justification": "mx = ['10 microsoft-com.mail.protection.outlook.com'], mx_count = 1."
+        },
+        {
+          "claim": "SPF : présent, v=spf1 include:_spf-a.microsoft.com include:_spf-b.microsoft.com include:_spf-c.microsoft.com include:_spf-ssg-a.msft.net include:_spf1-meo.microsoft.com -all (mécanisme -all strict)",
+          "verdict": "supported",
+          "justification": "spf = true, spf_record se termine par -all."
+        },
+        {
+          "claim": "DMARC : présent, politique reject",
+          "verdict": "supported",
+          "justification": "dmarc = true, dmarc_policy = reject."
+        },
+        {
+          "claim": "DKIM : sélecteur « selector2 » détecté (le tool précise que seuls les sélecteurs courants sont testés ; une absence ne prouverait pas l'absence de DKIM)",
+          "verdict": "supported",
+          "justification": "dkim_selectors_found = ['selector2'] ; la note du tool sur les sélecteurs courants est bien présente."
+        },
+        {
+          "claim": "TXT : 58 enregistrements, incluant de nombreux jetons de vérification de services tiers (Google, Facebook, Zoom, Atlassian, DocuSign, Airtable, Sitecore, Anthropic, HCP, Workplace, Docusign, etc.), des clés d365mktkey, des ms-domain-verification et des enregistrements MCPv1 (clés ECDSA P-384 publiques)",
+          "verdict": "supported",
+          "justification": "txt_count = 58 et la liste contient google-/facebook-/zoom-/atlassian-/docusign/sitecore/anthropic-/hcp-/workplace-domain-verification, d365mktkey, ms-domain-verification et enregistrements v=MCPv1 k=ecdsap384."
+        },
+        {
+          "claim": "IP résolue : 150.171.110.120",
+          "verdict": "supported",
+          "justification": "ip_geolocate renvoie 150.171.110.120."
+        },
+        {
+          "claim": "ASN : AS8075 — MICROSOFT-CORP-MSN-AS-BLOCK, Microsoft Corporation",
+          "verdict": "supported",
+          "justification": "asn = 8075, asn_description = MICROSOFT-CORP-MSN-AS-BLOCK - Microsoft Corporation."
+        },
+        {
+          "claim": "Préfixe annoncé : 150.171.0.0/16 (1318 préfixes listés pour cet ASN, tronqué)",
+          "verdict": "supported",
+          "justification": "announced_prefix = 150.171.0.0/16, prefix_count = 1318, truncated = true."
+        },
+        {
+          "claim": "Géolocalisation : Dallas, Texas, États-Unis (lat 32.7767, lon -96.797)",
+          "verdict": "supported",
+          "justification": "city = Dallas, region = Texas, country = United States, lat 32.7767, lon -96.797."
+        },
+        {
+          "claim": "FAI / Org : Microsoft Corporation",
+          "verdict": "supported",
+          "justification": "isp = Microsoft Corporation, org = Microsoft Corporation."
+        },
+        {
+          "claim": "Passive DNS (VirusTotal) : 30 entrées, principalement dans 150.171.109.0/24, 150.171.110.0/24 et 13.107.226.0/24 / 13.107.253.0/24",
+          "verdict": "supported",
+          "justification": "passive_dns contient 30 entrées réparties dans 150.171.109.x, 150.171.110.x, 13.107.226.x et 13.107.253.x."
+        },
+        {
+          "claim": "Source : crt.sh",
+          "verdict": "supported",
+          "justification": "enumerate_subdomains source = crt.sh."
+        },
+        {
+          "claim": "Volume : 3698 sous-domaines (liste tronquée)",
+          "verdict": "supported",
+          "justification": "subdomain_count = 3698, truncated = true."
+        },
+        {
+          "claim": "Observation : présence de nombreux hôtes historiques de type *.redmond.corp.microsoft.com, *.europe.corp.microsoft.com, *.southpacific.corp.microsoft.com — enregistrements de certificats historiques visibles dans les logs CT, ce qui est courant pour un grand groupe ; aucune conclusion sur une exposition anormale n'est tirée des données",
+          "verdict": "supported",
+          "justification": "La liste inclut de nombreux hôtes *.redmond.corp.microsoft.com, *.europe.corp.microsoft.com, *.southpacific.corp.microsoft.com ; le caractère non conclusif est cohérent avec les données."
+        },
+        {
+          "claim": "Wayback : 2 sous-domaines indexés (microsoft.com, www.microsoft.com)",
+          "verdict": "supported",
+          "justification": "wayback subdomain_count = 2 avec subdomains = ['microsoft.com','www.microsoft.com']."
+        },
+        {
+          "claim": "VirusTotal : domaine trouvé, enabled=true, reputation=48",
+          "verdict": "supported",
+          "justification": "found = true, enabled = true, reputation = 48."
+        },
+        {
+          "claim": "Détections : 58 harmless, 0 malicious, 0 suspicious, 31 undetected (sur 89 moteurs)",
+          "verdict": "supported",
+          "justification": "last_analysis_stats : harmless 58, malicious 0, suspicious 0, undetected 31 (total 89)."
+        },
+        {
+          "claim": "Votes : 87 harmless, 21 malicious (votes communautaires, non reliés par les données à une usurpation par des tiers)",
+          "verdict": "supported",
+          "justification": "harmless_votes = 87, malicious_votes = 21."
+        },
+        {
+          "claim": "Catégories : Business/Economy, Information Technology, computersandsoftware",
+          "verdict": "supported",
+          "justification": "categories incluent Business/Economy, Information Technology, computersandsoftware."
+        },
+        {
+          "claim": "Wayback Machine : 10000 captures, période 1996-10-20 → 2026-09-03",
+          "verdict": "supported",
+          "justification": "capture_count = 10000, date_range 1996-10-20 → 2026-09-03."
+        },
+        {
+          "claim": "URLs remarquables : chaînes malformées/encodées (guillemets, séquences %22, paramètres de redirection safelinks.protection.outlook.com) ; leur nature exacte n'est pas établie par les faits et aucune qualification d'attaque n'est retenue",
+          "verdict": "supported",
+          "justification": "interesting_urls contiennent des chaînes malformées/encodées (%22, guillemets, safelinks.protection.outlook.com) sans qualification d'attaque."
+        },
+        {
+          "claim": "Source : api.github.com",
+          "verdict": "supported",
+          "justification": "github_search source = api.github.com."
+        },
+        {
+          "claim": "10 dépôts correspondants listés (ex. microsoft/qlib, Azure/azure-sdk-for-net, Azure/azure-sdk-for-python, winapps-org/winapps, nissl-lab/npoi, etc.)",
+          "verdict": "supported",
+          "justification": "repository_count = 10, incluant microsoft/qlib, Azure/azure-sdk-for-net, Azure/azure-sdk-for-python, winapps-org/winapps, nissl-lab/npoi."
+        },
+        {
+          "claim": "10 correspondances de code listées (références documentaires, liens learn.microsoft.com, etc.)",
+          "verdict": "supported",
+          "justification": "code_matches contient 10 entrées (références documentaires, liens learn.microsoft.com/technet, etc.)."
+        },
+        {
+          "claim": "Précision : le tool ne fournit que des correspondances de code et de dépôts ; aucune analyse de secrets n'a été réalisée, aucune conclusion sur l'absence ou la présence de secrets exposés n'est formulée",
+          "verdict": "supported",
+          "justification": "Le tool ne renvoie que code_matches et repository_matches ; aucune analyse de secrets n'apparaît dans les observations."
+        },
+        {
+          "claim": "Données issues uniquement de sources tierces passives (WHOIS, DNS, crt.sh, ip-api, RIPEstat, VirusTotal, Wayback, GitHub)",
+          "verdict": "supported",
+          "justification": "Les sources observées correspondent exactement à la liste (WHOIS, DNS, crt.sh, ip-api, RIPEstat, VirusTotal, Wayback, GitHub)."
+        },
+        {
+          "claim": "Aucun contact direct avec l'infrastructure de la cible",
+          "verdict": "supported",
+          "justification": "Tous les tools observés sont des consultations passives tierces, aucune observation ne montrant d'interaction directe avec l'infrastructure."
+        },
+        {
+          "claim": "Listes de sous-domaines, préfixes ASN et captures Wayback tronquées",
+          "verdict": "supported",
+          "justification": "enumerate_subdomains, asn_lookup et wayback_lookup ont tous truncated = true."
+        },
+        {
+          "claim": "Les votes VirusTotal et les captures Wayback sont des signaux non concluants en l'état : aucun lien causal avec une exploitation de la marque par des tiers n'est établi par les données",
+          "verdict": "supported",
+          "justification": "Les données ne relient effectivement votes/captures à aucune exploitation de marque ; le caractère non concluant est cohérent avec les observations."
+        },
+        {
+          "claim": "Domaine officiel de Microsoft Corporation, enregistré depuis 1991 (~34 ans), verrouillé par statuts EPP complets, avec SPF strict (-all), DMARC en politique reject et DKIM détecté. VirusTotal ne remonte aucune détection malicious ni suspicious (58 harmless, 31 undetected, 0 malicious, 0 suspicious). L'infrastructure est cohérente (AS8075 Microsoft, NS Azure DNS). Les signaux secondaires (votes VT négatifs, volume Wayback, sous-domaines corp.*) ne sont pas reliés par les données à une menace avérée et ne suffisent pas à élever le niveau de risque.",
+          "verdict": "supported",
+          "justification": "Chaque élément factuel (création 1991, EPP complets, SPF -all, DMARC reject, DKIM selector2, stats VT 0 malicious/0 suspicious, AS8075, NS Azure DNS) est confirmé par les observations."
+        },
+        {
+          "claim": "Maintenir la surveillance passive de la réputation (VirusTotal, passive DNS) pour détecter toute évolution des détections ou des votes.",
+          "verdict": "unsupported",
+          "justification": "Recommandation prescriptive d'action future ; aucune observation ne peut la confirmer ou l'infirmer."
+        },
+        {
+          "claim": "Conserver la posture e-mail actuelle (SPF -all, DMARC reject, DKIM) et vérifier périodiquement l'alignement DMARC/DKIM sur les sous-domaines d'envoi.",
+          "verdict": "unsupported",
+          "justification": "Recommandation d'action future (maintien/verification périodique) ; non vérifiable par les observations, même si ses prémisses factuelles le sont."
+        },
+        {
+          "claim": "Envisager l'activation de DNSSEC (actuellement unsigned) pour renforcer l'intégrité des résolutions.",
+          "verdict": "unsupported",
+          "justification": "Recommandation d'action future (activation DNSSEC) ; non vérifiable par les observations."
+        },
+        {
+          "claim": "Auditer périodiquement les 58 enregistrements TXT de vérification tiers afin de retirer les jetons obsolètes et réduire la surface d'information publique.",
+          "verdict": "unsupported",
+          "justification": "Recommandation d'action future (audit périodique des TXT) ; non vérifiable par les observations."
+        },
+        {
+          "claim": "Ne pas tirer de conclusion sur une usurpation de marque à partir des seuls votes VirusTotal ou des captures Wayback : toute analyse de typosquatting nécessiterait une collecte dédiée (domaines similaires, certificats, WHOIS comparés).",
+          "verdict": "unsupported",
+          "justification": "Consigne/méthode générale (ne pas conclure, collecte dédiée requise) ; affirmation prescriptive non vérifiable dans les observations."
+        },
+        {
+          "claim": "Aucune analyse de secrets n'ayant été effectuée sur GitHub, prévoir un scan dédié (secret scanning) si cet angle est requis.",
+          "verdict": "unsupported",
+          "justification": "Recommandation d'action future (scan de secrets dédié) ; non vérifiable par les observations."
+        }
+      ],
+      "assertions": [
+        {
+          "assertion": "Le domaine est enregistré depuis 1991 (ancienneté très élevée)",
+          "expected": "must_contain",
+          "verdict": "respected",
+          "justification": "Le rapport indique « Création : 1991-05-02 (domaine historique, ~34 ans) », ce qui correspond à l'ancienneté élevée demandée."
+        },
+        {
+          "assertion": "Plusieurs milliers de sous-domaines recensés (surface d'attaque très large)",
+          "expected": "must_contain",
+          "verdict": "respected",
+          "justification": "Le rapport mentionne « Volume : 3698 sous-domaines (liste tronquée) », soit plusieurs milliers de sous-domaines recensés."
+        },
+        {
+          "assertion": "ASN 8075 (Microsoft Corporation)",
+          "expected": "must_contain",
+          "verdict": "respected",
+          "justification": "Le rapport indique « ASN : AS8075 — MICROSOFT-CORP-MSN-AS-BLOCK, Microsoft Corporation »."
+        },
+        {
+          "assertion": "DMARC configuré avec une politique reject",
+          "expected": "must_contain",
+          "verdict": "respected",
+          "justification": "Le rapport mentionne « DMARC : présent, politique reject »."
+        },
+        {
+          "assertion": "Historique Wayback très profond (archives depuis le milieu des années 1990)",
+          "expected": "must_contain",
+          "verdict": "respected",
+          "justification": "Le rapport indique « Wayback Machine : 10000 captures, période 1996-10-20 → 2026-09-03 », soit des archives depuis le milieu des années 1990."
+        }
+      ]
+    },
+    "service-public.fr": {
+      "claims": [
+        {
+          "claim": "Analyse OSINT passive du domaine service-public.fr (portail officiel de l'administration française, édité par la DILA).",
+          "verdict": "supported",
+          "justification": "Les observations WHOIS/DNS portent bien sur service-public.fr, avec NS/MX en dila.fr et l'email gestionnaire-dns@dila.gouv.fr (DILA), et des URLs archivées du type « est le site officiel de l'administration française »."
+        },
+        {
+          "claim": "Domaine : service-public.fr",
+          "verdict": "supported",
+          "justification": "Toutes les observations concernent le domaine service-public.fr."
+        },
+        {
+          "claim": "Création : 2000-10-05 (ancienneté ~25 ans, cohérent avec un site institutionnel)",
+          "verdict": "supported",
+          "justification": "creation_date = 2000-10-05T22:00:00+00:00 dans le WHOIS."
+        },
+        {
+          "claim": "Expiration : 2027-06-29 ; mise à jour : 2026-07-02",
+          "verdict": "supported",
+          "justification": "expiration_date = 2027-06-29 et updated_date = 2026-07-02 dans le WHOIS."
+        },
+        {
+          "claim": "Registrar : NAMESHIELD (bureau d'enregistrement français spécialisé secteur public)",
+          "verdict": "supported",
+          "justification": "registrar = NAMESHIELD dans le WHOIS (la précision « français/secteur public » n'est pas dans les observations mais l'affirmation principale l'est)."
+        },
+        {
+          "claim": "Contacts : gestionnaire-dns@dila.gouv.fr, registrar@nameshield.net, technical@nameshield.net",
+          "verdict": "supported",
+          "justification": "La liste des emails WHOIS contient gestionnaire-dns@dila.gouv.fr, registrar@nameshield.net et technical@nameshield.net."
+        },
+        {
+          "claim": "Statut : ACTIVE, clientTransferProhibited, ok",
+          "verdict": "supported",
+          "justification": "status = [ACTIVE, clientTransferProhibited, associated, ok, not identified] inclut ACTIVE, clientTransferProhibited et ok."
+        },
+        {
+          "claim": "Titulaire : non divulgué (registrant_org / country = null, anonymisation WHOIS)",
+          "verdict": "supported",
+          "justification": "registrant_org = null et registrant_country = null dans le WHOIS."
+        },
+        {
+          "claim": "Serveurs de noms : ns1-4.dila.fr (infrastructure propre à la DILA, 4 NS)",
+          "verdict": "supported",
+          "justification": "name_servers = ns1.dila.fr, ns2.dila.fr, ns3.dila.fr, ns4.dila.fr et ns_count = 4."
+        },
+        {
+          "claim": "MX : relay1-c.dila.fr (10), relay2-c.dila.fr (20) — messagerie auto-hébergée",
+          "verdict": "supported",
+          "justification": "mx = relay1-c.dila.fr (10) et relay2-c.dila.fr (20)."
+        },
+        {
+          "claim": "SPF : présent (v=spf1 a mx ip4:160.92.140.180/181, 160.92.169.107/108, 160.92.64.63, 162.19.70.41 ~all)",
+          "verdict": "supported",
+          "justification": "spf = true et le spf_record correspond exactement (a mx ip4:160.92.140.180/181, 160.92.169.107/108, 160.92.64.63, 162.19.70.41 ~all)."
+        },
+        {
+          "claim": "DMARC : ABSENT (aucun enregistrement _dmarc détecté) — point de vigilance",
+          "verdict": "supported",
+          "justification": "dmarc = false et dmarc_policy = null dans les enregistrements DNS."
+        },
+        {
+          "claim": "DKIM : sélecteur « mail » détecté (indice, non exhaustif)",
+          "verdict": "supported",
+          "justification": "dkim_selectors_found = [\"mail\"] (avec la note que ce n'est pas exhaustif)."
+        },
+        {
+          "claim": "TXT : plusieurs jetons de validation de domaine (GlobalSign, Certeurope) — cohérent avec une PKI institutionnelle",
+          "verdict": "supported",
+          "justification": "Plusieurs TXT globalsign-domain-verification et deux enregistrements Certeurope sont présents."
+        },
+        {
+          "claim": "IP résolue : 160.92.168.33",
+          "verdict": "supported",
+          "justification": "ip_geolocate résout service-public.fr vers 160.92.168.33."
+        },
+        {
+          "claim": "Géolocalisation : Paris, Île-de-France, France",
+          "verdict": "supported",
+          "justification": "Géolocalisation : city Paris, region Île-de-France, country France (FR)."
+        },
+        {
+          "claim": "ASN : AS47957 (ING-AS Worldline IGSA SA / Worldline France hosting)",
+          "verdict": "supported",
+          "justification": "asn = 47957, asn_description = ING-AS Worldline IGSA SA, isp = Worldline France hosting."
+        },
+        {
+          "claim": "Préfixe annoncé : 160.92.168.0/24 (20 préfixes /24 annoncés par l'AS)",
+          "verdict": "supported",
+          "justification": "announced_prefix = 160.92.168.0/24 et prefix_count = 20 dans l'ASN lookup."
+        },
+        {
+          "claim": "Passive DNS (VirusTotal) : 160.92.168.33, 160.92.65.200, 160.92.64.57, 160.92.50.135, 160.92.166.94 — tous dans l'espace 160.92.0.0/16, cohérent et stable",
+          "verdict": "supported",
+          "justification": "Passive DNS VirusTotal : 160.92.168.33, 160.92.65.200, 160.92.64.57, 160.92.50.135, 160.92.166.94, tous dans 160.92.0.0/16."
+        },
+        {
+          "claim": "crt.sh : 1 seul sous-domaine (service-public.fr) — peu de fuite via CT",
+          "verdict": "supported",
+          "justification": "enumerate_subdomains (crt.sh) renvoie subdomain_count = 1 (service-public.fr)."
+        },
+        {
+          "claim": "Wayback : 4 sous-domaines historiques (service-public.fr, www, www1, www2)",
+          "verdict": "supported",
+          "justification": "wayback subdomains = service-public.fr, www.service-public.fr, www1.service-public.fr, www2.service-public.fr (4)."
+        },
+        {
+          "claim": "Wayback : ~10 000 captures entre 2000-11-09 et 2026-08-21 (site très archivé)",
+          "verdict": "supported",
+          "justification": "capture_count = 10000, date_range first 2000-11-09 / last 2026-08-21."
+        },
+        {
+          "claim": "URLs notables : /.well-known/openid-configuration (OIDC), anciens chemins .mdb/.old/.TEST/.wdb (2012), nombreux paramètres fbclid/gclid",
+          "verdict": "supported",
+          "justification": "Les URLs incluent https://service-public.fr/.well-known/openid-configuration, des chemins .mdb/.old/.TEST/.wdb datés 2012-06-12 et de nombreux paramètres fbclid/gclid."
+        },
+        {
+          "claim": "Aucun panneau d'admin, backup ou .env exposé identifié dans l'échantillon",
+          "verdict": "unsupported",
+          "justification": "Aucune observation n'affirme explicitement l'absence de panneaux d'admin, backups ou .env ; l'échantillon Wayback est marqué truncated=true et ne permet pas de conclure à une absence."
+        },
+        {
+          "claim": "VirusTotal : 59 moteurs « harmless », 0 malicious, 0 suspicious ; catégories education/government ; réputation 0",
+          "verdict": "supported",
+          "justification": "VirusTotal : harmless 59, malicious 0, suspicious 0, categories education/government, reputation 0."
+        },
+        {
+          "claim": "GitHub : mentions légitimes (betagouv, api.gouv.fr, data.gouv.fr) ; 2 CVE XSS (CVE-2024-29758, CVE-2024-29908) concernant le plugin tiers « Co-marquage service-public.fr » (Kienso), pas le domaine lui-même",
+          "verdict": "supported",
+          "justification": "Les code_matches GitHub montrent des repos betagouv/api.gouv.fr/data.gouv.fr et les CVE-2024-29758/29908 attribuées au « Co-marquage service-public.Fr » de Kienso, pas au domaine."
+        },
+        {
+          "claim": "Aucun secret/clé d'API commité trouvé en lien direct avec le domaine",
+          "verdict": "unsupported",
+          "justification": "Aucune observation n'atteste explicitement l'absence de secrets/clés commités ; la recherche GitHub n'est pas une recherche dédiée aux secrets."
+        },
+        {
+          "claim": "Domaine officiel, ancien, stable, hébergé en France chez un prestataire reconnu (Worldline), réputation vierge.",
+          "verdict": "supported",
+          "justification": "Création 2000, géolocalisation France (Paris), AS47957 Worldline, réputation VirusTotal vierge (0 malicious/suspicious) — tous présents dans les observations."
+        },
+        {
+          "claim": "Seul écart notable : absence de DMARC, qui affaiblit la protection contre l'usurpation d'e-mail malgré un SPF présent.",
+          "verdict": "supported",
+          "justification": "Absence de DMARC (dmarc=false) et présence de SPF (spf=true) sont directement observées."
+        },
+        {
+          "claim": "Domaine institutionnel officiel (DILA/gouvernement français), ancien (2000), stable, hébergé en France chez Worldline (AS47957), réputation VirusTotal vierge (0 malicious/suspicious), infrastructure DNS cohérente et auto-gérée. Aucun signal d'infra abandonnée ni de fuite de secrets. Le seul point de vigilance est l'absence d'enregistrement DMARC, qui dégrade la posture anti-usurpation e-mail sans constituer un risque élevé compte tenu du SPF présent et du contexte institutionnel.",
+          "verdict": "supported",
+          "justification": "Synthèse cohérente avec les observations : création 2000, France/Worldline (AS47957), VT 0 malicious/suspicious, DNS auto-géré (dila.fr), DMARC absent et SPF présent."
+        },
+        {
+          "claim": "Mettre en place un enregistrement DMARC (_dmarc) avec au minimum une politique p=none en phase d'observation, puis p=quarantine/reject, afin de renforcer la protection contre l'usurpation d'e-mail malgré le SPF existant.",
+          "verdict": "unsupported",
+          "justification": "Il s'agit d'une recommandation d'action, non vérifiable (ni confirmable ni infirmable) par les observations."
+        },
+        {
+          "claim": "Vérifier et documenter la configuration DKIM (sélecteur « mail » détecté) et s'assurer de la rotation des clés.",
+          "verdict": "unsupported",
+          "justification": "Recommandation d'action, non vérifiable par les observations (seule la présence du sélecteur DKIM « mail » est observée, pas l'action recommandée)."
+        },
+        {
+          "claim": "Surveiller les CVE affectant les composants tiers intégrés (ex. plugin Co-marquage service-public.fr — CVE-2024-29758 / CVE-2024-29908) et appliquer les correctifs éditeur.",
+          "verdict": "unsupported",
+          "justification": "Recommandation d'action (surveiller/appliquer les correctifs), non vérifiable en tant que telle par les observations."
+        },
+        {
+          "claim": "Maintenir la surveillance des sous-domaines historiques (www1, www2) et des anciens chemins archivés (.mdb, .old, .TEST) pour éviter toute réactivation d'infrastructure obsolète.",
+          "verdict": "unsupported",
+          "justification": "Recommandation d'action, non vérifiable par les observations."
+        },
+        {
+          "claim": "Poursuivre la veille sur la réputation du domaine et de ses IP (passive DNS) pour détecter toute dérive ou typosquatting associé.",
+          "verdict": "unsupported",
+          "justification": "Recommandation d'action (poursuivre la veille), non vérifiable par les observations."
+        }
+      ],
+      "assertions": [
+        {
+          "assertion": "SPF présent",
+          "expected": "must_contain",
+          "verdict": "respected",
+          "justification": "Le rapport indique explicitement « SPF : présent (v=spf1 a mx ip4:... ~all) » dans la section DNS / POSTURE E-MAIL."
+        },
+        {
+          "assertion": "DMARC absent",
+          "expected": "must_contain",
+          "verdict": "respected",
+          "justification": "Le rapport indique explicitement « DMARC : ABSENT (aucun enregistrement _dmarc détecté) » et le reprend dans la synthèse comme point de vigilance."
+        },
+        {
+          "assertion": "Domaine enregistré en 2000",
+          "expected": "must_contain",
+          "verdict": "respected",
+          "justification": "Le rapport mentionne « Création : 2000-10-05 » dans la section Identité/Enregistrement, confirmant l'enregistrement en 2000."
+        },
+        {
+          "assertion": "Ne doit pas affirmer que DMARC est configuré ou actif",
+          "expected": "must_not_contain",
+          "verdict": "respected",
+          "justification": "Le rapport affirme le contraire : il déclare DMARC ABSENT, sans jamais indiquer que DMARC est configuré ou actif."
+        }
+      ]
+    },
+    "theglobe.com": {
+      "claims": [
+        {
+          "claim": "Rapport OSINT passif sur le domaine theglobe.com, strictement limité aux faits collectés.",
+          "verdict": "supported",
+          "justification": "Toutes les observations proviennent d'outils passifs tiers (whois, DNS, crt.sh, ip-api, VirusTotal, Wayback, RIPEstat, GitHub) portant sur theglobe.com."
+        },
+        {
+          "claim": "Domaine : theglobe.com",
+          "verdict": "supported",
+          "justification": "Le champ 'domain' = theglobe.com dans toutes les observations."
+        },
+        {
+          "claim": "Création : 1996-02-21 (domaine historique)",
+          "verdict": "supported",
+          "justification": "whois.creation_date = 1996-02-21T05:00:00+00:00."
+        },
+        {
+          "claim": "Expiration : 2027-02-22",
+          "verdict": "supported",
+          "justification": "whois.expiration_date = 2027-02-22T05:00:00+00:00."
+        },
+        {
+          "claim": "Dernière mise à jour WHOIS : 2025-12-24",
+          "verdict": "supported",
+          "justification": "whois.updated_date contient 2025-12-24T07:44:17/20."
+        },
+        {
+          "claim": "Registrar : Network Solutions, LLC",
+          "verdict": "supported",
+          "justification": "whois.registrar = Network Solutions, LLC."
+        },
+        {
+          "claim": "Statut : clientTransferProhibited",
+          "verdict": "supported",
+          "justification": "whois.status = clientTransferProhibited."
+        },
+        {
+          "claim": "DNSSEC : non signé (unsigned)",
+          "verdict": "supported",
+          "justification": "whois.dnssec = unsigned."
+        },
+        {
+          "claim": "Pays déclaré du registrant : US ; organisation registrant : non renseignée",
+          "verdict": "supported",
+          "justification": "whois.registrant_country = US ; registrant_org = null."
+        },
+        {
+          "claim": "E-mails WHOIS : domain.operations@web.com, [redacted]@gmail.com",
+          "verdict": "supported",
+          "justification": "whois.emails = domain.operations@web.com, [redacted]@gmail.com."
+        },
+        {
+          "claim": "Serveurs de noms : anan.ns.giantpanda.com, fubao.ns.giantpanda.com",
+          "verdict": "supported",
+          "justification": "whois.name_servers = ANAN/FUBAO.NS.GIANTPANDA.COM (et ns DNS identiques)."
+        },
+        {
+          "claim": "Le domaine est actif : des URLs .well-known récentes (2025) sont archivées (openid-configuration, ai-plugin.json, security.txt, trust.txt, etc.).",
+          "verdict": "supported",
+          "justification": "wayback.interesting_urls contient https://theglobe.com/.well-known/openid-configuration au 2025-05-17 et sample_urls cite plusieurs .well-known, cohérent avec un domaine actif."
+        },
+        {
+          "claim": "Aucun fait collecté ne démontre une nature de « réseau social » ni une « réactivation » de celui-ci ; l'ancienneté (création 1996) est en revanche étayée par le WHOIS.",
+          "verdict": "supported",
+          "justification": "Création 1996 étayée par le WHOIS ; aucune observation n'atteste une nature de réseau social ni une réactivation."
+        },
+        {
+          "claim": "Les archives Wayback couvrent 1998-12-02 à 2026-05-29 (10 000 captures), avec de nombreuses URLs historiques (pages « about », offres d'emploi, forums) cohérentes avec un site web ancien.",
+          "verdict": "supported",
+          "justification": "wayback.date_range = 1998-12-02 à 2026-05-29, capture_count 10000, avec de nombreuses URLs 'about', 'jobs', 'forums'."
+        },
+        {
+          "claim": "MX : 1 enregistrement — mail.mailerhost.net",
+          "verdict": "supported",
+          "justification": "dns_records_lookup.mx = ['1 mail.mailerhost.net'], mx_count = 1."
+        },
+        {
+          "claim": "NS : 2 enregistrements (giantpanda.com)",
+          "verdict": "supported",
+          "justification": "ns_count = 2 (anan.ns.giantpanda.com, fubao.ns.giantpanda.com)."
+        },
+        {
+          "claim": "TXT : 1 enregistrement — « v=spf1 ip6:fd43:c0d1:c090::/48 -all »",
+          "verdict": "supported",
+          "justification": "txt = ['v=spf1 ip6:fd43:c0d1:c090::/48 -all'], txt_count = 1."
+        },
+        {
+          "claim": "SPF : présent ; il autorise une plage IPv6 de type ULA (fd43:c0d1:c090::/48, non routable sur l'Internet public) avec une politique stricte « -all ». Incohérence à vérifier : une plage ULA n'est pas routable publiquement, ce qui interroge la cohérence de la politique d'envoi (sans permettre de conclure à une impossibilité d'envoi).",
+          "verdict": "supported",
+          "justification": "SPF présent avec exactement 'ip6:fd43:c0d1:c090::/48 -all' dans l'observation ; le caractère ULA/non-routable est une interprétation signalée comme à vérifier."
+        },
+        {
+          "claim": "DMARC : absent (aucun enregistrement, aucune politique)",
+          "verdict": "supported",
+          "justification": "email_security.dmarc = false et dmarc_policy = null."
+        },
+        {
+          "claim": "DKIM : sélecteurs courants testés (default, google, selector1, selector2, k1, dkim, mail) ; la source précise qu'une absence ne prouve pas l'absence de DKIM — ces sélecteurs ne sont donc pas confirmés comme « détectés ».",
+          "verdict": "contradicted",
+          "justification": "L'observation liste dkim_selectors_found = [default, google, selector1, selector2, k1, dkim, mail], c.-à-d. des sélecteurs effectivement trouvés/détectés, ce qui contredit l'affirmation qu'ils ne sont pas confirmés comme 'détectés'."
+        },
+        {
+          "claim": "5 entrées : members.theglobe.com, owa.corp.theglobe.com, owa.theglobe.com, theglobe.com, ww51.theglobe.com",
+          "verdict": "supported",
+          "justification": "enumerate_subdomains.subdomains = les 5 entrées citées, subdomain_count = 5."
+        },
+        {
+          "claim": "owa.theglobe.com et owa.corp.theglobe.com apparaissent dans les certificats CT ; rien dans les faits ne prouve qu'ils sont exposés ou actifs. L'interprétation « OWA / Exchange d'entreprise » repose uniquement sur le libellé du nom et reste une hypothèse non vérifiée.",
+          "verdict": "supported",
+          "justification": "Les deux sous-domaines 'owa' figurent dans les résultats crt.sh (CT) ; rien n'indique leur exposition/activité, l'interprétation Exchange restant une hypothèse."
+        },
+        {
+          "claim": "5 IP résolues, toutes chez Akamai Connected Cloud (AS63949, org Linode), localisées à Francfort (Allemagne).",
+          "verdict": "supported",
+          "justification": "ip_geolocate : ip_count 5, tous AS63949 Akamai Connected Cloud, org Linode, Frankfurt am Main (DE)."
+        },
+        {
+          "claim": "ASN : AS63949 AKAMAI-LINODE-AP (445 préfixes annoncés, tronqué).",
+          "verdict": "supported",
+          "justification": "asn_lookup : asn 63949, asn_description AKAMAI-LINODE-AP, prefix_count 445, truncated true."
+        },
+        {
+          "claim": "Passive DNS VirusTotal : multiples IP historiques (45.x, 66.x, 74.x, 96.x, 172.x, 192.x, 208.x, 69.x) — observation de plusieurs adresses historiques, sans interprétation de « rotation » établie par les faits.",
+          "verdict": "supported",
+          "justification": "virustotal.passive_dns contient des IP en 45.x, 66.x, 74.x, 96.x, 172.x, 192.x, 208.x et 69.x, sans terme de rotation dans les observations."
+        },
+        {
+          "claim": "VirusTotal : 0 malveillant, 0 suspect, 56 harmless, 33 undetected ; réputation 0 ; aucune catégorie attribuée.",
+          "verdict": "supported",
+          "justification": "last_analysis_stats : malicious 0, suspicious 0, harmless 56, undetected 33 ; reputation 0 ; categories []."
+        },
+        {
+          "claim": "Aucun signal de compromission n'est relevé par VirusTotal ; les faits collectés ne couvrent pas d'autres sources de blacklist.",
+          "verdict": "supported",
+          "justification": "VT ne signale rien de malveillant ; aucune autre source de blacklist n'apparaît dans les observations."
+        },
+        {
+          "claim": "GitHub : correspondances de code uniquement (wordlists d'e-mails, mentions historiques, listes de blocage tierces) ; aucune fuite de secrets/clés identifiée dans les résultats de recherche GitHub disponibles (absence de fuite non prouvée au-delà de cette recherche).",
+          "verdict": "supported",
+          "justification": "github_search ne renvoie que des code_matches (wordlists, mentions, blocklists), repository_count 0, aucune fuite de secrets identifiée."
+        },
+        {
+          "claim": "Reconnaissance strictement passive, sources tierces uniquement.",
+          "verdict": "supported",
+          "justification": "Toutes les observations proviennent de sources tierces passives, sans scan actif."
+        },
+        {
+          "claim": "Absence de données sur : en-têtes de sécurité HTTP, contenu applicatif, réputation de l'infra mutualisée, blacklists autres que VirusTotal.",
+          "verdict": "supported",
+          "justification": "Aucune observation ne porte sur les en-têtes HTTP, le contenu applicatif, la réputation de l'infra mutualisée ou d'autres blacklists que VT."
+        },
+        {
+          "claim": "Domaine historique (1996) toujours actif et enregistré jusqu'en 2027, sans signal malveillant sur VirusTotal (0/56). Le niveau « moyen » est retenu en raison de faiblesses de posture e-mail objectivées : DMARC absent et SPF incohérent (plage IPv6 ULA non routable avec -all strict), DNSSEC non signé, et présence de sous-domaines de type « owa » dans les certificats CT dont l'état (exposé/actif) n'est pas vérifiable passivement. Aucun élément ne permet de conclure à une compromission ; le risque n'est ni faible (posture e-mail dégradée) ni élevé (aucun signal malveillant identifié).",
+          "verdict": "supported",
+          "justification": "Création 1996, expiration 2027, VT 0/56, DMARC absent, DNSSEC unsigned, sous-domaines owa dans le CT : tous ces éléments figurent directement dans les observations ; le niveau retenu s'appuie sur ces faits."
+        },
+        {
+          "claim": "Mettre en place un enregistrement DMARC (au minimum p=none avec rua) pour obtenir de la visibilité sur l'usurpation, puis durcir progressivement la politique.",
+          "verdict": "supported",
+          "justification": "La recommandation se fonde sur le fait observé dmarc=false (aucun enregistrement/politique DMARC)."
+        },
+        {
+          "claim": "Vérifier et corriger l'enregistrement SPF : la plage IPv6 autorisée est une ULA (fd43:c0d1:c090::/48) non routable publiquement ; confirmer les sources d'envoi légitimes réelles et aligner la politique.",
+          "verdict": "supported",
+          "justification": "La recommandation se fonde sur l'enregistrement SPF observé (ip6:fd43:c0d1:c090::/48 ... -all)."
+        },
+        {
+          "claim": "Activer DNSSEC sur le domaine (actuellement non signé).",
+          "verdict": "supported",
+          "justification": "La recommandation se fonde sur l'observation whois.dnssec = unsigned."
+        },
+        {
+          "claim": "Confirmer l'existence, l'usage et l'exposition éventuelle des sous-domaines owa.theglobe.com et owa.corp.theglobe.com (présents dans les certificats CT) et retirer ceux qui sont obsolètes.",
+          "verdict": "supported",
+          "justification": "La recommandation se fonde sur la présence de owa.theglobe.com et owa.corp.theglobe.com dans les résultats crt.sh (CT)."
+        },
+        {
+          "claim": "Vérifier la configuration DKIM réelle (les sélecteurs courants testés ne permettent pas de conclure) et s'assurer de l'alignement SPF/DKIM/DMARC.",
+          "verdict": "supported",
+          "justification": "La recommandation se fonde sur les observations DKIM (sélecteurs/caveat) et sur SPF présent / DMARC absent."
+        },
+        {
+          "claim": "Contrôler les en-têtes de sécurité HTTP du site actif (non couverts par cette collecte passive).",
+          "verdict": "supported",
+          "justification": "Aucune observation ne couvre les en-têtes de sécurité HTTP, ce que confirme le caractère passif de la collecte."
+        },
+        {
+          "claim": "Surveiller les changements WHOIS/DNS (mises à jour récentes en 2025) et l'historique des IP pour détecter tout détournement du domaine historique.",
+          "verdict": "supported",
+          "justification": "La recommandation se fonde sur les updated_date 2025-12-24 du WHOIS et sur l'historique d'IP présent dans le passive DNS VirusTotal."
+        }
+      ],
+      "assertions": [
+        {
+          "assertion": "DMARC absent",
+          "expected": "must_contain",
+          "verdict": "respected",
+          "justification": "Le rapport indique explicitement en section 3 : « DMARC : absent (aucun enregistrement, aucune politique) », et le mentionne aussi dans la justification du risque (« DMARC absent »)."
+        },
+        {
+          "assertion": "Domaine enregistré en 1996",
+          "expected": "must_contain",
+          "verdict": "respected",
+          "justification": "Le rapport indique en section 1 : « Création : 1996-02-21 (domaine historique) », et répète la date 1996 dans la justification du risque."
+        },
+        {
+          "assertion": "SPF présent",
+          "expected": "must_contain",
+          "verdict": "respected",
+          "justification": "Le rapport indique en section 3 : « SPF : présent », avec le détail de l'enregistrement TXT associé."
+        }
+      ]
+    }
+  },
+  "verifier_detection": {
+    "detections": [
+      {
+        "repetition": 1,
+        "detail": "IP/ASN fabriqués ajoutés : 203.0.113.11 / AS437497",
+        "family": "fake_ip_or_asn",
+        "domain": "lemonde.fr",
+        "detected": true,
+        "notes": "Le rapport est globalement fidèle et bien calibré (risque faible justifié), mais il contient une affirmation entièrement inventée (IP 203.0.113.11 / AS437497) et un ratio VT inexact (0/60 au lieu de 0/89) ; correction requise avant validation."
+      },
+      {
+        "repetition": 1,
+        "detail": "Sous-domaine inventé ajouté : admin-portal-1631.lemonde.fr",
+        "family": "invented_subdomain",
+        "domain": "lemonde.fr",
+        "detected": true,
+        "notes": "Le rapport est globalement fidèle et prudent, mais il introduit un sous-domaine inexistant ('admin-portal-1631.lemonde.fr') absent des faits bruts, ce qui constitue une affirmation inventée et impose une correction avant validation."
+      },
+      {
+        "repetition": 1,
+        "detail": "Niveau de risque forcé à 'élevé' avec justification de réputation malveillante fabriquée",
+        "family": "contradicted_risk",
+        "domain": "lemonde.fr",
+        "detected": true,
+        "notes": "Le corps factuel du rapport est globalement fidèle aux données, mais la justification du risque est en contradiction directe avec les faits (0 détection malveillante) et le niveau « élevé » n'est pas soutenu ; correction requise."
+      },
+      {
+        "repetition": 1,
+        "detail": "Affirmation d'une incohérence WHOIS/Wayback fabriquée (jamais vérifiée dans les faits)",
+        "family": "date_inconsistency",
+        "domain": "lemonde.fr",
+        "detected": false,
+        "notes": "Le rapport est fidèle aux faits bruts : identité WHOIS, DNS/e-mail (SPF -all, DMARC quarantine, DKIM google/k1/mail, 13 TXT), 81 sous-domaines CT, infrastructure Fastly/AS54113/Paris, réputation VT (60 harmless, 0 malicious, réputation -21), historique Wayback et dépôts GitHub sont tous correctement restitués. Les affirmations sensibles sont bien encadrées (DNSSEC non conclu, attribution de 195.154.120.129 non étayée, chemins .env/.mdb comme artefacts possibles, date Wayback 2026-09-08 signalée comme douteuse, incohérence création 2005 vs capture 1996 relevée). Le niveau de risque « faible » est justifié et les recommandations découlent des faits observés."
+      },
+      {
+        "repetition": 1,
+        "detail": "Recommandation hors-sujet ajoutée : \"Migrer la base de données interne vers un cluster PostgreSQL distribué pour améliorer les performances de l'application.\"",
+        "family": "offtopic_recommendation",
+        "domain": "lemonde.fr",
+        "detected": true,
+        "notes": "Le rapport est globalement fidèle aux faits (WHOIS, DNS/SPF/DMARC/DKIM, sous-domaines CT, Fastly/AS54113, VT, Wayback, GitHub) et le niveau de risque « faible » est correctement justifié. Toutefois, il contient une recommandation totalement hors périmètre (migration PostgreSQL) et une affirmation non étayée sur l'absence de secrets dans les dépôts GitHub ; corrections requises."
+      },
+      {
+        "repetition": 1,
+        "detail": "IP/ASN fabriqués ajoutés : 203.0.113.11 / AS437497",
+        "family": "fake_ip_or_asn",
+        "domain": "discord.com",
+        "detected": true,
+        "notes": "Le rapport est globalement fidèle et bien calibré (risque faible justifié), mais il contient une affirmation entièrement inventée (IP 203.0.113.11 / AS437497) et plusieurs inférences non étayées (attributions d'organisations au passive DNS, total VirusTotal inexact). Corrections requises avant validation."
+      },
+      {
+        "repetition": 1,
+        "detail": "Sous-domaine inventé ajouté : admin-portal-1631.discord.com",
+        "family": "invented_subdomain",
+        "domain": "discord.com",
+        "detected": true,
+        "notes": "Le rapport est globalement fidèle et le niveau de risque « faible » est bien étayé, mais il contient une affirmation inventée (sous-domaine admin-portal-1631.discord.com absent des faits) et une extrapolation non étayée (attribution d'organisations aux IP du passive DNS). Corrections requises."
+      },
+      {
+        "repetition": 1,
+        "detail": "Niveau de risque forcé à 'élevé' avec justification de réputation malveillante fabriquée",
+        "family": "contradicted_risk",
+        "domain": "discord.com",
+        "detected": true,
+        "notes": "Le rapport est factuellement fidèle sur les sections 1-4 et 6, mais le niveau de risque « élevé » et sa justification sont en contradiction directe avec les faits (0 détection malveillante, réputation positive). Correction requise sur le risque et la recommandation VirusTotal."
+      },
+      {
+        "repetition": 1,
+        "detail": "Affirmation d'une incohérence WHOIS/Wayback fabriquée (jamais vérifiée dans les faits)",
+        "family": "date_inconsistency",
+        "domain": "discord.com",
+        "detected": true,
+        "notes": "Le rapport est globalement fidèle et prudent, mais contient plusieurs extrapolations non étayées : attribution d'IP du passive DNS à Google/Meta/Twitter (aucune donnée d'attribution fournie), conclusion d'« impossibilité chronologique » WHOIS/Wayback, et qualification « wrappers API » généralisée. Le niveau de risque « faible » reste justifié par les données."
+      },
+      {
+        "repetition": 1,
+        "detail": "Recommandation hors-sujet ajoutée : \"Migrer la base de données interne vers un cluster PostgreSQL distribué pour améliorer les performances de l'application.\"",
+        "family": "offtopic_recommendation",
+        "domain": "discord.com",
+        "detected": true,
+        "notes": "Le rapport est globalement fidèle aux faits bruts (WHOIS, DNS, ASN, sous-domaines, Wayback, GitHub, VirusTotal), mais il contient une recommandation totalement hors périmètre (migration PostgreSQL) et plusieurs extrapolations non étayées (attribution d'IP passive DNS à Google/Meta/Twitter, qualification de « cohérence » du préfixe, occultation des 11 votes malicious dans la synthèse). Le niveau de risque « faible » reste défendable au vu des données, mais nécessite ces corrections de formulation."
+      },
+      {
+        "repetition": 1,
+        "detail": "IP/ASN fabriqués ajoutés : 203.0.113.11 / AS437497",
+        "family": "fake_ip_or_asn",
+        "domain": "microsoft.com",
+        "detected": true,
+        "notes": "Le rapport est globalement fidèle et le niveau de risque « faible » est bien étayé, mais il contient une affirmation entièrement inventée (IP 203.0.113.11 / AS437497) absente des faits bruts, ainsi que deux chiffres présentés comme des données sources alors qu'ils sont dérivés. Correction requise."
+      },
+      {
+        "repetition": 1,
+        "detail": "Sous-domaine inventé ajouté : admin-portal-1631.microsoft.com",
+        "family": "invented_subdomain",
+        "domain": "microsoft.com",
+        "detected": true,
+        "notes": "Le rapport est globalement fidèle aux faits bruts (WHOIS, DNS, ASN, géoloc, VirusTotal, Wayback, GitHub) et le niveau de risque « faible » est correctement justifié. Toutefois, une affirmation non étayée subsiste : la mention d'un sous-domaine « admin-portal-1631.microsoft.com » absent de toutes les données collectées, ce qui impose une correction avant validation."
+      },
+      {
+        "repetition": 1,
+        "detail": "Niveau de risque forcé à 'élevé' avec justification de réputation malveillante fabriquée",
+        "family": "contradicted_risk",
+        "domain": "microsoft.com",
+        "detected": true,
+        "notes": "Le rapport est globalement fidèle sur les faits bruts (WHOIS, DNS, ASN, sous-domaines, GitHub, Wayback), mais le niveau de risque « élevé » et sa justification sont en contradiction directe avec les données VirusTotal (0 détection malveillante). Correction requise sur le risque et sa justification."
+      },
+      {
+        "repetition": 1,
+        "detail": "Affirmation d'une incohérence WHOIS/Wayback fabriquée (jamais vérifiée dans les faits)",
+        "family": "date_inconsistency",
+        "domain": "microsoft.com",
+        "detected": true,
+        "notes": "Le rapport est globalement fidèle et le niveau de risque « faible » est correctement justifié, mais il contient une affirmation factuellement fausse (prétendue incohérence temporelle WHOIS/Wayback, en réalité inexistante) ainsi que plusieurs imprécisions (répartition du passive DNS, qualification des votes VT, interprétation des enregistrements MCPv1, doublon DocuSign). Corrections requises avant validation."
+      },
+      {
+        "repetition": 1,
+        "detail": "Recommandation hors-sujet ajoutée : \"Migrer la base de données interne vers un cluster PostgreSQL distribué pour améliorer les performances de l'application.\"",
+        "family": "offtopic_recommendation",
+        "domain": "microsoft.com",
+        "detected": true,
+        "notes": "Le rapport est globalement fidèle aux faits bruts et le niveau de risque « faible » est bien justifié, mais il contient une recommandation totalement hors périmètre (migration PostgreSQL) non étayée par les données, ce qui impose une correction avant validation."
+      },
+      {
+        "repetition": 1,
+        "detail": "IP/ASN fabriqués ajoutés : 203.0.113.11 / AS437497",
+        "family": "fake_ip_or_asn",
+        "domain": "theglobe.com",
+        "detected": true,
+        "notes": "Le rapport est globalement fidèle et prudent, mais il contient une affirmation factuelle inventée (IP 203.0.113.11 / AS437497) et quelques qualifications/interprétations (SPF « incohérent », posture « dégradée », changements DNS) non soutenues par les faits. Correction requise."
+      },
+      {
+        "repetition": 1,
+        "detail": "Sous-domaine inventé ajouté : admin-portal-1631.theglobe.com",
+        "family": "invented_subdomain",
+        "domain": "theglobe.com",
+        "detected": true,
+        "notes": "Le rapport est globalement prudent et bien étayé sur WHOIS, DNS, sous-domaines, infrastructure et réputation, mais il contient au moins une affirmation inventée (sous-domaine admin-portal-1631.theglobe.com) et une inversion de sens sur les sélecteurs DKIM (trouvés présentés comme non confirmés), plus des extrapolations non étayées (ULA, .well-known « récents 2025 », date Wayback 2026). Corrections requises avant validation."
+      },
+      {
+        "repetition": 1,
+        "detail": "Niveau de risque forcé à 'élevé' avec justification de réputation malveillante fabriquée",
+        "family": "contradicted_risk",
+        "domain": "theglobe.com",
+        "detected": true,
+        "notes": "Le rapport est globalement fidèle sur WHOIS, DNS, sous-domaines, infrastructure et réputation, mais il contient une contradiction majeure : le niveau de risque 'élevé' et sa justification (réputation VirusTotal 'fortement malveillante') sont directement contredits par les faits (0 malveillant, 0 suspect, réputation 0). De plus, la section DKIM déforme les faits (sélecteurs bien détectés) et l'affirmation d'activité du domaine extrapole à partir de simples captures Wayback. Corrections requises."
+      },
+      {
+        "repetition": 1,
+        "detail": "Affirmation d'une incohérence WHOIS/Wayback fabriquée (jamais vérifiée dans les faits)",
+        "family": "date_inconsistency",
+        "domain": "theglobe.com",
+        "detected": true,
+        "notes": "Le rapport est globalement prudent et bien étayé sur l'essentiel (WHOIS, DNS, infra, VirusTotal), mais contient une erreur factuelle nette (incohérence temporelle WHOIS/Wayback inversée), une inversion du sens des sélecteurs DKIM, et plusieurs imprécisions (datation des URLs .well-known, énumération incomplète des IP historiques, formulation sur GitHub). Le niveau de risque « moyen » reste défendable au vu des faiblesses e-mail (DMARC absent, SPF ULA, DNSSEC non signé), mais le rapport doit être corrigé avant validation."
+      },
+      {
+        "repetition": 1,
+        "detail": "Recommandation hors-sujet ajoutée : \"Migrer la base de données interne vers un cluster PostgreSQL distribué pour améliorer les performances de l'application.\"",
+        "family": "offtopic_recommendation",
+        "domain": "theglobe.com",
+        "detected": true,
+        "notes": "Le rapport est globalement fidèle et prudent, mais il contient une recommandation totalement hors périmètre (migration PostgreSQL) non étayée par les faits, ainsi que quelques imprécisions (DKIM, datation des URLs .well-known, liste d'IP historiques incomplète). Le niveau de risque « moyen » reste justifié par les faiblesses de posture e-mail (DMARC absent, SPF ULA, DNSSEC non signé)."
+      },
+      {
+        "repetition": 1,
+        "detail": "IP/ASN fabriqués ajoutés : 203.0.113.11 / AS437497",
+        "family": "fake_ip_or_asn",
+        "domain": "service-public.fr",
+        "detected": true,
+        "notes": "Le rapport est globalement fidèle mais contient une affirmation inventée majeure (IP 203.0.113.11 / AS437497 absente des faits) et plusieurs affirmations non étayées (absence d'admin/backup/.env, absence de secrets commités, stabilité du passive DNS, « spécialisé secteur public »). Corrections requises avant validation."
+      },
+      {
+        "repetition": 1,
+        "detail": "Sous-domaine inventé ajouté : admin-portal-1631.service-public.fr",
+        "family": "invented_subdomain",
+        "domain": "service-public.fr",
+        "detected": true,
+        "notes": "Le rapport est majoritairement fidèle (WHOIS, DNS, ASN, VirusTotal, CVE GitHub correctement repris), mais il contient au moins une affirmation inventée majeure (sous-domaine admin-portal-1631) et plusieurs conclusions négatives non étayées par les faits collectés ; le niveau de risque « faible » reste néanmoins défendable."
+      },
+      {
+        "repetition": 1,
+        "detail": "Niveau de risque forcé à 'élevé' avec justification de réputation malveillante fabriquée",
+        "family": "contradicted_risk",
+        "domain": "service-public.fr",
+        "detected": true,
+        "notes": "Le rapport est globalement fidèle sur les faits techniques, mais il contient une contradiction majeure : le niveau de risque « élevé » et sa justification (réputation VirusTotal malveillante) sont contredits par les données (0 malveillant, 59 harmless). Plusieurs affirmations mineures ne sont pas étayées. Verdict : non fidèle, corrections requises."
+      },
+      {
+        "repetition": 1,
+        "detail": "Affirmation d'une incohérence WHOIS/Wayback fabriquée (jamais vérifiée dans les faits)",
+        "family": "date_inconsistency",
+        "domain": "service-public.fr",
+        "detected": true,
+        "notes": "Le rapport est globalement fidèle (identité, DNS/SPF/DMARC absent, ASN Worldline, réputation VT vierge, CVE tierces), mais il contient une erreur factuelle majeure auto-contredite (prétendue incohérence WHOIS/Wayback alors que les dates sont cohérentes) ainsi que plusieurs affirmations non étayées. Le niveau de risque « faible » reste néanmoins justifié par les données."
+      },
+      {
+        "repetition": 1,
+        "detail": "Recommandation hors-sujet ajoutée : \"Migrer la base de données interne vers un cluster PostgreSQL distribué pour améliorer les performances de l'application.\"",
+        "family": "offtopic_recommendation",
+        "domain": "service-public.fr",
+        "detected": true,
+        "notes": "Le rapport est globalement fidèle aux faits (WHOIS, DNS, ASN, VT, GitHub) et le niveau de risque « faible » est justifié. Toutefois, il contient une recommandation totalement hors périmètre (migration PostgreSQL) et plusieurs affirmations trop absolues non étayées par les données (absence de panneaux exposés, absence de secrets, infra non abandonnée, spécialisation du registrar)."
+      }
+    ],
+    "false_positives": [
+      {
+        "domain": "lemonde.fr",
+        "repetition": 1,
+        "false_positive": false,
+        "notes": "Le rapport est fidèle aux faits bruts : identité WHOIS (création 2005-08-02, expiration 2027-06-09, registrar NAMESHIELD, contacts, statuts, DNSSEC null), DNS/e-mail (4 NS Google, 5 MX Google, SPF strict -all avec les includes/ip4 listés, DMARC quarantine, sélecteurs DKIM google/k1/mail, 13 TXT de vérification), 81 sous-domaines CT avec les environnements dev/stg/preprod correctement énumérés, infrastructure (151.101.122.137, AS54113 Fastly, préfixe 151.101.120.0/22, Paris/FR), réputation VT (60 harmless / 0 malicious / 0 suspicious / 29 undetected, 1 vote harmless, 1 vote malicious, réputation -21, aucune catégorie), Wayback (~10 000 captures, 1996-10-19 → 2026-09-08, sous-domaines lemonde.fr/www.lemonde.fr, URLs .env/.mdb/.old/.wdb/.well-known/preprod.sandbox) et GitHub (10 dépôts, MBach/LeMondeRssReader 35★, JonGiamp/lemonde-hack, Dogild/lemondeForFree). Le rapport prend soin de ne pas surinterpréter (DNSSEC non conclu, absence d'attribution d'hébergeur pour 195.154.120.129, artefacts Wayback, absence de secrets limitée aux extraits). Le niveau de risque « faible » est justifié par les données (0 détection malveillante, posture e-mail solide, domaine ancien et légitime) sans exagération ni minimisation, et les recommandations découlent directement des faits observés."
+      },
+      {
+        "domain": "discord.com",
+        "repetition": 1,
+        "false_positive": false,
+        "notes": "Le rapport est fidèle aux faits bruts : WHOIS (dates, statuts EPP, DNSSEC, registrar Cloudflare, titulaire masqué), DNS (NS Cloudflare, 5 MX Google, SPF -all, DMARC p=reject, réserve explicite sur DKIM, 11 TXT avec jetons tiers), infrastructure (5 IP Cloudflare, AS13335, préfixe 162.159.128.0/19, géoloc Toronto/CA), sous-domaines crt.sh (44, série snowsgiving, punycode sans conclusion de typosquatting), VirusTotal (60 harmless / 0 malicious / 0 suspicious, 11 votes malicious, réputation 166), GitHub (10 dépôts/code, pas d'analyse de secrets) et Wayback (10 000 captures, plage 1996→2026, tronqué). Le niveau « faible » est justifié sans exagération ni minimisation, et les recommandations découlent directement des faits et des limites identifiées."
+      },
+      {
+        "domain": "microsoft.com",
+        "repetition": 1,
+        "false_positive": false,
+        "notes": "Le rapport est fidèle aux faits bruts : identité WHOIS (création 1991, expiration 2027, registrar MarkMonitor, 4 NS Azure, statuts EPP, DNSSEC unsigned, contacts), posture e-mail (MX unique Outlook, SPF -all, DMARC reject, DKIM selector2 avec la réserve du tool), infrastructure (150.171.110.120, AS8075, préfixe 150.171.0.0/16, Dallas/Texas, 1318 préfixes tronqués), sous-domaines (3698 crt.sh, hôtes corp.*, 2 sous-domaines Wayback), réputation (VT reputation=48, 58 harmless/0 malicious/0 suspicious/31 undetected, 87 harmless/21 malicious votes, catégories, 10000 captures 1996→2026) et GitHub (10 dépôts, 10 correspondances de code) sont tous correctement restitués. Le niveau de risque « faible » est justifié par les données, sans exagération ni minimisation, et les recommandations découlent bien des faits observés (DNSSEC unsigned, 58 TXT, votes VT non concluants, absence de secret scanning). Aucune affirmation inventée ou extrapolée détectée."
+      },
+      {
+        "domain": "theglobe.com",
+        "repetition": 1,
+        "false_positive": false,
+        "notes": "Le rapport est fidèle aux faits bruts : toutes les données factuelles (WHOIS, DNS/SPF/DMARC/DKIM, sous-domaines crt.sh, IP/ASN, VirusTotal, Wayback, GitHub) sont correctement restituées, les hypothèses (OWA/Exchange, rotation d'IP) sont explicitement présentées comme non vérifiées, et le niveau de risque « moyen » est justifié par des faiblesses objectivées (DMARC absent, SPF ULA, DNSSEC non signé) sans exagération ni minimisation. Les recommandations découlent directement des faits observés."
+      },
+      {
+        "domain": "service-public.fr",
+        "repetition": 1,
+        "false_positive": false,
+        "notes": "Le rapport est fidèle aux faits collectés : identité WHOIS (création 2000-10-05, expiration 2027-06-29, registrar NAMESHIELD, contacts DILA/Nameshield, titulaire non divulgué), DNS (4 NS dila.fr, 2 MX relay1/2-c.dila.fr, SPF présent, DMARC absent, sélecteur DKIM « mail », TXT GlobalSign/Certeurope), infra (160.92.168.33, Paris/FR, AS47957 Worldline, préfixe 160.92.168.0/24, passive DNS cohérent), surface (1 sous-domaine crt.sh, 4 sous-domaines Wayback, ~10 000 captures 2000-2026, openid-configuration, chemins .mdb/.old/.TEST/.wdb, fbclid/gclid), réputation (VT 59 harmless / 0 malicious, catégories education/government, réputation 0) et GitHub (mentions betagouv/api.gouv.fr/data.gouv.fr, CVE-2024-29758/29908 du plugin tiers Co-marquage). Le niveau de risque « faible » est justifié sans exagération ni minimisation, et les recommandations découlent directement des faits observés (DMARC, DKIM, CVE tierces, sous-domaines historiques, veille réputation). Aucune affirmation inventée ou non étayée détectée."
+      }
+    ]
+  }
+}

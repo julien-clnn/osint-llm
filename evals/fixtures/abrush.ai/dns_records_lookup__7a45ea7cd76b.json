@@ -1,0 +1,40 @@
+{
+  "arguments": {
+    "domain": "abrush.ai"
+  },
+  "result": {
+    "domain": "abrush.ai",
+    "email_security": {
+      "dkim_note": "Sélecteurs DKIM courants testés uniquement ; une absence ici ne prouve pas l'absence de DKIM.",
+      "dkim_selectors_found": [
+        "google",
+        "mail"
+      ],
+      "dmarc": true,
+      "dmarc_policy": "none",
+      "spf": true,
+      "spf_record": "v=spf1 include:_spf.google.com ~all"
+    },
+    "mx": [
+      "1 aspmx.l.google.com",
+      "10 alt3.aspmx.l.google.com",
+      "10 alt4.aspmx.l.google.com",
+      "5 alt1.aspmx.l.google.com",
+      "5 alt2.aspmx.l.google.com"
+    ],
+    "mx_count": 5,
+    "ns": [
+      "ines.ns.cloudflare.com",
+      "toby.ns.cloudflare.com"
+    ],
+    "ns_count": 2,
+    "source": "DNS (résolveur système)",
+    "txt": [
+      "v=spf1 include:_spf.google.com ~all",
+      "google-site-verification=4EteHXK2g6gi-Ot1Ke81ilz1dOFx3hWypt_Fo21l8dA",
+      "google-site-verification=pzbqa1dfV5h0iZc5zrC4DrXCSg3eDLLmrAV1366ipLQ"
+    ],
+    "txt_count": 3
+  },
+  "tool": "dns_records_lookup"
+}

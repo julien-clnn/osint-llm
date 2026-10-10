@@ -1,0 +1,28 @@
+# Blue team scenario: targeted audit of a domain's e-mail security posture
+# (SPF/DMARC/DKIM), not an attack-surface mapping.
+name: email_security_posture
+label: "E-mail security posture (blue team)"
+
+mission: >-
+  Call the tools one at a time. Focus exclusively on the domain's e-mail
+  security posture: presence and validity of SPF, presence and policy of
+  DMARC (p=none / quarantine / reject), DKIM hints, and alignment between
+  these mechanisms. Use enumerate_subdomains to spot potential orphaned
+  sending subdomains (e.g. mail.*, smtp.* not covered by the same policy) and
+  to assess, through Certificate Transparency logs, the hygiene of the
+  certificates issued for the domain and its subdomains. Do NOT assess the
+  general attack surface (infrastructure, ASN, reputation): that is not the
+  purpose of this mission.
+
+tools:
+  - dns_records_lookup
+  - enumerate_subdomains
+
+report_sections:
+  - "SPF / DMARC / DKIM POSTURE"
+  - "SENDING SUBDOMAINS"
+  - "CERTIFICATE HYGIENE"
+  - "RECOMMENDATIONS"
+
+risk_level_mapping: null
+max_iterations: null

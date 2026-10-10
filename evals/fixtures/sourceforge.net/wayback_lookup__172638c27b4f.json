@@ -1,0 +1,226 @@
+{
+  "arguments": {
+    "domain": "sourceforge.net"
+  },
+  "result": {
+    "capture_count": 10000,
+    "date_range": {
+      "first": "2000-01-26",
+      "last": "2026-08-29"
+    },
+    "domain": "sourceforge.net",
+    "interesting_urls": [
+      {
+        "timestamp": "2023-07-06",
+        "url": "https://sourceforge.net/%0A%D8%B3%D8%A7%DB%8C%D8%AA"
+      },
+      {
+        "timestamp": "2010-09-18",
+        "url": "http://sourceforge.net:80/%20projects/dbmorph"
+      },
+      {
+        "timestamp": "2012-12-30",
+        "url": "http://sourceforge.net:80/%20projects/instagramdownlo/files/latest/download"
+      },
+      {
+        "timestamp": "2024-04-20",
+        "url": "https://sourceforge.net/%20projects/orwelldevcpp/"
+      },
+      {
+        "timestamp": "2024-04-23",
+        "url": "https://sourceforge.net/%20projects/testimages"
+      },
+      {
+        "timestamp": "2024-06-19",
+        "url": "https://www.sourceforge.net/%20Stavbar,%20G.%202011.%20Pregled%20odprtokodnih%20programov%20za%20obdelavo%20lidarskih%20podatkov.%20Diplomska%20naloga.%20Ljubljana,%20Univerza%20v%20Ljubljani,%20Fakulteta%20za%20gradbeni%C5%A1tvo%20in%20geodezijo%20(samozalo%C5%BEba%20G.%20"
+      },
+      {
+        "timestamp": "2024-06-20",
+        "url": "https://www.sourceforge.net/%20Stavbar,%20G.%202011.%20Pregled%20odprtokodnih%20programov%20za%20obdelavo%20lidarskih%20podatkov.%20Diplomska%20naloga.%20Ljubljana,%20Univerza%20v%20Ljubljani,%20Fakulteta%20za%20gradbeni%C5%A1tvo%20in%20geodezijo%20(samozalo%C5%BEba%20G.%20Stavbar)"
+      },
+      {
+        "timestamp": "2024-06-19",
+        "url": "https://www.sourceforge.net/%20Stavbar,%20G.%202011.%20Pregled%20odprtokodnih%20programov%20za%20obdelavo%20lidarskih%20podatkov.%20Diplomska%20naloga.%20Ljubljana,%20Univerza%20v%20Ljubljani,%20Fakulteta%20za%20gradbeni%C5%A1tvo%20in%20geodezijo%20(samozalo%C5%BEba%20G.%20Stavbar).%20"
+      },
+      {
+        "timestamp": "2022-01-21",
+        "url": "http://sourceforge.net/%C2%ADprojects/orwelldevcpp/"
+      },
+      {
+        "timestamp": "2012-10-25",
+        "url": "http://sourceforge.net:80/%E2%80%8Cprojects%E2%80%8C/%E2%80%8Cqttabbar%E2%80%8C/%E2%80%8Cfiles%E2%80%8C/%E2%80%8Clatest%E2%80%8C/%E2%80%8Cdownload"
+      },
+      {
+        "timestamp": "2006-05-05",
+        "url": "http://sourceforge.net:80/&amp;y=020EB7CCDB782287&amp;i=41&amp;c=8540&amp;q=02^SSHPM[L7lpykh~mz?{zizsporzqk?r~q~xzm6&amp;e=utf8&amp;r=0&amp;d=www-en-us&amp;n=88VK5H39KLTK0ANT&amp;s=127&amp;t=&amp;m=407BC5DD&amp;x=01DE4729FA2FEAD0"
+      },
+      {
+        "timestamp": "2006-08-21",
+        "url": "http://sourceforge.net:80/&amp;y=020EB7CCDB782287&amp;i=41&amp;c=8540&amp;q=02^SSHPM[L7ompuz|k?r~q~xzrzqk?lpykh~mz?{zizsporzqk6&amp;e=utf8&amp;r=1&amp;d=www-en-us&amp;n=88F45H1NI5TK1DN8&amp;s=47&amp;t=&amp;m=407BB5D9&amp;x=018A6C22D09BF561"
+      },
+      {
+        "timestamp": "2006-08-20",
+        "url": "http://sourceforge.net:80/&amp;y=020EB7CCDB782287&amp;i=41&amp;c=8540&amp;q=02^SSHPM[L7ompuz|k?r~q~xzrzqk?lpykh~mz?pozq?lpjm|z6&amp;e=utf8&amp;r=0&amp;d=www-en-us&amp;n=88F45H1NI5TK1OV4&amp;s=133&amp;t=&amp;m=407BB5DE&amp;x=0112CF987A8F4F69"
+      },
+      {
+        "timestamp": "2006-03-13",
+        "url": "http://sourceforge.net:80/&amp;y=020EB7CCDB782287&amp;i=51&amp;c=12172&amp;q=02^SSHPM[L7lpykh~mz?ompuz|k?r~q~xzrzqk?kpps6&amp;e=latin1&amp;r=8&amp;d=www-en-us&amp;n=E94K5H1PS0QK3RR2&amp;s=5&amp;t=&amp;m=4135E39A&amp;x=0193B3ADFB640CC7"
+      },
+      {
+        "timestamp": "2006-03-13",
+        "url": "http://sourceforge.net:80/&amp;y=020EB7CCDB782287&amp;i=51&amp;c=12172&amp;q=02^SSHPM[L7ompuz|k?r~q~xzrzqk?lpykh~mz?svqjg6&amp;e=latin1&amp;r=1&amp;d=www-en-us&amp;n=E9545H6HS4QK2C9B&amp;s=9&amp;t=&amp;m=4135E383&amp;x=01BFB6A609994C0D"
+      },
+      {
+        "timestamp": "2006-03-17",
+        "url": "http://sourceforge.net:80/&amp;y=020EB7CCDB782287&amp;i=51&amp;c=12172&amp;q=02^SSHPM[L7ompuz|k?r~q~xzrzqk?lpykh~mz?ypm?r~|6&amp;e=latin1&amp;r=3&amp;d=www-en-us&amp;n=E95K5H4MS4QK2UHK&amp;s=6&amp;t=&amp;m=4135E387&amp;x=017C38B56738B91B"
+      },
+      {
+        "timestamp": "2006-03-17",
+        "url": "http://sourceforge.net:80/&amp;y=020EB7CCDB782287&amp;i=51&amp;c=12172&amp;q=02^SSHPM[L7ompuz|k?r~q~xzrzqk?lpykh~mz?{phqsp~{6&amp;e=latin1&amp;r=1&amp;d=www-en-us&amp;n=E96K5H0CSCQK2M05&amp;s=9&amp;t=&amp;m=4135E38E&amp;x=010A0F9969B6F745"
+      },
+      {
+        "timestamp": "2006-03-13",
+        "url": "http://sourceforge.net:80/&amp;y=020EB7CCDB782287&amp;i=51&amp;c=12172&amp;q=02^SSHPM[L7ompuz|k?r~q~xzrzqk?lpykh~mz?{zizsporzqk6&amp;e=latin1&amp;r=1&amp;d=www-en-us&amp;n=E9545H6HS4QK33HC&amp;s=9&amp;t=&amp;m=4135E390&amp;x=019A6D89011E241D"
+      },
+      {
+        "timestamp": "2006-03-17",
+        "url": "http://sourceforge.net:80/&amp;y=020EB7CCDB782287&amp;i=51&amp;c=12172&amp;q=02^SSHPM[L7ompuz|k?r~q~xzrzqk?ymzz?lpykh~mz6&amp;e=latin1&amp;r=2&amp;d=www-en-us&amp;n=E9545H6HS4QK2S1B&amp;s=8&amp;t=&amp;m=4135E398&amp;x=01687981D2223319"
+      },
+      {
+        "timestamp": "2006-03-16",
+        "url": "http://sourceforge.net:80/&amp;y=020EB7CCDB782287&amp;i=51&amp;c=12172&amp;q=02^SSHPM[L7ompuz|k?r~q~xzrzqk?lpykh~mz?kpps6&amp;e=latin1&amp;r=8&amp;d=www-en-us&amp;n=E9645H43S0QK2E34&amp;s=2&amp;t=&amp;m=4135E39C&amp;x=018DD3F24DD64C49"
+      },
+      {
+        "timestamp": "2006-03-13",
+        "url": "http://sourceforge.net:80/&amp;y=020EB7CCDB782287&amp;i=51&amp;c=12172&amp;q=02^SSHPM[L7ompuz|k?r~q~xzrzqk?lpykh~mz?r~|?pl?g6&amp;e=latin1&amp;r=1&amp;d=www-en-us&amp;n=E9545H6HS4QK24HL&amp;s=0&amp;t=&amp;m=4135E3A3&amp;x=01D7A936DF0D7304"
+      },
+      {
+        "timestamp": "2006-03-18",
+        "url": "http://sourceforge.net:80/&amp;y=020EB7CCDB782287&amp;i=51&amp;c=12172&amp;q=02^SSHPM[L7ompuz|k?r~q~xzrzqk?lpykh~mz?ypm?hvq{phl6&amp;e=utf8&amp;r=3&amp;d=www-en-us&amp;n=E95K5H4MS4QK249M&amp;s=8&amp;t=&amp;m=4135E39E&amp;x=0189D6E9C4E7770C"
+      },
+      {
+        "timestamp": "2006-03-17",
+        "url": "http://sourceforge.net:80/&amp;y=020EB7CCDB782287&amp;i=51&amp;c=12172&amp;q=02^SSHPM[L7ompuz|k?r~q~xzrzqk?lpykh~mz?pl?g6&amp;e=utf8&amp;r=0&amp;d=www-en-us&amp;n=E93K5H2RS4QK2521&amp;s=5&amp;t=&amp;m=4135E3A6&amp;x=0149D55BF17A6DD5"
+      },
+      {
+        "timestamp": "2006-03-16",
+        "url": "http://sourceforge.net:80/&amp;y=020EB7CCDB782287&amp;i=51&amp;c=12172&amp;q=02^SSHPM[L7rjskv?ompuz|k?r~q~xzrzqk?lpykh~mz6&amp;e=latin1&amp;r=6&amp;d=www-en-us&amp;n=E92K5H4FS4QK3V1L&amp;s=6&amp;t=&amp;m=4135E394&amp;x=01AE7F17B21EDCDD"
+      },
+      {
+        "timestamp": "2006-03-04",
+        "url": "http://sourceforge.net:80/&amp;y=020EB7CCDB782287&amp;i=51&amp;c=12172&amp;q=02^SSHPM[L7ymzz?lzmizm?rpqvkpmvqx?lpykh~mz6&amp;e=latin1&amp;r=2&amp;d=www-en-us&amp;n=E93K5H2RS4QK30I8&amp;s=8&amp;t=&amp;m=4135E3FE&amp;x=013E83803924F92A"
+      },
+      {
+        "timestamp": "2006-03-18",
+        "url": "http://sourceforge.net:80/&amp;y=020EB7CCDB782287&amp;i=51&amp;c=12172&amp;q=02^SSHPM[L7}zlk?ompuz|k?r~q~xzrzqk?lpykh~mz6&amp;e=latin1&amp;r=1&amp;d=www-en-us&amp;n=E9445H0AS0QK2AJ0&amp;s=3&amp;t=&amp;m=4135E386&amp;x=014570CED205373B"
+      },
+      {
+        "timestamp": "2010-08-29",
+        "url": "http://sourceforge.net:80/&rurl=translate.google.com.co&usg=ALkJrhj111KBc1Zs6W0uvAPiXhrdk8mUUw"
+      },
+      {
+        "timestamp": "2016-12-30",
+        "url": "https://sourceforge.net/*%20the%20author(s)%20have%20placed%20this%20file%20in%20the%20public%20domain%20and%20waived%20all%0Acopyright-related%20rights%20(http://creativecommons.org/publicdomain/zero/1.0/)%20*/%0A%0A--%20fast%20string%20IDs,%20using%20string%20interning%20to%20optimize%20comparison%0A--%20from%20SQLkit%20(code.google.com/p/sqlkit)%0A--%20tests/examples%20at%20bottom%0A%0A/*%20to%20uninstall:%0ADROP%20FUNCTION%20IF%20EXISTS%20id_del_all();%0ADROP%20TYPE%20IF%20EXISTS%20id%20CASCADE;%0ADROP%20SCHEMA%20IF%20EXISTS%20id%20CASCADE;%0A*/%0A%0ACREATE%20SCHEMA%20id;%0A%0A---%20type:%20id%0A%0ACREATE%20TYPE%20id%20AS%20(type%20regtype);%0A%0A--%20inputs%20from%20text%0ACREATE%20OR%20REPLACE%20FUNCTION%20id(text%20text)%0A%20%20RETURNS%20id%20AS%0A$BODY$%0ADECLARE%0A%09id%20id;%0A%09type_sql%20text%20=%20"
+      },
+      {
+        "timestamp": "2016-12-30",
+        "url": "https://sourceforge.net/*%20the%20author(s)%20have%20placed%20this%20file%20in%20the%20public%20domain%20and%20waived%20all%0Acopyright-related%20rights%20(http://creativecommons.org/publicdomain/zero/1.0/)%20*/%0A%0A--%20fast%20string%20IDs,%20using%20string%20interning%20to%20optimize%20joins%0A--%20from%20SQLkit%20(code.google.com/p/sqlkit)%0A--%20tests/examples%20at%20bottom%0A%0A/*%20to%20uninstall:%0ADROP%20FUNCTION%20IF%20EXISTS%20id_del_all();%0ADROP%20TYPE%20IF%20EXISTS%20id%20CASCADE;%0ADROP%20SCHEMA%20IF%20EXISTS%20id%20CASCADE;%0A*/%0A%0ACREATE%20SCHEMA%20id;%0A%0A---%20type:%20id%0A%0ACREATE%20TYPE%20id%20AS%20(type%20regtype);%0A%0A--%20inputs%20from%20text%0ACREATE%20OR%20REPLACE%20FUNCTION%20id(text%20text)%0A%20%20RETURNS%20id%20AS%0A$BODY$%0ADECLARE%0A%09id%20id;%0A%09type_sql%20text%20=%20"
+      },
+      {
+        "timestamp": "2016-12-30",
+        "url": "https://sourceforge.net/*%20the%20author(s)%20have%20placed%20this%20file%20in%20the%20public%20domain%20and%20waived%20all%0Acopyright-related%20rights%20(http://creativecommons.org/publicdomain/zero/1.0/)%20*/%0A%0A--%20fast%20string%20IDs,%20using%20string%20interning%20to%20optimize%20joins%0A--%20from%20SQLkit%20(code.google.com/p/sqlkit)%0A--%20tests/examples%20at%20bottom%0A%0A/*%20to%20uninstall:%0ADROP%20FUNCTION%20IF%20EXISTS%20text_id_del_all();%0ADROP%20TYPE%20IF%20EXISTS%20text_id%20CASCADE;%0ADROP%20SCHEMA%20IF%20EXISTS%20text_id%20CASCADE;%0A*/%0A%0ACREATE%20SCHEMA%20text_id;%0A%0A---%20type:%20text_id%0A%0ACREATE%20TYPE%20text_id%20AS%20(type%20regtype);%0A%0A--%20inputs%20from%20text%0ACREATE%20OR%20REPLACE%20FUNCTION%20text_id(text%20text)%0A%20%20RETURNS%20text_id%20AS%0A$BODY$%0ADECLARE%0A%09text_id%20text_id;%0A%09type_sql%20text%20=%20"
+      },
+      {
+        "timestamp": "2016-12-30",
+        "url": "https://sourceforge.net/*%20the%20author(s)%20have%20placed%20this%20file%20in%20the%20public%20domain%20and%20waived%20all%0Acopyright-related%20rights%20(http://creativecommons.org/publicdomain/zero/1.0/)%20*/%0A%0A--%20fast%20string%20primary%20keys,%20using%20string%20interning%20to%20optimize%20comparison%0A--%20from%20SQLkit%20(code.google.com/p/sqlkit)%0A%0A----%20uninstall%0A%0ADROP%20FUNCTION%20IF%20EXISTS%20id_del_all();%0ADROP%20TYPE%20IF%20EXISTS%20id%20CASCADE;%0ADROP%20SCHEMA%20IF%20EXISTS%20id%20CASCADE;%0A%0A----%20install%0A%0ACREATE%20SCHEMA%20id;%0A%0A---%20type:%20id%0A%0ACREATE%20TYPE%20id%20AS%20(type%20regtype);%0A%0A--%20inputs%20from%20text%0ACREATE%20OR%20REPLACE%20FUNCTION%20id(text%20text)%0A%20%20RETURNS%20id%20AS%0A$BODY$%0ADECLARE%0A%09id%20id;%0A%09type_sql%20text%20=%20"
+      },
+      {
+        "timestamp": "2016-12-30",
+        "url": "https://sourceforge.net/*%20the%20author(s)%20have%20placed%20this%20file%20in%20the%20public%20domain%20and%20waived%20all%0Acopyright-related%20rights%20(http://creativecommons.org/publicdomain/zero/1.0/)%20*/%0A%0A--%20fast%20string%20primary%20keys,%20using%20string%20interning%20to%20optimize%20comparison%0A--%20from%20SQLkit%20(code.google.com/p/sqlkit)%0A%0A/*%20to%20uninstall:%0ADROP%20FUNCTION%20IF%20EXISTS%20id_del_all();%0ADROP%20TYPE%20IF%20EXISTS%20id%20CASCADE;%0ADROP%20SCHEMA%20IF%20EXISTS%20id%20CASCADE;%0A*/%0A%0ACREATE%20SCHEMA%20id;%0A%0A---%20type:%20id%0A%0ACREATE%20TYPE%20id%20AS%20(type%20regtype);%0A%0A--%20inputs%20from%20text%0ACREATE%20OR%20REPLACE%20FUNCTION%20id(text%20text)%0A%20%20RETURNS%20id%20AS%0A$BODY$%0ADECLARE%0A%09id%20id;%0A%09type_sql%20text%20=%20"
+      },
+      {
+        "timestamp": "2016-12-30",
+        "url": "https://sourceforge.net/*%20the%20author(s)%20have%20placed%20this%20file%20in%20the%20public%20domain%20and%20waived%20all%0Acopyright-related%20rights%20(http://creativecommons.org/publicdomain/zero/1.0/)%20*/%0A%0A--%20fast%20string%20primary%20keys,%20using%20string%20interning%20to%20optimize%20comparison%0A--%20from%20SQLkit%20(code.google.com/p/sqlkit)%0A--%20tests/examples%20at%20bottom%0A%0A/*%20to%20uninstall:%0ADROP%20FUNCTION%20IF%20EXISTS%20id_del_all();%0ADROP%20TYPE%20IF%20EXISTS%20id%20CASCADE;%0ADROP%20SCHEMA%20IF%20EXISTS%20id%20CASCADE;%0A*/%0A%0ACREATE%20SCHEMA%20id;%0A%0A---%20type:%20id%0A%0ACREATE%20TYPE%20id%20AS%20(type%20regtype);%0A%0A--%20inputs%20from%20text%0ACREATE%20OR%20REPLACE%20FUNCTION%20id(text%20text)%0A%20%20RETURNS%20id%20AS%0A$BODY$%0ADECLARE%0A%09id%20id;%0A%09type_sql%20text%20=%20"
+      },
+      {
+        "timestamp": "2025-09-01",
+        "url": "http://sourceforge.net/**projects/**lomysqlconnectorextension/%3Chttp:/sourceforge.net/projects/lomysqlconnectorextension/"
+      },
+      {
+        "timestamp": "2012-06-10",
+        "url": "http://sourceforge.net:80/+n4iYAmxlBfa1DBMdwNdjg=="
+      },
+      {
+        "timestamp": "2022-01-20",
+        "url": "https://sourceforge.net/-p/unicore/wiki/REST_API"
+      },
+      {
+        "timestamp": "2011-12-17",
+        "url": "http://sourceforge.net/.../1.2.3c1/MySQL-python-1.2.3c1.tar.gz/download"
+      },
+      {
+        "timestamp": "2023-07-24",
+        "url": "https://sourceforge.net/.../compare/AWS-Config-vs-Amazon-GuardDuty-vs-Amazon-Inspector"
+      },
+      {
+        "timestamp": "2012-01-19",
+        "url": "http://sourceforge.net/.folder-create"
+      },
+      {
+        "timestamp": "2018-03-04",
+        "url": "http://sourceforge.net:80/.git/HEAD"
+      }
+    ],
+    "sample_urls": [
+      "http://sourceforge.net:80/",
+      "http://sourceforge.net/!",
+      "https://sourceforge.net/!==r.port",
+      "http://sourceforge.net:80/\"",
+      "http://www.sourceforge.net/%22%22",
+      "http://sourceforge.net/%22%22projects/gnucash/files/gnucash-docs/",
+      "http://sourceforge.net/%22&gt;sourceforge.net&lt;/a&gt",
+      "http://www.sourceforge.net:80/\",",
+      "https://sourceforge.net/%22.",
+      "http://sourceforge.net:80/\"4",
+      "http://sourceforge.net:80/%22%3e",
+      "https://sourceforge.net/%22%3ENewsForge%3C/a%3E%3C/td%3E",
+      "http://sourceforge.net:80/%22%3eSourceForge%3c/ulink%3e",
+      "http://sourceforge.net/%22],",
+      "http://www.sourceforge.net:80/%22%5eM",
+      "http://sourceforge.net/%22bucket%22,%22/r.js?%22+%5B$KI.query(%7Bid:this.id,ref:l.referrer.get(",
+      "http://www.sourceforge.net:80/%22class=link",
+      "http://sourceforge.net/\"http://mnet.sf.net//\"",
+      "http://sourceforge.net/%22http://www.raspberryketone.webs.com",
+      "http://sourceforge.net:80/%22http://www.wanderlist.com/ci",
+      "http://sourceforge.net:80/%22http://www.wanderlist.com/he",
+      "https://sourceforge.net/%22javascript:alert('XSS');/%22%3E%3C/FRAMESET%3E",
+      "http://sourceforge.net:80/\"onMouseOver=\"window.status='Visit",
+      "http://www.sourceforge.net:80/\"onmouseover='window.status=\"SourceForge\"",
+      "http://sourceforge.net:80/%22target=%22_blank",
+      "http://sourceforge.net:80/%22target=%22_blank%22class=%22nlink",
+      "http://www.sourceforge.net:80/%22TARGET=%22_blank%22TITLE=%22SourceForge",
+      "http://sourceforge.net:80/%22target=%22_new",
+      "http://sourceforge.net:80/%22target=%22_top",
+      "http://sourceforge.net:80/%22TARGET=%22Engels",
+      "http://sourceforge.net:80/%22target=%22new",
+      "http://sourceforge.net:80/%22target=%22s",
+      "http://sourceforge.net:80/%22target=_blank",
+      "http://www.sourceforge.net:80/%22target=_top",
+      "http://sourceforge.net:80/\"target=parent",
+      "http://www.sourceforge.net:80/\"target=prev",
+      "http://sourceforge.net:80/$1",
+      "https://sourceforge.net/$1',0",
+      "http://sourceforge.net/$1'%7D",
+      "https://sourceforge.net/$1%3C/td%3E%3Ctd"
+    ],
+    "source": "web.archive.org",
+    "subdomain_count": 3,
+    "subdomains": [
+      "sourceforge.net",
+      "www.sourceforge.net",
+      "www1.sourceforge.net"
+    ],
+    "truncated": true
+  },
+  "tool": "wayback_lookup"
+}

@@ -1,0 +1,35 @@
+{
+  "arguments": {
+    "domain": "discord.com"
+  },
+  "result": {
+    "creation_date": "2000-11-06T11:45:38+00:00",
+    "dnssec": "signedDelegation",
+    "domain": "discord.com",
+    "emails": [
+      "registrar-abuse@cloudflare.com"
+    ],
+    "expiration_date": "2027-11-06T11:45:37+00:00",
+    "found": true,
+    "name_servers": [
+      "GABE.NS.CLOUDFLARE.COM",
+      "SIMA.NS.CLOUDFLARE.COM"
+    ],
+    "registrant_country": "US",
+    "registrant_org": "DATA REDACTED",
+    "registrar": "Cloudflare, Inc.",
+    "status": [
+      "clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited",
+      "clientTransferProhibited https://icann.org/epp#clientTransferProhibited",
+      "clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited",
+      "serverDeleteProhibited https://icann.org/epp#serverDeleteProhibited",
+      "serverTransferProhibited https://icann.org/epp#serverTransferProhibited",
+      "serverUpdateProhibited https://icann.org/epp#serverUpdateProhibited"
+    ],
+    "updated_date": [
+      "2026-08-08T12:00:26+00:00",
+      "2026-08-14T13:31:42+00:00"
+    ]
+  },
+  "tool": "whois_lookup"
+}

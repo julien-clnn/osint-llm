@@ -1,0 +1,75 @@
+{
+  "arguments": {
+    "domain": "0rder-ver1f2345.com"
+  },
+  "result": {
+    "code_matches": [
+      {
+        "path": "assets/filter_11.txt",
+        "repo": "AdguardTeam/HostlistsRegistry",
+        "snippet": "||0pkit2tt.prozhedownload.net^\n||0q26dscq.anodaz.vip^\n||0qam1x6q.alobet.pro^\n||0rder-ver1f2345.com^\n||0rlxki7g.bordbett10.com^\n||0snofqmc.megaparikade.com^\n||0x1x2x3.top^",
+        "url": "https://github.com/AdguardTeam/HostlistsRegistry/blob/42fe78a23da0eb008fe921d93dfa94b136be386a/assets/filter_11.txt"
+      },
+      {
+        "path": "chromium/rulesets/main/urlhaus-full.json",
+        "repo": "uBlockOrigin/uBOL-home",
+        "snippet": "\"0pkit2tt.prozhedownload.net\",\n   \"0q26dscq.anodaz.vip\",\n   \"0qam1x6q.alobet.pro\",\n   \"0rder-ver1f2345.com\",\n   \"0rlxki7g.bordbett10.com\",\n   \"0saw15fk.activereading.xyz\",\n   \"0snofqmc.megaparikade.com\",",
+        "url": "https://github.com/uBlockOrigin/uBOL-home/blob/aa108a6af4dae2e26afbee7a0b1881575d7befcd/chromium/rulesets/main/urlhaus-full.json"
+      },
+      {
+        "path": "filters/security/filter_11_MaliciousURLBlocklist/filter.txt",
+        "repo": "AdguardTeam/HostlistsRegistry",
+        "snippet": "||0pkit2tt.prozhedownload.net^\n||0q26dscq.anodaz.vip^\n||0qam1x6q.alobet.pro^\n||0rder-ver1f2345.com^\n||0rlxki7g.bordbett10.com^\n||0snofqmc.megaparikade.com^\n||0x1x2x3.top^",
+        "url": "https://github.com/AdguardTeam/HostlistsRegistry/blob/42fe78a23da0eb008fe921d93dfa94b136be386a/filters/security/filter_11_MaliciousURLBlocklist/filter.txt"
+      },
+      {
+        "path": "chromium/rulesets/strictblock/urlhaus-full.json",
+        "repo": "uBlockOrigin/uBOL-home",
+        "snippet": "\"0pkit2tt.prozhedownload.net\",\n   \"0q26dscq.anodaz.vip\",\n   \"0qam1x6q.alobet.pro\",\n   \"0rder-ver1f2345.com\",\n   \"0rlxki7g.bordbett10.com\",\n   \"0saw15fk.activereading.xyz\",\n   \"0snofqmc.megaparikade.com\",",
+        "url": "https://github.com/uBlockOrigin/uBOL-home/blob/aa108a6af4dae2e26afbee7a0b1881575d7befcd/chromium/rulesets/strictblock/urlhaus-full.json"
+      },
+      {
+        "path": "sources/urlhaus.abuse.ch-csv",
+        "repo": "romainmarcoux/malicious-domains",
+        "snippet": "0pkit2tt.prozhedownload.net\n0q26dscq.anodaz.vip\n0qam1x6q.alobet.pro\n0rder-ver1f2345.com\n0rlxki7g.bordbett10.com\n0snofqmc.megaparikade.com\n0x1x2x3.top",
+        "url": "https://github.com/romainmarcoux/malicious-domains/blob/5b31ca7e8c186a9b78f7212ac0a78efe87a903eb/sources/urlhaus.abuse.ch-csv"
+      },
+      {
+        "path": "data/new/2026/02/2026-02-12.txt",
+        "repo": "phishdestroy/nicenic-evidence",
+        "snippet": "0rder-ver1f2345.com\n10018marsbahis.com\n104lmarsbahis.com\n109281-kraken.com\n10cric-official-india.com\n1121-betebet-official.com\n1160betebet.com",
+        "url": "https://github.com/phishdestroy/nicenic-evidence/blob/69d6788ee4cd3e1f17ccc6133f5863fca83821d4/data/new/2026/02/2026-02-12.txt"
+      },
+      {
+        "path": "data/ioc/shared_ips.json",
+        "repo": "phishdestroy/nicenic-evidence",
+        "snippet": "\"0nwinle.live\",\n        \"0r2421conf1rm.com\",\n        \"0rder-check.com\",\n        \"0rder-ver1f2345.com\",\n        \"0rder-wo0wa.delivery\",\n        \"0rder72827-ebay.com\",\n        \"0rderemd.cfd\",",
+        "url": "https://github.com/phishdestroy/nicenic-evidence/blob/69d6788ee4cd3e1f17ccc6133f5863fca83821d4/data/ioc/shared_ips.json"
+      },
+      {
+        "path": "pasblock-urlhaus.txt",
+        "repo": "pointaction/adguard-lists",
+        "snippet": "||0pkit2tt.prozhedownload.net^\n||0q26dscq.anodaz.vip^\n||0qam1x6q.alobet.pro^\n||0rder-ver1f2345.com^\n||0rlxki7g.bordbett10.com^\n||0snofqmc.megaparikade.com^\n||0x1x2x3.top^",
+        "url": "https://github.com/pointaction/adguard-lists/blob/7a56132001eb36427692c601e0e90a41ebedfd14/pasblock-urlhaus.txt"
+      },
+      {
+        "path": "filters/11-urlhaus_filter_online.blocky",
+        "repo": "smthd-co/agh2blocky",
+        "snippet": "*.0pkit2tt.prozhedownload.net\n*.0q26dscq.anodaz.vip\n*.0qam1x6q.alobet.pro\n*.0rder-ver1f2345.com\n*.0rlxki7g.bordbett10.com\n*.0snofqmc.megaparikade.com\n*.0x1x2x3.top",
+        "url": "https://github.com/smthd-co/agh2blocky/blob/f4ee47cd33683fbdcf9492a1d062f4364ca080a5/filters/11-urlhaus_filter_online.blocky"
+      },
+      {
+        "path": "data/new/2026/02/2026-02-12.json",
+        "repo": "phishdestroy/nicenic-evidence",
+        "snippet": "{\"date\":\"2026-02-12\",\"count\":1056,\"revenue_estimate\":8612.6,\"domains\":[{\"domain\":\"0rder-ver1f2345.com\",\"expiring_at\":\"2027-02-12\",\"ip\":\"188.114.97.3\"},{\"domain\":\"10018marsbahis.com\",\"expiring_at\":\"2027-02-12\",\"ip\":\"188.114.96.3\"},{\"domain\":\"104lmarsbahis.com\",\"expiring_at\":\"2027-02-12\",\"ip\":\"104.21.",
+        "url": "https://github.com/phishdestroy/nicenic-evidence/blob/69d6788ee4cd3e1f17ccc6133f5863fca83821d4/data/new/2026/02/2026-02-12.json"
+      }
+    ],
+    "code_search_enabled": true,
+    "domain": "0rder-ver1f2345.com",
+    "repository_count": 0,
+    "repository_matches": [],
+    "source": "api.github.com"
+  },
+  "tool": "github_search"
+}

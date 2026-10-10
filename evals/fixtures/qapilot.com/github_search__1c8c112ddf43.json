@@ -1,0 +1,63 @@
+{
+  "arguments": {
+    "domain": "qapilot.com"
+  },
+  "result": {
+    "code_matches": [
+      {
+        "path": "episodes/062.md",
+        "repo": "PHPRoundtable/show-notes",
+        "snippet": "* Winner: [Marcel Pociot](https://github.com/mpociot)\n* Shameless Plugs:\n\t* Adam: [Test Driven Laravel](https://testdrivenlaravel.com/) course. [Full Stack Radio](http://www.fullstackradio.com/) podcast\n\t* Dries: Working on a project called [Pilot](https://qapilot.com/). It tries to fill in the gaps",
+        "url": "https://github.com/PHPRoundtable/show-notes/blob/04c7c07152228f377fb035c6bc2ad05aadd9c253/episodes/062.md"
+      },
+      {
+        "path": "Twitter/Zube/2016/2016_12_24.txt",
+        "repo": "trietptm/Security-News",
+        "snippet": "Short Python script I wrote, runnable by non-root user, to show you your Mac's WPA PSK.https://github.com/michael-myers/MacOS-WPA-PSK ... \n        CentOS 7.3 is out: package updates, tech previews of kpatch (live kernel patching), OverlayFS (Docker), btrfs,... https://wiki.centos.org/Manuals/Release",
+        "url": "https://github.com/trietptm/Security-News/blob/e46fe769bfa56f60b70561bb4b637851150da4d0/Twitter/Zube/2016/2016_12_24.txt"
+      },
+      {
+        "path": "03/06/29",
+        "repo": "cirosantilli/expired-domain-names-by-day-2021",
+        "snippet": "QaLogix.com\nQaLwlancamentowp.com\nQaNonWantedCards.com\nQaPilot.com\nQaValPartners.com\nQaaxbXe.com\nQabxtJc.com",
+        "url": "https://github.com/cirosantilli/expired-domain-names-by-day-2021/blob/521e797405c1ae7edd154046714c771b83107768/03/06/29"
+      },
+      {
+        "path": "03/06/81",
+        "repo": "cirosantilli/expired-domain-names-by-day-2021",
+        "snippet": "qantasgroup.biz\nqantasgroups.biz\nqantumspace.com\nqapilot.com\nqarqavol.com\nqasbart.com\nqatardimensions.com",
+        "url": "https://github.com/cirosantilli/expired-domain-names-by-day-2021/blob/521e797405c1ae7edd154046714c771b83107768/03/06/81"
+      },
+      {
+        "path": "12/11/59",
+        "repo": "cirosantilli/expired-domain-names-by-day-2016",
+        "snippet": "qammw.com\nqankyy.com\nqapcw.com\nqapilot.com\nqarakhitan.com\nqaresearch.org\nqasehgoldgojes.net",
+        "url": "https://github.com/cirosantilli/expired-domain-names-by-day-2016/blob/0fc37ffa7608782dacf9e5f8bd82afd598c65ddf/12/11/59"
+      },
+      {
+        "path": "12/10/36",
+        "repo": "cirosantilli/expired-domain-names-by-day-2011",
+        "snippet": "qanetsol-edox2010.com\nqanetsol-hpkgmail2010.com\nqapacnam.com\nqapilot.com\nqasde-vip.com\nqatar00.com\nqatargoldnumbers.com",
+        "url": "https://github.com/cirosantilli/expired-domain-names-by-day-2011/blob/d6e3788dd8eff2c5829ee152b9103070aac9a120/12/10/36"
+      },
+      {
+        "path": "docs/index.html",
+        "repo": "brainupgrade-in/qapilot.io",
+        "snippet": "<div class=\"footer-links\">\n        <a href=\"https://qapilot.io\">Website</a>\n        <a href=\"https://qapilot.io/#features\">Features</a>\n        <a href=\"mailto:support@qapilot.com\">Contact</a>\n        <a href=\"https://www.linkedin.com/company/qapilot\">LinkedIn</a>\n      </div>\n    </div>",
+        "url": "https://github.com/brainupgrade-in/qapilot.io/blob/4c100b89a684c692a6dcadef64c3ba084dd675d2/docs/index.html"
+      },
+      {
+        "path": "docs/posts/2026-03-25-reduce-flaky-appium-tests/index.html",
+        "repo": "brainupgrade-in/qapilot.io",
+        "snippet": "<p>\n    <a href=\"https://qapilot.com\" target=\"_blank\">QApilot</a> was built with the explicit goal of making mobile test automation resilient by default — not as an afterthought. Several platform capabilities directly address the root causes listed above:\n  </p>",
+        "url": "https://github.com/brainupgrade-in/qapilot.io/blob/4c100b89a684c692a6dcadef64c3ba084dd675d2/docs/posts/2026-03-25-reduce-flaky-appium-tests/index.html"
+      }
+    ],
+    "code_search_enabled": true,
+    "domain": "qapilot.com",
+    "repository_count": 0,
+    "repository_matches": [],
+    "source": "api.github.com"
+  },
+  "tool": "github_search"
+}

@@ -1,0 +1,27 @@
+domain: service-public.fr
+subdomains:
+  expected_count: 1
+  known_sample:
+  - service-public.fr
+  known_exclusions: []
+email_security:
+  spf: true
+  dmarc: false
+  dmarc_policy: null
+  dkim_selectors_found:
+  - mail
+network:
+  expected_asn: 47957
+  expected_org_substring: Worldline
+  behind_cdn_proxy: false
+reputation:
+  verdict: clean
+  malicious_engines_min: 0
+must_contain:
+- SPF present
+- DMARC absent
+- Domain registered in 2000
+must_not_contain:
+- Must not claim that DMARC is configured or active
+notes: French government domain. SPF present but DMARC absent — incomplete email posture for an
+  institutional domain, a notable fact in itself.
