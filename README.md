@@ -94,3 +94,5 @@ Built for authorized security assessments, monitoring your own domains, and lear
 ## License
 
 [MIT](LICENSE)
+
+<sub>Developed with the help of AI coding assistants (Devin AI and Claude).</sub>
