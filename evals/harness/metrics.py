@@ -6,14 +6,22 @@ of the matching domain.
 from __future__ import annotations
 
 import json
+from typing import Any
 from dataclasses import dataclass
+
+from osintllm.verifier import invented_attack_ids
 
 from .ground_truth import GroundTruth
 from .runner import RunRecord
 
 # Legacy French values are kept so archived runs (evals/results/) can still
 # be recomputed.
-COMPLETED_REASONS = {"report_submitted", "report_revised", "rapport_soumis", "rapport_corrige"}
+# `report_forced`: the iteration budget ran out and the last step forced
+# submit_report (agent.py) — a delivered report, counted as completed; the
+# per-run `stopped_reason` keeps it distinguishable.
+COMPLETED_REASONS = {
+    "report_submitted", "report_forced", "report_revised", "rapport_soumis", "rapport_corrige",
+}
 
 _LEGACY_RISK_LEVELS = {
     "faible": "low",
@@ -147,3 +155,26 @@ def phishing_verdict_correct(record: RunRecord, gt: GroundTruth) -> bool | None:
     if expected is None or gt.reputation_verdict not in ("malicious", "clean"):
         return None
     return expected == gt.reputation_verdict
+
+
+def attack_layer(record: RunRecord) -> dict[str, Any]:
+    """ATT&CK layer counters of one run (see docs/RAG.md).
+
+    `invented_ids_initial`: IDs cited in the report produced by the
+    reconnaissance agent, before any audit, that no `attack_lookup` call
+    returned. `invented_ids_stripped`: those still present after the
+    verifier's correction loop, removed by the final deterministic guard.
+    `invented_ids_final`: those in the report shown to the user (0 by
+    construction with the verifier; equal to the initial count without it).
+    """
+    return {
+        "attack_lookup_calls": len(record.report.collected.get("attack_lookup", [])),
+        "attack_mappings": len(record.report.attack_mappings),
+        "invented_ids_initial": len(invented_attack_ids(record.initial_report)),
+        "invented_ids_stripped": len(record.stripped_attack_ids),
+        "invented_ids_final": len(invented_attack_ids(record.report)),
+        # The IDs themselves, so that a count change can be diagnosed from the
+        # results file alone.
+        "invented_ids_initial_list": invented_attack_ids(record.initial_report),
+        "invented_ids_stripped_list": list(record.stripped_attack_ids),
+    }

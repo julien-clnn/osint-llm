@@ -19,6 +19,9 @@ DEEPSEEK_BASE_URL = "https://api.deepseek.com"
 DEEPSEEK_MODEL = "deepseek-chat"
 MISTRAL_BASE_URL = "https://api.mistral.ai/v1"
 MISTRAL_MODEL = "mistral-large-latest"
+# Embedding model of the ATT&CK retrieval layer (see rag/embeddings.py).
+# Mistral whatever the chat provider: DeepSeek has no embedding model.
+MISTRAL_EMBED_MODEL = "mistral-embed"
 
 # Kept for compatibility (legacy names used elsewhere): equivalent to the
 # default provider (DeepSeek).
@@ -58,6 +61,11 @@ class Settings:
     # other provider decorrelates the auditor's errors from the author's.
     verifier_provider: str | None = None
 
+    # MITRE ATT&CK retrieval layer (`attack_lookup` tool + `attack_mappings`
+    # report field, see docs/RAG.md). False = the exact pre-RAG behavior
+    # (same prompt, same tools, same report schema): the eval baseline.
+    attack_rag: bool = True
+
 
 def _int_env(name: str, default: int | None) -> int | None:
     raw = os.getenv(name)
@@ -77,6 +85,13 @@ def _float_env(name: str, default: float | None) -> float | None:
         return float(raw)
     except ValueError:
         return default
+
+
+def _bool_env(name: str, default: bool) -> bool:
+    raw = os.getenv(name)
+    if raw is None or not raw.strip():
+        return default
+    return raw.strip().lower() not in ("0", "false", "no", "off")
 
 
 def load_settings(provider: str | None = None) -> Settings:
@@ -135,4 +150,31 @@ def load_settings(provider: str | None = None) -> Settings:
         max_verify_iterations=_int_env("OSINTLLM_MAX_VERIFY", 2),
         request_timeout=_float_env("OSINTLLM_REQUEST_TIMEOUT", 30.0),
         verifier_provider=verifier_provider,
+        attack_rag=_bool_env("OSINTLLM_ATTACK_RAG", True),
+    )
+
+
+@dataclass(frozen=True)
+class EmbeddingSettings:
+    """Resolved settings of the embedding provider (ATT&CK retrieval)."""
+
+    api_key: str
+    base_url: str = MISTRAL_BASE_URL
+    model: str = MISTRAL_EMBED_MODEL
+
+
+def load_embedding_settings() -> EmbeddingSettings:
+    """Embedding settings from the environment, independent of
+    `OSINTLLM_PROVIDER`. Raise ConfigError if MISTRAL_API_KEY is missing."""
+    api_key = os.getenv("MISTRAL_API_KEY", "").strip()
+    if not api_key:
+        raise ConfigError(
+            "MISTRAL_API_KEY is missing (needed for mistral-embed, the "
+            "ATT&CK retrieval embeddings). Set it in .env "
+            "(https://console.mistral.ai/api-keys)."
+        )
+    return EmbeddingSettings(
+        api_key=api_key,
+        base_url=os.getenv("MISTRAL_BASE_URL", MISTRAL_BASE_URL).strip(),
+        model=os.getenv("OSINTLLM_EMBED_MODEL", MISTRAL_EMBED_MODEL).strip(),
     )

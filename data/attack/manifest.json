@@ -1,0 +1,14 @@
+{
+ "attack_version": "20.0",
+ "domain": "enterprise-attack",
+ "source": "https://raw.githubusercontent.com/mitre-attack/attack-stix-data/v20.0/enterprise-attack/enterprise-attack-20.0.json",
+ "source_sha256": "81113ba98afa2928f3dcff62022539f7ce30c315c32e14422f11ff95ce534352",
+ "technique_count": 706,
+ "subtechnique_count": 479,
+ "chunk_count": 1789,
+ "max_chunk_chars": 1200,
+ "embedding_model": "mistral-embed",
+ "embedding_dim": 1024,
+ "embedding_prompt_tokens": 236922,
+ "built_at": "2026-10-28T22:50:06+00:00"
+}

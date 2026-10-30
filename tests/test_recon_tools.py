@@ -9,6 +9,9 @@ of the sources.
 from __future__ import annotations
 
 import importlib
+from pathlib import Path
+
+from osintllm import fixtures
 
 dns_mod = importlib.import_module("osintllm.tools.dns_records_tool")
 wb_mod = importlib.import_module("osintllm.tools.wayback_tool")
@@ -193,6 +196,42 @@ def test_virustotal_reputation_and_passive_dns(monkeypatch):
     assert out["last_analysis_stats"]["malicious"] == 3
     assert out["categories"] == ["malware"]
     assert out["passive_dns"][0]["ip_address"] == "1.2.3.4"
+    # Epoch converted in code (1700000000 = 2023-11-14T22:13:20Z), never left to the LLM.
+    assert out["passive_dns"][0]["last_resolved"] == "2023-11-14"
+
+
+def test_virustotal_normalize_converts_legacy_epochs_idempotently():
+    """Results recorded before ISO dates (raw epochs) get the live format."""
+    legacy = {
+        "domain": "example.com",
+        "passive_dns": [
+            {"ip_address": "1.2.3.4", "last_resolved": 1456963200},
+            {"ip_address": "5.6.7.8", "last_resolved": None},
+        ],
+    }
+
+    once = vt_mod.normalize_result(legacy)
+
+    assert once["passive_dns"][0]["last_resolved"] == "2016-03-03"
+    assert once["passive_dns"][1]["last_resolved"] is None
+    assert vt_mod.normalize_result(once) == once
+    assert legacy["passive_dns"][0]["last_resolved"] == 1456963200  # input untouched
+
+
+def test_virustotal_replayed_fixture_gets_iso_dates(monkeypatch):
+    """--replay of a committed fixture (raw epochs on disk) yields ISO dates.
+
+    pets.com is the measured case: the LLM wrote 2016-01-01 for this entry."""
+    monkeypatch.setenv("OSINTLLM_FIXTURE_MODE", "replay")
+    monkeypatch.setattr(
+        fixtures, "FIXTURES_ROOT", Path(__file__).resolve().parents[1] / "evals" / "fixtures"
+    )
+    fixtures.set_current_domain("pets.com")
+
+    out = vt_mod.virustotal_tool.run(domain="pets.com")
+
+    dates = [e["last_resolved"] for e in out["passive_dns"]]
+    assert dates == ["2022-11-24", "2019-12-02", "2016-03-03", "2014-06-30"]
 
 
 def test_virustotal_quota_exceeded(monkeypatch):

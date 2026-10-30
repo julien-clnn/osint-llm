@@ -15,6 +15,7 @@ import argparse
 import concurrent.futures as cf
 import datetime as dt
 import json
+import os
 import sys
 import threading
 import traceback
@@ -137,6 +138,13 @@ def _run_single(
             "corrected": record.corrected,
             "correction_rounds": record.correction_rounds,
             "hallucination_hard": entities.hallucination_rate_hard(record.report),
+            # The flagged entities themselves, so that a rate change can be
+            # diagnosed from the results file alone.
+            "unsupported_entities": sorted(
+                f"{c.entity_type}:{c.value}"
+                for c in entities.extract_and_check(record.report)
+                if not c.supported
+            ),
             "recall": sub.recall,
             "precision": sub.precision,
             "tool_calls": orch.total_calls,
@@ -147,6 +155,7 @@ def _run_single(
             "total_tokens": usage.total_tokens,
             "wall_seconds": record.wall_seconds,
             "llm_call_count": len(record.llm_calls),
+            **metrics.attack_layer(record),
             "_record": record,  # kept for the judge/injection, removed before serialization
         }
         if scenario_name == "phishing_triage":
@@ -168,8 +177,8 @@ def run_matrix(
     max_workers: int,
     scenario_name: str = DEFAULT_SCENARIO_NAME,
     emit: TaskEventEmitter | None = None,
+    configs: tuple[str, ...] = (CONFIG_WITHOUT_VERIFIER, CONFIG_WITH_VERIFIER),
 ) -> list[dict[str, Any]]:
-    configs = (CONFIG_WITHOUT_VERIFIER, CONFIG_WITH_VERIFIER)
     tasks = [(d, c, r) for d in domains for c in configs for r in range(1, repetitions + 1)]
     results: list[dict[str, Any]] = []
     with cf.ThreadPoolExecutor(max_workers=max_workers) as ex:
@@ -321,6 +330,30 @@ def run_verifier_detection(
     return {"detections": detections, "false_positives": false_positives}
 
 
+def _attack_summary(rows: list[dict[str, Any]]) -> dict[str, Any] | None:
+    """ATT&CK layer aggregates (None for results without the counters)."""
+    rows = [r for r in rows if "attack_mappings" in r]
+    if not rows:
+        return None
+    n = len(rows)
+
+    def total(key: str) -> int:
+        return sum(int(r.get(key, 0)) for r in rows)
+
+    def runs_with(key: str) -> int:
+        return sum(1 for r in rows if r.get(key, 0) > 0)
+
+    return {
+        "share_runs_with_mapping": runs_with("attack_mappings") / n,
+        "share_runs_calling_lookup": runs_with("attack_lookup_calls") / n,
+        "mappings_mean": total("attack_mappings") / n,
+        "invented_ids_initial_total": total("invented_ids_initial"),
+        "runs_with_invented_initial": runs_with("invented_ids_initial"),
+        "invented_ids_stripped_total": total("invented_ids_stripped"),
+        "invented_ids_final_total": total("invented_ids_final"),
+    }
+
+
 def summarize(
     matrix_results: list[dict[str, Any]],
     detection: dict[str, Any],
@@ -333,6 +366,8 @@ def summarize(
     by_config: dict[str, Any] = {}
     for cfg in (CONFIG_WITHOUT_VERIFIER, CONFIG_WITH_VERIFIER):
         all_rows = [r for r in matrix_results if r["config"] == cfg]
+        if not all_rows:
+            continue  # config not run (--configs)
         n_total = len(all_rows)
         rows = [r for r in all_rows if "error" not in r]  # runs that managed to execute
         n_ok = len(rows)
@@ -373,6 +408,7 @@ def summarize(
             "total_tokens_mean": tt_mean, "total_tokens_std": tt_std,
             "wall_seconds_mean": ws_mean, "wall_seconds_std": ws_std,
             "correction_rounds_mean": cr_mean, "correction_rounds_std": cr_std,
+            "attack": _attack_summary(rows),
         }
 
     by_family: dict[str, float] = {}
@@ -402,9 +438,16 @@ def summarize(
             "scenario": scenario_name,
             "n_domains": len(domains),
             "n_repetitions": repetitions,
+            "attack_rag": settings.attack_rag,
         },
         "by_config": by_config,
-        "verifier_detection": {"by_family": by_family, "false_positive_rate": fp_rate or 0.0},
+        # None when the detection pass was skipped (--no-detection): an
+        # empty pass must not read as a 0% detection rate.
+        "verifier_detection": (
+            {"by_family": by_family, "false_positive_rate": fp_rate or 0.0}
+            if detection["detections"] or detection["false_positives"]
+            else None
+        ),
         "judge_soft": (
             judge.summarize_verdicts(judge_results) if judge_results is not None else None
         ),
@@ -443,8 +486,32 @@ def main(argv: list[str] | None = None) -> int:
             "be read by /api/eval/launch (api.py), not for manual runs."
         ),
     )
+    parser.add_argument(
+        "--attack-rag",
+        choices=("on", "off"),
+        default=None,
+        help="Force the ATT&CK layer on/off (default: OSINTLLM_ATTACK_RAG, on).",
+    )
+    parser.add_argument(
+        "--configs",
+        nargs="+",
+        choices=(CONFIG_WITHOUT_VERIFIER, CONFIG_WITH_VERIFIER),
+        default=[CONFIG_WITHOUT_VERIFIER, CONFIG_WITH_VERIFIER],
+        help="Configurations to run (default: both).",
+    )
+    parser.add_argument(
+        "--no-judge", action="store_true", help="Skip the LLM-as-judge pass (saves calls)."
+    )
+    parser.add_argument(
+        "--no-detection",
+        action="store_true",
+        help="Skip the verifier error-injection detection pass (saves calls).",
+    )
     args = parser.parse_args(argv)
 
+    if args.attack_rag is not None:
+        # Read by load_settings() in every run (_settings_for_eval).
+        os.environ["OSINTLLM_ATTACK_RAG"] = "1" if args.attack_rag == "on" else "0"
     domains = args.domains or list_domains()
     settings = load_settings()
 
@@ -456,11 +523,18 @@ def main(argv: list[str] | None = None) -> int:
 
     emit = _make_stdout_emitter() if args.stream_events else None
     matrix_results = run_matrix(
-        domains, args.repetitions, args.seed, args.max_workers, args.scenario, emit=emit
+        domains, args.repetitions, args.seed, args.max_workers, args.scenario, emit=emit,
+        configs=tuple(args.configs),
     )
-    judge_results = run_judge_pass(matrix_results, domains, emit=emit)
-    detection = run_verifier_detection(
-        matrix_results, domains, args.repetitions, args.seed, args.max_workers, emit=emit
+    judge_results = (
+        None if args.no_judge else run_judge_pass(matrix_results, domains, emit=emit)
+    )
+    detection = (
+        {"detections": [], "false_positives": []}
+        if args.no_detection
+        else run_verifier_detection(
+            matrix_results, domains, args.repetitions, args.seed, args.max_workers, emit=emit
+        )
     )
     summary = summarize(
         matrix_results,

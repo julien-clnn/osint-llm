@@ -11,11 +11,20 @@ tools, and flags:
 It returns its verdict through the `submit_verification` tool (enforced
 schema). If corrections are needed, the orchestrator (investigation.py) sends
 the report back to the main agent, up to a maximum number of iterations.
+
+MITRE ATT&CK IDs (see docs/RAG.md) get two checks:
+  - deterministic, zero tolerance: any technique ID in the report that no
+    `attack_lookup` call returned during the run is flagged
+    (`invented_attack_ids`), whatever the LLM audit concludes;
+  - LLM audit: a mapping whose justification contradicts the retrieved
+    excerpt, or doesn't follow from the facts, is flagged like any other
+    unsupported claim.
 """
 
 from __future__ import annotations
 
 import json
+import re
 from dataclasses import dataclass, field
 from typing import Any
 
@@ -55,6 +64,61 @@ it via `injection_detected`, independently of your `verified` verdict.
 Be strict but factual: only flag what is NOT supported by the data. Always \
 return your verdict through the `submit_verification` tool.
 """
+
+# Appended to the prompt only when the report carries ATT&CK content, so
+# that a run without the ATT&CK layer audits with the exact pre-RAG prompt.
+_ATTACK_AUDIT_RULE = """
+ATT&CK mappings: the RAW FACTS include `attack_lookup` results (MITRE ATT&CK \
+techniques with an excerpt of the official text). For each entry of \
+`attack_mappings`, check that the finding is supported by the facts and \
+that the justification is consistent with the excerpt returned for that \
+technique; flag any mapping that contradicts it or stretches it.
+"""
+
+ATTACK_ID_RE = re.compile(r"\bT\d{4}(?:\.\d{3})?\b")
+
+
+def retrieved_attack_ids(report: OsintReport) -> set[str]:
+    """Technique IDs returned by the `attack_lookup` calls of this run."""
+    ids: set[str] = set()
+    for call in report.collected.get("attack_lookup", []):
+        result = call.get("result")
+        if not isinstance(result, dict):
+            continue
+        for item in result.get("results", []):
+            for technique in item.get("techniques", []) if isinstance(item, dict) else []:
+                if isinstance(technique, dict) and technique.get("attack_id"):
+                    ids.add(str(technique["attack_id"]).upper())
+    return ids
+
+
+def _report_texts(report: OsintReport) -> list[str]:
+    texts = [report.summary, report.risk_justification, *report.recommendations]
+    for m in report.attack_mappings:
+        texts += [m.get("technique_id", ""), m.get("finding", ""),
+                  m.get("technique_name", ""), m.get("justification", "")]
+    return texts
+
+
+def invented_attack_ids(report: OsintReport) -> list[str]:
+    """ATT&CK IDs cited anywhere in the report but returned by no
+    `attack_lookup` call (sorted, unique). Deterministic, no LLM.
+
+    A mapping's `technique_id` counts whatever its format: a malformed or
+    tactic ID ("TA0042", "T1583-001") escapes the free-text pattern but is
+    still not a technique the retrieval returned."""
+    allowed = retrieved_attack_ids(report)
+    cited = {m.group(0).upper() for t in _report_texts(report) for m in ATTACK_ID_RE.finditer(t)}
+    cited |= {
+        str(m.get("technique_id", "")).strip().upper()
+        for m in report.attack_mappings
+        if str(m.get("technique_id", "")).strip()
+    }
+    return sorted(cited - allowed)
+
+
+def has_attack_content(report: OsintReport) -> bool:
+    return bool(report.attack_mappings or report.collected.get("attack_lookup"))
 
 SUBMIT_VERIFICATION_SPEC: dict[str, Any] = {
     "type": "function",
@@ -118,6 +182,7 @@ class Verification:
     corrections: list[str] = field(default_factory=list)
     notes: str = ""
     injection_detected: bool = False
+    invented_attack_ids: list[str] = field(default_factory=list)
 
     def to_dict(self) -> dict[str, Any]:
         return {
@@ -126,6 +191,7 @@ class Verification:
             "corrections": self.corrections,
             "notes": self.notes,
             "injection_detected": self.injection_detected,
+            "invented_attack_ids": self.invented_attack_ids,
         }
 
 
@@ -141,20 +207,40 @@ class VerifierAgent:
         self.provider = provider or build_provider(self.settings)
 
     def verify(self, report: OsintReport) -> Verification:
-        """Audit `report` against its own collected facts."""
+        """Audit `report` against its own collected facts (LLM audit), then
+        apply the deterministic ATT&CK ID check on top of its verdict."""
+        verdict = self._llm_verify(report)
+        invented = invented_attack_ids(report)
+        if invented:
+            verdict.verified = False
+            verdict.invented_attack_ids = invented
+            verdict.unsupported_claims.append(
+                "ATT&CK technique ID(s) not returned by attack_lookup in this run: "
+                + ", ".join(invented)
+            )
+            verdict.corrections.append(
+                "Remove these ATT&CK IDs ("
+                + ", ".join(invented)
+                + ") or replace them with techniques actually returned by "
+                "attack_lookup; never cite an ATT&CK ID from memory."
+            )
+        return verdict
+
+    def _llm_verify(self, report: OsintReport) -> Verification:
+        attack = has_attack_content(report)
         facts = json.dumps(report.collected, ensure_ascii=False, indent=2)
-        draft = json.dumps(
-            {
-                "summary": report.summary,
-                "risk_level": report.risk_level,
-                "risk_justification": report.risk_justification,
-                "recommendations": report.recommendations,
-            },
-            ensure_ascii=False,
-            indent=2,
-        )
+        draft_fields: dict[str, Any] = {
+            "summary": report.summary,
+            "risk_level": report.risk_level,
+            "risk_justification": report.risk_justification,
+            "recommendations": report.recommendations,
+        }
+        if attack:
+            draft_fields["attack_mappings"] = report.attack_mappings
+        draft = json.dumps(draft_fields, ensure_ascii=False, indent=2)
+        system = VERIFIER_SYSTEM_PROMPT + (_ATTACK_AUDIT_RULE if attack else "")
         messages = [
-            {"role": "system", "content": VERIFIER_SYSTEM_PROMPT},
+            {"role": "system", "content": system},
             {
                 "role": "user",
                 "content": (

@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import ActivityStream from "../components/ActivityStream.jsx";
 import AgentGraph from "../components/AgentGraph.jsx";
 import ReportView from "../components/ReportView.jsx";
+import { IS_DEMO, apiFetch, loadDemoIndex } from "../lib/api.js";
 
 // SSE events the agent can emit to feed the live log.
 const STREAM_EVENTS = [
@@ -36,11 +37,23 @@ export default function Analysis() {
   const [error, setError] = useState("");
   const abortRef = useRef(null);
   const settledRef = useRef(false); // true as soon as a final report is received
+  const [demoIndex, setDemoIndex] = useState([]); // recorded analyses (demo build only)
+
+  // Demo build: the domain field becomes a picker over the recorded analyses
+  // of the current scenario (see lib/api.js).
+  useEffect(() => {
+    if (IS_DEMO) loadDemoIndex().then(setDemoIndex).catch(() => {});
+  }, []);
+  const demoDomains = demoIndex.filter((e) => e.scenario === scenario);
+  useEffect(() => {
+    if (!IS_DEMO) return;
+    if (!demoDomains.some((e) => e.domain === domain)) setDomain(demoDomains[0]?.domain || "");
+  }, [demoIndex, scenario]); // eslint-disable-line react-hooks/exhaustive-deps
 
   // One-off provider choice for this analysis (never touches .env) — the
   // selector is only shown when more than one provider has a key.
   useEffect(() => {
-    fetch("/api/settings")
+    apiFetch("/api/settings")
       .then((r) => r.json())
       .then((s) => {
         const configured = Object.entries(s.providers || {})
@@ -109,7 +122,7 @@ export default function Analysis() {
     abortRef.current = controller;
 
     try {
-      const res = await fetch(url, { signal: controller.signal });
+      const res = await apiFetch(url, { signal: controller.signal });
       if (!res.ok || !res.body) {
         const body = await res.json().catch(() => null);
         throw new Error(
@@ -160,8 +173,34 @@ export default function Analysis() {
         </p>
       </header>
 
+      {IS_DEMO ? (
+        <div className="demo-banner">
+          <strong>Demo</strong> — no LLM is connected here. Each analysis is the replay of a real
+          run recorded with the local setup{demoDomains[0]?.recorded_at ? ` (${demoDomains[0].recorded_at.slice(0, 10)})` : ""},
+          streamed at {"\u2248"}3× speed. Pick one of the recorded domains below.
+        </div>
+      ) : null}
+
       <div className="form">
         <div className="form-top">
+          {IS_DEMO ? (
+            <label className="field">
+              <span className="prompt">$</span>
+              <select
+                className="demo-select"
+                aria-label="Recorded domain"
+                value={domain}
+                onChange={(e) => setDomain(e.target.value)}
+                disabled={busy}
+              >
+                {demoDomains.map((e) => (
+                  <option key={e.domain} value={e.domain}>
+                    {e.domain}
+                  </option>
+                ))}
+              </select>
+            </label>
+          ) : (
           <label className="field">
             <span className="prompt">$</span>
             <input
@@ -180,6 +219,7 @@ export default function Analysis() {
               disabled={busy}
             />
           </label>
+          )}
           <button className="btn" onClick={start} disabled={busy || !domain.trim()}>
             {busy ? "Analyzing…" : "Analyze"}
           </button>
@@ -194,7 +234,7 @@ export default function Analysis() {
                 aria-checked={scenario === s.value}
                 className={`mode ${scenario === s.value ? "is-active" : ""}`}
                 onClick={() => setScenario(s.value)}
-                disabled={busy}
+                disabled={busy || (IS_DEMO && !demoIndex.some((e) => e.scenario === s.value))}
               >
                 {s.label}
               </button>
@@ -217,12 +257,12 @@ export default function Analysis() {
               aria-checked={mode === "active"}
               className={`mode ${mode === "active" ? "is-active" : ""}`}
               onClick={() => setMode("active")}
-              disabled={busy}
+              disabled={busy || IS_DEMO}
             >
               Active
             </button>
           </div>
-          {providerOptions.length > 1 ? (
+          {!IS_DEMO && providerOptions.length > 1 ? (
             <select
               className="select-input"
               aria-label="LLM provider"
@@ -244,6 +284,7 @@ export default function Analysis() {
             at a fixed position; the conditional one (proxy) is appended
             after it without moving anything. */}
         <div className="form-checks">
+          {IS_DEMO ? null : (
           <label className="check">
             <input
               type="checkbox"
@@ -253,6 +294,7 @@ export default function Analysis() {
             />
             Use cache
           </label>
+          )}
           {mode === "active" ? (
             <label className="check">
               <input

@@ -54,6 +54,18 @@ _RISK_TINTS = {
 }
 
 
+_ATTACK_ID_RE = re.compile(r"^T\d{4}(?:\.\d{3})?$")
+
+
+def attack_url(technique_id: str) -> str | None:
+    """Official ATT&CK page of a technique ID, None if the ID is malformed
+    (never build a link from an unchecked string)."""
+    technique_id = (technique_id or "").strip().upper()
+    if not _ATTACK_ID_RE.match(technique_id):
+        return None
+    return "https://attack.mitre.org/techniques/" + technique_id.replace(".", "/")
+
+
 def _summary_to_html(text: str) -> str:
     """Turn the summary (LLM free text) into readable HTML.
 
@@ -94,6 +106,11 @@ class OsintReport:
     risk_justification: str = ""
     recommendations: list[str] = field(default_factory=list)
 
+    # Findings mapped to MITRE ATT&CK techniques (ATT&CK layer, see
+    # docs/RAG.md): [{finding, technique_id, technique_name, justification}].
+    # Empty for reports produced without the layer, including archived ones.
+    attack_mappings: list[dict[str, str]] = field(default_factory=list)
+
     # Raw facts: tool name -> list of calls {arguments, result}.
     collected: dict[str, list[dict[str, Any]]] = field(default_factory=dict)
 
@@ -108,6 +125,7 @@ class OsintReport:
             "risk_level": self.risk_level,
             "risk_justification": self.risk_justification,
             "recommendations": self.recommendations,
+            "attack_mappings": self.attack_mappings,
             "collected": self.collected,
             "iterations": self.iterations,
             "stopped_reason": self.stopped_reason,
@@ -133,6 +151,18 @@ class OsintReport:
         if self.recommendations:
             lines += ["", "## Recommendations"]
             lines += [f"- {reco}" for reco in self.recommendations]
+
+        if self.attack_mappings:
+            lines += ["", "## MITRE ATT&CK mapping", "",
+                      "| Finding | Technique | Justification |", "|---|---|---|"]
+            for m in self.attack_mappings:
+                tid = m.get("technique_id", "")
+                url = attack_url(tid)
+                label = f"[{tid}]({url})" if url else tid
+                cells = [m.get("finding", ""), f"{label} {m.get('technique_name', '')}".strip(),
+                         m.get("justification", "")]
+                lines.append("| " + " | ".join(c.replace("|", "\\|").replace("\n", " ")
+                                                for c in cells) + " |")
 
         asns = self.asn_lookups()
         if asns:
@@ -370,6 +400,24 @@ class OsintReport:
         reco_items = "".join(f"<li>{e(r)}</li>" for r in self.recommendations)
         reco_block = (
             f"<h2>Recommendations</h2><ul>{reco_items}</ul>" if reco_items else ""
+        )
+
+        attack_rows = []
+        for m in self.attack_mappings:
+            tid = m.get("technique_id", "")
+            url = attack_url(tid)
+            tech = (
+                f'<a href="{e(url)}">{e(tid)}</a>' if url else e(tid)
+            ) + f" {e(m.get('technique_name', ''))}"
+            attack_rows.append(
+                f"<tr><td>{e(m.get('finding', ''))}</td><td>{tech}</td>"
+                f"<td>{e(m.get('justification', ''))}</td></tr>"
+            )
+        attack_block = (
+            "<h2>MITRE ATT&amp;CK mapping</h2><table><tr><th>Finding</th>"
+            "<th>Technique</th><th>Justification</th></tr>" + "".join(attack_rows) + "</table>"
+            if attack_rows
+            else ""
         )
 
         justif_block = (
@@ -616,6 +664,7 @@ class OsintReport:
 
   {justif_block}
   {reco_block}
+  {attack_block}
   {sec_block}
   {loc_block}
   {asn_block}

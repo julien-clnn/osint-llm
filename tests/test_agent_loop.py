@@ -119,6 +119,9 @@ def test_max_iterations_guardrail():
     agent.settings = type(agent.settings)(
         api_key="fake", base_url=agent.settings.base_url,
         model=agent.settings.model, max_iterations=2,
+        # Without the ATT&CK layer, which adds one step to the budget
+        # (see test_attack_layer.py).
+        attack_rag=False,
     )
     agent.provider.complete = always_tool
     rep = agent.run("example.com").report
@@ -215,3 +218,35 @@ def test_run_without_scenario_behaves_like_default_scenario():
 
 if __name__ == "__main__":
     raise SystemExit(pytest.main([__file__, "-v"]))
+
+
+def test_last_step_forces_the_report():
+    """A model that calls one tool per step (mistral-small) would spend the
+    whole budget collecting: the last step forces submit_report."""
+    seen = []
+
+    def tool_until_forced(**kwargs):
+        seen.append(kwargs["tool_choice"])
+        if kwargs["tool_choice"] == "auto":
+            return _decision(tool_calls=[
+                _tool_call(f"c{len(seen)}", "whois_lookup", {"domain": "example.com"})
+            ])
+        assert [t["function"]["name"] for t in kwargs["tools"]] == ["submit_report"]
+        assert kwargs["messages"][-1]["role"] == "user"
+        return _decision(tool_calls=[_tool_call("cf", "submit_report", {
+            "summary": "From the facts collected so far.", "risk_level": "low",
+            "recommendations": [],
+        })])
+
+    agent = OsintAgent()
+    agent.settings = type(agent.settings)(
+        api_key="fake", base_url=agent.settings.base_url,
+        model=agent.settings.model, max_iterations=3, attack_rag=False,
+    )
+    agent.provider.complete = tool_until_forced
+    rep = agent.run("example.com").report
+    assert seen[:2] == ["auto", "auto"]
+    assert seen[2] == {"type": "function", "function": {"name": "submit_report"}}
+    assert rep.stopped_reason == "report_forced"
+    assert rep.iterations == 3
+    assert rep.summary == "From the facts collected so far."

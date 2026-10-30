@@ -50,3 +50,20 @@ deployed project) — one entry per milestone. `D1`…`D10` = day 1…day 10.
   architecture graph). **Results** shows a dashboard of past runs
   (with/without verifier, detection, LLM judgment, run-to-run comparison).
   **Settings** shows the active `.env` read-only.
+- **Phase 6 (RAG)** — **MITRE ATT&CK retrieval layer**: index of ATT&CK
+  Enterprise **v20.0** built from the official STIX bundle (706 techniques,
+  1,789 chunks, `mistral-embed`), hybrid BM25 + dense retrieval (RRF), new
+  `attack_lookup` tool, `attack_mappings` report field (exports + UI),
+  deterministic guard against invented technique IDs. Retrieval eval on 63
+  labeled queries (two independent labelers): Hit@5 0.603 hybrid vs 0.508
+  dense vs 0.317 BM25. Agent level (Mistral, 15 × 3, with verifier):
+  mapping in 95.3% of runs, 0 invented ID in 43 final reports, +54% tokens;
+  with a lighter lookup payload and the VirusTotal date fix, +41% tokens and
+  no hallucination increase (0.021 → 0.023).
+  Along the way, the agent loop now forces the report on its last step (a
+  third of `mistral-small` runs used to end without one). See
+  [docs/RAG.md](docs/RAG.md).
+- **Web demo** — a static build of the UI (`make demo`) that runs without
+  backend or API key: the Analysis screen replays real recorded runs
+  (`scripts/demo_data.py record`) with their original rhythm, the Results
+  screen reads the exported eval runs. Linked from the top of the README.

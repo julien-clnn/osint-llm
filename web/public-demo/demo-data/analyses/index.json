@@ -1,0 +1,38 @@
+[
+ {
+  "domain": "python.org",
+  "scenario": "email_security_posture",
+  "file": "email_security_posture__python.org.json",
+  "recorded_at": "2026-10-30T01:13:30+00:00",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "duration_s": 53.6
+ },
+ {
+  "domain": "mozilla.org",
+  "scenario": "external_recon",
+  "file": "external_recon__mozilla.org.json",
+  "recorded_at": "2026-10-30T01:12:36+00:00",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "duration_s": 76.27
+ },
+ {
+  "domain": "wikipedia.org",
+  "scenario": "external_recon",
+  "file": "external_recon__wikipedia.org.json",
+  "recorded_at": "2026-10-30T01:09:05+00:00",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "duration_s": 39.61
+ },
+ {
+  "domain": "paypal.com",
+  "scenario": "phishing_triage",
+  "file": "phishing_triage__paypal.com.json",
+  "recorded_at": "2026-10-30T01:13:58+00:00",
+  "provider": "deepseek",
+  "model": "deepseek-chat",
+  "duration_s": 28.29
+ }
+]

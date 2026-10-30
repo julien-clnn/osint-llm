@@ -58,6 +58,50 @@ _FINGERPRINT_CLAUSE = {
 # subdomains) is refused before any network request.
 _HOST_SCOPED_TOOLS = {"tech_fingerprint"}
 
+# Sent before the last step of the loop, which forces `submit_report`: a
+# model that calls one tool per step would otherwise spend the whole budget
+# collecting and never deliver its report (measured with mistral-small).
+_FINAL_STEP_NOTICE = (
+    "Iteration budget exhausted: call `submit_report` now, based only on the "
+    "facts already collected. Do not call any other tool."
+)
+
+# MITRE ATT&CK retrieval layer (see docs/RAG.md).
+ATTACK_TOOL = "attack_lookup"
+ATTACK_EXTRA_STEPS = 2
+
+_ATTACK_RULE = (
+    "- MITRE ATT&CK mapping: once the facts are collected, call `attack_lookup` "
+    "ONCE with the notable findings as a list (e.g. weak e-mail "
+    "authentication, very recent registration, malicious reputation, exposed "
+    "non-production subdomains, sensitive archived paths). Then fill "
+    "`attack_mappings` in `submit_report`: cite ONLY technique IDs returned "
+    "by `attack_lookup` in this run, with a one-line justification "
+    "consistent with the retrieved excerpt. Leave it empty if no returned "
+    "technique fits — never write an ATT&CK ID from memory.\n"
+)
+
+_ATTACK_MAPPINGS_SCHEMA: dict[str, Any] = {
+    "type": "array",
+    "description": (
+        "Findings mapped to MITRE ATT&CK techniques. Only technique IDs "
+        "returned by `attack_lookup` during this run; empty if none fits."
+    ),
+    "items": {
+        "type": "object",
+        "properties": {
+            "finding": {"type": "string", "description": "The observed fact."},
+            "technique_id": {"type": "string", "description": "e.g. T1583.001"},
+            "technique_name": {"type": "string"},
+            "justification": {
+                "type": "string",
+                "description": "One line, consistent with the retrieved excerpt.",
+            },
+        },
+        "required": ["finding", "technique_id", "technique_name", "justification"],
+    },
+}
+
 
 def _domain_in_scope(candidate: str, target: str) -> bool:
     candidate = candidate.strip().lower().rstrip(".")
@@ -87,12 +131,15 @@ def _wrap_tool_result(result: dict[str, Any]) -> str:
     return _wrap_untrusted(json.dumps(result, ensure_ascii=False))
 
 
-def build_system_prompt(mode: str = DEFAULT_MODE, scenario: Scenario | None = None) -> str:
+def build_system_prompt(
+    mode: str = DEFAULT_MODE, scenario: Scenario | None = None, attack_rag: bool = False
+) -> str:
     """Build the system prompt for the reconnaissance mode AND the scenario
     (mission, allowed tools, expected report structure).
 
     `scenario=None` falls back to `external_recon`, the default scenario
-    (see tests/test_scenarios.py).
+    (see tests/test_scenarios.py). `attack_rag=False` leaves the prompt
+    byte-identical to the pre-RAG one (eval baseline).
     """
     scenario = scenario or default_scenario()
     label = "ACTIVE" if mode == "active" else "PASSIVE"
@@ -133,22 +180,25 @@ prose. Each section starts with a title line "N. TITLE IN UPPERCASE" \
 - If the data is insufficient to assess the risk (non-existent domain, no data \
 collected, all sources failed), use the `undetermined` risk level rather than \
 guessing — never conclude a "low" risk from a mere absence of information.
-"""
+{_ATTACK_RULE if attack_rag else ""}"""
 
 
-def build_submit_report_spec(scenario: Scenario | None = None) -> dict[str, Any]:
+def build_submit_report_spec(
+    scenario: Scenario | None = None, attack_rag: bool = False
+) -> dict[str, Any]:
     """Schema of the `submit_report` termination tool; the description of the
     `summary` field illustrates the scenario's first 2 section examples.
 
     The SCHEMA (fields, types, `risk_level` enum) is the same whatever the
     scenario — see scenarios/README.md for why there is no dedicated output
-    schema per scenario.
+    schema per scenario. `attack_rag=True` adds the optional
+    `attack_mappings` field (ATT&CK layer, see docs/RAG.md).
     """
     scenario = scenario or default_scenario()
     examples = list(scenario.report_sections[:2])
     ex1 = f"1. {examples[0]}" if len(examples) > 0 else "1. TITLE"
     ex2 = f"2. {examples[1]}" if len(examples) > 1 else "2. TITLE"
-    return {
+    spec: dict[str, Any] = {
         "type": "function",
         "function": {
             "name": "submit_report",
@@ -197,12 +247,34 @@ def build_submit_report_spec(scenario: Scenario | None = None) -> dict[str, Any]
             },
         },
     }
+    if attack_rag:
+        spec["function"]["parameters"]["properties"]["attack_mappings"] = _ATTACK_MAPPINGS_SCHEMA
+    return spec
 
 
 # Backward compatibility: schema of the default scenario, as-is (used by
 # modules that don't need to know the scenario; also a module-level value
 # useful to tests).
 SUBMIT_REPORT_SPEC: dict[str, Any] = build_submit_report_spec()
+
+
+def _parse_attack_mappings(raw: Any) -> list[dict[str, str]]:
+    """Keep well-formed mappings only (the schema is a hint to the LLM, not
+    a guarantee). Whether the IDs are legitimate is checked later, against
+    the `attack_lookup` results (investigation.py)."""
+    if not isinstance(raw, list):
+        return []
+    mappings = []
+    for item in raw:
+        if not isinstance(item, dict) or not str(item.get("technique_id", "")).strip():
+            continue
+        mappings.append(
+            {
+                key: str(item.get(key, "")).strip()
+                for key in ("finding", "technique_id", "technique_name", "justification")
+            }
+        )
+    return mappings
 
 
 @dataclass
@@ -242,6 +314,19 @@ class OsintAgent:
         self.settings = settings or load_settings()
         self.provider = provider or build_provider(self.settings)
 
+    def _tools_and_rag(self, mode: str, scenario: Scenario) -> tuple[list, bool]:
+        """Tools exposed for this run, and whether the ATT&CK layer is on.
+
+        The layer is on when the settings enable it AND the scenario exposes
+        `attack_lookup` (restricted scenarios don't list it). Off, the tool
+        is withdrawn and prompt/schema stay exactly the pre-RAG ones.
+        """
+        tools = tools_for(mode, scenario)
+        rag = self.settings.attack_rag and any(t.name == ATTACK_TOOL for t in tools)
+        if not rag:
+            tools = [t for t in tools if t.name != ATTACK_TOOL]
+        return tools, rag
+
     def run(
         self,
         domain: str,
@@ -279,8 +364,9 @@ class OsintAgent:
                 on_event(event)
 
         label = "active" if mode == "active" else "passive"
+        tools, rag = self._tools_and_rag(mode, scenario)
         messages: list[dict[str, Any]] = [
-            {"role": "system", "content": build_system_prompt(mode, scenario)},
+            {"role": "system", "content": build_system_prompt(mode, scenario, rag)},
             {
                 "role": "user",
                 "content": (
@@ -288,17 +374,38 @@ class OsintAgent:
                 ),
             },
         ]
-        specs = [t.spec() for t in tools_for(mode, scenario)] + [
-            build_submit_report_spec(scenario)
-        ]
+        specs = [t.spec() for t in tools] + [build_submit_report_spec(scenario, rag)]
         max_iterations = scenario.max_iterations or self.settings.max_iterations
+        if rag:
+            # `attack_lookup` is one extra step of the loop (one batched call,
+            # see its docstring), and the last step is a forced report: give
+            # back ATTACK_EXTRA_STEPS so the lookup fits after the collection
+            # instead of eating into it (measured in docs/RAG.md).
+            max_iterations += ATTACK_EXTRA_STEPS
 
         emit(AgentEvent("info", {"message": f"Starting analysis of {domain}"}))
 
         for iteration in range(1, max_iterations + 1):
             # --- Step 1: LLM decision (no execution here) ---
+            # Last step: the report is forced, from the facts collected so far.
+            final_step = iteration == max_iterations
+            # No ATT&CK mapping without a lookup: a forced report written
+            # before any `attack_lookup` call gets the schema without
+            # `attack_mappings` (measured: otherwise the model fills it from
+            # memory, with invented IDs).
+            maps_allowed = rag and ATTACK_TOOL in collected
+            if final_step:
+                messages.append({"role": "user", "content": _FINAL_STEP_NOTICE})
             decision = self.provider.complete(
-                messages=messages, tools=specs, tool_choice="auto"
+                messages=messages,
+                tools=(
+                    [build_submit_report_spec(scenario, maps_allowed)] if final_step else specs
+                ),
+                tool_choice=(
+                    {"type": "function", "function": {"name": "submit_report"}}
+                    if final_step
+                    else "auto"
+                ),
             )
             emit(
                 AgentEvent(
@@ -333,6 +440,8 @@ class OsintAgent:
             # --- Step 2: execute the decided tool calls ---
             for call in decision.tool_calls:
                 if call.name == "submit_report":
+                    if final_step and not maps_allowed:
+                        call.arguments.pop("attack_mappings", None)
                     # Termination: the model delivers its report, nothing to execute.
                     emit(
                         AgentEvent(
@@ -344,7 +453,7 @@ class OsintAgent:
                         collected,
                         analysis=call.arguments,
                         iterations=iteration,
-                        stopped_reason="report_submitted",
+                        stopped_reason="report_forced" if final_step else "report_submitted",
                     )
                     if emit_final:
                         emit(AgentEvent("final", {"report": report}))
@@ -396,10 +505,15 @@ class OsintAgent:
         guarantees it goes through `submit_report` again.
         """
         scenario = scenario or default_scenario()
+        _, rag = self._tools_and_rag(mode, scenario)
+        # Same rule as the forced last step of `run`: no ATT&CK mapping
+        # without a lookup in the collected facts (measured: a revision
+        # otherwise adds IDs from memory).
+        rag = rag and ATTACK_TOOL in report.collected
         facts = json.dumps(report.collected, ensure_ascii=False, indent=2)
         problems = "\n".join(f"- {f}" for f in feedback)
         messages = [
-            {"role": "system", "content": build_system_prompt(mode, scenario)},
+            {"role": "system", "content": build_system_prompt(mode, scenario, rag)},
             {
                 "role": "user",
                 "content": (
@@ -413,13 +527,15 @@ class OsintAgent:
                 ),
             },
         ]
-        submit_spec = build_submit_report_spec(scenario)
+        submit_spec = build_submit_report_spec(scenario, rag)
         decision = self.provider.complete(
             messages=messages,
             tools=[submit_spec],
             tool_choice={"type": "function", "function": {"name": "submit_report"}},
         )
         analysis = decision.tool_calls[0].arguments if decision.tool_calls else {}
+        if not rag:
+            analysis.pop("attack_mappings", None)
 
         return self._build_report(
             report.domain,
@@ -485,6 +601,7 @@ class OsintAgent:
         if not isinstance(recos, list):
             recos = [str(recos)]
         return OsintReport(
+            attack_mappings=_parse_attack_mappings(analysis.get("attack_mappings")),
             domain=domain,
             summary=str(analysis.get("summary", "")),
             risk_level=risk,

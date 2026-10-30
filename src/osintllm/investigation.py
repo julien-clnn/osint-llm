@@ -21,7 +21,7 @@ from .config import Settings, load_settings
 from .report import OsintReport
 from .scenarios import Scenario, default_scenario
 from .tools import DEFAULT_MODE
-from .verifier import Verification, VerifierAgent
+from .verifier import ATTACK_ID_RE, Verification, VerifierAgent, invented_attack_ids
 
 # Feedback added to the revision when the verifier detects an injection
 # without otherwise having a concrete correction to state (Phase 4.3
@@ -70,6 +70,48 @@ def _guard_risk(report: OsintReport, emit: EventCallback) -> OsintReport:
     )
 
 
+_REMOVED_ID = "[unverified ATT&CK ID removed]"
+
+
+def _strip_invented_attack_ids(
+    report: OsintReport, emit: EventCallback
+) -> tuple[OsintReport, list[str]]:
+    """Deterministic last line of defense: an ATT&CK ID that no
+    `attack_lookup` call returned never reaches the user, even when the
+    correction loop ran out of rounds. Its mapping is dropped and any
+    free-text mention is replaced by a visible marker."""
+    invented = invented_attack_ids(report)
+    if not invented:
+        return report, []
+    bad = set(invented)
+
+    def scrub(text: str) -> str:
+        return ATTACK_ID_RE.sub(
+            lambda m: _REMOVED_ID if m.group(0).upper() in bad else m.group(0), text
+        )
+
+    def mentions_bad(mapping: dict[str, str]) -> bool:
+        if mapping.get("technique_id", "").strip().upper() in bad:
+            return True
+        return any(
+            m.group(0).upper() in bad
+            for value in mapping.values()
+            for m in ATTACK_ID_RE.finditer(value)
+        )
+
+    emit(AgentEvent("info", {
+        "message": "Unverified ATT&CK ID(s) removed from the final report: "
+        + ", ".join(invented),
+    }))
+    return replace(
+        report,
+        summary=scrub(report.summary),
+        risk_justification=scrub(report.risk_justification),
+        recommendations=[scrub(r) for r in report.recommendations],
+        attack_mappings=[m for m in report.attack_mappings if not mentions_bad(m)],
+    ), invented
+
+
 def _verifier_settings(settings: Settings) -> Settings:
     """Settings of the verifier agent (optionally on another provider)."""
     other = settings.verifier_provider
@@ -96,6 +138,9 @@ class InvestigationResult:
     verified: bool = True
     corrected: bool = False
     correction_rounds: int = 0  # number of agent.revise_report() calls
+    # ATT&CK IDs still invented after the correction loop, removed by the
+    # deterministic last-line guard (see _strip_invented_attack_ids).
+    stripped_attack_ids: list[str] = field(default_factory=list)
     events: list[AgentEvent] = field(default_factory=list)
 
 
@@ -161,6 +206,8 @@ class Investigator:
             )
             correction_rounds += 1
 
+        current, stripped = _strip_invented_attack_ids(current, emit)
+
         final_verified = bool(verifications and verifications[-1].verified)
         corrected = current is not initial_report
 
@@ -176,5 +223,6 @@ class Investigator:
             verified=final_verified,
             corrected=corrected,
             correction_rounds=correction_rounds,
+            stripped_attack_ids=stripped,
             events=events,
         )

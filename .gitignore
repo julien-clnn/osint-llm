@@ -23,6 +23,10 @@ reports/
 # React frontend (Node)
 node_modules/
 web/dist/
+web/dist-demo/
+web/osintllm-demo.zip
+web/public-demo/demo-data/eval/
+web/public-demo/demo-data/settings.json
 
 # OS / editors
 .DS_Store
@@ -33,3 +37,6 @@ web/dist/
 # Disposable artifacts
 *.zip
 *.log
+
+# Local working briefs
+prompt_rag_attack.md

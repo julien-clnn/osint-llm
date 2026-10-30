@@ -47,6 +47,8 @@ class Tool:
         parameters: dict[str, Any],
         func: Callable[..., dict[str, Any]],
         passive: bool = True,
+        replayable: bool = True,
+        normalize: Callable[[dict[str, Any]], dict[str, Any]] | None = None,
     ) -> None:
         self.name = name
         self.description = description
@@ -55,6 +57,17 @@ class Tool:
         # `passive=False` marks a tool that contacts the target DIRECTLY:
         # it is only used in active reconnaissance mode (see tools/__init__).
         self.passive = passive
+        # `replayable=False` marks a tool whose result is computed locally
+        # and deterministically (e.g. `attack_lookup`, over the on-disk
+        # ATT&CK index): it bypasses fixtures and the disk cache. Its free-
+        # text argument is written by the LLM and differs from run to run,
+        # so a fixture keyed on the exact arguments would never match.
+        self.replayable = replayable
+        # Optional post-processing applied to EVERY result returned by run(),
+        # whatever its origin (live call, disk cache, replayed fixture). Must
+        # be idempotent: fixtures recorded before a format change are served
+        # as-is and only get the new format through this hook.
+        self._normalize = normalize
 
     def spec(self) -> dict[str, Any]:
         """Schema in the OpenAI/DeepSeek API `tools` format."""
@@ -81,7 +94,23 @@ class Tool:
         the external request). Errors are never cached (we want to retry a
         temporarily unavailable source). Exceptions are caught and returned
         as an error dict, so the agent loop can pass them to the model
-        without crashing."""
+        without crashing.
+
+        A tool with `replayable=False` skips all three: it always runs.
+
+        The optional `normalize` hook is applied to the result on every path."""
+        result = self._run_raw(**kwargs)
+        if self._normalize is not None and isinstance(result, dict) and "error" not in result:
+            result = self._normalize(result)
+        return result
+
+    def _run_raw(self, **kwargs: Any) -> dict[str, Any]:
+        if not self.replayable:
+            try:
+                return self._func(**kwargs)
+            except Exception as exc:  # noqa: BLE001 — same contract as below
+                return {"error": f"{type(exc).__name__}: {exc}"}
+
         if fixtures.replaying():
             return fixtures.load(self.name, kwargs)
 

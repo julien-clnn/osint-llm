@@ -25,13 +25,18 @@ room for.
 | `OSINTLLM_NO_CACHE`  | `0`                             | `1` to disable the cache      |
 | `OSINTLLM_CACHE_DIR` | `.cache`                        | disk cache directory          |
 | `OSINTLLM_CACHE_TTL` | `86400`                         | cache validity (seconds)      |
+| `OSINTLLM_ATTACK_RAG` | `1`                            | `0` disables the ATT&CK layer (`attack_lookup` + `attack_mappings`), see [RAG.md](RAG.md) |
+| `OSINTLLM_EMBED_MODEL` | `mistral-embed`               | embedding model of the ATT&CK retrieval (uses `MISTRAL_API_KEY` whatever the provider; without it, lexical retrieval only) |
+| `OSINTLLM_EMBED_CACHE_DIR` | `.cache/embeddings`       | disk cache of query embeddings |
+| `OSINTLLM_ATTACK_INDEX_DIR` | `data/attack`            | location of the ATT&CK index |
 
 > The site (**Analysis** and **Benchmark** screens) can force either provider
 > for a given request, without ever changing these variables on disk — see
 > [docs/ARCHITECTURE.md](ARCHITECTURE.md).
 
-Loop guardrails (in `config.py`): `max_iterations=8`,
-`request_timeout=30s`.
+Loop guardrails (in `config.py`): `max_iterations=8` (+2 when the ATT&CK
+layer is on, see [RAG.md](RAG.md)); the last step always forces
+`submit_report`; `request_timeout=30s`.
 
 ## Cache & rate limiting
 

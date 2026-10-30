@@ -11,6 +11,7 @@
 | `tech_fingerprint`      | the target (1 request)     | tech stack + **header hardening**             |
 | `github_search`         | api.github.com (Search)    | related repositories + exposed code (potential secrets) |
 | `virustotal_lookup`     | VirusTotal (API v3)        | **reputation** + passive DNS (associated IPs) |
+| `attack_lookup`         | local MITRE ATT&CK index   | **ATT&CK techniques** matching the findings (see [RAG.md](RAG.md)) |
 
 ## A closer look at the tools that broaden the reconnaissance
 

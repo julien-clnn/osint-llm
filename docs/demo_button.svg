@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="76" viewBox="0 0 380 76" role="img" aria-label="Try the demo in your browser">
+  <title>Try the demo in your browser</title>
+  <rect x="1" y="1" width="378" height="74" rx="14" fill="#10161f" stroke="#f5b544" stroke-width="2"/>
+  <circle cx="44" cy="38" r="20" fill="#f5b544"/>
+  <path d="M38 27.5 L53 38 L38 48.5 Z" fill="#10161f"/>
+  <text x="80" y="35" fill="#e8eef5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="21" font-weight="700">Try the demo</text>
+  <text x="80" y="55" fill="#8b98a7" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13">In your browser · no setup, no API key</text>
+</svg>

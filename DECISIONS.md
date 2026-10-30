@@ -3,6 +3,29 @@
 A record of the structural choices and the reasoning behind them, as of now.
 See also [CHANGELOG.md](CHANGELOG.md) for the release timeline.
 
+- **MITRE ATT&CK grounding through retrieval, with a hand-written hybrid
+  retriever.** Okapi BM25 (~40 lines) + dense `mistral-embed` vectors, fused
+  by reciprocal rank fusion; the index is plain files (`data/attack/`, JSON +
+  a numpy matrix) loaded in memory: ~1,800 chunks need neither a vector
+  database server nor a RAG framework. Hybrid because each method fails where
+  the other succeeds (measured in [docs/RAG.md](docs/RAG.md)). One new
+  dependency, **`numpy`** (embedding matrix + cosine similarity). Embeddings
+  come from Mistral whatever
+  the chat provider: DeepSeek exposes no embedding model.
+- **ATT&CK IDs are checked deterministically.** "Zero invented technique ID"
+  is enforced by code (regex over the report vs IDs returned by
+  `attack_lookup` during the run), which turns the target into a guarantee;
+  the LLM verifier only judges whether a justification fits the retrieved
+  text.
+- **The last step of the agent loop forces the report.** Measured with
+  `mistral-small`, which calls one tool per step: without it, a third of the
+  runs ended on the iteration cap with no report at all. The forced report
+  uses only the facts already collected and is marked `report_forced`, so
+  the eval still tells it apart from a spontaneous one.
+- **`attack_lookup` bypasses the replay fixtures.** Its argument is free
+  text written by the LLM and changes from run to run, so a fixture keyed on
+  exact arguments could never match; its result is already deterministic
+  (local index, cached query embeddings).
 - **Two separate agents (reconnaissance + verification), not a single LLM.**
   The verifier audits the report against facts archived on the Python side and
   has access to **no collection tool** — it cannot introduce new data, only

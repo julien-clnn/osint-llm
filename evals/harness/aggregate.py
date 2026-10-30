@@ -47,7 +47,10 @@ def render_markdown_summary(summary: dict[str, Any]) -> str:
     lines = [
         f"_Generated on {meta['generated_at']} · provider {meta['provider']}/{meta['model']} · "
         f"{meta['n_domains']} domains · {meta['n_repetitions']} repetitions per configuration"
-        f"{scenario_suffix}._",
+        f"{scenario_suffix}"
+        + (f" · ATT&CK layer {'on' if meta['attack_rag'] else 'off'}" if "attack_rag" in meta
+           else "")
+        + "._",
         "",
         "| Config | Runs (ok/attempted) | Completion | Hard halluc. | Subdomains (R/P) "
         "| Tool calls (total/redundant/missed) | Tokens/run | Latency/run (s) "
@@ -79,16 +82,36 @@ def render_markdown_summary(summary: dict[str, Any]) -> str:
             f"| {corrections_col} |"
         )
 
-    lines += ["", "### Verifier detection, by injected error family", ""]
-    lines += [
-        "| Family | Detection rate | False-positive rate (intact report) |",
-        "|---|---|---|",
-    ]
-    fp_rate = summary["verifier_detection"]["false_positive_rate"]
-    for fam, rate in summary["verifier_detection"]["by_family"].items():
-        lines.append(
-            f"| {fam} | {rate * 100:.0f}% | {fp_rate * 100:.0f}% (shared across all families) |"
-        )
+    attack_rows = [(n, c["attack"]) for n, c in summary["by_config"].items() if c.get("attack")]
+    if attack_rows:
+        lines += ["", "### MITRE ATT&CK layer", ""]
+        lines += [
+            "| Config | Runs with ≥1 mapping | Runs calling attack_lookup | Mappings/run "
+            "| Invented IDs: initial report (runs) | Removed by final guard | In final report |",
+            "|---|---|---|---|---|---|---|",
+        ]
+        for cfg_name, a in attack_rows:
+            lines.append(
+                f"| {cfg_name} | {a['share_runs_with_mapping'] * 100:.0f}% "
+                f"| {a['share_runs_calling_lookup'] * 100:.0f}% "
+                f"| {a['mappings_mean']:.2f} "
+                f"| {a['invented_ids_initial_total']} ({a['runs_with_invented_initial']}) "
+                f"| {a['invented_ids_stripped_total']} | {a['invented_ids_final_total']} |"
+            )
+
+    detection = summary.get("verifier_detection")
+    if detection:
+        lines += ["", "### Verifier detection, by injected error family", ""]
+        lines += [
+            "| Family | Detection rate | False-positive rate (intact report) |",
+            "|---|---|---|",
+        ]
+        fp_rate = detection["false_positive_rate"]
+        for fam, rate in detection["by_family"].items():
+            lines.append(
+                f"| {fam} | {rate * 100:.0f}% | {fp_rate * 100:.0f}% "
+                "(shared across all families) |"
+            )
 
     soft = summary.get("judge_soft")
     if soft:

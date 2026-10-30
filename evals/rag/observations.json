@@ -1,0 +1,265 @@
+{
+ "_about": "Findings extracted by deterministic rules from evals/fixtures (evals/rag/extract_observations.py) — no model wrote them. Labels are assigned separately by two independent labelers.",
+ "observations": [
+  {
+   "id": "obs-001",
+   "category": "email_auth",
+   "grounded_in": "0rder-ver1f2345.com",
+   "phrasings": {
+    "terse": "spf: none",
+    "analyst": "0rder-ver1f2345.com publishes no SPF record in its DNS TXT records.",
+    "agent": "domain without SPF record, any server can send mail as it"
+   }
+  },
+  {
+   "id": "obs-002",
+   "category": "email_auth",
+   "grounded_in": "0rder-ver1f2345.com",
+   "phrasings": {
+    "terse": "dmarc: none",
+    "analyst": "0rder-ver1f2345.com has no DMARC record (_dmarc TXT missing).",
+    "agent": "no DMARC policy published for the domain"
+   }
+  },
+  {
+   "id": "obs-003",
+   "category": "registration",
+   "grounded_in": "0rder-ver1f2345.com",
+   "phrasings": {
+    "terse": "whois: created 212 days ago, registrar NICENIC INTERNATIONAL GROUP CO., LIMITED, registrant country IS, no registrant org",
+    "analyst": "0rder-ver1f2345.com was registered only 212 days before the analysis, through NICENIC INTERNATIONAL GROUP CO., LIMITED, with no registrant organization disclosed.",
+    "agent": "newly registered domain (212 days old) with hidden registrant"
+   }
+  },
+  {
+   "id": "obs-004",
+   "category": "registration",
+   "grounded_in": "0rder-ver1f2345.com",
+   "phrasings": {
+    "terse": "name: 0rder-ver1f2345 (digits in place of letters)",
+    "analyst": "The domain name 0rder-ver1f2345.com imitates ordinary words by replacing letters with look-alike digits.",
+    "agent": "look-alike domain name 0rder-ver1f2345.com using digits instead of letters"
+   }
+  },
+  {
+   "id": "obs-005",
+   "category": "reputation",
+   "grounded_in": "0rder-ver1f2345.com",
+   "phrasings": {
+    "terse": "virustotal: 11/89 engines malicious",
+    "analyst": "On VirusTotal, 11 of 89 security engines flag 0rder-ver1f2345.com as malicious.",
+    "agent": "domain flagged malicious by 11 VirusTotal engines"
+   }
+  },
+  {
+   "id": "obs-006",
+   "category": "reputation",
+   "grounded_in": "0rder-ver1f2345.com",
+   "phrasings": {
+    "terse": "github: listed in blocklists (AdguardTeam/HostlistsRegistry, phishdestroy/nicenic-evidence, pointaction/adguard-lists)",
+    "analyst": "0rder-ver1f2345.com appears in public malicious-URL blocklists hosted on GitHub (AdguardTeam/HostlistsRegistry, phishdestroy/nicenic-evidence, pointaction/adguard-lists).",
+    "agent": "domain present in public malicious URL blocklists"
+   }
+  },
+  {
+   "id": "obs-007",
+   "category": "infrastructure",
+   "grounded_in": "0rder-ver1f2345.com",
+   "phrasings": {
+    "terse": "dns: no MX/TXT records, NS alexis.ns.cloudflare.com, fiona.ns.cloudflare.com",
+    "analyst": "0rder-ver1f2345.com resolves through alexis.ns.cloudflare.com, fiona.ns.cloudflare.com but publishes no MX or TXT record.",
+    "agent": "domain behind alexis.ns.cloudflare.com, fiona.ns.cloudflare.com with no mail or TXT records"
+   }
+  },
+  {
+   "id": "obs-008",
+   "category": "infrastructure",
+   "grounded_in": "0rder-ver1f2345.com",
+   "phrasings": {
+    "terse": "dnssec: unsigned",
+    "analyst": "The DNS zone of 0rder-ver1f2345.com is not signed with DNSSEC.",
+    "agent": "DNS zone without DNSSEC signatures"
+   }
+  },
+  {
+   "id": "obs-009",
+   "category": "email_auth",
+   "grounded_in": "abrush.ai",
+   "phrasings": {
+    "terse": "spf: ~all (not -all)",
+    "analyst": "The SPF record of abrush.ai ends with ~all instead of -all, so unauthorized senders are not rejected.",
+    "agent": "SPF record ending with ~all, unauthorized senders not rejected"
+   }
+  },
+  {
+   "id": "obs-010",
+   "category": "email_auth",
+   "grounded_in": "abrush.ai",
+   "phrasings": {
+    "terse": "dmarc: p=none",
+    "analyst": "The DMARC policy of abrush.ai is p=none: failing messages are only reported, never quarantined or rejected.",
+    "agent": "DMARC p=none monitoring only, mail failing authentication still delivered"
+   }
+  },
+  {
+   "id": "obs-011",
+   "category": "registration",
+   "grounded_in": "abrush.ai",
+   "phrasings": {
+    "terse": "whois: created 290 days ago, registrar Internet Invest, Ltd. dba Imena.ua, registrant country undisclosed, no registrant org",
+    "analyst": "abrush.ai was registered only 290 days before the analysis, through Internet Invest, Ltd. dba Imena.ua, with no registrant organization disclosed.",
+    "agent": "newly registered domain (290 days old) with hidden registrant"
+   }
+  },
+  {
+   "id": "obs-012",
+   "category": "registration",
+   "grounded_in": "aspenriver6.com",
+   "phrasings": {
+    "terse": "whois: created 25 days ago, registrar Dominet (HK) Limited, registrant country HK, no registrant org",
+    "analyst": "aspenriver6.com was registered only 25 days before the analysis, through Dominet (HK) Limited, with no registrant organization disclosed.",
+    "agent": "newly registered domain (25 days old) with hidden registrant"
+   }
+  },
+  {
+   "id": "obs-013",
+   "category": "reputation",
+   "grounded_in": "aspenriver6.com",
+   "phrasings": {
+    "terse": "virustotal: 14/89 engines malicious",
+    "analyst": "On VirusTotal, 14 of 89 security engines flag aspenriver6.com as malicious.",
+    "agent": "domain flagged malicious by 14 VirusTotal engines"
+   }
+  },
+  {
+   "id": "obs-014",
+   "category": "reputation",
+   "grounded_in": "aspenriver6.com",
+   "phrasings": {
+    "terse": "github: listed in blocklists (AdguardTeam/HostlistsRegistry, DarkKnightYHJ/AdGuardHomeList, IgorKha/mikrotik-adlist)",
+    "analyst": "aspenriver6.com appears in public malicious-URL blocklists hosted on GitHub (AdguardTeam/HostlistsRegistry, DarkKnightYHJ/AdGuardHomeList, IgorKha/mikrotik-adlist).",
+    "agent": "domain present in public malicious URL blocklists"
+   }
+  },
+  {
+   "id": "obs-015",
+   "category": "infrastructure",
+   "grounded_in": "aspenriver6.com",
+   "phrasings": {
+    "terse": "dns: no MX/TXT records, NS aria.ns.cloudflare.com, nero.ns.cloudflare.com",
+    "analyst": "aspenriver6.com resolves through aria.ns.cloudflare.com, nero.ns.cloudflare.com but publishes no MX or TXT record.",
+    "agent": "domain behind aria.ns.cloudflare.com, nero.ns.cloudflare.com with no mail or TXT records"
+   }
+  },
+  {
+   "id": "obs-016",
+   "category": "subdomains",
+   "grounded_in": "cloudflare.com",
+   "phrasings": {
+    "terse": "crt.sh: 3423 subdomains",
+    "analyst": "Certificate Transparency logs list 3423 distinct subdomains of cloudflare.com, a very large externally visible host inventory.",
+    "agent": "3423 subdomains enumerated from certificate logs"
+   }
+  },
+  {
+   "id": "obs-017",
+   "category": "http_fingerprint",
+   "grounded_in": "craigslist.org",
+   "phrasings": {
+    "terse": "headers missing: X-Content-Type-Options, Referrer-Policy, Permissions-Policy",
+    "analyst": "The home page of craigslist.org is served without the X-Content-Type-Options, Referrer-Policy, Permissions-Policy security headers.",
+    "agent": "web server missing security headers X-Content-Type-Options, Referrer-Policy, Permissions-Policy"
+   }
+  },
+  {
+   "id": "obs-018",
+   "category": "subdomains",
+   "grounded_in": "discord.com",
+   "phrasings": {
+    "terse": "crt.sh: 1 non-production subdomains (support-dev.discord.com)",
+    "analyst": "Certificate Transparency logs for discord.com reveal non-production or administrative hostnames such as support-dev.discord.com.",
+    "agent": "certificate transparency exposes dev/admin subdomains like support-dev.discord.com"
+   }
+  },
+  {
+   "id": "obs-019",
+   "category": "subdomains",
+   "grounded_in": "github.com",
+   "phrasings": {
+    "terse": "crt.sh: 12 non-production subdomains (codespaces-dev.github.com, dev-days.github.com, dev.gtm.github.com, examadmin-uat.github.com)",
+    "analyst": "Certificate Transparency logs for github.com reveal non-production or administrative hostnames such as codespaces-dev.github.com, dev-days.github.com, dev.gtm.github.com, examadmin-uat.github.com.",
+    "agent": "certificate transparency exposes dev/admin subdomains like codespaces-dev.github.com, dev-days.github.com, dev.gtm.github.com, examadmin-uat.github.com"
+   }
+  },
+  {
+   "id": "obs-020",
+   "category": "subdomains",
+   "grounded_in": "lemonde.fr",
+   "phrasings": {
+    "terse": "crt.sh: 8 non-production subdomains (aboadmin.lemonde.fr, dev.carnet.lemonde.fr, dev.cities.lemonde.fr, dev.debats-afrique.lemonde.fr)",
+    "analyst": "Certificate Transparency logs for lemonde.fr reveal non-production or administrative hostnames such as aboadmin.lemonde.fr, dev.carnet.lemonde.fr, dev.cities.lemonde.fr, dev.debats-afrique.lemonde.fr.",
+    "agent": "certificate transparency exposes dev/admin subdomains like aboadmin.lemonde.fr, dev.carnet.lemonde.fr, dev.cities.lemonde.fr, dev.debats-afrique.lemonde.fr"
+   }
+  },
+  {
+   "id": "obs-021",
+   "category": "subdomains",
+   "grounded_in": "microsoft.com",
+   "phrasings": {
+    "terse": "crt.sh: 3698 subdomains",
+    "analyst": "Certificate Transparency logs list 3698 distinct subdomains of microsoft.com, a very large externally visible host inventory.",
+    "agent": "3698 subdomains enumerated from certificate logs"
+   }
+  },
+  {
+   "id": "obs-022",
+   "category": "subdomains",
+   "grounded_in": "pets.com",
+   "phrasings": {
+    "terse": "crt.sh: 2 non-production subdomains (test.pets--pets.com, www.test.pets--pets.com)",
+    "analyst": "Certificate Transparency logs for pets.com reveal non-production or administrative hostnames such as test.pets--pets.com, www.test.pets--pets.com.",
+    "agent": "certificate transparency exposes dev/admin subdomains like test.pets--pets.com, www.test.pets--pets.com"
+   }
+  },
+  {
+   "id": "obs-023",
+   "category": "wayback",
+   "grounded_in": "pets.com",
+   "phrasings": {
+    "terse": "wayback: archived /admin, /login",
+    "analyst": "The Wayback Machine has archived sensitive paths on pets.com: /admin, /login.",
+    "agent": "archived admin/login pages /admin, /login in Wayback history"
+   }
+  },
+  {
+   "id": "obs-024",
+   "category": "http_fingerprint",
+   "grounded_in": "qapilot.com",
+   "phrasings": {
+    "terse": "headers missing: CSP, X-Frame-Options, X-Content-Type-Options, Referrer-Policy, Permissions-Policy",
+    "analyst": "The home page of qapilot.com is served without the CSP, X-Frame-Options, X-Content-Type-Options, Referrer-Policy, Permissions-Policy security headers.",
+    "agent": "web server missing security headers CSP, X-Frame-Options, X-Content-Type-Options, Referrer-Policy, Permissions-Policy"
+   }
+  },
+  {
+   "id": "obs-025",
+   "category": "subdomains",
+   "grounded_in": "sourceforge.net",
+   "phrasings": {
+    "terse": "crt.sh: 4 non-production subdomains (git.code.sourceforge.net, git.sourceforge.net, userweb-dev.sourceforge.net, vpn.ch3.sourceforge.net)",
+    "analyst": "Certificate Transparency logs for sourceforge.net reveal non-production or administrative hostnames such as git.code.sourceforge.net, git.sourceforge.net, userweb-dev.sourceforge.net, vpn.ch3.sourceforge.net.",
+    "agent": "certificate transparency exposes dev/admin subdomains like git.code.sourceforge.net, git.sourceforge.net, userweb-dev.sourceforge.net, vpn.ch3.sourceforge.net"
+   }
+  },
+  {
+   "id": "obs-026",
+   "category": "wayback",
+   "grounded_in": "sourceforge.net",
+   "phrasings": {
+    "terse": "wayback: archived /.git",
+    "analyst": "The Wayback Machine has archived sensitive paths on sourceforge.net: /.git.",
+    "agent": "archived admin/login pages /.git in Wayback history"
+   }
+  }
+ ]
+}

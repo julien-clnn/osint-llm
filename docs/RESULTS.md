@@ -12,6 +12,39 @@
 > reflect that (current values are `low`/`medium`/`high`/`undetermined`;
 > the legacy French values are still accepted when reading archived results).
 
+## MITRE ATT&CK retrieval (2026-10-29)
+
+> Method, per-category breakdown and limitations: [docs/RAG.md](RAG.md).
+> Raw results: [`evals/rag/results/`](../evals/rag/results/), replayable
+> offline with `make eval-rag`.
+
+ATT&CK v20.0 (706 techniques), 21 real findings extracted from the eval
+fixtures, 3 phrasings each = 63 queries per mode, gold labels = agreement of
+two independent labelers (`deepseek-v4-pro` and an independent Claude agent;
+80.8% top-1 agreement).
+
+| Mode | Recall@1 | Recall@5 | Hit@5 | MRR |
+|---|---|---|---|---|
+| BM25 only | 0.079 | 0.222 | 0.317 | 0.240 |
+| Dense only (`mistral-embed`) | **0.302** | 0.413 | 0.508 | **0.446** |
+| Hybrid (RRF) | 0.175 | **0.508** | **0.603** | 0.393 |
+
+Hybrid is the default: the agent receives a top 5, so Recall@5 / Hit@5 are
+the decisive metrics. Dense alone ranks better at position 1. Weak spots:
+archived sensitive paths (0/6 in hybrid) and reputation findings (5/12).
+Small, concentrated set (two techniques make up 15 of the 25 gold IDs).
+
+**Agent level** (`mistral-small-2603`, 15 domains × 3, with verifier):
+`attack_lookup` called in 100% of runs, ≥ 1 ATT&CK mapping in 95.3%,
+**0 invented technique ID in 43 final reports** (2 introduced by verifier
+revisions, removed by the deterministic guard), +54% tokens and +89%
+latency per run vs the layer-off baseline. Hard hallucination rose
+(0.022 → 0.082), traced to a tool-mix shift and pre-existing VirusTotal
+timestamp conversions, not to ATT&CK content. With the VirusTotal date fix
+and a lighter lookup payload (2026-10-30): 0.021 → 0.023, overhead +41%
+tokens and +55% latency, 0 invented ID in 45 final reports. Full tables and
+diagnosis: [docs/RAG.md](RAG.md#agent-level-evaluation).
+
 ## DeepSeek vs Mistral comparison (15 domains, 2026-09-15)
 
 15 domains from the full eval set, 3 repetitions per configuration,

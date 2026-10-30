@@ -7,6 +7,7 @@ const TOOL_LABELS = {
   ip_geolocate: "IP geolocation",
   asn_lookup: "ASN / IP ranges",
   github_search: "GitHub",
+  attack_lookup: "MITRE ATT&CK",
   submit_report: "Report",
 };
 

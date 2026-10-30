@@ -940,6 +940,19 @@ details.initial[open] summary::before {
   padding: 2px 8px;
   border-radius: 6px;
 }
+/* ATT&CK mapping (reuses the ASN card layout) */
+.attack-card a.asn-num {
+  text-decoration: none;
+}
+.attack-finding {
+  margin: 10px 0 0;
+  color: var(--ink);
+}
+.attack-why {
+  margin: 6px 0 0;
+  color: var(--muted);
+  font-size: 14px;
+}
 .asn-meta {
   font-family: var(--font-mono);
   font-size: 12px;
@@ -1744,4 +1757,38 @@ details.initial[open] summary::before {
   line-height: 1.5;
   pointer-events: none;
   transform: translate(-50%, calc(-100% - 10px));
+}
+
+/* Demo build (VITE_DEMO=1): replay notice and recorded-domain picker. */
+.demo-banner {
+  margin: clamp(26px, 4vw, 38px) 0 0;
+  padding: 12px 16px;
+  border-radius: 11px;
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--amber);
+  background: var(--surface);
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.5;
+}
+.screen-header + .demo-banner {
+  margin: 0 0 clamp(22px, 4vw, 30px);
+}
+.demo-banner strong {
+  color: var(--ink);
+}
+.field .demo-select {
+  flex: 1;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  color: var(--ink);
+  font-family: var(--font-mono);
+  font-size: 15px;
+  padding: 14px 0;
+  cursor: pointer;
+}
+.field .demo-select option {
+  background: var(--surface);
+  color: var(--ink);
 }

@@ -1,4 +1,4 @@
-.PHONY: install web-install run api web build serve test clean help
+.PHONY: install web-install run api web build serve demo demo-record test clean help attack-index eval-rag eval-rag-agent
 
 VENV := .venv
 PY := $(VENV)/bin/python
@@ -31,6 +31,15 @@ build:  ## Build the React frontend into web/dist (then served by the API)
 serve: build  ## Build the frontend, then serve everything (frontend + API) on port 8000
 	$(VENV)/bin/uvicorn api:app --port 8000
 
+demo:  ## Build the backend-less demo (replayed recordings) into web/dist-demo + web/osintllm-demo.zip
+	$(PY) scripts/demo_data.py export
+	cd $(WEB) && npm run build:demo
+	cd $(WEB)/dist-demo && rm -f ../osintllm-demo.zip && zip -qr ../osintllm-demo.zip .
+	@echo "→ Upload the content of web/dist-demo/ (or web/osintllm-demo.zip) to any static host."
+
+demo-record:  ## Record real analyses for the demo (LLM quota):  make demo-record TARGETS="wikipedia.org mozilla.org:email_security_posture"
+	$(PY) scripts/demo_data.py record $(TARGETS)
+
 test:  ## Run the test suite
 	$(PY) -m pytest
 
@@ -45,6 +54,16 @@ eval-scenario:  ## Eval of one scenario: make eval-scenario SCENARIO=phishing_tr
 
 eval-adversarial:  ## Adversarial suite (prompt injection): evals/adversarial/results/
 	$(PY) evals/run_adversarial.py
+
+attack-index:  ## Rebuild the MITRE ATT&CK index (data/attack/, needs MISTRAL_API_KEY)
+	$(PY) scripts/build_attack_index.py
+
+eval-rag:  ## ATT&CK retrieval eval, offline replay of the committed embeddings: evals/rag/results/
+	$(PY) evals/rag/run_retrieval_eval.py --offline
+
+eval-rag-agent:  ## Agent-level ATT&CK eval, layer off then on (REAL LLM calls): make eval-rag-agent [DOMAINS="..."] [REPETITIONS=3]
+	$(PY) evals/run_eval.py --attack-rag off --no-judge --no-detection --repetitions $(or $(REPETITIONS),3) $(if $(DOMAINS),--domains $(DOMAINS),)
+	$(PY) evals/run_eval.py --attack-rag on --no-judge --no-detection --repetitions $(or $(REPETITIONS),3) $(if $(DOMAINS),--domains $(DOMAINS),)
 
 clean:  ## Remove caches, reports and temporary files
 	rm -rf .cache reports .pytest_cache

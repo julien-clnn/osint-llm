@@ -1,0 +1,4449 @@
+{
+ "meta": {
+  "run_at": "2026-10-29 00:04",
+  "attack_version": "20.0",
+  "embedding_model": "mistral-embed",
+  "observations": 21,
+  "excluded_observations": 5,
+  "queries_per_mode": 63,
+  "embedding_cache": {
+   "hits": 64,
+   "misses": 62
+  },
+  "embedding_prompt_tokens": 1859,
+  "labeler_agreement": {
+   "observations": 26,
+   "exact": {
+    "top1_agreement": 0.808,
+    "overlap_rate": 0.808,
+    "mean_jaccard": 0.516
+   },
+   "parent_level": {
+    "top1_agreement": 0.846,
+    "overlap_rate": 0.846,
+    "mean_jaccard": 0.631
+   }
+  }
+ },
+ "summary": {
+  "bm25": {
+   "strict": {
+    "mrr": 0.24,
+    "recall@1": 0.079,
+    "hit@1": 0.159,
+    "recall@5": 0.222,
+    "hit@5": 0.317
+   },
+   "parent": {
+    "mrr": 0.291,
+    "recall@1": 0.079,
+    "hit@1": 0.159,
+    "recall@5": 0.381,
+    "hit@5": 0.476
+   },
+   "stability": {
+    "same_top1_across_phrasings": 0.19,
+    "mean_top5_jaccard": 0.144
+   },
+   "by_phrasing_strict_hit@5": {
+    "terse": 0.19,
+    "analyst": 0.429,
+    "agent": 0.333
+   }
+  },
+  "dense": {
+   "strict": {
+    "mrr": 0.446,
+    "recall@1": 0.302,
+    "hit@1": 0.397,
+    "recall@5": 0.413,
+    "hit@5": 0.508
+   },
+   "parent": {
+    "mrr": 0.493,
+    "recall@1": 0.302,
+    "hit@1": 0.397,
+    "recall@5": 0.563,
+    "hit@5": 0.651
+   },
+   "stability": {
+    "same_top1_across_phrasings": 0.381,
+    "mean_top5_jaccard": 0.302
+   },
+   "by_phrasing_strict_hit@5": {
+    "terse": 0.333,
+    "analyst": 0.524,
+    "agent": 0.667
+   }
+  },
+  "hybrid": {
+   "strict": {
+    "mrr": 0.393,
+    "recall@1": 0.175,
+    "hit@1": 0.27,
+    "recall@5": 0.508,
+    "hit@5": 0.603
+   },
+   "parent": {
+    "mrr": 0.427,
+    "recall@1": 0.175,
+    "hit@1": 0.27,
+    "recall@5": 0.595,
+    "hit@5": 0.683
+   },
+   "stability": {
+    "same_top1_across_phrasings": 0.19,
+    "mean_top5_jaccard": 0.225
+   },
+   "by_phrasing_strict_hit@5": {
+    "terse": 0.333,
+    "analyst": 0.571,
+    "agent": 0.905
+   }
+  }
+ },
+ "per_query": [
+  {
+   "id": "obs-001",
+   "category": "email_auth",
+   "phrasing": "terse",
+   "mode": "bm25",
+   "query": "spf: none",
+   "relevant": [
+    "T1684.002",
+    "T1566"
+   ],
+   "retrieved": [
+    "T1684.002",
+    "T1590.002"
+   ],
+   "seconds": 0.0027
+  },
+  {
+   "id": "obs-001",
+   "category": "email_auth",
+   "phrasing": "terse",
+   "mode": "dense",
+   "query": "spf: none",
+   "relevant": [
+    "T1684.002",
+    "T1566"
+   ],
+   "retrieved": [
+    "T1684.002",
+    "T1598.003",
+    "T1608.005",
+    "T1566.002",
+    "T1090.004",
+    "T1110.001",
+    "T1216.001",
+    "T1036.012",
+    "T1027.006",
+    "T1137.004"
+   ],
+   "seconds": 1.169
+  },
+  {
+   "id": "obs-001",
+   "category": "email_auth",
+   "phrasing": "terse",
+   "mode": "hybrid",
+   "query": "spf: none",
+   "relevant": [
+    "T1684.002",
+    "T1566"
+   ],
+   "retrieved": [
+    "T1684.002",
+    "T1590.002",
+    "T1598.003",
+    "T1608.005",
+    "T1566.002",
+    "T1090.004",
+    "T1110.001",
+    "T1216.001",
+    "T1036.012",
+    "T1027.006"
+   ],
+   "seconds": 0.0034
+  },
+  {
+   "id": "obs-001",
+   "category": "email_auth",
+   "phrasing": "analyst",
+   "mode": "bm25",
+   "query": "0rder-ver1f2345.com publishes no SPF record in its DNS TXT records.",
+   "relevant": [
+    "T1684.002",
+    "T1566"
+   ],
+   "retrieved": [
+    "T1071.004",
+    "T1590.002",
+    "T1684.002",
+    "T1568.001",
+    "T1596.001",
+    "T1584.002",
+    "T1584.001",
+    "T1583.002",
+    "T1216.001",
+    "T1568.003"
+   ],
+   "seconds": 0.0039
+  },
+  {
+   "id": "obs-001",
+   "category": "email_auth",
+   "phrasing": "analyst",
+   "mode": "dense",
+   "query": "0rder-ver1f2345.com publishes no SPF record in its DNS TXT records.",
+   "relevant": [
+    "T1684.002",
+    "T1566"
+   ],
+   "retrieved": [
+    "T1684.002",
+    "T1584.002",
+    "T1590.002",
+    "T1583.001",
+    "T1568.001",
+    "T1583.002",
+    "T1598.003",
+    "T1553.003",
+    "T1090.004",
+    "T1584.001"
+   ],
+   "seconds": 0.2223
+  },
+  {
+   "id": "obs-001",
+   "category": "email_auth",
+   "phrasing": "analyst",
+   "mode": "hybrid",
+   "query": "0rder-ver1f2345.com publishes no SPF record in its DNS TXT records.",
+   "relevant": [
+    "T1684.002",
+    "T1566"
+   ],
+   "retrieved": [
+    "T1684.002",
+    "T1590.002",
+    "T1584.002",
+    "T1568.001",
+    "T1583.002",
+    "T1071.004",
+    "T1596.001",
+    "T1568.003",
+    "T1584.001",
+    "T1216.001"
+   ],
+   "seconds": 0.0045
+  },
+  {
+   "id": "obs-001",
+   "category": "email_auth",
+   "phrasing": "agent",
+   "mode": "bm25",
+   "query": "domain without SPF record, any server can send mail as it",
+   "relevant": [
+    "T1684.002",
+    "T1566"
+   ],
+   "retrieved": [
+    "T1684.002",
+    "T1558.004",
+    "T1568.001",
+    "T1207",
+    "T1484.002",
+    "T1071.003",
+    "T1114.003",
+    "T1556.001",
+    "T1584.001",
+    "T1484"
+   ],
+   "seconds": 0.0036
+  },
+  {
+   "id": "obs-001",
+   "category": "email_auth",
+   "phrasing": "agent",
+   "mode": "dense",
+   "query": "domain without SPF record, any server can send mail as it",
+   "relevant": [
+    "T1684.002",
+    "T1566"
+   ],
+   "retrieved": [
+    "T1684.002",
+    "T1583.001",
+    "T1090.004",
+    "T1584.001",
+    "T1648",
+    "T1496.004",
+    "T1484",
+    "T1584.002",
+    "T1558.004",
+    "T1568.002"
+   ],
+   "seconds": 0.3053
+  },
+  {
+   "id": "obs-001",
+   "category": "email_auth",
+   "phrasing": "agent",
+   "mode": "hybrid",
+   "query": "domain without SPF record, any server can send mail as it",
+   "relevant": [
+    "T1684.002",
+    "T1566"
+   ],
+   "retrieved": [
+    "T1684.002",
+    "T1558.004",
+    "T1207",
+    "T1584.001",
+    "T1484",
+    "T1071.003",
+    "T1584.002",
+    "T1556.001",
+    "T1583.001",
+    "T1568.001"
+   ],
+   "seconds": 0.005
+  },
+  {
+   "id": "obs-002",
+   "category": "email_auth",
+   "phrasing": "terse",
+   "mode": "bm25",
+   "query": "dmarc: none",
+   "relevant": [
+    "T1684.002",
+    "T1566"
+   ],
+   "retrieved": [
+    "T1684.002"
+   ],
+   "seconds": 0.0012
+  },
+  {
+   "id": "obs-002",
+   "category": "email_auth",
+   "phrasing": "terse",
+   "mode": "dense",
+   "query": "dmarc: none",
+   "relevant": [
+    "T1684.002",
+    "T1566"
+   ],
+   "retrieved": [
+    "T1684.002",
+    "T1137.005",
+    "T1071.003",
+    "T1564.008",
+    "T1070.008",
+    "T1137.004",
+    "T1568.002",
+    "T1213.005",
+    "T1114.003",
+    "T1213.004"
+   ],
+   "seconds": 0.2307
+  },
+  {
+   "id": "obs-002",
+   "category": "email_auth",
+   "phrasing": "terse",
+   "mode": "hybrid",
+   "query": "dmarc: none",
+   "relevant": [
+    "T1684.002",
+    "T1566"
+   ],
+   "retrieved": [
+    "T1684.002",
+    "T1137.005",
+    "T1071.003",
+    "T1564.008",
+    "T1070.008",
+    "T1137.004",
+    "T1568.002",
+    "T1213.005",
+    "T1114.003",
+    "T1213.004"
+   ],
+   "seconds": 0.0024
+  },
+  {
+   "id": "obs-002",
+   "category": "email_auth",
+   "phrasing": "analyst",
+   "mode": "bm25",
+   "query": "0rder-ver1f2345.com has no DMARC record (_dmarc TXT missing).",
+   "relevant": [
+    "T1684.002",
+    "T1566"
+   ],
+   "retrieved": [
+    "T1684.002",
+    "T1568.001",
+    "T1574.004",
+    "T1070.005",
+    "T1071.004",
+    "T1542.003",
+    "T1036.008",
+    "T1564.005",
+    "T1574.001",
+    "T1560.003"
+   ],
+   "seconds": 0.0022
+  },
+  {
+   "id": "obs-002",
+   "category": "email_auth",
+   "phrasing": "analyst",
+   "mode": "dense",
+   "query": "0rder-ver1f2345.com has no DMARC record (_dmarc TXT missing).",
+   "relevant": [
+    "T1684.002",
+    "T1566"
+   ],
+   "retrieved": [
+    "T1684.002",
+    "T1213.004",
+    "T1583.001",
+    "T1584.002",
+    "T1114.003",
+    "T1584.001",
+    "T1598.003",
+    "T1589.002",
+    "T1564.008",
+    "T1484.002"
+   ],
+   "seconds": 0.2011
+  },
+  {
+   "id": "obs-002",
+   "category": "email_auth",
+   "phrasing": "analyst",
+   "mode": "hybrid",
+   "query": "0rder-ver1f2345.com has no DMARC record (_dmarc TXT missing).",
+   "relevant": [
+    "T1684.002",
+    "T1566"
+   ],
+   "retrieved": [
+    "T1684.002",
+    "T1568.001",
+    "T1590.002",
+    "T1102.003",
+    "T1114.003",
+    "T1213.004",
+    "T1574.004",
+    "T1583.001",
+    "T1070.005",
+    "T1584.002"
+   ],
+   "seconds": 0.0031
+  },
+  {
+   "id": "obs-002",
+   "category": "email_auth",
+   "phrasing": "agent",
+   "mode": "bm25",
+   "query": "no DMARC policy published for the domain",
+   "relevant": [
+    "T1684.002",
+    "T1566"
+   ],
+   "retrieved": [
+    "T1684.002",
+    "T1615",
+    "T1484",
+    "T1484.001",
+    "T1484.002",
+    "T1552.006",
+    "T1201",
+    "T1556.005",
+    "T1547.008",
+    "T1685.001"
+   ],
+   "seconds": 0.0023
+  },
+  {
+   "id": "obs-002",
+   "category": "email_auth",
+   "phrasing": "agent",
+   "mode": "dense",
+   "query": "no DMARC policy published for the domain",
+   "relevant": [
+    "T1684.002",
+    "T1566"
+   ],
+   "retrieved": [
+    "T1684.002",
+    "T1583.001",
+    "T1484",
+    "T1584.001",
+    "T1568.002",
+    "T1484.002",
+    "T1484.001",
+    "T1589.002",
+    "T1078.002",
+    "T1584.002"
+   ],
+   "seconds": 0.2082
+  },
+  {
+   "id": "obs-002",
+   "category": "email_auth",
+   "phrasing": "agent",
+   "mode": "hybrid",
+   "query": "no DMARC policy published for the domain",
+   "relevant": [
+    "T1684.002",
+    "T1566"
+   ],
+   "retrieved": [
+    "T1684.002",
+    "T1484",
+    "T1484.002",
+    "T1484.001",
+    "T1583.001",
+    "T1584.001",
+    "T1078.002",
+    "T1568.002",
+    "T1590.001",
+    "T1552.006"
+   ],
+   "seconds": 0.0035
+  },
+  {
+   "id": "obs-003",
+   "category": "registration",
+   "phrasing": "terse",
+   "mode": "bm25",
+   "query": "whois: created 212 days ago, registrar NICENIC INTERNATIONAL GROUP CO., LIMITED, registrant country IS, no registrant org",
+   "relevant": [
+    "T1583.001"
+   ],
+   "retrieved": [
+    "T1596.002",
+    "T1591",
+    "T1591.003",
+    "T1591.002",
+    "T1591.004",
+    "T1591.001",
+    "T1590.001",
+    "T1615",
+    "T1078.001",
+    "T1059.005"
+   ],
+   "seconds": 0.0037
+  },
+  {
+   "id": "obs-003",
+   "category": "registration",
+   "phrasing": "terse",
+   "mode": "dense",
+   "query": "whois: created 212 days ago, registrar NICENIC INTERNATIONAL GROUP CO., LIMITED, registrant country IS, no registrant org",
+   "relevant": [
+    "T1583.001"
+   ],
+   "retrieved": [
+    "T1596.002",
+    "T1583.001",
+    "T1553.003",
+    "T1583.002",
+    "T1557.001",
+    "T1590.002",
+    "T1584.001",
+    "T1505.004",
+    "T1583.005",
+    "T1136.002"
+   ],
+   "seconds": 0.2182
+  },
+  {
+   "id": "obs-003",
+   "category": "registration",
+   "phrasing": "terse",
+   "mode": "hybrid",
+   "query": "whois: created 212 days ago, registrar NICENIC INTERNATIONAL GROUP CO., LIMITED, registrant country IS, no registrant org",
+   "relevant": [
+    "T1583.001"
+   ],
+   "retrieved": [
+    "T1596.002",
+    "T1583.001",
+    "T1591.003",
+    "T1584.001",
+    "T1583",
+    "T1197",
+    "T1136",
+    "T1590.001",
+    "T1585.002",
+    "T1199"
+   ],
+   "seconds": 0.0045
+  },
+  {
+   "id": "obs-003",
+   "category": "registration",
+   "phrasing": "analyst",
+   "mode": "bm25",
+   "query": "0rder-ver1f2345.com was registered only 212 days before the analysis, through NICENIC INTERNATIONAL GROUP CO., LIMITED, with no registrant organization disclosed.",
+   "relevant": [
+    "T1583.001"
+   ],
+   "retrieved": [
+    "T1666",
+    "T1080",
+    "T1003.008",
+    "T1218.010",
+    "T1688",
+    "T1078.001",
+    "T1497",
+    "T1480",
+    "T1127.002",
+    "T1591.003"
+   ],
+   "seconds": 0.0046
+  },
+  {
+   "id": "obs-003",
+   "category": "registration",
+   "phrasing": "analyst",
+   "mode": "dense",
+   "query": "0rder-ver1f2345.com was registered only 212 days before the analysis, through NICENIC INTERNATIONAL GROUP CO., LIMITED, with no registrant organization disclosed.",
+   "relevant": [
+    "T1583.001"
+   ],
+   "retrieved": [
+    "T1583.001",
+    "T1591.003",
+    "T1596.002",
+    "T1594",
+    "T1584.001",
+    "T1584.002",
+    "T1583.005",
+    "T1593",
+    "T1596.004",
+    "T1568.001"
+   ],
+   "seconds": 0.1879
+  },
+  {
+   "id": "obs-003",
+   "category": "registration",
+   "phrasing": "analyst",
+   "mode": "hybrid",
+   "query": "0rder-ver1f2345.com was registered only 212 days before the analysis, through NICENIC INTERNATIONAL GROUP CO., LIMITED, with no registrant organization disclosed.",
+   "relevant": [
+    "T1583.001"
+   ],
+   "retrieved": [
+    "T1591.003",
+    "T1027.004",
+    "T1218.010",
+    "T1584.001",
+    "T1596.002",
+    "T1583",
+    "T1596.001",
+    "T1596.003",
+    "T1090.003",
+    "T1591"
+   ],
+   "seconds": 0.0061
+  },
+  {
+   "id": "obs-003",
+   "category": "registration",
+   "phrasing": "agent",
+   "mode": "bm25",
+   "query": "newly registered domain (212 days old) with hidden registrant",
+   "relevant": [
+    "T1583.001"
+   ],
+   "retrieved": [
+    "T1584.001",
+    "T1583.001",
+    "T1207",
+    "T1595.003",
+    "T1556.002",
+    "T1564.003",
+    "T1564.002",
+    "T1055.015",
+    "T1564.001",
+    "T1564.005"
+   ],
+   "seconds": 0.003
+  },
+  {
+   "id": "obs-003",
+   "category": "registration",
+   "phrasing": "agent",
+   "mode": "dense",
+   "query": "newly registered domain (212 days old) with hidden registrant",
+   "relevant": [
+    "T1583.001"
+   ],
+   "retrieved": [
+    "T1583.001",
+    "T1596.002",
+    "T1584.001",
+    "T1564.002",
+    "T1564.001",
+    "T1568.002",
+    "T1564.003",
+    "T1594",
+    "T1590.001",
+    "T1590.002"
+   ],
+   "seconds": 0.3188
+  },
+  {
+   "id": "obs-003",
+   "category": "registration",
+   "phrasing": "agent",
+   "mode": "hybrid",
+   "query": "newly registered domain (212 days old) with hidden registrant",
+   "relevant": [
+    "T1583.001"
+   ],
+   "retrieved": [
+    "T1583.001",
+    "T1584.001",
+    "T1596.002",
+    "T1564.001",
+    "T1564.003",
+    "T1564.002",
+    "T1590.001",
+    "T1078.002",
+    "T1207",
+    "T1568.002"
+   ],
+   "seconds": 0.004
+  },
+  {
+   "id": "obs-004",
+   "category": "registration",
+   "phrasing": "terse",
+   "mode": "bm25",
+   "query": "name: 0rder-ver1f2345 (digits in place of letters)",
+   "relevant": [
+    "T1583.001"
+   ],
+   "retrieved": [
+    "T1040",
+    "T1557.001",
+    "T1036.010",
+    "T1036.005",
+    "T1036.004",
+    "T1137.001",
+    "T1546.014",
+    "T1036.011",
+    "T1590.001",
+    "T1568.002"
+   ],
+   "seconds": 0.0013
+  },
+  {
+   "id": "obs-004",
+   "category": "registration",
+   "phrasing": "terse",
+   "mode": "dense",
+   "query": "name: 0rder-ver1f2345 (digits in place of letters)",
+   "relevant": [
+    "T1583.001"
+   ],
+   "retrieved": [
+    "T1036.005",
+    "T1036.002",
+    "T1036.010",
+    "T1589.003",
+    "T1564.002",
+    "T1564.001",
+    "T1027.018",
+    "T1505.006",
+    "T1553.003",
+    "T1583.005"
+   ],
+   "seconds": 0.1769
+  },
+  {
+   "id": "obs-004",
+   "category": "registration",
+   "phrasing": "terse",
+   "mode": "hybrid",
+   "query": "name: 0rder-ver1f2345 (digits in place of letters)",
+   "relevant": [
+    "T1583.001"
+   ],
+   "retrieved": [
+    "T1036.005",
+    "T1036.010",
+    "T1137.001",
+    "T1543.001",
+    "T1557.001",
+    "T1036.002",
+    "T1505.006",
+    "T1564.001",
+    "T1568.002",
+    "T1036.004"
+   ],
+   "seconds": 0.0028
+  },
+  {
+   "id": "obs-004",
+   "category": "registration",
+   "phrasing": "analyst",
+   "mode": "bm25",
+   "query": "The domain name 0rder-ver1f2345.com imitates ordinary words by replacing letters with look-alike digits.",
+   "relevant": [
+    "T1583.001"
+   ],
+   "retrieved": [
+    "T1568.002",
+    "T1557.001",
+    "T1590.001",
+    "T1584.001",
+    "T1568.001",
+    "T1036.010",
+    "T1036.005",
+    "T1547.008",
+    "T1036.004",
+    "T1608.007"
+   ],
+   "seconds": 0.0025
+  },
+  {
+   "id": "obs-004",
+   "category": "registration",
+   "phrasing": "analyst",
+   "mode": "dense",
+   "query": "The domain name 0rder-ver1f2345.com imitates ordinary words by replacing letters with look-alike digits.",
+   "relevant": [
+    "T1583.001"
+   ],
+   "retrieved": [
+    "T1583.001",
+    "T1584.001",
+    "T1568.002",
+    "T1684.001",
+    "T1036.002",
+    "T1036.005",
+    "T1027.018",
+    "T1001.003",
+    "T1608.004",
+    "T1684.002"
+   ],
+   "seconds": 0.8199
+  },
+  {
+   "id": "obs-004",
+   "category": "registration",
+   "phrasing": "analyst",
+   "mode": "hybrid",
+   "query": "The domain name 0rder-ver1f2345.com imitates ordinary words by replacing letters with look-alike digits.",
+   "relevant": [
+    "T1583.001"
+   ],
+   "retrieved": [
+    "T1568.002",
+    "T1584.001",
+    "T1568.001",
+    "T1583.001",
+    "T1036.005",
+    "T1590.001",
+    "T1557.001",
+    "T1583.002",
+    "T1071.004",
+    "T1078.002"
+   ],
+   "seconds": 0.0039
+  },
+  {
+   "id": "obs-004",
+   "category": "registration",
+   "phrasing": "agent",
+   "mode": "bm25",
+   "query": "look-alike domain name 0rder-ver1f2345.com using digits instead of letters",
+   "relevant": [
+    "T1583.001"
+   ],
+   "retrieved": [
+    "T1568.002",
+    "T1557.001",
+    "T1590.001",
+    "T1583.002",
+    "T1484.002",
+    "T1584.001",
+    "T1568.001",
+    "T1003.005",
+    "T1036.010",
+    "T1036.005"
+   ],
+   "seconds": 0.0023
+  },
+  {
+   "id": "obs-004",
+   "category": "registration",
+   "phrasing": "agent",
+   "mode": "dense",
+   "query": "look-alike domain name 0rder-ver1f2345.com using digits instead of letters",
+   "relevant": [
+    "T1583.001"
+   ],
+   "retrieved": [
+    "T1583.001",
+    "T1584.001",
+    "T1568.002",
+    "T1608.004",
+    "T1036.002",
+    "T1584.002",
+    "T1684.002",
+    "T1036.005",
+    "T1090.004",
+    "T1684.001"
+   ],
+   "seconds": 0.2277
+  },
+  {
+   "id": "obs-004",
+   "category": "registration",
+   "phrasing": "agent",
+   "mode": "hybrid",
+   "query": "look-alike domain name 0rder-ver1f2345.com using digits instead of letters",
+   "relevant": [
+    "T1583.001"
+   ],
+   "retrieved": [
+    "T1568.002",
+    "T1584.001",
+    "T1557.001",
+    "T1583.001",
+    "T1583.002",
+    "T1568.001",
+    "T1036.005",
+    "T1590.001",
+    "T1087.002",
+    "T1584.002"
+   ],
+   "seconds": 0.0032
+  },
+  {
+   "id": "obs-005",
+   "category": "reputation",
+   "phrasing": "terse",
+   "mode": "bm25",
+   "query": "virustotal: 11/89 engines malicious",
+   "relevant": [
+    "T1583.001"
+   ],
+   "retrieved": [
+    "T1593.002",
+    "T1176.001",
+    "T1608.006",
+    "T1047",
+    "T1557.003",
+    "T1608.007",
+    "T1583.008",
+    "T1648",
+    "T1027.001",
+    "T1589.001"
+   ],
+   "seconds": 0.0019
+  },
+  {
+   "id": "obs-005",
+   "category": "reputation",
+   "phrasing": "terse",
+   "mode": "dense",
+   "query": "virustotal: 11/89 engines malicious",
+   "relevant": [
+    "T1583.001"
+   ],
+   "retrieved": [
+    "T1218.011",
+    "T1127.003",
+    "T1204.003",
+    "T1218.015",
+    "T1608.001",
+    "T1176.001",
+    "T1176",
+    "T1204.002",
+    "T1685.007",
+    "T1218.012"
+   ],
+   "seconds": 0.4903
+  },
+  {
+   "id": "obs-005",
+   "category": "reputation",
+   "phrasing": "terse",
+   "mode": "hybrid",
+   "query": "virustotal: 11/89 engines malicious",
+   "relevant": [
+    "T1583.001"
+   ],
+   "retrieved": [
+    "T1176.001",
+    "T1218.015",
+    "T1583.008",
+    "T1204.003",
+    "T1127.003",
+    "T1593.002",
+    "T1204.005",
+    "T1608.006",
+    "T1218.011",
+    "T1221"
+   ],
+   "seconds": 0.0031
+  },
+  {
+   "id": "obs-005",
+   "category": "reputation",
+   "phrasing": "analyst",
+   "mode": "bm25",
+   "query": "On VirusTotal, 11 of 89 security engines flag 0rder-ver1f2345.com as malicious.",
+   "relevant": [
+    "T1583.001"
+   ],
+   "retrieved": [
+    "T1593.002",
+    "T1553.001",
+    "T1176.001",
+    "T1202",
+    "T1027.001",
+    "T1608.006",
+    "T1047",
+    "T1557.003",
+    "T1218.008",
+    "T1055.012"
+   ],
+   "seconds": 0.0028
+  },
+  {
+   "id": "obs-005",
+   "category": "reputation",
+   "phrasing": "analyst",
+   "mode": "dense",
+   "query": "On VirusTotal, 11 of 89 security engines flag 0rder-ver1f2345.com as malicious.",
+   "relevant": [
+    "T1583.001"
+   ],
+   "retrieved": [
+    "T1593.002",
+    "T1204.002",
+    "T1497.001",
+    "T1553.004",
+    "T1204.005",
+    "T1204.004",
+    "T1176.001",
+    "T1218.011",
+    "T1036.002",
+    "T1204.003"
+   ],
+   "seconds": 0.2216
+  },
+  {
+   "id": "obs-005",
+   "category": "reputation",
+   "phrasing": "analyst",
+   "mode": "hybrid",
+   "query": "On VirusTotal, 11 of 89 security engines flag 0rder-ver1f2345.com as malicious.",
+   "relevant": [
+    "T1583.001"
+   ],
+   "retrieved": [
+    "T1593.002",
+    "T1176.001",
+    "T1553.001",
+    "T1127.003",
+    "T1553.004",
+    "T1176",
+    "T1027.001",
+    "T1518.001",
+    "T1608.006",
+    "T1218.008"
+   ],
+   "seconds": 0.0041
+  },
+  {
+   "id": "obs-005",
+   "category": "reputation",
+   "phrasing": "agent",
+   "mode": "bm25",
+   "query": "domain flagged malicious by 11 VirusTotal engines",
+   "relevant": [
+    "T1583.001"
+   ],
+   "retrieved": [
+    "T1593.002",
+    "T1176.001",
+    "T1484",
+    "T1583.008",
+    "T1608.006",
+    "T1584.001",
+    "T1047",
+    "T1484.001",
+    "T1557.003",
+    "T1574.001"
+   ],
+   "seconds": 0.0025
+  },
+  {
+   "id": "obs-005",
+   "category": "reputation",
+   "phrasing": "agent",
+   "mode": "dense",
+   "query": "domain flagged malicious by 11 VirusTotal engines",
+   "relevant": [
+    "T1583.001"
+   ],
+   "retrieved": [
+    "T1583.001",
+    "T1593.002",
+    "T1568.002",
+    "T1090.004",
+    "T1484",
+    "T1584.001",
+    "T1102.001",
+    "T1684.002",
+    "T1204.003",
+    "T1590.001"
+   ],
+   "seconds": 0.2141
+  },
+  {
+   "id": "obs-005",
+   "category": "reputation",
+   "phrasing": "agent",
+   "mode": "hybrid",
+   "query": "domain flagged malicious by 11 VirusTotal engines",
+   "relevant": [
+    "T1583.001"
+   ],
+   "retrieved": [
+    "T1593.002",
+    "T1484",
+    "T1583.001",
+    "T1583.008",
+    "T1176.001",
+    "T1584.001",
+    "T1090.004",
+    "T1590.001",
+    "T1568.002",
+    "T1608.006"
+   ],
+   "seconds": 0.0039
+  },
+  {
+   "id": "obs-006",
+   "category": "reputation",
+   "phrasing": "terse",
+   "mode": "bm25",
+   "query": "github: listed in blocklists (AdguardTeam/HostlistsRegistry, phishdestroy/nicenic-evidence, pointaction/adguard-lists)",
+   "relevant": [
+    "T1583.001"
+   ],
+   "retrieved": [
+    "T1195.001",
+    "T1546.001",
+    "T1027.001",
+    "T1608.002",
+    "T1583.006",
+    "T1608.001",
+    "T1564.002",
+    "T1547.007",
+    "T1608",
+    "T1584.001"
+   ],
+   "seconds": 0.0015
+  },
+  {
+   "id": "obs-006",
+   "category": "reputation",
+   "phrasing": "terse",
+   "mode": "dense",
+   "query": "github: listed in blocklists (AdguardTeam/HostlistsRegistry, phishdestroy/nicenic-evidence, pointaction/adguard-lists)",
+   "relevant": [
+    "T1583.001"
+   ],
+   "retrieved": [
+    "T1593.003",
+    "T1213.003",
+    "T1567.001",
+    "T1567.003",
+    "T1195.001",
+    "T1087.003",
+    "T1647",
+    "T1087.004",
+    "T1204.005",
+    "T1553.003"
+   ],
+   "seconds": 0.7646
+  },
+  {
+   "id": "obs-006",
+   "category": "reputation",
+   "phrasing": "terse",
+   "mode": "hybrid",
+   "query": "github: listed in blocklists (AdguardTeam/HostlistsRegistry, phishdestroy/nicenic-evidence, pointaction/adguard-lists)",
+   "relevant": [
+    "T1583.001"
+   ],
+   "retrieved": [
+    "T1195.001",
+    "T1213.003",
+    "T1593.003",
+    "T1204.005",
+    "T1608.006",
+    "T1564.002",
+    "T1218.015",
+    "T1055.015",
+    "T1567.004",
+    "T1608.001"
+   ],
+   "seconds": 0.0024
+  },
+  {
+   "id": "obs-006",
+   "category": "reputation",
+   "phrasing": "analyst",
+   "mode": "bm25",
+   "query": "0rder-ver1f2345.com appears in public malicious-URL blocklists hosted on GitHub (AdguardTeam/HostlistsRegistry, phishdestroy/nicenic-evidence, pointaction/adguard-lists).",
+   "relevant": [
+    "T1583.001"
+   ],
+   "retrieved": [
+    "T1213.003",
+    "T1593.003",
+    "T1027.001",
+    "T1195.001",
+    "T1682",
+    "T1204.005",
+    "T1608.001",
+    "T1585",
+    "T1567.004",
+    "T1573.002"
+   ],
+   "seconds": 0.0021
+  },
+  {
+   "id": "obs-006",
+   "category": "reputation",
+   "phrasing": "analyst",
+   "mode": "dense",
+   "query": "0rder-ver1f2345.com appears in public malicious-URL blocklists hosted on GitHub (AdguardTeam/HostlistsRegistry, phishdestroy/nicenic-evidence, pointaction/adguard-lists).",
+   "relevant": [
+    "T1583.001"
+   ],
+   "retrieved": [
+    "T1204.005",
+    "T1583.001",
+    "T1593.003",
+    "T1204.004",
+    "T1583.008",
+    "T1127.003",
+    "T1204.002",
+    "T1553.003",
+    "T1598.003",
+    "T1593.002"
+   ],
+   "seconds": 0.4808
+  },
+  {
+   "id": "obs-006",
+   "category": "reputation",
+   "phrasing": "analyst",
+   "mode": "hybrid",
+   "query": "0rder-ver1f2345.com appears in public malicious-URL blocklists hosted on GitHub (AdguardTeam/HostlistsRegistry, phishdestroy/nicenic-evidence, pointaction/adguard-lists).",
+   "relevant": [
+    "T1583.001"
+   ],
+   "retrieved": [
+    "T1593.003",
+    "T1204.005",
+    "T1567.004",
+    "T1213.003",
+    "T1583.001",
+    "T1204.003",
+    "T1608.006",
+    "T1598.003",
+    "T1583.006",
+    "T1596.004"
+   ],
+   "seconds": 0.0034
+  },
+  {
+   "id": "obs-006",
+   "category": "reputation",
+   "phrasing": "agent",
+   "mode": "bm25",
+   "query": "domain present in public malicious URL blocklists",
+   "relevant": [
+    "T1583.001"
+   ],
+   "retrieved": [
+    "T1221",
+    "T1665",
+    "T1598.003",
+    "T1027.001",
+    "T1484",
+    "T1584.001",
+    "T1612",
+    "T1552.006",
+    "T1608.005",
+    "T1176.001"
+   ],
+   "seconds": 0.0027
+  },
+  {
+   "id": "obs-006",
+   "category": "reputation",
+   "phrasing": "agent",
+   "mode": "dense",
+   "query": "domain present in public malicious URL blocklists",
+   "relevant": [
+    "T1583.001"
+   ],
+   "retrieved": [
+    "T1583.001",
+    "T1090.004",
+    "T1568.002",
+    "T1584.001",
+    "T1484",
+    "T1078.002",
+    "T1583.008",
+    "T1590.001",
+    "T1593.003",
+    "T1087.002"
+   ],
+   "seconds": 1.4608
+  },
+  {
+   "id": "obs-006",
+   "category": "reputation",
+   "phrasing": "agent",
+   "mode": "hybrid",
+   "query": "domain present in public malicious URL blocklists",
+   "relevant": [
+    "T1583.001"
+   ],
+   "retrieved": [
+    "T1484",
+    "T1584.001",
+    "T1583.001",
+    "T1566.002",
+    "T1078.002",
+    "T1087.002",
+    "T1090.004",
+    "T1608.005",
+    "T1590.001",
+    "T1568.002"
+   ],
+   "seconds": 0.004
+  },
+  {
+   "id": "obs-009",
+   "category": "email_auth",
+   "phrasing": "terse",
+   "mode": "bm25",
+   "query": "spf: ~all (not -all)",
+   "relevant": [
+    "T1684.002",
+    "T1566"
+   ],
+   "retrieved": [
+    "T1684.002",
+    "T1070.003",
+    "T1548.003",
+    "T1114.003",
+    "T1550.001",
+    "T1556.006",
+    "T1201",
+    "T1490",
+    "T1561.002",
+    "T1176.001"
+   ],
+   "seconds": 0.0016
+  },
+  {
+   "id": "obs-009",
+   "category": "email_auth",
+   "phrasing": "terse",
+   "mode": "dense",
+   "query": "spf: ~all (not -all)",
+   "relevant": [
+    "T1684.002",
+    "T1566"
+   ],
+   "retrieved": [
+    "T1684.002",
+    "T1110.003",
+    "T1679",
+    "T1608.005",
+    "T1110.001",
+    "T1566.002",
+    "T1187",
+    "T1697",
+    "T1036.012",
+    "T1553.003"
+   ],
+   "seconds": 0.2078
+  },
+  {
+   "id": "obs-009",
+   "category": "email_auth",
+   "phrasing": "terse",
+   "mode": "hybrid",
+   "query": "spf: ~all (not -all)",
+   "relevant": [
+    "T1684.002",
+    "T1566"
+   ],
+   "retrieved": [
+    "T1684.002",
+    "T1114.003",
+    "T1205.002",
+    "T1564.008",
+    "T1095",
+    "T1036.002",
+    "T1683.001",
+    "T1558.004",
+    "T1480",
+    "T1598.003"
+   ],
+   "seconds": 0.0026
+  },
+  {
+   "id": "obs-009",
+   "category": "email_auth",
+   "phrasing": "analyst",
+   "mode": "bm25",
+   "query": "The SPF record of abrush.ai ends with ~all instead of -all, so unauthorized senders are not rejected.",
+   "relevant": [
+    "T1684.002",
+    "T1566"
+   ],
+   "retrieved": [
+    "T1070.003",
+    "T1684.002",
+    "T1552.003",
+    "T1561.002",
+    "T1574.009",
+    "T1564.004",
+    "T1548.003",
+    "T1568.001",
+    "T1689",
+    "T1176"
+   ],
+   "seconds": 0.0037
+  },
+  {
+   "id": "obs-009",
+   "category": "email_auth",
+   "phrasing": "analyst",
+   "mode": "dense",
+   "query": "The SPF record of abrush.ai ends with ~all instead of -all, so unauthorized senders are not rejected.",
+   "relevant": [
+    "T1684.002",
+    "T1566"
+   ],
+   "retrieved": [
+    "T1684.002",
+    "T1110.003",
+    "T1110.001",
+    "T1598.003",
+    "T1110.004",
+    "T1558.004",
+    "T1697",
+    "T1566.002",
+    "T1700",
+    "T1496.004"
+   ],
+   "seconds": 0.1779
+  },
+  {
+   "id": "obs-009",
+   "category": "email_auth",
+   "phrasing": "analyst",
+   "mode": "hybrid",
+   "query": "The SPF record of abrush.ai ends with ~all instead of -all, so unauthorized senders are not rejected.",
+   "relevant": [
+    "T1684.002",
+    "T1566"
+   ],
+   "retrieved": [
+    "T1684.002",
+    "T1114.003",
+    "T1558.004",
+    "T1700",
+    "T1699",
+    "T1683.001",
+    "T1176.001",
+    "T1698",
+    "T1070.003",
+    "T1110.002"
+   ],
+   "seconds": 0.0046
+  },
+  {
+   "id": "obs-009",
+   "category": "email_auth",
+   "phrasing": "agent",
+   "mode": "bm25",
+   "query": "SPF record ending with ~all, unauthorized senders not rejected",
+   "relevant": [
+    "T1684.002",
+    "T1566"
+   ],
+   "retrieved": [
+    "T1684.002",
+    "T1561.002",
+    "T1070.003",
+    "T1548.003",
+    "T1568.001",
+    "T1689",
+    "T1176",
+    "T1561",
+    "T1021.005",
+    "T1200"
+   ],
+   "seconds": 0.0023
+  },
+  {
+   "id": "obs-009",
+   "category": "email_auth",
+   "phrasing": "agent",
+   "mode": "dense",
+   "query": "SPF record ending with ~all, unauthorized senders not rejected",
+   "relevant": [
+    "T1684.002",
+    "T1566"
+   ],
+   "retrieved": [
+    "T1684.002",
+    "T1553.003",
+    "T1036.006",
+    "T1556.006",
+    "T1564.008",
+    "T1110.003",
+    "T1566.002",
+    "T1114.003",
+    "T1697",
+    "T1090.004"
+   ],
+   "seconds": 0.2299
+  },
+  {
+   "id": "obs-009",
+   "category": "email_auth",
+   "phrasing": "agent",
+   "mode": "hybrid",
+   "query": "SPF record ending with ~all, unauthorized senders not rejected",
+   "relevant": [
+    "T1684.002",
+    "T1566"
+   ],
+   "retrieved": [
+    "T1684.002",
+    "T1114.003",
+    "T1548.003",
+    "T1553.001",
+    "T1558.004",
+    "T1699",
+    "T1698",
+    "T1095",
+    "T1205.002",
+    "T1564.008"
+   ],
+   "seconds": 0.0038
+  },
+  {
+   "id": "obs-010",
+   "category": "email_auth",
+   "phrasing": "terse",
+   "mode": "bm25",
+   "query": "dmarc: p=none",
+   "relevant": [
+    "T1684.002",
+    "T1566"
+   ],
+   "retrieved": [
+    "T1684.002",
+    "T1564.014",
+    "T1027.010"
+   ],
+   "seconds": 0.0014
+  },
+  {
+   "id": "obs-010",
+   "category": "email_auth",
+   "phrasing": "terse",
+   "mode": "dense",
+   "query": "dmarc: p=none",
+   "relevant": [
+    "T1684.002",
+    "T1566"
+   ],
+   "retrieved": [
+    "T1684.002",
+    "T1564.008",
+    "T1070.008",
+    "T1137.005",
+    "T1137.004",
+    "T1071.003",
+    "T1114.003",
+    "T1566.002",
+    "T1589.002",
+    "T1586.002"
+   ],
+   "seconds": 0.2475
+  },
+  {
+   "id": "obs-010",
+   "category": "email_auth",
+   "phrasing": "terse",
+   "mode": "hybrid",
+   "query": "dmarc: p=none",
+   "relevant": [
+    "T1684.002",
+    "T1566"
+   ],
+   "retrieved": [
+    "T1684.002",
+    "T1564.008",
+    "T1564.014",
+    "T1027.010",
+    "T1070.008",
+    "T1137.005",
+    "T1137.004",
+    "T1071.003",
+    "T1114.003",
+    "T1566.002"
+   ],
+   "seconds": 0.0024
+  },
+  {
+   "id": "obs-010",
+   "category": "email_auth",
+   "phrasing": "analyst",
+   "mode": "bm25",
+   "query": "The DMARC policy of abrush.ai is p=none: failing messages are only reported, never quarantined or rejected.",
+   "relevant": [
+    "T1684.002",
+    "T1566"
+   ],
+   "retrieved": [
+    "T1684.002",
+    "T1027.005",
+    "T1597.001",
+    "T1552.008",
+    "T1484.001",
+    "T1615",
+    "T1553.006",
+    "T1201",
+    "T1685.001",
+    "T1552.006"
+   ],
+   "seconds": 0.0041
+  },
+  {
+   "id": "obs-010",
+   "category": "email_auth",
+   "phrasing": "analyst",
+   "mode": "dense",
+   "query": "The DMARC policy of abrush.ai is p=none: failing messages are only reported, never quarantined or rejected.",
+   "relevant": [
+    "T1684.002",
+    "T1566"
+   ],
+   "retrieved": [
+    "T1684.002",
+    "T1564.008",
+    "T1114.003",
+    "T1110.003",
+    "T1568.002",
+    "T1682",
+    "T1588.007",
+    "T1213.004",
+    "T1484",
+    "T1696.002"
+   ],
+   "seconds": 0.2565
+  },
+  {
+   "id": "obs-010",
+   "category": "email_auth",
+   "phrasing": "analyst",
+   "mode": "hybrid",
+   "query": "The DMARC policy of abrush.ai is p=none: failing messages are only reported, never quarantined or rejected.",
+   "relevant": [
+    "T1684.002",
+    "T1566"
+   ],
+   "retrieved": [
+    "T1684.002",
+    "T1484.001",
+    "T1484",
+    "T1484.002",
+    "T1201",
+    "T1598",
+    "T1071.003",
+    "T1137.005",
+    "T1685.007",
+    "T1213.005"
+   ],
+   "seconds": 0.0053
+  },
+  {
+   "id": "obs-010",
+   "category": "email_auth",
+   "phrasing": "agent",
+   "mode": "bm25",
+   "query": "DMARC p=none monitoring only, mail failing authentication still delivered",
+   "relevant": [
+    "T1684.002",
+    "T1566"
+   ],
+   "retrieved": [
+    "T1684.002",
+    "T1071.003",
+    "T1070.008",
+    "T1056.002",
+    "T1027.010",
+    "T1550.001",
+    "T1055.013",
+    "T1564.008",
+    "T1114.003",
+    "T1564.001"
+   ],
+   "seconds": 0.004
+  },
+  {
+   "id": "obs-010",
+   "category": "email_auth",
+   "phrasing": "agent",
+   "mode": "dense",
+   "query": "DMARC p=none monitoring only, mail failing authentication still delivered",
+   "relevant": [
+    "T1684.002",
+    "T1566"
+   ],
+   "retrieved": [
+    "T1684.002",
+    "T1564.008",
+    "T1071.003",
+    "T1070.008",
+    "T1556.006",
+    "T1110.003",
+    "T1114.003",
+    "T1556.002",
+    "T1556.003",
+    "T1558.004"
+   ],
+   "seconds": 0.1919
+  },
+  {
+   "id": "obs-010",
+   "category": "email_auth",
+   "phrasing": "agent",
+   "mode": "hybrid",
+   "query": "DMARC p=none monitoring only, mail failing authentication still delivered",
+   "relevant": [
+    "T1684.002",
+    "T1566"
+   ],
+   "retrieved": [
+    "T1684.002",
+    "T1071.003",
+    "T1070.008",
+    "T1114.003",
+    "T1558.004",
+    "T1556.001",
+    "T1556.003",
+    "T1556.006",
+    "T1598.003",
+    "T1547.002"
+   ],
+   "seconds": 0.0054
+  },
+  {
+   "id": "obs-011",
+   "category": "registration",
+   "phrasing": "terse",
+   "mode": "bm25",
+   "query": "whois: created 290 days ago, registrar Internet Invest, Ltd. dba Imena.ua, registrant country undisclosed, no registrant org",
+   "relevant": [
+    "T1583.001"
+   ],
+   "retrieved": [
+    "T1596.002",
+    "T1059.005",
+    "T1591",
+    "T1591.003",
+    "T1591.002",
+    "T1591.004",
+    "T1591.001",
+    "T1590.001",
+    "T1016.001",
+    "T1583.001"
+   ],
+   "seconds": 0.0037
+  },
+  {
+   "id": "obs-011",
+   "category": "registration",
+   "phrasing": "terse",
+   "mode": "dense",
+   "query": "whois: created 290 days ago, registrar Internet Invest, Ltd. dba Imena.ua, registrant country undisclosed, no registrant org",
+   "relevant": [
+    "T1583.001"
+   ],
+   "retrieved": [
+    "T1596.002",
+    "T1583.001",
+    "T1590.002",
+    "T1568.001",
+    "T1568.002",
+    "T1583.002",
+    "T1583.005",
+    "T1594",
+    "T1027.018",
+    "T1584.002"
+   ],
+   "seconds": 0.4244
+  },
+  {
+   "id": "obs-011",
+   "category": "registration",
+   "phrasing": "terse",
+   "mode": "hybrid",
+   "query": "whois: created 290 days ago, registrar Internet Invest, Ltd. dba Imena.ua, registrant country undisclosed, no registrant org",
+   "relevant": [
+    "T1583.001"
+   ],
+   "retrieved": [
+    "T1596.002",
+    "T1583.001",
+    "T1591.003",
+    "T1584.001",
+    "T1590.001",
+    "T1585.002",
+    "T1505.004",
+    "T1583.005",
+    "T1684.001",
+    "T1591.001"
+   ],
+   "seconds": 0.0045
+  },
+  {
+   "id": "obs-011",
+   "category": "registration",
+   "phrasing": "analyst",
+   "mode": "bm25",
+   "query": "abrush.ai was registered only 290 days before the analysis, through Internet Invest, Ltd. dba Imena.ua, with no registrant organization disclosed.",
+   "relevant": [
+    "T1583.001"
+   ],
+   "retrieved": [
+    "T1666",
+    "T1596.002",
+    "T1016.001",
+    "T1090.003",
+    "T1218.010",
+    "T1497",
+    "T1480",
+    "T1591.003",
+    "T1027.004",
+    "T1480.001"
+   ],
+   "seconds": 0.005
+  },
+  {
+   "id": "obs-011",
+   "category": "registration",
+   "phrasing": "analyst",
+   "mode": "dense",
+   "query": "abrush.ai was registered only 290 days before the analysis, through Internet Invest, Ltd. dba Imena.ua, with no registrant organization disclosed.",
+   "relevant": [
+    "T1583.001"
+   ],
+   "retrieved": [
+    "T1583.001",
+    "T1596.002",
+    "T1568.002",
+    "T1583.005",
+    "T1700",
+    "T1594",
+    "T1588.007",
+    "T1568.001",
+    "T1590.002",
+    "T1176.001"
+   ],
+   "seconds": 0.2854
+  },
+  {
+   "id": "obs-011",
+   "category": "registration",
+   "phrasing": "analyst",
+   "mode": "hybrid",
+   "query": "abrush.ai was registered only 290 days before the analysis, through Internet Invest, Ltd. dba Imena.ua, with no registrant organization disclosed.",
+   "relevant": [
+    "T1583.001"
+   ],
+   "retrieved": [
+    "T1596.002",
+    "T1591.003",
+    "T1176.001",
+    "T1584.001",
+    "T1098.005",
+    "T1596.001",
+    "T1583.005",
+    "T1195.001",
+    "T1542.003",
+    "T1583.001"
+   ],
+   "seconds": 0.0057
+  },
+  {
+   "id": "obs-011",
+   "category": "registration",
+   "phrasing": "agent",
+   "mode": "bm25",
+   "query": "newly registered domain (290 days old) with hidden registrant",
+   "relevant": [
+    "T1583.001"
+   ],
+   "retrieved": [
+    "T1584.001",
+    "T1583.001",
+    "T1207",
+    "T1595.003",
+    "T1556.002",
+    "T1564.003",
+    "T1564.002",
+    "T1055.015",
+    "T1564.001",
+    "T1564.005"
+   ],
+   "seconds": 0.0028
+  },
+  {
+   "id": "obs-011",
+   "category": "registration",
+   "phrasing": "agent",
+   "mode": "dense",
+   "query": "newly registered domain (290 days old) with hidden registrant",
+   "relevant": [
+    "T1583.001"
+   ],
+   "retrieved": [
+    "T1583.001",
+    "T1596.002",
+    "T1090.004",
+    "T1564.002",
+    "T1584.001",
+    "T1590.002",
+    "T1590.001",
+    "T1594",
+    "T1568.002",
+    "T1593"
+   ],
+   "seconds": 0.1649
+  },
+  {
+   "id": "obs-011",
+   "category": "registration",
+   "phrasing": "agent",
+   "mode": "hybrid",
+   "query": "newly registered domain (290 days old) with hidden registrant",
+   "relevant": [
+    "T1583.001"
+   ],
+   "retrieved": [
+    "T1583.001",
+    "T1584.001",
+    "T1596.002",
+    "T1564.002",
+    "T1564.001",
+    "T1564.003",
+    "T1590.001",
+    "T1207",
+    "T1078.002",
+    "T1090.004"
+   ],
+   "seconds": 0.0044
+  },
+  {
+   "id": "obs-012",
+   "category": "registration",
+   "phrasing": "terse",
+   "mode": "bm25",
+   "query": "whois: created 25 days ago, registrar Dominet (HK) Limited, registrant country HK, no registrant org",
+   "relevant": [
+    "T1583.001"
+   ],
+   "retrieved": [
+    "T1596.002",
+    "T1591",
+    "T1591.003",
+    "T1591.002",
+    "T1591.004",
+    "T1591.001",
+    "T1590.001",
+    "T1036.002",
+    "T1078.001",
+    "T1059.005"
+   ],
+   "seconds": 0.0041
+  },
+  {
+   "id": "obs-012",
+   "category": "registration",
+   "phrasing": "terse",
+   "mode": "dense",
+   "query": "whois: created 25 days ago, registrar Dominet (HK) Limited, registrant country HK, no registrant org",
+   "relevant": [
+    "T1583.001"
+   ],
+   "retrieved": [
+    "T1583.001",
+    "T1596.002",
+    "T1584.001",
+    "T1568.002",
+    "T1590.002",
+    "T1568.001",
+    "T1583.002",
+    "T1584.002",
+    "T1136.002",
+    "T1553.003"
+   ],
+   "seconds": 0.3665
+  },
+  {
+   "id": "obs-012",
+   "category": "registration",
+   "phrasing": "terse",
+   "mode": "hybrid",
+   "query": "whois: created 25 days ago, registrar Dominet (HK) Limited, registrant country HK, no registrant org",
+   "relevant": [
+    "T1583.001"
+   ],
+   "retrieved": [
+    "T1596.002",
+    "T1583.001",
+    "T1584.001",
+    "T1591.003",
+    "T1590.001",
+    "T1583",
+    "T1684.002",
+    "T1585.002",
+    "T1078.001",
+    "T1591.001"
+   ],
+   "seconds": 0.0049
+  },
+  {
+   "id": "obs-012",
+   "category": "registration",
+   "phrasing": "analyst",
+   "mode": "bm25",
+   "query": "aspenriver6.com was registered only 25 days before the analysis, through Dominet (HK) Limited, with no registrant organization disclosed.",
+   "relevant": [
+    "T1583.001"
+   ],
+   "retrieved": [
+    "T1666",
+    "T1080",
+    "T1218.010",
+    "T1688",
+    "T1078.001",
+    "T1497",
+    "T1480",
+    "T1127.002",
+    "T1591.003",
+    "T1027.004"
+   ],
+   "seconds": 0.0045
+  },
+  {
+   "id": "obs-012",
+   "category": "registration",
+   "phrasing": "analyst",
+   "mode": "dense",
+   "query": "aspenriver6.com was registered only 25 days before the analysis, through Dominet (HK) Limited, with no registrant organization disclosed.",
+   "relevant": [
+    "T1583.001"
+   ],
+   "retrieved": [
+    "T1583.001",
+    "T1584.001",
+    "T1596.002",
+    "T1568.002",
+    "T1568.001",
+    "T1608.004",
+    "T1596.001",
+    "T1593",
+    "T1590.002",
+    "T1596.004"
+   ],
+   "seconds": 0.362
+  },
+  {
+   "id": "obs-012",
+   "category": "registration",
+   "phrasing": "analyst",
+   "mode": "hybrid",
+   "query": "aspenriver6.com was registered only 25 days before the analysis, through Dominet (HK) Limited, with no registrant organization disclosed.",
+   "relevant": [
+    "T1583.001"
+   ],
+   "retrieved": [
+    "T1596.001",
+    "T1584.001",
+    "T1591.003",
+    "T1583",
+    "T1596.002",
+    "T1027.004",
+    "T1596.003",
+    "T1218.009",
+    "T1583.001",
+    "T1666"
+   ],
+   "seconds": 0.0069
+  },
+  {
+   "id": "obs-012",
+   "category": "registration",
+   "phrasing": "agent",
+   "mode": "bm25",
+   "query": "newly registered domain (25 days old) with hidden registrant",
+   "relevant": [
+    "T1583.001"
+   ],
+   "retrieved": [
+    "T1584.001",
+    "T1583.001",
+    "T1207",
+    "T1595.003",
+    "T1556.002",
+    "T1564.003",
+    "T1564.002",
+    "T1055.015",
+    "T1564.001",
+    "T1564.005"
+   ],
+   "seconds": 0.0041
+  },
+  {
+   "id": "obs-012",
+   "category": "registration",
+   "phrasing": "agent",
+   "mode": "dense",
+   "query": "newly registered domain (25 days old) with hidden registrant",
+   "relevant": [
+    "T1583.001"
+   ],
+   "retrieved": [
+    "T1583.001",
+    "T1596.002",
+    "T1584.001",
+    "T1564.002",
+    "T1568.002",
+    "T1090.004",
+    "T1590.002",
+    "T1590.001",
+    "T1568.001",
+    "T1593"
+   ],
+   "seconds": 0.2409
+  },
+  {
+   "id": "obs-012",
+   "category": "registration",
+   "phrasing": "agent",
+   "mode": "hybrid",
+   "query": "newly registered domain (25 days old) with hidden registrant",
+   "relevant": [
+    "T1583.001"
+   ],
+   "retrieved": [
+    "T1583.001",
+    "T1584.001",
+    "T1596.002",
+    "T1564.002",
+    "T1564.003",
+    "T1564.001",
+    "T1590.001",
+    "T1078.002",
+    "T1207",
+    "T1568.002"
+   ],
+   "seconds": 0.0052
+  },
+  {
+   "id": "obs-013",
+   "category": "reputation",
+   "phrasing": "terse",
+   "mode": "bm25",
+   "query": "virustotal: 14/89 engines malicious",
+   "relevant": [
+    "T1583.001"
+   ],
+   "retrieved": [
+    "T1593.002",
+    "T1608.006",
+    "T1608.007",
+    "T1583.008",
+    "T1648",
+    "T1027.001",
+    "T1589.001",
+    "T1696.002",
+    "T1027.014",
+    "T1204.005"
+   ],
+   "seconds": 0.0025
+  },
+  {
+   "id": "obs-013",
+   "category": "reputation",
+   "phrasing": "terse",
+   "mode": "dense",
+   "query": "virustotal: 14/89 engines malicious",
+   "relevant": [
+    "T1583.001"
+   ],
+   "retrieved": [
+    "T1204.002",
+    "T1204.003",
+    "T1608.001",
+    "T1497.001",
+    "T1218.013",
+    "T1218.011",
+    "T1685.007",
+    "T1204.005",
+    "T1218.012",
+    "T1583.008"
+   ],
+   "seconds": 0.1751
+  },
+  {
+   "id": "obs-013",
+   "category": "reputation",
+   "phrasing": "terse",
+   "mode": "hybrid",
+   "query": "virustotal: 14/89 engines malicious",
+   "relevant": [
+    "T1583.001"
+   ],
+   "retrieved": [
+    "T1593.002",
+    "T1583.008",
+    "T1204.003",
+    "T1204.005",
+    "T1204.001",
+    "T1218.015",
+    "T1608.006",
+    "T1204.002",
+    "T1127.003",
+    "T1608.001"
+   ],
+   "seconds": 0.0028
+  },
+  {
+   "id": "obs-013",
+   "category": "reputation",
+   "phrasing": "analyst",
+   "mode": "bm25",
+   "query": "On VirusTotal, 14 of 89 security engines flag aspenriver6.com as malicious.",
+   "relevant": [
+    "T1583.001"
+   ],
+   "retrieved": [
+    "T1593.002",
+    "T1553.001",
+    "T1202",
+    "T1027.001",
+    "T1608.006",
+    "T1218.008",
+    "T1055.012",
+    "T1547.008",
+    "T1608.007",
+    "T1583.008"
+   ],
+   "seconds": 0.0024
+  },
+  {
+   "id": "obs-013",
+   "category": "reputation",
+   "phrasing": "analyst",
+   "mode": "dense",
+   "query": "On VirusTotal, 14 of 89 security engines flag aspenriver6.com as malicious.",
+   "relevant": [
+    "T1583.001"
+   ],
+   "retrieved": [
+    "T1593.002",
+    "T1583.008",
+    "T1608.006",
+    "T1697",
+    "T1594",
+    "T1497.001",
+    "T1608.005",
+    "T1558.004",
+    "T1036.005",
+    "T1608.001"
+   ],
+   "seconds": 0.8593
+  },
+  {
+   "id": "obs-013",
+   "category": "reputation",
+   "phrasing": "analyst",
+   "mode": "hybrid",
+   "query": "On VirusTotal, 14 of 89 security engines flag aspenriver6.com as malicious.",
+   "relevant": [
+    "T1583.001"
+   ],
+   "retrieved": [
+    "T1593.002",
+    "T1608.006",
+    "T1583.008",
+    "T1553.001",
+    "T1176",
+    "T1608.007",
+    "T1518.001",
+    "T1566",
+    "T1127.003",
+    "T1176.001"
+   ],
+   "seconds": 0.003
+  },
+  {
+   "id": "obs-013",
+   "category": "reputation",
+   "phrasing": "agent",
+   "mode": "bm25",
+   "query": "domain flagged malicious by 14 VirusTotal engines",
+   "relevant": [
+    "T1583.001"
+   ],
+   "retrieved": [
+    "T1593.002",
+    "T1484",
+    "T1583.008",
+    "T1608.006",
+    "T1584.001",
+    "T1484.001",
+    "T1574.001",
+    "T1484.002",
+    "T1482",
+    "T1136.002"
+   ],
+   "seconds": 0.0017
+  },
+  {
+   "id": "obs-013",
+   "category": "reputation",
+   "phrasing": "agent",
+   "mode": "dense",
+   "query": "domain flagged malicious by 14 VirusTotal engines",
+   "relevant": [
+    "T1583.001"
+   ],
+   "retrieved": [
+    "T1583.001",
+    "T1593.002",
+    "T1568.002",
+    "T1484",
+    "T1584.001",
+    "T1090.004",
+    "T1590.001",
+    "T1484.001",
+    "T1684.002",
+    "T1608.006"
+   ],
+   "seconds": 0.2086
+  },
+  {
+   "id": "obs-013",
+   "category": "reputation",
+   "phrasing": "agent",
+   "mode": "hybrid",
+   "query": "domain flagged malicious by 14 VirusTotal engines",
+   "relevant": [
+    "T1583.001"
+   ],
+   "retrieved": [
+    "T1484",
+    "T1593.002",
+    "T1583.001",
+    "T1584.001",
+    "T1583.008",
+    "T1590.001",
+    "T1608.006",
+    "T1090.004",
+    "T1568.002",
+    "T1484.001"
+   ],
+   "seconds": 0.0033
+  },
+  {
+   "id": "obs-014",
+   "category": "reputation",
+   "phrasing": "terse",
+   "mode": "bm25",
+   "query": "github: listed in blocklists (AdguardTeam/HostlistsRegistry, DarkKnightYHJ/AdGuardHomeList, IgorKha/mikrotik-adlist)",
+   "relevant": [
+    "T1583.001"
+   ],
+   "retrieved": [
+    "T1195.001",
+    "T1546.001",
+    "T1027.001",
+    "T1608.002",
+    "T1583.006",
+    "T1608.001",
+    "T1564.002",
+    "T1547.007",
+    "T1608",
+    "T1584.001"
+   ],
+   "seconds": 0.0015
+  },
+  {
+   "id": "obs-014",
+   "category": "reputation",
+   "phrasing": "terse",
+   "mode": "dense",
+   "query": "github: listed in blocklists (AdguardTeam/HostlistsRegistry, DarkKnightYHJ/AdGuardHomeList, IgorKha/mikrotik-adlist)",
+   "relevant": [
+    "T1583.001"
+   ],
+   "retrieved": [
+    "T1593.003",
+    "T1567.003",
+    "T1567.001",
+    "T1213.003",
+    "T1647",
+    "T1087.003",
+    "T1087.004",
+    "T1679",
+    "T1574.011",
+    "T1567.004"
+   ],
+   "seconds": 0.3063
+  },
+  {
+   "id": "obs-014",
+   "category": "reputation",
+   "phrasing": "terse",
+   "mode": "hybrid",
+   "query": "github: listed in blocklists (AdguardTeam/HostlistsRegistry, DarkKnightYHJ/AdGuardHomeList, IgorKha/mikrotik-adlist)",
+   "relevant": [
+    "T1583.001"
+   ],
+   "retrieved": [
+    "T1195.001",
+    "T1564.002",
+    "T1593.003",
+    "T1213.003",
+    "T1204.005",
+    "T1608.006",
+    "T1567.004",
+    "T1608.001",
+    "T1218.015",
+    "T1547.007"
+   ],
+   "seconds": 0.0033
+  },
+  {
+   "id": "obs-014",
+   "category": "reputation",
+   "phrasing": "analyst",
+   "mode": "bm25",
+   "query": "aspenriver6.com appears in public malicious-URL blocklists hosted on GitHub (AdguardTeam/HostlistsRegistry, DarkKnightYHJ/AdGuardHomeList, IgorKha/mikrotik-adlist).",
+   "relevant": [
+    "T1583.001"
+   ],
+   "retrieved": [
+    "T1213.003",
+    "T1593.003",
+    "T1027.001",
+    "T1195.001",
+    "T1682",
+    "T1204.005",
+    "T1608.001",
+    "T1585",
+    "T1567.004",
+    "T1573.002"
+   ],
+   "seconds": 0.0024
+  },
+  {
+   "id": "obs-014",
+   "category": "reputation",
+   "phrasing": "analyst",
+   "mode": "dense",
+   "query": "aspenriver6.com appears in public malicious-URL blocklists hosted on GitHub (AdguardTeam/HostlistsRegistry, DarkKnightYHJ/AdGuardHomeList, IgorKha/mikrotik-adlist).",
+   "relevant": [
+    "T1583.001"
+   ],
+   "retrieved": [
+    "T1568.002",
+    "T1593.003",
+    "T1647",
+    "T1204.003",
+    "T1583.001",
+    "T1583.008",
+    "T1608.001",
+    "T1204.005",
+    "T1567.003",
+    "T1608.006"
+   ],
+   "seconds": 0.5209
+  },
+  {
+   "id": "obs-014",
+   "category": "reputation",
+   "phrasing": "analyst",
+   "mode": "hybrid",
+   "query": "aspenriver6.com appears in public malicious-URL blocklists hosted on GitHub (AdguardTeam/HostlistsRegistry, DarkKnightYHJ/AdGuardHomeList, IgorKha/mikrotik-adlist).",
+   "relevant": [
+    "T1583.001"
+   ],
+   "retrieved": [
+    "T1593.003",
+    "T1204.005",
+    "T1608.001",
+    "T1608.006",
+    "T1567.004",
+    "T1204.003",
+    "T1596.004",
+    "T1583.001",
+    "T1496.002",
+    "T1583.006"
+   ],
+   "seconds": 0.0035
+  },
+  {
+   "id": "obs-014",
+   "category": "reputation",
+   "phrasing": "agent",
+   "mode": "bm25",
+   "query": "domain present in public malicious URL blocklists",
+   "relevant": [
+    "T1583.001"
+   ],
+   "retrieved": [
+    "T1221",
+    "T1665",
+    "T1598.003",
+    "T1027.001",
+    "T1484",
+    "T1584.001",
+    "T1612",
+    "T1552.006",
+    "T1608.005",
+    "T1176.001"
+   ],
+   "seconds": 0.0029
+  },
+  {
+   "id": "obs-014",
+   "category": "reputation",
+   "phrasing": "agent",
+   "mode": "dense",
+   "query": "domain present in public malicious URL blocklists",
+   "relevant": [
+    "T1583.001"
+   ],
+   "retrieved": [
+    "T1583.001",
+    "T1090.004",
+    "T1568.002",
+    "T1584.001",
+    "T1484",
+    "T1078.002",
+    "T1583.008",
+    "T1590.001",
+    "T1593.003",
+    "T1087.002"
+   ],
+   "seconds": 0.0012
+  },
+  {
+   "id": "obs-014",
+   "category": "reputation",
+   "phrasing": "agent",
+   "mode": "hybrid",
+   "query": "domain present in public malicious URL blocklists",
+   "relevant": [
+    "T1583.001"
+   ],
+   "retrieved": [
+    "T1484",
+    "T1584.001",
+    "T1583.001",
+    "T1566.002",
+    "T1078.002",
+    "T1087.002",
+    "T1090.004",
+    "T1608.005",
+    "T1590.001",
+    "T1568.002"
+   ],
+   "seconds": 0.0043
+  },
+  {
+   "id": "obs-016",
+   "category": "subdomains",
+   "phrasing": "terse",
+   "mode": "bm25",
+   "query": "crt.sh: 3423 subdomains",
+   "relevant": [
+    "T1596.003"
+   ],
+   "retrieved": [
+    "T1584.001",
+    "T1584.007",
+    "T1583.007",
+    "T1596.001",
+    "T1584.002",
+    "T1590.002"
+   ],
+   "seconds": 0.0006
+  },
+  {
+   "id": "obs-016",
+   "category": "subdomains",
+   "phrasing": "terse",
+   "mode": "dense",
+   "query": "crt.sh: 3423 subdomains",
+   "relevant": [
+    "T1596.003"
+   ],
+   "retrieved": [
+    "T1583.001",
+    "T1584.001",
+    "T1090.004",
+    "T1568.002",
+    "T1596.004",
+    "T1584.002",
+    "T1593.003",
+    "T1484",
+    "T1568.003",
+    "T1102.001"
+   ],
+   "seconds": 0.17
+  },
+  {
+   "id": "obs-016",
+   "category": "subdomains",
+   "phrasing": "terse",
+   "mode": "hybrid",
+   "query": "crt.sh: 3423 subdomains",
+   "relevant": [
+    "T1596.003"
+   ],
+   "retrieved": [
+    "T1584.001",
+    "T1584.002",
+    "T1584.007",
+    "T1590.002",
+    "T1583.007",
+    "T1596.001",
+    "T1583.001",
+    "T1090.004",
+    "T1568.002",
+    "T1596.004"
+   ],
+   "seconds": 0.0017
+  },
+  {
+   "id": "obs-016",
+   "category": "subdomains",
+   "phrasing": "analyst",
+   "mode": "bm25",
+   "query": "Certificate Transparency logs list 3423 distinct subdomains of cloudflare.com, a very large externally visible host inventory.",
+   "relevant": [
+    "T1596.003"
+   ],
+   "retrieved": [
+    "T1547.015",
+    "T1584.001",
+    "T1654",
+    "T1588.004",
+    "T1673",
+    "T1547.007",
+    "T1649",
+    "T1608.003",
+    "T1553.004",
+    "T1587.003"
+   ],
+   "seconds": 0.0044
+  },
+  {
+   "id": "obs-016",
+   "category": "subdomains",
+   "phrasing": "analyst",
+   "mode": "dense",
+   "query": "Certificate Transparency logs list 3423 distinct subdomains of cloudflare.com, a very large externally visible host inventory.",
+   "relevant": [
+    "T1596.003"
+   ],
+   "retrieved": [
+    "T1087.004",
+    "T1090.004",
+    "T1596.004",
+    "T1584.007",
+    "T1583.001",
+    "T1583.007",
+    "T1619",
+    "T1580",
+    "T1526",
+    "T1654"
+   ],
+   "seconds": 0.2195
+  },
+  {
+   "id": "obs-016",
+   "category": "subdomains",
+   "phrasing": "analyst",
+   "mode": "hybrid",
+   "query": "Certificate Transparency logs list 3423 distinct subdomains of cloudflare.com, a very large externally visible host inventory.",
+   "relevant": [
+    "T1596.003"
+   ],
+   "retrieved": [
+    "T1654",
+    "T1584.001",
+    "T1087.004",
+    "T1619",
+    "T1588.004",
+    "T1596.003",
+    "T1580",
+    "T1587.003",
+    "T1584.007",
+    "T1583.007"
+   ],
+   "seconds": 0.0057
+  },
+  {
+   "id": "obs-016",
+   "category": "subdomains",
+   "phrasing": "agent",
+   "mode": "bm25",
+   "query": "3423 subdomains enumerated from certificate logs",
+   "relevant": [
+    "T1596.003"
+   ],
+   "retrieved": [
+    "T1584.001",
+    "T1588.004",
+    "T1649",
+    "T1608.003",
+    "T1553.004",
+    "T1587.003",
+    "T1685.006",
+    "T1685.005",
+    "T1654",
+    "T1596.003"
+   ],
+   "seconds": 0.002
+  },
+  {
+   "id": "obs-016",
+   "category": "subdomains",
+   "phrasing": "agent",
+   "mode": "dense",
+   "query": "3423 subdomains enumerated from certificate logs",
+   "relevant": [
+    "T1596.003"
+   ],
+   "retrieved": [
+    "T1654",
+    "T1583.001",
+    "T1584.001",
+    "T1596.004",
+    "T1596.003",
+    "T1584.002",
+    "T1593.003",
+    "T1090.004",
+    "T1593.002",
+    "T1590.002"
+   ],
+   "seconds": 0.2522
+  },
+  {
+   "id": "obs-016",
+   "category": "subdomains",
+   "phrasing": "agent",
+   "mode": "hybrid",
+   "query": "3423 subdomains enumerated from certificate logs",
+   "relevant": [
+    "T1596.003"
+   ],
+   "retrieved": [
+    "T1654",
+    "T1584.001",
+    "T1596.003",
+    "T1588.004",
+    "T1587.003",
+    "T1584.002",
+    "T1553",
+    "T1526",
+    "T1590.002",
+    "T1649"
+   ],
+   "seconds": 0.0031
+  },
+  {
+   "id": "obs-018",
+   "category": "subdomains",
+   "phrasing": "terse",
+   "mode": "bm25",
+   "query": "crt.sh: 1 non-production subdomains (support-dev.discord.com)",
+   "relevant": [
+    "T1596.003"
+   ],
+   "retrieved": [
+    "T1584.001",
+    "T1584.007",
+    "T1583.007",
+    "T1596.001",
+    "T1584.002",
+    "T1590.002",
+    "T1003.002",
+    "T1546.002",
+    "T1218.011",
+    "T1557.003"
+   ],
+   "seconds": 0.001
+  },
+  {
+   "id": "obs-018",
+   "category": "subdomains",
+   "phrasing": "terse",
+   "mode": "dense",
+   "query": "crt.sh: 1 non-production subdomains (support-dev.discord.com)",
+   "relevant": [
+    "T1596.003"
+   ],
+   "retrieved": [
+    "T1583.001",
+    "T1584.002",
+    "T1584.001",
+    "T1090.004",
+    "T1213.001",
+    "T1102.001",
+    "T1596.004",
+    "T1583.002",
+    "T1568.002",
+    "T1608.005"
+   ],
+   "seconds": 0.2444
+  },
+  {
+   "id": "obs-018",
+   "category": "subdomains",
+   "phrasing": "terse",
+   "mode": "hybrid",
+   "query": "crt.sh: 1 non-production subdomains (support-dev.discord.com)",
+   "relevant": [
+    "T1596.003"
+   ],
+   "retrieved": [
+    "T1584.001",
+    "T1584.002",
+    "T1584.007",
+    "T1590.002",
+    "T1583.007",
+    "T1684.002",
+    "T1564.002",
+    "T1583.001",
+    "T1090.004",
+    "T1596.001"
+   ],
+   "seconds": 0.0023
+  },
+  {
+   "id": "obs-018",
+   "category": "subdomains",
+   "phrasing": "analyst",
+   "mode": "bm25",
+   "query": "Certificate Transparency logs for discord.com reveal non-production or administrative hostnames such as support-dev.discord.com.",
+   "relevant": [
+    "T1596.003"
+   ],
+   "retrieved": [
+    "T1021",
+    "T1596.003",
+    "T1588.004",
+    "T1649",
+    "T1608.003",
+    "T1553.004",
+    "T1587.003",
+    "T1685.006",
+    "T1592.001",
+    "T1596.005"
+   ],
+   "seconds": 0.0028
+  },
+  {
+   "id": "obs-018",
+   "category": "subdomains",
+   "phrasing": "analyst",
+   "mode": "dense",
+   "query": "Certificate Transparency logs for discord.com reveal non-production or administrative hostnames such as support-dev.discord.com.",
+   "relevant": [
+    "T1596.003"
+   ],
+   "retrieved": [
+    "T1213.005",
+    "T1584.002",
+    "T1213.001",
+    "T1087.004",
+    "T1552.008",
+    "T1654",
+    "T1590.002",
+    "T1090.004",
+    "T1583.001",
+    "T1596.004"
+   ],
+   "seconds": 0.2179
+  },
+  {
+   "id": "obs-018",
+   "category": "subdomains",
+   "phrasing": "analyst",
+   "mode": "hybrid",
+   "query": "Certificate Transparency logs for discord.com reveal non-production or administrative hostnames such as support-dev.discord.com.",
+   "relevant": [
+    "T1596.003"
+   ],
+   "retrieved": [
+    "T1654",
+    "T1596.003",
+    "T1587.003",
+    "T1588.004",
+    "T1608.003",
+    "T1685.006",
+    "T1553.004",
+    "T1590.002",
+    "T1584.002",
+    "T1070.007"
+   ],
+   "seconds": 0.0038
+  },
+  {
+   "id": "obs-018",
+   "category": "subdomains",
+   "phrasing": "agent",
+   "mode": "bm25",
+   "query": "certificate transparency exposes dev/admin subdomains like support-dev.discord.com",
+   "relevant": [
+    "T1596.003"
+   ],
+   "retrieved": [
+    "T1561.002",
+    "T1561.001",
+    "T1584.001",
+    "T1588.004",
+    "T1021.002",
+    "T1649",
+    "T1608.003",
+    "T1553.004",
+    "T1587.003",
+    "T1561"
+   ],
+   "seconds": 0.0027
+  },
+  {
+   "id": "obs-018",
+   "category": "subdomains",
+   "phrasing": "agent",
+   "mode": "dense",
+   "query": "certificate transparency exposes dev/admin subdomains like support-dev.discord.com",
+   "relevant": [
+    "T1596.003"
+   ],
+   "retrieved": [
+    "T1090.004",
+    "T1584.002",
+    "T1583.001",
+    "T1596.004",
+    "T1213.001",
+    "T1207",
+    "T1584.001",
+    "T1587.003",
+    "T1596.003",
+    "T1102.001"
+   ],
+   "seconds": 0.1974
+  },
+  {
+   "id": "obs-018",
+   "category": "subdomains",
+   "phrasing": "agent",
+   "mode": "hybrid",
+   "query": "certificate transparency exposes dev/admin subdomains like support-dev.discord.com",
+   "relevant": [
+    "T1596.003"
+   ],
+   "retrieved": [
+    "T1587.003",
+    "T1588.004",
+    "T1596.003",
+    "T1584.001",
+    "T1553.004",
+    "T1608.003",
+    "T1584.002",
+    "T1553",
+    "T1584.007",
+    "T1590.002"
+   ],
+   "seconds": 0.0041
+  },
+  {
+   "id": "obs-019",
+   "category": "subdomains",
+   "phrasing": "terse",
+   "mode": "bm25",
+   "query": "crt.sh: 12 non-production subdomains (codespaces-dev.github.com, dev-days.github.com, dev.gtm.github.com, examadmin-uat.github.com)",
+   "relevant": [
+    "T1596.003"
+   ],
+   "retrieved": [
+    "T1584.001",
+    "T1584.007",
+    "T1583.007",
+    "T1596.001",
+    "T1584.002",
+    "T1590.002"
+   ],
+   "seconds": 0.0005
+  },
+  {
+   "id": "obs-019",
+   "category": "subdomains",
+   "phrasing": "terse",
+   "mode": "dense",
+   "query": "crt.sh: 12 non-production subdomains (codespaces-dev.github.com, dev-days.github.com, dev.gtm.github.com, examadmin-uat.github.com)",
+   "relevant": [
+    "T1596.003"
+   ],
+   "retrieved": [
+    "T1593.003",
+    "T1213.003",
+    "T1583.001",
+    "T1567.001",
+    "T1195.001",
+    "T1213.001",
+    "T1584.001",
+    "T1567.003",
+    "T1213",
+    "T1090.004"
+   ],
+   "seconds": 0.3025
+  },
+  {
+   "id": "obs-019",
+   "category": "subdomains",
+   "phrasing": "terse",
+   "mode": "hybrid",
+   "query": "crt.sh: 12 non-production subdomains (codespaces-dev.github.com, dev-days.github.com, dev.gtm.github.com, examadmin-uat.github.com)",
+   "relevant": [
+    "T1596.003"
+   ],
+   "retrieved": [
+    "T1584.001",
+    "T1584.007",
+    "T1583.007",
+    "T1584.002",
+    "T1590.002",
+    "T1593.003",
+    "T1213.003",
+    "T1583.001",
+    "T1596.001",
+    "T1567.001"
+   ],
+   "seconds": 0.0017
+  },
+  {
+   "id": "obs-019",
+   "category": "subdomains",
+   "phrasing": "analyst",
+   "mode": "bm25",
+   "query": "Certificate Transparency logs for github.com reveal non-production or administrative hostnames such as codespaces-dev.github.com, dev-days.github.com, dev.gtm.github.com, examadmin-uat.github.com.",
+   "relevant": [
+    "T1596.003"
+   ],
+   "retrieved": [
+    "T1021",
+    "T1596.003",
+    "T1588.004",
+    "T1649",
+    "T1608.003",
+    "T1553.004",
+    "T1587.003",
+    "T1685.006",
+    "T1592.001",
+    "T1596.005"
+   ],
+   "seconds": 0.0029
+  },
+  {
+   "id": "obs-019",
+   "category": "subdomains",
+   "phrasing": "analyst",
+   "mode": "dense",
+   "query": "Certificate Transparency logs for github.com reveal non-production or administrative hostnames such as codespaces-dev.github.com, dev-days.github.com, dev.gtm.github.com, examadmin-uat.github.com.",
+   "relevant": [
+    "T1596.003"
+   ],
+   "retrieved": [
+    "T1593.003",
+    "T1567.001",
+    "T1213.003",
+    "T1195.001",
+    "T1087.004",
+    "T1567.003",
+    "T1213.001",
+    "T1087.003",
+    "T1553.002",
+    "T1583.001"
+   ],
+   "seconds": 0.178
+  },
+  {
+   "id": "obs-019",
+   "category": "subdomains",
+   "phrasing": "analyst",
+   "mode": "hybrid",
+   "query": "Certificate Transparency logs for github.com reveal non-production or administrative hostnames such as codespaces-dev.github.com, dev-days.github.com, dev.gtm.github.com, examadmin-uat.github.com.",
+   "relevant": [
+    "T1596.003"
+   ],
+   "retrieved": [
+    "T1587.003",
+    "T1596.003",
+    "T1654",
+    "T1587.002",
+    "T1590.002",
+    "T1608.003",
+    "T1588.003",
+    "T1553.004",
+    "T1526",
+    "T1552.004"
+   ],
+   "seconds": 0.0038
+  },
+  {
+   "id": "obs-019",
+   "category": "subdomains",
+   "phrasing": "agent",
+   "mode": "bm25",
+   "query": "certificate transparency exposes dev/admin subdomains like codespaces-dev.github.com, dev-days.github.com, dev.gtm.github.com, examadmin-uat.github.com",
+   "relevant": [
+    "T1596.003"
+   ],
+   "retrieved": [
+    "T1561.002",
+    "T1561.001",
+    "T1584.001",
+    "T1588.004",
+    "T1021.002",
+    "T1649",
+    "T1608.003",
+    "T1553.004",
+    "T1587.003",
+    "T1561"
+   ],
+   "seconds": 0.0028
+  },
+  {
+   "id": "obs-019",
+   "category": "subdomains",
+   "phrasing": "agent",
+   "mode": "dense",
+   "query": "certificate transparency exposes dev/admin subdomains like codespaces-dev.github.com, dev-days.github.com, dev.gtm.github.com, examadmin-uat.github.com",
+   "relevant": [
+    "T1596.003"
+   ],
+   "retrieved": [
+    "T1593.003",
+    "T1213.003",
+    "T1553.001",
+    "T1567.001",
+    "T1090.004",
+    "T1583.001",
+    "T1567.003",
+    "T1553.002",
+    "T1195.001",
+    "T1587.003"
+   ],
+   "seconds": 0.5148
+  },
+  {
+   "id": "obs-019",
+   "category": "subdomains",
+   "phrasing": "agent",
+   "mode": "hybrid",
+   "query": "certificate transparency exposes dev/admin subdomains like codespaces-dev.github.com, dev-days.github.com, dev.gtm.github.com, examadmin-uat.github.com",
+   "relevant": [
+    "T1596.003"
+   ],
+   "retrieved": [
+    "T1587.003",
+    "T1588.004",
+    "T1584.001",
+    "T1553.004",
+    "T1596.003",
+    "T1584.007",
+    "T1608.003",
+    "T1590.002",
+    "T1587.002",
+    "T1176.002"
+   ],
+   "seconds": 0.0045
+  },
+  {
+   "id": "obs-020",
+   "category": "subdomains",
+   "phrasing": "terse",
+   "mode": "bm25",
+   "query": "crt.sh: 8 non-production subdomains (aboadmin.lemonde.fr, dev.carnet.lemonde.fr, dev.cities.lemonde.fr, dev.debats-afrique.lemonde.fr)",
+   "relevant": [
+    "T1596.003"
+   ],
+   "retrieved": [
+    "T1584.001",
+    "T1584.007",
+    "T1583.007",
+    "T1546.010",
+    "T1201",
+    "T1596.001",
+    "T1584.002",
+    "T1590.002"
+   ],
+   "seconds": 0.0012
+  },
+  {
+   "id": "obs-020",
+   "category": "subdomains",
+   "phrasing": "terse",
+   "mode": "dense",
+   "query": "crt.sh: 8 non-production subdomains (aboadmin.lemonde.fr, dev.carnet.lemonde.fr, dev.cities.lemonde.fr, dev.debats-afrique.lemonde.fr)",
+   "relevant": [
+    "T1596.003"
+   ],
+   "retrieved": [
+    "T1583.001",
+    "T1584.001",
+    "T1090.004",
+    "T1608.006",
+    "T1596.004",
+    "T1608.004",
+    "T1608.005",
+    "T1584.002",
+    "T1568.002",
+    "T1213.001"
+   ],
+   "seconds": 0.2608
+  },
+  {
+   "id": "obs-020",
+   "category": "subdomains",
+   "phrasing": "terse",
+   "mode": "hybrid",
+   "query": "crt.sh: 8 non-production subdomains (aboadmin.lemonde.fr, dev.carnet.lemonde.fr, dev.cities.lemonde.fr, dev.debats-afrique.lemonde.fr)",
+   "relevant": [
+    "T1596.003"
+   ],
+   "retrieved": [
+    "T1584.001",
+    "T1584.002",
+    "T1584.007",
+    "T1590.002",
+    "T1583.007",
+    "T1583.001",
+    "T1090.004",
+    "T1546.010",
+    "T1201",
+    "T1608.006"
+   ],
+   "seconds": 0.0021
+  },
+  {
+   "id": "obs-020",
+   "category": "subdomains",
+   "phrasing": "analyst",
+   "mode": "bm25",
+   "query": "Certificate Transparency logs for lemonde.fr reveal non-production or administrative hostnames such as aboadmin.lemonde.fr, dev.carnet.lemonde.fr, dev.cities.lemonde.fr, dev.debats-afrique.lemonde.fr.",
+   "relevant": [
+    "T1596.003"
+   ],
+   "retrieved": [
+    "T1021",
+    "T1596.003",
+    "T1588.004",
+    "T1649",
+    "T1608.003",
+    "T1553.004",
+    "T1587.003",
+    "T1685.006",
+    "T1592.001",
+    "T1596.005"
+   ],
+   "seconds": 0.003
+  },
+  {
+   "id": "obs-020",
+   "category": "subdomains",
+   "phrasing": "analyst",
+   "mode": "dense",
+   "query": "Certificate Transparency logs for lemonde.fr reveal non-production or administrative hostnames such as aboadmin.lemonde.fr, dev.carnet.lemonde.fr, dev.cities.lemonde.fr, dev.debats-afrique.lemonde.fr.",
+   "relevant": [
+    "T1596.003"
+   ],
+   "retrieved": [
+    "T1090.004",
+    "T1583.001",
+    "T1608.003",
+    "T1587.003",
+    "T1557.001",
+    "T1596.004",
+    "T1584.002",
+    "T1596.003",
+    "T1553.004",
+    "T1590.002"
+   ],
+   "seconds": 0.1615
+  },
+  {
+   "id": "obs-020",
+   "category": "subdomains",
+   "phrasing": "analyst",
+   "mode": "hybrid",
+   "query": "Certificate Transparency logs for lemonde.fr reveal non-production or administrative hostnames such as aboadmin.lemonde.fr, dev.carnet.lemonde.fr, dev.cities.lemonde.fr, dev.debats-afrique.lemonde.fr.",
+   "relevant": [
+    "T1596.003"
+   ],
+   "retrieved": [
+    "T1596.003",
+    "T1587.003",
+    "T1588.004",
+    "T1608.003",
+    "T1553.004",
+    "T1557.001",
+    "T1654",
+    "T1590.002",
+    "T1552.004",
+    "T1649"
+   ],
+   "seconds": 0.0033
+  },
+  {
+   "id": "obs-020",
+   "category": "subdomains",
+   "phrasing": "agent",
+   "mode": "bm25",
+   "query": "certificate transparency exposes dev/admin subdomains like aboadmin.lemonde.fr, dev.carnet.lemonde.fr, dev.cities.lemonde.fr, dev.debats-afrique.lemonde.fr",
+   "relevant": [
+    "T1596.003"
+   ],
+   "retrieved": [
+    "T1561.002",
+    "T1561.001",
+    "T1584.001",
+    "T1588.004",
+    "T1021.002",
+    "T1649",
+    "T1608.003",
+    "T1553.004",
+    "T1587.003",
+    "T1561"
+   ],
+   "seconds": 0.0028
+  },
+  {
+   "id": "obs-020",
+   "category": "subdomains",
+   "phrasing": "agent",
+   "mode": "dense",
+   "query": "certificate transparency exposes dev/admin subdomains like aboadmin.lemonde.fr, dev.carnet.lemonde.fr, dev.cities.lemonde.fr, dev.debats-afrique.lemonde.fr",
+   "relevant": [
+    "T1596.003"
+   ],
+   "retrieved": [
+    "T1090.004",
+    "T1583.001",
+    "T1584.001",
+    "T1587.003",
+    "T1596.004",
+    "T1596.003",
+    "T1608.003",
+    "T1553.004",
+    "T1213.001",
+    "T1584.002"
+   ],
+   "seconds": 0.2192
+  },
+  {
+   "id": "obs-020",
+   "category": "subdomains",
+   "phrasing": "agent",
+   "mode": "hybrid",
+   "query": "certificate transparency exposes dev/admin subdomains like aboadmin.lemonde.fr, dev.carnet.lemonde.fr, dev.cities.lemonde.fr, dev.debats-afrique.lemonde.fr",
+   "relevant": [
+    "T1596.003"
+   ],
+   "retrieved": [
+    "T1587.003",
+    "T1588.004",
+    "T1584.001",
+    "T1596.003",
+    "T1608.003",
+    "T1553.004",
+    "T1649",
+    "T1584.002",
+    "T1590.002",
+    "T1552.004"
+   ],
+   "seconds": 0.0037
+  },
+  {
+   "id": "obs-021",
+   "category": "subdomains",
+   "phrasing": "terse",
+   "mode": "bm25",
+   "query": "crt.sh: 3698 subdomains",
+   "relevant": [
+    "T1596.003"
+   ],
+   "retrieved": [
+    "T1584.001",
+    "T1584.007",
+    "T1583.007",
+    "T1596.001",
+    "T1584.002",
+    "T1590.002"
+   ],
+   "seconds": 0.0005
+  },
+  {
+   "id": "obs-021",
+   "category": "subdomains",
+   "phrasing": "terse",
+   "mode": "dense",
+   "query": "crt.sh: 3698 subdomains",
+   "relevant": [
+    "T1596.003"
+   ],
+   "retrieved": [
+    "T1583.001",
+    "T1584.001",
+    "T1568.002",
+    "T1596.004",
+    "T1593.003",
+    "T1090.004",
+    "T1590.001",
+    "T1593",
+    "T1584.002",
+    "T1553"
+   ],
+   "seconds": 0.1847
+  },
+  {
+   "id": "obs-021",
+   "category": "subdomains",
+   "phrasing": "terse",
+   "mode": "hybrid",
+   "query": "crt.sh: 3698 subdomains",
+   "relevant": [
+    "T1596.003"
+   ],
+   "retrieved": [
+    "T1584.001",
+    "T1584.002",
+    "T1590.002",
+    "T1596.001",
+    "T1584.007",
+    "T1583.007",
+    "T1583.001",
+    "T1568.002",
+    "T1596.004",
+    "T1593.003"
+   ],
+   "seconds": 0.0017
+  },
+  {
+   "id": "obs-021",
+   "category": "subdomains",
+   "phrasing": "analyst",
+   "mode": "bm25",
+   "query": "Certificate Transparency logs list 3698 distinct subdomains of microsoft.com, a very large externally visible host inventory.",
+   "relevant": [
+    "T1596.003"
+   ],
+   "retrieved": [
+    "T1547.015",
+    "T1584.001",
+    "T1654",
+    "T1588.004",
+    "T1673",
+    "T1547.007",
+    "T1649",
+    "T1608.003",
+    "T1553.004",
+    "T1587.003"
+   ],
+   "seconds": 0.0046
+  },
+  {
+   "id": "obs-021",
+   "category": "subdomains",
+   "phrasing": "analyst",
+   "mode": "dense",
+   "query": "Certificate Transparency logs list 3698 distinct subdomains of microsoft.com, a very large externally visible host inventory.",
+   "relevant": [
+    "T1596.003"
+   ],
+   "retrieved": [
+    "T1087.004",
+    "T1583.001",
+    "T1526",
+    "T1654",
+    "T1596.004",
+    "T1069.003",
+    "T1596.003",
+    "T1590.002",
+    "T1087",
+    "T1087.003"
+   ],
+   "seconds": 0.1938
+  },
+  {
+   "id": "obs-021",
+   "category": "subdomains",
+   "phrasing": "analyst",
+   "mode": "hybrid",
+   "query": "Certificate Transparency logs list 3698 distinct subdomains of microsoft.com, a very large externally visible host inventory.",
+   "relevant": [
+    "T1596.003"
+   ],
+   "retrieved": [
+    "T1654",
+    "T1584.001",
+    "T1588.004",
+    "T1596.003",
+    "T1087.004",
+    "T1587.003",
+    "T1619",
+    "T1553.004",
+    "T1087.001",
+    "T1580"
+   ],
+   "seconds": 0.0052
+  },
+  {
+   "id": "obs-021",
+   "category": "subdomains",
+   "phrasing": "agent",
+   "mode": "bm25",
+   "query": "3698 subdomains enumerated from certificate logs",
+   "relevant": [
+    "T1596.003"
+   ],
+   "retrieved": [
+    "T1584.001",
+    "T1588.004",
+    "T1649",
+    "T1608.003",
+    "T1553.004",
+    "T1587.003",
+    "T1685.006",
+    "T1685.005",
+    "T1654",
+    "T1596.003"
+   ],
+   "seconds": 0.0018
+  },
+  {
+   "id": "obs-021",
+   "category": "subdomains",
+   "phrasing": "agent",
+   "mode": "dense",
+   "query": "3698 subdomains enumerated from certificate logs",
+   "relevant": [
+    "T1596.003"
+   ],
+   "retrieved": [
+    "T1654",
+    "T1583.001",
+    "T1596.004",
+    "T1596.003",
+    "T1584.001",
+    "T1593.003",
+    "T1590.002",
+    "T1090.004",
+    "T1087.004",
+    "T1568.002"
+   ],
+   "seconds": 0.2655
+  },
+  {
+   "id": "obs-021",
+   "category": "subdomains",
+   "phrasing": "agent",
+   "mode": "hybrid",
+   "query": "3698 subdomains enumerated from certificate logs",
+   "relevant": [
+    "T1596.003"
+   ],
+   "retrieved": [
+    "T1654",
+    "T1588.004",
+    "T1596.003",
+    "T1587.003",
+    "T1584.001",
+    "T1649",
+    "T1590.002",
+    "T1608.003",
+    "T1526",
+    "T1553"
+   ],
+   "seconds": 0.0037
+  },
+  {
+   "id": "obs-022",
+   "category": "subdomains",
+   "phrasing": "terse",
+   "mode": "bm25",
+   "query": "crt.sh: 2 non-production subdomains (test.pets--pets.com, www.test.pets--pets.com)",
+   "relevant": [
+    "T1596.003"
+   ],
+   "retrieved": [
+    "T1584.001",
+    "T1574.011",
+    "T1548.001",
+    "T1584.007",
+    "T1583.007",
+    "T1596.001",
+    "T1055.015",
+    "T1584.002",
+    "T1557.003",
+    "T1590.002"
+   ],
+   "seconds": 0.0014
+  },
+  {
+   "id": "obs-022",
+   "category": "subdomains",
+   "phrasing": "terse",
+   "mode": "dense",
+   "query": "crt.sh: 2 non-production subdomains (test.pets--pets.com, www.test.pets--pets.com)",
+   "relevant": [
+    "T1596.003"
+   ],
+   "retrieved": [
+    "T1583.001",
+    "T1584.002",
+    "T1102.001",
+    "T1090.004",
+    "T1568.001",
+    "T1584.001",
+    "T1553.005",
+    "T1608.005",
+    "T1583.002",
+    "T1608.004"
+   ],
+   "seconds": 0.2402
+  },
+  {
+   "id": "obs-022",
+   "category": "subdomains",
+   "phrasing": "terse",
+   "mode": "hybrid",
+   "query": "crt.sh: 2 non-production subdomains (test.pets--pets.com, www.test.pets--pets.com)",
+   "relevant": [
+    "T1596.003"
+   ],
+   "retrieved": [
+    "T1584.002",
+    "T1584.001",
+    "T1590.002",
+    "T1553.001",
+    "T1584.007",
+    "T1583.007",
+    "T1583.001",
+    "T1574.011",
+    "T1548.001",
+    "T1102.001"
+   ],
+   "seconds": 0.0021
+  },
+  {
+   "id": "obs-022",
+   "category": "subdomains",
+   "phrasing": "analyst",
+   "mode": "bm25",
+   "query": "Certificate Transparency logs for pets.com reveal non-production or administrative hostnames such as test.pets--pets.com, www.test.pets--pets.com.",
+   "relevant": [
+    "T1596.003"
+   ],
+   "retrieved": [
+    "T1021",
+    "T1596.003",
+    "T1588.004",
+    "T1649",
+    "T1608.003",
+    "T1553.004",
+    "T1587.003",
+    "T1685.006",
+    "T1592.001",
+    "T1596.005"
+   ],
+   "seconds": 0.0025
+  },
+  {
+   "id": "obs-022",
+   "category": "subdomains",
+   "phrasing": "analyst",
+   "mode": "dense",
+   "query": "Certificate Transparency logs for pets.com reveal non-production or administrative hostnames such as test.pets--pets.com, www.test.pets--pets.com.",
+   "relevant": [
+    "T1596.003"
+   ],
+   "retrieved": [
+    "T1583.001",
+    "T1090.004",
+    "T1584.002",
+    "T1587.003",
+    "T1590.002",
+    "T1608.003",
+    "T1567.003",
+    "T1036.005",
+    "T1596.004",
+    "T1588.004"
+   ],
+   "seconds": 0.17
+  },
+  {
+   "id": "obs-022",
+   "category": "subdomains",
+   "phrasing": "analyst",
+   "mode": "hybrid",
+   "query": "Certificate Transparency logs for pets.com reveal non-production or administrative hostnames such as test.pets--pets.com, www.test.pets--pets.com.",
+   "relevant": [
+    "T1596.003"
+   ],
+   "retrieved": [
+    "T1587.003",
+    "T1588.004",
+    "T1596.003",
+    "T1685.006",
+    "T1608.003",
+    "T1553.004",
+    "T1654",
+    "T1590.002",
+    "T1584.002",
+    "T1547.007"
+   ],
+   "seconds": 0.0032
+  },
+  {
+   "id": "obs-022",
+   "category": "subdomains",
+   "phrasing": "agent",
+   "mode": "bm25",
+   "query": "certificate transparency exposes dev/admin subdomains like test.pets--pets.com, www.test.pets--pets.com",
+   "relevant": [
+    "T1596.003"
+   ],
+   "retrieved": [
+    "T1561.002",
+    "T1561.001",
+    "T1584.001",
+    "T1588.004",
+    "T1021.002",
+    "T1649",
+    "T1608.003",
+    "T1553.004",
+    "T1587.003",
+    "T1561"
+   ],
+   "seconds": 0.0022
+  },
+  {
+   "id": "obs-022",
+   "category": "subdomains",
+   "phrasing": "agent",
+   "mode": "dense",
+   "query": "certificate transparency exposes dev/admin subdomains like test.pets--pets.com, www.test.pets--pets.com",
+   "relevant": [
+    "T1596.003"
+   ],
+   "retrieved": [
+    "T1583.001",
+    "T1090.004",
+    "T1587.003",
+    "T1553.004",
+    "T1584.001",
+    "T1584.002",
+    "T1596.003",
+    "T1588.004",
+    "T1608.003",
+    "T1553.001"
+   ],
+   "seconds": 0.2779
+  },
+  {
+   "id": "obs-022",
+   "category": "subdomains",
+   "phrasing": "agent",
+   "mode": "hybrid",
+   "query": "certificate transparency exposes dev/admin subdomains like test.pets--pets.com, www.test.pets--pets.com",
+   "relevant": [
+    "T1596.003"
+   ],
+   "retrieved": [
+    "T1587.003",
+    "T1588.004",
+    "T1596.003",
+    "T1553.004",
+    "T1608.003",
+    "T1584.001",
+    "T1584.002",
+    "T1553",
+    "T1649",
+    "T1001.003"
+   ],
+   "seconds": 0.0042
+  },
+  {
+   "id": "obs-023",
+   "category": "wayback",
+   "phrasing": "terse",
+   "mode": "bm25",
+   "query": "wayback: archived /admin, /login",
+   "relevant": [
+    "T1594"
+   ],
+   "retrieved": [
+    "T1021.002",
+    "T1027",
+    "T1547.015",
+    "T1199",
+    "T1037.002",
+    "T1486",
+    "T1555.001",
+    "T1027.015",
+    "T1027.013",
+    "T1561.002"
+   ],
+   "seconds": 0.0019
+  },
+  {
+   "id": "obs-023",
+   "category": "wayback",
+   "phrasing": "terse",
+   "mode": "dense",
+   "query": "wayback: archived /admin, /login",
+   "relevant": [
+    "T1594"
+   ],
+   "retrieved": [
+    "T1560.002",
+    "T1560.001",
+    "T1564.002",
+    "T1567.003",
+    "T1685.006",
+    "T1021.002",
+    "T1056.003",
+    "T1490",
+    "T1070.007",
+    "T1213.002"
+   ],
+   "seconds": 1.7737
+  },
+  {
+   "id": "obs-023",
+   "category": "wayback",
+   "phrasing": "terse",
+   "mode": "hybrid",
+   "query": "wayback: archived /admin, /login",
+   "relevant": [
+    "T1594"
+   ],
+   "retrieved": [
+    "T1021.002",
+    "T1056.003",
+    "T1564.002",
+    "T1037.002",
+    "T1685.006",
+    "T1547.015",
+    "T1539",
+    "T1003.008",
+    "T1098.002",
+    "T1546.008"
+   ],
+   "seconds": 0.0028
+  },
+  {
+   "id": "obs-023",
+   "category": "wayback",
+   "phrasing": "analyst",
+   "mode": "bm25",
+   "query": "The Wayback Machine has archived sensitive paths on pets.com: /admin, /login.",
+   "relevant": [
+    "T1594"
+   ],
+   "retrieved": [
+    "T1021.002",
+    "T1005",
+    "T1485",
+    "T1574.004",
+    "T1555.001",
+    "T1673",
+    "T1027",
+    "T1547.015",
+    "T1199",
+    "T1037.002"
+   ],
+   "seconds": 0.0028
+  },
+  {
+   "id": "obs-023",
+   "category": "wayback",
+   "phrasing": "analyst",
+   "mode": "dense",
+   "query": "The Wayback Machine has archived sensitive paths on pets.com: /admin, /login.",
+   "relevant": [
+    "T1594"
+   ],
+   "retrieved": [
+    "T1574.009",
+    "T1685.006",
+    "T1574.007",
+    "T1594",
+    "T1070.007",
+    "T1564.001",
+    "T1651",
+    "T1560.002",
+    "T1564.002",
+    "T1690"
+   ],
+   "seconds": 0.1703
+  },
+  {
+   "id": "obs-023",
+   "category": "wayback",
+   "phrasing": "analyst",
+   "mode": "hybrid",
+   "query": "The Wayback Machine has archived sensitive paths on pets.com: /admin, /login.",
+   "relevant": [
+    "T1594"
+   ],
+   "retrieved": [
+    "T1574.009",
+    "T1555.001",
+    "T1005",
+    "T1564.002",
+    "T1037.002",
+    "T1547.015",
+    "T1056.003",
+    "T1021.002",
+    "T1539",
+    "T1546.004"
+   ],
+   "seconds": 0.004
+  },
+  {
+   "id": "obs-023",
+   "category": "wayback",
+   "phrasing": "agent",
+   "mode": "bm25",
+   "query": "archived admin/login pages /admin, /login in Wayback history",
+   "relevant": [
+    "T1594"
+   ],
+   "retrieved": [
+    "T1608.005",
+    "T1070.003",
+    "T1552.003",
+    "T1056",
+    "T1021.002",
+    "T1070.007",
+    "T1690",
+    "T1027",
+    "T1547.015",
+    "T1696"
+   ],
+   "seconds": 0.0022
+  },
+  {
+   "id": "obs-023",
+   "category": "wayback",
+   "phrasing": "agent",
+   "mode": "dense",
+   "query": "archived admin/login pages /admin, /login in Wayback history",
+   "relevant": [
+    "T1594"
+   ],
+   "retrieved": [
+    "T1560.002",
+    "T1564.002",
+    "T1685.006",
+    "T1070.007",
+    "T1056.003",
+    "T1560.001",
+    "T1003.008",
+    "T1037.004",
+    "T1567.003",
+    "T1021.002"
+   ],
+   "seconds": 1.3166
+  },
+  {
+   "id": "obs-023",
+   "category": "wayback",
+   "phrasing": "agent",
+   "mode": "hybrid",
+   "query": "archived admin/login pages /admin, /login in Wayback history",
+   "relevant": [
+    "T1594"
+   ],
+   "retrieved": [
+    "T1552.003",
+    "T1690",
+    "T1070.007",
+    "T1037.002",
+    "T1021.002",
+    "T1056.003",
+    "T1547.015",
+    "T1070.003",
+    "T1564.002",
+    "T1608.005"
+   ],
+   "seconds": 0.0036
+  },
+  {
+   "id": "obs-025",
+   "category": "subdomains",
+   "phrasing": "terse",
+   "mode": "bm25",
+   "query": "crt.sh: 4 non-production subdomains (git.code.sourceforge.net, git.sourceforge.net, userweb-dev.sourceforge.net, vpn.ch3.sourceforge.net)",
+   "relevant": [
+    "T1596.003"
+   ],
+   "retrieved": [
+    "T1584.001",
+    "T1584.007",
+    "T1583.007",
+    "T1127.001",
+    "T1599",
+    "T1596.001",
+    "T1584.002",
+    "T1055.013",
+    "T1574.012",
+    "T1557.003"
+   ],
+   "seconds": 0.0011
+  },
+  {
+   "id": "obs-025",
+   "category": "subdomains",
+   "phrasing": "terse",
+   "mode": "dense",
+   "query": "crt.sh: 4 non-production subdomains (git.code.sourceforge.net, git.sourceforge.net, userweb-dev.sourceforge.net, vpn.ch3.sourceforge.net)",
+   "relevant": [
+    "T1596.003"
+   ],
+   "retrieved": [
+    "T1593.003",
+    "T1213.003",
+    "T1567.001",
+    "T1596.004",
+    "T1608.006",
+    "T1090.004",
+    "T1567.003",
+    "T1608.005",
+    "T1583.001",
+    "T1608.001"
+   ],
+   "seconds": 0.2047
+  },
+  {
+   "id": "obs-025",
+   "category": "subdomains",
+   "phrasing": "terse",
+   "mode": "hybrid",
+   "query": "crt.sh: 4 non-production subdomains (git.code.sourceforge.net, git.sourceforge.net, userweb-dev.sourceforge.net, vpn.ch3.sourceforge.net)",
+   "relevant": [
+    "T1596.003"
+   ],
+   "retrieved": [
+    "T1584.002",
+    "T1584.001",
+    "T1584.007",
+    "T1553.001",
+    "T1583.007",
+    "T1590.002",
+    "T1593.003",
+    "T1213.003",
+    "T1567.001",
+    "T1127.001"
+   ],
+   "seconds": 0.0022
+  },
+  {
+   "id": "obs-025",
+   "category": "subdomains",
+   "phrasing": "analyst",
+   "mode": "bm25",
+   "query": "Certificate Transparency logs for sourceforge.net reveal non-production or administrative hostnames such as git.code.sourceforge.net, git.sourceforge.net, userweb-dev.sourceforge.net, vpn.ch3.sourceforge.net.",
+   "relevant": [
+    "T1596.003"
+   ],
+   "retrieved": [
+    "T1021",
+    "T1596.003",
+    "T1588.004",
+    "T1649",
+    "T1608.003",
+    "T1553.004",
+    "T1587.003",
+    "T1685.006",
+    "T1592.001",
+    "T1596.005"
+   ],
+   "seconds": 0.0026
+  },
+  {
+   "id": "obs-025",
+   "category": "subdomains",
+   "phrasing": "analyst",
+   "mode": "dense",
+   "query": "Certificate Transparency logs for sourceforge.net reveal non-production or administrative hostnames such as git.code.sourceforge.net, git.sourceforge.net, userweb-dev.sourceforge.net, vpn.ch3.sourceforge.net.",
+   "relevant": [
+    "T1596.003"
+   ],
+   "retrieved": [
+    "T1567.001",
+    "T1593.003",
+    "T1213.003",
+    "T1567.003",
+    "T1608.006",
+    "T1213.001",
+    "T1596.004",
+    "T1564.001",
+    "T1606",
+    "T1553.002"
+   ],
+   "seconds": 0.2387
+  },
+  {
+   "id": "obs-025",
+   "category": "subdomains",
+   "phrasing": "analyst",
+   "mode": "hybrid",
+   "query": "Certificate Transparency logs for sourceforge.net reveal non-production or administrative hostnames such as git.code.sourceforge.net, git.sourceforge.net, userweb-dev.sourceforge.net, vpn.ch3.sourceforge.net.",
+   "relevant": [
+    "T1596.003"
+   ],
+   "retrieved": [
+    "T1596.003",
+    "T1587.003",
+    "T1553.004",
+    "T1654",
+    "T1685.006",
+    "T1608.003",
+    "T1070.007",
+    "T1590.002",
+    "T1606.002",
+    "T1588.003"
+   ],
+   "seconds": 0.0034
+  },
+  {
+   "id": "obs-025",
+   "category": "subdomains",
+   "phrasing": "agent",
+   "mode": "bm25",
+   "query": "certificate transparency exposes dev/admin subdomains like git.code.sourceforge.net, git.sourceforge.net, userweb-dev.sourceforge.net, vpn.ch3.sourceforge.net",
+   "relevant": [
+    "T1596.003"
+   ],
+   "retrieved": [
+    "T1561.002",
+    "T1561.001",
+    "T1584.001",
+    "T1588.004",
+    "T1021.002",
+    "T1649",
+    "T1608.003",
+    "T1553.004",
+    "T1587.003",
+    "T1561"
+   ],
+   "seconds": 0.0025
+  },
+  {
+   "id": "obs-025",
+   "category": "subdomains",
+   "phrasing": "agent",
+   "mode": "dense",
+   "query": "certificate transparency exposes dev/admin subdomains like git.code.sourceforge.net, git.sourceforge.net, userweb-dev.sourceforge.net, vpn.ch3.sourceforge.net",
+   "relevant": [
+    "T1596.003"
+   ],
+   "retrieved": [
+    "T1593.003",
+    "T1567.001",
+    "T1213.003",
+    "T1567.003",
+    "T1606",
+    "T1090.004",
+    "T1596.004",
+    "T1587.003",
+    "T1608.006",
+    "T1553.001"
+   ],
+   "seconds": 0.1795
+  },
+  {
+   "id": "obs-025",
+   "category": "subdomains",
+   "phrasing": "agent",
+   "mode": "hybrid",
+   "query": "certificate transparency exposes dev/admin subdomains like git.code.sourceforge.net, git.sourceforge.net, userweb-dev.sourceforge.net, vpn.ch3.sourceforge.net",
+   "relevant": [
+    "T1596.003"
+   ],
+   "retrieved": [
+    "T1587.003",
+    "T1588.004",
+    "T1596.003",
+    "T1553.004",
+    "T1608.003",
+    "T1649",
+    "T1606.002",
+    "T1590.002",
+    "T1588.003",
+    "T1584.001"
+   ],
+   "seconds": 0.0033
+  },
+  {
+   "id": "obs-026",
+   "category": "wayback",
+   "phrasing": "terse",
+   "mode": "bm25",
+   "query": "wayback: archived /.git",
+   "relevant": [
+    "T1594"
+   ],
+   "retrieved": [
+    "T1027",
+    "T1027.015",
+    "T1027.013",
+    "T1566.001",
+    "T1213.003",
+    "T1593.003",
+    "T1176.002"
+   ],
+   "seconds": 0.0008
+  },
+  {
+   "id": "obs-026",
+   "category": "wayback",
+   "phrasing": "terse",
+   "mode": "dense",
+   "query": "wayback: archived /.git",
+   "relevant": [
+    "T1594"
+   ],
+   "retrieved": [
+    "T1560.002",
+    "T1560.001",
+    "T1213.003",
+    "T1560.003",
+    "T1593.003",
+    "T1213",
+    "T1567.003",
+    "T1567.001",
+    "T1564.001",
+    "T1003.007"
+   ],
+   "seconds": 0.3553
+  },
+  {
+   "id": "obs-026",
+   "category": "wayback",
+   "phrasing": "terse",
+   "mode": "hybrid",
+   "query": "wayback: archived /.git",
+   "relevant": [
+    "T1594"
+   ],
+   "retrieved": [
+    "T1213.003",
+    "T1593.003",
+    "T1027.015",
+    "T1027.013",
+    "T1027",
+    "T1560.002",
+    "T1560.001",
+    "T1560.003",
+    "T1566.001",
+    "T1213"
+   ],
+   "seconds": 0.0023
+  },
+  {
+   "id": "obs-026",
+   "category": "wayback",
+   "phrasing": "analyst",
+   "mode": "bm25",
+   "query": "The Wayback Machine has archived sensitive paths on sourceforge.net: /.git.",
+   "relevant": [
+    "T1594"
+   ],
+   "retrieved": [
+    "T1005",
+    "T1574.004",
+    "T1213.003",
+    "T1593.003",
+    "T1673",
+    "T1027",
+    "T1574.009",
+    "T1129",
+    "T1027.002",
+    "T1114"
+   ],
+   "seconds": 0.0027
+  },
+  {
+   "id": "obs-026",
+   "category": "wayback",
+   "phrasing": "analyst",
+   "mode": "dense",
+   "query": "The Wayback Machine has archived sensitive paths on sourceforge.net: /.git.",
+   "relevant": [
+    "T1594"
+   ],
+   "retrieved": [
+    "T1560.002",
+    "T1213.003",
+    "T1593.003",
+    "T1567.001",
+    "T1567.003",
+    "T1608.006",
+    "T1574.007",
+    "T1213",
+    "T1564.001",
+    "T1560.001"
+   ],
+   "seconds": 0.2519
+  },
+  {
+   "id": "obs-026",
+   "category": "wayback",
+   "phrasing": "analyst",
+   "mode": "hybrid",
+   "query": "The Wayback Machine has archived sensitive paths on sourceforge.net: /.git.",
+   "relevant": [
+    "T1594"
+   ],
+   "retrieved": [
+    "T1213.003",
+    "T1593.003",
+    "T1574.009",
+    "T1027.013",
+    "T1005",
+    "T1027.015",
+    "T1027",
+    "T1213",
+    "T1027.002",
+    "T1602.002"
+   ],
+   "seconds": 0.0034
+  },
+  {
+   "id": "obs-026",
+   "category": "wayback",
+   "phrasing": "agent",
+   "mode": "bm25",
+   "query": "archived admin/login pages /.git in Wayback history",
+   "relevant": [
+    "T1594"
+   ],
+   "retrieved": [
+    "T1608.005",
+    "T1070.003",
+    "T1552.003",
+    "T1056",
+    "T1021.002",
+    "T1070.007",
+    "T1690",
+    "T1027",
+    "T1547.015",
+    "T1696"
+   ],
+   "seconds": 0.0026
+  },
+  {
+   "id": "obs-026",
+   "category": "wayback",
+   "phrasing": "agent",
+   "mode": "dense",
+   "query": "archived admin/login pages /.git in Wayback history",
+   "relevant": [
+    "T1594"
+   ],
+   "retrieved": [
+    "T1560.002",
+    "T1685.006",
+    "T1003.008",
+    "T1213.001",
+    "T1567.003",
+    "T1593.003",
+    "T1213.003",
+    "T1564.002",
+    "T1213.002",
+    "T1690"
+   ],
+   "seconds": 0.226
+  },
+  {
+   "id": "obs-026",
+   "category": "wayback",
+   "phrasing": "agent",
+   "mode": "hybrid",
+   "query": "archived admin/login pages /.git in Wayback history",
+   "relevant": [
+    "T1594"
+   ],
+   "retrieved": [
+    "T1552.003",
+    "T1690",
+    "T1070.003",
+    "T1070.007",
+    "T1593.003",
+    "T1213.003",
+    "T1037.002",
+    "T1685.006",
+    "T1003.008",
+    "T1547.015"
+   ],
+   "seconds": 0.0038
+  }
+ ]
+}

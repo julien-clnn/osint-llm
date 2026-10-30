@@ -96,3 +96,38 @@ def test_record_also_saves_errors(monkeypatch):
     monkeypatch.setenv("OSINTLLM_FIXTURE_MODE", "replay")
     replayed = tool.run(domain="example.com")
     assert replayed == result
+
+
+def test_normalize_hook_applies_to_live_cached_and_replayed_results(monkeypatch):
+    """The hook reshapes every successful result, whatever its origin."""
+    fixtures.set_current_domain("example.com")
+    tool = Tool(
+        name="whois_lookup",
+        description="test",
+        parameters={"type": "object", "properties": {}},
+        func=lambda domain: {"domain": domain, "n": 1},
+        normalize=lambda r: {**r, "n": str(r["n"])},
+    )
+
+    monkeypatch.setenv("OSINTLLM_FIXTURE_MODE", "record")
+    assert tool.run(domain="example.com")["n"] == "1"
+
+    monkeypatch.setenv("OSINTLLM_FIXTURE_MODE", "replay")
+    assert tool.run(domain="example.com")["n"] == "1"
+
+
+def test_normalize_hook_skips_errors(monkeypatch):
+    fixtures.set_current_domain("example.com")
+
+    def _boom(domain: str) -> dict:
+        raise RuntimeError("network outage")
+
+    tool = Tool(
+        name="whois_lookup",
+        description="test",
+        parameters={"type": "object", "properties": {}},
+        func=_boom,
+        normalize=lambda r: {"normalized": True},
+    )
+
+    assert "error" in tool.run(domain="example.com")

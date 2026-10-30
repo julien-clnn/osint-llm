@@ -15,6 +15,9 @@ requests[socks]>=2.32
 # DNS records (MX/TXT/NS, SPF/DMARC) — dns_records_lookup tool
 dnspython>=2.6
 
+# ATT&CK retrieval layer: embedding matrix + cosine similarity (see DECISIONS.md)
+numpy>=2.0
+
 # Web API — backend for the React frontend (agent SSE streaming)
 fastapi>=0.110
 uvicorn[standard]>=0.29

@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { apiFetch } from "../lib/api.js";
 
 function pct(x, digits = 1) {
   return x == null ? "—" : `${(x * 100).toFixed(digits)}%`;
@@ -384,7 +385,7 @@ export default function Results() {
   const [detailLoading, setDetailLoading] = useState(false);
 
   useEffect(() => {
-    fetch("/api/eval/runs")
+    apiFetch("/api/eval/runs")
       .then((r) => {
         if (!r.ok) throw new Error();
         return r.json();
@@ -403,7 +404,7 @@ export default function Results() {
     setSelectedId(id);
     setDetail(null);
     setDetailLoading(true);
-    fetch(`/api/eval/runs/${id}`)
+    apiFetch(`/api/eval/runs/${id}`)
       .then((r) => {
         if (!r.ok) throw new Error();
         return r.json();

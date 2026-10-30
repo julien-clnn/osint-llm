@@ -21,6 +21,7 @@ PASSIVE reconnaissance: we query VirusTotal (public third party), never the targ
 from __future__ import annotations
 
 import os
+from datetime import datetime, timezone
 from typing import Any
 
 import requests
@@ -34,6 +35,43 @@ _HOST = "www.virustotal.com"
 
 # Cap on passive DNS IPs returned to the LLM.
 _MAX_RESOLUTIONS = 30
+
+
+def _epoch_to_iso(value: Any) -> Any:
+    """Convert a VT Unix timestamp (seconds, UTC) to an ISO date (YYYY-MM-DD).
+
+    Idempotent: a value that is already a string (ISO date from a newer
+    result) or anything non-numeric is returned unchanged. The date is
+    computed in code because the LLM converts raw epochs unreliably
+    (measured: 2016-01-01 written for a real 2016-03-03).
+    """
+    if isinstance(value, bool) or not isinstance(value, (int, float)):
+        return value
+    try:
+        return datetime.fromtimestamp(value, tz=timezone.utc).strftime("%Y-%m-%d")
+    except (OverflowError, OSError, ValueError):
+        return value
+
+
+def normalize_result(result: dict[str, Any]) -> dict[str, Any]:
+    """Tool.run hook: ISO dates in passive DNS, whatever the result's origin.
+
+    Fixtures recorded before this format (raw epochs in `last_resolved`) are
+    served as-is in --replay; this hook gives them the same output as a live
+    call. Returns a copy, never mutates the input.
+    """
+    entries = result.get("passive_dns")
+    if not isinstance(entries, list):
+        return result
+    return {
+        **result,
+        "passive_dns": [
+            {**e, "last_resolved": _epoch_to_iso(e.get("last_resolved"))}
+            if isinstance(e, dict) and "last_resolved" in e
+            else e
+            for e in entries
+        ],
+    }
 
 
 def _headers() -> dict[str, str]:
@@ -91,7 +129,7 @@ def _fetch_resolutions(domain: str) -> list[dict[str, Any]]:
         out.append(
             {
                 "ip_address": attrs.get("ip_address"),
-                "last_resolved": attrs.get("date"),
+                "last_resolved": _epoch_to_iso(attrs.get("date")),
             }
         )
     return out
@@ -181,4 +219,5 @@ virustotal_tool = Tool(
         "required": ["domain"],
     },
     func=virustotal_lookup,
+    normalize=normalize_result,
 )

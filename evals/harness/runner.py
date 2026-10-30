@@ -65,6 +65,8 @@ class RunRecord:
     wall_seconds: float
     scenario: str = DEFAULT_SCENARIO_NAME
     llm_calls: list[LLMCallRecord] = field(default_factory=list)
+    # ATT&CK IDs removed by the final deterministic guard (with_verifier only).
+    stripped_attack_ids: list[str] = field(default_factory=list)
 
     @property
     def total_usage(self) -> Usage:
@@ -94,6 +96,7 @@ def _settings_for_eval(seed: int) -> Settings:
         request_timeout=base.request_timeout,
         max_verify_iterations=base.max_verify_iterations,
         verifier_provider=base.verifier_provider,
+        attack_rag=base.attack_rag,
     )
 
 
@@ -164,6 +167,7 @@ def run_once(
             wall_seconds=time.monotonic() - t0,
             scenario=scenario_name,
             llm_calls=agent_instr.calls + verifier_instr.calls,
+            stripped_attack_ids=list(inv_result.stripped_attack_ids),
         )
         return record
 

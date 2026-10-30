@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from "react";
+import { IS_DEMO, apiFetch } from "../lib/api.js";
 import BenchmarkGraph from "../components/BenchmarkGraph.jsx";
 
 // Same scenarios as the Analysis screen (see scenarios/*.yaml on the backend).
@@ -46,7 +47,7 @@ export default function Benchmark() {
 
   useEffect(() => {
     const getJson = (url) =>
-      fetch(url).then(async (r) => {
+      apiFetch(url).then(async (r) => {
         if (r.ok) return r.json();
         const body = await r.json().catch(() => null);
         throw new Error(typeof body?.detail === "string" ? body.detail : `HTTP ${r.status}`);
@@ -150,7 +151,7 @@ export default function Benchmark() {
     abortRef.current = controller;
 
     try {
-      const res = await fetch(`/api/eval/launch?${params.toString()}`, { signal: controller.signal });
+      const res = await apiFetch(`/api/eval/launch?${params.toString()}`, { signal: controller.signal });
       if (!res.ok || !res.body) {
         throw new Error(`Server responded with ${res.status}.`);
       }
@@ -301,6 +302,13 @@ export default function Benchmark() {
         </p>
       </div>
 
+      {IS_DEMO ? (
+        <div className="demo-banner">
+          <strong>Demo</strong> — launching a benchmark runs real LLM calls, so it is only available
+          with the local setup. The <strong>Results</strong> tab shows the recorded evaluation runs.
+        </div>
+      ) : null}
+
       {errorMsg ? <div className="error">{errorMsg}</div> : null}
 
       <div className="section">
@@ -411,7 +419,7 @@ export default function Benchmark() {
         )}
       </div>
 
-      <button className="btn" disabled={selectedDomains.length === 0} onClick={() => setPhase("confirm")}>
+      <button className="btn" disabled={IS_DEMO || selectedDomains.length === 0} onClick={() => setPhase("confirm")}>
         Launch evaluation →
       </button>
       {selectedDomains.length === 0 ? (

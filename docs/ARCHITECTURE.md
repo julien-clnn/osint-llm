@@ -52,6 +52,23 @@ LLM. **Two distinct agents** collaborate, with separate roles.
 
 Measured (not assumed) impact of this second agent: [docs/RESULTS.md](RESULTS.md).
 
+## MITRE ATT&CK layer (RAG)
+
+Once the facts are collected, the reconnaissance agent sends its notable
+findings to `attack_lookup` in one batched call. The tool retrieves the
+matching ATT&CK techniques from a local index (hybrid BM25 + `mistral-embed`
+retrieval, reciprocal rank fusion) and the agent maps findings to technique
+IDs in the `attack_mappings` field of `submit_report`.
+
+The verification step gains two checks: a deterministic one (any technique
+ID that no `attack_lookup` call returned during the run fails the audit and
+is sent back for correction; one that survives the correction rounds is
+removed before display) and an LLM one (a justification contradicting the
+retrieved excerpt is flagged). `OSINTLLM_ATTACK_RAG=0` turns the layer off
+and restores the exact previous prompts and schemas.
+
+Corpus, retrieval design, evaluation and limitations: [docs/RAG.md](RAG.md).
+
 ## Declarative scenarios
 
 The reconnaissance agent (`agent.py`) runs a **mission** defined by a
@@ -145,6 +162,8 @@ osintllm/
 ├── Makefile                    # install / run / api / web / serve shortcuts
 ├── requirements.txt
 ├── .env.example                # config template (copy to .env)
+├── scripts/build_attack_index.py  # builds the MITRE ATT&CK index (make attack-index)
+├── data/attack/                # committed ATT&CK v20.0 index (JSON + numpy)
 ├── tests/                      # pytest tests (mocked LLM, real tools)
 └── src/osintllm/
     ├── config.py               # .env loading + settings (guardrails)
@@ -155,6 +174,7 @@ osintllm/
     ├── verifier.py               # verifier agent (report audit)
     ├── investigation.py          # multi-agent orchestrator (recon + verification)
     ├── scenarios.py               # declarative scenario loading (scenarios/*.yaml)
+    ├── rag/                       # ATT&CK retrieval: corpus, embeddings, index, BM25, retriever
     └── tools/
         ├── base.py                       # shared tool foundation
         ├── whois_tool.py                 # WHOIS tool (passive)
@@ -166,6 +186,7 @@ osintllm/
         ├── tech_fingerprint_tool.py      # tech fingerprint via headers (1 request to target)
         ├── github_search_tool.py         # GitHub search tool (repositories + code)
         ├── virustotal_tool.py            # VirusTotal reputation + passive DNS tool
+        ├── attack_lookup_tool.py         # MITRE ATT&CK lookup over the local index
         └── __init__.py                   # tool registry
 ```
 

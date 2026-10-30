@@ -6,6 +6,7 @@ To add a tool: import it and append it to the `ALL_TOOLS` list.
 from __future__ import annotations
 
 from .asn_lookup_tool import asn_lookup_tool
+from .attack_lookup_tool import attack_lookup_tool
 from .base import Tool
 from .crtsh_tool import crtsh_tool
 from .dns_records_tool import dns_records_tool
@@ -27,6 +28,8 @@ ALL_TOOLS: list[Tool] = [
     tech_fingerprint_tool,
     github_search_tool,
     virustotal_tool,
+    # Last: maps the findings of the tools above to MITRE ATT&CK techniques.
+    attack_lookup_tool,
 ]
 
 # Name -> tool index, used to dispatch calls from the agent loop.

@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { IS_DEMO, apiFetch } from "../lib/api.js";
 
 const PROVIDER_LABELS = {
   deepseek: "DeepSeek",
@@ -15,7 +16,7 @@ export default function Settings() {
   const [loadError, setLoadError] = useState("");
 
   useEffect(() => {
-    fetch("/api/settings")
+    apiFetch("/api/settings")
       .then((r) => {
         if (!r.ok) throw new Error();
         return r.json();
@@ -36,6 +37,13 @@ export default function Settings() {
           is changed from the web UI.
         </p>
       </div>
+
+      {IS_DEMO ? (
+        <div className="demo-banner">
+          <strong>Demo</strong> — no key is configured on this site. The values below describe the
+          setup that recorded the replayed analyses.
+        </div>
+      ) : null}
 
       {loadError ? <div className="error">{loadError}</div> : null}
 

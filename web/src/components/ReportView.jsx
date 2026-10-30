@@ -271,6 +271,44 @@ function AsnSection({ asn }) {
   );
 }
 
+// Official page of an ATT&CK technique; null for a malformed ID (never build
+// a link from an unchecked string).
+function attackUrl(id) {
+  const clean = String(id || "").trim().toUpperCase();
+  if (!/^T\d{4}(\.\d{3})?$/.test(clean)) return null;
+  return `https://attack.mitre.org/techniques/${clean.replace(".", "/")}`;
+}
+
+// Findings mapped to MITRE ATT&CK (optional: absent from reports produced
+// without the ATT&CK layer, including archived results).
+function AttackSection({ mappings }) {
+  if (!mappings || mappings.length === 0) return null;
+  return (
+    <div className="section">
+      <h2>MITRE ATT&amp;CK mapping</h2>
+      {mappings.map((m, i) => {
+        const url = attackUrl(m.technique_id);
+        return (
+          <div key={i} className="asn-card attack-card">
+            <div className="asn-head">
+              {url ? (
+                <a className="asn-num" href={url} target="_blank" rel="noreferrer">
+                  {m.technique_id}
+                </a>
+              ) : (
+                <span className="asn-num">{m.technique_id}</span>
+              )}
+              <strong>{m.technique_name}</strong>
+            </div>
+            <p className="attack-finding">{m.finding}</p>
+            {m.justification ? <p className="attack-why">{m.justification}</p> : null}
+          </div>
+        );
+      })}
+    </div>
+  );
+}
+
 function GithubSection({ github }) {
   if (!github || github.length === 0) return null;
   const repos = github.flatMap((f) => f.repository_matches || []);
@@ -368,6 +406,8 @@ export default function ReportView({ report }) {
           </ul>
         </div>
       ) : null}
+
+      <AttackSection mappings={report.attack_mappings} />
 
       {report.verification && report.verification.corrected ? (
         <div className="section">

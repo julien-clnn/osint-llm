@@ -1,0 +1,298 @@
+{
+ "type": "bundle",
+ "id": "bundle--mini",
+ "_comment": "Tiny hand-written ATT&CK-shaped corpus for unit tests (abridged texts, not the official ones).",
+ "objects": [
+  {
+   "type": "x-mitre-tactic",
+   "id": "x-mitre-tactic--1",
+   "name": "Initial Access",
+   "x_mitre_shortname": "initial-access"
+  },
+  {
+   "type": "x-mitre-tactic",
+   "id": "x-mitre-tactic--2",
+   "name": "Credential Access",
+   "x_mitre_shortname": "credential-access"
+  },
+  {
+   "type": "x-mitre-tactic",
+   "id": "x-mitre-tactic--3",
+   "name": "Resource Development",
+   "x_mitre_shortname": "resource-development"
+  },
+  {
+   "type": "x-mitre-tactic",
+   "id": "x-mitre-tactic--4",
+   "name": "Reconnaissance",
+   "x_mitre_shortname": "reconnaissance"
+  },
+  {
+   "type": "attack-pattern",
+   "id": "attack-pattern--0001",
+   "name": "Phishing",
+   "description": "Adversaries may send phishing messages to gain access to victim systems. (Citation: Example Report)\n\nWeak e-mail authentication such as a missing DMARC policy or a permissive SPF record makes sender spoofing easier.",
+   "kill_chain_phases": [
+    {
+     "kill_chain_name": "mitre-attack",
+     "phase_name": "initial-access"
+    }
+   ],
+   "external_references": [
+    {
+     "source_name": "mitre-attack",
+     "external_id": "T1566",
+     "url": "https://attack.mitre.org/techniques/T1566"
+    }
+   ],
+   "x_mitre_is_subtechnique": false,
+   "revoked": false,
+   "x_mitre_deprecated": false,
+   "x_mitre_platforms": [
+    "Linux",
+    "Windows"
+   ]
+  },
+  {
+   "type": "attack-pattern",
+   "id": "attack-pattern--0002",
+   "name": "Spearphishing Attachment",
+   "description": "Adversaries may send spearphishing e-mails with a malicious attachment, see [the guide](https://example.org/guide).",
+   "kill_chain_phases": [
+    {
+     "kill_chain_name": "mitre-attack",
+     "phase_name": "initial-access"
+    }
+   ],
+   "external_references": [
+    {
+     "source_name": "mitre-attack",
+     "external_id": "T1566.001",
+     "url": "https://attack.mitre.org/techniques/T1566/001"
+    }
+   ],
+   "x_mitre_is_subtechnique": true,
+   "revoked": false,
+   "x_mitre_deprecated": false,
+   "x_mitre_platforms": [
+    "Windows"
+   ]
+  },
+  {
+   "type": "attack-pattern",
+   "id": "attack-pattern--0003",
+   "name": "Unsecured Credentials",
+   "description": "Adversaries may search compromised systems to find and obtain insecurely stored credentials.",
+   "kill_chain_phases": [
+    {
+     "kill_chain_name": "mitre-attack",
+     "phase_name": "credential-access"
+    }
+   ],
+   "external_references": [
+    {
+     "source_name": "mitre-attack",
+     "external_id": "T1552",
+     "url": "https://attack.mitre.org/techniques/T1552"
+    }
+   ],
+   "x_mitre_is_subtechnique": false,
+   "revoked": false,
+   "x_mitre_deprecated": false,
+   "x_mitre_platforms": [
+    "Linux",
+    "Windows",
+    "IaaS"
+   ]
+  },
+  {
+   "type": "attack-pattern",
+   "id": "attack-pattern--0004",
+   "name": "Credentials In Files",
+   "description": "Adversaries may search local file systems and remote file shares, including public source code repositories, for files containing insecurely stored credentials such as API keys and <code>AWS</code> access keys.",
+   "kill_chain_phases": [
+    {
+     "kill_chain_name": "mitre-attack",
+     "phase_name": "credential-access"
+    }
+   ],
+   "external_references": [
+    {
+     "source_name": "mitre-attack",
+     "external_id": "T1552.001",
+     "url": "https://attack.mitre.org/techniques/T1552/001"
+    }
+   ],
+   "x_mitre_is_subtechnique": true,
+   "revoked": false,
+   "x_mitre_deprecated": false,
+   "x_mitre_platforms": [
+    "Linux",
+    "IaaS"
+   ]
+  },
+  {
+   "type": "attack-pattern",
+   "id": "attack-pattern--0005",
+   "name": "Domains",
+   "description": "Adversaries may acquire domains that can be used during targeting, for instance newly registered look-alike domains with privacy-protected WHOIS records.",
+   "kill_chain_phases": [
+    {
+     "kill_chain_name": "mitre-attack",
+     "phase_name": "resource-development"
+    }
+   ],
+   "external_references": [
+    {
+     "source_name": "mitre-attack",
+     "external_id": "T1583.001",
+     "url": "https://attack.mitre.org/techniques/T1583/001"
+    }
+   ],
+   "x_mitre_is_subtechnique": true,
+   "revoked": false,
+   "x_mitre_deprecated": false,
+   "x_mitre_platforms": [
+    "PRE"
+   ]
+  },
+  {
+   "type": "attack-pattern",
+   "id": "attack-pattern--0006",
+   "name": "Acquire Infrastructure",
+   "description": "Adversaries may buy, lease, rent, or obtain infrastructure that can be used during targeting.",
+   "kill_chain_phases": [
+    {
+     "kill_chain_name": "mitre-attack",
+     "phase_name": "resource-development"
+    }
+   ],
+   "external_references": [
+    {
+     "source_name": "mitre-attack",
+     "external_id": "T1583",
+     "url": "https://attack.mitre.org/techniques/T1583"
+    }
+   ],
+   "x_mitre_is_subtechnique": false,
+   "revoked": false,
+   "x_mitre_deprecated": false,
+   "x_mitre_platforms": [
+    "PRE"
+   ]
+  },
+  {
+   "type": "attack-pattern",
+   "id": "attack-pattern--0007",
+   "name": "DNS",
+   "description": "Adversaries may gather information about the victim's DNS, such as registered name servers, MX records and subdomains, that can be used during targeting.",
+   "kill_chain_phases": [
+    {
+     "kill_chain_name": "mitre-attack",
+     "phase_name": "reconnaissance"
+    }
+   ],
+   "external_references": [
+    {
+     "source_name": "mitre-attack",
+     "external_id": "T1590.002",
+     "url": "https://attack.mitre.org/techniques/T1590/002"
+    }
+   ],
+   "x_mitre_is_subtechnique": true,
+   "revoked": false,
+   "x_mitre_deprecated": false,
+   "x_mitre_platforms": [
+    "PRE"
+   ]
+  },
+  {
+   "type": "attack-pattern",
+   "id": "attack-pattern--0008",
+   "name": "Gather Victim Network Information",
+   "description": "Adversaries may gather information about the victim's networks that can be used during targeting.",
+   "kill_chain_phases": [
+    {
+     "kill_chain_name": "mitre-attack",
+     "phase_name": "reconnaissance"
+    }
+   ],
+   "external_references": [
+    {
+     "source_name": "mitre-attack",
+     "external_id": "T1590",
+     "url": "https://attack.mitre.org/techniques/T1590"
+    }
+   ],
+   "x_mitre_is_subtechnique": false,
+   "revoked": false,
+   "x_mitre_deprecated": false,
+   "x_mitre_platforms": [
+    "PRE"
+   ]
+  },
+  {
+   "type": "attack-pattern",
+   "id": "attack-pattern--0090",
+   "name": "Revoked Technique",
+   "description": "Should be skipped.",
+   "kill_chain_phases": [
+    {
+     "kill_chain_name": "mitre-attack",
+     "phase_name": "initial-access"
+    }
+   ],
+   "external_references": [
+    {
+     "source_name": "mitre-attack",
+     "external_id": "T1999",
+     "url": "https://attack.mitre.org/techniques/T1999"
+    }
+   ],
+   "x_mitre_is_subtechnique": false,
+   "revoked": true,
+   "x_mitre_deprecated": false,
+   "x_mitre_platforms": [
+    "PRE"
+   ]
+  },
+  {
+   "type": "attack-pattern",
+   "id": "attack-pattern--0091",
+   "name": "Deprecated Technique",
+   "description": "Should be skipped.",
+   "kill_chain_phases": [
+    {
+     "kill_chain_name": "mitre-attack",
+     "phase_name": "initial-access"
+    }
+   ],
+   "external_references": [
+    {
+     "source_name": "mitre-attack",
+     "external_id": "T1998",
+     "url": "https://attack.mitre.org/techniques/T1998"
+    }
+   ],
+   "x_mitre_is_subtechnique": false,
+   "revoked": false,
+   "x_mitre_deprecated": true,
+   "x_mitre_platforms": [
+    "PRE"
+   ]
+  },
+  {
+   "type": "x-mitre-detection-strategy",
+   "id": "x-mitre-detection-strategy--1",
+   "name": "Detection of Spoofed Sender Domains in Inbound E-mail",
+   "x_mitre_analytic_refs": []
+  },
+  {
+   "type": "relationship",
+   "id": "relationship--1",
+   "relationship_type": "detects",
+   "source_ref": "x-mitre-detection-strategy--1",
+   "target_ref": "attack-pattern--0001"
+  }
+ ]
+}

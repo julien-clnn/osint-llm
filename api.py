@@ -112,6 +112,7 @@ def _report_payload(report: OsintReport) -> dict[str, Any]:
         "risk_level": report.risk_level,
         "risk_justification": report.risk_justification,
         "recommendations": report.recommendations,
+        "attack_mappings": report.attack_mappings,
         "subdomains": report.subdomains(),
         "subdomain_total": report.subdomain_total(),
         "locations": report.locations(),
@@ -148,6 +149,12 @@ def _investigation_payload(result: InvestigationResult) -> dict[str, Any]:
         ],
         "corrections": [c for v in result.verifications for c in v.corrections],
         "notes": result.verifications[-1].notes if result.verifications else "",
+        # ATT&CK IDs cited without being returned by attack_lookup: flagged
+        # during the audit, and those still present at the end were removed.
+        "invented_attack_ids": sorted(
+            {i for v in result.verifications for i in v.invented_attack_ids}
+        ),
+        "stripped_attack_ids": result.stripped_attack_ids,
         # Claims still flagged by the LAST audit pass (non-empty only when the
         # final report is not verified).
         "remaining_unsupported_claims": (
