@@ -10,7 +10,7 @@
 
 ### An LLM agent that maps a domain's attack surface — and audits its own report before you see it.
 
-<a href="https://lightgray-mole-546786.hostingersite.com/"><img src="docs/demo_button.svg" alt="Try the demo in your browser" width="380"></a>
+<a href="https://julien-clnn.github.io/osint-llm/"><img src="docs/demo_button.svg" alt="Try the demo in your browser" width="380"></a>
 
 <sub>The demo replays real recorded analyses (DeepSeek, passive mode) in the full UI, with evaluation results included.</sub>
 
@@ -88,7 +88,7 @@ cp .env.example .env               # set DEEPSEEK_API_KEY
 make serve                         # → http://localhost:8000
 ```
 
-Web demo: `make demo` builds the same UI as a static site that replays the analyses recorded in `web/public-demo/` (record new ones with `make demo-record`). Upload `web/dist-demo/` to any static host.
+Web demo: `make demo` builds the same UI as a static site that replays the analyses recorded in `web/public-demo/` (record new ones with `make demo-record`). Every push to `main` publishes it on GitHub Pages (`.github/workflows/demo.yml`); `web/dist-demo/` also works on any static host.
 
 CLI: `.venv/bin/python main.py example.com` writes `reports/<domain>.{json,md,html}`. Dev mode, tests and evals: `make help`.
 
